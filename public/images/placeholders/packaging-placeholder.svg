@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de packaging RAIAN Foods</title>
+  <desc id="desc">Espacio reservado para fotografia real de packaging.</desc>
+  <rect width="1200" height="900" fill="#FAF7F0"/>
+  <rect x="420" y="170" width="360" height="560" rx="34" fill="#E8DDC8" stroke="#DDD2BF" stroke-width="3"/>
+  <rect x="475" y="260" width="250" height="150" rx="12" fill="#FFFFFF"/>
+  <text x="600" y="346" text-anchor="middle" fill="#1F1F1F" font-family="Arial, sans-serif" font-size="34" font-weight="700">RAIAN</text>
+  <rect x="500" y="500" width="200" height="28" rx="14" fill="#6F7D4F" opacity="0.7"/>
+  <rect x="525" y="560" width="150" height="22" rx="11" fill="#B96F45" opacity="0.7"/>
+  <text x="600" y="790" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="24">Packaging pendiente</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de receta RAIAN Foods</title>
+  <desc id="desc">Fondo suave para recetas y usos practicos pendientes de imagen.</desc>
+  <rect width="1200" height="900" fill="#FAF7F0"/>
+  <circle cx="600" cy="420" r="230" fill="#FFFFFF" stroke="#DDD2BF" stroke-width="3"/>
+  <circle cx="600" cy="420" r="150" fill="#E8DDC8"/>
+  <path d="M458 585C540 648 660 648 742 585" stroke="#B96F45" stroke-width="18" stroke-linecap="round"/>
+  <text x="600" y="740" text-anchor="middle" fill="#1F1F1F" font-family="Arial, sans-serif" font-size="40" font-weight="700">Receta pendiente</text>
+</svg>

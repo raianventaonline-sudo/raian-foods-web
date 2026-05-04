@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de producto RAIAN Foods</title>
+  <desc id="desc">Fondo suave para sustituir por una imagen real de producto.</desc>
+  <rect width="1200" height="900" fill="#FAF7F0"/>
+  <rect x="160" y="140" width="880" height="620" rx="18" fill="#FFFFFF" stroke="#DDD2BF" stroke-width="3"/>
+  <rect x="478" y="240" width="244" height="420" rx="28" fill="#E8DDC8"/>
+  <rect x="520" y="300" width="160" height="140" rx="10" fill="#FFFFFF"/>
+  <path d="M560 364C574 328 626 328 640 364C626 352 574 352 560 364Z" fill="#6F7D4F"/>
+  <text x="600" y="520" text-anchor="middle" fill="#1F1F1F" font-family="Arial, sans-serif" font-size="40" font-weight="700">RAIAN Foods</text>
+  <text x="600" y="574" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="24">Imagen real pendiente</text>
+</svg>
