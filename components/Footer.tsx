@@ -13,7 +13,7 @@ export function Footer() {
     <footer className="border-t border-line bg-white">
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 py-14 md:grid-cols-[1.2fr_0.8fr_0.8fr] md:px-8">
         <div>
-          <Link href="/" className="inline-flex items-center" aria-label="Inicio de RAIAN">
+          <Link href="/" prefetch={false} className="inline-flex items-center" aria-label="Inicio de RAIAN">
             <BrandLogo size="footer" />
           </Link>
           <p className="mt-5 max-w-md text-sm leading-7 text-muted">{siteConfig.shortBrandText}</p>
@@ -26,7 +26,7 @@ export function Footer() {
           <ul className="mt-4 space-y-3">
             {navigation.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-sm text-muted transition hover:text-olive">
+                <Link href={item.href} prefetch={false} className="text-sm text-muted transition hover:text-olive">
                   {item.label}
                 </Link>
               </li>
@@ -39,7 +39,7 @@ export function Footer() {
           <ul className="mt-4 space-y-3">
             {legalLinks.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-sm text-muted transition hover:text-olive">
+                <Link href={item.href} prefetch={false} className="text-sm text-muted transition hover:text-olive">
                   {item.label}
                 </Link>
               </li>
@@ -55,7 +55,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-line px-5 py-5 text-center text-xs text-muted">
-        © {new Date().getFullYear()} RAIAN. Marca alimentaria valenciana.
+        © {new Date().getFullYear()} RAIAN. Catálogo alimentario.
       </div>
     </footer>
   );

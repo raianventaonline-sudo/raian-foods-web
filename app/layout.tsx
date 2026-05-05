@@ -10,15 +10,15 @@ import { siteConfig } from "@/data/site";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "RAIAN | Productos alimenticios seleccionados desde Valencia",
+    default: "RAIAN | Catálogo de productos alimenticios",
     template: "%s | RAIAN"
   },
   description:
-    "RAIAN es una marca valenciana de productos alimenticios seleccionados, con fichas claras, presentación cuidada y compra externa en Amazon cuando procede.",
+    "Catálogo RAIAN de productos alimenticios, recetas y contenido de apoyo para consultar antes de comprar.",
   openGraph: {
-    title: "RAIAN | Productos alimenticios seleccionados",
+    title: "RAIAN | Catálogo de productos alimenticios",
     description:
-      "Marca alimentaria valenciana con productos seleccionados, información clara y una presentación cuidada.",
+      "Productos alimenticios, recetas y contenido de apoyo reunidos en el catálogo RAIAN.",
     url: siteConfig.siteUrl,
     siteName: "RAIAN",
     locale: "es_ES",

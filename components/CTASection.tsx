@@ -23,6 +23,7 @@ export function CTASection({
         </div>
         <Link
           href={href}
+          prefetch={false}
           className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-beige focus:ring-offset-2 focus:ring-offset-ink"
         >
           {label}

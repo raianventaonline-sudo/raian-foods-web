@@ -10,20 +10,13 @@ import { siteConfig } from "@/data/site";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Marca alimentaria valenciana",
+  title: "Catálogo RAIAN",
   description:
-    "RAIAN selecciona productos alimenticios desde Valencia con presentación cuidada, información clara y compra externa en Amazon cuando procede.",
+    "Catálogo RAIAN de productos alimenticios, recetas y contenido de apoyo para consultar antes de comprar.",
   alternates: {
     canonical: "/"
   }
 };
-
-const trustSignals = [
-  "Marca valenciana",
-  "Selección cuidada",
-  "Información clara",
-  "Compra externa en Amazon"
-];
 
 const valueCards = [
   {
@@ -91,43 +84,31 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(24,32,28,0.92)_0%,rgba(24,32,28,0.76)_42%,rgba(24,32,28,0.22)_100%)]" />
         <div className="absolute inset-x-0 bottom-0 h-48 bg-[linear-gradient(0deg,rgba(24,32,28,0.88)_0%,rgba(24,32,28,0.58)_46%,rgba(24,32,28,0)_100%)]" />
-        <div className="relative mx-auto flex min-h-[calc(78dvh-5rem)] w-full max-w-7xl items-center px-5 pb-40 pt-16 md:px-8 md:pb-36">
+        <div className="relative mx-auto flex min-h-[calc(72dvh-5rem)] w-full max-w-7xl items-center px-5 py-14 md:px-8 md:py-24">
           <div className="max-w-3xl">
-            <p className="mb-5 text-sm font-semibold uppercase text-beige">Marca alimentaria valenciana</p>
+            <p className="mb-5 text-sm font-semibold uppercase text-beige">Catálogo RAIAN</p>
             <h1 className="font-display text-4xl font-semibold leading-tight text-white md:text-6xl lg:text-7xl">
               Productos alimenticios seleccionados desde Valencia.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white md:text-2xl md:leading-9">
-              Presentación cuidada, información clara y una experiencia de compra pensada para generar confianza.
+              Productos y recetas organizados para consultar rápido y comprar con confianza.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/productos"
+                prefetch={false}
                 className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
               >
                 Explorar catálogo
               </Link>
               <Link
                 href="/sobre-nosotros"
+                prefetch={false}
                 className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/35 bg-white/10 px-6 text-sm font-semibold text-white transition hover:bg-white/18 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
               >
                 Conocer la marca
               </Link>
             </div>
-          </div>
-        </div>
-        <div className="absolute inset-x-0 bottom-0 z-10 pb-5 md:pb-6">
-          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-            <ul className="grid gap-2 border-t border-white/15 pt-4 sm:grid-cols-2 lg:grid-cols-4">
-              {trustSignals.map((item) => (
-                <li
-                  key={item}
-                  className="flex min-h-11 items-center rounded-sm border border-white/10 bg-white/[0.08] px-3 text-xs font-semibold text-white/85 backdrop-blur-md md:text-sm"
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </section>
@@ -171,6 +152,7 @@ export default function HomePage() {
             />
             <Link
               href="/productos"
+              prefetch={false}
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white px-6 text-sm font-semibold text-ink transition hover:border-olive hover:text-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
             >
               Ver todos los productos
@@ -233,6 +215,7 @@ export default function HomePage() {
             </p>
             <Link
               href="/productos"
+              prefetch={false}
               className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-beige focus:ring-offset-2 focus:ring-offset-charcoal"
             >
               Consultar disponibilidad

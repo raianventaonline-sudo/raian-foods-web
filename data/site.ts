@@ -7,7 +7,7 @@ export const siteConfig = {
   logo: "/images/brand/raian-foods-logo.png",
   location: "Valencia, España",
   shortBrandText:
-    "RAIAN es una marca valenciana de productos alimenticios seleccionados, con una presentación cuidada e información clara para comprar con confianza.",
+    "RAIAN reúne productos alimenticios, recetas y contenido de apoyo para consultar antes de comprar.",
   qualityText:
     "Cuidamos la selección, el envase, la ficha de producto y los contenidos de apoyo para que cada referencia resulte fácil de entender antes de comprar.",
   contentText:
