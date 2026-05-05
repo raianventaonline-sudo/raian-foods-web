@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "@/app/globals.css";
+import { AutoTranslator } from "@/components/AutoTranslator";
 import { CookieBanner } from "@/components/CookieBanner";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -57,6 +58,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </main>
         <Footer />
         <CookieBanner />
+        <AutoTranslator />
       </body>
     </html>
   );

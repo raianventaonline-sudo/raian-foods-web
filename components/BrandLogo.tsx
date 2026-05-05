@@ -6,7 +6,7 @@ type BrandLogoProps = {
 };
 
 const sizeClasses = {
-  header: "h-14 w-36 sm:w-44",
+  header: "h-12 w-28 sm:h-14 sm:w-44",
   footer: "h-16 w-40",
   hero: "aspect-[3377/1811] w-full"
 };

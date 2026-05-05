@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { BrandLogo } from "@/components/BrandLogo";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { navigation } from "@/data/site";
 
 export function Header() {
@@ -18,7 +19,7 @@ export function Header() {
       >
         Saltar al contenido
       </a>
-      <div className="mx-auto flex min-h-20 w-full max-w-7xl items-center justify-between gap-4 px-5 md:px-8">
+      <div className="mx-auto flex min-h-20 w-full max-w-7xl items-center justify-between gap-2 px-3 sm:gap-4 sm:px-5 md:px-8">
         <Link href="/" prefetch={false} className="flex shrink-0 items-center" aria-label="Inicio de RAIAN">
           <BrandLogo priority />
         </Link>
@@ -41,7 +42,8 @@ export function Header() {
           })}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <LanguageSwitcher compact className="shrink-0" />
           <Link
             href="/productos"
             prefetch={false}
