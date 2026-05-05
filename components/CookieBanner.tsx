@@ -40,7 +40,7 @@ export function CookieBanner() {
               </label>
               <label className="mt-3 flex gap-3 text-sm text-muted">
                 <input type="checkbox" disabled className="mt-1 size-4" />
-                <span>Cookies analíticas pendientes de activar</span>
+                <span>Cookies analíticas no activas</span>
               </label>
             </div>
           ) : null}

@@ -7,7 +7,7 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Política de cookies",
   description:
-    "Política de cookies de RAIAN Foods con cookies técnicas y analíticas pendientes de activar si corresponde.",
+    "Política de cookies de RAIAN con cookies técnicas y opción de consentimiento para analítica si se activa en el futuro.",
   alternates: {
     canonical: "/cookies"
   }
@@ -33,7 +33,7 @@ export default function CookiesPage() {
           <SectionTitle
             eyebrow="Preferencias"
             title="Política de cookies"
-            description="Texto base para explicar el uso de cookies técnicas y la posible activación futura de cookies analíticas."
+            description="Información sobre el uso de cookies técnicas y la posible activación futura de cookies analíticas con consentimiento."
           />
           <div className="mt-8 space-y-7 rounded-lg border border-line bg-white p-6 text-sm leading-7 text-muted md:p-8">
             <section>
@@ -46,15 +46,14 @@ export default function CookiesPage() {
             <section>
               <h2 className="text-lg font-bold text-ink">Cookies analíticas</h2>
               <p className="mt-3">
-                Solo se activarán si RAIAN Foods decide incorporar una herramienta analítica y obtiene el consentimiento
+                Solo se activarán si RAIAN decide incorporar una herramienta analítica y obtiene el consentimiento
                 correspondiente mediante banner o panel de configuración.
               </p>
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Panel de cookies</h2>
               <p className="mt-3">
-                La web incluye un banner básico con opciones para aceptar, rechazar o configurar cookies. Actualmente
-                funciona como base visual y técnica para una configuración real.
+                La web incluye un banner con opciones para aceptar, rechazar o configurar cookies.
               </p>
             </section>
           </div>

@@ -7,8 +7,7 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Política de privacidad",
-  description:
-    "Política de privacidad de RAIAN Foods preparada para formulario de contacto y datos pendientes de completar.",
+  description: "Política de privacidad de RAIAN pendiente de completar con los datos legales oficiales.",
   alternates: {
     canonical: "/privacidad"
   }
@@ -22,6 +21,13 @@ const rights = [
   "Limitación",
   "Portabilidad",
   "No ser objeto de decisiones automatizadas"
+];
+
+const missingPrivacyFields = [
+  "Responsable del tratamiento",
+  "Plazo de conservación",
+  "Destinatarios o encargados",
+  "Canal para ejercer derechos"
 ];
 
 export default function PrivacyPage() {
@@ -44,9 +50,9 @@ export default function PrivacyPage() {
           <SectionTitle
             eyebrow="Protección de datos"
             title="Política de privacidad"
-            description="Texto base preparado para el formulario de contacto. Debe ser revisado y completado con datos legales reales."
+            description="Este texto cubre la base informativa del contacto web, pero debe revisarse legalmente antes de publicar."
           />
-          <div className="mt-8 space-y-7 rounded-lg border border-line bg-white p-6 text-sm leading-7 text-muted md:p-8">
+          <div className="mt-8 space-y-7 rounded-md border border-line bg-white p-6 text-sm leading-7 text-muted md:p-8">
             <section>
               <h2 className="text-lg font-bold text-ink">Responsable del tratamiento</h2>
               <p className="mt-3">{siteConfig.legal.controller}</p>
@@ -63,7 +69,7 @@ export default function PrivacyPage() {
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Base legitimadora</h2>
-              <p className="mt-3">Consentimiento del usuario mediante el envío voluntario del formulario.</p>
+              <p className="mt-3">Consentimiento del usuario mediante el envío voluntario de la consulta.</p>
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Conservación de datos</h2>
@@ -75,18 +81,25 @@ export default function PrivacyPage() {
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Derechos</h2>
-              <p className="mt-3">
-                El usuario podrá ejercer sus derechos mediante los canales que se indiquen cuando se complete esta
-                política.
-              </p>
               <ul className="mt-4 grid gap-2 sm:grid-cols-2">
                 {rights.map((right) => (
-                  <li key={right} className="rounded-lg bg-cream px-4 py-3">
+                  <li key={right} className="rounded-md bg-cream px-4 py-3">
                     {right}
                   </li>
                 ))}
               </ul>
             </section>
+          </div>
+
+          <div className="mt-6 rounded-md border border-terracotta/30 bg-white p-6">
+            <h2 className="text-lg font-bold text-ink">Información que necesito del propietario</h2>
+            <ul className="mt-4 grid gap-2 text-sm leading-6 text-muted sm:grid-cols-2">
+              {missingPrivacyFields.map((field) => (
+                <li key={field} className="rounded-md bg-cream px-4 py-3">
+                  {field}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Contacto",
   description:
-    "Contacta con RAIAN Foods para consultas sobre productos, colaboraciones o información comercial.",
+    "Contacta con RAIAN para consultas sobre productos alimenticios, información comercial o colaboración de marca.",
   alternates: {
     canonical: "/contacto"
   }
@@ -36,13 +36,13 @@ export default function ContactPage() {
           <div>
             <SectionTitle
               eyebrow="Contacto"
-              title="Consultas sobre productos, colaboraciones o información comercial."
-              description="Para consultas sobre productos, colaboraciones o información comercial, puedes contactar con RAIAN Foods mediante este formulario."
+              title="Hablemos de productos, catálogo o información comercial."
+              description="Puedes escribirnos para resolver dudas sobre una referencia, solicitar información adicional o comentar una colaboración."
             />
-            <div className="mt-8 rounded-lg border border-line bg-white p-5 text-sm leading-7 text-muted">
+            <div className="mt-8 rounded-md border border-line bg-white p-5 text-sm leading-7 text-muted">
               <p>
                 <strong className="text-ink">Email:</strong>{" "}
-                <a href={`mailto:${siteConfig.email}`} className="transition hover:text-olive">
+                <a href={`mailto:${siteConfig.email}`} className="font-semibold transition hover:text-olive">
                   {siteConfig.email}
                 </a>
               </p>
@@ -50,13 +50,13 @@ export default function ContactPage() {
                 <strong className="text-ink">Ubicación:</strong> {siteConfig.location}
               </p>
             </div>
-            <div className="mt-6 overflow-hidden rounded-lg border border-line bg-white p-2 shadow-sm">
+            <div className="mt-6 overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
               <Image
                 src="/images/brand/oficinas-raian-foods.png"
-                alt="Oficinas de RAIAN Foods"
+                alt="Composición visual de un entorno corporativo RAIAN"
                 width={1254}
                 height={1254}
-                className="aspect-[4/3] w-full rounded-md object-cover"
+                className="aspect-[4/3] w-full rounded-sm object-cover"
                 sizes="(min-width: 1024px) 34vw, 100vw"
               />
             </div>

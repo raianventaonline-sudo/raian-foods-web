@@ -1,0 +1,3517 @@
+{
+  "brand": "RAIAN",
+  "product": {
+    "name": "Gelatina bovina neutra RAIAN 260 Bloom",
+    "nutrition_per_100g": {
+      "energy_kj": 1402,
+      "energy_kcal": 335,
+      "fat_g": 0.1,
+      "saturates_g": 0.07,
+      "carbohydrate_g": 0,
+      "sugars_g": 0,
+      "protein_g": 85.6,
+      "salt_g": 0.49,
+      "sodium_mg": 196,
+      "calcium_mg": 55,
+      "iron_mg": 1.11,
+      "potassium_mg": 16
+    },
+    "technical_note": "Bloom 260 indica fuerza gelificante. No debe tratarse como claim nutricional. Tabla basada en gelatina neutra en polvo sin azúcar; validar contra ficha técnica/COA del proveedor RAIAN antes de usar como dato legal.",
+    "dosage_note": "Hidratación base: 1 parte de gelatina en polvo por 5 partes de agua fría. Ejemplo: 10 g gelatina + 50 g agua fría."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": [
+      "fitness",
+      "premium",
+      "familiar",
+      "casera"
+    ],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "Destacar alérgenos de la receta en negrita. La gelatina bovina no es uno de los 14 alérgenos de declaración obligatoria de la UE, pero debe indicarse origen bovino y que no es apta para vegetarianos/veganos.",
+    "claim_policy": [
+      "Evitar claims de salud: articulaciones, piel, huesos, colágeno, recuperación, antiaging.",
+      "Evitar 'sin gluten', 'sin lactosa' o 'apto para alérgicos' salvo ingredientes certificados y control de contaminación cruzada.",
+      "Usar 'estilo fitness' como categoría editorial, no como claim legal de composición."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "fitness",
+      "title": "Vasitos fitness de yogur griego, frutos rojos y gelatina bovina",
+      "slug": "vasitos-fitness-de-yogur-griego-frutos-rojos-y-gelatina-bovina",
+      "seo_title": "Vasitos fitness de yogur griego, frutos rojos y gelatina bovina | Rece",
+      "meta_description": "Receta de vasitos fitness de yogur griego, frutos rojos y gelatina bovina con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre fresco de cuchara pensado para quien quiere algo ligero y cremoso sin complicarse.",
+      "servings": 4,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 4,
+        "rest_min": 180,
+        "total_min": 196
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Yogur griego natural",
+          "g": 400,
+          "key": "yogur_griego"
+        },
+        {
+          "name": "Frutos rojos",
+          "g": 220,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Miel",
+          "g": 35,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 8,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 40,
+          "key": "agua"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "limon_zumo"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina con el agua fría durante 8 minutos.",
+        "Calienta 80 g de yogur con la miel sin hervir.",
+        "Añade la gelatina hidratada y remueve hasta disolver.",
+        "Mezcla con el resto del yogur.",
+        "Tritura los frutos rojos con el limón y reparte en vasos alternando capas.",
+        "Refrigera 3 horas antes de servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 132,
+        "protein": 10.8,
+        "carbs": 16.1,
+        "sugars": 14.3,
+        "fat": 2.2,
+        "sat_fat": 1.3,
+        "fiber": 2.2,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 74,
+        "protein": 6.1,
+        "carbs": 9.0,
+        "sugars": 8.0,
+        "fat": 1.2,
+        "sat_fat": 0.7,
+        "fiber": 1.2,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 178,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Mousse fitness de mango y skyr con gelatina bovina",
+      "slug": "mousse-fitness-de-mango-y-skyr-con-gelatina-bovina",
+      "seo_title": "Mousse fitness de mango y skyr con gelatina bovina | Receta con gelati",
+      "meta_description": "Receta de mousse fitness de mango y skyr con gelatina bovina con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una mousse de mango con textura aireada y sabor tropical, ideal para cerrar una comida de forma fresca.",
+      "servings": 4,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 3,
+        "rest_min": 180,
+        "total_min": 198
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Skyr natural",
+          "g": 350,
+          "key": "skyr"
+        },
+        {
+          "name": "Pulpa de mango",
+          "g": 300,
+          "key": "mango"
+        },
+        {
+          "name": "Miel",
+          "g": 25,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 8,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 40,
+          "key": "agua"
+        },
+        {
+          "name": "Zumo de lima",
+          "g": 10,
+          "key": "lima_zumo"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina en agua fría.",
+        "Tritura mango, skyr, miel y lima.",
+        "Calienta 80 g de la crema y disuelve la gelatina.",
+        "Incorpora al resto y bate 30 segundos.",
+        "Reparte en vasos y deja cuajar en frío 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 126,
+        "protein": 12.0,
+        "carbs": 20.1,
+        "sugars": 18.9,
+        "fat": 0.5,
+        "sat_fat": 0.2,
+        "fiber": 1.2,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 69,
+        "protein": 6.5,
+        "carbs": 11.0,
+        "sugars": 10.3,
+        "fat": 0.3,
+        "sat_fat": 0.1,
+        "fiber": 0.7,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 183,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Flan frío fitness de cacao y leche desnatada",
+      "slug": "flan-frio-fitness-de-cacao-y-leche-desnatada",
+      "seo_title": "Flan frío fitness de cacao y leche desnatada | Receta con gelatina bov",
+      "meta_description": "Receta de flan frío fitness de cacao y leche desnatada con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un flan sin horno con cacao puro y textura firme, pensado para preparar en lote y servir frío.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 6,
+        "rest_min": 240,
+        "total_min": 256
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche desnatada",
+          "g": 600,
+          "key": "leche_desnatada"
+        },
+        {
+          "name": "Cacao puro en polvo",
+          "g": 25,
+          "key": "cacao"
+        },
+        {
+          "name": "Miel",
+          "g": 40,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 50,
+          "key": "agua"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 3,
+          "key": "vainilla"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina con el agua fría.",
+        "Calienta la leche con cacao, miel y vainilla, removiendo hasta integrar.",
+        "Retira del fuego, añade la gelatina y mezcla.",
+        "Vierte en moldes individuales.",
+        "Refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 106,
+        "protein": 8.5,
+        "carbs": 19.4,
+        "sugars": 15.9,
+        "fat": 1.2,
+        "sat_fat": 0.7,
+        "fiber": 2.3,
+        "salt": 0.2
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 58,
+        "protein": 4.7,
+        "carbs": 10.7,
+        "sugars": 8.7,
+        "fat": 0.6,
+        "sat_fat": 0.4,
+        "fiber": 1.3,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 182,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Gelatina fitness de café con capa cremosa de skyr",
+      "slug": "gelatina-fitness-de-cafe-con-capa-cremosa-de-skyr",
+      "seo_title": "Gelatina fitness de café con capa cremosa de skyr | Receta con gelatin",
+      "meta_description": "Receta de gelatina fitness de café con capa cremosa de skyr con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre tipo café con leche en dos texturas: base gelificada y acabado cremoso.",
+      "servings": 4,
+      "times": {
+        "prep_min": 14,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 199
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Café preparado",
+          "g": 350,
+          "key": "cafe"
+        },
+        {
+          "name": "Skyr natural",
+          "g": 300,
+          "key": "skyr"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 9,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 45,
+          "key": "agua"
+        },
+        {
+          "name": "Cacao puro para terminar",
+          "g": 5,
+          "key": "cacao"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta 150 g de café con la miel y disuelve 5 g de gelatina hidratada.",
+        "Mezcla con el resto del café y reparte en vasos. Enfría 1 hora.",
+        "Disuelve los 4 g restantes de gelatina en 50 g de skyr templado.",
+        "Mezcla con el resto del skyr, cubre la capa de café y refrigera 2 horas.",
+        "Termina con cacao espolvoreado."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 82,
+        "protein": 10.5,
+        "carbs": 9.9,
+        "sugars": 9.2,
+        "fat": 0.3,
+        "sat_fat": 0.2,
+        "fiber": 0.5,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 44,
+        "protein": 5.7,
+        "carbs": 5.3,
+        "sugars": 5.0,
+        "fat": 0.2,
+        "sat_fat": 0.1,
+        "fiber": 0.3,
+        "salt": 0
+      },
+      "estimated_serving_g": 185,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Tarta fría fitness de queso batido, limón y avena",
+      "slug": "tarta-fria-fitness-de-queso-batido-limon-y-avena",
+      "seo_title": "Tarta fría fitness de queso batido, limón y avena | Receta con gelatin",
+      "meta_description": "Receta de tarta fría fitness de queso batido, limón y avena con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una tarta fría de limón con base sencilla de avena y una crema suave de queso batido.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 5,
+        "rest_min": 360,
+        "total_min": 390
+      },
+      "allergens": [
+        "Leche",
+        "Gluten si la avena no está certificada sin gluten"
+      ],
+      "ingredients": [
+        {
+          "name": "Queso fresco batido",
+          "g": 600,
+          "key": "queso_batido"
+        },
+        {
+          "name": "Copos de avena",
+          "g": 120,
+          "key": "avena"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 45,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Miel",
+          "g": 60,
+          "key": "miel"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 70,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 12,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 60,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Tritura la avena y mézclala con la mantequilla fundida.",
+        "Presiona la base en un molde desmontable y enfría 15 minutos.",
+        "Hidrata la gelatina.",
+        "Bate queso batido, miel y limón.",
+        "Calienta 80 g de la mezcla, disuelve la gelatina e integra con el resto.",
+        "Vierte sobre la base y refrigera 6 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 166,
+        "protein": 10.3,
+        "carbs": 19.7,
+        "sugars": 9.5,
+        "fat": 5.8,
+        "sat_fat": 3.1,
+        "fiber": 1.6,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 137,
+        "protein": 8.5,
+        "carbs": 16.3,
+        "sugars": 7.9,
+        "fat": 4.8,
+        "sat_fat": 2.6,
+        "fiber": 1.3,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 121,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Cubos fitness de fresa y lima con gelatina bovina",
+      "slug": "cubos-fitness-de-fresa-y-lima-con-gelatina-bovina",
+      "seo_title": "Cubos fitness de fresa y lima con gelatina bovina | Receta con gelatin",
+      "meta_description": "Receta de cubos fitness de fresa y lima con gelatina bovina con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una gelatina de fruta cortada en cubos, muy visual y fácil de servir en vasos o bowls.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 4,
+        "rest_min": 240,
+        "total_min": 259
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Fresas",
+          "g": 500,
+          "key": "fresa"
+        },
+        {
+          "name": "Agua",
+          "g": 150,
+          "key": "agua"
+        },
+        {
+          "name": "Miel",
+          "g": 35,
+          "key": "miel"
+        },
+        {
+          "name": "Zumo de lima",
+          "g": 25,
+          "key": "lima_zumo"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 14,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 70,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Tritura las fresas con el agua, miel y lima.",
+        "Calienta 200 g de puré y disuelve la gelatina.",
+        "Mezcla con el resto y vierte en un recipiente plano.",
+        "Refrigera 4 horas y corta en cubos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 53,
+        "protein": 2.6,
+        "carbs": 11.5,
+        "sugars": 8.9,
+        "fat": 0.3,
+        "sat_fat": 0,
+        "fiber": 1.7,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 40,
+        "protein": 2.0,
+        "carbs": 8.7,
+        "sugars": 6.8,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 1.3,
+        "salt": 0
+      },
+      "estimated_serving_g": 132,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Bavarois fitness de vainilla y queso fresco batido",
+      "slug": "bavarois-fitness-de-vainilla-y-queso-fresco-batido",
+      "seo_title": "Bavarois fitness de vainilla y queso fresco batido | Receta con gelati",
+      "meta_description": "Receta de bavarois fitness de vainilla y queso fresco batido con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una crema fría de vainilla con cuerpo, pensada para moldear o servir en copas.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Queso fresco batido",
+          "g": 500,
+          "key": "queso_batido"
+        },
+        {
+          "name": "Leche desnatada",
+          "g": 200,
+          "key": "leche_desnatada"
+        },
+        {
+          "name": "Miel",
+          "g": 55,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 50,
+          "key": "agua"
+        },
+        {
+          "name": "Vainilla",
+          "g": 4,
+          "key": "vainilla"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta la leche con miel y vainilla.",
+        "Disuelve la gelatina en la leche caliente.",
+        "Mezcla con el queso fresco batido.",
+        "Vierte en molde y refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 88,
+        "protein": 9.7,
+        "carbs": 12.6,
+        "sugars": 12.6,
+        "fat": 0.2,
+        "sat_fat": 0.1,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 65,
+        "protein": 7.1,
+        "carbs": 9.2,
+        "sugars": 9.2,
+        "fat": 0.2,
+        "sat_fat": 0.1,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 136,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Gelatina fitness de matcha y leche de coco",
+      "slug": "gelatina-fitness-de-matcha-y-leche-de-coco",
+      "seo_title": "Gelatina fitness de matcha y leche de coco | Receta con gelatina bovin",
+      "meta_description": "Receta de gelatina fitness de matcha y leche de coco con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una receta diferente, cremosa y con notas vegetales de matcha.",
+      "servings": 4,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 197
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base. Revisar trazas de leche o frutos de cáscara en la leche de coco"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche de coco",
+          "g": 350,
+          "key": "leche_coco"
+        },
+        {
+          "name": "Agua",
+          "g": 200,
+          "key": "agua"
+        },
+        {
+          "name": "Té matcha",
+          "g": 5,
+          "key": "matcha"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 9,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 45,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Disuelve el matcha en el agua caliente.",
+        "Añade leche de coco y miel.",
+        "Calienta parte de la mezcla, disuelve la gelatina e integra.",
+        "Vierte en vasos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 207,
+        "protein": 4.1,
+        "carbs": 9.2,
+        "sugars": 7.9,
+        "fat": 18.4,
+        "sat_fat": 15.8,
+        "fiber": 0.4,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 129,
+        "protein": 2.5,
+        "carbs": 5.8,
+        "sugars": 4.9,
+        "fat": 11.5,
+        "sat_fat": 9.9,
+        "fiber": 0.2,
+        "salt": 0
+      },
+      "estimated_serving_g": 160,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Pudding fitness de chía con gelatina de frutos rojos",
+      "slug": "pudding-fitness-de-chia-con-gelatina-de-frutos-rojos",
+      "seo_title": "Pudding fitness de chía con gelatina de frutos rojos | Receta con gela",
+      "meta_description": "Receta de pudding fitness de chía con gelatina de frutos rojos con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un pudding de chía con una capa superior brillante de frutos rojos.",
+      "servings": 4,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 255
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche desnatada",
+          "g": 350,
+          "key": "leche_desnatada"
+        },
+        {
+          "name": "Semillas de chía",
+          "g": 45,
+          "key": "chia"
+        },
+        {
+          "name": "Frutos rojos",
+          "g": 250,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Miel",
+          "g": 35,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 7,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 35,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Mezcla leche, chía y 20 g de miel. Reposa 30 minutos.",
+        "Hidrata la gelatina.",
+        "Tritura frutos rojos con 15 g de miel.",
+        "Calienta 100 g del puré y disuelve la gelatina.",
+        "Reparte pudding en vasos, cubre con gelatina de frutos rojos y enfría 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 145,
+        "protein": 7.0,
+        "carbs": 21.9,
+        "sugars": 15.3,
+        "fat": 3.9,
+        "sat_fat": 0.5,
+        "fiber": 6.3,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 80,
+        "protein": 3.9,
+        "carbs": 12.1,
+        "sugars": 8.5,
+        "fat": 2.1,
+        "sat_fat": 0.3,
+        "fiber": 3.5,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 180,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Barritas frías fitness de yogur, avena y cacao",
+      "slug": "barritas-frias-fitness-de-yogur-avena-y-cacao",
+      "seo_title": "Barritas frías fitness de yogur, avena y cacao | Receta con gelatina b",
+      "meta_description": "Receta de barritas frías fitness de yogur, avena y cacao con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Barritas de nevera con textura firme y sabor a cacao, fáciles de cortar y conservar.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 300,
+        "total_min": 325
+      },
+      "allergens": [
+        "Leche",
+        "Gluten si la avena no está certificada sin gluten"
+      ],
+      "ingredients": [
+        {
+          "name": "Yogur griego natural",
+          "g": 500,
+          "key": "yogur_griego"
+        },
+        {
+          "name": "Copos de avena",
+          "g": 120,
+          "key": "avena"
+        },
+        {
+          "name": "Cacao puro",
+          "g": 20,
+          "key": "cacao"
+        },
+        {
+          "name": "Miel",
+          "g": 60,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 12,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 60,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Mezcla yogur, cacao y miel.",
+        "Calienta 100 g de la mezcla y disuelve la gelatina.",
+        "Integra el resto del yogur y añade la avena.",
+        "Extiende en molde rectangular y refrigera 5 horas.",
+        "Corta en 8 barritas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 138,
+        "protein": 9.6,
+        "carbs": 19.9,
+        "sugars": 8.7,
+        "fat": 2.6,
+        "sat_fat": 1.2,
+        "fiber": 2.5,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 142,
+        "protein": 10.0,
+        "carbs": 20.6,
+        "sugars": 9.0,
+        "fat": 2.7,
+        "sat_fat": 1.2,
+        "fiber": 2.6,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 96,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Panna cotta premium de vainilla y coulis de frambuesa",
+      "slug": "panna-cotta-premium-de-vainilla-y-coulis-de-frambuesa",
+      "seo_title": "Panna cotta premium de vainilla y coulis de frambuesa | Receta con gel",
+      "meta_description": "Receta de panna cotta premium de vainilla y coulis de frambuesa con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una panna cotta clásica, cremosa y elegante, con el contraste ácido de la frambuesa.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 300,
+        "total_min": 323
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 500,
+          "key": "nata"
+        },
+        {
+          "name": "Leche entera",
+          "g": 150,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 9,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 45,
+          "key": "agua"
+        },
+        {
+          "name": "Frambuesas",
+          "g": 250,
+          "key": "frambuesa"
+        },
+        {
+          "name": "Azúcar para coulis",
+          "g": 35,
+          "key": "azucar"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta nata, leche, azúcar y vainilla sin hervir.",
+        "Retira del fuego, disuelve la gelatina y reparte en moldes.",
+        "Refrigera 5 horas.",
+        "Cuece frambuesas con azúcar 5 minutos, tritura y cuela.",
+        "Sirve con el coulis frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 403,
+        "protein": 4.3,
+        "carbs": 28.0,
+        "sugars": 24.8,
+        "fat": 30.4,
+        "sat_fat": 19.7,
+        "fiber": 2.7,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 225,
+        "protein": 2.4,
+        "carbs": 15.6,
+        "sugars": 13.9,
+        "fat": 17.0,
+        "sat_fat": 11.0,
+        "fiber": 1.5,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 179,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Cheesecake premium de mango y maracuyá sin horno",
+      "slug": "cheesecake-premium-de-mango-y-maracuya-sin-horno",
+      "seo_title": "Cheesecake premium de mango y maracuyá sin horno | Receta con gelatina",
+      "meta_description": "Receta de cheesecake premium de mango y maracuyá sin horno con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una tarta fría de inspiración tropical con acabado brillante y textura de mousse.",
+      "servings": 10,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 5,
+        "rest_min": 480,
+        "total_min": 520
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Posible soja/huevo según galletas"
+      ],
+      "ingredients": [
+        {
+          "name": "Galletas",
+          "g": 180,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 80,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Queso crema",
+          "g": 500,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 300,
+          "key": "nata"
+        },
+        {
+          "name": "Pulpa de mango",
+          "g": 300,
+          "key": "mango"
+        },
+        {
+          "name": "Pulpa de maracuyá",
+          "g": 120,
+          "key": "maracuya"
+        },
+        {
+          "name": "Azúcar",
+          "g": 110,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 16,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 80,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Mezcla galleta triturada con mantequilla y forma la base.",
+        "Hidrata la gelatina.",
+        "Bate queso crema, mango, 80 g de azúcar y nata semimontada.",
+        "Calienta 100 g de la mezcla y disuelve 12 g de gelatina.",
+        "Integra, vierte sobre la base y enfría 3 horas.",
+        "Calienta maracuyá con 30 g de azúcar y disuelve 4 g de gelatina.",
+        "Cubre la tarta y refrigera 5 horas más."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 449,
+        "protein": 6.8,
+        "carbs": 33.8,
+        "sugars": 23.3,
+        "fat": 32.6,
+        "sat_fat": 20.5,
+        "fiber": 2.2,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 266,
+        "protein": 4.0,
+        "carbs": 20.0,
+        "sugars": 13.8,
+        "fat": 19.3,
+        "sat_fat": 12.1,
+        "fiber": 1.3,
+        "salt": 0.3
+      },
+      "estimated_serving_g": 169,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Terrina premium de frutos rojos e hibisco",
+      "slug": "terrina-premium-de-frutos-rojos-e-hibisco",
+      "seo_title": "Terrina premium de frutos rojos e hibisco | Receta con gelatina bovina",
+      "meta_description": "Receta de terrina premium de frutos rojos e hibisco con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una terrina translúcida y muy visual para cortar en porciones limpias.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 8,
+        "rest_min": 360,
+        "total_min": 393
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Infusión de hibisco",
+          "g": 500,
+          "key": "agua"
+        },
+        {
+          "name": "Frutos rojos",
+          "g": 450,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Azúcar",
+          "g": 90,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 18,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 90,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta la infusión con azúcar y limón.",
+        "Disuelve la gelatina.",
+        "Coloca los frutos rojos en un molde alargado.",
+        "Cubre con la infusión y refrigera 6 horas.",
+        "Desmolda con cuidado y corta en lonchas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 78,
+        "protein": 2.5,
+        "carbs": 16.5,
+        "sugars": 14.7,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 2.3,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 54,
+        "protein": 1.7,
+        "carbs": 11.3,
+        "sugars": 10.1,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 1.5,
+        "salt": 0
+      },
+      "estimated_serving_g": 146,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Panna cotta premium de coco y chocolate blanco",
+      "slug": "panna-cotta-premium-de-coco-y-chocolate-blanco",
+      "seo_title": "Panna cotta premium de coco y chocolate blanco | Receta con gelatina b",
+      "meta_description": "Receta de panna cotta premium de coco y chocolate blanco con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre cremoso de coco con dulzor elegante y textura sedosa.",
+      "servings": 6,
+      "times": {
+        "prep_min": 18,
+        "cook_min": 8,
+        "rest_min": 300,
+        "total_min": 326
+      },
+      "allergens": [
+        "Leche",
+        "Posible soja según chocolate blanco"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche de coco",
+          "g": 450,
+          "key": "leche_coco"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Chocolate blanco",
+          "g": 120,
+          "key": "chocolate_blanco"
+        },
+        {
+          "name": "Azúcar",
+          "g": 35,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 50,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta leche de coco, nata y azúcar.",
+        "Retira del fuego, añade chocolate blanco y mezcla.",
+        "Disuelve la gelatina y reparte en moldes.",
+        "Refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 397,
+        "protein": 4.8,
+        "carbs": 20.9,
+        "sugars": 20.1,
+        "fat": 33.8,
+        "sat_fat": 25.0,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 275,
+        "protein": 3.3,
+        "carbs": 14.5,
+        "sugars": 14.0,
+        "fat": 23.5,
+        "sat_fat": 17.3,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 144,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Bavarois premium de pistacho con base de almendra",
+      "slug": "bavarois-premium-de-pistacho-con-base-de-almendra",
+      "seo_title": "Bavarois premium de pistacho con base de almendra | Receta con gelatin",
+      "meta_description": "Receta de bavarois premium de pistacho con base de almendra con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un bavarois de frutos secos con perfil premium y presentación de restaurante.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 8,
+        "rest_min": 420,
+        "total_min": 458
+      },
+      "allergens": [
+        "Leche",
+        "Frutos de cáscara"
+      ],
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 450,
+          "key": "nata"
+        },
+        {
+          "name": "Leche entera",
+          "g": 250,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Pistacho pelado",
+          "g": 120,
+          "key": "pistacho"
+        },
+        {
+          "name": "Almendra molida",
+          "g": 80,
+          "key": "almendra"
+        },
+        {
+          "name": "Azúcar",
+          "g": 100,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 14,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 70,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Tritura pistacho con leche caliente y azúcar.",
+        "Disuelve la gelatina en la mezcla templada.",
+        "Monta la nata ligeramente e integra.",
+        "Coloca almendra molida compactada en la base del molde.",
+        "Vierte la crema y refrigera 7 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 408,
+        "protein": 8.8,
+        "carbs": 22.1,
+        "sugars": 17.3,
+        "fat": 32.6,
+        "sat_fat": 14.9,
+        "fiber": 2.8,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 301,
+        "protein": 6.5,
+        "carbs": 16.3,
+        "sugars": 12.8,
+        "fat": 24.0,
+        "sat_fat": 11.0,
+        "fiber": 2.0,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 136,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Tarta mousse premium de limón y merengue sin horno",
+      "slug": "tarta-mousse-premium-de-limon-y-merengue-sin-horno",
+      "seo_title": "Tarta mousse premium de limón y merengue sin horno | Receta con gelati",
+      "meta_description": "Receta de tarta mousse premium de limón y merengue sin horno con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una versión fría del clásico limón-merengue, con relleno firme y acabado vistoso.",
+      "servings": 10,
+      "times": {
+        "prep_min": 40,
+        "cook_min": 10,
+        "rest_min": 480,
+        "total_min": 530
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Huevo",
+        "Posible soja según galletas"
+      ],
+      "ingredients": [
+        {
+          "name": "Galletas",
+          "g": 180,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 85,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Queso crema",
+          "g": 400,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 300,
+          "key": "nata"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 120,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Azúcar",
+          "g": 150,
+          "key": "azucar"
+        },
+        {
+          "name": "Claras de huevo pasteurizadas",
+          "g": 120,
+          "key": "huevo_clara"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 14,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 70,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Haz la base con galleta y mantequilla.",
+        "Hidrata la gelatina.",
+        "Bate queso crema, nata semimontada, 100 g de azúcar y limón.",
+        "Calienta 100 g de crema, disuelve la gelatina e integra.",
+        "Vierte sobre la base y enfría 6 horas.",
+        "Monta claras pasteurizadas con 50 g de azúcar y decora antes de servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 422,
+        "protein": 6.9,
+        "carbs": 31.0,
+        "sugars": 21.9,
+        "fat": 30.5,
+        "sat_fat": 19.1,
+        "fiber": 0.6,
+        "salt": 0.5
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 293,
+        "protein": 4.8,
+        "carbs": 21.6,
+        "sugars": 15.2,
+        "fat": 21.2,
+        "sat_fat": 13.3,
+        "fiber": 0.4,
+        "salt": 0.4
+      },
+      "estimated_serving_g": 144,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Gelatina premium de manzana asada, vainilla y canela",
+      "slug": "gelatina-premium-de-manzana-asada-vainilla-y-canela",
+      "seo_title": "Gelatina premium de manzana asada, vainilla y canela | Receta con gela",
+      "meta_description": "Receta de gelatina premium de manzana asada, vainilla y canela con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una gelatina de cuchara con sabor a manzana asada y acabado cálido de especias.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 15,
+        "rest_min": 300,
+        "total_min": 335
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Manzana asada triturada",
+          "g": 500,
+          "key": "manzana"
+        },
+        {
+          "name": "Agua",
+          "g": 250,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Canela",
+          "g": 3,
+          "key": "canela"
+        },
+        {
+          "name": "Vainilla",
+          "g": 3,
+          "key": "vainilla"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 14,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 70,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Asa o cuece la manzana hasta que esté blanda y tritura.",
+        "Hidrata la gelatina.",
+        "Calienta agua, azúcar, canela y vainilla.",
+        "Añade el puré de manzana y disuelve la gelatina.",
+        "Vierte en moldes y refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 100,
+        "protein": 2.3,
+        "carbs": 23.8,
+        "sugars": 20.1,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 2.3,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 66,
+        "protein": 1.5,
+        "carbs": 15.7,
+        "sugars": 13.2,
+        "fat": 0.1,
+        "sat_fat": 0,
+        "fiber": 1.5,
+        "salt": 0
+      },
+      "estimated_serving_g": 152,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Mousse premium de café y mascarpone con gelatina bovina",
+      "slug": "mousse-premium-de-cafe-y-mascarpone-con-gelatina-bovina",
+      "seo_title": "Mousse premium de café y mascarpone con gelatina bovina | Receta con g",
+      "meta_description": "Receta de mousse premium de café y mascarpone con gelatina bovina con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre cremoso de café, intenso y fácil de montar en vasitos elegantes.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 300,
+        "total_min": 325
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Mascarpone",
+          "g": 350,
+          "key": "mascarpone"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Café preparado",
+          "g": 120,
+          "key": "cafe"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Cacao puro",
+          "g": 10,
+          "key": "cacao"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 9,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 45,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Mezcla mascarpone, café y azúcar.",
+        "Calienta 80 g de la mezcla y disuelve la gelatina.",
+        "Monta la nata e incorpora suavemente.",
+        "Reparte en vasos y refrigera 5 horas.",
+        "Termina con cacao."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 454,
+        "protein": 4.8,
+        "carbs": 17.9,
+        "sugars": 16.9,
+        "fat": 40.5,
+        "sat_fat": 26.1,
+        "fiber": 0.6,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 315,
+        "protein": 3.3,
+        "carbs": 12.4,
+        "sugars": 11.8,
+        "fat": 28.1,
+        "sat_fat": 18.1,
+        "fiber": 0.4,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 144,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Terrina premium salada de pollo y verduras en gelatina",
+      "slug": "terrina-premium-salada-de-pollo-y-verduras-en-gelatina",
+      "seo_title": "Terrina premium salada de pollo y verduras en gelatina | Receta con ge",
+      "meta_description": "Receta de terrina premium salada de pollo y verduras en gelatina con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una receta salada de presentación limpia, pensada para entrantes fríos y mesas especiales.",
+      "servings": 8,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 20,
+        "rest_min": 360,
+        "total_min": 415
+      },
+      "allergens": [
+        "Revisar caldo: puede contener apio, gluten, soja o sulfitos si es comercial"
+      ],
+      "ingredients": [
+        {
+          "name": "Pechuga de pollo cocida",
+          "g": 550,
+          "key": "pollo"
+        },
+        {
+          "name": "Caldo de pollo",
+          "g": 650,
+          "key": "caldo_pollo"
+        },
+        {
+          "name": "Zanahoria cocida",
+          "g": 120,
+          "key": "zanahoria"
+        },
+        {
+          "name": "Guisantes cocidos",
+          "g": 90,
+          "key": "guisantes"
+        },
+        {
+          "name": "Pimiento asado",
+          "g": 100,
+          "key": "pimiento"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 22,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 110,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 4,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta el caldo con la sal.",
+        "Disuelve la gelatina en el caldo caliente.",
+        "Coloca pollo y verduras en un molde alargado.",
+        "Cubre con caldo gelificado.",
+        "Refrigera 6 horas y corta en lonchas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 150,
+        "protein": 25.3,
+        "carbs": 4.7,
+        "sugars": 2.3,
+        "fat": 2.8,
+        "sat_fat": 0.8,
+        "fiber": 1.3,
+        "salt": 1.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 73,
+        "protein": 12.3,
+        "carbs": 2.3,
+        "sugars": 1.1,
+        "fat": 1.4,
+        "sat_fat": 0.4,
+        "fiber": 0.6,
+        "salt": 0.5
+      },
+      "estimated_serving_g": 206,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Flan premium de queso crema y caramelo salado",
+      "slug": "flan-premium-de-queso-crema-y-caramelo-salado",
+      "seo_title": "Flan premium de queso crema y caramelo salado | Receta con gelatina bo",
+      "meta_description": "Receta de flan premium de queso crema y caramelo salado con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un flan frío muy cremoso con punto de caramelo salado, sin necesidad de horno.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 8,
+        "rest_min": 360,
+        "total_min": 393
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Queso crema",
+          "g": 450,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Leche entera",
+          "g": 300,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 150,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 14,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 70,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 2,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Haz un caramelo con 80 g de azúcar y viértelo en el molde.",
+        "Hidrata la gelatina.",
+        "Calienta leche, nata, queso crema, 70 g de azúcar y sal.",
+        "Tritura hasta que quede fino.",
+        "Disuelve la gelatina, vierte en el molde y enfría 6 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 330,
+        "protein": 6.6,
+        "carbs": 23.6,
+        "sugars": 23.6,
+        "fat": 23.6,
+        "sat_fat": 15.6,
+        "fiber": 0,
+        "salt": 0.7
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 222,
+        "protein": 4.5,
+        "carbs": 15.9,
+        "sugars": 15.9,
+        "fat": 15.9,
+        "sat_fat": 10.5,
+        "fiber": 0,
+        "salt": 0.5
+      },
+      "estimated_serving_g": 148,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Gelatina familiar de naranja natural",
+      "slug": "gelatina-familiar-de-naranja-natural",
+      "seo_title": "Gelatina familiar de naranja natural | Receta con gelatina bovina RAIA",
+      "meta_description": "Receta de gelatina familiar de naranja natural con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una receta sencilla de fruta para preparar en vasos individuales y tener lista en la nevera.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 255
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Zumo de naranja natural",
+          "g": 650,
+          "key": "naranja_zumo"
+        },
+        {
+          "name": "Azúcar",
+          "g": 45,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 11,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 55,
+          "key": "agua"
+        },
+        {
+          "name": "Frambuesas",
+          "g": 80,
+          "key": "frambuesa"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta 200 g de zumo con el azúcar.",
+        "Disuelve la gelatina y mezcla con el resto de zumo.",
+        "Añade frambuesas en los vasos.",
+        "Refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 138,
+        "protein": 3.7,
+        "carbs": 30.5,
+        "sugars": 25.8,
+        "fat": 0.5,
+        "sat_fat": 0,
+        "fiber": 1.6,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 66,
+        "protein": 1.8,
+        "carbs": 14.5,
+        "sugars": 12.3,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 0.8,
+        "salt": 0
+      },
+      "estimated_serving_g": 210,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Gelatina mosaico familiar con crema de leche",
+      "slug": "gelatina-mosaico-familiar-con-crema-de-leche",
+      "seo_title": "Gelatina mosaico familiar con crema de leche | Receta con gelatina bov",
+      "meta_description": "Receta de gelatina mosaico familiar con crema de leche con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre de celebración con cubos de colores y crema suave.",
+      "servings": 10,
+      "times": {
+        "prep_min": 45,
+        "cook_min": 10,
+        "rest_min": 480,
+        "total_min": 535
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Zumo de naranja",
+          "g": 400,
+          "key": "naranja_zumo"
+        },
+        {
+          "name": "Fresas trituradas",
+          "g": 400,
+          "key": "fresa"
+        },
+        {
+          "name": "Agua",
+          "g": 300,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 160,
+          "key": "azucar"
+        },
+        {
+          "name": "Leche condensada",
+          "g": 350,
+          "key": "leche_condensada"
+        },
+        {
+          "name": "Leche evaporada",
+          "g": 350,
+          "key": "leche_evaporada"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 34,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 170,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Prepara dos gelatinas de fruta con 11 g de gelatina cada una, líquido, azúcar y reposo.",
+        "Corta las gelatinas en cubos.",
+        "Hidrata los 12 g restantes de gelatina.",
+        "Mezcla leche condensada y evaporada.",
+        "Disuelve la gelatina en 100 g de crema templada.",
+        "Mezcla cubos y crema en un molde y refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 265,
+        "protein": 8.6,
+        "carbs": 45.6,
+        "sugars": 43.7,
+        "fat": 5.9,
+        "sat_fat": 3.6,
+        "fiber": 0.9,
+        "salt": 0.2
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 123,
+        "protein": 4.0,
+        "carbs": 21.1,
+        "sugars": 20.2,
+        "fat": 2.7,
+        "sat_fat": 1.7,
+        "fiber": 0.4,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 216,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Tarta familiar fría de queso y fresa",
+      "slug": "tarta-familiar-fria-de-queso-y-fresa",
+      "seo_title": "Tarta familiar fría de queso y fresa | Receta con gelatina bovina RAIA",
+      "meta_description": "Receta de tarta familiar fría de queso y fresa con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "La tarta fría de fresa que funciona en cumpleaños, meriendas y comidas familiares.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 5,
+        "rest_min": 420,
+        "total_min": 455
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Posible soja/huevo según galletas"
+      ],
+      "ingredients": [
+        {
+          "name": "Galletas",
+          "g": 200,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 90,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Queso crema",
+          "g": 500,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 350,
+          "key": "nata"
+        },
+        {
+          "name": "Fresas",
+          "g": 400,
+          "key": "fresa"
+        },
+        {
+          "name": "Azúcar",
+          "g": 130,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 18,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 90,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Haz la base de galleta y mantequilla.",
+        "Hidrata la gelatina.",
+        "Tritura fresas con azúcar.",
+        "Bate queso crema y nata semimontada.",
+        "Calienta parte del puré, disuelve la gelatina e integra todo.",
+        "Vierte sobre la base y refrigera 7 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 474,
+        "protein": 7.0,
+        "carbs": 33.1,
+        "sugars": 22.4,
+        "fat": 35.5,
+        "sat_fat": 22.2,
+        "fiber": 1.4,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 267,
+        "protein": 3.9,
+        "carbs": 18.6,
+        "sugars": 12.6,
+        "fat": 19.9,
+        "sat_fat": 12.5,
+        "fiber": 0.8,
+        "salt": 0.3
+      },
+      "estimated_serving_g": 178,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Gominolas familiares de fresa natural",
+      "slug": "gominolas-familiares-de-fresa-natural",
+      "seo_title": "Gominolas familiares de fresa natural | Receta con gelatina bovina RAI",
+      "meta_description": "Receta de gominolas familiares de fresa natural con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Gominolas caseras con sabor real a fresa, perfectas para cortar en formas pequeñas.",
+      "servings": 10,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 720,
+        "total_min": 745
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Fresas trituradas",
+          "g": 450,
+          "key": "fresa"
+        },
+        {
+          "name": "Agua",
+          "g": 120,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 160,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 28,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 140,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta fresa, agua, azúcar y limón.",
+        "Disuelve la gelatina fuera del fuego.",
+        "Vierte en moldes de silicona.",
+        "Refrigera 12 horas antes de desmoldar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 88,
+        "protein": 2.7,
+        "carbs": 19.6,
+        "sugars": 18.3,
+        "fat": 0.1,
+        "sat_fat": 0,
+        "fiber": 0.9,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 96,
+        "protein": 3.0,
+        "carbs": 21.4,
+        "sugars": 19.9,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 1.0,
+        "salt": 0
+      },
+      "estimated_serving_g": 92,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Vasitos familiares de yogur y melocotón",
+      "slug": "vasitos-familiares-de-yogur-y-melocoton",
+      "seo_title": "Vasitos familiares de yogur y melocotón | Receta con gelatina bovina R",
+      "meta_description": "Receta de vasitos familiares de yogur y melocotón con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre por capas de yogur y fruta, suave y rápido de preparar.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 4,
+        "rest_min": 240,
+        "total_min": 259
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Yogur griego natural",
+          "g": 500,
+          "key": "yogur_griego"
+        },
+        {
+          "name": "Melocotón",
+          "g": 350,
+          "key": "melocoton"
+        },
+        {
+          "name": "Miel",
+          "g": 60,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 50,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Tritura melocotón y miel.",
+        "Calienta 100 g de puré, disuelve la mitad de la gelatina y reparte en vasos.",
+        "Mezcla el yogur con la gelatina restante disuelta en 50 g de yogur templado.",
+        "Añade la capa de yogur y refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 120,
+        "protein": 9.1,
+        "carbs": 16.9,
+        "sugars": 16.3,
+        "fat": 1.8,
+        "sat_fat": 1.1,
+        "fiber": 0.9,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 74,
+        "protein": 5.6,
+        "carbs": 10.5,
+        "sugars": 10.1,
+        "fat": 1.1,
+        "sat_fat": 0.7,
+        "fiber": 0.5,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 162,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Flan familiar de leche y vainilla sin horno",
+      "slug": "flan-familiar-de-leche-y-vainilla-sin-horno",
+      "seo_title": "Flan familiar de leche y vainilla sin horno | Receta con gelatina bovi",
+      "meta_description": "Receta de flan familiar de leche y vainilla sin horno con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un flan frío básico, económico y fácil de desmoldar.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 360,
+        "total_min": 383
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche entera",
+          "g": 800,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Azúcar",
+          "g": 110,
+          "key": "azucar"
+        },
+        {
+          "name": "Vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 16,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 80,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta leche con azúcar y vainilla.",
+        "Disuelve la gelatina.",
+        "Vierte en molde o flaneras.",
+        "Refrigera 6 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 128,
+        "protein": 5.0,
+        "carbs": 18.6,
+        "sugars": 18.6,
+        "fat": 3.6,
+        "sat_fat": 2.3,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 101,
+        "protein": 4.0,
+        "carbs": 14.7,
+        "sugars": 14.7,
+        "fat": 2.9,
+        "sat_fat": 1.8,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 126,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Gelatina familiar de limón con frutas",
+      "slug": "gelatina-familiar-de-limon-con-frutas",
+      "seo_title": "Gelatina familiar de limón con frutas | Receta con gelatina bovina RAI",
+      "meta_description": "Receta de gelatina familiar de limón con frutas con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una gelatina fresca de limón con fruta visible dentro del molde.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 260
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Agua",
+          "g": 500,
+          "key": "agua"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 90,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Azúcar",
+          "g": 120,
+          "key": "azucar"
+        },
+        {
+          "name": "Melocotón en dados",
+          "g": 200,
+          "key": "melocoton"
+        },
+        {
+          "name": "Fresas",
+          "g": 150,
+          "key": "fresa"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 16,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 80,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta el agua con azúcar y limón.",
+        "Disuelve la gelatina.",
+        "Coloca la fruta en el molde.",
+        "Cubre con la mezcla y refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 113,
+        "protein": 2.8,
+        "carbs": 26.1,
+        "sugars": 24.4,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 1.0,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 59,
+        "protein": 1.5,
+        "carbs": 13.6,
+        "sugars": 12.7,
+        "fat": 0.1,
+        "sat_fat": 0,
+        "fiber": 0.5,
+        "salt": 0
+      },
+      "estimated_serving_g": 193,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Mousse familiar de chocolate suave",
+      "slug": "mousse-familiar-de-chocolate-suave",
+      "seo_title": "Mousse familiar de chocolate suave | Receta con gelatina bovina RAIAN",
+      "meta_description": "Receta de mousse familiar de chocolate suave con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una mousse de chocolate estable para servir en vasitos y preparar con antelación.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [
+        "Leche",
+        "Posible soja/frutos de cáscara según chocolate"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche entera",
+          "g": 350,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Chocolate negro",
+          "g": 150,
+          "key": "chocolate_negro"
+        },
+        {
+          "name": "Azúcar",
+          "g": 45,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 8,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 40,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta leche con azúcar y chocolate hasta fundir.",
+        "Disuelve la gelatina y deja templar.",
+        "Monta la nata e incorpórala.",
+        "Reparte en vasos y refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 349,
+        "protein": 5.1,
+        "carbs": 26.8,
+        "sugars": 23.6,
+        "fat": 24.4,
+        "sat_fat": 15.7,
+        "fiber": 1.8,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 248,
+        "protein": 3.6,
+        "carbs": 19.1,
+        "sugars": 16.8,
+        "fat": 17.4,
+        "sat_fat": 11.2,
+        "fiber": 1.2,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 140,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Tarta familiar de galleta, nata y gelatina de cacao",
+      "slug": "tarta-familiar-de-galleta-nata-y-gelatina-de-cacao",
+      "seo_title": "Tarta familiar de galleta, nata y gelatina de cacao | Receta con gelat",
+      "meta_description": "Receta de tarta familiar de galleta, nata y gelatina de cacao con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una tarta de nevera de sabor clásico, con base crujiente y crema de cacao.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 8,
+        "rest_min": 420,
+        "total_min": 458
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Posible soja/huevo según galletas"
+      ],
+      "ingredients": [
+        {
+          "name": "Galletas",
+          "g": 220,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 95,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 500,
+          "key": "nata"
+        },
+        {
+          "name": "Leche entera",
+          "g": 250,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Cacao puro",
+          "g": 35,
+          "key": "cacao"
+        },
+        {
+          "name": "Azúcar",
+          "g": 120,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 16,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 80,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Haz la base con galleta y mantequilla.",
+        "Hidrata la gelatina.",
+        "Calienta leche con cacao y azúcar.",
+        "Disuelve la gelatina y mezcla con nata semimontada.",
+        "Vierte sobre la base y refrigera 7 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 420,
+        "protein": 5.5,
+        "carbs": 32.1,
+        "sugars": 19.6,
+        "fat": 30.8,
+        "sat_fat": 19.0,
+        "fiber": 2.0,
+        "salt": 0.3
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 319,
+        "protein": 4.2,
+        "carbs": 24.4,
+        "sugars": 14.9,
+        "fat": 23.4,
+        "sat_fat": 14.4,
+        "fiber": 1.5,
+        "salt": 0.2
+      },
+      "estimated_serving_g": 132,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Terrina familiar dulce de frutas variadas",
+      "slug": "terrina-familiar-dulce-de-frutas-variadas",
+      "seo_title": "Terrina familiar dulce de frutas variadas | Receta con gelatina bovina",
+      "meta_description": "Receta de terrina familiar dulce de frutas variadas con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una terrina de fruta para cortar en porciones y servir fría.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 5,
+        "rest_min": 360,
+        "total_min": 390
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Zumo de naranja",
+          "g": 500,
+          "key": "naranja_zumo"
+        },
+        {
+          "name": "Agua",
+          "g": 200,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Melocotón",
+          "g": 200,
+          "key": "melocoton"
+        },
+        {
+          "name": "Fresas",
+          "g": 200,
+          "key": "fresa"
+        },
+        {
+          "name": "Piña en conserva escurrida",
+          "g": 150,
+          "key": "piña_enlatada"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 18,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 90,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta zumo, agua y azúcar.",
+        "Disuelve la gelatina.",
+        "Coloca la fruta troceada en un molde.",
+        "Cubre con el líquido y enfría 6 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 105,
+        "protein": 2.8,
+        "carbs": 23.6,
+        "sugars": 21.2,
+        "fat": 0.3,
+        "sat_fat": 0,
+        "fiber": 1.2,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 58,
+        "protein": 1.6,
+        "carbs": 13.1,
+        "sugars": 11.8,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 0.7,
+        "salt": 0
+      },
+      "estimated_serving_g": 180,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina casera de leche merengada",
+      "slug": "gelatina-casera-de-leche-merengada",
+      "seo_title": "Gelatina casera de leche merengada | Receta con gelatina bovina RAIAN",
+      "meta_description": "Receta de gelatina casera de leche merengada con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre de nevera con sabor tradicional a leche merengada.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 10,
+        "rest_min": 300,
+        "total_min": 325
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche entera",
+          "g": 700,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Azúcar",
+          "g": 90,
+          "key": "azucar"
+        },
+        {
+          "name": "Canela",
+          "g": 4,
+          "key": "canela"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 14,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 70,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Infusiona la leche con canela, azúcar y limón durante 10 minutos.",
+        "Cuela, disuelve la gelatina y reparte en vasos.",
+        "Refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 144,
+        "protein": 5.9,
+        "carbs": 21.3,
+        "sugars": 20.7,
+        "fat": 4.2,
+        "sat_fat": 2.7,
+        "fiber": 0.4,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 98,
+        "protein": 4.0,
+        "carbs": 14.4,
+        "sugars": 14.0,
+        "fat": 2.8,
+        "sat_fat": 1.8,
+        "fiber": 0.2,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 148,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Panna cotta casera de canela y naranja",
+      "slug": "panna-cotta-casera-de-canela-y-naranja",
+      "seo_title": "Panna cotta casera de canela y naranja | Receta con gelatina bovina RA",
+      "meta_description": "Receta de panna cotta casera de canela y naranja con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una panna cotta con sabor casero a cítrico y canela.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 300,
+        "total_min": 323
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 450,
+          "key": "nata"
+        },
+        {
+          "name": "Leche entera",
+          "g": 250,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Azúcar",
+          "g": 85,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de naranja",
+          "g": 80,
+          "key": "naranja_zumo"
+        },
+        {
+          "name": "Canela",
+          "g": 3,
+          "key": "canela"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 50,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta nata, leche, azúcar, naranja y canela.",
+        "Disuelve la gelatina fuera del fuego.",
+        "Vierte en moldes y refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 349,
+        "protein": 4.4,
+        "carbs": 20.2,
+        "sugars": 19.5,
+        "fat": 27.8,
+        "sat_fat": 18.2,
+        "fiber": 0.3,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 226,
+        "protein": 2.9,
+        "carbs": 13.1,
+        "sugars": 12.6,
+        "fat": 18.0,
+        "sat_fat": 11.8,
+        "fiber": 0.2,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 155,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Crema casera de arroz con leche gelificada",
+      "slug": "crema-casera-de-arroz-con-leche-gelificada",
+      "seo_title": "Crema casera de arroz con leche gelificada | Receta con gelatina bovin",
+      "meta_description": "Receta de crema casera de arroz con leche gelificada con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "La idea del arroz con leche en formato crema fría y porcionable.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 10,
+        "rest_min": 300,
+        "total_min": 330
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Arroz cocido",
+          "g": 300,
+          "key": "arroz_cocido"
+        },
+        {
+          "name": "Leche entera",
+          "g": 600,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Azúcar",
+          "g": 90,
+          "key": "azucar"
+        },
+        {
+          "name": "Canela",
+          "g": 4,
+          "key": "canela"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 12,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 60,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta leche, arroz, azúcar y canela.",
+        "Tritura ligeramente para textura cremosa.",
+        "Disuelve la gelatina y vierte en vasos.",
+        "Refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 197,
+        "protein": 6.4,
+        "carbs": 34.3,
+        "sugars": 19.9,
+        "fat": 3.8,
+        "sat_fat": 2.4,
+        "fiber": 0.6,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 111,
+        "protein": 3.6,
+        "carbs": 19.3,
+        "sugars": 11.2,
+        "fat": 2.1,
+        "sat_fat": 1.3,
+        "fiber": 0.3,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 178,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Postre casero de membrillo y queso fresco",
+      "slug": "postre-casero-de-membrillo-y-queso-fresco",
+      "seo_title": "Postre casero de membrillo y queso fresco | Receta con gelatina bovina",
+      "meta_description": "Receta de postre casero de membrillo y queso fresco con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un postre de queso y membrillo en versión suave para servir en vasitos.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 260
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Queso fresco",
+          "g": 400,
+          "key": "queso_fresco"
+        },
+        {
+          "name": "Dulce de membrillo",
+          "g": 180,
+          "key": "membrillo"
+        },
+        {
+          "name": "Leche entera",
+          "g": 250,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 50,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Bate queso fresco, leche y miel.",
+        "Calienta 80 g de la mezcla y disuelve la gelatina.",
+        "Reparte la crema en vasos.",
+        "Añade dados de membrillo y refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 217,
+        "protein": 10.9,
+        "carbs": 26.4,
+        "sugars": 24.6,
+        "fat": 7.5,
+        "sat_fat": 5.0,
+        "fiber": 0.6,
+        "salt": 0.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 141,
+        "protein": 7.1,
+        "carbs": 17.2,
+        "sugars": 16.0,
+        "fat": 4.9,
+        "sat_fat": 3.2,
+        "fiber": 0.4,
+        "salt": 0.3
+      },
+      "estimated_serving_g": 153,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Flan casero frío de café con leche",
+      "slug": "flan-casero-frio-de-cafe-con-leche",
+      "seo_title": "Flan casero frío de café con leche | Receta con gelatina bovina RAIAN",
+      "meta_description": "Receta de flan casero frío de café con leche con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un flan de café sin horno, sencillo y con textura limpia.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 8,
+        "rest_min": 300,
+        "total_min": 320
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Leche entera",
+          "g": 600,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Café preparado",
+          "g": 200,
+          "key": "cafe"
+        },
+        {
+          "name": "Azúcar",
+          "g": 95,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 14,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 70,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta leche, café y azúcar.",
+        "Disuelve la gelatina.",
+        "Vierte en moldes y refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 136,
+        "protein": 5.3,
+        "carbs": 20.6,
+        "sugars": 20.6,
+        "fat": 3.6,
+        "sat_fat": 2.3,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 83,
+        "protein": 3.3,
+        "carbs": 12.6,
+        "sugars": 12.6,
+        "fat": 2.2,
+        "sat_fat": 1.4,
+        "fiber": 0,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 163,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Tarta casera de yogur y limón sin horno",
+      "slug": "tarta-casera-de-yogur-y-limon-sin-horno",
+      "seo_title": "Tarta casera de yogur y limón sin horno | Receta con gelatina bovina R",
+      "meta_description": "Receta de tarta casera de yogur y limón sin horno con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una tarta de yogur fresca, fácil y muy casera.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 5,
+        "rest_min": 360,
+        "total_min": 390
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Posible soja/huevo según galletas"
+      ],
+      "ingredients": [
+        {
+          "name": "Galletas",
+          "g": 160,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 70,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Yogur griego natural",
+          "g": 600,
+          "key": "yogur_griego"
+        },
+        {
+          "name": "Azúcar",
+          "g": 95,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 80,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 12,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 60,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Haz la base con galletas y mantequilla.",
+        "Hidrata la gelatina.",
+        "Bate yogur, azúcar y limón.",
+        "Calienta 100 g de mezcla y disuelve la gelatina.",
+        "Vierte en el molde y enfría 6 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 268,
+        "protein": 9.2,
+        "carbs": 29.4,
+        "sugars": 19.4,
+        "fat": 12.4,
+        "sat_fat": 7.0,
+        "fiber": 0.6,
+        "salt": 0.2
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 199,
+        "protein": 6.8,
+        "carbs": 21.9,
+        "sugars": 14.4,
+        "fat": 9.2,
+        "sat_fat": 5.2,
+        "fiber": 0.5,
+        "salt": 0.2
+      },
+      "estimated_serving_g": 135,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Mousse casera de plátano y cacao",
+      "slug": "mousse-casera-de-platano-y-cacao",
+      "seo_title": "Mousse casera de plátano y cacao | Receta con gelatina bovina RAIAN",
+      "meta_description": "Receta de mousse casera de plátano y cacao con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una mousse de plátano con cacao, dulce y cremosa sin necesidad de horno.",
+      "servings": 6,
+      "times": {
+        "prep_min": 18,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 263
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Plátano maduro",
+          "g": 450,
+          "key": "platano"
+        },
+        {
+          "name": "Leche entera",
+          "g": 250,
+          "key": "leche_entera"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Cacao puro",
+          "g": 25,
+          "key": "cacao"
+        },
+        {
+          "name": "Miel",
+          "g": 40,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 50,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Tritura plátano, leche, cacao y miel.",
+        "Calienta 100 g de mezcla y disuelve la gelatina.",
+        "Monta la nata e integra.",
+        "Refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 241,
+        "protein": 5.1,
+        "carbs": 28.1,
+        "sugars": 17.5,
+        "fat": 14.0,
+        "sat_fat": 9.0,
+        "fiber": 3.5,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 141,
+        "protein": 3.0,
+        "carbs": 16.5,
+        "sugars": 10.3,
+        "fat": 8.2,
+        "sat_fat": 5.3,
+        "fiber": 2.0,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 171,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina casera de manzana asada",
+      "slug": "gelatina-casera-de-manzana-asada",
+      "seo_title": "Gelatina casera de manzana asada | Receta con gelatina bovina RAIAN",
+      "meta_description": "Receta de gelatina casera de manzana asada con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una receta de manzana sencilla con sabor a postre tradicional.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 15,
+        "rest_min": 300,
+        "total_min": 335
+      },
+      "allergens": [
+        "Sin alérgenos declarables por formulación base"
+      ],
+      "ingredients": [
+        {
+          "name": "Manzana",
+          "g": 650,
+          "key": "manzana"
+        },
+        {
+          "name": "Agua",
+          "g": 250,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 75,
+          "key": "azucar"
+        },
+        {
+          "name": "Canela",
+          "g": 3,
+          "key": "canela"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 15,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 75,
+          "key": "agua"
+        }
+      ],
+      "steps": [
+        "Cuece o asa la manzana hasta ablandarla.",
+        "Hidrata la gelatina.",
+        "Tritura manzana, agua, azúcar y canela.",
+        "Calienta parte del puré y disuelve la gelatina.",
+        "Reparte en moldes y enfría 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 116,
+        "protein": 2.5,
+        "carbs": 28.1,
+        "sugars": 23.3,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "fiber": 2.9,
+        "salt": 0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 65,
+        "protein": 1.4,
+        "carbs": 15.8,
+        "sugars": 13.1,
+        "fat": 0.1,
+        "sat_fat": 0,
+        "fiber": 1.6,
+        "salt": 0
+      },
+      "estimated_serving_g": 178,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Postre casero de nata y fresas con gelatina bovina",
+      "slug": "postre-casero-de-nata-y-fresas-con-gelatina-bovina",
+      "seo_title": "Postre casero de nata y fresas con gelatina bovina | Receta con gelati",
+      "meta_description": "Receta de postre casero de nata y fresas con gelatina bovina con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Un clásico de nata y fresas en versión estable para vasitos o molde.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 300,
+        "total_min": 325
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 500,
+          "key": "nata"
+        },
+        {
+          "name": "Fresas",
+          "g": 400,
+          "key": "fresa"
+        },
+        {
+          "name": "Azúcar",
+          "g": 100,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 12,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 60,
+          "key": "agua"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "limon_zumo"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Tritura fresas con azúcar y limón.",
+        "Calienta 100 g del puré y disuelve la gelatina.",
+        "Monta la nata e incorpora el puré.",
+        "Reparte y refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 376,
+        "protein": 3.9,
+        "carbs": 24.5,
+        "sugars": 22.5,
+        "fat": 29.4,
+        "sat_fat": 19.2,
+        "fiber": 1.3,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 208,
+        "protein": 2.1,
+        "carbs": 13.5,
+        "sugars": 12.4,
+        "fat": 16.2,
+        "sat_fat": 10.6,
+        "fiber": 0.7,
+        "salt": 0
+      },
+      "estimated_serving_g": 181,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Terrina casera salada de pollo, zanahoria y guisantes",
+      "slug": "terrina-casera-salada-de-pollo-zanahoria-y-guisantes",
+      "seo_title": "Terrina casera salada de pollo, zanahoria y guisantes | Receta con gel",
+      "meta_description": "Receta de terrina casera salada de pollo, zanahoria y guisantes con gelatina bovina neutra: ingredientes en gramos, raciones, tiempos, alérgenos y tabla nutricional estimada.",
+      "intro": "Una receta salada de aprovechamiento con presentación limpia y familiar.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 20,
+        "rest_min": 360,
+        "total_min": 410
+      },
+      "allergens": [
+        "Revisar caldo: puede contener apio, gluten, soja o sulfitos si es comercial"
+      ],
+      "ingredients": [
+        {
+          "name": "Pechuga de pollo cocida",
+          "g": 600,
+          "key": "pollo"
+        },
+        {
+          "name": "Caldo de pollo",
+          "g": 700,
+          "key": "caldo_pollo"
+        },
+        {
+          "name": "Zanahoria cocida",
+          "g": 150,
+          "key": "zanahoria"
+        },
+        {
+          "name": "Guisantes cocidos",
+          "g": 100,
+          "key": "guisantes"
+        },
+        {
+          "name": "Gelatina bovina neutra 260 Bloom",
+          "g": 24,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría",
+          "g": 120,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 4,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina.",
+        "Calienta el caldo y ajusta de sal.",
+        "Disuelve la gelatina.",
+        "Coloca pollo y verduras en un molde.",
+        "Cubre con caldo y refrigera 6 horas.",
+        "Desmolda y corta en porciones."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 160,
+        "protein": 27.5,
+        "carbs": 4.6,
+        "sugars": 2.0,
+        "fat": 3.1,
+        "sat_fat": 0.9,
+        "fiber": 1.2,
+        "salt": 1.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 76,
+        "protein": 13.0,
+        "carbs": 2.1,
+        "sugars": 1.0,
+        "fat": 1.4,
+        "sat_fat": 0.4,
+        "fiber": 0.5,
+        "salt": 0.5
+      },
+      "estimated_serving_g": 212,
+      "keywords": [
+        "receta con gelatina bovina",
+        "gelatina neutra 260 bloom"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    }
+  ]
+}

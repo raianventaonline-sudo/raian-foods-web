@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mousse premium de café y mascarpone con gelatina bovina</title>
+  <desc id="desc">Ilustracion culinaria generada para una receta RAIAN.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ef" />
+      <stop offset="1" stop-color="#dcb18e" stop-opacity="0.72" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#3f2b24" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)" />
+  <circle cx="1010" cy="120" r="190" fill="#ffffff" opacity="0.35" />
+  <circle cx="190" cy="760" r="230" fill="#ffffff" opacity="0.38" />
+  <path d="M120 250 C300 120 430 130 545 222 C720 362 900 240 1080 290" fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round" opacity="0.34" />
+  
+  <g filter="url(#shadow)">
+    <path d="M320 390 C350 275 835 275 875 390 L815 650 C780 735 395 735 355 650 Z" fill="#81553f" opacity="0.84" />
+    <path d="M365 408 C390 335 800 335 830 408 C795 455 407 455 365 408Z" fill="#c97956" opacity="0.58" />
+    <path d="M410 505 C505 545 682 550 785 505" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity="0.36" />
+    <circle cx="486" cy="438" r="25" fill="#dcb18e" opacity="0.85" />
+    <circle cx="637" cy="455" r="18" fill="#ffffff" opacity="0.72" />
+    <circle cx="722" cy="595" r="24" fill="#dcb18e" opacity="0.72" />
+  </g>
+
+  
+  <circle cx="844" cy="210" r="34" fill="#c97956" opacity="0.95" />
+  <circle cx="904" cy="252" r="20" fill="#81553f" opacity="0.88" />
+  <path d="M794 252 C750 216 752 180 812 176 C816 212 826 236 794 252Z" fill="#6f7d4f" opacity="0.85" />
+  <circle cx="276" cy="655" r="22" fill="#81553f" opacity="0.22" />
+  <circle cx="906" cy="675" r="28" fill="#3f2b24" opacity="0.12" />
+
+  <path d="M280 760 C445 805 760 810 930 758" fill="none" stroke="#3f2b24" stroke-width="8" stroke-linecap="round" opacity="0.08" />
+</svg>

@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
-import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { SectionTitle } from "@/components/SectionTitle";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Sobre RAIAN Foods",
+  title: "Sobre RAIAN",
   description:
-    "RAIAN Foods es una línea alimentaria de RAIAN enfocada en selección de producto, presentación, packaging e información clara desde Valencia.",
+    "RAIAN es una marca alimentaria valenciana enfocada en selección de producto, presentación cuidada e información clara para el consumidor.",
   alternates: {
     canonical: "/sobre-nosotros"
   }
@@ -17,63 +16,78 @@ export const metadata: Metadata = {
 
 const pillars = [
   {
-    title: "Desde Valencia",
-    text: "RAIAN Foods trabaja desde Valencia con una visión cercana al consumidor final y al mercado español.",
+    title: "Origen valenciano",
+    text: "Trabajamos desde Valencia con una visión cercana al consumidor español y a sus hábitos de compra.",
     image: {
       src: "/images/about/desde-valencia-real.webp",
       alt: "Ingredientes mediterráneos sobre una mesa con inspiración valenciana"
     }
   },
   {
-    title: "Selección de producto",
-    text: "Buscamos referencias alimentarias útiles, claras y preparadas para integrarse en un catálogo cuidado.",
+    title: "Selección con criterio",
+    text: "El catálogo se construye con referencias alimentarias útiles, comprensibles y fáciles de presentar.",
     image: {
       src: "/images/about/seleccion-producto-real.webp",
       alt: "Ingredientes alimentarios seleccionados en tarros y cuencos"
     }
   },
   {
-    title: "Packaging e imagen",
-    text: "El envase y la presentación forman parte de la confianza que queremos transmitir en cada producto.",
+    title: "Imagen coherente",
+    text: "La presentación del envase y la identidad visual ayudan a que la marca resulte ordenada y reconocible.",
     image: {
       src: "/images/about/packaging-imagen-real.webp",
-      alt: "Envases alimentarios y etiquetas sin texto preparados para packaging"
+      alt: "Envases alimentarios y etiquetas preparadas para packaging"
     }
   },
   {
-    title: "Contenido útil para el consumidor",
-    text: "Creamos fichas, usos prácticos, consejos y recetas para que cada referencia sea más fácil de entender.",
+    title: "Información útil",
+    text: "Cada ficha debe ayudar a entender el producto: qué es, para qué se usa y qué datos conviene revisar.",
     image: {
       src: "/images/about/contenido-consumidor-real.webp",
-      alt: "Receta con gelatina, ingredientes y cuaderno de notas sin texto"
+      alt: "Receta con ingredientes y cuaderno de notas"
     }
   }
 ];
 
-const photoPlaceholders = [
+const principles = [
+  "Claridad antes que exceso de información.",
+  "Presentación cuidada sin promesas exageradas.",
+  "Compra externa integrada de forma natural.",
+  "Datos técnicos validados antes de publicarse como definitivos."
+];
+
+const brandScenes = [
   {
-    label: "Instalaciones",
-    text: "Instalaciones RAIAN Foods preparadas para trabajo alimentario.",
-    src: "/images/about/instalaciones-raian-foods.png",
-    available: true
+    title: "Instalaciones",
+    text: "Instalaciones RAIAN preparadas para trabajo alimentario.",
+    image: {
+      src: "/images/about/instalaciones-raian-foods.png",
+      alt: "Instalaciones RAIAN para trabajo alimentario"
+    }
   },
   {
-    label: "Preparación",
-    text: "Preparación y envasado de producto RAIAN Foods en línea de trabajo.",
-    src: "/images/about/preparacion-raian-foods.png",
-    available: true
+    title: "Preparación",
+    text: "Preparación y envasado de producto RAIAN en línea de trabajo.",
+    image: {
+      src: "/images/about/preparacion-raian-foods.png",
+      alt: "Preparación y envasado de producto RAIAN"
+    }
   },
   {
-    label: "Packaging",
-    text: "Diseño y revisión de packaging RAIAN Foods antes de su presentación final.",
-    src: "/images/about/packaging-raian-foods.png",
-    available: true
+    title: "Packaging",
+    text: "Diseño y revisión de packaging RAIAN antes de su presentación final.",
+    image: {
+      src: "/images/about/packaging-raian-foods.png",
+      alt: "Diseño y revisión de packaging RAIAN"
+    }
   },
   {
-    label: "Equipo",
-    text: "Equipo RAIAN Foods en entorno de preparación y control de producto.",
-    src: "/images/about/equipo-raian-foods.png",
-    available: true
+    title: "Equipo",
+    text: "Equipo RAIAN en entorno de preparación y control de producto.",
+    image: {
+      src: "/images/about/equipo-raian-foods.png",
+      alt: "Equipo RAIAN en entorno de preparación y control de producto"
+    }
   }
 ];
 
@@ -83,37 +97,36 @@ export default function AboutPage() {
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Inicio", href: "/" },
-          { name: "Sobre RAIAN Foods", href: "/sobre-nosotros" }
+          { name: "Sobre RAIAN", href: "/sobre-nosotros" }
         ])}
       />
       <Breadcrumbs
         items={[
           { label: "Inicio", href: "/" },
-          { label: "Sobre RAIAN Foods", href: "/sobre-nosotros" }
+          { label: "Sobre RAIAN", href: "/sobre-nosotros" }
         ]}
       />
       <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 md:grid-cols-[1fr_0.9fr] md:items-center md:px-8">
           <div>
-            <p className="mb-4 text-sm font-semibold uppercase text-terracotta">Sobre RAIAN Foods</p>
+            <p className="mb-4 text-sm font-semibold uppercase text-terracotta">Sobre RAIAN</p>
             <h1 className="font-display text-4xl leading-tight text-ink md:text-6xl">
-              RAIAN Foods: selección, presentación y claridad para el consumidor final.
+              Una marca alimentaria valenciana con foco en producto, claridad y presentación.
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted">
-              RAIAN Foods nace dentro de RAIAN con el objetivo de trabajar productos alimenticios seleccionados con
-              criterio, cuidando tanto la calidad del producto como la experiencia completa del cliente. Desde Valencia,
-              buscamos referencias útiles para el consumidor final, prestando atención al envase, la imagen de marca, el
-              packaging y la información que acompaña a cada producto.
+              RAIAN trabaja productos alimenticios seleccionados con una idea sencilla: que el cliente entienda qué compra,
+              perciba una marca cuidada y encuentre la información esencial sin fricción. La web acompaña esa experiencia
+              con un catálogo claro, fichas ordenadas y contacto visible.
             </p>
           </div>
-          <div className="mx-auto w-full max-w-xl overflow-hidden rounded-lg border border-line bg-white p-2 shadow-sm">
+          <div className="mx-auto w-full max-w-xl overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
             <Image
               src="/images/about/productos-raian-foods-catalogo.png"
-              alt="Productos alimenticios RAIAN Foods en formato catálogo"
+              alt="Composición visual de productos alimenticios RAIAN en formato catálogo"
               width={1536}
               height={1024}
               priority
-              className="aspect-[4/3] w-full rounded-md object-cover"
+              className="aspect-[4/3] w-full rounded-sm object-cover"
               sizes="(min-width: 768px) 42vw, 100vw"
             />
           </div>
@@ -123,17 +136,19 @@ export default function AboutPage() {
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-5 px-5 md:grid-cols-2 lg:grid-cols-4 md:px-8">
           {pillars.map((pillar) => (
-            <article key={pillar.title} className="flex h-full flex-col rounded-lg border border-line bg-cream p-5">
-              <h2 className="font-display text-2xl leading-tight text-ink">{pillar.title}</h2>
-              <p className="mt-4 flex-1 text-sm leading-7 text-muted">{pillar.text}</p>
-              <div className="mt-6 overflow-hidden rounded-md border border-line bg-white">
+            <article key={pillar.title} className="flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
+              <div className="relative aspect-[4/3] bg-cream">
                 <Image
                   src={pillar.image.src}
                   alt={pillar.image.alt}
-                  width={760}
-                  height={504}
-                  className="h-32 w-full object-cover"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
                 />
+              </div>
+              <div className="flex flex-1 flex-col p-5">
+                <h2 className="font-display text-2xl leading-tight text-ink">{pillar.title}</h2>
+                <p className="mt-4 flex-1 text-sm leading-7 text-muted">{pillar.text}</p>
               </div>
             </article>
           ))}
@@ -141,25 +156,45 @@ export default function AboutPage() {
       </section>
 
       <section className="bg-cream py-12 md:py-16">
+        <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-[0.85fr_1.15fr] lg:items-start md:px-8">
+          <SectionTitle
+            eyebrow="Criterios de marca"
+            title="La confianza se construye en los detalles."
+            description="RAIAN debe percibirse como una marca sobria, accesible y bien organizada. Por eso cada bloque de contenido tiene una función concreta."
+          />
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {principles.map((item) => (
+              <li key={item} className="rounded-md border border-line bg-white px-5 py-4 text-sm font-semibold leading-6 text-ink">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-white py-12 md:py-16">
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
           <SectionTitle
-            eyebrow="Fotos reales pendientes"
-            title="Espacios preparados para mostrar instalaciones, producto y equipo."
-            description="Estos bloques pueden sustituirse por fotografías reales cuando estén disponibles."
+            eyebrow="Entorno RAIAN"
+            title="Espacios, producto y equipo con una presentación cuidada."
+            description="Un vistazo visual a los ámbitos que construyen la percepción de marca: instalaciones, preparación, packaging y equipo."
           />
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {photoPlaceholders.map((photo) => (
-              <article key={photo.label} className="overflow-hidden rounded-lg border border-line bg-white">
-                <PlaceholderMedia
-                  className="aspect-[4/3] rounded-none border-0"
-                  asset={{
-                    src: photo.src,
-                    alt: photo.text,
-                    label: photo.label,
-                    available: photo.available
-                  }}
-                />
-                <p className="p-4 text-sm leading-7 text-muted">{photo.text}</p>
+            {brandScenes.map((scene) => (
+              <article key={scene.title} className="overflow-hidden rounded-md border border-line bg-white shadow-sm">
+                <div className="relative aspect-[4/3] bg-cream">
+                  <Image
+                    src={scene.image.src}
+                    alt={scene.image.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                  />
+                </div>
+                <div className="p-5">
+                  <h2 className="font-display text-xl font-semibold leading-tight text-ink">{scene.title}</h2>
+                  <p className="mt-3 text-sm leading-7 text-muted">{scene.text}</p>
+                </div>
               </article>
             ))}
           </div>

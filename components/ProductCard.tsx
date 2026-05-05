@@ -8,8 +8,8 @@ type ProductCardProps = {
 
 export function ProductCard({ product }: ProductCardProps) {
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-lg border border-line bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-subtle">
-      <Link href={`/productos/${product.slug}`} aria-label={`Ver ${product.name}`} className="block">
+    <article className="flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-subtle">
+      <Link href={`/productos/${product.slug}`} prefetch={false} aria-label={`Ver ${product.name}`} className="block">
         <PlaceholderMedia asset={product.mainImage} className="aspect-[4/3] rounded-none border-0" />
       </Link>
       <div className="flex flex-1 flex-col p-5">
@@ -28,9 +28,10 @@ export function ProductCard({ product }: ProductCardProps) {
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <Link
             href={`/productos/${product.slug}`}
+            prefetch={false}
             className="inline-flex min-h-11 flex-1 items-center justify-center rounded-full bg-ink px-4 text-sm font-semibold text-white transition hover:bg-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
           >
-            Ver producto
+            Ver ficha
           </Link>
           {product.amazonUrl ? (
             <a
@@ -39,7 +40,7 @@ export function ProductCard({ product }: ProductCardProps) {
               rel="noreferrer"
               className="inline-flex min-h-11 flex-1 items-center justify-center rounded-full border border-line bg-white px-4 text-sm font-semibold text-ink transition hover:border-terracotta hover:text-terracotta focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
             >
-              Comprar en Amazon
+              Ver en Amazon
             </a>
           ) : null}
         </div>

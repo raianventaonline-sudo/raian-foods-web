@@ -161,7 +161,7 @@ export const products: Product[] = [
     tags: ["Neutra", "Origen bovino", "260 Bloom", "18 Mesh", "Halal", "1 kg"],
     mainImage: {
       src: "/images/products/gelatina-bovina-main.png",
-      alt: "Bote de gelatina neutra bovina RAIAN Foods 260 Bloom 1 kg",
+      alt: "Bote de gelatina neutra bovina RAIAN 260 Bloom 1 kg",
       label: "Gelatina bovina 260 Bloom",
       available: true,
       fit: "contain"
@@ -169,7 +169,7 @@ export const products: Product[] = [
     gallery: [
       {
         src: "/images/products/gelatina-bovina-main.png",
-        alt: "Bote de gelatina neutra bovina RAIAN Foods 260 Bloom 1 kg",
+        alt: "Bote de gelatina neutra bovina RAIAN 260 Bloom 1 kg",
         label: "Gelatina bovina 1 kg",
         available: true,
         fit: "contain"
@@ -192,11 +192,15 @@ export const products: Product[] = [
     technicalSheet: bovineGelatinTechnicalSheet,
     nutrition: bovineGelatinNutrition,
     allergens: "No contiene alérgenos declarables.",
-    conservation: "Pendiente de completar con las condiciones reales de conservación.",
+    conservation: "Condiciones de conservación pendientes de confirmar con el etiquetado final.",
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["gelatina-neutra-porcina", "harina-de-almendra", "glucosa"],
-    recipeSlugs: ["gelatina-postres-frios", "mousse-basica-gelatina"]
+    recipeSlugs: [
+      "vasitos-fitness-de-yogur-griego-frutos-rojos-y-gelatina-bovina",
+      "mousse-fitness-de-mango-y-skyr-con-gelatina-bovina",
+      "panna-cotta-premium-de-vainilla-y-coulis-de-frambuesa"
+    ]
   },
   {
     slug: "gelatina-neutra-porcina",
@@ -209,7 +213,7 @@ export const products: Product[] = [
     tags: ["Neutra", "Origen porcino", "260 Bloom", "Postres", "Cocina", "1 kg"],
     mainImage: {
       src: "/images/products/gelatina-porcina-main.png",
-      alt: "Bote de gelatina neutra porcina RAIAN Foods 260 Bloom 1 kg",
+      alt: "Bote de gelatina neutra porcina RAIAN 260 Bloom 1 kg",
       label: "Gelatina porcina 260 Bloom",
       available: true,
       fit: "contain"
@@ -217,7 +221,7 @@ export const products: Product[] = [
     gallery: [
       {
         src: "/images/products/gelatina-porcina-main.png",
-        alt: "Bote de gelatina neutra porcina RAIAN Foods 260 Bloom 1 kg",
+        alt: "Bote de gelatina neutra porcina RAIAN 260 Bloom 1 kg",
         label: "Gelatina porcina 1 kg",
         available: true,
         fit: "contain"
@@ -244,7 +248,7 @@ export const products: Product[] = [
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["gelatina-neutra-bovina", "harina-de-almendra", "dextrosa"],
-    recipeSlugs: ["gelatina-postres-frios", "mousse-basica-gelatina"]
+    recipeSlugs: []
   },
   {
     slug: "harina-de-almendra",
@@ -257,7 +261,7 @@ export const products: Product[] = [
     tags: ["Almendra", "100% almendra molida", "Repostería", "Recetas", "Cocina", "1 kg"],
     mainImage: {
       src: "/images/products/harina-almendra-main.png",
-      alt: "Bote de harina de almendra RAIAN Foods 1 kg",
+      alt: "Bote de harina de almendra RAIAN 1 kg",
       label: "Harina de almendra 1 kg",
       available: true,
       fit: "contain"
@@ -265,7 +269,7 @@ export const products: Product[] = [
     gallery: [
       {
         src: "/images/products/harina-almendra-main.png",
-        alt: "Bote de harina de almendra RAIAN Foods 1 kg",
+        alt: "Bote de harina de almendra RAIAN 1 kg",
         label: "Harina de almendra 1 kg",
         available: true,
         fit: "contain"
@@ -292,7 +296,7 @@ export const products: Product[] = [
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["gelatina-neutra-bovina", "glucosa", "dextrosa"],
-    recipeSlugs: ["ideas-harina-almendra"]
+    recipeSlugs: []
   },
   {
     slug: "dextrosa",
@@ -300,12 +304,12 @@ export const products: Product[] = [
     shortDescription:
       "Ingrediente alimentario utilizado en distintas preparaciones, recetas y aplicaciones culinarias.",
     description:
-      "Dextrosa para usos alimentarios generales y aplicaciones culinarias específicas. Esta ficha funciona como base editable para completar datos de formato, origen, lote, instrucciones concretas y documentación técnica real.",
+      "Dextrosa orientada a usos alimentarios generales y aplicaciones culinarias específicas. La ficha reúne la información disponible y debe completarse con datos técnicos validados antes de publicar valores definitivos.",
     category: "Ingredientes alimentarios",
     tags: ["Ingrediente", "Uso alimentario", "Preparaciones", "1 kg"],
     mainImage: {
       src: "/images/products/dextrosa-main.png",
-      alt: "Bote de dextrosa RAIAN Foods 1 kg",
+      alt: "Bote de dextrosa RAIAN 1 kg",
       label: "Dextrosa 1 kg",
       available: true,
       fit: "contain"
@@ -313,7 +317,7 @@ export const products: Product[] = [
     gallery: [
       {
         src: "/images/products/dextrosa-main.png",
-        alt: "Bote de dextrosa RAIAN Foods 1 kg",
+        alt: "Bote de dextrosa RAIAN 1 kg",
         label: "Dextrosa 1 kg",
         available: true,
         fit: "contain"
@@ -334,8 +338,8 @@ export const products: Product[] = [
     ],
     technicalSheet: technicalSheetFor("Dextrosa", "Ingrediente alimentario", pending),
     nutrition: nutritionPlaceholder,
-    allergens: "Pendiente de completar con la información real de alérgenos del producto.",
-    conservation: "Pendiente de completar con las condiciones reales de conservación.",
+    allergens: "Información de alérgenos pendiente de confirmar con el etiquetado final.",
+    conservation: "Condiciones de conservación pendientes de confirmar con el etiquetado final.",
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["glucosa", "harina-de-almendra", "gelatina-neutra-porcina"],
@@ -347,12 +351,12 @@ export const products: Product[] = [
     shortDescription:
       "Ingrediente alimentario para recetas, elaboraciones dulces y aplicaciones culinarias específicas.",
     description:
-      "Glucosa orientada a recetas, elaboraciones dulces y usos culinarios donde la receta indique este ingrediente. Los datos técnicos, nutricionales y de etiquetado se mantienen como campos editables pendientes de completar.",
+      "Glucosa orientada a recetas, elaboraciones dulces y usos culinarios donde la receta indique este ingrediente. La información técnica y nutricional debe validarse con el etiquetado final antes de publicarse como definitiva.",
     category: "Ingredientes alimentarios",
     tags: ["Ingrediente", "Dulces", "Uso culinario", "1 kg"],
     mainImage: {
       src: "/images/products/glucosa-main.png",
-      alt: "Bote de glucosa RAIAN Foods 1 kg",
+      alt: "Bote de glucosa RAIAN 1 kg",
       label: "Glucosa 1 kg",
       available: true,
       fit: "contain"
@@ -360,7 +364,7 @@ export const products: Product[] = [
     gallery: [
       {
         src: "/images/products/glucosa-main.png",
-        alt: "Bote de glucosa RAIAN Foods 1 kg",
+        alt: "Bote de glucosa RAIAN 1 kg",
         label: "Glucosa 1 kg",
         available: true,
         fit: "contain"
@@ -381,12 +385,12 @@ export const products: Product[] = [
     ],
     technicalSheet: technicalSheetFor("Glucosa", "Ingrediente alimentario", pending),
     nutrition: nutritionPlaceholder,
-    allergens: "Pendiente de completar con la información real de alérgenos del producto.",
-    conservation: "Pendiente de completar con las condiciones reales de conservación.",
+    allergens: "Información de alérgenos pendiente de confirmar con el etiquetado final.",
+    conservation: "Condiciones de conservación pendientes de confirmar con el etiquetado final.",
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["dextrosa", "harina-de-almendra", "gelatina-neutra-bovina"],
-    recipeSlugs: ["usos-glucosa-reposteria"]
+    recipeSlugs: []
   }
 ];
 

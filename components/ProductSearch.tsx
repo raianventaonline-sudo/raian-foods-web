@@ -42,11 +42,11 @@ export function ProductSearch({ products }: ProductSearchProps) {
 
   return (
     <div>
-      <div className="mb-8 rounded-lg border border-line bg-cream p-4 md:p-5">
+      <div className="mb-8 rounded-md border border-line bg-sage p-4 md:p-5">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl flex-1">
             <label htmlFor="product-search" className="block text-sm font-semibold text-ink">
-              Buscar producto
+              Buscar en el catálogo
             </label>
             <input
               id="product-search"
@@ -81,11 +81,11 @@ export function ProductSearch({ products }: ProductSearchProps) {
           ))}
         </div>
       ) : (
-        <div className="rounded-lg border border-line bg-cream p-8 text-center">
+        <div className="rounded-md border border-line bg-cream p-8 text-center">
           <h2 className="font-display text-3xl leading-tight text-ink">No hemos encontrado ese producto</h2>
           <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-muted">
-            Prueba con otra palabra, categoría o ingrediente. También puedes contactar con RAIAN Foods para consultar
-            referencias pendientes de publicar.
+            Prueba con otra palabra, categoría o ingrediente. También puedes contactar con RAIAN para consultar referencias
+            o información comercial.
           </p>
         </div>
       )}

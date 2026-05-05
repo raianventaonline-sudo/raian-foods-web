@@ -15,7 +15,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
               {isLast ? (
                 <span className="text-ink">{item.label}</span>
               ) : (
-                <Link href={item.href} className="transition hover:text-olive">
+                <Link href={item.href} prefetch={false} className="transition hover:text-olive">
                   {item.label}
                 </Link>
               )}

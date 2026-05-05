@@ -11,13 +11,14 @@ const legalLinks = [
 export function Footer() {
   return (
     <footer className="border-t border-line bg-white">
-      <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 py-12 md:grid-cols-[1.2fr_0.8fr_0.8fr] md:px-8">
+      <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 py-14 md:grid-cols-[1.2fr_0.8fr_0.8fr] md:px-8">
         <div>
-          <Link href="/" className="inline-flex items-center" aria-label="Inicio de RAIAN Foods">
+          <Link href="/" className="inline-flex items-center" aria-label="Inicio de RAIAN">
             <BrandLogo size="footer" />
           </Link>
           <p className="mt-5 max-w-md text-sm leading-7 text-muted">{siteConfig.shortBrandText}</p>
-          <p className="mt-4 text-sm text-muted">Dominio: {siteConfig.domain}</p>
+          <p className="mt-4 text-sm font-semibold text-ink">Valencia, España</p>
+          <p className="mt-1 text-sm text-muted">{siteConfig.domain}</p>
         </div>
 
         <div>
@@ -54,7 +55,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-line px-5 py-5 text-center text-xs text-muted">
-        © {new Date().getFullYear()} RAIAN Foods. Todos los datos pendientes deben completarse antes de publicar.
+        © {new Date().getFullYear()} RAIAN. Marca alimentaria valenciana.
       </div>
     </footer>
   );

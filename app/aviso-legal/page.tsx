@@ -7,11 +7,13 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Aviso legal",
-  description: "Aviso legal de RAIAN Foods con datos pendientes de completar antes de publicación.",
+  description: "Información legal de RAIAN pendiente de completar con los datos oficiales del titular.",
   alternates: {
     canonical: "/aviso-legal"
   }
 };
+
+const ownerFields = ["Razón social", "CIF/NIF", "Domicilio social", "Condiciones de uso", "Propiedad intelectual"];
 
 export default function LegalNoticePage() {
   return (
@@ -33,9 +35,9 @@ export default function LegalNoticePage() {
           <SectionTitle
             eyebrow="Información legal"
             title="Aviso legal"
-            description="Esta página contiene placeholders obligatorios que deben completarse con datos reales antes de publicar la web."
+            description="Este apartado debe completarse con los datos oficiales del titular antes de publicar la web."
           />
-          <div className="mt-8 space-y-6 rounded-lg border border-line bg-white p-6 text-sm leading-7 text-muted md:p-8">
+          <div className="mt-8 space-y-6 rounded-md border border-line bg-white p-6 text-sm leading-7 text-muted md:p-8">
             <p>
               <strong className="text-ink">Razón social:</strong> {siteConfig.legal.businessName}
             </p>
@@ -48,11 +50,17 @@ export default function LegalNoticePage() {
             <p>
               <strong className="text-ink">Email de contacto:</strong> {siteConfig.legal.contactEmail}
             </p>
-            <p>
-              El titular de esta web debe completar la información legal aplicable a RAIAN Foods, incluyendo datos de
-              identificación, condiciones de uso, responsabilidades, propiedad intelectual y cualquier requisito
-              adicional que corresponda.
-            </p>
+          </div>
+
+          <div className="mt-6 rounded-md border border-terracotta/30 bg-white p-6">
+            <h2 className="text-lg font-bold text-ink">Información que necesito del propietario</h2>
+            <ul className="mt-4 grid gap-2 text-sm leading-6 text-muted sm:grid-cols-2">
+              {ownerFields.map((field) => (
+                <li key={field} className="rounded-md bg-cream px-4 py-3">
+                  {field}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

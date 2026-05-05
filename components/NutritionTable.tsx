@@ -6,7 +6,7 @@ type NutritionTableProps = {
 
 export function NutritionTable({ rows }: NutritionTableProps) {
   return (
-    <div className="overflow-hidden rounded-lg border border-line bg-white">
+    <div className="overflow-hidden rounded-md border border-line bg-white">
       <table className="w-full border-collapse text-left text-sm">
         <caption className="bg-ink px-4 py-3 text-left text-sm font-semibold text-white">
           Información nutricional por 100 g

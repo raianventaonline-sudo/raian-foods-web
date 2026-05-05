@@ -19,6 +19,8 @@ type ProductPageProps = {
   };
 };
 
+const isPendingValue = (value: string) => value.toLowerCase().includes("pendiente");
+
 export function generateStaticParams() {
   return products.map((product) => ({
     slug: product.slug
@@ -35,13 +37,13 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
   }
 
   return {
-    title: product.name,
+    title: `${product.name} RAIAN`,
     description: product.shortDescription,
     alternates: {
       canonical: `/productos/${product.slug}`
     },
     openGraph: {
-      title: `${product.name} | RAIAN Foods`,
+      title: `${product.name} | RAIAN`,
       description: product.shortDescription,
       type: "website",
       url: `/productos/${product.slug}`
@@ -58,6 +60,9 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   const relatedProducts = getRelatedProducts(product);
   const relatedRecipes = getRecipesForProduct(product.recipeSlugs);
+  const gallery = product.gallery.filter((asset) => asset.available);
+  const technicalRows = product.technicalSheet.filter((row) => !isPendingValue(row.value));
+  const nutritionRows = product.nutrition.filter((row) => !isPendingValue(row.value));
 
   return (
     <>
@@ -78,25 +83,27 @@ export default function ProductPage({ params }: ProductPageProps) {
       />
       <ProductHero product={product} />
 
-      <section className="bg-white py-12 md:py-16">
-        <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-          <SectionTitle eyebrow="Galería" title="Imágenes preparadas para producto, envase y detalles." />
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-            {product.gallery.map((asset) => (
-              <PlaceholderMedia key={asset.label} asset={asset} className="aspect-square" />
-            ))}
+      {gallery.length > 0 ? (
+        <section className="bg-white py-12 md:py-16">
+          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+            <SectionTitle eyebrow="Imagen de producto" title="Presentación visual de la referencia." />
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {gallery.map((asset) => (
+                <PlaceholderMedia key={asset.label} asset={asset} className="aspect-square" />
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : null}
 
       <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-[0.8fr_1.2fr] md:px-8">
-          <SectionTitle eyebrow="Descripción" title="Ficha editable del producto." />
+          <SectionTitle eyebrow="Descripción" title="Información clara para entender el producto." />
           <div className="space-y-5 text-base leading-8 text-muted">
             <p>{product.description}</p>
             <p>
-              Los datos técnicos, nutricionales y de etiquetado quedan preparados como campos editables hasta contar con
-              documentación real de producto, etiquetado y proveedor.
+              Mostramos únicamente datos disponibles o pendientes de validación de forma transparente. La información final
+              debe coincidir siempre con el etiquetado y la documentación del producto.
             </p>
           </div>
         </div>
@@ -105,20 +112,20 @@ export default function ProductPage({ params }: ProductPageProps) {
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-2 md:px-8">
           <div>
-            <SectionTitle eyebrow="Usos prácticos" title="Ideas de uso alimentario." />
+            <SectionTitle eyebrow="Usos" title="Aplicaciones habituales." />
             <ul className="mt-8 space-y-3">
               {product.uses.map((use) => (
-                <li key={use} className="rounded-lg border border-line bg-cream px-4 py-3 text-sm leading-6 text-muted">
+                <li key={use} className="rounded-md border border-line bg-sage px-4 py-3 text-sm leading-6 text-muted">
                   {use}
                 </li>
               ))}
             </ul>
           </div>
           <div>
-            <SectionTitle eyebrow="Cómo utilizarlo" title="Pasos base editables." />
+            <SectionTitle eyebrow="Uso orientativo" title="Pautas generales." />
             <ol className="mt-8 space-y-3">
               {product.howToUse.map((step, index) => (
-                <li key={step} className="flex gap-4 rounded-lg border border-line bg-white px-4 py-4 text-sm leading-6 text-muted">
+                <li key={step} className="flex gap-4 rounded-md border border-line bg-white px-4 py-4 text-sm leading-6 text-muted">
                   <span className="grid size-8 shrink-0 place-items-center rounded-full bg-olive text-sm font-bold text-white">
                     {index + 1}
                   </span>
@@ -133,15 +140,27 @@ export default function ProductPage({ params }: ProductPageProps) {
       <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-2 md:px-8">
           <div>
-            <SectionTitle eyebrow="Ficha técnica" title="Datos de producto pendientes de validación." />
+            <SectionTitle eyebrow="Ficha técnica" title="Datos disponibles." />
             <div className="mt-8">
-              <ProductTechnicalTable rows={product.technicalSheet} />
+              {technicalRows.length > 0 ? (
+                <ProductTechnicalTable rows={technicalRows} />
+              ) : (
+                <p className="rounded-md border border-line bg-white p-5 text-sm leading-7 text-muted">
+                  Información técnica pendiente de validar con la documentación final del producto.
+                </p>
+              )}
             </div>
           </div>
           <div>
-            <SectionTitle eyebrow="Información nutricional" title="Tabla editable por 100 g." />
+            <SectionTitle eyebrow="Información nutricional" title="Valores por 100 g." />
             <div className="mt-8">
-              <NutritionTable rows={product.nutrition} />
+              {nutritionRows.length > 0 ? (
+                <NutritionTable rows={nutritionRows} />
+              ) : (
+                <p className="rounded-md border border-line bg-white p-5 text-sm leading-7 text-muted">
+                  Información nutricional pendiente de validar con el etiquetado final.
+                </p>
+              )}
             </div>
           </div>
         </div>
@@ -149,37 +168,33 @@ export default function ProductPage({ params }: ProductPageProps) {
 
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 md:grid-cols-2 md:px-8">
-          <article className="rounded-lg border border-line bg-cream p-6">
+          <article className="rounded-md border border-line bg-sage p-6">
             <h2 className="font-display text-3xl text-ink">Alérgenos</h2>
             <p className="mt-4 text-sm leading-7 text-muted">{product.allergens}</p>
           </article>
-          <article className="rounded-lg border border-line bg-cream p-6">
+          <article className="rounded-md border border-line bg-sage p-6">
             <h2 className="font-display text-3xl text-ink">Conservación</h2>
             <p className="mt-4 text-sm leading-7 text-muted">{product.conservation}</p>
           </article>
         </div>
       </section>
 
-      <section className="bg-cream py-12 md:py-16">
-        <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-          <SectionTitle
-            eyebrow="Recetas relacionadas"
-            title="Contenido práctico asociado al producto."
-            description="Las recetas son placeholders iniciales preparados para ampliar el contenido cuando se definan textos e imágenes reales."
-          />
-          {relatedRecipes.length > 0 ? (
+      {relatedRecipes.length > 0 ? (
+        <section className="bg-cream py-12 md:py-16">
+          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+            <SectionTitle
+              eyebrow="Usos y recetas"
+              title="Contenido práctico asociado."
+              description="Guías y usos en preparación para acompañar el producto con información útil y fácil de consultar."
+            />
             <div className="mt-8 grid gap-6 md:grid-cols-3">
               {relatedRecipes.map((recipe) => (
                 <RecipeCard key={recipe.slug} recipe={recipe} />
               ))}
             </div>
-          ) : (
-            <p className="mt-8 rounded-lg border border-line bg-white p-5 text-sm leading-7 text-muted">
-              Recetas pendientes de añadir para este producto.
-            </p>
-          )}
-        </div>
-      </section>
+          </div>
+        </section>
+      ) : null}
 
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">

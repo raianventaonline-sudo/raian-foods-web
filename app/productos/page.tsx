@@ -4,14 +4,13 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTASection } from "@/components/CTASection";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductSearch } from "@/components/ProductSearch";
-import { SectionTitle } from "@/components/SectionTitle";
 import { products } from "@/data/products";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Productos",
+  title: "Catálogo de productos",
   description:
-    "Catálogo de productos alimenticios RAIAN Foods: gelatinas, harina de almendra e ingredientes alimentarios con fichas editables.",
+    "Catálogo RAIAN de productos alimenticios seleccionados: gelatinas, harina de almendra e ingredientes con información clara y presentación cuidada.",
   alternates: {
     canonical: "/productos"
   }
@@ -32,22 +31,37 @@ export default function ProductsPage() {
           { label: "Productos", href: "/productos" }
         ]}
       />
-      <section className="bg-cream py-12 md:py-16">
-        <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 md:grid-cols-[1fr_0.85fr] md:items-center md:px-8">
-          <SectionTitle
-            eyebrow="Catálogo RAIAN Foods"
-            title="Productos alimentarios seleccionados para el consumidor final."
-            description="Cada referencia cuenta con una ficha preparada para añadir imágenes reales, datos técnicos verificados, usos prácticos, información nutricional y enlace de compra en Amazon."
-          />
-          <div className="overflow-hidden rounded-lg border border-line bg-white p-2 shadow-sm">
+      <section className="bg-cream py-10 md:py-12">
+        <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 lg:grid-cols-[1fr_0.92fr_1fr] lg:items-center md:px-8">
+          <div className="overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
+            <Image
+              src="/images/brand/mapa-espana-ingredientes.webp"
+              alt="Mapa de España compuesto con ingredientes alimentarios"
+              width={1536}
+              height={1024}
+              priority
+              className="aspect-[16/9] w-full rounded-sm object-cover"
+              sizes="(min-width: 1024px) 31vw, 100vw"
+            />
+          </div>
+          <div className="text-center lg:px-2">
+            <p className="mb-3 text-sm font-semibold uppercase leading-none text-terracotta">Catálogo RAIAN</p>
+            <h1 className="font-display text-3xl leading-tight text-ink md:text-4xl">
+              Productos alimenticios seleccionados y presentados con claridad.
+            </h1>
+            <p className="mx-auto mt-5 max-w-md text-base leading-7 text-muted">
+              Referencias, usos habituales y datos disponibles organizados para facilitar la decisión de compra.
+            </p>
+          </div>
+          <div className="overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
             <Image
               src="/images/brand/catalogo-raian-foods-oficina.png"
-              alt="Catálogo de productos RAIAN Foods en oficina"
+              alt="Composición visual del catálogo RAIAN en un entorno corporativo"
               width={1254}
               height={1254}
               priority
-              className="aspect-[4/3] w-full rounded-md object-cover"
-              sizes="(min-width: 768px) 40vw, 100vw"
+              className="aspect-[16/9] w-full rounded-sm object-cover"
+              sizes="(min-width: 1024px) 31vw, 100vw"
             />
           </div>
         </div>
@@ -58,10 +72,10 @@ export default function ProductsPage() {
         </div>
       </section>
       <CTASection
-        title="¿Buscas información concreta de un producto?"
-        description="Las fichas están listas para ampliar detalles técnicos, resolver dudas de uso y conectar cada referencia con su listing de Amazon."
+        title="¿Necesitas información concreta de un producto?"
+        description="Escríbenos para resolver dudas comerciales, ampliar información disponible o consultar próximas referencias del catálogo."
         href="/contacto"
-        label="Contactar"
+        label="Contactar con RAIAN"
       />
     </>
   );

@@ -4,100 +4,130 @@ import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
 import { FeaturedProductsCarousel } from "@/components/FeaturedProductsCarousel";
 import { JsonLd } from "@/components/JsonLd";
-import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { SectionTitle } from "@/components/SectionTitle";
 import { products } from "@/data/products";
 import { siteConfig } from "@/data/site";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Inicio",
+  title: "Marca alimentaria valenciana",
   description:
-    "RAIAN Foods selecciona productos alimenticios con foco en calidad, packaging, información clara y contenido útil para el consumidor en España.",
+    "RAIAN selecciona productos alimenticios desde Valencia con presentación cuidada, información clara y compra externa en Amazon cuando procede.",
   alternates: {
     canonical: "/"
   }
 };
 
+const trustSignals = [
+  "Marca valenciana",
+  "Selección cuidada",
+  "Información clara",
+  "Compra externa en Amazon"
+];
+
 const valueCards = [
   {
-    title: "Selección cuidada",
-    text: "Trabajamos referencias alimentarias con criterio y con una estructura preparada para documentar cada producto.",
+    title: "Productos seleccionados",
+    text: "Referencias alimentarias elegidas por utilidad, claridad y encaje con el consumo diario.",
     image: {
       src: "/images/value/seleccion-cuidada-real.webp",
-      alt: "Ingredientes alimentarios seleccionados en tarros y cuencos sobre una mesa limpia"
+      alt: "Ingredientes alimentarios seleccionados sobre una mesa limpia"
     }
   },
   {
-    title: "Packaging trabajado",
-    text: "La presentación, el envase y la imagen de marca forman parte de la experiencia del cliente.",
+    title: "Presentación cuidada",
+    text: "Envase, etiqueta e imagen trabajan juntos para que el producto se perciba claro y fiable.",
     image: {
       src: "/images/value/packaging-trabajado-real.webp",
       alt: "Envases alimentarios y etiquetas preparadas para packaging"
     }
   },
   {
-    title: "Información clara",
-    text: "Cada ficha está preparada para incluir usos, datos técnicos, conservación, alérgenos y valores pendientes de validar.",
+    title: "Fichas comprensibles",
+    text: "Información organizada para entender usos, formato, conservación y datos relevantes antes de comprar.",
     image: {
       src: "/images/value/informacion-clara-real.webp",
-      alt: "Ficha informativa sin texto junto a muestra de ingrediente alimentario"
+      alt: "Ficha informativa junto a muestra de ingrediente alimentario"
     }
   },
   {
-    title: "Recetas y usos prácticos",
-    text: "El catálogo se acompaña de ideas de uso y contenido pensado para ayudar al consumidor final.",
+    title: "Uso en el día a día",
+    text: "Contenido práctico para acompañar cada referencia con ideas sencillas y criterios de uso.",
     image: {
       src: "/images/value/recetas-usos-qr-raian-foods.webp",
-      alt: "Productos RAIAN Foods con código QR y contenido de recetas y usos en móvil"
+      alt: "Contenido de usos y recetas RAIAN visualizado en un móvil"
     }
   }
 ];
 
-const trustItems = ["Producto seleccionado", "Información clara", "Compra segura en Amazon", "Atención cercana"];
+const methodSteps = [
+  {
+    title: "Seleccionamos",
+    text: "Buscamos referencias alimentarias claras, útiles y con sentido dentro del catálogo."
+  },
+  {
+    title: "Presentamos",
+    text: "Cuidamos la imagen del producto para que transmita orden, calidad y coherencia de marca."
+  },
+  {
+    title: "Explicamos",
+    text: "Organizamos la información de forma sencilla para reducir dudas antes de la compra."
+  }
+];
 
 export default function HomePage() {
   return (
     <>
       <JsonLd data={breadcrumbJsonLd([{ name: "Inicio", href: "/" }])} />
 
-      <section className="relative overflow-hidden bg-cream">
-        <div className="absolute inset-x-0 bottom-0 h-28 bg-white" aria-hidden="true" />
-        <div className="mx-auto grid min-h-[calc(88dvh-5rem)] w-full max-w-7xl gap-10 px-5 py-12 md:grid-cols-[1.05fr_0.95fr] md:items-center md:px-8 md:py-16">
-          <div className="relative z-10">
-            <p className="mb-4 text-sm font-semibold uppercase text-terracotta">RAIAN Foods</p>
-            <h1 className="max-w-4xl font-display text-4xl leading-tight text-ink md:text-6xl lg:text-7xl">
-              Productos alimenticios seleccionados con cuidado, claridad y propósito.
+      <section className="relative isolate overflow-hidden bg-ink text-white">
+        <Image
+          src="/images/brand/hero-productos-raian-foods.png"
+          alt="Composición visual de productos alimenticios RAIAN"
+          fill
+          priority
+          className="object-cover object-[68%_center]"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(24,32,28,0.92)_0%,rgba(24,32,28,0.76)_42%,rgba(24,32,28,0.22)_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 h-48 bg-[linear-gradient(0deg,rgba(24,32,28,0.88)_0%,rgba(24,32,28,0.58)_46%,rgba(24,32,28,0)_100%)]" />
+        <div className="relative mx-auto flex min-h-[calc(78dvh-5rem)] w-full max-w-7xl items-center px-5 pb-40 pt-16 md:px-8 md:pb-36">
+          <div className="max-w-3xl">
+            <p className="mb-5 text-sm font-semibold uppercase text-beige">Marca alimentaria valenciana</p>
+            <h1 className="font-display text-4xl font-semibold leading-tight text-white md:text-6xl lg:text-7xl">
+              Productos alimenticios seleccionados desde Valencia.
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
-              En RAIAN Foods trabajamos una selección de productos alimentarios pensados para el consumidor final,
-              cuidando la calidad, la presentación, el packaging y la información que acompaña a cada producto.
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-white md:text-2xl md:leading-9">
+              Presentación cuidada, información clara y una experiencia de compra pensada para generar confianza.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/productos"
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-olive px-6 text-sm font-semibold text-white transition hover:bg-[#5F6C43] focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
+                className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
               >
-                Ver catálogo
+                Explorar catálogo
               </Link>
               <Link
                 href="/sobre-nosotros"
-                className="inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white px-6 text-sm font-semibold text-ink transition hover:border-olive hover:text-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
+                className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/35 bg-white/10 px-6 text-sm font-semibold text-white transition hover:bg-white/18 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
               >
-                Conocer RAIAN Foods
+                Conocer la marca
               </Link>
             </div>
           </div>
-          <div className="relative z-10 mx-auto w-full max-w-xl overflow-hidden rounded-lg border border-line bg-white p-2 shadow-sm">
-            <Image
-              src="/images/brand/hero-productos-raian-foods.png"
-              alt="Productos alimenticios RAIAN Foods presentados sobre mesa"
-              width={1536}
-              height={1024}
-              priority
-              className="aspect-[4/3] w-full rounded-md object-cover"
-              sizes="(min-width: 768px) 45vw, 100vw"
-            />
+        </div>
+        <div className="absolute inset-x-0 bottom-0 z-10 pb-5 md:pb-6">
+          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+            <ul className="grid gap-2 border-t border-white/15 pt-4 sm:grid-cols-2 lg:grid-cols-4">
+              {trustSignals.map((item) => (
+                <li
+                  key={item}
+                  className="flex min-h-11 items-center rounded-sm border border-white/10 bg-white/[0.08] px-3 text-xs font-semibold text-white/85 backdrop-blur-md md:text-sm"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
@@ -105,23 +135,25 @@ export default function HomePage() {
       <section className="bg-white py-16 md:py-20">
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
           <SectionTitle
-            eyebrow="Propuesta de valor"
-            title="Un catálogo preparado para generar confianza antes de la compra."
+            eyebrow="Qué ofrece RAIAN"
+            title="Una marca alimentaria clara, cuidada y fácil de entender."
             description={siteConfig.qualityText}
           />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {valueCards.map((card) => (
-              <article key={card.title} className="flex h-full flex-col rounded-lg border border-line bg-cream p-5">
-                <h3 className="font-display text-2xl leading-tight text-ink">{card.title}</h3>
-                <p className="mt-4 flex-1 text-sm leading-7 text-muted">{card.text}</p>
-                <div className="mt-6 overflow-hidden rounded-md border border-line bg-white">
+              <article key={card.title} className="flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
+                <div className="relative aspect-[4/3] overflow-hidden bg-cream">
                   <Image
                     src={card.image.src}
                     alt={card.image.alt}
-                    width={760}
-                    height={504}
-                    className="h-32 w-full object-cover"
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
                   />
+                </div>
+                <div className="flex flex-1 flex-col p-5">
+                  <h3 className="font-display text-2xl leading-tight text-ink">{card.title}</h3>
+                  <p className="mt-4 flex-1 text-sm leading-7 text-muted">{card.text}</p>
                 </div>
               </article>
             ))}
@@ -131,47 +163,17 @@ export default function HomePage() {
 
       <section className="bg-cream py-16 md:py-20">
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-          <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-            <div className="overflow-hidden rounded-lg border border-line bg-white p-2 shadow-sm">
-              <Image
-                src="/images/brand/mapa-espana-ingredientes.webp"
-                alt="Mapa de España formado por ingredientes típicos de distintas comunidades autónomas"
-                width={1536}
-                height={1024}
-                className="h-auto w-full rounded-md"
-                sizes="(min-width: 1024px) 42vw, 100vw"
-              />
-            </div>
-            <div>
-              <SectionTitle eyebrow="Nuestra forma de trabajar" title="Desde Valencia, con foco en producto y presentación." />
-              <div className="mt-8 space-y-5 text-base leading-8 text-muted">
-                <p>
-                  RAIAN Foods nace como línea alimentaria de RAIAN, una empresa valenciana dedicada al comercio minorista de
-                  productos alimenticios y a la selección de referencias útiles para el consumidor final.
-                </p>
-                <p>
-                  Trabajamos con una visión completa del producto: elección de referencias, cuidado del envase, imagen de
-                  marca, packaging e información clara para que cada ficha resulte fácil de entender.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white py-16 md:py-20">
-        <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <SectionTitle
               eyebrow="Catálogo"
               title="Productos destacados"
-              description="Primeras referencias preparadas para ficha completa, imágenes reales y compra externa en Amazon."
+              description="Referencias alimentarias con fichas preparadas para explicar usos, presentación e información relevante."
             />
             <Link
               href="/productos"
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white px-6 text-sm font-semibold text-ink transition hover:border-olive hover:text-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
             >
-              Ver todos
+              Ver todos los productos
             </Link>
           </div>
           <div className="mt-10">
@@ -180,40 +182,72 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-cream py-16 md:py-20">
-        <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 md:grid-cols-[1fr_1fr] md:items-center md:px-8">
-            <PlaceholderMedia
-              className="aspect-[4/3]"
-              asset={{
-                src: "/images/brand/recetas-usos-raian-foods.png",
-                alt: "Productos RAIAN Foods con código QR y contenido de recetas, ingredientes y consejos en móvil",
-                label: "Recetas y usos RAIAN Foods",
-                available: true
-              }}
-            />
+      <section className="bg-white py-12 md:py-14">
+        <div className="mx-auto grid w-full max-w-7xl gap-8 px-5 lg:grid-cols-[0.95fr_1.05fr] lg:items-start md:px-8">
           <div>
-            <SectionTitle
-              eyebrow="Contenido que acompaña al producto"
-              title="Más valor que el propio envase."
-              description={siteConfig.contentText}
-            />
-            <Link
-              href="/recetas"
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-terracotta px-6 text-sm font-semibold text-white transition hover:bg-[#A85F3A] focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
-            >
-              Ver ideas y recetas
-            </Link>
+            <div className="max-w-3xl">
+              <p className="mb-3 text-sm font-semibold uppercase leading-none text-terracotta">Método RAIAN</p>
+              <h2 className="font-display text-3xl leading-tight text-ink md:text-4xl">
+                Del envase a la experiencia.
+              </h2>
+              <p className="mt-4 text-base leading-7 text-muted md:text-lg">
+                La confianza nace de un producto bien presentado, una ficha clara y contenido útil accesible en el momento
+                de la compra.
+              </p>
+            </div>
+            <div className="mt-6 overflow-hidden rounded-md border border-line bg-cream shadow-sm">
+              <Image
+                src="/images/brand/raian-qr-content.png"
+                alt="Productos RAIAN con código QR y contenido de recetas, detalles de producto, ingredientes y atención personalizada"
+                width={1536}
+                height={864}
+                className="aspect-[16/9] w-full object-cover"
+                sizes="(min-width: 1024px) 44vw, 100vw"
+              />
+            </div>
+          </div>
+          <div className="grid gap-4 lg:self-center">
+            {methodSteps.map((step, index) => (
+              <article key={step.title} className="grid gap-4 rounded-md border border-line bg-sage p-5 sm:grid-cols-[3rem_1fr] sm:items-center">
+                <span className="grid size-12 place-items-center rounded-full bg-ink text-sm font-bold text-white sm:self-center">
+                  {index + 1}
+                </span>
+                <div>
+                  <h3 className="font-display text-2xl leading-tight text-ink">{step.title}</h3>
+                  <p className="mt-2 text-sm leading-7 text-muted">{step.text}</p>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-white py-14">
-        <div className="mx-auto grid w-full max-w-7xl gap-4 px-5 sm:grid-cols-2 lg:grid-cols-4 md:px-8">
-          {trustItems.map((item) => (
-            <div key={item} className="rounded-lg border border-line bg-cream px-5 py-4 text-sm font-semibold text-ink">
-              {item}
-            </div>
-          ))}
+      <section className="bg-charcoal py-16 text-white md:py-20">
+        <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-[1fr_0.9fr] lg:items-center md:px-8">
+          <div>
+            <p className="mb-3 text-sm font-semibold uppercase text-beige">Compra externa</p>
+            <h2 className="font-display text-3xl leading-tight md:text-4xl">Amazon como canal, RAIAN como marca.</h2>
+            <p className="mt-5 max-w-2xl text-base leading-8 text-beige">
+              Cuando un producto esté disponible en Amazon, el enlace se integra como una opción de compra externa. La web
+              mantiene la función corporativa: explicar la marca, ordenar la información y reforzar la confianza antes del clic.
+            </p>
+            <Link
+              href="/productos"
+              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-beige focus:ring-offset-2 focus:ring-offset-charcoal"
+            >
+              Consultar disponibilidad
+            </Link>
+          </div>
+          <div className="overflow-hidden rounded-md border border-white/15 bg-white/[0.08] p-2">
+            <Image
+              src="/images/brand/catalogo-raian-foods-oficina.png"
+              alt="Composición visual del catálogo RAIAN en un entorno corporativo"
+              width={1254}
+              height={1254}
+              className="aspect-[4/3] w-full rounded-sm object-cover"
+              sizes="(min-width: 1024px) 42vw, 100vw"
+            />
+          </div>
         </div>
       </section>
 

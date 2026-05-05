@@ -16,7 +16,7 @@ export function BrandLogo({ priority = false, size = "header" }: BrandLogoProps)
     <div className={`relative ${sizeClasses[size]}`}>
       <Image
         src="/images/brand/raian-foods-logo.png"
-        alt="Logotipo de RAIAN Foods"
+        alt="Logotipo de RAIAN"
         fill
         priority={priority}
         sizes={size === "hero" ? "(min-width: 768px) 45vw, 100vw" : "176px"}

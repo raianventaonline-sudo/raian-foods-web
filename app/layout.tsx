@@ -10,17 +10,17 @@ import { siteConfig } from "@/data/site";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "RAIAN Foods | Catálogo alimentario",
-    template: "%s | RAIAN Foods"
+    default: "RAIAN | Productos alimenticios seleccionados desde Valencia",
+    template: "%s | RAIAN"
   },
   description:
-    "Catálogo corporativo de RAIAN Foods: productos alimenticios seleccionados, información clara, recetas y compra externa en Amazon.",
+    "RAIAN es una marca valenciana de productos alimenticios seleccionados, con fichas claras, presentación cuidada y compra externa en Amazon cuando procede.",
   openGraph: {
-    title: "RAIAN Foods | Catálogo alimentario",
+    title: "RAIAN | Productos alimenticios seleccionados",
     description:
-      "Productos alimenticios seleccionados con cuidado, claridad y una presentación preparada para el consumidor final.",
+      "Marca alimentaria valenciana con productos seleccionados, información clara y una presentación cuidada.",
     url: siteConfig.siteUrl,
-    siteName: "RAIAN Foods",
+    siteName: "RAIAN",
     locale: "es_ES",
     type: "website",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: siteConfig.logo,
         width: 1600,
         height: 1600,
-        alt: "Logotipo de RAIAN Foods"
+        alt: "Logotipo de RAIAN"
       }
     ]
   },
@@ -49,7 +49,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es">
-      <body>
+      <body className="font-sans">
         <JsonLd data={organizationJsonLd} />
         <Header />
         <main id="contenido" tabIndex={-1} className="outline-none">

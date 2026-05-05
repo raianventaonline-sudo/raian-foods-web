@@ -6,7 +6,7 @@ export const absoluteUrl = (path = "") => new URL(path, siteConfig.siteUrl).toSt
 export const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "RAIAN Foods",
+  name: "RAIAN",
   url: siteConfig.siteUrl,
   address: {
     "@type": "PostalAddress",
@@ -18,7 +18,7 @@ export const organizationJsonLd = {
 export const productJsonLd = (product: Product) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  name: `${product.name} - RAIAN Foods`,
+  name: `${product.name} - RAIAN`,
   brand: {
     "@type": "Brand",
     name: "RAIAN"

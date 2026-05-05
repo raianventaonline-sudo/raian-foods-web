@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "RAIAN Foods",
+  name: "RAIAN",
   brand: "RAIAN",
   domain: "foods.raian.es",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://foods.raian.es",
@@ -7,13 +7,13 @@ export const siteConfig = {
   logo: "/images/brand/raian-foods-logo.png",
   location: "Valencia, España",
   shortBrandText:
-    "RAIAN Foods selecciona productos alimenticios pensando en el consumidor final: productos claros, bien presentados y acompañados de información útil para su uso diario.",
+    "RAIAN es una marca valenciana de productos alimenticios seleccionados, con una presentación cuidada e información clara para comprar con confianza.",
   qualityText:
-    "Cuidamos cada detalle: desde la selección del producto hasta el envase, la presentación y el contenido adicional que ayuda al cliente a entender mejor lo que consume.",
+    "Cuidamos la selección, el envase, la ficha de producto y los contenidos de apoyo para que cada referencia resulte fácil de entender antes de comprar.",
   contentText:
-    "Queremos que cada producto tenga más valor que el propio envase. Por eso preparamos recetas, consejos y usos prácticos para que el cliente pueda aprovecharlo con claridad y confianza.",
+    "Acompañamos el producto con usos, consejos y contenido práctico para que el cliente sepa cómo utilizarlo con criterio en su día a día.",
   amazonText:
-    "Puedes comprar este producto directamente en Amazon. El botón te redirigirá al listing correspondiente.",
+    "Cuando una referencia esté disponible en Amazon, el enlace se mostrará como una vía externa de compra clara y no intrusiva.",
   legal: {
     businessName: "[PENDIENTE]",
     taxId: "[PENDIENTE]",
@@ -28,7 +28,7 @@ export const siteConfig = {
 export const navigation = [
   { label: "Inicio", href: "/" },
   { label: "Productos", href: "/productos" },
-  { label: "Recetas", href: "/recetas" },
-  { label: "Sobre nosotros", href: "/sobre-nosotros" },
+  { label: "Usos y recetas", href: "/recetas" },
+  { label: "Sobre RAIAN", href: "/sobre-nosotros" },
   { label: "Contacto", href: "/contacto" }
 ] as const;

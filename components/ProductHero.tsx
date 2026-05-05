@@ -26,10 +26,10 @@ export function ProductHero({ product }: ProductHeroProps) {
               <a
                 href={product.amazonUrl}
                 target="_blank"
-                rel="noreferrer"
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-terracotta px-6 text-sm font-semibold text-white transition hover:bg-[#A85F3A] focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
-              >
-                Comprar en Amazon
+              rel="noreferrer"
+              className="inline-flex min-h-12 items-center justify-center rounded-full bg-terracotta px-6 text-sm font-semibold text-white transition hover:bg-[#A85F3A] focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
+            >
+                Ver disponibilidad en Amazon
               </a>
             ) : (
               <button
@@ -37,12 +37,12 @@ export function ProductHero({ product }: ProductHeroProps) {
                 disabled
                 className="inline-flex min-h-12 cursor-not-allowed items-center justify-center rounded-full bg-beige px-6 text-sm font-semibold text-muted"
               >
-                Comprar en Amazon
+                Disponible próximamente
               </button>
             )}
             <p className="mt-3 max-w-md text-xs leading-6 text-muted">
-              La compra se realiza en Amazon. RAIAN Foods puede redirigirte al producto correspondiente.
-              {!product.amazonUrl ? " Enlace pendiente de completar." : null}
+              La compra, cuando esté activa, se realiza fuera de esta web a través del canal indicado. RAIAN mantiene aquí
+              la información de marca y producto.
             </p>
           </div>
         </div>

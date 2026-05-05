@@ -11,7 +11,7 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-cream/92 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-line bg-white/95 backdrop-blur-xl">
       <a
         href="#contenido"
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-ink"
@@ -19,7 +19,7 @@ export function Header() {
         Saltar al contenido
       </a>
       <div className="mx-auto flex min-h-20 w-full max-w-7xl items-center justify-between gap-4 px-5 md:px-8">
-        <Link href="/" className="flex shrink-0 items-center" aria-label="Inicio de RAIAN Foods">
+        <Link href="/" prefetch={false} className="flex shrink-0 items-center" aria-label="Inicio de RAIAN">
           <BrandLogo priority />
         </Link>
 
@@ -30,6 +30,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
+                prefetch={false}
                 className={`text-sm font-semibold transition hover:text-olive ${
                   isActive ? "text-olive" : "text-muted"
                 }`}
@@ -43,9 +44,10 @@ export function Header() {
         <div className="flex items-center gap-3">
           <Link
             href="/productos"
-            className="hidden min-h-12 items-center justify-center rounded-full bg-olive px-5 text-sm font-semibold text-white transition hover:bg-[#5F6C43] focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2 sm:inline-flex"
+            prefetch={false}
+            className="hidden min-h-12 items-center justify-center rounded-full bg-ink px-5 text-sm font-semibold text-white transition hover:bg-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2 sm:inline-flex"
           >
-            Ver productos
+            Ver catálogo
           </Link>
           <button
             type="button"
@@ -61,14 +63,15 @@ export function Header() {
 
       <div
         id="menu-movil"
-        className={`border-t border-line bg-cream px-5 py-4 lg:hidden ${isOpen ? "block" : "hidden"}`}
+        className={`border-t border-line bg-white px-5 py-4 lg:hidden ${isOpen ? "block" : "hidden"}`}
       >
         <nav className="mx-auto flex max-w-7xl flex-col gap-2" aria-label="Navegación móvil">
           {navigation.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-lg px-3 py-3 text-sm font-semibold text-ink transition hover:bg-white"
+              prefetch={false}
+              className="rounded-md px-3 py-3 text-sm font-semibold text-ink transition hover:bg-sage"
               onClick={() => setIsOpen(false)}
             >
               {item.label}
