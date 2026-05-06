@@ -34,7 +34,14 @@ export const metadata: Metadata = {
     ]
   },
   icons: {
-    icon: siteConfig.logo
+    icon: [
+      {
+        url: "/favicon.png?v=raian-circle",
+        type: "image/png"
+      }
+    ],
+    shortcut: "/favicon.png?v=raian-circle",
+    apple: "/apple-touch-icon.png?v=raian-circle"
   },
   alternates: {
     canonical: "/"
