@@ -11,7 +11,7 @@ type RecipeCardProps = {
 
 export function RecipeCard({ recipe, rating }: RecipeCardProps) {
   return (
-    <article id={recipe.slug} className="flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
+    <article id={recipe.slug} className="raian-card flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
       <Link href={`/recetas/${recipe.slug}`} prefetch={false} aria-label={`Ver ${recipe.title}`} className="block">
         <PlaceholderMedia
           asset={recipe.image}
@@ -49,7 +49,7 @@ export function RecipeCard({ recipe, rating }: RecipeCardProps) {
         <Link
           href={`/recetas/${recipe.slug}`}
           prefetch={false}
-          className="mt-6 inline-flex min-h-11 items-center justify-center rounded-full bg-ink px-4 text-sm font-semibold text-white transition hover:bg-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
+          className="raian-button-glow mt-6 inline-flex min-h-11 items-center justify-center rounded-full bg-ink px-4 text-sm font-semibold text-white transition hover:bg-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
         >
           Ver receta completa
         </Link>

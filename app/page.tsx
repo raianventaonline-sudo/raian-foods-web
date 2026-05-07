@@ -97,14 +97,14 @@ export default function HomePage() {
               <Link
                 href="/productos"
                 prefetch={false}
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
+                className="raian-button-glow inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
               >
                 Explorar catálogo
               </Link>
               <Link
                 href="/sobre-nosotros"
                 prefetch={false}
-                className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/35 bg-white/10 px-6 text-sm font-semibold text-white transition hover:bg-white/18 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
+                className="raian-button-glow inline-flex min-h-12 items-center justify-center rounded-full border border-white/35 bg-white/10 px-6 text-sm font-semibold text-white transition hover:bg-white/18 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-ink"
               >
                 Conocer la marca
               </Link>
@@ -122,13 +122,13 @@ export default function HomePage() {
           />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {valueCards.map((card) => (
-              <article key={card.title} className="flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
-                <div className="relative aspect-[4/3] overflow-hidden bg-cream">
+              <article key={card.title} className="raian-card flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
+                <div className="raian-media relative aspect-[4/3] overflow-hidden bg-cream">
                   <Image
                     src={card.image.src}
                     alt={card.image.alt}
                     fill
-                    className="object-cover"
+                    className="raian-media-image object-cover"
                     sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
                   />
                 </div>
@@ -153,7 +153,7 @@ export default function HomePage() {
             <Link
               href="/productos"
               prefetch={false}
-              className="inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white px-6 text-sm font-semibold text-ink transition hover:border-olive hover:text-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
+              className="raian-button-glow inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white px-6 text-sm font-semibold text-ink transition hover:border-olive hover:text-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
             >
               Ver todos los productos
             </Link>
@@ -177,20 +177,20 @@ export default function HomePage() {
                 de la compra.
               </p>
             </div>
-            <div className="mt-6 overflow-hidden rounded-md border border-line bg-cream shadow-sm">
+            <div className="raian-media mt-6 overflow-hidden rounded-md border border-line bg-cream shadow-sm">
               <Image
                 src="/images/brand/raian-qr-content.png"
                 alt="Productos RAIAN con código QR y contenido de recetas, detalles de producto, ingredientes y atención personalizada"
                 width={1536}
                 height={864}
-                className="aspect-[16/9] w-full object-cover"
+                className="raian-media-image aspect-[16/9] w-full object-cover"
                 sizes="(min-width: 1024px) 44vw, 100vw"
               />
             </div>
           </div>
           <div className="grid gap-4 lg:self-center">
             {methodSteps.map((step, index) => (
-              <article key={step.title} className="grid gap-4 rounded-md border border-line bg-sage p-5 sm:grid-cols-[3rem_1fr] sm:items-center">
+              <article key={step.title} className="raian-card grid gap-4 rounded-md border border-line bg-sage p-5 sm:grid-cols-[3rem_1fr] sm:items-center">
                 <span className="grid size-12 place-items-center rounded-full bg-ink text-sm font-bold text-white sm:self-center">
                   {index + 1}
                 </span>
@@ -216,7 +216,7 @@ export default function HomePage() {
             <Link
               href="/productos"
               prefetch={false}
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-beige focus:ring-offset-2 focus:ring-offset-charcoal"
+              className="raian-button-glow mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-ink transition hover:bg-beige focus:outline-none focus:ring-2 focus:ring-beige focus:ring-offset-2 focus:ring-offset-charcoal"
             >
               Consultar disponibilidad
             </Link>

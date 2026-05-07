@@ -7,11 +7,14 @@ import { SectionTitle } from "@/components/SectionTitle";
 import {
   getRecipeCategoryLabel,
   getRecipeDietLabel,
+  getRecipeProductLabel,
   getRecipesByFilters,
   isRecipeCategory,
   isRecipeDiet,
+  isRecipeProductSlug,
   recipeCategories,
   recipeDietFilters,
+  recipeProductFilters,
   recipes,
   type RecipeCategory,
   type RecipeDiet
@@ -24,16 +27,26 @@ type RecipesPageProps = {
     categoria?: string;
     tipo?: string;
     apta?: string;
+    producto?: string | string[];
   };
 };
 
 export const metadata: Metadata = {
   title: "Usos y recetas",
   description:
-    "Recetas con gelatina bovina neutra RAIAN 260 Bloom organizadas por categoria, con ingredientes, tiempos, alergenos y tablas nutricionales estimadas.",
+    "Recetas RAIAN para hacer en casa, organizadas por tipo, necesidades alimentarias y productos del catalogo.",
   alternates: {
     canonical: "/recetas"
   }
+};
+
+const getSearchParamValues = (value?: string | string[]) => {
+  const values = Array.isArray(value) ? value : value ? [value] : [];
+
+  return values
+    .flatMap((item) => item.split(","))
+    .map((item) => item.trim())
+    .filter(Boolean);
 };
 
 export default function RecipesPage({ searchParams }: RecipesPageProps) {
@@ -43,18 +56,29 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
       ? searchParams?.categoria
       : undefined;
   const selectedDiet = isRecipeDiet(searchParams?.apta) ? searchParams.apta : undefined;
-  const visibleRecipes = getRecipesByFilters({ category: selectedCategory, diet: selectedDiet });
+  const selectedProductSlugs = Array.from(new Set(getSearchParamValues(searchParams?.producto))).filter(isRecipeProductSlug);
+  const visibleRecipes = getRecipesByFilters({
+    category: selectedCategory,
+    diet: selectedDiet,
+    productSlugs: selectedProductSlugs
+  });
   const ratingSummaries = getRecipeRatingSummaries();
   const selectedCategoryLabel = selectedCategory ? getRecipeCategoryLabel(selectedCategory) : "Todos los tipos";
   const selectedDietLabel = selectedDiet ? getRecipeDietLabel(selectedDiet) : undefined;
+  const selectedProductLabels = selectedProductSlugs.map(getRecipeProductLabel);
+  const filterSummaryLabel = [selectedCategoryLabel, selectedDietLabel, ...selectedProductLabels].filter(Boolean).join(" / ");
+  const legacyFilterLabel = filterSummaryLabel;
+  const displayedFilterLabel = [selectedCategoryLabel, selectedDietLabel, ...selectedProductLabels].filter(Boolean).join(" · ");
   const activeFilterLabel = [selectedCategoryLabel, selectedDietLabel].filter(Boolean).join(" · ");
 
   const buildFilterHref = ({
     category = selectedCategory,
-    diet = selectedDiet
+    diet = selectedDiet,
+    productSlugs = selectedProductSlugs
   }: {
     category?: RecipeCategory;
     diet?: RecipeDiet;
+    productSlugs?: string[];
   }) => {
     const params = new URLSearchParams();
 
@@ -66,10 +90,19 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
       params.set("apta", diet);
     }
 
+    if (productSlugs.length > 0) {
+      params.set("producto", productSlugs.join(","));
+    }
+
     const query = params.toString();
 
     return query ? `/recetas?${query}` : "/recetas";
   };
+
+  const toggleProductSlug = (slug: string) =>
+    selectedProductSlugs.includes(slug)
+      ? selectedProductSlugs.filter((selectedSlug) => selectedSlug !== slug)
+      : [...selectedProductSlugs, slug];
 
   const filterClass = (isSelected: boolean) =>
     `inline-flex min-h-11 items-center rounded-full border px-4 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2 ${
@@ -79,7 +112,11 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
   const listJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: activeFilterLabel ? `Recetas ${activeFilterLabel} RAIAN` : "Recetas RAIAN",
+    name: filterSummaryLabel
+      ? `Recetas ${filterSummaryLabel} RAIAN`
+      : legacyFilterLabel || displayedFilterLabel || activeFilterLabel
+        ? `Recetas ${legacyFilterLabel || displayedFilterLabel || activeFilterLabel} RAIAN`
+        : "Recetas RAIAN",
     numberOfItems: visibleRecipes.length,
     itemListElement: visibleRecipes.map((recipe, index) => ({
       "@type": "ListItem",
@@ -108,9 +145,9 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
       <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
           <SectionTitle
-            eyebrow="Contenido util"
-            title="Recetas con gelatina bovina neutra RAIAN 260 Bloom."
-            description="Explora recetas con ingredientes en gramos, tiempos claros, alergenos destacados y tablas nutricionales estimadas. Filtra por tipo o por necesidades como sin lactosa y sin gluten."
+            eyebrow="Recetas"
+            title="Recetas para hacer en casa con ingredientes claros."
+            description="Inspírate con preparaciones dulces y saladas, tiempos claros e ingredientes medidos. Filtra por tipo, por necesidades alimentarias o por los productos RAIAN que quieras utilizar."
           />
           <div className="mt-8 space-y-5" aria-label="Filtrar recetas">
             <div>
@@ -122,11 +159,15 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
                   aria-current={!selectedCategory ? "page" : undefined}
                   className={filterClass(!selectedCategory)}
                 >
-                  Todos ({getRecipesByFilters({ diet: selectedDiet }).length})
+                  Todos ({getRecipesByFilters({ diet: selectedDiet, productSlugs: selectedProductSlugs }).length})
                 </Link>
                 {recipeCategories.map((category) => {
                   const isSelected = category.slug === selectedCategory;
-                  const count = getRecipesByFilters({ category: category.slug, diet: selectedDiet }).length;
+                  const count = getRecipesByFilters({
+                    category: category.slug,
+                    diet: selectedDiet,
+                    productSlugs: selectedProductSlugs
+                  }).length;
 
                   return (
                     <Link
@@ -151,11 +192,15 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
                   aria-current={!selectedDiet ? "page" : undefined}
                   className={filterClass(!selectedDiet)}
                 >
-                  Todas ({getRecipesByFilters({ category: selectedCategory }).length})
+                  Todas ({getRecipesByFilters({ category: selectedCategory, productSlugs: selectedProductSlugs }).length})
                 </Link>
                 {recipeDietFilters.map((diet) => {
                   const isSelected = diet.slug === selectedDiet;
-                  const count = getRecipesByFilters({ category: selectedCategory, diet: diet.slug }).length;
+                  const count = getRecipesByFilters({
+                    category: selectedCategory,
+                    diet: diet.slug,
+                    productSlugs: selectedProductSlugs
+                  }).length;
 
                   return (
                     <Link
@@ -171,6 +216,62 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
                 })}
               </div>
             </div>
+            <div>
+              <div className="mb-3 flex flex-wrap items-center gap-3">
+                <p className="text-sm font-bold uppercase text-ink">Producto RAIAN</p>
+                {selectedProductSlugs.length > 0 ? (
+                  <Link
+                    href={buildFilterHref({ productSlugs: [] })}
+                    prefetch={false}
+                    className="text-sm font-semibold text-olive transition hover:text-terracotta"
+                  >
+                    Quitar productos
+                  </Link>
+                ) : null}
+              </div>
+              <p className="mb-3 max-w-2xl text-sm leading-6 text-muted">
+                Selecciona uno o varios. Si marcas varios, se mostrarán recetas que contengan todos esos productos.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  href={buildFilterHref({ productSlugs: [] })}
+                  prefetch={false}
+                  aria-current={selectedProductSlugs.length === 0 ? "page" : undefined}
+                  className={filterClass(selectedProductSlugs.length === 0)}
+                >
+                  Todos los productos ({getRecipesByFilters({ category: selectedCategory, diet: selectedDiet }).length})
+                </Link>
+                {recipeProductFilters.map((product) => {
+                  const isSelected = selectedProductSlugs.includes(product.slug);
+                  const nextProductSlugs = toggleProductSlug(product.slug);
+                  const count = getRecipesByFilters({
+                    category: selectedCategory,
+                    diet: selectedDiet,
+                    productSlugs: [product.slug]
+                  }).length;
+
+                  return (
+                    <Link
+                      key={product.slug}
+                      href={buildFilterHref({ productSlugs: nextProductSlugs })}
+                      prefetch={false}
+                      aria-current={isSelected ? "page" : undefined}
+                      className={`${filterClass(isSelected)} gap-2`}
+                    >
+                      <span
+                        aria-hidden="true"
+                        className={`grid size-4 place-items-center rounded border ${
+                          isSelected ? "border-white bg-white" : "border-line bg-white"
+                        }`}
+                      >
+                        <span className={`size-2 rounded-sm ${isSelected ? "bg-ink" : "bg-transparent"}`} />
+                      </span>
+                      {product.label} ({count})
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -178,7 +279,7 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
           <div className="mb-8 flex flex-col gap-2 border-b border-line pb-5 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-sm font-bold uppercase text-olive">{activeFilterLabel}</p>
+              <p className="text-sm font-bold uppercase text-olive">{filterSummaryLabel}</p>
               <h2 className="mt-2 font-display text-3xl text-ink">Recetas</h2>
             </div>
             <p className="text-sm leading-6 text-muted">

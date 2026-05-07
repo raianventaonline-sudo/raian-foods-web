@@ -27,7 +27,7 @@ export function ProductHero({ product }: ProductHeroProps) {
                 href={product.amazonUrl}
                 target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-12 items-center justify-center rounded-full bg-terracotta px-6 text-sm font-semibold text-white transition hover:bg-[#A85F3A] focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
+              className="raian-button-glow inline-flex min-h-12 items-center justify-center rounded-full bg-terracotta px-6 text-sm font-semibold text-white transition hover:bg-[#A85F3A] focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
             >
                 Ver disponibilidad en Amazon
               </a>

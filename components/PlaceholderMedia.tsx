@@ -20,12 +20,12 @@ export function PlaceholderMedia({
     const isSvg = asset.src.endsWith(".svg");
 
     return (
-      <div className={`relative overflow-hidden rounded-lg bg-beige ${className}`}>
+      <div className={`raian-media relative overflow-hidden rounded-lg bg-beige ${className}`}>
         <Image
           src={asset.src}
           alt={asset.alt}
           fill
-          className={imageClassName}
+          className={`${imageClassName} raian-media-image`}
           priority={priority}
           sizes={sizes}
           unoptimized={isSvg}
@@ -36,7 +36,7 @@ export function PlaceholderMedia({
 
   return (
     <div
-      className={`relative flex overflow-hidden rounded-lg border border-line bg-[linear-gradient(135deg,#FFFFFF_0%,#F7F3EA_45%,#E9DDC9_100%)] ${className}`}
+      className={`raian-media relative flex overflow-hidden rounded-lg border border-line bg-[linear-gradient(135deg,#FFFFFF_0%,#F7F3EA_45%,#E9DDC9_100%)] ${className}`}
       role="img"
       aria-label={asset.alt}
     >

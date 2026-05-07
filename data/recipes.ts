@@ -1,5 +1,5 @@
 import recipesSource from "./recipes-gelatina-bovina-260-bloom.json";
-import type { ImageAsset } from "@/data/products";
+import { products, type ImageAsset } from "@/data/products";
 
 export type RecipeCategory = "fitness" | "premium" | "familiar" | "casera";
 export type RecipeDiet = "sin-lactosa" | "sin-gluten";
@@ -7,6 +7,7 @@ export type RecipeDiet = "sin-lactosa" | "sin-gluten";
 export type RecipeFilters = {
   category?: RecipeCategory;
   diet?: RecipeDiet;
+  productSlugs?: string[];
 };
 
 type RecipeTimes = {
@@ -83,6 +84,8 @@ export type Recipe = SourceRecipe & {
   image: ImageAsset;
   diets: RecipeDiet[];
   dietLabels: string[];
+  productSlugs: string[];
+  productLabels: string[];
 };
 
 const source = recipesSource as RecipesSource;
@@ -114,6 +117,19 @@ const dairyIngredientTerms = [
 ];
 
 const glutenIngredientTerms = ["galleta", "avena", "harina", "trigo"];
+
+const productIngredientTerms: Record<string, string[]> = {
+  "gelatina-neutra-bovina": [
+    "gelatina neutra bovina",
+    "gelatina bovina neutra",
+    "gelatina bovina",
+    "gelatina bovina 260"
+  ],
+  "gelatina-neutra-porcina": ["gelatina neutra porcina", "gelatina porcina neutra", "gelatina porcina"],
+  "harina-de-almendra": ["harina de almendra", "almendra molida", "base de almendra", "almendra"],
+  dextrosa: ["dextrosa"],
+  glucosa: ["glucosa"]
+};
 
 const normalizeText = (value: string) =>
   value
@@ -175,8 +191,36 @@ export const recipeDietFilters = (Object.keys(dietLabels) as RecipeDiet[]).map((
   label: dietLabels[diet]
 }));
 
+export const recipeProductFilters = products.map((product) => ({
+  slug: product.slug,
+  label: product.name
+}));
+
+const getRecipeProductSlugs = (recipe: SourceRecipe, relatedProductSlug: string) => {
+  const searchableText = normalizeText(
+    [
+      recipe.title,
+      recipe.seo_title,
+      recipe.meta_description,
+      ...recipe.keywords,
+      ...recipe.ingredients.map((ingredient) => ingredient.name)
+    ].join(" ")
+  );
+  const matchedProductSlugs = products
+    .filter((product) =>
+      (productIngredientTerms[product.slug] ?? [product.name]).some((term) => searchableText.includes(normalizeText(term)))
+    )
+    .map((product) => product.slug);
+
+  return Array.from(new Set([relatedProductSlug, ...matchedProductSlugs]));
+};
+
 export const recipes: Recipe[] = source.recipes.map((recipe) => {
   const diets = getRecipeDiets(recipe);
+  const productSlugs = getRecipeProductSlugs(recipe, recipeProduct.slug);
+  const productLabels = productSlugs
+    .map((slug) => products.find((product) => product.slug === slug)?.name)
+    .filter((name): name is string => Boolean(name));
 
   return {
     ...recipe,
@@ -195,18 +239,26 @@ export const recipes: Recipe[] = source.recipes.map((recipe) => {
       available: true
     },
     diets,
-    dietLabels: diets.map((diet) => dietLabels[diet])
+    dietLabels: diets.map((diet) => dietLabels[diet]),
+    productSlugs,
+    productLabels
   };
 });
 
 export const getRecipeBySlug = (slug: string) => recipes.find((recipe) => recipe.slug === slug);
 
-export const getRecipesByFilters = ({ category, diet }: RecipeFilters = {}) => {
+export const getRecipesByFilters = (filters: RecipeFilters = {}) => {
+  const { category, diet, productSlugs = [] } = filters;
+  const selectedProductSlugs = productSlugs.filter(Boolean);
+
   return recipes.filter((recipe) => {
     const matchesCategory = category ? recipe.category === category : true;
     const matchesDiet = diet ? recipe.diets.includes(diet) : true;
+    const matchesProducts = selectedProductSlugs.length > 0
+      ? selectedProductSlugs.every((slug) => recipe.productSlugs.includes(slug))
+      : true;
 
-    return matchesCategory && matchesDiet;
+    return matchesCategory && matchesDiet && matchesProducts;
   });
 };
 
@@ -220,6 +272,12 @@ export const isRecipeCategory = (category?: string): category is RecipeCategory 
 
 export const isRecipeDiet = (diet?: string): diet is RecipeDiet => Boolean(diet && diet in dietLabels);
 
+export const isRecipeProductSlug = (slug?: string) =>
+  Boolean(slug && products.some((product) => product.slug === slug));
+
 export const getRecipeCategoryLabel = (category: RecipeCategory) => categoryLabels[category];
 
 export const getRecipeDietLabel = (diet: RecipeDiet) => dietLabels[diet];
+
+export const getRecipeProductLabel = (slug: string) =>
+  products.find((product) => product.slug === slug)?.name ?? slug;

@@ -33,14 +33,14 @@ export default function ProductsPage() {
       />
       <section className="bg-cream py-10 md:py-12">
         <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 lg:grid-cols-[1fr_0.92fr_1fr] lg:items-center md:px-8">
-          <div className="overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
+          <div className="raian-media overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
             <Image
               src="/images/brand/mapa-espana-ingredientes.webp"
               alt="Mapa de España compuesto con ingredientes alimentarios"
               width={1536}
               height={1024}
               priority
-              className="aspect-[16/9] w-full rounded-sm object-cover"
+              className="raian-media-image aspect-[16/9] w-full rounded-sm object-cover"
               sizes="(min-width: 1024px) 31vw, 100vw"
             />
           </div>
@@ -53,14 +53,14 @@ export default function ProductsPage() {
               Referencias, usos habituales y datos disponibles organizados para facilitar la decisión de compra.
             </p>
           </div>
-          <div className="overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
+          <div className="raian-media overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
             <Image
               src="/images/brand/catalogo-raian-foods-oficina.png"
               alt="Composición visual del catálogo RAIAN en un entorno corporativo"
               width={1254}
               height={1254}
               priority
-              className="aspect-[16/9] w-full rounded-sm object-cover"
+              className="raian-media-image aspect-[16/9] w-full rounded-sm object-cover"
               sizes="(min-width: 1024px) 31vw, 100vw"
             />
           </div>

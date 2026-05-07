@@ -890,6 +890,48 @@ const contextualTranslations = {
     fr: "Contenu utile",
     de: "Nützliche Inhalte"
   },
+  "Recetas para hacer en casa con ingredientes claros.": {
+    va: "Receptes per a fer a casa amb ingredients clars.",
+    ca: "Receptes per fer a casa amb ingredients clars.",
+    en: "Recipes to make at home with clear ingredients.",
+    fr: "Des recettes à préparer chez soi avec des ingrédients clairs.",
+    de: "Rezepte für zu Hause mit klaren Zutaten."
+  },
+  "Inspírate con preparaciones dulces y saladas, tiempos claros e ingredientes medidos. Filtra por tipo, por necesidades alimentarias o por los productos RAIAN que quieras utilizar.": {
+    va: "Inspira't amb preparacions dolces i salades, temps clars i ingredients mesurats. Filtra per tipus, per necessitats alimentàries o pels productes RAIAN que vulgues utilitzar.",
+    ca: "Inspira't amb preparacions dolces i salades, temps clars i ingredients mesurats. Filtra per tipus, per necessitats alimentàries o pels productes RAIAN que vulguis utilitzar.",
+    en: "Find inspiration in sweet and savoury ideas, clear timings and measured ingredients. Filter by type, dietary needs or the RAIAN products you want to use.",
+    fr: "Inspirez-vous de préparations sucrées et salées, avec des temps clairs et des ingrédients mesurés. Filtrez par type, besoins alimentaires ou produits RAIAN à utiliser.",
+    de: "Lassen Sie sich von süßen und herzhaften Ideen mit klaren Zeiten und abgewogenen Zutaten inspirieren. Filtern Sie nach Art, Ernährungsbedarf oder den RAIAN-Produkten, die Sie verwenden möchten."
+  },
+  "Producto RAIAN": {
+    va: "Producte RAIAN",
+    ca: "Producte RAIAN",
+    en: "RAIAN product",
+    fr: "Produit RAIAN",
+    de: "RAIAN-Produkt"
+  },
+  "Quitar productos": {
+    va: "Llevar productes",
+    ca: "Treure productes",
+    en: "Clear products",
+    fr: "Retirer les produits",
+    de: "Produkte entfernen"
+  },
+  "Selecciona uno o varios. Si marcas varios, se mostrarán recetas que contengan todos esos productos.": {
+    va: "Selecciona'n un o diversos. Si en marques diversos, es mostraran receptes que continguen tots eixos productes.",
+    ca: "Selecciona'n un o diversos. Si en marques diversos, es mostraran receptes que continguin tots aquests productes.",
+    en: "Select one or more. If you select several, only recipes containing all those products will be shown.",
+    fr: "Sélectionnez-en un ou plusieurs. Si vous en choisissez plusieurs, seules les recettes contenant tous ces produits s'afficheront.",
+    de: "Wählen Sie eines oder mehrere aus. Wenn Sie mehrere markieren, werden nur Rezepte angezeigt, die alle diese Produkte enthalten."
+  },
+  "Todos los productos": {
+    va: "Tots els productes",
+    ca: "Tots els productes",
+    en: "All products",
+    fr: "Tous les produits",
+    de: "Alle Produkte"
+  },
   "Explora recetas con ingredientes en gramos, tiempos claros, alergenos destacados y tablas nutricionales estimadas. Filtra por tipo o por necesidades como sin lactosa y sin gluten.": {
     va: "Explora receptes amb ingredients en grams, temps clars, al·lèrgens destacats i taules nutricionals estimades. Filtra per tipus o per necessitats com sense lactosa i sense gluten.",
     ca: "Explora receptes amb ingredients en grams, temps clars, al·lèrgens destacats i taules nutricionals estimades. Filtra per tipus o per necessitats com sense lactosa i sense gluten.",
@@ -931,6 +973,55 @@ const contextualTranslations = {
     en: "Related product",
     fr: "Produit associé",
     de: "Zugehöriges Produkt"
+  },
+  "Enviar por correo": {
+    va: "Enviar per correu",
+    ca: "Enviar per correu",
+    en: "Send by email",
+    fr: "Envoyer par e-mail",
+    de: "Per E-Mail senden"
+  },
+  "¿Te gusta esta receta?": {
+    va: "T'agrada esta recepta?",
+    ca: "T'agrada aquesta recepta?",
+    en: "Do you like this recipe?",
+    fr: "Vous aimez cette recette ?",
+    de: "Gefällt Ihnen dieses Rezept?"
+  },
+  "Envíarsela por correo a quien tú quieras.": {
+    va: "Envia-la per correu a qui vulgues.",
+    ca: "Envia-la per correu a qui vulguis.",
+    en: "Email it to whoever you like.",
+    fr: "Envoyez-la par e-mail à la personne de votre choix.",
+    de: "Senden Sie es per E-Mail an die gewünschte Person."
+  },
+  "Correo electrónico": {
+    va: "Correu electrònic",
+    ca: "Correu electrònic",
+    en: "Email address",
+    fr: "Adresse e-mail",
+    de: "E-Mail-Adresse"
+  },
+  "correo@ejemplo.com": {
+    va: "correu@exemple.com",
+    ca: "correu@exemple.com",
+    en: "email@example.com",
+    fr: "adresse@exemple.fr",
+    de: "name@beispiel.de"
+  },
+  "Escribe un correo para preparar el envío.": {
+    va: "Escriu un correu per a preparar l'enviament.",
+    ca: "Escriu un correu per preparar l'enviament.",
+    en: "Enter an email address to prepare the message.",
+    fr: "Saisissez une adresse e-mail pour préparer l'envoi.",
+    de: "Geben Sie eine E-Mail-Adresse ein, um die Nachricht vorzubereiten."
+  },
+  "Se abrirá tu aplicación de correo con la receta preparada.": {
+    va: "S'obrirà la teua aplicació de correu amb la recepta preparada.",
+    ca: "S'obrirà la teva aplicació de correu amb la recepta preparada.",
+    en: "Your email app will open with the recipe ready to send.",
+    fr: "Votre application e-mail va s'ouvrir avec la recette prête à envoyer.",
+    de: "Ihre E-Mail-App öffnet sich mit dem vorbereiteten Rezept."
   },
   "Preparación": {
     va: "Preparació",
@@ -1699,6 +1790,22 @@ const countPatterns: Array<{
   pattern: RegExp;
   render: (locale: Locale, ...matches: string[]) => string;
 }> = [
+  {
+    pattern: /^Todos los productos \((\d+)\)$/,
+    render: (locale, count) =>
+      ({
+        es: `Todos los productos (${count})`,
+        va: `Tots els productes (${count})`,
+        ca: `Tots els productes (${count})`,
+        en: `All products (${count})`,
+        fr: `Tous les produits (${count})`,
+        de: `Alle Produkte (${count})`
+      })[locale]
+  },
+  {
+    pattern: /^(Gelatina neutra bovina|Gelatina neutra porcina|Harina de almendra|Dextrosa|Glucosa) \((\d+)\)$/,
+    render: (locale, label, count) => `${translateKnownText(label, locale)} (${count})`
+  },
   {
     pattern: /^Todos \((\d+)\)$/,
     render: (locale, count) =>

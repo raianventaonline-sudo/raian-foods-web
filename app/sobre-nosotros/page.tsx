@@ -119,14 +119,14 @@ export default function AboutPage() {
               con un catálogo claro, fichas ordenadas y contacto visible.
             </p>
           </div>
-          <div className="mx-auto w-full max-w-xl overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
+          <div className="raian-media mx-auto w-full max-w-xl overflow-hidden rounded-md border border-line bg-white p-2 shadow-sm">
             <Image
               src="/images/about/productos-raian-foods-catalogo.png"
               alt="Composición visual de productos alimenticios RAIAN en formato catálogo"
               width={1536}
               height={1024}
               priority
-              className="aspect-[4/3] w-full rounded-sm object-cover"
+              className="raian-media-image aspect-[4/3] w-full rounded-sm object-cover"
               sizes="(min-width: 768px) 42vw, 100vw"
             />
           </div>
@@ -136,13 +136,13 @@ export default function AboutPage() {
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-5 px-5 md:grid-cols-2 lg:grid-cols-4 md:px-8">
           {pillars.map((pillar) => (
-            <article key={pillar.title} className="flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
-              <div className="relative aspect-[4/3] bg-cream">
+            <article key={pillar.title} className="raian-card flex h-full flex-col overflow-hidden rounded-md border border-line bg-white shadow-sm">
+              <div className="raian-media relative aspect-[4/3] bg-cream">
                 <Image
                   src={pillar.image.src}
                   alt={pillar.image.alt}
                   fill
-                  className="object-cover"
+                  className="raian-media-image object-cover"
                   sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
                 />
               </div>
@@ -164,7 +164,7 @@ export default function AboutPage() {
           />
           <ul className="grid gap-3 sm:grid-cols-2">
             {principles.map((item) => (
-              <li key={item} className="rounded-md border border-line bg-white px-5 py-4 text-sm font-semibold leading-6 text-ink">
+              <li key={item} className="raian-card rounded-md border border-line bg-white px-5 py-4 text-sm font-semibold leading-6 text-ink">
                 {item}
               </li>
             ))}
@@ -181,13 +181,13 @@ export default function AboutPage() {
           />
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {brandScenes.map((scene) => (
-              <article key={scene.title} className="overflow-hidden rounded-md border border-line bg-white shadow-sm">
-                <div className="relative aspect-[4/3] bg-cream">
+              <article key={scene.title} className="raian-card overflow-hidden rounded-md border border-line bg-white shadow-sm">
+                <div className="raian-media relative aspect-[4/3] bg-cream">
                   <Image
                     src={scene.image.src}
                     alt={scene.image.alt}
                     fill
-                    className="object-cover"
+                    className="raian-media-image object-cover"
                     sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
                   />
                 </div>

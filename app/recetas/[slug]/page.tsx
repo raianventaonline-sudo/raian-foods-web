@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { EmailShareForm } from "@/components/EmailShareForm";
 import { JsonLd } from "@/components/JsonLd";
 import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { RecipeRating } from "@/components/RecipeRating";
@@ -157,6 +158,11 @@ export default function RecipePage({ params }: RecipePageProps) {
     notFound();
   }
 
+  const recipeUrl = absoluteUrl(`/recetas/${recipe.slug}`);
+  const emailSubject = `Receta RAIAN: ${recipe.title}`;
+  const emailBody = `Te comparto esta receta de RAIAN:\n\n${recipe.title}\n${recipeUrl}`;
+  const emailHref = `mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+
   return (
     <>
       <JsonLd data={recipeJsonLd(recipe)} />
@@ -199,6 +205,12 @@ export default function RecipePage({ params }: RecipePageProps) {
               </div>
             </div>
             <RecipeRating recipeSlug={recipe.slug} recipeTitle={recipe.title} />
+            <a
+              href={emailHref}
+              className="raian-button-glow mt-5 inline-flex min-h-12 items-center justify-center rounded-full border border-line bg-white px-6 text-sm font-semibold text-ink transition hover:border-olive hover:text-olive focus:outline-none focus:ring-2 focus:ring-olive focus:ring-offset-2"
+            >
+              Enviar por correo
+            </a>
           </div>
           <PlaceholderMedia asset={recipe.image} className="aspect-[4/3]" priority sizes="(min-width: 1024px) 44vw, 100vw" />
         </div>
@@ -280,6 +292,12 @@ export default function RecipePage({ params }: RecipePageProps) {
               después de incorporarla.
             </p>
           </article>
+        </div>
+      </section>
+
+      <section className="bg-cream py-12 md:py-16">
+        <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+          <EmailShareForm title={recipe.title} url={recipeUrl} />
         </div>
       </section>
 
