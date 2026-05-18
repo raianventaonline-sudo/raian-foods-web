@@ -1,4 +1,4 @@
-import recipesSource from "./recipes-gelatina-bovina-260-bloom.json";
+import bovineGelatinSource from "./recipes-gelatina-bovina-260-bloom.json";
 import { products, type ImageAsset } from "@/data/products";
 
 export type RecipeCategory = "fitness" | "premium" | "familiar" | "casera";
@@ -44,6 +44,7 @@ type SourceRecipe = {
   servings: number;
   times: RecipeTimes;
   allergens: string[];
+  image_available?: boolean;
   ingredients: RecipeIngredient[];
   steps: string[];
   nutrition_per_serving: RecipeNutrition;
@@ -55,6 +56,7 @@ type SourceRecipe = {
 
 type RecipesSource = {
   brand: string;
+  product_slug?: string;
   product: {
     name: string;
     nutrition_per_100g: Record<string, number>;
@@ -88,8 +90,6 @@ export type Recipe = SourceRecipe & {
   productLabels: string[];
 };
 
-const source = recipesSource as RecipesSource;
-
 const categoryLabels: Record<RecipeCategory, string> = {
   fitness: "Fitness",
   premium: "Premium",
@@ -113,7 +113,9 @@ const dairyIngredientTerms = [
   "skyr",
   "mascarpone",
   "mantequilla",
-  "chocolate blanco"
+  "chocolate blanco",
+  "caseina",
+  "caseína"
 ];
 
 const glutenIngredientTerms = ["galleta", "avena", "harina", "trigo"];
@@ -122,66 +124,203 @@ const productIngredientTerms: Record<string, string[]> = {
   "gelatina-neutra-bovina": [
     "gelatina neutra bovina",
     "gelatina bovina neutra",
-    "gelatina bovina",
-    "gelatina bovina 260"
+    "gelatina bovina"
   ],
-  "gelatina-neutra-porcina": ["gelatina neutra porcina", "gelatina porcina neutra", "gelatina porcina"],
-  "harina-de-almendra": ["harina de almendra", "almendra molida", "base de almendra", "almendra"],
+  "gelatina-neutra-porcina": [
+    "gelatina neutra porcina",
+    "gelatina porcina neutra",
+    "gelatina porcina"
+  ],
+  "harina-de-almendra": ["harina de almendra", "almendra molida", "base de almendra"],
   dextrosa: ["dextrosa"],
-  glucosa: ["glucosa"]
+  glucosa: ["glucosa"],
+  "chocolate-a-la-taza": ["chocolate a la taza raian", "preparado de chocolate"],
+  maltodextrina: ["maltodextrina"],
+  "cacao-en-polvo-alcalino": ["cacao en polvo alcalino", "cacao alcalino", "cacao 22/24", "cacao raian"],
+  "caseina-pura-neutra": ["caseína pura", "caseina pura", "caseína neutra", "caseina neutra"],
+  "inulina-de-agave": ["inulina de agave", "inulina raian"],
+  "pistacho-puro-en-grano": ["pistacho puro en grano", "pistacho raian", "pistacho en grano"],
+  "lecitina-de-soja": ["lecitina de soja raian", "lecitina de soja"]
 };
 
 const normalizeText = (value: string) =>
   value
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[̀-ͯ]/g, "")
     .toLowerCase();
 
 const hasTextMatch = (values: string[], terms: string[]) => {
   const normalizedValues = values.map(normalizeText);
-
   return terms.some((term) => normalizedValues.some((value) => value.includes(normalizeText(term))));
 };
 
 const getRecipeDiets = (recipe: SourceRecipe): RecipeDiet[] => {
   const allergenText = recipe.allergens.join(" ");
   const ingredientNames = recipe.ingredients.map((ingredient) => ingredient.name);
-  const hasDairy = normalizeText(allergenText).includes("leche") || hasTextMatch(ingredientNames, dairyIngredientTerms);
-  const hasGluten = normalizeText(allergenText).includes("gluten") || hasTextMatch(ingredientNames, glutenIngredientTerms);
+  const hasDairy =
+    normalizeText(allergenText).includes("leche") || hasTextMatch(ingredientNames, dairyIngredientTerms);
+  const hasGluten =
+    normalizeText(allergenText).includes("gluten") || hasTextMatch(ingredientNames, glutenIngredientTerms);
   const diets: RecipeDiet[] = [];
 
-  if (!hasDairy) {
-    diets.push("sin-lactosa");
-  }
-
-  if (!hasGluten) {
-    diets.push("sin-gluten");
-  }
+  if (!hasDairy) diets.push("sin-lactosa");
+  if (!hasGluten) diets.push("sin-gluten");
 
   return diets;
 };
 
 const formatMinutes = (minutes: number) => {
-  if (minutes < 60) {
-    return `${minutes} min`;
-  }
-
+  if (minutes < 60) return `${minutes} min`;
   const hours = Math.floor(minutes / 60);
   const remainingMinutes = minutes % 60;
-
   return remainingMinutes > 0 ? `${hours} h ${remainingMinutes} min` : `${hours} h`;
 };
 
-export const recipeProduct = {
-  name: source.product.name,
-  slug: "gelatina-neutra-bovina",
-  dosageNote: source.product.dosage_note,
-  technicalNote: source.product.technical_note
+const getRecipeProductSlugs = (recipe: SourceRecipe, relatedProductSlug: string) => {
+  const searchableText = normalizeText(
+    [
+      recipe.title,
+      recipe.seo_title,
+      recipe.meta_description,
+      ...recipe.keywords,
+      ...recipe.ingredients.map((ingredient) => ingredient.name)
+    ].join(" ")
+  );
+
+  const matchedProductSlugs = products
+    .filter((product) =>
+      (productIngredientTerms[product.slug] ?? [product.name]).some((term) =>
+        searchableText.includes(normalizeText(term))
+      )
+    )
+    .map((product) => product.slug);
+
+  return Array.from(new Set([relatedProductSlug, ...matchedProductSlugs]));
 };
 
-export const recipeRequirements = source.website_requirements;
+const mapSource = (source: RecipesSource): Recipe[] => {
+  const productSlug = source.product_slug ?? "gelatina-neutra-bovina";
+  const productName = source.product.name;
+  const dosageNote = source.product.dosage_note;
 
-export const recipeCategories = source.website_requirements.categories.map((category) => ({
+  return source.recipes.map((recipe) => {
+    const diets = getRecipeDiets(recipe);
+    const productSlugs = getRecipeProductSlugs(recipe, productSlug);
+    const productLabels = productSlugs
+      .map((slug) => products.find((p) => p.slug === slug)?.name)
+      .filter((name): name is string => Boolean(name));
+    const imageAvailable = recipe.image_available ?? true;
+
+    return {
+      ...recipe,
+      name: recipe.title,
+      seoTitle: recipe.seo_title,
+      metaDescription: recipe.meta_description,
+      summary: recipe.intro,
+      categoryLabel: categoryLabels[recipe.category],
+      relatedProduct: productName,
+      relatedProductSlug: productSlug,
+      time: formatMinutes(recipe.times.total_min),
+      image: {
+        src: `/images/recipes/${recipe.slug}.svg`,
+        alt: `${recipe.title} preparada como receta RAIAN`,
+        label: categoryLabels[recipe.category],
+        available: imageAvailable
+      },
+      diets,
+      dietLabels: diets.map((diet) => dietLabels[diet]),
+      productSlugs,
+      productLabels
+    };
+  });
+};
+
+// ── Fuente principal (gelatina bovina – JSON legacy, sin product_slug) ──────
+const bovineSource = bovineGelatinSource as RecipesSource;
+const bovineWithSlug: RecipesSource = { ...bovineSource, product_slug: "gelatina-neutra-bovina" };
+
+// ── Fuentes adicionales (se importan cuando el JSON existe) ──────────────────
+// Cada import se activa una vez el fichero JSON correspondiente está creado.
+// Para añadir un nuevo producto: crear data/recipes-{slug}.json y añadir aquí.
+let extraSources: RecipesSource[] = [];
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-gelatina-neutra-porcina.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-harina-de-almendra.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-dextrosa.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-glucosa.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-chocolate-a-la-taza.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-maltodextrina.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-cacao-en-polvo-alcalino.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-caseina-pura-neutra.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-inulina-de-agave.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-pistacho-puro-en-grano.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-lecitina-de-soja.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
+// ── Export principal ─────────────────────────────────────────────────────────
+export const recipeProduct = {
+  name: bovineSource.product.name,
+  slug: "gelatina-neutra-bovina",
+  dosageNote: bovineSource.product.dosage_note,
+  technicalNote: bovineSource.product.technical_note
+};
+
+export const recipeRequirements = bovineSource.website_requirements;
+
+export const recipeCategories = bovineSource.website_requirements.categories.map((category) => ({
   slug: category,
   label: categoryLabels[category]
 }));
@@ -196,54 +335,10 @@ export const recipeProductFilters = products.map((product) => ({
   label: product.name
 }));
 
-const getRecipeProductSlugs = (recipe: SourceRecipe, relatedProductSlug: string) => {
-  const searchableText = normalizeText(
-    [
-      recipe.title,
-      recipe.seo_title,
-      recipe.meta_description,
-      ...recipe.keywords,
-      ...recipe.ingredients.map((ingredient) => ingredient.name)
-    ].join(" ")
-  );
-  const matchedProductSlugs = products
-    .filter((product) =>
-      (productIngredientTerms[product.slug] ?? [product.name]).some((term) => searchableText.includes(normalizeText(term)))
-    )
-    .map((product) => product.slug);
-
-  return Array.from(new Set([relatedProductSlug, ...matchedProductSlugs]));
-};
-
-export const recipes: Recipe[] = source.recipes.map((recipe) => {
-  const diets = getRecipeDiets(recipe);
-  const productSlugs = getRecipeProductSlugs(recipe, recipeProduct.slug);
-  const productLabels = productSlugs
-    .map((slug) => products.find((product) => product.slug === slug)?.name)
-    .filter((name): name is string => Boolean(name));
-
-  return {
-    ...recipe,
-    name: recipe.title,
-    seoTitle: recipe.seo_title,
-    metaDescription: recipe.meta_description,
-    summary: recipe.intro,
-    categoryLabel: categoryLabels[recipe.category],
-    relatedProduct: recipeProduct.name,
-    relatedProductSlug: recipeProduct.slug,
-    time: formatMinutes(recipe.times.total_min),
-    image: {
-      src: `/images/recipes/${recipe.slug}.svg`,
-      alt: `${recipe.title} preparada como receta RAIAN`,
-      label: categoryLabels[recipe.category],
-      available: true
-    },
-    diets,
-    dietLabels: diets.map((diet) => dietLabels[diet]),
-    productSlugs,
-    productLabels
-  };
-});
+export const recipes: Recipe[] = [
+  ...mapSource(bovineWithSlug),
+  ...extraSources.flatMap(mapSource)
+];
 
 export const getRecipeBySlug = (slug: string) => recipes.find((recipe) => recipe.slug === slug);
 
@@ -254,10 +349,10 @@ export const getRecipesByFilters = (filters: RecipeFilters = {}) => {
   return recipes.filter((recipe) => {
     const matchesCategory = category ? recipe.category === category : true;
     const matchesDiet = diet ? recipe.diets.includes(diet) : true;
-    const matchesProducts = selectedProductSlugs.length > 0
-      ? selectedProductSlugs.every((slug) => recipe.productSlugs.includes(slug))
-      : true;
-
+    const matchesProducts =
+      selectedProductSlugs.length > 0
+        ? selectedProductSlugs.every((slug) => recipe.productSlugs.includes(slug))
+        : true;
     return matchesCategory && matchesDiet && matchesProducts;
   });
 };
@@ -265,19 +360,19 @@ export const getRecipesByFilters = (filters: RecipeFilters = {}) => {
 export const getRecipesByCategory = (category?: string) =>
   getRecipesByFilters({ category: isRecipeCategory(category) ? category : undefined });
 
-export const getRecipesForProduct = (slugs: string[]) => recipes.filter((recipe) => slugs.includes(recipe.slug));
+export const getRecipesForProduct = (slugs: string[]) =>
+  recipes.filter((recipe) => slugs.includes(recipe.slug));
 
 export const isRecipeCategory = (category?: string): category is RecipeCategory =>
   Boolean(category && category in categoryLabels);
 
-export const isRecipeDiet = (diet?: string): diet is RecipeDiet => Boolean(diet && diet in dietLabels);
+export const isRecipeDiet = (diet?: string): diet is RecipeDiet =>
+  Boolean(diet && diet in dietLabels);
 
 export const isRecipeProductSlug = (slug?: string) =>
   Boolean(slug && products.some((product) => product.slug === slug));
 
 export const getRecipeCategoryLabel = (category: RecipeCategory) => categoryLabels[category];
-
 export const getRecipeDietLabel = (diet: RecipeDiet) => dietLabels[diet];
-
 export const getRecipeProductLabel = (slug: string) =>
   products.find((product) => product.slug === slug)?.name ?? slug;

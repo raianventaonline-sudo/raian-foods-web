@@ -12,8 +12,8 @@ export function RelatedProducts({ products }: RelatedProductsProps) {
 
   return (
     <div className="grid gap-6 md:grid-cols-3">
-      {products.slice(0, 3).map((product) => (
-        <ProductCard key={product.slug} product={product} />
+      {products.slice(0, 3).map((product, index) => (
+        <ProductCard key={product.slug} product={product} index={index} />
       ))}
     </div>
   );

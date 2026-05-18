@@ -1,0 +1,316 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "dextrosa",
+  "product": {
+    "name": "Dextrosa RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 1590,
+      "energy_kcal": 380,
+      "fat_g": 0,
+      "saturates_g": 0,
+      "carbohydrate_g": 95,
+      "sugars_g": 95,
+      "protein_g": 0,
+      "fiber_g": 0,
+      "salt_g": 0.01
+    },
+    "technical_note": "La dextrosa (glucosa monohidrato) es un azúcar simple de absorción rápida. Índice glucémico alto. No apta para diabéticos sin supervisión médica. Tabla nutricional basada en composición estándar de dextrosa monohidrato.",
+    "dosage_note": "Poder edulcorante aproximado del 70% respecto al azúcar. Ajustar cantidad al gusto."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["fitness", "familiar", "casera"],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "La dextrosa no contiene alérgenos de declaración obligatoria. Verificar ausencia de contaminación cruzada en la planta de fabricación.",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "No usar términos como 'energía inmediata' ni 'apto para diabéticos'.",
+      "Describir usos técnicos (textura, conservación) de forma objetiva."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "fitness",
+      "title": "Bebida isotónica casera de limón y sal con dextrosa",
+      "slug": "bebida-isotonica-casera-de-limon-y-sal-con-dextrosa",
+      "seo_title": "Bebida isotónica casera con dextrosa RAIAN | Receta fitness",
+      "meta_description": "Bebida isotónica casera hecha con dextrosa RAIAN, zumo de limón, sal y agua. Recupera minerales durante el entrenamiento de forma económica y sin aditivos.",
+      "intro": "Una bebida de rehidratación casera con la proporción adecuada de carbohidratos y sales para acompañar sesiones de ejercicio moderadas o largas.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Agua mineral o del grifo filtrada", "g": 500, "key": "agua" },
+        { "name": "Dextrosa RAIAN", "g": 35, "key": "dextrosa" },
+        { "name": "Zumo de limón", "g": 30, "key": "zumo_limon" },
+        { "name": "Sal (cloruro sódico)", "g": 1, "key": "sal" }
+      ],
+      "steps": [
+        "Vierte el agua en una botella o jarra.",
+        "Añade la dextrosa RAIAN y remueve hasta que se disuelva completamente.",
+        "Exprime el limón y añade el zumo.",
+        "Incorpora la sal y vuelve a mezclar bien.",
+        "Consume durante el entrenamiento o en las dos horas siguientes."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 134,
+        "protein": 0.1,
+        "carbs": 33.6,
+        "sugars": 33.6,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 1.0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 24,
+        "protein": 0.0,
+        "carbs": 6.0,
+        "sugars": 6.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.18
+      },
+      "estimated_serving_g": 566,
+      "keywords": ["bebida isotónica casera", "dextrosa bebida deportiva", "hidratación entrenamiento"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Gel energético casero de plátano y dextrosa",
+      "slug": "gel-energetico-casero-de-platano-y-dextrosa",
+      "seo_title": "Gel energético casero de plátano y dextrosa RAIAN",
+      "meta_description": "Gel energético casero hecho con dextrosa RAIAN y plátano maduro. Fácil de llevar en entrenamiento o competición, sin colorantes y con carbohidratos de absorción rápida.",
+      "intro": "Un gel energético casero y económico para llevar al entrenamiento. El plátano aporta potasio y sabor, la dextrosa energía de absorción rápida.",
+      "servings": 3,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 8
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Plátano maduro", "g": 150, "key": "platano" },
+        { "name": "Dextrosa RAIAN", "g": 45, "key": "dextrosa" },
+        { "name": "Agua", "g": 30, "key": "agua" },
+        { "name": "Zumo de limón", "g": 10, "key": "zumo_limon" },
+        { "name": "Pizca de sal", "g": 0.5, "key": "sal" }
+      ],
+      "steps": [
+        "Tritura el plátano con el agua hasta obtener un puré liso.",
+        "Añade la dextrosa RAIAN y mezcla bien hasta disolver.",
+        "Incorpora el zumo de limón y la sal. Remueve.",
+        "Transfiere a bolsas de gel reutilizables o a un biberón de deportes.",
+        "Conserva refrigerado y consume en el día."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 120,
+        "protein": 0.5,
+        "carbs": 29.5,
+        "sugars": 25.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.9,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 160,
+        "protein": 0.6,
+        "carbs": 39.3,
+        "sugars": 33.3,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 1.2,
+        "salt": 0.10
+      },
+      "estimated_serving_g": 78,
+      "keywords": ["gel energético casero", "gel de plátano dextrosa", "nutrición deportiva casera"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Helado artesanal de fresa con dextrosa",
+      "slug": "helado-artesanal-de-fresa-con-dextrosa",
+      "seo_title": "Helado artesanal de fresa con dextrosa RAIAN",
+      "meta_description": "Helado artesanal de fresa elaborado con dextrosa RAIAN para una textura suave y cremosa sin cristales. Receta casera sin heladera, con sabor a fruta natural.",
+      "intro": "La dextrosa mejora la textura del helado casero porque dificulta la formación de cristales de hielo grandes, logrando un resultado más cremoso y suave.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 360,
+        "total_min": 375
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Fresas maduras", "g": 400, "key": "fresas" },
+        { "name": "Nata líquida 35% MG", "g": 200, "key": "nata" },
+        { "name": "Leche entera", "g": 100, "key": "leche" },
+        { "name": "Dextrosa RAIAN", "g": 80, "key": "dextrosa" },
+        { "name": "Zumo de limón", "g": 15, "key": "zumo_limon" }
+      ],
+      "steps": [
+        "Lava y trocea las fresas. Tritúralas con el zumo de limón hasta obtener un puré fino.",
+        "Mezcla el puré con la leche y la dextrosa RAIAN hasta disolver completamente.",
+        "Añade la nata sin montar y mezcla bien.",
+        "Vierte en un recipiente apto para congelador y congela 1 hora.",
+        "Saca del congelador y bate vigorosamente con tenedores o batidora para romper los cristales. Repite el proceso 3-4 veces con intervalos de 1 hora.",
+        "Deja congelar al menos 2 horas más. Saca 10 minutos antes de servir para que ablande."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 193,
+        "protein": 1.8,
+        "carbs": 18.5,
+        "sugars": 18.5,
+        "fat": 12.5,
+        "sat_fat": 7.8,
+        "fiber": 1.0,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 181,
+        "protein": 1.7,
+        "carbs": 17.4,
+        "sugars": 17.4,
+        "fat": 11.7,
+        "sat_fat": 7.3,
+        "fiber": 0.9,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 132,
+      "keywords": ["helado casero de fresa", "helado con dextrosa", "helado sin heladera"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Mermelada de albaricoque casera con dextrosa",
+      "slug": "mermelada-de-albaricoque-casera-con-dextrosa",
+      "seo_title": "Mermelada de albaricoque con dextrosa RAIAN | Receta casera",
+      "meta_description": "Mermelada de albaricoque casera elaborada con dextrosa RAIAN. Menos dulce que con azúcar convencional, con color brillante y sabor natural de la fruta.",
+      "intro": "Una mermelada con intenso sabor a albaricoque donde la dextrosa aporta un dulzor más suave que el azúcar blanco, preservando mejor el color y el aroma de la fruta.",
+      "servings": 10,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 25,
+        "rest_min": 30,
+        "total_min": 65
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Albaricoques maduros (sin hueso)", "g": 600, "key": "albaricoques" },
+        { "name": "Dextrosa RAIAN", "g": 200, "key": "dextrosa" },
+        { "name": "Zumo de limón", "g": 30, "key": "zumo_limon" },
+        { "name": "Pectina en polvo (opcional)", "g": 5, "key": "pectina" }
+      ],
+      "steps": [
+        "Lava y trocea los albaricoques sin hueso.",
+        "Coloca la fruta en un cazo con la dextrosa RAIAN y el zumo de limón. Mezcla y deja macerar 30 minutos.",
+        "Lleva a ebullición a fuego medio, removiendo frecuentemente.",
+        "Si usas pectina, añádela en este punto y remueve bien.",
+        "Cocina 20-25 minutos hasta que la mermelada espese. Prueba vertiendo una gota en un plato frío: debe solidificar.",
+        "Vierte caliente en tarros esterilizados, cierra y voltea boca abajo hasta que enfríen."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 104,
+        "protein": 0.6,
+        "carbs": 25.5,
+        "sugars": 25.5,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 1.1,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 126,
+        "protein": 0.7,
+        "carbs": 31.0,
+        "sugars": 31.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 1.3,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 83,
+      "keywords": ["mermelada casera con dextrosa", "mermelada de albaricoque", "mermelada sin azúcar blanca"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Bizcocho de deportista de avena y dextrosa",
+      "slug": "bizcocho-de-deportista-de-avena-y-dextrosa",
+      "seo_title": "Bizcocho fitness de avena y dextrosa RAIAN",
+      "meta_description": "Bizcocho de avena endulzado con dextrosa RAIAN: carga glucémica rápida para deportistas. Esponjoso, alto en carbohidratos y fácil de preparar para antes de entrenar.",
+      "intro": "Un bizcocho pensado para deportistas que buscan carbohidratos de calidad antes del entrenamiento. La dextrosa proporciona disponibilidad energética rápida.",
+      "servings": 8,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 30,
+        "rest_min": 10,
+        "total_min": 52
+      },
+      "allergens": ["Huevo", "Gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Copos de avena finos", "g": 180, "key": "avena" },
+        { "name": "Dextrosa RAIAN", "g": 100, "key": "dextrosa" },
+        { "name": "Huevos", "g": 150, "key": "huevos" },
+        { "name": "Leche desnatada", "g": 150, "key": "leche" },
+        { "name": "Aceite de girasol", "g": 50, "key": "aceite" },
+        { "name": "Levadura química", "g": 8, "key": "levadura" },
+        { "name": "Canela molida", "g": 3, "key": "canela" }
+      ],
+      "steps": [
+        "Precalienta el horno a 175°C. Engrasa un molde de 20 cm.",
+        "Muele los copos de avena en un procesador hasta obtener una harina gruesa.",
+        "Bate los huevos con la dextrosa RAIAN hasta que la mezcla esté espumosa.",
+        "Añade el aceite y la leche. Mezcla bien.",
+        "Incorpora la harina de avena, la levadura y la canela. Integra sin sobrebatir.",
+        "Vierte en el molde y hornea 28-30 minutos. Pincha con un palillo para comprobar cocción.",
+        "Deja reposar 10 minutos antes de desmoldar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 218,
+        "protein": 6.5,
+        "carbs": 32.0,
+        "sugars": 13.5,
+        "fat": 7.5,
+        "sat_fat": 1.2,
+        "fiber": 2.2,
+        "salt": 0.21
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 285,
+        "protein": 8.5,
+        "carbs": 41.8,
+        "sugars": 17.6,
+        "fat": 9.8,
+        "sat_fat": 1.6,
+        "fiber": 2.9,
+        "salt": 0.27
+      },
+      "estimated_serving_g": 98,
+      "keywords": ["bizcocho fitness de avena", "bizcocho con dextrosa", "snack preentrenamiento"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    }
+  ]
+}

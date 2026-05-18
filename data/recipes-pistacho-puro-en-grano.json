@@ -1,0 +1,318 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "pistacho-puro-en-grano",
+  "product": {
+    "name": "Pistacho Puro en Grano RAIAN",
+    "nutrition_per_100g": {
+      "kcal": 562,
+      "protein": 20,
+      "carbs": 28,
+      "sugars": 7,
+      "fat": 44,
+      "sat_fat": 5.4,
+      "fiber": 10,
+      "salt": 0.01
+    },
+    "technical_note": "Pistacho sin sal, sin tostar, en grano entero o partido. Sin conservantes ni aditivos. Apto veganos. Contiene frutos de cáscara.",
+    "dosage_note": "30 g al día como snack o ingrediente. Rico en grasas saludables monoinsaturadas, vitamina B6 y potasio."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["premium", "familiar", "casera"],
+    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "allergen_policy": "Declarar frutos de cáscara (pistachos). Posible trazas de otros frutos secos.",
+    "claim_policy": ["Alto en fibra", "Sin gluten", "Sin sal añadida", "Fuente de proteínas vegetales"]
+  },
+  "recipes": [
+    {
+      "category": "premium",
+      "title": "Helado de pistacho puro casero",
+      "slug": "helado-de-pistacho-puro-casero",
+      "seo_title": "Helado de pistacho puro casero | RAIAN",
+      "meta_description": "Helado de pistacho casero con pistacho puro RAIAN, leche entera y nata. Color natural verde, sin colorantes ni aromas artificiales. Receta premium para heladora o sin máquina.",
+      "intro": "El color verde natural del pistacho sin artificios. Este helado cremoso usa pistacho puro en grano RAIAN triturado en pasta para un sabor auténtico e intenso que ninguna versión industrial puede igualar.",
+      "servings": 4,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 10,
+        "rest_min": 360,
+        "total_min": 390
+      },
+      "allergens": ["frutos de cáscara", "leche", "huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Pistacho puro en grano RAIAN", "g": 100, "key": "pistacho" },
+        { "name": "Leche entera", "g": 250, "key": "leche" },
+        { "name": "Nata para montar 35% MG", "g": 200, "key": "nata" },
+        { "name": "Yemas de huevo", "g": 60, "key": "yemas" },
+        { "name": "Azúcar", "g": 80, "key": "azucar" },
+        { "name": "Extracto de vainilla", "g": 3, "key": "vainilla" }
+      ],
+      "steps": [
+        "Tritura el pistacho puro en grano RAIAN en un procesador de alimentos hasta obtener una pasta fina. Reserva unos granos para decorar.",
+        "Calienta la leche y la mitad de la nata en un cazo a fuego medio hasta que humee, sin hervir.",
+        "Bate las yemas con el azúcar hasta obtener una crema pálida.",
+        "Añade la mezcla de leche caliente a las yemas poco a poco sin dejar de batir para templarlas.",
+        "Devuelve la mezcla al cazo y cocina a fuego bajo removiendo hasta alcanzar 82°C o que nape la cuchara.",
+        "Añade la pasta de pistacho y el extracto de vainilla. Mezcla bien y filtra si fuera necesario.",
+        "Deja enfriar completamente y añade el resto de la nata. Congela en heladora o siguiendo el método manual de batir cada hora.",
+        "Sirve decorado con pistachos en grano picados."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 462,
+        "protein": 10.2,
+        "carbs": 32.4,
+        "sugars": 29.6,
+        "fat": 33.8,
+        "sat_fat": 14.2,
+        "fiber": 2.8,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 264,
+        "protein": 5.8,
+        "carbs": 18.5,
+        "sugars": 16.9,
+        "fat": 19.3,
+        "sat_fat": 8.1,
+        "fiber": 1.6,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 175,
+      "keywords": ["pistacho", "helado de pistacho", "helado casero", "sin colorantes", "premium", "frutos secos"],
+      "notes": "Para un color verde más intenso, blanquea los pistachos en agua hirviendo 1 minuto y pela la piel fina antes de triturar."
+    },
+    {
+      "category": "premium",
+      "title": "Crema de pistacho artesanal para untar",
+      "slug": "crema-de-pistacho-artesanal-para-untar",
+      "seo_title": "Crema de pistacho artesanal para untar | RAIAN",
+      "meta_description": "Crema de pistacho 100% artesanal con pistacho puro en grano RAIAN. Sin aceite de palma ni aditivos. Perfecta para tostadas, postres y repostería de autor.",
+      "intro": "Tres ingredientes, cero aditivos. Esta crema de pistacho artesanal con pistacho puro RAIAN supera cualquier versión comercial en sabor y calidad. Ideal para untar, rellenar o usar en repostería.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 30,
+        "total_min": 53
+      },
+      "allergens": ["frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Pistacho puro en grano RAIAN", "g": 200, "key": "pistacho" },
+        { "name": "Aceite de girasol o de pistacho", "g": 20, "key": "aceite" },
+        { "name": "Sal marina", "g": 2, "key": "sal" },
+        { "name": "Miel (opcional)", "g": 15, "key": "miel" }
+      ],
+      "steps": [
+        "Precalienta el horno a 160°C. Extiende el pistacho puro en grano RAIAN en una bandeja y tuéstalo 7-8 minutos removiendo a mitad. No debe dorarse en exceso.",
+        "Deja enfriar completamente antes de procesar para evitar aceite quemado.",
+        "Coloca los pistachos fríos en un procesador de alta potencia y tritura 2-3 minutos, raspando las paredes cada 30 segundos.",
+        "Cuando la mezcla empiece a volverse pastosa, añade el aceite, la sal y la miel si usas.",
+        "Continúa procesando 3-5 minutos más hasta obtener una crema suave y untuosa.",
+        "Envasa en un tarro de cristal hermético y conserva en la nevera hasta 3 semanas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 168,
+        "protein": 5.2,
+        "carbs": 6.8,
+        "sugars": 3.6,
+        "fat": 14.0,
+        "sat_fat": 1.8,
+        "fiber": 2.4,
+        "salt": 0.24
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 594,
+        "protein": 18.4,
+        "carbs": 24.0,
+        "sugars": 12.7,
+        "fat": 49.5,
+        "sat_fat": 6.4,
+        "fiber": 8.5,
+        "salt": 0.85
+      },
+      "estimated_serving_g": 28,
+      "keywords": ["pistacho", "crema de pistacho", "pasta de pistacho", "sin aditivos", "artesanal", "untar"],
+      "notes": "El procesador de vaso potente (tipo Thermomix o Vitamix) da mejor resultado que un procesador de alimentos pequeño. Cuanto más tiempo proceso, más suave queda."
+    },
+    {
+      "category": "familiar",
+      "title": "Ensalada de quinoa con pistacho, naranja y rúcula",
+      "slug": "ensalada-de-quinoa-con-pistacho-naranja-y-rucula",
+      "seo_title": "Ensalada de quinoa con pistacho y naranja | RAIAN",
+      "meta_description": "Ensalada templada de quinoa con pistacho puro RAIAN, naranja, rúcula y vinagreta de miel. Ligera, colorida y llena de proteína vegetal. Receta sin gluten y sin lactosa.",
+      "intro": "Una ensalada que parece de restaurante pero se hace en 25 minutos. El pistacho puro RAIAN aporta crujiente, proteína y un sabor a fruto seco que une todos los ingredientes.",
+      "servings": 2,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 15,
+        "rest_min": 5,
+        "total_min": 30
+      },
+      "allergens": ["frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Quinoa cocida", "g": 200, "key": "quinoa" },
+        { "name": "Pistacho puro en grano RAIAN", "g": 40, "key": "pistacho" },
+        { "name": "Naranja", "g": 200, "key": "naranja" },
+        { "name": "Rúcula fresca", "g": 60, "key": "rucula" },
+        { "name": "Aceite de oliva virgen extra", "g": 20, "key": "aove" },
+        { "name": "Miel", "g": 8, "key": "miel" },
+        { "name": "Zumo de limón", "g": 10, "key": "limon" },
+        { "name": "Sal y pimienta negra", "g": 3, "key": "sal" }
+      ],
+      "steps": [
+        "Cuece la quinoa siguiendo las instrucciones del paquete (normalmente 15 min a fuego medio). Escurre y deja templar.",
+        "Pela la naranja y córtala en gajos o rodajas finas, retirando la membrana blanca.",
+        "Prepara la vinagreta batiendo el aceite de oliva, la miel, el zumo de limón y sal y pimienta al gusto.",
+        "En una sartén sin aceite, tuesta el pistacho puro en grano RAIAN 2-3 minutos removiendo constantemente.",
+        "Monta la ensalada: coloca la quinoa templada en la base, añade la rúcula, los gajos de naranja y el pistacho tostado.",
+        "Riega con la vinagreta justo antes de servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 386,
+        "protein": 12.4,
+        "carbs": 44.2,
+        "sugars": 14.6,
+        "fat": 18.6,
+        "sat_fat": 2.4,
+        "fiber": 7.8,
+        "salt": 0.38
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 141,
+        "protein": 4.5,
+        "carbs": 16.1,
+        "sugars": 5.3,
+        "fat": 6.8,
+        "sat_fat": 0.9,
+        "fiber": 2.8,
+        "salt": 0.14
+      },
+      "estimated_serving_g": 270,
+      "keywords": ["pistacho", "ensalada de quinoa", "naranja", "rúcula", "sin gluten", "vegano", "proteína vegetal"],
+      "notes": "Tostar el pistacho en seco potencia su aroma. No lo dores en exceso o amargará."
+    },
+    {
+      "category": "casera",
+      "title": "Bizcocho húmedo de pistacho con glaseado de limón",
+      "slug": "bizcocho-humedo-de-pistacho-con-glaseado-de-limon",
+      "seo_title": "Bizcocho de pistacho con glaseado de limón | RAIAN",
+      "meta_description": "Bizcocho húmedo de pistacho puro RAIAN con textura densa y glaseado de limón. Receta casera sin colorantes que aprovecha todo el sabor natural del pistacho.",
+      "intro": "Un bizcocho de color verde suave y miga húmeda que huele a pastelería artesanal. El pistacho puro en grano RAIAN molido en casa da un sabor que no existe en ninguna versión industrial.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 45,
+        "rest_min": 30,
+        "total_min": 95
+      },
+      "allergens": ["frutos de cáscara", "huevo", "leche", "gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Pistacho puro en grano RAIAN molido", "g": 100, "key": "pistacho_molido" },
+        { "name": "Harina de trigo", "g": 150, "key": "harina" },
+        { "name": "Huevos", "g": 150, "key": "huevos" },
+        { "name": "Azúcar", "g": 120, "key": "azucar" },
+        { "name": "Mantequilla a temperatura ambiente", "g": 100, "key": "mantequilla" },
+        { "name": "Yogur natural", "g": 80, "key": "yogur" },
+        { "name": "Levadura química", "g": 8, "key": "levadura" },
+        { "name": "Ralladura de limón", "g": 5, "key": "ralladura" },
+        { "name": "Azúcar glas para el glaseado", "g": 60, "key": "azucar_glas" },
+        { "name": "Zumo de limón para el glaseado", "g": 20, "key": "zumo_limon" }
+      ],
+      "steps": [
+        "Precalienta el horno a 175°C. Engrasa y enharina un molde de 20 cm o uno de plum cake.",
+        "Muele el pistacho puro en grano RAIAN en un procesador hasta obtener una harina gruesa.",
+        "Bate la mantequilla con el azúcar hasta que esté cremosa y pálida. Añade los huevos de uno en uno.",
+        "Incorpora el yogur y la ralladura de limón.",
+        "Mezcla la harina de pistacho, la harina de trigo y la levadura. Tamiza e incorpora a la mezcla húmeda con movimientos envolventes.",
+        "Vierte en el molde y hornea 40-45 minutos. Comprueba con palillo que salga limpio.",
+        "Deja enfriar completamente. Mezcla el azúcar glas con el zumo de limón y vierte por encima."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 368,
+        "protein": 7.8,
+        "carbs": 38.6,
+        "sugars": 24.2,
+        "fat": 20.4,
+        "sat_fat": 8.6,
+        "fiber": 2.2,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 412,
+        "protein": 8.7,
+        "carbs": 43.2,
+        "sugars": 27.1,
+        "fat": 22.8,
+        "sat_fat": 9.6,
+        "fiber": 2.5,
+        "salt": 0.20
+      },
+      "estimated_serving_g": 112,
+      "keywords": ["pistacho", "bizcocho de pistacho", "glaseado de limón", "repostería casera", "sin colorantes"],
+      "notes": "Para un color más verde, blanquea los pistachos y pélalos antes de moler. El bizcocho mejora de un día para otro."
+    },
+    {
+      "category": "premium",
+      "title": "Pesto de pistacho con pasta fresca",
+      "slug": "pesto-de-pistacho-con-pasta-fresca",
+      "seo_title": "Pesto de pistacho con pasta fresca | RAIAN",
+      "meta_description": "Pesto siciliano de pistacho con pistacho puro en grano RAIAN, albahaca y parmesano. Salsa premium en 10 minutos para pasta, crostini o como aderezo gourmet.",
+      "intro": "Una salsa verde inspirada en la tradición siciliana donde el pistacho es protagonista absoluto. El pistacho puro en grano RAIAN da un sabor limpio sin sal añadida que realza el resto de ingredientes.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 10
+      },
+      "allergens": ["frutos de cáscara", "leche", "gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Pistacho puro en grano RAIAN", "g": 80, "key": "pistacho" },
+        { "name": "Albahaca fresca", "g": 30, "key": "albahaca" },
+        { "name": "Parmesano rallado", "g": 40, "key": "parmesano" },
+        { "name": "Aceite de oliva virgen extra", "g": 60, "key": "aove" },
+        { "name": "Diente de ajo", "g": 5, "key": "ajo" },
+        { "name": "Zumo de limón", "g": 10, "key": "limon" },
+        { "name": "Sal y pimienta negra", "g": 3, "key": "sal" },
+        { "name": "Pasta fresca para servir", "g": 320, "key": "pasta" }
+      ],
+      "steps": [
+        "Cuece la pasta en agua abundante con sal siguiendo las indicaciones del fabricante.",
+        "Mientras tanto, coloca el pistacho puro en grano RAIAN, la albahaca, el parmesano, el ajo y el zumo de limón en el procesador.",
+        "Tritura pulsando, no de forma continua, para obtener una textura granulada.",
+        "Con el procesador en marcha, añade el aceite de oliva en hilo fino hasta obtener una salsa cremosa.",
+        "Ajusta de sal y pimienta. Si queda muy espeso, añade 1-2 cucharadas del agua de la pasta.",
+        "Escurre la pasta reservando un poco de agua de cocción. Mezcla con el pesto y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 492,
+        "protein": 16.8,
+        "carbs": 46.2,
+        "sugars": 2.4,
+        "fat": 27.6,
+        "sat_fat": 5.2,
+        "fiber": 4.4,
+        "salt": 0.62
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 224,
+        "protein": 7.6,
+        "carbs": 21.0,
+        "sugars": 1.1,
+        "fat": 12.5,
+        "sat_fat": 2.4,
+        "fiber": 2.0,
+        "salt": 0.28
+      },
+      "estimated_serving_g": 137,
+      "keywords": ["pistacho", "pesto de pistacho", "pasta", "salsa siciliana", "premium", "albahaca"],
+      "notes": "Procesar en pulsos y no de forma continua da una textura más rústica y auténtica. El pesto sin pasta se conserva 5 días en nevera cubierto con aceite."
+    }
+  ]
+}

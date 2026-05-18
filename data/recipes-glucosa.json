@@ -1,0 +1,320 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "glucosa",
+  "product": {
+    "name": "Glucosa RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 1590,
+      "energy_kcal": 380,
+      "fat_g": 0,
+      "saturates_g": 0,
+      "carbohydrate_g": 95,
+      "sugars_g": 77,
+      "protein_g": 0,
+      "fiber_g": 0,
+      "salt_g": 0.01
+    },
+    "technical_note": "Jarabe o polvo de glucosa obtenido por hidrólisis del almidón. Higroscópico: conservar en lugar seco y hermético. Principal uso: evitar la cristalización del azúcar en caramelos, ganaché y helados.",
+    "dosage_note": "Uso habitual del 10-20% del peso total de azúcares para mejorar textura y evitar cristalización."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["premium", "casera", "familiar"],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "La glucosa no contiene alérgenos de declaración obligatoria. Verificar ausencia de contaminación cruzada si se procesa en planta compartida.",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "Describir el uso técnico de la glucosa (anticristalizante, higroscopicidad) como característica culinaria, no como claim nutricional."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "premium",
+      "title": "Caramelo suave y cremoso con glucosa",
+      "slug": "caramelo-suave-y-cremoso-con-glucosa",
+      "seo_title": "Caramelo suave y cremoso con glucosa RAIAN | Receta",
+      "meta_description": "Caramelo suave tipo toffee elaborado con glucosa RAIAN para evitar cristalización. Textura sedosa, perfecta para bombones, tartas o comer solo.",
+      "intro": "La glucosa es el secreto de los caramelos de confitería profesional: impide la cristalización del azúcar y logra esa textura suave y elástica que nunca consigues en casa sin ella.",
+      "servings": 20,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 20,
+        "rest_min": 60,
+        "total_min": 85
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Azúcar blanco", "g": 200, "key": "azucar" },
+        { "name": "Glucosa RAIAN", "g": 50, "key": "glucosa" },
+        { "name": "Nata líquida 35% MG", "g": 150, "key": "nata" },
+        { "name": "Mantequilla sin sal", "g": 40, "key": "mantequilla" },
+        { "name": "Sal en escamas", "g": 2, "key": "sal" }
+      ],
+      "steps": [
+        "Calienta la nata en un cazo pequeño hasta que esté caliente (sin hervir). Reserva.",
+        "En un cazo de fondo grueso, funde el azúcar con la glucosa RAIAN a fuego medio sin remover hasta obtener un caramelo de color ámbar oscuro.",
+        "Retira del fuego e incorpora la nata caliente con cuidado (burbujea con fuerza). Remueve sin parar.",
+        "Añade la mantequilla y la sal. Mezcla hasta integrar completamente.",
+        "Vierte en un molde forrado con papel de horno engrasado.",
+        "Deja enfriar a temperatura ambiente 1 hora. Corta en porciones y envuelve en papel."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 107,
+        "protein": 0.3,
+        "carbs": 16.8,
+        "sugars": 16.1,
+        "fat": 4.6,
+        "sat_fat": 2.9,
+        "fiber": 0.0,
+        "salt": 0.14
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 482,
+        "protein": 1.3,
+        "carbs": 75.7,
+        "sugars": 72.5,
+        "fat": 20.7,
+        "sat_fat": 13.1,
+        "fiber": 0.0,
+        "salt": 0.63
+      },
+      "estimated_serving_g": 22,
+      "keywords": ["caramelo suave con glucosa", "toffee casero", "caramelo anticristalización"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Ganache de chocolate negro satinada con glucosa",
+      "slug": "ganache-de-chocolate-negro-satinada-con-glucosa",
+      "seo_title": "Ganache de chocolate negro con glucosa RAIAN | Receta",
+      "meta_description": "Ganache de chocolate negro al 70% con glucosa RAIAN para una textura sedosa y brillante. Perfecta para tartas, bombones y trufas. Sin cristalización.",
+      "intro": "Una ganache con brillo espejo y textura perfectamente sedosa gracias a la glucosa, que estabiliza la emulsión y mantiene la ganache flexible sin separarse.",
+      "servings": 12,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 120,
+        "total_min": 135
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Chocolate negro 70% cacao", "g": 200, "key": "chocolate" },
+        { "name": "Nata líquida 35% MG", "g": 150, "key": "nata" },
+        { "name": "Glucosa RAIAN", "g": 25, "key": "glucosa" },
+        { "name": "Mantequilla sin sal", "g": 20, "key": "mantequilla" }
+      ],
+      "steps": [
+        "Trocea el chocolate finamente y colócalo en un bol resistente al calor.",
+        "Calienta la nata con la glucosa RAIAN hasta que rompa el hervor.",
+        "Vierte la mezcla caliente sobre el chocolate. Espera 1 minuto sin remover.",
+        "Emulsiona desde el centro hacia los bordes con una espátula o batidora de mano hasta obtener una mezcla brillante y homogénea.",
+        "Añade la mantequilla en dados y emulsiona de nuevo.",
+        "Cubre con film a piel y deja cristalizar a temperatura ambiente 2 horas antes de usar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 167,
+        "protein": 1.8,
+        "carbs": 12.5,
+        "sugars": 9.5,
+        "fat": 12.8,
+        "sat_fat": 7.5,
+        "fiber": 1.5,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 445,
+        "protein": 4.8,
+        "carbs": 33.3,
+        "sugars": 25.3,
+        "fat": 34.1,
+        "sat_fat": 20.0,
+        "fiber": 4.0,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 33,
+      "keywords": ["ganache de chocolate con glucosa", "ganache brillante", "ganache para tarta"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Helado cremoso de vainilla con glucosa sin heladera",
+      "slug": "helado-cremoso-de-vainilla-con-glucosa-sin-heladera",
+      "seo_title": "Helado cremoso de vainilla con glucosa RAIAN | Sin heladera",
+      "meta_description": "Helado casero de vainilla sin heladera con glucosa RAIAN para evitar cristales de hielo. Cremoso, suave y con sabor auténtico a vainilla natural.",
+      "intro": "La glucosa transforma un helado casero básico en uno con textura suave y cremosa, sin los cristales de hielo que suelen arruinar los helados caseros.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 10,
+        "rest_min": 360,
+        "total_min": 385
+      },
+      "allergens": ["Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Leche entera", "g": 300, "key": "leche" },
+        { "name": "Nata líquida 35% MG", "g": 200, "key": "nata" },
+        { "name": "Yemas de huevo", "g": 60, "key": "yemas" },
+        { "name": "Azúcar", "g": 80, "key": "azucar" },
+        { "name": "Glucosa RAIAN", "g": 30, "key": "glucosa" },
+        { "name": "Vaina de vainilla o extracto", "g": 5, "key": "vainilla" }
+      ],
+      "steps": [
+        "Calienta la leche con la nata y la vainilla hasta casi hervir. Retira y deja infusionar 10 minutos.",
+        "Bate las yemas con el azúcar y la glucosa RAIAN hasta blanquear.",
+        "Vierte la leche caliente sobre las yemas poco a poco, sin dejar de remover.",
+        "Cocina la crema inglesa resultante a 82°C sin dejar de remover hasta que nape la cuchara. Cuela y enfría.",
+        "Vierte en un recipiente de congelador y congela 1 hora.",
+        "Saca y bate con batidora de mano. Repite 3-4 veces cada 45 minutos. Congela un mínimo de 2 horas más."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 265,
+        "protein": 4.8,
+        "carbs": 24.5,
+        "sugars": 22.5,
+        "fat": 16.5,
+        "sat_fat": 9.5,
+        "fiber": 0.0,
+        "salt": 0.09
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 218,
+        "protein": 4.0,
+        "carbs": 20.2,
+        "sugars": 18.5,
+        "fat": 13.6,
+        "sat_fat": 7.8,
+        "fiber": 0.0,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 128,
+      "keywords": ["helado de vainilla casero", "helado con glucosa", "helado cremoso sin heladera"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Turrón blando de almendra con glucosa",
+      "slug": "turron-blando-de-almendra-con-glucosa",
+      "seo_title": "Turrón blando de almendra con glucosa RAIAN | Receta",
+      "meta_description": "Turrón blando tipo Jijona casero elaborado con glucosa RAIAN, almendras tostadas y miel. Sin cristalización, textura perfecta y sabor auténtico.",
+      "intro": "Un turrón blando artesanal con la textura característica del turrón de Jijona, donde la glucosa evita que el azúcar cristalice y mantiene la consistencia untuosa.",
+      "servings": 16,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 20,
+        "rest_min": 180,
+        "total_min": 215
+      },
+      "allergens": ["Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Almendras tostadas sin sal", "g": 250, "key": "almendras" },
+        { "name": "Miel", "g": 120, "key": "miel" },
+        { "name": "Azúcar", "g": 80, "key": "azucar" },
+        { "name": "Glucosa RAIAN", "g": 40, "key": "glucosa" },
+        { "name": "Claras de huevo", "g": 30, "key": "claras" },
+        { "name": "Ralladura de limón", "g": 4, "key": "ralladura_limon" }
+      ],
+      "steps": [
+        "Tritura la mitad de las almendras hasta obtener una pasta. Reserva el resto enteras o troceadas.",
+        "Calienta la miel, el azúcar y la glucosa RAIAN en un cazo hasta alcanzar 130°C (punto de bola blanda).",
+        "Mientras, monta las claras a punto de nieve firme.",
+        "Vierte el almíbar en hilo fino sobre las claras sin dejar de batir.",
+        "Añade la pasta de almendra, las almendras troceadas y la ralladura de limón. Mezcla bien.",
+        "Vierte en un molde forrado con papel de horno, cubre con otra hoja y prensa ligeramente.",
+        "Deja reposar 3 horas a temperatura ambiente antes de cortar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 168,
+        "protein": 4.2,
+        "carbs": 18.5,
+        "sugars": 17.0,
+        "fat": 9.0,
+        "sat_fat": 0.7,
+        "fiber": 1.5,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 474,
+        "protein": 11.9,
+        "carbs": 52.2,
+        "sugars": 47.9,
+        "fat": 25.4,
+        "sat_fat": 2.0,
+        "fiber": 4.2,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 40,
+      "keywords": ["turrón blando casero", "turrón de almendra con glucosa", "turrón artesanal"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Lemon curd sedoso con glucosa",
+      "slug": "lemon-curd-sedoso-con-glucosa",
+      "seo_title": "Lemon curd sedoso con glucosa RAIAN | Receta premium",
+      "meta_description": "Lemon curd de limón amarillo brillante elaborado con glucosa RAIAN para una textura perfectamente sedosa. Ideal para relleno de tartas, macarons o tostadas.",
+      "intro": "Un lemon curd con intenso sabor a limón fresco y una textura de terciopelo, gracias a la glucosa que estabiliza la crema y le da ese acabado brillante tan característico.",
+      "servings": 8,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 12,
+        "rest_min": 60,
+        "total_min": 82
+      },
+      "allergens": ["Huevo", "Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Zumo de limón", "g": 120, "key": "zumo_limon" },
+        { "name": "Ralladura de limón", "g": 8, "key": "ralladura_limon" },
+        { "name": "Huevos enteros", "g": 100, "key": "huevos" },
+        { "name": "Yemas de huevo", "g": 40, "key": "yemas" },
+        { "name": "Azúcar", "g": 100, "key": "azucar" },
+        { "name": "Glucosa RAIAN", "g": 20, "key": "glucosa" },
+        { "name": "Mantequilla sin sal fría", "g": 80, "key": "mantequilla" }
+      ],
+      "steps": [
+        "Bate los huevos y las yemas con el azúcar y la glucosa RAIAN en un cazo.",
+        "Añade el zumo y la ralladura de limón. Mezcla bien.",
+        "Cocina a fuego medio-bajo sin dejar de remover con una espátula hasta alcanzar 82°C y que la crema espese y cubra la cuchara.",
+        "Retira del fuego. Deja templar 5 minutos.",
+        "Incorpora la mantequilla fría en dados, mezclando hasta que se integre completamente.",
+        "Cuela la crema y pásala a tarros. Enfría en nevera al menos 1 hora antes de usar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 178,
+        "protein": 3.2,
+        "carbs": 18.0,
+        "sugars": 17.5,
+        "fat": 10.5,
+        "sat_fat": 5.8,
+        "fiber": 0.1,
+        "salt": 0.06
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 303,
+        "protein": 5.4,
+        "carbs": 30.7,
+        "sugars": 29.8,
+        "fat": 17.9,
+        "sat_fat": 9.9,
+        "fiber": 0.2,
+        "salt": 0.10
+      },
+      "estimated_serving_g": 59,
+      "keywords": ["lemon curd casero", "crema de limón con glucosa", "lemon curd para tarta"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    }
+  ]
+}

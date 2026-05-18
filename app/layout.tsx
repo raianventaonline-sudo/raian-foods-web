@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Fraunces, Inter } from "next/font/google";
 import "@/app/globals.css";
 import { AutoTranslator } from "@/components/AutoTranslator";
 import { CookieBanner } from "@/components/CookieBanner";
@@ -7,6 +8,20 @@ import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
 import { organizationJsonLd } from "@/lib/seo";
 import { siteConfig } from "@/data/site";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  axes: ["SOFT", "opsz"],
+  display: "swap",
+  variable: "--font-display"
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-sans"
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
@@ -56,7 +71,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es">
+    <html lang="es" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="font-sans">
         <JsonLd data={organizationJsonLd} />
         <Header />

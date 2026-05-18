@@ -21,7 +21,10 @@ export function GET(request: NextRequest, { params }: QrRedirectRouteProps) {
     });
   }
 
-  return NextResponse.redirect(new URL(qrLink.targetPath, request.url), {
+  const target = new URL(qrLink.targetPath, request.url);
+  target.searchParams.set("ref", "qr");
+
+  return NextResponse.redirect(target, {
     status: 307,
     headers: {
       "Cache-Control": "no-store"

@@ -1,0 +1,253 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "lecitina-de-soja",
+  "product": {
+    "name": "Lecitina de Soja RAIAN",
+    "nutrition_per_100g": {
+      "kcal": 763,
+      "protein": 3.5,
+      "carbs": 0,
+      "sugars": 0,
+      "fat": 96,
+      "sat_fat": 15,
+      "fiber": 0,
+      "salt": 0.02
+    },
+    "technical_note": "Lecitina de soja granulada con alto contenido en fosfatidilcolina. Emulsionante natural (E322). Contiene soja. Sin gluten. Apta veganos.",
+    "dosage_note": "5–15 g al día. Como emulsionante en cocina: 3–5 g por 500 ml de líquido. Para espumas: 3–5 g por 500 ml y batir con batidora de inmersión."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["premium", "fitness", "casera"],
+    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "allergen_policy": "Declarar soja. Sin gluten.",
+    "claim_policy": ["Sin gluten", "Sin lactosa", "Apto veganos", "Emulsionante natural"]
+  },
+  "recipes": [
+    {
+      "category": "premium",
+      "title": "Espuma de tomate con lecitina de soja para entrante",
+      "slug": "espuma-de-tomate-con-lecitina-de-soja-para-entrante",
+      "seo_title": "Espuma de tomate con lecitina de soja | RAIAN",
+      "meta_description": "Espuma de tomate aireada con lecitina de soja RAIAN al estilo cocina moderna. Técnica de esferificación ligera para entrantes y tapas de autor. Sin gluten, vegana.",
+      "intro": "Una técnica de cocina de vanguardia al alcance de cualquier cocina. La lecitina de soja RAIAN crea espumas aireadas estables que dan al tomate una textura completamente nueva y sorprendente.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 15,
+        "total_min": 30
+      },
+      "allergens": ["soja"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Tomates maduros licuados o zumo de tomate natural", "g": 400, "key": "tomate" },
+        { "name": "Lecitina de soja RAIAN", "g": 8, "key": "lecitina" },
+        { "name": "Aceite de oliva virgen extra", "g": 20, "key": "aove" },
+        { "name": "Sal", "g": 4, "key": "sal" },
+        { "name": "Vinagre de jerez", "g": 5, "key": "vinagre" },
+        { "name": "Albahaca fresca para decorar", "g": 5, "key": "albahaca" }
+      ],
+      "steps": [
+        "Licúa los tomates maduros y filtra el jugo para obtener 400 ml de líquido limpio.",
+        "Calienta ligeramente el zumo de tomate (no debe superar 60°C para preservar color).",
+        "Añade la lecitina de soja RAIAN, el aceite, la sal y el vinagre. Mezcla bien con varillas.",
+        "Deja reposar 15 minutos para que la lecitina hidrate completamente.",
+        "Con una batidora de inmersión, bate la superficie del líquido en ángulo para incorporar aire. Recoge solo la espuma formada.",
+        "Sirve la espuma inmediatamente sobre un fondo de tomate cortado o sobre tostadas, decorando con albahaca."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 68,
+        "protein": 1.4,
+        "carbs": 4.2,
+        "sugars": 3.8,
+        "fat": 5.4,
+        "sat_fat": 0.8,
+        "fiber": 1.0,
+        "salt": 0.42
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 77,
+        "protein": 1.6,
+        "carbs": 4.8,
+        "sugars": 4.3,
+        "fat": 6.1,
+        "sat_fat": 0.9,
+        "fiber": 1.1,
+        "salt": 0.48
+      },
+      "estimated_serving_g": 88,
+      "keywords": ["lecitina de soja", "espuma de tomate", "cocina molecular", "cocina de vanguardia", "emulsionante", "vegano"],
+      "notes": "La espuma es efímera: debe servirse en máximo 5 minutos. Cuanto más frío esté el líquido, más estable será la espuma. El ángulo de la batidora es clave: debe estar a 45° para incorporar aire."
+    },
+    {
+      "category": "premium",
+      "title": "Vinagreta emulsionada con lecitina de soja y mostaza",
+      "slug": "vinagreta-emulsionada-con-lecitina-de-soja-y-mostaza",
+      "seo_title": "Vinagreta emulsionada con lecitina de soja | RAIAN",
+      "meta_description": "Vinagreta estable y cremosa emulsionada con lecitina de soja RAIAN y mostaza de Dijon. No se separa. Perfecta para ensaladas, carpaccios y marinados. Sin lactosa.",
+      "intro": "Una vinagreta que no se separa nunca. La lecitina de soja RAIAN actúa como emulsionante natural creando una textura cremosa estable sin nata ni mayonesa. Versátil y elegante.",
+      "servings": 6,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": ["soja"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Aceite de oliva virgen extra", "g": 80, "key": "aove" },
+        { "name": "Vinagre de manzana o de Módena", "g": 30, "key": "vinagre" },
+        { "name": "Lecitina de soja RAIAN", "g": 5, "key": "lecitina" },
+        { "name": "Mostaza de Dijon", "g": 8, "key": "mostaza" },
+        { "name": "Miel", "g": 8, "key": "miel" },
+        { "name": "Sal y pimienta negra", "g": 3, "key": "sal" }
+      ],
+      "steps": [
+        "Disuelve la lecitina de soja RAIAN en el vinagre durante 2-3 minutos hasta que se hidrate completamente.",
+        "Añade la mostaza, la miel, la sal y la pimienta. Mezcla bien con varillas.",
+        "Con una batidora de inmersión o una batidora de vaso, bate la mezcla añadiendo el aceite de oliva en hilo fino y constante.",
+        "Continúa batiendo hasta obtener una vinagreta cremosa y uniforme que no se separa.",
+        "Prueba y ajusta el equilibrio ácido-dulce a tu gusto.",
+        "Conserva en tarro de cristal en la nevera hasta 2 semanas. Agitar antes de usar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 128,
+        "protein": 0.2,
+        "carbs": 2.8,
+        "sugars": 2.4,
+        "fat": 13.2,
+        "sat_fat": 1.9,
+        "fiber": 0.0,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 590,
+        "protein": 0.9,
+        "carbs": 12.9,
+        "sugars": 11.1,
+        "fat": 60.8,
+        "sat_fat": 8.8,
+        "fiber": 0.0,
+        "salt": 1.29
+      },
+      "estimated_serving_g": 22,
+      "keywords": ["lecitina de soja", "vinagreta emulsionada", "aliño estable", "emulsionante", "ensaladas", "sin lactosa"],
+      "notes": "Si la vinagreta se corta, bate de nuevo con la batidora añadiendo unas gotas de vinagre frío. La lecitina permite emulsiones estables incluso con poco aceite."
+    },
+    {
+      "category": "fitness",
+      "title": "Batido de cacao y cacahuete con lecitina de soja",
+      "slug": "batido-de-cacao-y-cacahuete-con-lecitina-de-soja",
+      "seo_title": "Batido de cacao y cacahuete con lecitina de soja | RAIAN",
+      "meta_description": "Batido cremoso de cacao y crema de cacahuete con lecitina de soja RAIAN para una textura ultra-homogénea. Sin grumos, alto en proteínas y grasas saludables.",
+      "intro": "La lecitina de soja RAIAN logra que la crema de cacahuete se integre completamente con la leche y el cacao sin crear grumos ni capas. El resultado es un batido perfectamente homogéneo y cremoso.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": ["soja", "cacahuete", "leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Leche entera o vegetal", "g": 300, "key": "leche" },
+        { "name": "Crema de cacahuete 100%", "g": 30, "key": "cacahuete" },
+        { "name": "Cacao en polvo alcalino RAIAN", "g": 10, "key": "cacao" },
+        { "name": "Lecitina de soja RAIAN", "g": 3, "key": "lecitina" },
+        { "name": "Plátano congelado", "g": 80, "key": "platano" },
+        { "name": "Miel", "g": 10, "key": "miel" }
+      ],
+      "steps": [
+        "Añade la leche a la batidora junto con la lecitina de soja RAIAN. Bate 15 segundos para pre-dispersar.",
+        "Incorpora la crema de cacahuete, el cacao alcalino RAIAN, el plátano congelado y la miel.",
+        "Tritura a velocidad alta durante 45-60 segundos hasta obtener una textura completamente homogénea.",
+        "Sirve inmediatamente en un vaso alto."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 442,
+        "protein": 17.8,
+        "carbs": 42.4,
+        "sugars": 28.6,
+        "fat": 22.6,
+        "sat_fat": 7.2,
+        "fiber": 4.8,
+        "salt": 0.22
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 104,
+        "protein": 4.2,
+        "carbs": 10.0,
+        "sugars": 6.7,
+        "fat": 5.3,
+        "sat_fat": 1.7,
+        "fiber": 1.1,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 433,
+      "keywords": ["lecitina de soja", "batido cacao", "cacahuete", "emulsionante", "fitness", "proteínas"],
+      "notes": "Sin la lecitina, la crema de cacahuete tiende a separarse y quedar en capas. Con lecitina de soja RAIAN la mezcla queda estable hasta 30 minutos."
+    },
+    {
+      "category": "casera",
+      "title": "Pan esponjoso enriquecido con lecitina de soja",
+      "slug": "pan-esponjoso-enriquecido-con-lecitina-de-soja",
+      "seo_title": "Pan casero esponjoso con lecitina de soja | RAIAN",
+      "meta_description": "Pan blanco casero esponjoso con lecitina de soja RAIAN como mejorador natural de masa. Miga suave, corteza dorada y mayor conservación sin aditivos artificiales.",
+      "intro": "La lecitina de soja RAIAN actúa como mejorador natural de pan: suaviza la miga, mejora el volumen y prolonga la frescura sin ningún aditivo artificial. El secreto de los panaderos artesanos en tu cocina.",
+      "servings": 10,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 30,
+        "rest_min": 90,
+        "total_min": 140
+      },
+      "allergens": ["soja", "gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de fuerza", "g": 500, "key": "harina" },
+        { "name": "Agua tibia (35°C)", "g": 300, "key": "agua" },
+        { "name": "Levadura seca de panadero", "g": 7, "key": "levadura" },
+        { "name": "Lecitina de soja RAIAN", "g": 8, "key": "lecitina" },
+        { "name": "Aceite de oliva", "g": 20, "key": "aceite" },
+        { "name": "Sal", "g": 9, "key": "sal" },
+        { "name": "Azúcar", "g": 10, "key": "azucar" }
+      ],
+      "steps": [
+        "Disuelve la levadura y el azúcar en el agua tibia. Deja reposar 5 minutos hasta que espume.",
+        "En un bol grande, mezcla la harina con la sal. Haz un hueco en el centro.",
+        "Añade la mezcla de levadura, el aceite y la lecitina de soja RAIAN.",
+        "Amasa durante 10-12 minutos hasta obtener una masa lisa, suave y elástica que no se pega.",
+        "Cubre con un paño y deja fermentar en un lugar cálido 60-70 minutos hasta que doble el volumen.",
+        "Desgasifica la masa, dale forma y coloca en el molde engrasado. Deja fermentar 20 minutos más.",
+        "Hornea a 200°C (precalentado) durante 28-32 minutos hasta que esté dorado y suene hueco al golpear la base."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 198,
+        "protein": 5.8,
+        "carbs": 36.2,
+        "sugars": 1.2,
+        "fat": 3.2,
+        "sat_fat": 0.5,
+        "fiber": 1.6,
+        "salt": 0.48
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 232,
+        "protein": 6.8,
+        "carbs": 42.4,
+        "sugars": 1.4,
+        "fat": 3.7,
+        "sat_fat": 0.6,
+        "fiber": 1.9,
+        "salt": 0.56
+      },
+      "estimated_serving_g": 85,
+      "keywords": ["lecitina de soja", "pan casero", "mejorador de pan", "miga suave", "panadería", "artesanal"],
+      "notes": "La lecitina mejora la extensibilidad de la masa y retarda el envejecimiento del pan. El pan hecho con lecitina se mantiene fresco 1-2 días más que sin ella."
+    }
+  ]
+}

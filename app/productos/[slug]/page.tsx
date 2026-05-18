@@ -6,6 +6,7 @@ import { NutritionTable } from "@/components/NutritionTable";
 import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { ProductHero } from "@/components/ProductHero";
 import { ProductTechnicalTable } from "@/components/ProductTechnicalTable";
+import { QrReviewPrompt } from "@/components/QrReviewPrompt";
 import { RecipeCard } from "@/components/RecipeCard";
 import { RelatedProducts } from "@/components/RelatedProducts";
 import { SectionTitle } from "@/components/SectionTitle";
@@ -73,6 +74,11 @@ export default function ProductPage({ params }: ProductPageProps) {
           { name: "Productos", href: "/productos" },
           { name: product.name, href: `/productos/${product.slug}` }
         ])}
+      />
+      <QrReviewPrompt
+        productSlug={product.slug}
+        productName={product.name}
+        reviewUrl={product.amazonReviewUrl}
       />
       <Breadcrumbs
         items={[
@@ -188,8 +194,8 @@ export default function ProductPage({ params }: ProductPageProps) {
               description="Guías y usos en preparación para acompañar el producto con información útil y fácil de consultar."
             />
             <div className="mt-8 grid gap-6 md:grid-cols-3">
-              {relatedRecipes.map((recipe) => (
-                <RecipeCard key={recipe.slug} recipe={recipe} />
+              {relatedRecipes.map((recipe, index) => (
+                <RecipeCard key={recipe.slug} recipe={recipe} index={index} />
               ))}
             </div>
           </div>

@@ -57,13 +57,13 @@ export function FeaturedProductsCarousel({ products }: FeaturedProductsCarouselP
         className="-mx-5 flex snap-x snap-mandatory gap-6 overflow-x-auto px-5 pb-4 [scrollbar-width:none] sm:mx-0 sm:px-0 [&::-webkit-scrollbar]:hidden"
         aria-label="Carrusel de productos destacados"
       >
-        {products.map((product) => (
+        {products.map((product, index) => (
           <div
             key={product.slug}
             data-carousel-item
             className="min-w-[82%] snap-start sm:min-w-[420px] lg:min-w-[390px] xl:min-w-[410px]"
           >
-            <ProductCard product={product} />
+            <ProductCard product={product} index={index} />
           </div>
         ))}
       </div>

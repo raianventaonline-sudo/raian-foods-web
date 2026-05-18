@@ -1,0 +1,310 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "caseina-pura-neutra",
+  "product": {
+    "name": "Caseína Pura Neutra RAIAN",
+    "nutrition_per_100g": {
+      "kcal": 370,
+      "protein": 88,
+      "carbs": 3,
+      "sugars": 0.5,
+      "fat": 1.5,
+      "sat_fat": 1.0,
+      "fiber": 0,
+      "salt": 0.5
+    },
+    "technical_note": "Caseína micelar de alta pureza (>88% proteína). Digestión lenta y sostenida. Contiene leche. Sin gluten.",
+    "dosage_note": "20–40 g por toma. Ideal antes de dormir o entre comidas para liberar aminoácidos de forma prolongada."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["fitness", "casera"],
+    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "allergen_policy": "Declarar leche y derivados. Sin gluten.",
+    "claim_policy": ["Alto en proteína", "Sin gluten"]
+  },
+  "recipes": [
+    {
+      "category": "fitness",
+      "title": "Pudding nocturno de caseína con cacao y plátano",
+      "slug": "pudding-nocturno-de-caseina-con-cacao-y-platano",
+      "seo_title": "Pudding de caseína con cacao y plátano | RAIAN",
+      "meta_description": "Pudding proteico de caseína RAIAN con cacao alcalino y plátano. Textura cremosa, digestión lenta y más de 35 g de proteína por ración. Ideal antes de dormir.",
+      "intro": "Un pudding espeso y saciante que se prepara en minutos y reposa en la nevera. La caseína libera aminoácidos durante horas, perfecta para la recuperación nocturna.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 245
+      },
+      "allergens": ["leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Caseína pura neutra RAIAN", "g": 30, "key": "caseina" },
+        { "name": "Leche entera", "g": 200, "key": "leche" },
+        { "name": "Cacao en polvo alcalino RAIAN", "g": 10, "key": "cacao" },
+        { "name": "Plátano maduro", "g": 80, "key": "platano" },
+        { "name": "Miel", "g": 15, "key": "miel" },
+        { "name": "Canela molida", "g": 1, "key": "canela" }
+      ],
+      "steps": [
+        "Pela el plátano y aplástalo con un tenedor hasta obtener un puré fino.",
+        "En un bol, mezcla la caseína pura neutra RAIAN y el cacao alcalino.",
+        "Añade la leche poco a poco removiendo con unas varillas para evitar grumos.",
+        "Incorpora el puré de plátano, la miel y la canela. Mezcla hasta obtener una crema homogénea.",
+        "Vierte en un recipiente hermético o en un vaso con tapa y refrigera al menos 4 horas o toda la noche.",
+        "Al servir, opcionalmente decora con rodajas de plátano o un toque de cacao extra."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 382,
+        "protein": 36.2,
+        "carbs": 42.8,
+        "sugars": 31.4,
+        "fat": 9.1,
+        "sat_fat": 5.2,
+        "fiber": 2.1,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 114,
+        "protein": 10.8,
+        "carbs": 12.8,
+        "sugars": 9.4,
+        "fat": 2.7,
+        "sat_fat": 1.6,
+        "fiber": 0.6,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 336,
+      "keywords": ["caseína", "pudding proteico", "receta nocturna", "cacao", "plátano", "proteína lenta"],
+      "notes": "Cuanto más madura esté el plátano, más dulce quedará el pudding. Ajusta la miel según preferencia."
+    },
+    {
+      "category": "fitness",
+      "title": "Mousse espesa de caseína con vainilla y frutos rojos",
+      "slug": "mousse-espesa-de-caseina-con-vainilla-y-frutos-rojos",
+      "seo_title": "Mousse de caseína con frutos rojos | RAIAN",
+      "meta_description": "Mousse proteica de caseína RAIAN con yogur griego, extracto de vainilla y frutos rojos. Postre saludable alto en proteína con solo 200 kcal por ración.",
+      "intro": "Una mousse densa y cremosa con sabor a vainilla y el toque ácido de los frutos rojos. Alta en proteína y con una textura que parece un postre de restaurante.",
+      "servings": 1,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 68
+      },
+      "allergens": ["leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Caseína pura neutra RAIAN", "g": 25, "key": "caseina" },
+        { "name": "Yogur griego natural", "g": 120, "key": "yogur" },
+        { "name": "Agua fría", "g": 60, "key": "agua" },
+        { "name": "Frutos rojos congelados", "g": 80, "key": "frutos_rojos" },
+        { "name": "Extracto de vainilla", "g": 3, "key": "vainilla" },
+        { "name": "Eritritol o azúcar al gusto", "g": 8, "key": "eritritol" }
+      ],
+      "steps": [
+        "Descongela los frutos rojos en un colador para escurrir el exceso de líquido, reserva alguno para decorar.",
+        "En un bol, bate el yogur griego con el agua fría, el extracto de vainilla y el eritritol.",
+        "Añade la caseína pura neutra RAIAN en forma de lluvia mientras bates para evitar grumos.",
+        "Incorpora la mayoría de los frutos rojos y mezcla suavemente con una espátula.",
+        "Refrigera al menos 1 hora para que la mezcla espese y desarrolle textura de mousse.",
+        "Sirve decorada con los frutos rojos reservados."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 202,
+        "protein": 29.8,
+        "carbs": 12.4,
+        "sugars": 8.1,
+        "fat": 3.6,
+        "sat_fat": 1.9,
+        "fiber": 2.8,
+        "salt": 0.15
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 135,
+        "protein": 19.9,
+        "carbs": 8.3,
+        "sugars": 5.4,
+        "fat": 2.4,
+        "sat_fat": 1.3,
+        "fiber": 1.9,
+        "salt": 0.10
+      },
+      "estimated_serving_g": 296,
+      "keywords": ["caseína", "mousse proteica", "frutos rojos", "yogur griego", "vainilla", "postre fitness"],
+      "notes": "Usar yogur griego entero da mejor textura. Si la mousse queda muy líquida, añadir 5 g más de caseína y refrigerar más tiempo."
+    },
+    {
+      "category": "fitness",
+      "title": "Pancakes de caseína con arándanos y miel",
+      "slug": "pancakes-de-caseina-con-arandanos-y-miel",
+      "seo_title": "Pancakes de caseína con arándanos | RAIAN",
+      "meta_description": "Pancakes esponjosos de caseína RAIAN con arándanos y miel. Desayuno alto en proteína sin harina, más de 28 g de proteína por ración. Receta fácil en 15 minutos.",
+      "intro": "Pancakes gruesos y esponjosos sin harina de trigo. La caseína les da una textura única más densa que los pancakes convencionales, perfecta para aguantar la mañana entera.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 10,
+        "rest_min": 0,
+        "total_min": 15
+      },
+      "allergens": ["huevo", "leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Caseína pura neutra RAIAN", "g": 30, "key": "caseina" },
+        { "name": "Huevo", "g": 100, "key": "huevo" },
+        { "name": "Plátano maduro", "g": 80, "key": "platano" },
+        { "name": "Arándanos frescos o congelados", "g": 60, "key": "arandanos" },
+        { "name": "Miel", "g": 15, "key": "miel" },
+        { "name": "Bicarbonato sódico", "g": 2, "key": "bicarbonato" },
+        { "name": "Aceite de coco para cocinar", "g": 5, "key": "aceite" }
+      ],
+      "steps": [
+        "Aplasta el plátano maduro con un tenedor hasta obtener puré.",
+        "Bate los huevos en un bol y añade el puré de plátano.",
+        "Incorpora la caseína pura neutra RAIAN y el bicarbonato. Mezcla hasta obtener una masa homogénea.",
+        "Añade la mitad de los arándanos a la masa y mezcla suavemente.",
+        "Calienta una sartén antiadherente con el aceite de coco a fuego medio-bajo.",
+        "Vierte cucharadas de masa y cocina 3-4 minutos por lado hasta que estén dorados.",
+        "Sirve calientes con la miel y el resto de los arándanos por encima."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 326,
+        "protein": 29.1,
+        "carbs": 31.8,
+        "sugars": 22.4,
+        "fat": 9.2,
+        "sat_fat": 5.1,
+        "fiber": 2.6,
+        "salt": 0.32
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 110,
+        "protein": 9.8,
+        "carbs": 10.7,
+        "sugars": 7.5,
+        "fat": 3.1,
+        "sat_fat": 1.7,
+        "fiber": 0.9,
+        "salt": 0.11
+      },
+      "estimated_serving_g": 292,
+      "keywords": ["caseína", "pancakes proteicos", "arándanos", "sin harina", "desayuno fitness", "alto proteína"],
+      "notes": "Fuego bajo es clave: la caseína se quema más fácil que la harina. La masa será más espesa que los pancakes normales, es la consistencia correcta."
+    },
+    {
+      "category": "casera",
+      "title": "Batido espeso de caseína con fresa y leche",
+      "slug": "batido-espeso-de-caseina-con-fresa-y-leche",
+      "seo_title": "Batido de caseína con fresas | RAIAN",
+      "meta_description": "Batido proteico espeso de caseína RAIAN con fresas y leche. Sabor natural, textura cremosa y 28 g de proteína por vaso. Fácil y saciante para cualquier momento.",
+      "intro": "Un batido con la textura de un milkshake pero mucho más nutritivo. La caseína lo hace denso y cremoso, con el sabor fresco y dulce de las fresas de temporada.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": ["leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Caseína pura neutra RAIAN", "g": 30, "key": "caseina" },
+        { "name": "Leche entera", "g": 250, "key": "leche" },
+        { "name": "Fresas frescas o congeladas", "g": 100, "key": "fresas" },
+        { "name": "Miel", "g": 10, "key": "miel" },
+        { "name": "Hielo", "g": 50, "key": "hielo" }
+      ],
+      "steps": [
+        "Lava y trocea las fresas, retira el pedúnculo verde.",
+        "Añade la leche, las fresas, la miel y el hielo a la batidora.",
+        "Incorpora la caseína pura neutra RAIAN y tritura a velocidad alta 30-40 segundos.",
+        "Comprueba la textura: debe quedar espeso pero bebible. Añade más leche si fuera necesario.",
+        "Sirve inmediatamente en un vaso alto."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 274,
+        "protein": 29.6,
+        "carbs": 27.2,
+        "sugars": 24.3,
+        "fat": 7.4,
+        "sat_fat": 4.3,
+        "fiber": 1.8,
+        "salt": 0.24
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 63,
+        "protein": 6.8,
+        "carbs": 6.3,
+        "sugars": 5.6,
+        "fat": 1.7,
+        "sat_fat": 1.0,
+        "fiber": 0.4,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 440,
+      "keywords": ["caseína", "batido proteico", "fresas", "leche", "shake", "fácil"],
+      "notes": "Con fresas congeladas el batido queda más frío y cremoso sin necesitar hielo extra."
+    },
+    {
+      "category": "casera",
+      "title": "Helado proteico de caseína con vainilla y canela",
+      "slug": "helado-proteico-de-caseina-con-vainilla-y-canela",
+      "seo_title": "Helado proteico de caseína con vainilla | RAIAN",
+      "meta_description": "Helado proteico casero de caseína RAIAN con vainilla y canela. Sin heladera, textura cremosa y más de 19 g de proteína por bola. Postre saludable para el verano.",
+      "intro": "Un helado cremoso hecho en casa sin heladera y con mucha más proteína que cualquier opción del supermercado. La caseína actúa como estabilizante natural para una textura suave.",
+      "servings": 2,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 0,
+        "rest_min": 360,
+        "total_min": 370
+      },
+      "allergens": ["leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Caseína pura neutra RAIAN", "g": 40, "key": "caseina" },
+        { "name": "Leche entera", "g": 200, "key": "leche" },
+        { "name": "Yogur griego natural", "g": 150, "key": "yogur" },
+        { "name": "Miel", "g": 25, "key": "miel" },
+        { "name": "Extracto de vainilla", "g": 3, "key": "vainilla" },
+        { "name": "Canela molida", "g": 2, "key": "canela" }
+      ],
+      "steps": [
+        "En un bol, bate la leche con la caseína pura neutra RAIAN hasta que no queden grumos.",
+        "Añade el yogur griego, la miel, el extracto de vainilla y la canela. Mezcla bien.",
+        "Vierte la mezcla en un recipiente apto para congelador con tapa.",
+        "Congela durante 1 hora y luego bate con un tenedor para romper los cristales de hielo.",
+        "Repite el proceso de congelar y batir cada hora durante 3-4 horas para obtener textura cremosa.",
+        "Después de la última batida, congela al menos 2 horas más hasta que esté firme.",
+        "Saca del congelador 5 minutos antes de servir para que sea fácil de porcionar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 258,
+        "protein": 23.4,
+        "carbs": 22.6,
+        "sugars": 20.8,
+        "fat": 7.8,
+        "sat_fat": 4.6,
+        "fiber": 0.3,
+        "salt": 0.22
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 124,
+        "protein": 11.2,
+        "carbs": 10.8,
+        "sugars": 10.0,
+        "fat": 3.7,
+        "sat_fat": 2.2,
+        "fiber": 0.1,
+        "salt": 0.11
+      },
+      "estimated_serving_g": 210,
+      "keywords": ["caseína", "helado proteico", "vainilla", "canela", "sin heladera", "postre saludable"],
+      "notes": "Para una textura aún más cremosa, sustituye parte de la leche entera por nata líquida para cocinar."
+    }
+  ]
+}

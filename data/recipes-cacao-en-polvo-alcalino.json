@@ -1,0 +1,382 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "cacao-en-polvo-alcalino",
+  "product": {
+    "name": "Cacao en polvo alcalino 22/24 RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 1318,
+      "energy_kcal": 315,
+      "fat_g": 22,
+      "saturates_g": 13,
+      "carbohydrate_g": 35,
+      "sugars_g": 2,
+      "protein_g": 20,
+      "fiber_g": 30,
+      "salt_g": 0.6
+    },
+    "technical_note": "Cacao en polvo con un contenido en grasa entre 22-24%, alcalinizado (proceso Dutched) para suavizar el sabor y mejorar la solubilidad. Sin azúcar añadida. Alto contenido en fibra. Validar composición exacta y alérgenos contra ficha técnica del proveedor RAIAN.",
+    "dosage_note": "Para bebidas calientes: 10-15 g por 200 ml de leche. Para repostería: sustituye 20-25% del peso de harina."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["fitness", "premium", "familiar", "casera"],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "Verificar si el cacao puede contener trazas de frutos de cáscara, leche o gluten por contaminación cruzada. Declarar alérgenos de la receta en negrita.",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "No usar términos como 'antioxidante', 'alto en flavonoides' ni referencias a beneficios cardiovasculares sin evidencia regulatoria.",
+      "Describir el uso culinario del cacao de forma objetiva."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "casera",
+      "title": "Brownie húmedo de cacao alcalino RAIAN",
+      "slug": "brownie-humedo-de-cacao-alcalino-raian",
+      "seo_title": "Brownie húmedo de cacao alcalino RAIAN | Receta casera",
+      "meta_description": "Brownie húmedo e intenso de cacao alcalino 22/24 RAIAN con nueces. Receta fácil sin mezcladora, textura densa y sabor profundo a chocolate. Sin gluten.",
+      "intro": "Un brownie de textura densa y húmeda con el sabor profundo e intenso que solo da un buen cacao alcalino. La clave está en no sobrehornearlo.",
+      "servings": 9,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 22,
+        "rest_min": 30,
+        "total_min": 64
+      },
+      "allergens": ["Huevo", "Leche", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Mantequilla sin sal", "g": 120, "key": "mantequilla" },
+        { "name": "Azúcar moreno", "g": 150, "key": "azucar" },
+        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 60, "key": "cacao" },
+        { "name": "Huevos", "g": 100, "key": "huevos" },
+        { "name": "Harina de almendra", "g": 60, "key": "harina_almendra" },
+        { "name": "Extracto de vainilla", "g": 5, "key": "vainilla" },
+        { "name": "Nueces troceadas", "g": 80, "key": "nueces" },
+        { "name": "Pizca de sal", "g": 2, "key": "sal" }
+      ],
+      "steps": [
+        "Precalienta el horno a 175°C. Forra un molde cuadrado de 20 cm con papel de horno.",
+        "Funde la mantequilla en un bol resistente al calor. Añade el azúcar moreno y mezcla bien.",
+        "Incorpora el cacao en polvo alcalino RAIAN y la sal. Mezcla hasta obtener una pasta brillante.",
+        "Añade los huevos uno a uno, mezclando bien tras cada adición. Incorpora la vainilla.",
+        "Agrega la harina de almendra con movimientos suaves. Añade las nueces troceadas.",
+        "Vierte en el molde y hornea exactamente 20-22 minutos. El centro debe quedar ligeramente tembloroso.",
+        "Deja enfriar completamente (al menos 30 minutos) antes de cortar para que la textura sea perfecta."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 292,
+        "protein": 5.8,
+        "carbs": 21.5,
+        "sugars": 18.0,
+        "fat": 21.0,
+        "sat_fat": 9.5,
+        "fiber": 3.8,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 430,
+        "protein": 8.5,
+        "carbs": 31.6,
+        "sugars": 26.5,
+        "fat": 30.9,
+        "sat_fat": 14.0,
+        "fiber": 5.6,
+        "salt": 0.26
+      },
+      "estimated_serving_g": 65,
+      "keywords": ["brownie de cacao alcalino", "brownie casero húmedo", "brownie sin gluten"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Coulant de chocolate con cacao alcalino",
+      "slug": "coulant-de-chocolate-con-cacao-alcalino",
+      "seo_title": "Coulant de chocolate con cacao alcalino RAIAN | Premium",
+      "meta_description": "Coulant de chocolate con corazón líquido elaborado con cacao alcalino 22/24 RAIAN. Receta de pastelería francesa para una experiencia de postre Premium en casa.",
+      "intro": "El coulant es uno de los postres más espectaculares de la pastelería francesa: una corteza de bizcocho de cacao perfecta que esconde un corazón de chocolate fundido.",
+      "servings": 4,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 10,
+        "rest_min": 60,
+        "total_min": 85
+      },
+      "allergens": ["Huevo", "Leche", "Gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Chocolate negro 70% cacao", "g": 120, "key": "chocolate" },
+        { "name": "Mantequilla sin sal", "g": 80, "key": "mantequilla" },
+        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 20, "key": "cacao" },
+        { "name": "Huevos", "g": 100, "key": "huevos" },
+        { "name": "Yemas de huevo", "g": 40, "key": "yemas" },
+        { "name": "Azúcar", "g": 60, "key": "azucar" },
+        { "name": "Harina de trigo", "g": 25, "key": "harina" }
+      ],
+      "steps": [
+        "Funde el chocolate negro con la mantequilla al baño maría o en microondas en intervalos de 20 segundos. Deja templar.",
+        "Bate los huevos enteros, las yemas y el azúcar a punto de letra (hasta que tripliquen su volumen).",
+        "Incorpora el chocolate fundido templado a la mezcla de huevos con movimientos envolventes.",
+        "Tamiza la harina y el cacao alcalino RAIAN sobre la mezcla e integra con cuidado.",
+        "Engrasa 4 moldes individuales con mantequilla y espolvorea cacao. Reparte la masa y refrigera 1 hora.",
+        "Precalienta el horno a 200°C. Hornea los coulants fríos durante exactamente 10-11 minutos.",
+        "Sirve inmediatamente volcando el molde sobre el plato."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 485,
+        "protein": 10.5,
+        "carbs": 32.0,
+        "sugars": 26.0,
+        "fat": 35.5,
+        "sat_fat": 19.5,
+        "fiber": 4.5,
+        "salt": 0.22
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 498,
+        "protein": 10.8,
+        "carbs": 32.8,
+        "sugars": 26.7,
+        "fat": 36.4,
+        "sat_fat": 20.0,
+        "fiber": 4.6,
+        "salt": 0.23
+      },
+      "estimated_serving_g": 111,
+      "keywords": ["coulant de chocolate", "fondant de chocolate", "postre premium de cacao"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Bizcocho de cacao sin horno (no-bake chocolate cake)",
+      "slug": "bizcocho-de-cacao-sin-horno",
+      "seo_title": "Bizcocho de cacao sin horno con cacao RAIAN | No-bake",
+      "meta_description": "Bizcocho de cacao sin horno con cacao alcalino RAIAN, galletas y nata. Postre fresco y sencillo listo en 20 minutos. Sin gluten y sin necesidad de hornear.",
+      "intro": "Un postre de cacao que sorprende por su textura cremosa y su sabor a chocolate intenso, sin necesidad de encender el horno. Perfecto para los días de calor.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 260
+      },
+      "allergens": ["Leche", "Gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Galletas tipo María", "g": 200, "key": "galletas" },
+        { "name": "Mantequilla fundida", "g": 80, "key": "mantequilla" },
+        { "name": "Nata líquida 35% MG", "g": 300, "key": "nata" },
+        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 50, "key": "cacao" },
+        { "name": "Azúcar glas", "g": 60, "key": "azucar_glas" },
+        { "name": "Queso mascarpone", "g": 150, "key": "mascarpone" }
+      ],
+      "steps": [
+        "Tritura las galletas y mézclalas con la mantequilla fundida hasta obtener una arena húmeda.",
+        "Presiona la base de galleta en el fondo de un molde desmontable de 22 cm. Refrigera.",
+        "Monta la nata con el azúcar glas a punto firme.",
+        "En otro bol, mezcla el mascarpone con el cacao alcalino RAIAN hasta obtener una crema homogénea.",
+        "Incorpora la nata montada en dos tandas con movimientos envolventes.",
+        "Vierte la crema de cacao sobre la base de galleta. Alisa la superficie.",
+        "Refrigera al menos 4 horas. Espolvorea cacao antes de servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 405,
+        "protein": 4.8,
+        "carbs": 29.0,
+        "sugars": 15.5,
+        "fat": 30.5,
+        "sat_fat": 18.0,
+        "fiber": 2.8,
+        "salt": 0.38
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 385,
+        "protein": 4.6,
+        "carbs": 27.6,
+        "sugars": 14.8,
+        "fat": 29.0,
+        "sat_fat": 17.1,
+        "fiber": 2.7,
+        "salt": 0.36
+      },
+      "estimated_serving_g": 130,
+      "keywords": ["bizcocho de cacao sin horno", "tarta de chocolate no-bake", "postre de cacao frío"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Galletas de avena y cacao alcalino",
+      "slug": "galletas-de-avena-y-cacao-alcalino",
+      "seo_title": "Galletas de avena y cacao alcalino RAIAN | Receta familiar",
+      "meta_description": "Galletas blandas de avena y cacao alcalino RAIAN con plátano y miel. Sin harina de trigo, sin azúcar añadida. Receta familiar sana para el desayuno o merienda.",
+      "intro": "Galletas blandas y nutritivas con el sabor profundo del cacao alcalino RAIAN. Sin harina de trigo ni azúcar añadida: solo avena, plátano y cacao.",
+      "servings": 12,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 14,
+        "rest_min": 10,
+        "total_min": 34
+      },
+      "allergens": ["Gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Copos de avena", "g": 180, "key": "avena" },
+        { "name": "Plátano maduro", "g": 200, "key": "platano" },
+        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 25, "key": "cacao" },
+        { "name": "Miel", "g": 30, "key": "miel" },
+        { "name": "Aceite de coco fundido", "g": 20, "key": "aceite_coco" },
+        { "name": "Canela molida", "g": 2, "key": "canela" }
+      ],
+      "steps": [
+        "Precalienta el horno a 180°C. Forra una bandeja con papel de horno.",
+        "Aplasta los plátanos con un tenedor hasta obtener un puré.",
+        "Mezcla el puré de plátano con la miel y el aceite de coco fundido.",
+        "Añade el cacao alcalino RAIAN y la canela. Mezcla bien.",
+        "Incorpora los copos de avena y remueve hasta obtener una masa uniforme.",
+        "Forma 12 porciones con una cuchara y colócalas en la bandeja. Aplánalas ligeramente.",
+        "Hornea 12-14 minutos. Deja reposar 10 minutos en la bandeja antes de manipular."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 105,
+        "protein": 2.8,
+        "carbs": 18.0,
+        "sugars": 7.0,
+        "fat": 2.8,
+        "sat_fat": 1.8,
+        "fiber": 2.8,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 256,
+        "protein": 6.8,
+        "carbs": 43.9,
+        "sugars": 17.1,
+        "fat": 6.8,
+        "sat_fat": 4.4,
+        "fiber": 6.8,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 38,
+      "keywords": ["galletas de avena y cacao", "galletas sin azúcar familiar", "galletas fitness de cacao"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Crema de cacao casera tipo avellana",
+      "slug": "crema-de-cacao-casera-tipo-avellana",
+      "seo_title": "Crema de cacao casera con cacao alcalino RAIAN | Receta",
+      "meta_description": "Crema de cacao y avellana casera hecha con cacao alcalino RAIAN. Sin aceite de palma, sin conservantes. Perfecta para untar en tostadas o como relleno de repostería.",
+      "intro": "Una crema de cacao casera y sin aceite de palma, con el sabor intenso que aporta el cacao alcalino RAIAN y la untuosidad de las avellanas tostadas.",
+      "servings": 12,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 10,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": ["Frutos de cáscara", "Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Avellanas tostadas sin sal", "g": 200, "key": "avellanas" },
+        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 30, "key": "cacao" },
+        { "name": "Azúcar glas", "g": 50, "key": "azucar_glas" },
+        { "name": "Leche entera", "g": 30, "key": "leche" },
+        { "name": "Aceite de girasol", "g": 20, "key": "aceite_girasol" },
+        { "name": "Pizca de sal", "g": 1, "key": "sal" }
+      ],
+      "steps": [
+        "Tuesta ligeramente las avellanas en una sartén seca si no vienen tostadas. Deja enfriar.",
+        "Tritura las avellanas en un procesador de alimentos durante 5-8 minutos hasta obtener una pasta cremosa (mantequilla de avellana).",
+        "Añade el cacao alcalino RAIAN, el azúcar glas y la sal. Procesa hasta integrar.",
+        "Incorpora el aceite de girasol y la leche poco a poco hasta conseguir la consistencia deseada.",
+        "Pasa a un tarro de cristal. Deja reposar 30 minutos antes de usar.",
+        "Conservar en nevera hasta 2 semanas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 148,
+        "protein": 3.5,
+        "carbs": 7.5,
+        "sugars": 5.5,
+        "fat": 12.0,
+        "sat_fat": 1.5,
+        "fiber": 2.5,
+        "salt": 0.07
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 534,
+        "protein": 12.6,
+        "carbs": 27.0,
+        "sugars": 19.8,
+        "fat": 43.2,
+        "sat_fat": 5.4,
+        "fiber": 9.0,
+        "salt": 0.25
+      },
+      "estimated_serving_g": 28,
+      "keywords": ["crema de cacao casera", "crema de avellana y cacao", "crema de chocolate sin aceite de palma"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Smoothie de cacao alcalino y frutos rojos",
+      "slug": "smoothie-de-cacao-alcalino-y-frutos-rojos",
+      "seo_title": "Smoothie de cacao alcalino y frutos rojos RAIAN | Fitness",
+      "meta_description": "Smoothie de cacao alcalino RAIAN 22/24 con frutos rojos, plátano y leche vegetal. Batido rico en fibra, perfecto como desayuno o snack post-entrenamiento.",
+      "intro": "Un smoothie oscuro y cremoso que combina el sabor profundo del cacao alcalino RAIAN con el toque ácido de los frutos rojos y la cremosidad del plátano.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Leche de avena", "g": 250, "key": "leche_avena" },
+        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 15, "key": "cacao" },
+        { "name": "Frutos rojos congelados (frambuesas, arándanos)", "g": 120, "key": "frutos_rojos" },
+        { "name": "Plátano maduro congelado", "g": 80, "key": "platano" },
+        { "name": "Dátil Medjool deshuesado", "g": 20, "key": "datil" }
+      ],
+      "steps": [
+        "Coloca todos los ingredientes en el vaso de la batidora.",
+        "Bate a máxima potencia durante 45-60 segundos hasta obtener una textura completamente lisa y espumosa.",
+        "Prueba el dulzor: añade otro dátil si lo prefieres más dulce.",
+        "Sirve inmediatamente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 290,
+        "protein": 6.5,
+        "carbs": 54.0,
+        "sugars": 32.0,
+        "fat": 5.5,
+        "sat_fat": 1.0,
+        "fiber": 10.5,
+        "salt": 0.22
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 119,
+        "protein": 2.7,
+        "carbs": 22.2,
+        "sugars": 13.1,
+        "fat": 2.3,
+        "sat_fat": 0.4,
+        "fiber": 4.3,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 485,
+      "keywords": ["smoothie de cacao y frutos rojos", "batido de cacao fitness", "batido de chocolate alcalino"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    }
+  ]
+}

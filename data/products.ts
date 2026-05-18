@@ -35,6 +35,7 @@ export type Product = {
   amazonAsin: string;
   relatedSlugs: string[];
   recipeSlugs: string[];
+  amazonReviewUrl?: string;
 };
 
 const pending = "Pendiente de completar";
@@ -195,6 +196,9 @@ export const products: Product[] = [
     conservation: "Condiciones de conservación pendientes de confirmar con el etiquetado final.",
     amazonUrl: null,
     amazonAsin: pending,
+    // Reemplaza con la URL de reseña real cuando el ASIN de Amazon esté disponible:
+    // https://www.amazon.es/review/create-review/?asin=TU_ASIN_AQUI
+    amazonReviewUrl: "https://www.amazon.es/s?k=raian+gelatina+neutra+bovina",
     relatedSlugs: ["gelatina-neutra-porcina", "harina-de-almendra", "glucosa"],
     recipeSlugs: [
       "vasitos-fitness-de-yogur-griego-frutos-rojos-y-gelatina-bovina",
@@ -248,7 +252,14 @@ export const products: Product[] = [
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["gelatina-neutra-bovina", "harina-de-almendra", "dextrosa"],
-    recipeSlugs: []
+    recipeSlugs: [
+      "gelatina-de-naranja-casera-con-trozos-de-fruta",
+      "flan-de-vainilla-con-caramelo-casero",
+      "panna-cotta-de-coco-y-mango",
+      "gelatina-de-te-verde-y-menta-con-limon",
+      "vasitos-de-proteina-con-gelatina-porcina-y-frutos-rojos",
+      "bavarois-de-cafe-y-cardamomo-con-base-de-bizcocho"
+    ]
   },
   {
     slug: "harina-de-almendra",
@@ -296,7 +307,14 @@ export const products: Product[] = [
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["gelatina-neutra-bovina", "glucosa", "dextrosa"],
-    recipeSlugs: []
+    recipeSlugs: [
+      "tortitas-de-harina-de-almendra-con-platano-y-arandanos",
+      "galletas-de-harina-de-almendra-y-mantequilla-de-cacahuete",
+      "bizcocho-de-harina-de-almendra-limon-y-aceite-de-oliva",
+      "base-de-tarta-crujiente-de-harina-de-almendra-y-datiles",
+      "financiers-de-harina-de-almendra-mantequilla-y-frambuesa",
+      "rebozado-crujiente-de-harina-de-almendra-para-pollo-al-horno"
+    ]
   },
   {
     slug: "dextrosa",
@@ -343,7 +361,13 @@ export const products: Product[] = [
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["glucosa", "harina-de-almendra", "gelatina-neutra-porcina"],
-    recipeSlugs: []
+    recipeSlugs: [
+      "bebida-isotonica-casera-de-limon-y-sal-con-dextrosa",
+      "gel-energetico-casero-de-platano-y-dextrosa",
+      "helado-artesanal-de-fresa-con-dextrosa",
+      "mermelada-de-albaricoque-casera-con-dextrosa",
+      "bizcocho-de-deportista-de-avena-y-dextrosa"
+    ]
   },
   {
     slug: "glucosa",
@@ -390,7 +414,391 @@ export const products: Product[] = [
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["dextrosa", "harina-de-almendra", "gelatina-neutra-bovina"],
-    recipeSlugs: []
+    recipeSlugs: [
+      "caramelo-suave-y-cremoso-con-glucosa",
+      "ganache-de-chocolate-negro-satinada-con-glucosa",
+      "helado-cremoso-de-vainilla-con-glucosa-sin-heladera",
+      "turron-blando-de-almendra-con-glucosa",
+      "lemon-curd-sedoso-con-glucosa"
+    ]
+  },
+  {
+    slug: "chocolate-a-la-taza",
+    name: "Chocolate a la taza",
+    shortDescription:
+      "Preparado de chocolate para taza, ideal para bebidas calientes, batidos y elaboraciones de repostería con sabor intenso.",
+    description:
+      "Preparado de cacao en polvo para chocolate a la taza, pensado tanto para bebidas calientes tradicionales como para usarse en repostería. Formato 1 kg orientado a uso frecuente en casa o negocio.",
+    category: "Cacao y chocolate",
+    tags: ["Chocolate", "Bebida caliente", "Repostería", "Cacao", "1 kg"],
+    mainImage: {
+      src: "/images/products/chocolate-a-la-taza-main.png",
+      alt: "Bote de chocolate a la taza RAIAN 1 kg",
+      label: "Chocolate a la taza 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Chocolate a la taza"),
+    uses: [
+      "Bebida caliente de chocolate.",
+      "Batidos fríos de chocolate.",
+      "Base para mousse y postres.",
+      "Aromatizar bizcochos y cremas.",
+      "Fondue de chocolate."
+    ],
+    howToUse: [
+      "Mezclar 30-40 g por 200 ml de leche caliente.",
+      "Remover hasta disolver completamente.",
+      "Ajustar cantidad al gusto.",
+      "Para repostería, incorporar como polvo seco junto a los ingredientes secos."
+    ],
+    technicalSheet: technicalSheetFor("Chocolate a la taza", "Preparado de cacao en polvo", "Cacao en polvo, azúcar (pendiente de validar)"),
+    nutrition: [
+      { label: "Valor energético", value: "1599 kJ / 382 kcal" },
+      { label: "Grasas", value: "11 g" },
+      { label: "De las cuales saturadas", value: "6,5 g" },
+      { label: "Hidratos de carbono", value: "62 g" },
+      { label: "De los cuales azúcares", value: "52 g" },
+      { label: "Fibra alimentaria", value: "4 g" },
+      { label: "Proteínas", value: "5 g" },
+      { label: "Sal", value: "0,3 g" }
+    ],
+    allergens: "Puede contener trazas de leche. Alérgenos pendientes de confirmar con el etiquetado final.",
+    conservation: "Conservar en lugar fresco, seco y protegido de la luz. Cerrar bien tras cada uso.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["cacao-en-polvo-alcalino", "maltodextrina", "harina-de-almendra"],
+    recipeSlugs: [
+      "chocolate-caliente-clasico-a-la-taza",
+      "batido-frio-de-chocolate-a-la-taza-con-hielo",
+      "mousse-de-chocolate-a-la-taza-sin-huevo",
+      "porridge-de-avena-con-chocolate-a-la-taza",
+      "fondue-de-chocolate-a-la-taza-con-frutas-y-galletas",
+      "smoothie-de-cacao-y-platano-con-proteina"
+    ]
+  },
+  {
+    slug: "maltodextrina",
+    name: "Maltodextrina",
+    shortDescription:
+      "Carbohidrato de absorción rápida para bebidas deportivas, geles energéticos y preparaciones de alto rendimiento.",
+    description:
+      "Maltodextrina en polvo de fácil disolución, orientada a deportistas y personas activas que necesitan aportar energía rápidamente antes, durante o después del ejercicio. También usada como agente de textura en preparaciones alimentarias.",
+    category: "Deportes y energía",
+    tags: ["Carbohidrato", "Deportes", "Energía", "Pre-entreno", "Post-entreno", "1 kg"],
+    mainImage: {
+      src: "/images/products/maltodextrina-main.png",
+      alt: "Bote de maltodextrina RAIAN 1 kg",
+      label: "Maltodextrina 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Maltodextrina"),
+    uses: [
+      "Bebidas de recuperación post-entreno.",
+      "Geles energéticos caseros.",
+      "Bebidas isotónicas.",
+      "Preparaciones energéticas pre-ejercicio.",
+      "Agente de textura en repostería."
+    ],
+    howToUse: [
+      "Disolver la cantidad indicada en agua o bebida.",
+      "Para uso deportivo: 30-60 g por hora de ejercicio intenso.",
+      "Mezclar bien hasta disolución completa.",
+      "Consumir según necesidades energéticas y actividad."
+    ],
+    technicalSheet: technicalSheetFor("Maltodextrina", "Carbohidrato en polvo (polisacárido)", "Maltodextrina"),
+    nutrition: [
+      { label: "Valor energético", value: "1590 kJ / 380 kcal" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "95 g" },
+      { label: "De los cuales azúcares", value: "2 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "0,1 g" },
+      { label: "Sal", value: "0,05 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Pendiente de confirmar con etiquetado final.",
+    conservation: "Conservar en lugar fresco y seco. Cerrar herméticamente tras cada uso.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["dextrosa", "glucosa", "caseina-pura-neutra"],
+    recipeSlugs: [
+      "bebida-de-recuperacion-post-entreno-con-maltodextrina",
+      "gel-energetico-casero-de-citricos-con-maltodextrina",
+      "batido-pre-entreno-de-avena-y-maltodextrina",
+      "barritas-energeticas-de-avena-miel-y-maltodextrina",
+      "bebida-isotonica-con-sales-minerales-y-maltodextrina"
+    ]
+  },
+  {
+    slug: "cacao-en-polvo-alcalino",
+    name: "Cacao en polvo alcalino 22/24",
+    shortDescription:
+      "Cacao en polvo alcalino con alto contenido en manteca (22/24%), color intenso y sabor profundo para repostería y bebidas.",
+    description:
+      "Cacao en polvo sometido a proceso de alcalinización, con contenido en materia grasa del 22-24%. Proporciona color oscuro intenso y sabor profundo de cacao, ideal para repostería profesional y de alta gama, así como para bebidas de cacao con cuerpo.",
+    category: "Cacao y chocolate",
+    tags: ["Cacao", "Alcalino", "22/24", "Repostería", "Sin azúcar", "1 kg"],
+    mainImage: {
+      src: "/images/products/cacao-en-polvo-alcalino-main.png",
+      alt: "Bote de cacao en polvo alcalino 22/24 RAIAN 1 kg",
+      label: "Cacao alcalino 22/24 — 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cacao en polvo alcalino 22/24"),
+    uses: [
+      "Brownies y bizcochos con color y sabor intenso.",
+      "Bebidas calientes de cacao.",
+      "Rellenos y cremas de chocolate.",
+      "Coulants y fondants.",
+      "Glasas y coberturas oscuras."
+    ],
+    howToUse: [
+      "Para bebidas: 10-15 g por 200 ml de leche.",
+      "Para repostería: sustituir 20-25% del peso de harina.",
+      "Tamizar antes de mezclar para evitar grumos.",
+      "Ajustar cantidad según la intensidad deseada."
+    ],
+    technicalSheet: technicalSheetFor("Cacao en polvo alcalino 22/24", "Cacao en polvo desengrasado alcalinizado", "Cacao en polvo"),
+    nutrition: [
+      { label: "Valor energético", value: "1319 kJ / 315 kcal" },
+      { label: "Grasas", value: "22 g" },
+      { label: "De las cuales saturadas", value: "13 g" },
+      { label: "Hidratos de carbono", value: "35 g" },
+      { label: "De los cuales azúcares", value: "2 g" },
+      { label: "Fibra alimentaria", value: "30 g" },
+      { label: "Proteínas", value: "20 g" },
+      { label: "Sal", value: "0,6 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Puede contener trazas de frutos de cáscara. Pendiente de confirmar.",
+    conservation: "Conservar en lugar fresco, seco y protegido de la luz y humedad.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["chocolate-a-la-taza", "harina-de-almendra", "lecitina-de-soja"],
+    recipeSlugs: [
+      "brownie-humedo-de-cacao-alcalino-raian",
+      "coulant-de-chocolate-con-cacao-alcalino",
+      "bizcocho-de-cacao-sin-horno",
+      "galletas-de-avena-y-cacao-alcalino",
+      "crema-de-cacao-casera-tipo-avellana",
+      "smoothie-de-cacao-alcalino-y-frutos-rojos"
+    ]
+  },
+  {
+    slug: "caseina-pura-neutra",
+    name: "Caseína pura neutra",
+    shortDescription:
+      "Proteína de caseína micelar neutra de digestión lenta, ideal para tomas nocturnas y batidos de saciedad prolongada.",
+    description:
+      "Caseína micelar pura en formato neutro sin aromas ni edulcorantes añadidos. Proteína de digestión lenta que libera aminoácidos de forma gradual durante horas, pensada para tomas antes de dormir o períodos prolongados sin ingesta.",
+    category: "Proteínas",
+    tags: ["Proteína", "Caseína", "Digestión lenta", "Nocturna", "Sin aroma", "1 kg"],
+    mainImage: {
+      src: "/images/products/caseina-pura-neutra-main.png",
+      alt: "Bote de caseína pura neutra RAIAN 1 kg",
+      label: "Caseína pura neutra 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Caseína pura neutra"),
+    uses: [
+      "Batido proteico antes de dormir.",
+      "Puddings proteicos de textura espesa.",
+      "Mousse de proteína.",
+      "Pancakes con alto contenido proteico.",
+      "Aporte proteico entre comidas."
+    ],
+    howToUse: [
+      "Medir 25-30 g (aproximadamente 1 cazo).",
+      "Mezclar con 200-250 ml de leche o bebida vegetal.",
+      "Agitar o batir hasta obtener textura homogénea.",
+      "Para puddings: mezclar con menos líquido (80-100 ml) y refrigerar 30 min."
+    ],
+    technicalSheet: technicalSheetFor("Caseína pura neutra", "Caseína micelar en polvo", "Caseína micelar (leche)"),
+    nutrition: [
+      { label: "Valor energético", value: "1548 kJ / 370 kcal" },
+      { label: "Grasas", value: "1,5 g" },
+      { label: "De las cuales saturadas", value: "0,9 g" },
+      { label: "Hidratos de carbono", value: "5 g" },
+      { label: "De los cuales azúcares", value: "2 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "82 g" },
+      { label: "Sal", value: "1,2 g" }
+    ],
+    allergens: "Contiene leche. Puede contener trazas de soja. Pendiente de confirmar con etiquetado final.",
+    conservation: "Conservar en lugar fresco y seco. Cerrar herméticamente tras cada uso.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["maltodextrina", "inulina-de-agave", "harina-de-almendra"],
+    recipeSlugs: [
+      "pudding-nocturno-de-caseina-con-cacao-y-platano",
+      "mousse-espesa-de-caseina-con-vainilla-y-frutos-rojos",
+      "pancakes-de-caseina-con-arandanos-y-miel",
+      "batido-espeso-de-caseina-con-fresa-y-leche",
+      "helado-proteico-de-caseina-con-vainilla-y-canela"
+    ]
+  },
+  {
+    slug: "inulina-de-agave",
+    name: "Inulina de agave",
+    shortDescription:
+      "Fibra prebiótica natural extraída del agave, levemente dulce, para enriquecer batidos, yogures y preparaciones sin alterar el sabor.",
+    description:
+      "Inulina extraída del agave en polvo fino de fácil disolución. Fibra prebiótica soluble que alimenta la flora intestinal beneficiosa. Aporta una dulzura muy ligera sin calorías significativas. Se mezcla con facilidad en frío o templado.",
+    category: "Fibra y prebióticos",
+    tags: ["Fibra", "Prebiótico", "Inulina", "Agave", "Sin azúcar", "1 kg"],
+    mainImage: {
+      src: "/images/products/inulina-de-agave-main.png",
+      alt: "Bote de inulina de agave RAIAN 1 kg",
+      label: "Inulina de agave 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Inulina de agave"),
+    uses: [
+      "Enriquecer batidos y smoothies con fibra.",
+      "Mezclar en yogur o kéfir.",
+      "Sustituto parcial de azúcar en recetas.",
+      "Preparaciones prebióticas.",
+      "Bebidas funcionales."
+    ],
+    howToUse: [
+      "Empezar con 5 g/día para que el organismo se adapte.",
+      "Aumentar progresivamente hasta 10 g/día.",
+      "Disolver en líquido frío o a temperatura ambiente.",
+      "No calentar por encima de 130°C para mantener propiedades."
+    ],
+    technicalSheet: technicalSheetFor("Inulina de agave", "Fructooligosacárido (FOS) extraído de agave", "Inulina de agave"),
+    nutrition: [
+      { label: "Valor energético", value: "628 kJ / 150 kcal" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "90 g" },
+      { label: "De los cuales azúcares", value: "5 g" },
+      { label: "Fibra alimentaria", value: "85 g" },
+      { label: "Proteínas", value: "0 g" },
+      { label: "Sal", value: "0,05 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Pendiente de confirmar con etiquetado final.",
+    conservation: "Conservar en lugar fresco y seco, alejado de la humedad.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["caseina-pura-neutra", "maltodextrina", "cacao-en-polvo-alcalino"],
+    recipeSlugs: [
+      "yogur-casero-enriquecido-con-inulina-de-agave-y-frutas-del-bosque",
+      "batido-verde-con-inulina-de-agave-espinacas-y-manzana",
+      "porridge-de-avena-con-inulina-de-agave-y-platano-caramelizado",
+      "compota-de-manzana-y-pera-con-inulina-de-agave"
+    ]
+  },
+  {
+    slug: "pistacho-puro-en-grano",
+    name: "Pistacho puro en grano",
+    shortDescription:
+      "Pistacho natural pelado en grano, sin sal ni tostado, para repostería, cremas, granolas y snacks de calidad.",
+    description:
+      "Pistacho puro pelado en grano, sin sal añadida ni proceso de tueste previo. Ideal para repostería premium, cremas artesanales, granolas y preparaciones donde el sabor del pistacho debe ser el protagonista.",
+    category: "Frutos secos",
+    tags: ["Pistacho", "Natural", "Sin sal", "Repostería", "Premium", "1 kg"],
+    mainImage: {
+      src: "/images/products/pistacho-puro-en-grano-main.png",
+      alt: "Bote de pistacho puro en grano RAIAN 1 kg",
+      label: "Pistacho puro en grano 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Pistacho puro en grano"),
+    uses: [
+      "Crema de pistacho artesanal.",
+      "Decoración de postres y tartas.",
+      "Granola y muesli premium.",
+      "Pesto de pistacho.",
+      "Snack natural sin sal."
+    ],
+    howToUse: [
+      "Para tostar: extender en bandeja y hornear a 170°C durante 8 minutos.",
+      "Para crema: triturar en batidora potente hasta obtener textura suave.",
+      "Para decorar: picar o dejar entero según la elaboración.",
+      "Conservar en recipiente hermético una vez abierto el envase."
+    ],
+    technicalSheet: technicalSheetFor("Pistacho puro en grano", "Fruto seco (pistacho pelado natural)", "Pistacho"),
+    nutrition: [
+      { label: "Valor energético", value: "2352 kJ / 562 kcal" },
+      { label: "Grasas", value: "45,3 g" },
+      { label: "De las cuales saturadas", value: "5,6 g" },
+      { label: "Hidratos de carbono", value: "27,5 g" },
+      { label: "De los cuales azúcares", value: "7,7 g" },
+      { label: "Fibra alimentaria", value: "10,3 g" },
+      { label: "Proteínas", value: "20,2 g" },
+      { label: "Sal", value: "0,01 g" }
+    ],
+    allergens: "Contiene pistacho (frutos de cáscara). Puede contener trazas de otros frutos de cáscara.",
+    conservation: "Conservar en lugar fresco, seco y protegido de la luz. Refrigerar una vez abierto.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["harina-de-almendra", "cacao-en-polvo-alcalino", "chocolate-a-la-taza"],
+    recipeSlugs: [
+      "helado-de-pistacho-puro-casero",
+      "crema-de-pistacho-artesanal-para-untar",
+      "ensalada-de-quinoa-con-pistacho-naranja-y-rucula",
+      "bizcocho-humedo-de-pistacho-con-glaseado-de-limon",
+      "pesto-de-pistacho-con-pasta-fresca"
+    ]
+  },
+  {
+    slug: "lecitina-de-soja",
+    name: "Lecitina de soja",
+    shortDescription:
+      "Emulsionante natural de soja para mayonesas veganas, salsas, chocolates y preparaciones que requieren unir agua y grasa.",
+    description:
+      "Lecitina de soja en polvo fino, emulsionante natural que permite integrar ingredientes de base acuosa con ingredientes grasos. Imprescindible para mayonesas veganas, aderezos emulsionados, chocolates con mejor textura y espumas culinarias.",
+    category: "Ingredientes funcionales",
+    tags: ["Lecitina", "Soja", "Emulsionante", "Vegano", "Funcional", "1 kg"],
+    mainImage: {
+      src: "/images/products/lecitina-de-soja-main.png",
+      alt: "Bote de lecitina de soja RAIAN 1 kg",
+      label: "Lecitina de soja 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Lecitina de soja"),
+    uses: [
+      "Mayonesa vegana sin huevo.",
+      "Chocolates con textura más fluida.",
+      "Salsas y vinagretas emulsionadas.",
+      "Espumas culinarias.",
+      "Mejorar la textura de masas y panes."
+    ],
+    howToUse: [
+      "Como emulsionante: usar el 0,5-1% del peso total de la preparación.",
+      "Para mayonesa vegana: 5-10 g por 250 ml de mezcla.",
+      "Añadir al líquido y batir antes de incorporar el aceite.",
+      "Disolver en líquido tibio para mejor integración."
+    ],
+    technicalSheet: technicalSheetFor("Lecitina de soja", "Emulsionante natural (fosfolípidos de soja)", "Lecitina de soja"),
+    nutrition: [
+      { label: "Valor energético", value: "3180 kJ / 760 kcal" },
+      { label: "Grasas", value: "97 g" },
+      { label: "De las cuales saturadas", value: "14 g" },
+      { label: "Hidratos de carbono", value: "0 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "1 g" },
+      { label: "Sal", value: "0,1 g" }
+    ],
+    allergens: "Contiene soja. Pendiente de confirmar trazas con etiquetado final.",
+    conservation: "Conservar en lugar fresco y seco. Puede solidificarse con el frío — es normal.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["cacao-en-polvo-alcalino", "chocolate-a-la-taza", "harina-de-almendra"],
+    recipeSlugs: [
+      "espuma-de-tomate-con-lecitina-de-soja-para-entrante",
+      "vinagreta-emulsionada-con-lecitina-de-soja-y-mostaza",
+      "batido-de-cacao-y-cacahuete-con-lecitina-de-soja",
+      "pan-esponjoso-enriquecido-con-lecitina-de-soja"
+    ]
   }
 ];
 

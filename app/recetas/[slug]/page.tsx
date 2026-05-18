@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { EmailShareForm } from "@/components/EmailShareForm";
 import { JsonLd } from "@/components/JsonLd";
 import { PlaceholderMedia } from "@/components/PlaceholderMedia";
+import { QrRecipeReviewBanner } from "@/components/QrReviewPrompt";
 import { RecipeRating } from "@/components/RecipeRating";
 import {
   getRecipeBySlug,
@@ -181,11 +182,11 @@ export default function RecipePage({ params }: RecipePageProps) {
         ]}
       />
 
-      <section className="bg-cream py-12 md:py-16">
+      <section className="raian-mesh-cream py-14 md:py-20">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] md:px-8">
           <div>
-            <p className="text-sm font-semibold uppercase leading-none text-terracotta">{recipe.categoryLabel}</p>
-            <h1 className="mt-4 font-display text-4xl leading-tight text-ink md:text-5xl">{recipe.title}</h1>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-terracotta">{recipe.categoryLabel}</p>
+            <h1 className="raian-display-balance mt-4 font-display text-4xl font-medium leading-[1.05] text-ink md:text-6xl">{recipe.title}</h1>
             <p className="mt-5 text-base leading-8 text-muted md:text-lg">{recipe.intro}</p>
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
               <div className="rounded-md border border-line bg-white p-4">
@@ -301,6 +302,7 @@ export default function RecipePage({ params }: RecipePageProps) {
         </div>
       </section>
 
+      <QrRecipeReviewBanner />
     </>
   );
 }

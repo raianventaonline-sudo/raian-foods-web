@@ -1,0 +1,363 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "chocolate-a-la-taza",
+  "product": {
+    "name": "Chocolate a la taza RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 1598,
+      "energy_kcal": 382,
+      "fat_g": 11,
+      "saturates_g": 6.5,
+      "carbohydrate_g": 62,
+      "sugars_g": 52,
+      "protein_g": 5,
+      "fiber_g": 4,
+      "salt_g": 0.3
+    },
+    "technical_note": "Preparado en polvo para chocolate a la taza a base de cacao, azúcar y almidón de maíz. El almidón espesa la bebida al calentar. Validar composición exacta y alérgenos contra ficha técnica del proveedor RAIAN.",
+    "dosage_note": "Proporción estándar: 30-40 g de preparado por 200 ml de leche. Ajustar al gusto."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["fitness", "premium", "familiar", "casera"],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "Verificar si el preparado puede contener trazas de leche, gluten o frutos secos por contaminación cruzada. Indicar alérgenos presentes en la receta final en negrita.",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "No usar términos como 'energizante', 'mejora el estado de ánimo' ni referencias a teobromina como claim de salud.",
+      "Describir el sabor y uso culinario de forma objetiva."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "familiar",
+      "title": "Chocolate caliente clásico a la taza",
+      "slug": "chocolate-caliente-clasico-a-la-taza",
+      "seo_title": "Chocolate caliente clásico a la taza RAIAN | Receta fácil",
+      "meta_description": "Chocolate caliente espeso y cremoso hecho con chocolate a la taza RAIAN y leche entera. Receta tradicional española lista en 5 minutos, perfecta para el desayuno.",
+      "intro": "El chocolate a la taza de toda la vida: espeso, caliente y reconfortante. Con la proporción perfecta de RAIAN queda con esa textura untuosa que tanto gusta.",
+      "servings": 2,
+      "times": {
+        "prep_min": 2,
+        "cook_min": 6,
+        "rest_min": 0,
+        "total_min": 8
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Leche entera", "g": 400, "key": "leche" },
+        { "name": "Chocolate a la taza RAIAN", "g": 70, "key": "chocolate_taza" }
+      ],
+      "steps": [
+        "Calienta la leche en un cazo a fuego medio.",
+        "Cuando esté caliente (sin hervir), añade el chocolate a la taza RAIAN poco a poco, sin dejar de remover con unas varillas.",
+        "Sube el fuego ligeramente y sigue removiendo hasta que el chocolate empiece a espesar y aparezcan las primeras burbujas.",
+        "Retira del fuego, remueve unos segundos más y sirve en tazas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 258,
+        "protein": 9.8,
+        "carbs": 36.0,
+        "sugars": 29.5,
+        "fat": 8.8,
+        "sat_fat": 5.4,
+        "fiber": 1.3,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 111,
+        "protein": 4.2,
+        "carbs": 15.5,
+        "sugars": 12.7,
+        "fat": 3.8,
+        "sat_fat": 2.3,
+        "fiber": 0.6,
+        "salt": 0.12
+      },
+      "estimated_serving_g": 235,
+      "keywords": ["chocolate a la taza", "chocolate caliente español", "chocolate espeso casero"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Batido frío de chocolate a la taza con hielo",
+      "slug": "batido-frio-de-chocolate-a-la-taza-con-hielo",
+      "seo_title": "Batido frío de chocolate a la taza RAIAN | Receta de verano",
+      "meta_description": "Batido frío de chocolate con hielo picado y leche, elaborado con chocolate a la taza RAIAN. Cremoso, intenso y listo en minutos. Perfecto para el verano.",
+      "intro": "El sabor del chocolate a la taza en versión fría: cremoso, espumoso y con ese sabor intenso a cacao que tanto gusta a niños y adultos.",
+      "servings": 2,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 3,
+        "rest_min": 30,
+        "total_min": 38
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Leche entera", "g": 300, "key": "leche" },
+        { "name": "Chocolate a la taza RAIAN", "g": 60, "key": "chocolate_taza" },
+        { "name": "Hielo picado", "g": 150, "key": "hielo" },
+        { "name": "Nata montada para decorar", "g": 30, "key": "nata_montada" }
+      ],
+      "steps": [
+        "Disuelve el chocolate a la taza RAIAN en 100 g de leche caliente, removiendo bien hasta obtener una mezcla sin grumos.",
+        "Añade el resto de la leche fría y mezcla.",
+        "Deja enfriar en la nevera 30 minutos.",
+        "Bate la mezcla con el hielo picado en una licuadora hasta obtener un batido espumoso.",
+        "Sirve en vasos altos decorados con nata montada."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 192,
+        "protein": 7.5,
+        "carbs": 27.5,
+        "sugars": 22.0,
+        "fat": 6.5,
+        "sat_fat": 4.0,
+        "fiber": 1.0,
+        "salt": 0.22
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 84,
+        "protein": 3.3,
+        "carbs": 12.0,
+        "sugars": 9.6,
+        "fat": 2.8,
+        "sat_fat": 1.7,
+        "fiber": 0.4,
+        "salt": 0.10
+      },
+      "estimated_serving_g": 270,
+      "keywords": ["batido de chocolate frío", "batido de cacao", "batido de verano con chocolate"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Mousse de chocolate a la taza sin huevo",
+      "slug": "mousse-de-chocolate-a-la-taza-sin-huevo",
+      "seo_title": "Mousse de chocolate a la taza sin huevo | RAIAN",
+      "meta_description": "Mousse de chocolate sin huevo elaborada con chocolate a la taza RAIAN y nata montada. Cremosa, intensa y con textura aireada. Lista en 15 minutos.",
+      "intro": "Una mousse de chocolate rápida y sin complicaciones que prescinde del huevo crudo. El chocolate a la taza aporta cuerpo y el sabor reconocible que todos adoran.",
+      "servings": 4,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 120,
+        "total_min": 140
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Nata líquida 35% MG", "g": 350, "key": "nata" },
+        { "name": "Leche entera", "g": 80, "key": "leche" },
+        { "name": "Chocolate a la taza RAIAN", "g": 60, "key": "chocolate_taza" },
+        { "name": "Azúcar glas", "g": 20, "key": "azucar_glas" },
+        { "name": "Cacao en polvo puro para decorar", "g": 5, "key": "cacao_decorar" }
+      ],
+      "steps": [
+        "Disuelve el chocolate a la taza RAIAN en la leche caliente, removiendo hasta obtener una crema lisa. Deja enfriar completamente.",
+        "Monta la nata bien fría con el azúcar glas hasta obtener picos firmes.",
+        "Incorpora la crema de chocolate en dos tandas a la nata montada, con movimientos envolventes para no perder el aire.",
+        "Reparte en vasitos o copas y refrigera al menos 2 horas.",
+        "Espolvorea cacao en polvo antes de servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 348,
+        "protein": 4.0,
+        "carbs": 18.5,
+        "sugars": 16.0,
+        "fat": 29.0,
+        "sat_fat": 18.5,
+        "fiber": 0.8,
+        "salt": 0.16
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 312,
+        "protein": 3.6,
+        "carbs": 16.6,
+        "sugars": 14.3,
+        "fat": 26.0,
+        "sat_fat": 16.6,
+        "fiber": 0.7,
+        "salt": 0.14
+      },
+      "estimated_serving_g": 130,
+      "keywords": ["mousse de chocolate sin huevo", "mousse de cacao fácil", "postre de chocolate premium"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Porridge de avena con chocolate a la taza",
+      "slug": "porridge-de-avena-con-chocolate-a-la-taza",
+      "seo_title": "Porridge de avena con chocolate a la taza RAIAN | Desayuno",
+      "meta_description": "Porridge de avena caliente con chocolate a la taza RAIAN. Desayuno reconfortante, saciante y con sabor a chocolate. Listo en 10 minutos.",
+      "intro": "Un desayuno caliente y nutritivo que combina la fibra de la avena con el intenso sabor del chocolate a la taza RAIAN. Sencillo, saciante y perfecto para los días de frío.",
+      "servings": 2,
+      "times": {
+        "prep_min": 3,
+        "cook_min": 8,
+        "rest_min": 0,
+        "total_min": 11
+      },
+      "allergens": ["Leche", "Gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Copos de avena finos", "g": 100, "key": "avena" },
+        { "name": "Leche entera", "g": 350, "key": "leche" },
+        { "name": "Chocolate a la taza RAIAN", "g": 40, "key": "chocolate_taza" },
+        { "name": "Plátano en rodajas", "g": 80, "key": "platano" },
+        { "name": "Pizca de sal", "g": 1, "key": "sal" }
+      ],
+      "steps": [
+        "Calienta la leche en un cazo a fuego medio.",
+        "Añade el chocolate a la taza RAIAN y remueve hasta disolver.",
+        "Incorpora los copos de avena y la sal. Cocina 6-8 minutos removiendo constantemente hasta que el porridge espese.",
+        "Reparte en dos cuencos y decora con las rodajas de plátano.",
+        "Sirve inmediatamente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 348,
+        "protein": 13.5,
+        "carbs": 55.0,
+        "sugars": 25.0,
+        "fat": 8.5,
+        "sat_fat": 4.0,
+        "fiber": 4.5,
+        "salt": 0.26
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 143,
+        "protein": 5.6,
+        "carbs": 22.7,
+        "sugars": 10.3,
+        "fat": 3.5,
+        "sat_fat": 1.7,
+        "fiber": 1.9,
+        "salt": 0.11
+      },
+      "estimated_serving_g": 286,
+      "keywords": ["porridge de chocolate", "avena con cacao", "desayuno caliente de cacao"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Fondue de chocolate a la taza con frutas y galletas",
+      "slug": "fondue-de-chocolate-a-la-taza-con-frutas-y-galletas",
+      "seo_title": "Fondue de chocolate a la taza RAIAN | Receta para compartir",
+      "meta_description": "Fondue de chocolate caliente elaborada con chocolate a la taza RAIAN. Perfecta para acompañar con frutas, galletas y malvaviscos en reuniones y celebraciones.",
+      "intro": "Una fondue de chocolate espesa y brillante que convierte cualquier reunión en una experiencia. El chocolate a la taza RAIAN da cuerpo y sabor al punto justo.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 8,
+        "rest_min": 0,
+        "total_min": 18
+      },
+      "allergens": ["Leche", "Gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Leche entera", "g": 250, "key": "leche" },
+        { "name": "Nata líquida 35% MG", "g": 100, "key": "nata" },
+        { "name": "Chocolate a la taza RAIAN", "g": 80, "key": "chocolate_taza" },
+        { "name": "Fresas", "g": 150, "key": "fresas" },
+        { "name": "Plátano", "g": 100, "key": "platano" },
+        { "name": "Galletas digestive", "g": 80, "key": "galletas" },
+        { "name": "Malvaviscos", "g": 50, "key": "malvaviscos" }
+      ],
+      "steps": [
+        "Calienta la leche con la nata en un cazo a fuego medio.",
+        "Añade el chocolate a la taza RAIAN y remueve constantemente hasta obtener una salsa espesa y brillante.",
+        "Transfiere a un caquelon o bol resistente al calor sobre una vela de fondue o rechaud para mantener el calor.",
+        "Prepara las frutas limpias y troceadas y colócalas junto a las galletas y malvaviscos para mojar.",
+        "Sirve inmediatamente pinchando los acompañamientos con brochetas o tenedores de fondue."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 348,
+        "protein": 7.8,
+        "carbs": 50.0,
+        "sugars": 34.0,
+        "fat": 13.5,
+        "sat_fat": 7.8,
+        "fiber": 2.5,
+        "salt": 0.32
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 215,
+        "protein": 4.8,
+        "carbs": 30.9,
+        "sugars": 21.0,
+        "fat": 8.3,
+        "sat_fat": 4.8,
+        "fiber": 1.5,
+        "salt": 0.20
+      },
+      "estimated_serving_g": 203,
+      "keywords": ["fondue de chocolate", "fondue para compartir", "chocolate a la taza fondue"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Smoothie de cacao y plátano con proteína",
+      "slug": "smoothie-de-cacao-y-platano-con-proteina",
+      "seo_title": "Smoothie de cacao y plátano con chocolate RAIAN | Fitness",
+      "meta_description": "Smoothie de plátano y cacao con chocolate a la taza RAIAN. Batido saciante alto en carbohidratos y proteína para después del entrenamiento.",
+      "intro": "Un smoothie espeso y saciante que combina la energía rápida del plátano con el sabor del chocolate a la taza RAIAN, perfecto como recuperación postentrenamiento.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Plátano maduro congelado", "g": 120, "key": "platano" },
+        { "name": "Leche semidesnatada", "g": 200, "key": "leche" },
+        { "name": "Chocolate a la taza RAIAN", "g": 25, "key": "chocolate_taza" },
+        { "name": "Yogur griego natural", "g": 80, "key": "yogur" },
+        { "name": "Hielo", "g": 50, "key": "hielo" }
+      ],
+      "steps": [
+        "Trocea el plátano congelado.",
+        "Coloca todos los ingredientes en el vaso de la batidora: plátano, leche, chocolate a la taza RAIAN, yogur griego e hielo.",
+        "Bate a máxima potencia durante 45 segundos hasta obtener una textura completamente lisa.",
+        "Prueba y ajusta el dulzor añadiendo más chocolate a la taza si fuera necesario.",
+        "Sirve inmediatamente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 292,
+        "protein": 13.5,
+        "carbs": 44.0,
+        "sugars": 32.0,
+        "fat": 5.5,
+        "sat_fat": 3.0,
+        "fiber": 2.8,
+        "salt": 0.26
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 121,
+        "protein": 5.6,
+        "carbs": 18.2,
+        "sugars": 13.2,
+        "fat": 2.3,
+        "sat_fat": 1.2,
+        "fiber": 1.2,
+        "salt": 0.11
+      },
+      "estimated_serving_g": 475,
+      "keywords": ["smoothie de cacao y plátano", "batido de recuperación", "batido fitness de chocolate"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    }
+  ]
+}

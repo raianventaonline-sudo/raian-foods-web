@@ -142,7 +142,7 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
           { label: "Usos y recetas", href: "/recetas" }
         ]}
       />
-      <section className="bg-cream py-12 md:py-16">
+      <section className="raian-mesh-cream py-14 md:py-20">
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
           <SectionTitle
             eyebrow="Recetas"
@@ -288,8 +288,8 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
           </div>
           {visibleRecipes.length > 0 ? (
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {visibleRecipes.map((recipe) => (
-                <RecipeCard key={recipe.slug} recipe={recipe} rating={ratingSummaries[recipe.slug]} />
+              {visibleRecipes.map((recipe, index) => (
+                <RecipeCard key={recipe.slug} recipe={recipe} rating={ratingSummaries[recipe.slug]} index={index} />
               ))}
             </div>
           ) : (

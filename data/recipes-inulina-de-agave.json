@@ -1,0 +1,249 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "inulina-de-agave",
+  "product": {
+    "name": "Inulina de Agave RAIAN",
+    "nutrition_per_100g": {
+      "kcal": 150,
+      "protein": 0,
+      "carbs": 90,
+      "sugars": 5,
+      "fat": 0,
+      "sat_fat": 0,
+      "fiber": 85,
+      "salt": 0.02
+    },
+    "technical_note": "Inulina de cadena larga extraída de agave azul. Prebiótico natural (FOS). Sin gluten, sin lactosa, apta para veganos.",
+    "dosage_note": "3–10 g por toma, 1-2 veces al día. Empezar con dosis bajas (3 g) y aumentar gradualmente para evitar molestias digestivas."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["fitness", "familiar", "casera"],
+    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "allergen_policy": "Sin alérgenos de declaración obligatoria. Sin gluten. Sin lactosa.",
+    "claim_policy": ["Alto en fibra", "Sin gluten", "Sin lactosa", "Apto veganos"]
+  },
+  "recipes": [
+    {
+      "category": "familiar",
+      "title": "Yogur casero enriquecido con inulina de agave y frutas del bosque",
+      "slug": "yogur-casero-enriquecido-con-inulina-de-agave-y-frutas-del-bosque",
+      "seo_title": "Yogur con inulina de agave y frutas del bosque | RAIAN",
+      "meta_description": "Yogur cremoso enriquecido con inulina de agave RAIAN para mejorar la salud intestinal. Con frutas del bosque y miel. Receta sencilla y saludable para toda la familia.",
+      "intro": "Un desayuno o merienda que transforma un yogur normal en una bomba de fibra prebiótica. La inulina de agave RAIAN se disuelve sin alterar el sabor y nutre la microbiota intestinal.",
+      "servings": 2,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": ["leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Yogur natural entero", "g": 250, "key": "yogur" },
+        { "name": "Inulina de agave RAIAN", "g": 10, "key": "inulina" },
+        { "name": "Frutas del bosque mixtas", "g": 100, "key": "frutas_bosque" },
+        { "name": "Miel", "g": 15, "key": "miel" },
+        { "name": "Semillas de chía", "g": 8, "key": "chia" }
+      ],
+      "steps": [
+        "Mezcla el yogur natural con la inulina de agave RAIAN hasta que se disuelva completamente.",
+        "Añade la miel y remueve de nuevo.",
+        "Divide en dos boles o vasos y reparte las frutas del bosque por encima.",
+        "Espolvorea las semillas de chía como toque final.",
+        "Sirve de inmediato o refrigera hasta 24 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 176,
+        "protein": 6.2,
+        "carbs": 22.8,
+        "sugars": 15.4,
+        "fat": 5.8,
+        "sat_fat": 3.2,
+        "fiber": 6.4,
+        "salt": 0.10
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 116,
+        "protein": 4.1,
+        "carbs": 15.1,
+        "sugars": 10.2,
+        "fat": 3.8,
+        "sat_fat": 2.1,
+        "fiber": 4.2,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 192,
+      "keywords": ["inulina de agave", "yogur prebiótico", "fibra soluble", "frutas del bosque", "microbiota", "desayuno saludable"],
+      "notes": "La inulina puede espesar ligeramente el yogur tras reposar en la nevera. Es el efecto normal de la fibra de cadena larga."
+    },
+    {
+      "category": "casera",
+      "title": "Batido verde con inulina de agave, espinacas y manzana",
+      "slug": "batido-verde-con-inulina-de-agave-espinacas-y-manzana",
+      "seo_title": "Batido verde con inulina de agave y espinacas | RAIAN",
+      "meta_description": "Batido verde depurativo con inulina de agave RAIAN, espinacas frescas, manzana y jengibre. Rico en fibra prebiótica y antioxidantes. Receta vegana sin gluten.",
+      "intro": "Un batido verde que cuida el intestino desde dentro. La inulina de agave RAIAN actúa como prebiótico mientras las espinacas y la manzana aportan vitaminas y sabor.",
+      "servings": 1,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 8
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Espinacas frescas", "g": 60, "key": "espinacas" },
+        { "name": "Manzana verde", "g": 150, "key": "manzana" },
+        { "name": "Inulina de agave RAIAN", "g": 8, "key": "inulina" },
+        { "name": "Zumo de limón", "g": 15, "key": "limon" },
+        { "name": "Jengibre fresco rallado", "g": 5, "key": "jengibre" },
+        { "name": "Agua fría", "g": 200, "key": "agua" }
+      ],
+      "steps": [
+        "Lava bien las espinacas y trocea la manzana retirando el corazón.",
+        "Añade todos los ingredientes a la batidora de vaso.",
+        "Tritura a velocidad máxima durante 60 segundos hasta obtener una mezcla homogénea.",
+        "Comprueba que la inulina se ha disuelto completamente; si no, mezcla unos segundos más.",
+        "Sirve inmediatamente en un vaso alto con hielo opcional."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 98,
+        "protein": 1.8,
+        "carbs": 18.6,
+        "sugars": 12.4,
+        "fat": 0.4,
+        "sat_fat": 0.1,
+        "fiber": 7.8,
+        "salt": 0.06
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 22,
+        "protein": 0.4,
+        "carbs": 4.2,
+        "sugars": 2.8,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 1.8,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 438,
+      "keywords": ["inulina de agave", "batido verde", "espinacas", "manzana", "prebiótico", "vegano", "sin gluten"],
+      "notes": "El jengibre puede resultar intenso. Empieza con 3 g y aumenta al gusto. La manzana Granny Smith da un sabor más fresco y menos dulce."
+    },
+    {
+      "category": "fitness",
+      "title": "Porridge de avena con inulina de agave y plátano caramelizado",
+      "slug": "porridge-de-avena-con-inulina-de-agave-y-platano-caramelizado",
+      "seo_title": "Porridge con inulina de agave y plátano caramelizado | RAIAN",
+      "meta_description": "Porridge de avena enriquecido con inulina de agave RAIAN y plátano caramelizado. Desayuno alto en fibra y energía sostenida para deportistas. Receta sin lactosa.",
+      "intro": "Un porridge clásico elevado con fibra prebiótica y plátano dorado a la plancha. La inulina de agave RAIAN aporta dulzor natural y cuida la microbiota mientras el entrenamiento se lo trabaja.",
+      "servings": 1,
+      "times": {
+        "prep_min": 3,
+        "cook_min": 10,
+        "rest_min": 0,
+        "total_min": 13
+      },
+      "allergens": ["gluten"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Copos de avena", "g": 60, "key": "avena" },
+        { "name": "Leche de avena o agua", "g": 250, "key": "leche_avena" },
+        { "name": "Inulina de agave RAIAN", "g": 8, "key": "inulina" },
+        { "name": "Plátano maduro", "g": 100, "key": "platano" },
+        { "name": "Canela molida", "g": 1, "key": "canela" },
+        { "name": "Aceite de coco", "g": 3, "key": "aceite_coco" }
+      ],
+      "steps": [
+        "Cuece los copos de avena con la leche de avena a fuego medio removiendo constantemente durante 5-7 minutos.",
+        "Fuera del fuego, añade la inulina de agave RAIAN y la canela. Mezcla bien.",
+        "Corta el plátano en rodajas gruesas.",
+        "En una sartén con el aceite de coco, dora las rodajas de plátano 1-2 minutos por cada lado hasta que estén caramelizadas.",
+        "Sirve el porridge caliente en un bol con el plátano caramelizado por encima."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 388,
+        "protein": 8.6,
+        "carbs": 68.4,
+        "sugars": 22.8,
+        "fat": 8.2,
+        "sat_fat": 4.1,
+        "fiber": 13.6,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 82,
+        "protein": 1.8,
+        "carbs": 14.5,
+        "sugars": 4.8,
+        "fat": 1.7,
+        "sat_fat": 0.9,
+        "fiber": 2.9,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 425,
+      "keywords": ["inulina de agave", "porridge", "avena", "plátano", "prebiótico", "desayuno deportista"],
+      "notes": "Para versión sin gluten, usa copos de avena certificados sin gluten. La inulina añade un toque de dulzor que puede reducir la necesidad de azúcar."
+    },
+    {
+      "category": "casera",
+      "title": "Compota de manzana y pera con inulina de agave",
+      "slug": "compota-de-manzana-y-pera-con-inulina-de-agave",
+      "seo_title": "Compota de manzana y pera con inulina de agave | RAIAN",
+      "meta_description": "Compota casera de manzana y pera enriquecida con inulina de agave RAIAN. Sin azúcar añadido, apta para bebés y toda la familia. Receta vegana, sin gluten.",
+      "intro": "Una compota natural sin azúcar añadido que se convierte en un aliado de la digestión gracias a la inulina de agave RAIAN. Lista en 20 minutos y perfecta para desayunos, meriendas o acompañar yogures.",
+      "servings": 4,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 18,
+        "rest_min": 10,
+        "total_min": 36
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Manzanas", "g": 400, "key": "manzana" },
+        { "name": "Peras", "g": 300, "key": "pera" },
+        { "name": "Inulina de agave RAIAN", "g": 15, "key": "inulina" },
+        { "name": "Zumo de limón", "g": 10, "key": "limon" },
+        { "name": "Canela en rama", "g": 5, "key": "canela_rama" },
+        { "name": "Agua", "g": 50, "key": "agua" }
+      ],
+      "steps": [
+        "Pela las manzanas y peras, retira los corazones y córtalas en dados de 2 cm.",
+        "Coloca la fruta en un cazo con el agua, el zumo de limón y la canela en rama.",
+        "Cocina a fuego medio-bajo con tapa durante 15-18 minutos hasta que la fruta esté muy blanda.",
+        "Retira la canela en rama y deja enfriar 10 minutos fuera del fuego.",
+        "Añade la inulina de agave RAIAN y tritura con batidora de mano hasta obtener la textura deseada.",
+        "Conserva en frascos de cristal en la nevera hasta 5 días."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 108,
+        "protein": 0.6,
+        "carbs": 22.4,
+        "sugars": 16.8,
+        "fat": 0.3,
+        "sat_fat": 0.0,
+        "fiber": 6.8,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 55,
+        "protein": 0.3,
+        "carbs": 11.4,
+        "sugars": 8.5,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 3.5,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 195,
+      "keywords": ["inulina de agave", "compota", "manzana", "pera", "sin azúcar", "prebiótico", "vegano"],
+      "notes": "Añadir la inulina fuera del fuego preserva mejor sus propiedades prebióticas. La mezcla espesará un poco más al enfriar."
+    }
+  ]
+}

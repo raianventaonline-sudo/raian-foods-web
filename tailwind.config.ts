@@ -10,20 +10,18 @@ const config: Config = {
   theme: {
     fontFamily: {
       display: [
-        "-apple-system",
-        "BlinkMacSystemFont",
-        "SF Pro Display",
-        "SF Pro Text",
-        "Helvetica Neue",
-        "Segoe UI",
-        "system-ui",
-        "sans-serif"
+        "var(--font-display)",
+        "Fraunces",
+        "Georgia",
+        "ui-serif",
+        "serif"
       ],
       sans: [
+        "var(--font-sans)",
+        "Inter",
         "-apple-system",
         "BlinkMacSystemFont",
         "SF Pro Text",
-        "SF Pro Display",
         "Helvetica Neue",
         "Segoe UI",
         "system-ui",

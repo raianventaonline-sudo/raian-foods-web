@@ -1,0 +1,381 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "harina-de-almendra",
+  "product": {
+    "name": "Harina de almendra RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 2468,
+      "energy_kcal": 590,
+      "fat_g": 52.5,
+      "saturates_g": 4.0,
+      "carbohydrate_g": 18.7,
+      "sugars_g": 4.6,
+      "protein_g": 21.4,
+      "fiber_g": 9.9,
+      "salt_g": 0.01
+    },
+    "technical_note": "Harina de almendra 100% natural, obtenida de almendras peladas finamente molidas. Sin gluten por composición, pero verificar ausencia de contaminación cruzada en el entorno de fabricación antes de declararlo. Alérgeno obligatorio: frutos de cáscara (almendra).",
+    "dosage_note": "Sustituye harina de trigo en proporción 1:1 en peso para la mayoría de elaboraciones."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["fitness", "premium", "familiar", "casera"],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "Destacar alérgenos en negrita. Alérgeno principal: Frutos de cáscara (almendra). No declarar 'sin gluten' sin certificación y control de contaminación cruzada.",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "Evitar 'sin gluten' salvo certificación verificada.",
+      "Usar 'elaborado con harina de almendra' como claim descriptivo, no nutricional."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "fitness",
+      "title": "Tortitas de harina de almendra con plátano y arándanos",
+      "slug": "tortitas-de-harina-de-almendra-con-platano-y-arandanos",
+      "seo_title": "Tortitas de harina de almendra con plátano | RAIAN",
+      "meta_description": "Tortitas esponjosas de harina de almendra RAIAN con plátano maduro y arándanos. Altas en proteína, sin cereales, perfectas para el desayuno fitness.",
+      "intro": "Tortitas esponjosas y nutritivas que no llevan harina de trigo. El plátano maduro aporta dulzor natural sin necesidad de añadir azúcar.",
+      "servings": 2,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 12,
+        "rest_min": 0,
+        "total_min": 20
+      },
+      "allergens": ["Huevo", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de almendra RAIAN", "g": 80, "key": "harina_almendra" },
+        { "name": "Plátano maduro", "g": 100, "key": "platano" },
+        { "name": "Huevos", "g": 100, "key": "huevo" },
+        { "name": "Levadura química", "g": 4, "key": "levadura" },
+        { "name": "Canela molida", "g": 2, "key": "canela" },
+        { "name": "Arándanos frescos", "g": 80, "key": "arandanos" },
+        { "name": "Aceite de coco para cocinar", "g": 10, "key": "aceite_coco" }
+      ],
+      "steps": [
+        "Aplasta el plátano con un tenedor hasta obtener un puré.",
+        "Bate los huevos y mézclalos con el puré de plátano.",
+        "Añade la harina de almendra RAIAN, la levadura y la canela. Mezcla hasta obtener una masa homogénea.",
+        "Calienta una sartén antiadherente con el aceite de coco a fuego medio.",
+        "Vierte porciones de masa de unos 40 g y cocina 2-3 minutos por cada lado hasta que estén doradas.",
+        "Sirve con los arándanos frescos por encima."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 378,
+        "protein": 16.2,
+        "carbs": 22.5,
+        "sugars": 15.0,
+        "fat": 27.0,
+        "sat_fat": 8.5,
+        "fiber": 6.0,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 318,
+        "protein": 13.6,
+        "carbs": 18.9,
+        "sugars": 12.6,
+        "fat": 22.7,
+        "sat_fat": 7.1,
+        "fiber": 5.0,
+        "salt": 0.24
+      },
+      "estimated_serving_g": 188,
+      "keywords": ["tortitas de almendra", "tortitas sin gluten fitness", "harina de almendra receta"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Galletas de harina de almendra y mantequilla de cacahuete",
+      "slug": "galletas-de-harina-de-almendra-y-mantequilla-de-cacahuete",
+      "seo_title": "Galletas de harina de almendra y cacahuete | RAIAN",
+      "meta_description": "Galletas crujientes de harina de almendra RAIAN y mantequilla de cacahuete. Sin harina de trigo, altas en proteína vegetal y grasas saludables. Receta fitness.",
+      "intro": "Galletas compactas y sabrosas sin harina de trigo, con un marcado sabor a frutos secos que sacia entre comidas.",
+      "servings": 12,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 14,
+        "rest_min": 10,
+        "total_min": 34
+      },
+      "allergens": ["Huevo", "Frutos de cáscara", "Cacahuete"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de almendra RAIAN", "g": 150, "key": "harina_almendra" },
+        { "name": "Mantequilla de cacahuete natural", "g": 80, "key": "mantequilla_cacahuete" },
+        { "name": "Huevo", "g": 50, "key": "huevo" },
+        { "name": "Miel", "g": 30, "key": "miel" },
+        { "name": "Bicarbonato sódico", "g": 3, "key": "bicarbonato" },
+        { "name": "Extracto de vainilla", "g": 3, "key": "vainilla" }
+      ],
+      "steps": [
+        "Precalienta el horno a 175°C con calor arriba y abajo.",
+        "Mezcla la mantequilla de cacahuete, el huevo, la miel y la vainilla en un bol hasta obtener una mezcla homogénea.",
+        "Añade la harina de almendra RAIAN y el bicarbonato. Mezcla bien hasta obtener una masa.",
+        "Forma bolitas de unos 25 g y colócalas en una bandeja con papel de horno. Aplánalas ligeramente con un tenedor haciendo un patrón de cuadrícula.",
+        "Hornea 12-14 minutos hasta que los bordes estén dorados.",
+        "Deja enfriar 10 minutos en la bandeja antes de manipular (se endurecen al enfriarse)."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 148,
+        "protein": 5.8,
+        "carbs": 5.8,
+        "sugars": 3.8,
+        "fat": 12.2,
+        "sat_fat": 1.8,
+        "fiber": 2.1,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 570,
+        "protein": 22.4,
+        "carbs": 22.3,
+        "sugars": 14.6,
+        "fat": 47.0,
+        "sat_fat": 6.9,
+        "fiber": 8.1,
+        "salt": 0.31
+      },
+      "estimated_serving_g": 26,
+      "keywords": ["galletas de almendra", "galletas sin harina de trigo", "galletas proteicas"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Bizcocho de harina de almendra, limón y aceite de oliva",
+      "slug": "bizcocho-de-harina-de-almendra-limon-y-aceite-de-oliva",
+      "seo_title": "Bizcocho de harina de almendra y limón | RAIAN",
+      "meta_description": "Bizcocho esponjoso de harina de almendra RAIAN con ralladura de limón y aceite de oliva virgen extra. Húmedo, aromático y sin harina de trigo.",
+      "intro": "Un bizcocho de miga húmeda y perfumada gracias a la harina de almendra y la ralladura de limón. Ideal para el desayuno o la merienda.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 35,
+        "rest_min": 15,
+        "total_min": 65
+      },
+      "allergens": ["Huevo", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de almendra RAIAN", "g": 200, "key": "harina_almendra" },
+        { "name": "Huevos", "g": 150, "key": "huevos" },
+        { "name": "Azúcar", "g": 100, "key": "azucar" },
+        { "name": "Aceite de oliva virgen extra", "g": 60, "key": "aceite_oliva" },
+        { "name": "Ralladura de limón", "g": 8, "key": "ralladura_limon" },
+        { "name": "Zumo de limón", "g": 20, "key": "zumo_limon" },
+        { "name": "Levadura química", "g": 8, "key": "levadura" },
+        { "name": "Pizca de sal", "g": 2, "key": "sal" }
+      ],
+      "steps": [
+        "Precalienta el horno a 170°C. Engrasa un molde de 20 cm con aceite y fórralo con papel de horno.",
+        "Bate los huevos con el azúcar durante 4 minutos hasta que estén espumosos y claros.",
+        "Incorpora el aceite de oliva, la ralladura y el zumo de limón. Mezcla bien.",
+        "Añade la harina de almendra RAIAN, la levadura y la sal. Integra con movimientos suaves.",
+        "Vierte la masa en el molde y hornea 33-35 minutos. Comprueba inserting un palillo: debe salir limpio.",
+        "Deja enfriar en el molde 15 minutos antes de desmoldar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 285,
+        "protein": 8.0,
+        "carbs": 15.8,
+        "sugars": 13.5,
+        "fat": 22.0,
+        "sat_fat": 2.5,
+        "fiber": 3.3,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 430,
+        "protein": 12.1,
+        "carbs": 23.9,
+        "sugars": 20.4,
+        "fat": 33.2,
+        "sat_fat": 3.8,
+        "fiber": 5.0,
+        "salt": 0.27
+      },
+      "estimated_serving_g": 68,
+      "keywords": ["bizcocho de almendra", "bizcocho sin gluten casero", "bizcocho de limón con almendra"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Base de tarta crujiente de harina de almendra y dátiles",
+      "slug": "base-de-tarta-crujiente-de-harina-de-almendra-y-datiles",
+      "seo_title": "Base de tarta de harina de almendra y dátiles | RAIAN",
+      "meta_description": "Base de tarta sin horno con harina de almendra RAIAN y dátiles Medjool. Perfecta para tartas de queso, cheesecake o mousse. Sin gluten por ingredientes.",
+      "intro": "Una base de tarta sin horno, compacta y con sabor caramelizado, que funciona perfectamente con cualquier relleno cremoso o mousse.",
+      "servings": 8,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 40
+      },
+      "allergens": ["Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de almendra RAIAN", "g": 180, "key": "harina_almendra" },
+        { "name": "Dátiles Medjool deshuesados", "g": 120, "key": "datiles" },
+        { "name": "Aceite de coco fundido", "g": 30, "key": "aceite_coco" },
+        { "name": "Cacao en polvo sin azúcar", "g": 15, "key": "cacao" },
+        { "name": "Pizca de sal", "g": 1, "key": "sal" }
+      ],
+      "steps": [
+        "Tritura los dátiles en un procesador de alimentos hasta obtener una pasta.",
+        "Añade la harina de almendra RAIAN, el cacao, la sal y el aceite de coco fundido. Tritura hasta que la mezcla tenga textura de arena húmeda que se compacta al presionar.",
+        "Forra la base de un molde desmontable de 22 cm con papel de horno.",
+        "Vierte la mezcla y presiona con los dedos o una cuchara para formar una base uniforme.",
+        "Refrigera 30 minutos antes de añadir el relleno elegido."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 218,
+        "protein": 4.8,
+        "carbs": 18.5,
+        "sugars": 14.0,
+        "fat": 14.5,
+        "sat_fat": 5.8,
+        "fiber": 3.8,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 462,
+        "protein": 10.2,
+        "carbs": 39.2,
+        "sugars": 29.7,
+        "fat": 30.7,
+        "sat_fat": 12.3,
+        "fiber": 8.1,
+        "salt": 0.11
+      },
+      "estimated_serving_g": 43,
+      "keywords": ["base de tarta sin horno", "base de tarta de almendra", "base de cheesecake sin gluten"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Financiers de harina de almendra, mantequilla y frambuesa",
+      "slug": "financiers-de-harina-de-almendra-mantequilla-y-frambuesa",
+      "seo_title": "Financiers de almendra con frambuesa | Harina RAIAN",
+      "meta_description": "Financiers de harina de almendra RAIAN con mantequilla noisette y frambuesa fresca. Pastelería francesa clásica con textura húmeda e interior esponjoso.",
+      "intro": "Los financiers son pequeños bizcochos de la pastelería francesa con una textura única: crujientes por fuera y húmedos por dentro gracias a la harina de almendra.",
+      "servings": 12,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 15,
+        "rest_min": 30,
+        "total_min": 60
+      },
+      "allergens": ["Huevo", "Leche", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de almendra RAIAN", "g": 120, "key": "harina_almendra" },
+        { "name": "Azúcar glas", "g": 150, "key": "azucar_glas" },
+        { "name": "Claras de huevo", "g": 120, "key": "claras" },
+        { "name": "Mantequilla sin sal", "g": 100, "key": "mantequilla" },
+        { "name": "Harina de trigo (para ligar)", "g": 30, "key": "harina_trigo" },
+        { "name": "Frambuesas frescas", "g": 60, "key": "frambuesas" }
+      ],
+      "steps": [
+        "Funde la mantequilla a fuego medio hasta que tome un color dorado avellana y desprenda aroma a nuez (mantequilla noisette). Cuela y deja templar.",
+        "Mezcla en un bol la harina de almendra RAIAN, el azúcar glas y la harina de trigo.",
+        "Incorpora las claras de huevo sin montar y remueve hasta integrar.",
+        "Añade la mantequilla noisette templada y mezcla hasta obtener una masa lisa.",
+        "Refrigera la masa 30 minutos. Precalienta el horno a 200°C.",
+        "Rellena moldes para financiers o minimuffins hasta 3/4 de su capacidad. Coloca media frambuesa en cada uno.",
+        "Hornea 13-15 minutos hasta que los bordes estén dorados. Deja enfriar antes de desmoldar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 178,
+        "protein": 4.2,
+        "carbs": 14.8,
+        "sugars": 12.5,
+        "fat": 12.0,
+        "sat_fat": 4.5,
+        "fiber": 1.5,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 473,
+        "protein": 11.2,
+        "carbs": 39.4,
+        "sugars": 33.2,
+        "fat": 31.9,
+        "sat_fat": 12.0,
+        "fiber": 4.0,
+        "salt": 0.13
+      },
+      "estimated_serving_g": 49,
+      "keywords": ["financiers de almendra", "pastelería francesa", "bizcocho de almendra premium"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Rebozado crujiente de harina de almendra para pollo al horno",
+      "slug": "rebozado-crujiente-de-harina-de-almendra-para-pollo-al-horno",
+      "seo_title": "Rebozado de harina de almendra para pollo al horno | RAIAN",
+      "meta_description": "Receta de pollo al horno con rebozado crujiente de harina de almendra RAIAN. Sin pan rallado, alto en proteína, delicioso para toda la familia.",
+      "intro": "Un rebozado crujiente y dorado para pechugas de pollo, hecho con harina de almendra en lugar de pan rallado. El resultado es jugoso por dentro y crujiente por fuera.",
+      "servings": 4,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 25,
+        "rest_min": 5,
+        "total_min": 42
+      },
+      "allergens": ["Huevo", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Pechugas de pollo", "g": 600, "key": "pollo" },
+        { "name": "Harina de almendra RAIAN", "g": 100, "key": "harina_almendra" },
+        { "name": "Huevos", "g": 100, "key": "huevos" },
+        { "name": "Pimentón ahumado", "g": 4, "key": "pimenton" },
+        { "name": "Ajo en polvo", "g": 3, "key": "ajo_polvo" },
+        { "name": "Sal y pimienta", "g": 4, "key": "sal_pimienta" },
+        { "name": "Aceite de oliva virgen extra", "g": 15, "key": "aceite" }
+      ],
+      "steps": [
+        "Precalienta el horno a 200°C. Forra una bandeja con papel de horno y pincela con aceite.",
+        "Corta las pechugas en filetes de 1,5 cm de grosor o déjalas enteras.",
+        "Mezcla en un plato la harina de almendra RAIAN con el pimentón, el ajo, la sal y la pimienta.",
+        "Bate los huevos en un bol.",
+        "Pasa cada pieza de pollo por el huevo batido y luego por la mezcla de harina de almendra, presionando bien para que se adhiera.",
+        "Coloca en la bandeja y hornea 22-25 minutos hasta que el rebozado esté dorado y el pollo cocinado. Reposa 5 minutos antes de servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 385,
+        "protein": 44.0,
+        "carbs": 4.5,
+        "sugars": 1.0,
+        "fat": 21.0,
+        "sat_fat": 3.0,
+        "fiber": 2.8,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 237,
+        "protein": 27.1,
+        "carbs": 2.8,
+        "sugars": 0.6,
+        "fat": 12.9,
+        "sat_fat": 1.8,
+        "fiber": 1.7,
+        "salt": 0.34
+      },
+      "estimated_serving_g": 205,
+      "keywords": ["rebozado sin gluten", "pollo con harina de almendra", "pollo al horno crujiente"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    }
+  ]
+}

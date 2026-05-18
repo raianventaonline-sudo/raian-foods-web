@@ -76,8 +76,8 @@ export function ProductSearch({ products }: ProductSearchProps) {
 
       {filteredProducts.length > 0 ? (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredProducts.map((product) => (
-            <ProductCard key={product.slug} product={product} />
+          {filteredProducts.map((product, index) => (
+            <ProductCard key={product.slug} product={product} index={index} />
           ))}
         </div>
       ) : (

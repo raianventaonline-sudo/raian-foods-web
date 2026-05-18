@@ -1,0 +1,311 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "maltodextrina",
+  "product": {
+    "name": "Maltodextrina RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 1590,
+      "energy_kcal": 380,
+      "fat_g": 0,
+      "saturates_g": 0,
+      "carbohydrate_g": 95,
+      "sugars_g": 2,
+      "protein_g": 0.1,
+      "fiber_g": 0,
+      "salt_g": 0.05
+    },
+    "technical_note": "Polisacárido obtenido por hidrólisis parcial del almidón de maíz. Alta densidad calórica con sabor neutro. Índice glucémico alto. No apta para personas con restricciones severas de carbohidratos sin supervisión médica.",
+    "dosage_note": "Uso deportivo habitual: 30-60 g por hora de ejercicio intenso. Mezclar con agua o bebida isotónica."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["fitness", "familiar"],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "La maltodextrina de maíz no contiene alérgenos de declaración obligatoria. Verificar contaminación cruzada si se procesa en planta compartida con gluten.",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "No usar términos como 'quema grasa', 'aumenta músculo' ni referencias a rendimiento deportivo como claim de salud.",
+      "Describir usos de la maltodextrina como aporte de carbohidratos de forma objetiva."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "fitness",
+      "title": "Bebida de recuperación post-entreno con maltodextrina",
+      "slug": "bebida-de-recuperacion-post-entreno-con-maltodextrina",
+      "seo_title": "Bebida recuperación post-entreno con maltodextrina RAIAN",
+      "meta_description": "Bebida de recuperación post-entrenamiento con maltodextrina RAIAN, proteína en polvo y plátano. Recarga glucógeno y aporta proteína para la recuperación muscular.",
+      "intro": "Una bebida de recuperación casera con la combinación de carbohidratos rápidos y proteína que el músculo necesita en los primeros 30 minutos tras el ejercicio.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": ["Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Agua fría", "g": 300, "key": "agua" },
+        { "name": "Maltodextrina RAIAN", "g": 50, "key": "maltodextrina" },
+        { "name": "Proteína de suero de leche en polvo (sabor vainilla)", "g": 25, "key": "proteina_suero" },
+        { "name": "Plátano maduro", "g": 80, "key": "platano" },
+        { "name": "Pizca de sal", "g": 0.5, "key": "sal" }
+      ],
+      "steps": [
+        "Pela y trocea el plátano.",
+        "Coloca todos los ingredientes en la batidora: agua, maltodextrina RAIAN, proteína en polvo, plátano y sal.",
+        "Bate a potencia media-alta durante 30 segundos hasta obtener una bebida homogénea.",
+        "Consume en los 30 minutos siguientes al entrenamiento."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 370,
+        "protein": 25.5,
+        "carbs": 63.0,
+        "sugars": 14.5,
+        "fat": 1.5,
+        "sat_fat": 0.5,
+        "fiber": 1.2,
+        "salt": 0.35
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 81,
+        "protein": 5.6,
+        "carbs": 13.8,
+        "sugars": 3.2,
+        "fat": 0.3,
+        "sat_fat": 0.1,
+        "fiber": 0.3,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 455,
+      "keywords": ["batido post-entrenamiento", "bebida de recuperación", "maltodextrina deportiva"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Gel energético casero de cítricos con maltodextrina",
+      "slug": "gel-energetico-casero-de-citricos-con-maltodextrina",
+      "seo_title": "Gel energético casero de naranja con maltodextrina RAIAN",
+      "meta_description": "Gel energético casero sabor naranja elaborado con maltodextrina RAIAN. Económico, sin colorantes y con carbohidratos disponibles para entrenamiento o carrera.",
+      "intro": "Un gel energético sin conservantes ni colorantes para llevar al entrenamiento o competición. La maltodextrina aporta energía sostenida y el zumo de naranja sabor y vitamina C.",
+      "servings": 3,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 3,
+        "rest_min": 30,
+        "total_min": 41
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Maltodextrina RAIAN", "g": 60, "key": "maltodextrina" },
+        { "name": "Zumo de naranja natural", "g": 80, "key": "zumo_naranja" },
+        { "name": "Agua", "g": 30, "key": "agua" },
+        { "name": "Sal", "g": 0.5, "key": "sal" },
+        { "name": "Zumo de limón", "g": 10, "key": "zumo_limon" }
+      ],
+      "steps": [
+        "Calienta el zumo de naranja con el agua en un cazo pequeño hasta que esté tibio.",
+        "Añade la maltodextrina RAIAN poco a poco, removiendo continuamente hasta disolver.",
+        "Incorpora el zumo de limón y la sal. Mezcla bien.",
+        "Deja enfriar completamente.",
+        "Transfiere a bolsas de gel reutilizables o un biberón pequeño. Conservar refrigerado."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 105,
+        "protein": 0.2,
+        "carbs": 26.0,
+        "sugars": 5.8,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.07
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 184,
+        "protein": 0.4,
+        "carbs": 45.6,
+        "sugars": 10.2,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.2,
+        "salt": 0.12
+      },
+      "estimated_serving_g": 60,
+      "keywords": ["gel energético casero", "gel de maltodextrina", "nutrición en carrera"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Batido pre-entreno de avena y maltodextrina",
+      "slug": "batido-pre-entreno-de-avena-y-maltodextrina",
+      "seo_title": "Batido pre-entreno de avena y maltodextrina RAIAN",
+      "meta_description": "Batido pre-entrenamiento con maltodextrina RAIAN, avena y plátano. Aporta carbohidratos de diferente velocidad para mantener energía durante el ejercicio.",
+      "intro": "Un batido de carga de carbohidratos para tomar 60-90 minutos antes del entrenamiento. La avena y la maltodextrina proporcionan energía sostenida y rápida respectivamente.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": ["Gluten", "Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Leche semidesnatada", "g": 250, "key": "leche" },
+        { "name": "Maltodextrina RAIAN", "g": 35, "key": "maltodextrina" },
+        { "name": "Copos de avena", "g": 40, "key": "avena" },
+        { "name": "Plátano maduro", "g": 80, "key": "platano" },
+        { "name": "Canela molida", "g": 2, "key": "canela" }
+      ],
+      "steps": [
+        "Coloca todos los ingredientes en el vaso de la batidora.",
+        "Bate a máxima potencia durante 45 segundos hasta obtener una textura completamente lisa.",
+        "Consume 60-90 minutos antes del entrenamiento."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 410,
+        "protein": 13.0,
+        "carbs": 75.0,
+        "sugars": 22.0,
+        "fat": 4.5,
+        "sat_fat": 1.8,
+        "fiber": 4.5,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 120,
+        "protein": 3.8,
+        "carbs": 22.0,
+        "sugars": 6.5,
+        "fat": 1.3,
+        "sat_fat": 0.5,
+        "fiber": 1.3,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 407,
+      "keywords": ["batido pre-entrenamiento", "batido de carbohidratos", "batido de avena fitness"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Barritas energéticas de avena, miel y maltodextrina",
+      "slug": "barritas-energeticas-de-avena-miel-y-maltodextrina",
+      "seo_title": "Barritas energéticas caseras con maltodextrina RAIAN",
+      "meta_description": "Barritas energéticas caseras de avena, miel y maltodextrina RAIAN. Sin horno, listas en 15 minutos, perfectas para deportistas, excursiones o el desayuno familiar.",
+      "intro": "Barritas energéticas caseras que no necesitan horno y se hacen en menos de 15 minutos. La maltodextrina RAIAN aporta una textura más compacta y carbohidratos disponibles.",
+      "servings": 8,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 3,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": ["Gluten", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Copos de avena", "g": 180, "key": "avena" },
+        { "name": "Maltodextrina RAIAN", "g": 50, "key": "maltodextrina" },
+        { "name": "Miel", "g": 80, "key": "miel" },
+        { "name": "Mantequilla de almendra", "g": 60, "key": "mantequilla_almendra" },
+        { "name": "Frutas desecadas variadas (pasas, arándanos)", "g": 60, "key": "frutas_desecadas" },
+        { "name": "Semillas de chía", "g": 15, "key": "chia" }
+      ],
+      "steps": [
+        "Calienta la miel con la mantequilla de almendra en un cazo pequeño hasta que se fundan y formen una mezcla fluida.",
+        "Retira del fuego y añade la maltodextrina RAIAN. Mezcla bien.",
+        "En un bol grande, combina los copos de avena, las frutas desecadas y las semillas de chía.",
+        "Vierte la mezcla caliente sobre los secos y mezcla bien hasta que todo quede impregnado.",
+        "Presiona la mezcla firmemente en un molde cuadrado de 20 cm forrado con papel de horno.",
+        "Refrigera 1 hora. Corta en 8 barritas y envuelve individualmente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 235,
+        "protein": 5.5,
+        "carbs": 36.5,
+        "sugars": 18.0,
+        "fat": 7.5,
+        "sat_fat": 1.0,
+        "fiber": 3.8,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 366,
+        "protein": 8.6,
+        "carbs": 56.8,
+        "sugars": 28.0,
+        "fat": 11.7,
+        "sat_fat": 1.6,
+        "fiber": 5.9,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 56,
+      "keywords": ["barritas energéticas caseras", "barritas de avena", "snack de maltodextrina"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Bebida isotónica con sales minerales y maltodextrina",
+      "slug": "bebida-isotonica-con-sales-minerales-y-maltodextrina",
+      "seo_title": "Bebida isotónica con sales y maltodextrina RAIAN | Fitness",
+      "meta_description": "Bebida isotónica casera con maltodextrina RAIAN, magnesio, potasio y sodio. Fórmula equilibrada para sesiones largas o calurosas. Sin azúcares añadidos simples.",
+      "intro": "Una bebida deportiva completa que aporta carbohidratos complejos y electrolitos esenciales para mantener el rendimiento durante esfuerzos prolongados.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Agua mineral", "g": 500, "key": "agua" },
+        { "name": "Maltodextrina RAIAN", "g": 40, "key": "maltodextrina" },
+        { "name": "Zumo de limón", "g": 20, "key": "zumo_limon" },
+        { "name": "Sal (cloruro sódico)", "g": 0.8, "key": "sal" },
+        { "name": "Agua de coco (fuente de potasio)", "g": 50, "key": "agua_coco" }
+      ],
+      "steps": [
+        "Vierte el agua en una botella de deporte de 750 ml.",
+        "Añade la maltodextrina RAIAN y agita bien durante 30 segundos hasta disolver.",
+        "Incorpora el zumo de limón, la sal y el agua de coco.",
+        "Agita nuevamente y prueba. Ajusta con más limón si lo deseas más ácido.",
+        "Consume durante actividades físicas de más de 60 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 162,
+        "protein": 0.2,
+        "carbs": 40.5,
+        "sugars": 4.5,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.83
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 27,
+        "protein": 0.0,
+        "carbs": 6.7,
+        "sugars": 0.7,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.14
+      },
+      "estimated_serving_g": 611,
+      "keywords": ["bebida isotónica casera", "maltodextrina bebida deportiva", "hidratación largo entrenamiento"],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+    }
+  ]
+}
