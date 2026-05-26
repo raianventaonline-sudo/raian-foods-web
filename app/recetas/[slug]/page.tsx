@@ -6,6 +6,7 @@ import { EmailShareForm } from "@/components/EmailShareForm";
 import { JsonLd } from "@/components/JsonLd";
 import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { QrRecipeReviewBanner } from "@/components/QrReviewPrompt";
+import { RecipeCard } from "@/components/RecipeCard";
 import { RecipeRating } from "@/components/RecipeRating";
 import {
   getRecipeBySlug,
@@ -164,6 +165,10 @@ export default function RecipePage({ params }: RecipePageProps) {
   const emailBody = `Te comparto esta receta de RAIAN:\n\n${recipe.title}\n${recipeUrl}`;
   const emailHref = `mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
+  const moreRecipes = recipes
+    .filter((r) => r.slug !== recipe.slug && r.category === recipe.category)
+    .slice(0, 3);
+
   return (
     <>
       <JsonLd data={recipeJsonLd(recipe)} />
@@ -301,6 +306,46 @@ export default function RecipePage({ params }: RecipePageProps) {
           <EmailShareForm title={recipe.title} url={recipeUrl} />
         </div>
       </section>
+
+      {moreRecipes.length > 0 && (
+        <section className="bg-white py-12 md:py-16">
+          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-terracotta">Recetas</p>
+                <h2 className="raian-display-balance mt-2 font-display text-3xl font-medium text-ink md:text-4xl">
+                  Más recetas para ti.
+                </h2>
+              </div>
+              <Link
+                href="/recetas"
+                className="shrink-0 inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-beige"
+              >
+                Ver todas las recetas
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
+                  <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+            </div>
+            <div className="mt-8 grid gap-6 md:grid-cols-3">
+              {moreRecipes.map((r, i) => (
+                <RecipeCard key={r.slug} recipe={r} index={i} />
+              ))}
+            </div>
+            <div className="mt-10 flex justify-center">
+              <Link
+                href="/recetas"
+                className="inline-flex items-center gap-2 rounded-full bg-ink px-7 py-3 text-sm font-semibold text-white transition hover:bg-charcoal"
+              >
+                Ver el recetario completo
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
+                  <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       <QrRecipeReviewBanner />
     </>
