@@ -24,12 +24,13 @@ export function ProductHero({ product }: ProductHeroProps) {
   const initial = reduceMotion ? "show" : "hidden";
 
   return (
-    <section className="raian-mesh-cream py-10 md:py-20">
-      <div className="mx-auto grid w-full max-w-7xl gap-8 px-5 md:grid-cols-[0.95fr_1.05fr] md:items-center md:gap-10 md:px-8">
+    <section className="raian-mesh-cream overflow-hidden md:py-20">
+      <div className="mx-auto w-full max-w-7xl md:px-8">
+        <div className="md:grid md:grid-cols-[0.95fr_1.05fr] md:items-center md:gap-10">
         <motion.div initial={initial} animate="show" custom={0} variants={fadeUp}>
           <ProductImageGallery mainImage={product.mainImage} gallery={product.gallery} priority />
         </motion.div>
-        <div>
+        <div className="px-5 py-10 md:px-0 md:py-0">
           <motion.p
             initial={initial}
             animate="show"
@@ -103,6 +104,7 @@ export function ProductHero({ product }: ProductHeroProps) {
               la información de marca y producto.
             </p>
           </motion.div>
+        </div>
         </div>
       </div>
     </section>

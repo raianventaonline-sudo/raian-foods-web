@@ -69,7 +69,7 @@ export function ProductImageGallery({ mainImage, gallery, priority = false }: Pr
     <div className="flex flex-col gap-3">
       {/* Imagen principal con flechas */}
       <div
-        className="group relative aspect-[4/3] overflow-hidden rounded-2xl border border-line bg-beige md:aspect-square"
+        className="group relative aspect-[4/3] overflow-hidden bg-beige md:aspect-square md:rounded-2xl md:border md:border-line"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
@@ -132,7 +132,7 @@ export function ProductImageGallery({ mainImage, gallery, priority = false }: Pr
       </div>
 
       {/* Tira de miniaturas */}
-      <div className="flex gap-2 overflow-x-auto pb-1" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
+      <div className="flex gap-2 overflow-x-auto px-4 pb-2 pt-1 md:px-0 md:pb-1 md:pt-0" style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}>
         {all.map((img, i) => (
           <button
             key={img.src + i}
