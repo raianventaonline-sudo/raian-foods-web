@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -173,15 +174,37 @@ export default function ProductPage({ params }: ProductPageProps) {
       {relatedRecipes.length > 0 ? (
         <section className="bg-cream py-12 md:py-16">
           <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-            <SectionTitle
-              eyebrow="Usos y recetas"
-              title="Contenido práctico asociado."
-              description="Guías y usos en preparación para acompañar el producto con información útil y fácil de consultar."
-            />
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <SectionTitle
+                eyebrow="Usos y recetas"
+                title="Contenido práctico asociado."
+                description="Guías y usos en preparación para acompañar el producto con información útil y fácil de consultar."
+              />
+              <Link
+                href={`/recetas?producto=${product.slug}`}
+                className="shrink-0 inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-beige"
+              >
+                Ver todas las recetas
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
+                  <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+            </div>
             <div className="mt-8 grid gap-6 md:grid-cols-3">
               {relatedRecipes.map((recipe, index) => (
                 <RecipeCard key={recipe.slug} recipe={recipe} index={index} />
               ))}
+            </div>
+            <div className="mt-10 flex justify-center">
+              <Link
+                href={`/recetas?producto=${product.slug}`}
+                className="inline-flex items-center gap-2 rounded-full bg-ink px-7 py-3 text-sm font-semibold text-white transition hover:bg-charcoal"
+              >
+                Ver todas las recetas con {product.name}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
+                  <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
             </div>
           </div>
         </section>

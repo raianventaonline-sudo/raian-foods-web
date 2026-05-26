@@ -69,7 +69,7 @@ export function ProductImageGallery({ mainImage, gallery, priority = false }: Pr
     <div className="flex flex-col gap-3">
       {/* Imagen principal con flechas */}
       <div
-        className="group relative aspect-square overflow-hidden rounded-2xl border border-line bg-beige"
+        className="group relative aspect-[4/3] overflow-hidden rounded-2xl border border-line bg-beige md:aspect-square"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
