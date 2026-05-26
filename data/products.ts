@@ -227,7 +227,7 @@ export const products: Product[] = [
     technicalSheet: bovineGelatinTechnicalSheet,
     nutrition: bovineGelatinNutrition,
     allergens: "No contiene alérgenos declarables.",
-    conservation: "Condiciones de conservación pendientes de confirmar con el etiquetado final.",
+    conservation: "Conservar en lugar seco, sin humedad y sin exposición directa al sol. Temperatura máxima de conservación: 30 °C. Mantener el envase bien cerrado tras cada uso.",
     amazonUrl: "https://www.amazon.es/dp/B0H2QMJHPD",
     amazonAsin: "B0H2QMJHPD",
     amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H2QMJHPD",
