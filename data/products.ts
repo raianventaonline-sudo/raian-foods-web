@@ -169,13 +169,47 @@ export const products: Product[] = [
     },
     gallery: [
       {
-        src: "/images/products/gelatina-bovina-main.png",
-        alt: "Bote de gelatina neutra bovina RAIAN 260 Bloom 1 kg",
-        label: "Gelatina bovina 1 kg",
+        src: "/images/products/gelatina%20bovina/2.jpg",
+        alt: "¿Qué significa 260 Bloom? Escala y poder de gelificación de la gelatina RAIAN",
+        label: "260 Bloom explicado",
         available: true,
-        fit: "contain"
+        fit: "cover"
       },
-      ...galleryFor("Gelatina neutra bovina").slice(0, 4)
+      {
+        src: "/images/products/gelatina%20bovina/3.jpg",
+        alt: "Gelatina Neutra RAIAN versátil en cada receta: repostería, wellness y cocina salada",
+        label: "Versátil en cada receta",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/gelatina%20bovina/4.jpg",
+        alt: "Calidad que se nota: máxima calidad 260 Bloom, 100% bovino, neutra e insípida",
+        label: "Calidad que se nota",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/gelatina%20bovina/5.jpg",
+        alt: "Eleva tus recetas a otro nivel con Gelatina Neutra RAIAN 260 Bloom",
+        label: "Eleva tus recetas",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/gelatina%20bovina/6.jpg",
+        alt: "Gelatina neutra bovina RAIAN 260 Bloom — detalle de producto",
+        label: "Detalle de producto",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/gelatina%20bovina/7.jpg",
+        alt: "Gelatina neutra bovina RAIAN 260 Bloom — presentación completa",
+        label: "Presentación completa",
+        available: true,
+        fit: "cover"
+      }
     ],
     uses: [
       "Postres fríos.",

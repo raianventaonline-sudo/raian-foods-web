@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { NutritionTable } from "@/components/NutritionTable";
-import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { ProductHero } from "@/components/ProductHero";
 import { ProductTechnicalTable } from "@/components/ProductTechnicalTable";
 import { QrReviewPrompt } from "@/components/QrReviewPrompt";
@@ -61,7 +60,6 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   const relatedProducts = getRelatedProducts(product);
   const relatedRecipes = getRecipesForProduct(product.recipeSlugs);
-  const gallery = product.gallery.filter((asset) => asset.available);
   const technicalRows = product.technicalSheet.filter((row) => !isPendingValue(row.value));
   const nutritionRows = product.nutrition.filter((row) => !isPendingValue(row.value));
 
@@ -88,19 +86,6 @@ export default function ProductPage({ params }: ProductPageProps) {
         ]}
       />
       <ProductHero product={product} />
-
-      {gallery.length > 0 ? (
-        <section className="bg-white py-12 md:py-16">
-          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-            <SectionTitle eyebrow="Imagen de producto" title="Presentación visual de la referencia." />
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {gallery.map((asset) => (
-                <PlaceholderMedia key={asset.label} asset={asset} className="aspect-square" />
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
 
       <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-[0.8fr_1.2fr] md:px-8">

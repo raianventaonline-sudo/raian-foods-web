@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import type { Product } from "@/data/products";
-import { PlaceholderMedia } from "@/components/PlaceholderMedia";
+import { ProductImageGallery } from "@/components/ProductImageGallery";
 
 type ProductHeroProps = {
   product: Product;
@@ -27,7 +27,7 @@ export function ProductHero({ product }: ProductHeroProps) {
     <section className="raian-mesh-cream py-14 md:py-20">
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 md:grid-cols-[0.95fr_1.05fr] md:items-center md:px-8">
         <motion.div initial={initial} animate="show" custom={0} variants={fadeUp}>
-          <PlaceholderMedia asset={product.mainImage} className="aspect-[4/3] md:aspect-[5/4]" priority />
+          <ProductImageGallery mainImage={product.mainImage} gallery={product.gallery} priority />
         </motion.div>
         <div>
           <motion.p
