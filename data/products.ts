@@ -87,8 +87,8 @@ const bovineGelatinTechnicalSheet: TechnicalRow[] = [
   { label: "Alérgenos", value: "No contiene" },
   { label: "Uso previsto", value: "Uso alimentario" },
   { label: "EAN", value: pending },
-  { label: "ASIN de Amazon", value: pending },
-  { label: "Enlace Amazon", value: pending }
+  { label: "ASIN de Amazon", value: "B0H2QMJHPD" },
+  { label: "Enlace Amazon", value: "https://www.amazon.es/dp/B0H2QMJHPD" }
 ];
 
 const bovineGelatinNutrition: NutritionRow[] = [
@@ -228,11 +228,9 @@ export const products: Product[] = [
     nutrition: bovineGelatinNutrition,
     allergens: "No contiene alérgenos declarables.",
     conservation: "Condiciones de conservación pendientes de confirmar con el etiquetado final.",
-    amazonUrl: null,
-    amazonAsin: pending,
-    // Reemplaza con la URL de reseña real cuando el ASIN de Amazon esté disponible:
-    // https://www.amazon.es/review/create-review/?asin=TU_ASIN_AQUI
-    amazonReviewUrl: "https://www.amazon.es/s?k=raian+gelatina+neutra+bovina",
+    amazonUrl: "https://www.amazon.es/dp/B0H2QMJHPD",
+    amazonAsin: "B0H2QMJHPD",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H2QMJHPD",
     relatedSlugs: ["gelatina-neutra-porcina", "harina-de-almendra", "glucosa"],
     recipeSlugs: [
       "vasitos-fitness-de-yogur-griego-frutos-rojos-y-gelatina-bovina",
