@@ -136,7 +136,14 @@ const productIngredientTerms: Record<string, string[]> = {
   glucosa: ["glucosa"],
   "chocolate-a-la-taza": ["chocolate a la taza raian", "preparado de chocolate"],
   maltodextrina: ["maltodextrina"],
-  "cacao-en-polvo-alcalino": ["cacao en polvo alcalino", "cacao alcalino", "cacao 22/24", "cacao raian"],
+  "cacao-en-polvo-alcalino": [
+    "cacao en polvo alcalino",
+    "cacao alcalino",
+    "cacao 22/24",
+    "cacao raian",
+    "cacao en polvo",
+    "cacao"
+  ],
   "caseina-pura-neutra": ["caseína pura", "caseina pura", "caseína neutra", "caseina neutra"],
   "inulina-de-agave": ["inulina de agave", "inulina raian"],
   "pistacho-puro-en-grano": ["pistacho puro en grano", "pistacho raian", "pistacho en grano"],

@@ -150,6 +150,38 @@ const almondFlourNutrition: NutritionRow[] = [
   { label: "Sal", value: "0,01 g" }
 ];
 
+// Ficha técnica del cacao puro natural alcalinizado.
+// Especificaciones físico-químicas tomadas de la ficha técnica del proveedor (Olam Cocoa, ref. D-23-A).
+// Los datos nutricionales quedan pendientes: la ficha técnica del proveedor no incluye tabla nutricional.
+const cacaoAlkalineTechnicalSheet: TechnicalRow[] = [
+  { label: "Nombre del producto", value: "Cacao puro natural alcalinizado" },
+  {
+    label: "Origen / tipo",
+    value: "Cacao en polvo alcalinizado (proceso holandés). Denominación según Directiva 2000/36/CE: cacao en polvo."
+  },
+  { label: "Ingredientes", value: "Cacao en polvo alcalinizado, regulador de acidez: carbonato potásico." },
+  { label: "Aptitud", value: "100% cacao · Sin azúcar · Vegano" },
+  { label: "Contenido en materia grasa", value: "22 - 24%" },
+  { label: "pH (disolución al 10%)", value: "7,2 - 7,6" },
+  { label: "Finura (tamiz de 75 µm)", value: "99,5% mín." },
+  { label: "Humedad", value: "5% máx." },
+  { label: "Formato", value: "1 kg" },
+  { label: "Peso neto", value: "1 kg" },
+  { label: "Fabricado por", value: "OLAM COCOA BV" },
+  {
+    label: "Envasado por",
+    value: "Heladería Artesanal Valenciana GLASOL, S.L. (B96926480) para RAIAN AMZ SL (B26704098)"
+  },
+  { label: "Núm. RGSEAA", value: "20.047319/V" },
+  { label: "País de origen", value: "España · La Pobla de Vallbona" },
+  { label: "Certificaciones", value: "Kosher y Halal (según ficha técnica del proveedor)" },
+  { label: "Alérgenos", value: pending },
+  { label: "Uso previsto", value: "Uso alimentario y repostería" },
+  { label: "EAN", value: pending },
+  { label: "ASIN de Amazon", value: pending },
+  { label: "Enlace Amazon", value: pending }
+];
+
 export const products: Product[] = [
   {
     slug: "gelatina-neutra-bovina",
@@ -565,21 +597,21 @@ export const products: Product[] = [
   },
   {
     slug: "cacao-en-polvo-alcalino",
-    name: "Cacao en polvo alcalino 22/24",
+    name: "Cacao puro natural alcalinizado",
     shortDescription:
-      "Cacao en polvo alcalino con alto contenido en manteca (22/24%), color intenso y sabor profundo para repostería y bebidas.",
+      "Cacao puro natural alcalinizado, 100% cacao, sin azúcar y apto para veganos. Color intenso y sabor profundo para repostería y bebidas. Formato 1 kg envasado en España.",
     description:
-      "Cacao en polvo sometido a proceso de alcalinización, con contenido en materia grasa del 22-24%. Proporciona color oscuro intenso y sabor profundo de cacao, ideal para repostería profesional y de alta gama, así como para bebidas de cacao con cuerpo.",
+      "Cacao en polvo 100% puro sometido a un proceso de alcalinización (proceso holandés) que suaviza el sabor, intensifica el color oscuro y mejora la solubilidad. Sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico, responsable de la alcalinización. Pensado para repostería casera y profesional, así como para bebidas de cacao con cuerpo. Formato de 1 kg, envasado en España.",
     category: "Cacao y chocolate",
-    tags: ["Cacao", "Alcalino", "22/24", "Repostería", "Sin azúcar", "1 kg"],
+    tags: ["100% cacao", "Alcalinizado", "Sin azúcar", "Vegano", "Origen español", "1 kg"],
     mainImage: {
       src: "/images/products/cacao-en-polvo-alcalino-main.png",
-      alt: "Bote de cacao en polvo alcalino 22/24 RAIAN 1 kg",
-      label: "Cacao alcalino 22/24 — 1 kg",
-      available: false,
+      alt: "Bote de cacao puro natural alcalinizado RAIAN 100% cacao 1 kg",
+      label: "Cacao puro natural alcalinizado — 1 kg",
+      available: true,
       fit: "contain"
     },
-    gallery: galleryFor("Cacao en polvo alcalino 22/24"),
+    gallery: galleryFor("Cacao puro natural alcalinizado"),
     uses: [
       "Brownies y bizcochos con color y sabor intenso.",
       "Bebidas calientes de cacao.",
@@ -593,19 +625,12 @@ export const products: Product[] = [
       "Tamizar antes de mezclar para evitar grumos.",
       "Ajustar cantidad según la intensidad deseada."
     ],
-    technicalSheet: technicalSheetFor("Cacao en polvo alcalino 22/24", "Cacao en polvo desengrasado alcalinizado", "Cacao en polvo"),
-    nutrition: [
-      { label: "Valor energético", value: "1319 kJ / 315 kcal" },
-      { label: "Grasas", value: "22 g" },
-      { label: "De las cuales saturadas", value: "13 g" },
-      { label: "Hidratos de carbono", value: "35 g" },
-      { label: "De los cuales azúcares", value: "2 g" },
-      { label: "Fibra alimentaria", value: "30 g" },
-      { label: "Proteínas", value: "20 g" },
-      { label: "Sal", value: "0,6 g" }
-    ],
-    allergens: "Sin alérgenos de declaración obligatoria. Puede contener trazas de frutos de cáscara. Pendiente de confirmar.",
-    conservation: "Conservar en lugar fresco, seco y protegido de la luz y humedad.",
+    technicalSheet: cacaoAlkalineTechnicalSheet,
+    nutrition: nutritionPlaceholder,
+    allergens:
+      "Sin alérgenos de declaración obligatoria. Puede contener trazas de frutos de cáscara, leche y gluten. Pendiente de confirmar con la ficha técnica final.",
+    conservation:
+      "Conservar en lugar limpio, seco y bien ventilado, protegido de la luz y de olores fuertes. Condiciones óptimas: 15-20 °C y humedad relativa inferior al 50%. Mantener el envase bien cerrado tras cada uso.",
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["chocolate-a-la-taza", "harina-de-almendra", "lecitina-de-soja"],
