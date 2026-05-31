@@ -178,8 +178,8 @@ const cacaoAlkalineTechnicalSheet: TechnicalRow[] = [
   { label: "Alérgenos", value: pending },
   { label: "Uso previsto", value: "Uso alimentario y repostería" },
   { label: "EAN", value: pending },
-  { label: "ASIN de Amazon", value: pending },
-  { label: "Enlace Amazon", value: pending }
+  { label: "ASIN de Amazon", value: "B0H3HYPQ53" },
+  { label: "Enlace Amazon", value: "https://www.amazon.es/dp/B0H3HYPQ53" }
 ];
 
 export const products: Product[] = [
@@ -631,8 +631,9 @@ export const products: Product[] = [
       "Sin alérgenos de declaración obligatoria. Puede contener trazas de frutos de cáscara, leche y gluten. Pendiente de confirmar con la ficha técnica final.",
     conservation:
       "Conservar en lugar limpio, seco y bien ventilado, protegido de la luz y de olores fuertes. Condiciones óptimas: 15-20 °C y humedad relativa inferior al 50%. Mantener el envase bien cerrado tras cada uso.",
-    amazonUrl: null,
-    amazonAsin: pending,
+    amazonUrl: "https://www.amazon.es/dp/B0H3HYPQ53",
+    amazonAsin: "B0H3HYPQ53",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H3HYPQ53",
     relatedSlugs: ["chocolate-a-la-taza", "harina-de-almendra", "lecitina-de-soja"],
     recipeSlugs: [
       "brownie-humedo-de-cacao-alcalino-raian",
