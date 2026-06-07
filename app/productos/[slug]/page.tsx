@@ -75,6 +75,22 @@ export default function ProductPage({ params }: ProductPageProps) {
   const relatedRecipes = getRecipesForProduct(product.recipeSlugs);
   const technicalRows = product.technicalSheet.filter((row) => !isPendingValue(row.value));
   const nutritionRows = product.nutrition.filter((row) => !isPendingValue(row.value));
+  const faqs = product.faqs ?? [];
+  const faqJsonLd =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer
+            }
+          }))
+        }
+      : null;
 
   return (
     <>
@@ -85,6 +101,7 @@ export default function ProductPage({ params }: ProductPageProps) {
           { name: product.name, href: `/productos/${product.slug}` }
         ])}
       />
+      {faqJsonLd ? <JsonLd data={faqJsonLd} /> : null}
       <QrReviewPrompt
         productSlug={product.slug}
         productName={product.name}
@@ -181,6 +198,24 @@ export default function ProductPage({ params }: ProductPageProps) {
           </article>
         </div>
       </section>
+
+      {faqs.length > 0 ? (
+        <section className="bg-cream py-12 md:py-16">
+          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+            <SectionTitle eyebrow="Preguntas frecuentes" title={`Dudas habituales sobre ${product.name.toLowerCase()}.`} />
+            <div className="mt-8 divide-y divide-line rounded-md border border-line bg-white">
+              {faqs.map((item) => (
+                <details key={item.question} className="group px-5 py-4">
+                  <summary className="cursor-pointer list-none font-display text-lg leading-snug text-ink marker:hidden">
+                    {item.question}
+                  </summary>
+                  <p className="mt-3 text-sm leading-7 text-muted">{item.answer}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {relatedRecipes.length > 0 ? (
         <section className="bg-cream py-12 md:py-16">

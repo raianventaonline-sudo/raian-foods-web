@@ -16,6 +16,11 @@ export type NutritionRow = {
   value: string;
 };
 
+export type FaqItem = {
+  question: string;
+  answer: string;
+};
+
 export type Product = {
   slug: string;
   name: string;
@@ -38,6 +43,7 @@ export type Product = {
   amazonReviewUrl?: string;
   seoTitle?: string;
   seoDescription?: string;
+  faqs?: FaqItem[];
 };
 
 const pending = "Pendiente de completar";
@@ -273,7 +279,24 @@ export const products: Product[] = [
     ],
     seoTitle: "Gelatina neutra bovina 260 Bloom 1 kg | RAIAN Foods",
     seoDescription:
-      "Gelatina neutra bovina RAIAN: 260 Bloom, formato 1 kg y apta Halal. Ideal para postres, mousses, tartas y gelatinas caseras con textura profesional."
+      "Gelatina neutra bovina RAIAN: 260 Bloom, formato 1 kg y apta Halal. Ideal para postres, mousses, tartas y gelatinas caseras con textura profesional.",
+    faqs: [
+      {
+        question: "¿La gelatina neutra bovina es apta Halal?",
+        answer:
+          "Sí. Es de origen bovino y apta Halal, y no contiene alérgenos de declaración obligatoria."
+      },
+      {
+        question: "¿Qué significa 260 Bloom?",
+        answer:
+          "El grado Bloom mide la fuerza de gelificación: cuanto más alto, más firme queda. 260 Bloom es un valor alto, pensado para texturas firmes y resultados profesionales."
+      },
+      {
+        question: "¿Cómo se usa la gelatina neutra en polvo?",
+        answer:
+          "Hidrátala en agua fría, disuélvela en un líquido caliente sin que llegue a hervir, incorpórala templada a la elaboración y deja enfriar para que gane firmeza."
+      }
+    ]
   },
   {
     slug: "gelatina-neutra-porcina",
@@ -331,7 +354,24 @@ export const products: Product[] = [
     ],
     seoTitle: "Gelatina neutra porcina 260 Bloom 1 kg | RAIAN Foods",
     seoDescription:
-      "Gelatina neutra porcina RAIAN 260 Bloom en formato 1 kg. Perfecta para postres, mousses, tartas y recetas que necesitan textura y consistencia."
+      "Gelatina neutra porcina RAIAN 260 Bloom en formato 1 kg. Perfecta para postres, mousses, tartas y recetas que necesitan textura y consistencia.",
+    faqs: [
+      {
+        question: "¿La gelatina neutra porcina tiene sabor?",
+        answer:
+          "No. Es neutra: gelifica y aporta textura sin alterar el sabor ni el color de la receta, por lo que sirve tanto para preparaciones dulces como saladas."
+      },
+      {
+        question: "¿En qué se diferencia de la gelatina bovina?",
+        answer:
+          "Solo en el origen del colágeno. Ambas cumplen la misma función y son de 260 Bloom. La versión bovina, además, es apta Halal."
+      },
+      {
+        question: "¿Para qué recetas sirve?",
+        answer:
+          "Para postres fríos, mousses, tartas, panna cotta y gelatinas caseras que necesiten consistencia y un acabado firme."
+      }
+    ]
   },
   {
     slug: "harina-de-almendra",
@@ -386,6 +426,26 @@ export const products: Product[] = [
       "base-de-tarta-crujiente-de-harina-de-almendra-y-datiles",
       "financiers-de-harina-de-almendra-mantequilla-y-frambuesa",
       "rebozado-crujiente-de-harina-de-almendra-para-pollo-al-horno"
+    ],
+    seoTitle: "Harina de almendra 100% molida 1 kg | RAIAN Foods",
+    seoDescription:
+      "Harina de almendra RAIAN, 100% almendra molida en formato 1 kg. Textura fina para bizcochos, galletas, bases de tarta y repostería casera.",
+    faqs: [
+      {
+        question: "¿La harina de almendra tiene gluten?",
+        answer:
+          "La almendra no contiene gluten de forma natural. Aun así, revisa siempre el etiquetado final por posibles trazas si necesitas una garantía estricta."
+      },
+      {
+        question: "¿Puedo sustituir la harina de trigo por harina de almendra?",
+        answer:
+          "No siempre al 100%, porque la almendra no aporta gluten y da más humedad y densidad. Funciona mejor en recetas pensadas para ella o combinada con otras harinas."
+      },
+      {
+        question: "¿Cómo se conserva la harina de almendra?",
+        answer:
+          "En un lugar fresco, seco y protegido de la luz, con el envase bien cerrado. Así conserva mejor su sabor y evita la rancidez propia de los frutos secos."
+      }
     ]
   },
   {
@@ -439,6 +499,26 @@ export const products: Product[] = [
       "helado-artesanal-de-fresa-con-dextrosa",
       "mermelada-de-albaricoque-casera-con-dextrosa",
       "bizcocho-de-deportista-de-avena-y-dextrosa"
+    ],
+    seoTitle: "Dextrosa en polvo 1 kg | RAIAN Foods",
+    seoDescription:
+      "Dextrosa en polvo RAIAN en formato 1 kg. Ideal para bebidas isotónicas, geles energéticos, heladería y elaboraciones de repostería caseras.",
+    faqs: [
+      {
+        question: "¿Qué es la dextrosa?",
+        answer:
+          "Es glucosa en forma de azúcar simple, de rápida asimilación. Se usa mucho en preparaciones deportivas, heladería y repostería."
+      },
+      {
+        question: "¿En qué se diferencia la dextrosa del azúcar común?",
+        answer:
+          "La dextrosa es glucosa pura, mientras que el azúcar de mesa es sacarosa. La dextrosa endulza algo menos y se absorbe con más rapidez."
+      },
+      {
+        question: "¿Para qué se usa la dextrosa en la cocina?",
+        answer:
+          "Para bebidas isotónicas y geles energéticos caseros, para controlar la cristalización en helados y para distintas elaboraciones dulces."
+      }
     ]
   },
   {
@@ -492,6 +572,26 @@ export const products: Product[] = [
       "helado-cremoso-de-vainilla-con-glucosa-sin-heladera",
       "turron-blando-de-almendra-con-glucosa",
       "lemon-curd-sedoso-con-glucosa"
+    ],
+    seoTitle: "Glucosa 1 kg para repostería | RAIAN Foods",
+    seoDescription:
+      "Glucosa RAIAN en formato 1 kg. Perfecta para caramelos, ganaches, helados cremosos, turrón y elaboraciones de repostería que necesitan suavidad.",
+    faqs: [
+      {
+        question: "¿Para qué sirve la glucosa en repostería?",
+        answer:
+          "Aporta suavidad y ayuda a evitar la cristalización del azúcar en caramelos, ganaches, helados, turrones y otras elaboraciones dulces."
+      },
+      {
+        question: "¿Es lo mismo la glucosa que la dextrosa?",
+        answer:
+          "Están relacionadas, pero no se usan igual. En repostería la glucosa se aprecia sobre todo por su efecto anticristalizante y por la textura que aporta."
+      },
+      {
+        question: "¿Cómo se usa la glucosa?",
+        answer:
+          "Según indique la receta: se integra en la mezcla durante la elaboración. Conviene cerrar bien el envase tras cada uso."
+      }
     ]
   },
   {
@@ -547,6 +647,26 @@ export const products: Product[] = [
       "porridge-de-avena-con-chocolate-a-la-taza",
       "fondue-de-chocolate-a-la-taza-con-frutas-y-galletas",
       "smoothie-de-cacao-y-platano-con-proteina"
+    ],
+    seoTitle: "Chocolate a la taza 1 kg | RAIAN Foods",
+    seoDescription:
+      "Chocolate a la taza RAIAN en formato 1 kg. Cremoso para bebidas calientes, batidos y repostería: mousses, bizcochos y fondue de chocolate.",
+    faqs: [
+      {
+        question: "¿Cómo se prepara el chocolate a la taza?",
+        answer:
+          "Mezcla unos 30-40 g por cada 200 ml de leche caliente y remueve hasta que se disuelva por completo. Ajusta la cantidad según lo espeso que lo prefieras."
+      },
+      {
+        question: "¿Se puede usar en repostería?",
+        answer:
+          "Sí. Incorporado como polvo seco junto al resto de ingredientes secos sirve para mousses, bizcochos, cremas y fondue de chocolate."
+      },
+      {
+        question: "¿Contiene alérgenos?",
+        answer:
+          "Puede contener trazas de leche. Confirma siempre los alérgenos con el etiquetado final del producto."
+      }
     ]
   },
   {
@@ -601,6 +721,26 @@ export const products: Product[] = [
       "batido-pre-entreno-de-avena-y-maltodextrina",
       "barritas-energeticas-de-avena-miel-y-maltodextrina",
       "bebida-isotonica-con-sales-minerales-y-maltodextrina"
+    ],
+    seoTitle: "Maltodextrina en polvo 1 kg | RAIAN Foods",
+    seoDescription:
+      "Maltodextrina RAIAN en polvo, 1 kg. Carbohidrato de absorción rápida para bebidas de recuperación, geles energéticos e isotónicos caseros.",
+    faqs: [
+      {
+        question: "¿Qué es la maltodextrina?",
+        answer:
+          "Es un carbohidrato (un polisacárido) de fácil disolución y absorción rápida, muy usado para aportar energía en el contexto deportivo y como agente de textura."
+      },
+      {
+        question: "¿Cómo se toma la maltodextrina para el deporte?",
+        answer:
+          "Una pauta habitual es 30-60 g por hora de ejercicio intenso, disuelta en agua o bebida. Ajusta la cantidad a tus necesidades y a tu actividad."
+      },
+      {
+        question: "¿La maltodextrina es dulce?",
+        answer:
+          "Apenas. Tiene un sabor muy poco dulce; se utiliza sobre todo por su aporte energético y por su efecto sobre la textura de las preparaciones."
+      }
     ]
   },
   {
@@ -650,6 +790,26 @@ export const products: Product[] = [
       "galletas-de-avena-y-cacao-alcalino",
       "crema-de-cacao-casera-tipo-avellana",
       "smoothie-de-cacao-alcalino-y-frutos-rojos"
+    ],
+    seoTitle: "Cacao puro alcalinizado 100% 1 kg | RAIAN Foods",
+    seoDescription:
+      "Cacao puro natural alcalinizado RAIAN: 100% cacao, sin azúcar y apto para veganos, 1 kg. Color intenso y sabor profundo para repostería y bebidas.",
+    faqs: [
+      {
+        question: "¿Qué es el cacao alcalinizado?",
+        answer:
+          "Es cacao en polvo tratado mediante el proceso holandés (alcalinización), que suaviza el sabor, intensifica el color oscuro y mejora la solubilidad."
+      },
+      {
+        question: "¿Lleva azúcar este cacao?",
+        answer:
+          "No. Es 100% cacao, sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico, responsable de la alcalinización."
+      },
+      {
+        question: "¿Cómo se usa en repostería y bebidas?",
+        answer:
+          "En repostería puedes sustituir un 20-25% del peso de la harina y tamizarlo antes de mezclar. Para bebidas, unos 10-15 g por cada 200 ml de leche."
+      }
     ]
   },
   {
@@ -704,6 +864,26 @@ export const products: Product[] = [
       "pancakes-de-caseina-con-arandanos-y-miel",
       "batido-espeso-de-caseina-con-fresa-y-leche",
       "helado-proteico-de-caseina-con-vainilla-y-canela"
+    ],
+    seoTitle: "Caseína pura neutra micelar 1 kg | RAIAN Foods",
+    seoDescription:
+      "Caseína micelar pura neutra RAIAN, 1 kg, sin aromas ni edulcorantes. Proteína de digestión lenta ideal para la toma nocturna y batidos de saciedad.",
+    faqs: [
+      {
+        question: "¿Qué es la caseína micelar?",
+        answer:
+          "Es una proteína de la leche de digestión lenta que libera aminoácidos de forma gradual durante varias horas, a diferencia de las proteínas de absorción rápida."
+      },
+      {
+        question: "¿Cuándo se suele tomar la caseína?",
+        answer:
+          "Habitualmente antes de dormir o en periodos largos sin ingesta, por su liberación prolongada. Ajusta su uso a tus objetivos y a tu dieta."
+      },
+      {
+        question: "¿Contiene alérgenos?",
+        answer:
+          "Contiene leche y puede contener trazas de soja. Revisa siempre el etiquetado final para confirmarlo."
+      }
     ]
   },
   {
@@ -757,6 +937,26 @@ export const products: Product[] = [
       "batido-verde-con-inulina-de-agave-espinacas-y-manzana",
       "porridge-de-avena-con-inulina-de-agave-y-platano-caramelizado",
       "compota-de-manzana-y-pera-con-inulina-de-agave"
+    ],
+    seoTitle: "Inulina de agave en polvo 1 kg | RAIAN Foods",
+    seoDescription:
+      "Inulina de agave RAIAN en polvo, 1 kg. Fibra prebiótica natural y ligeramente dulce para enriquecer batidos, yogures y recetas sin alterar el sabor.",
+    faqs: [
+      {
+        question: "¿Qué es la inulina de agave?",
+        answer:
+          "Es una fibra prebiótica soluble extraída del agave que sirve de alimento para la flora intestinal beneficiosa y aporta una dulzura muy ligera."
+      },
+      {
+        question: "¿Cómo se empieza a tomar la inulina?",
+        answer:
+          "Conviene empezar con unos 5 g al día e ir aumentando poco a poco hasta unos 10 g, para que el organismo se adapte de forma progresiva."
+      },
+      {
+        question: "¿Se puede calentar?",
+        answer:
+          "Se disuelve mejor en frío o templado. Es preferible no superar los 130 °C para mantener sus propiedades."
+      }
     ]
   },
   {
@@ -811,6 +1011,26 @@ export const products: Product[] = [
       "ensalada-de-quinoa-con-pistacho-naranja-y-rucula",
       "bizcocho-humedo-de-pistacho-con-glaseado-de-limon",
       "pesto-de-pistacho-con-pasta-fresca"
+    ],
+    seoTitle: "Pistacho puro en grano natural 1 kg | RAIAN Foods",
+    seoDescription:
+      "Pistacho puro pelado en grano RAIAN, natural sin sal ni tostar, 1 kg. Para crema de pistacho, repostería, granolas y snacks de calidad.",
+    faqs: [
+      {
+        question: "¿El pistacho lleva sal o está tostado?",
+        answer:
+          "No. Es pistacho natural pelado en grano, sin sal añadida ni proceso de tueste previo, para que controles tú el resultado final."
+      },
+      {
+        question: "¿Cómo se tuesta el pistacho en casa?",
+        answer:
+          "Extiéndelo en una bandeja y hornéalo a unos 170 °C durante unos 8 minutos, vigilándolo para que no se pase."
+      },
+      {
+        question: "¿Cómo se hace crema de pistacho?",
+        answer:
+          "Triturando el pistacho en una batidora potente hasta obtener una textura suave. Si lo tuestas ligeramente antes, intensificas el sabor."
+      }
     ]
   },
   {
@@ -864,6 +1084,26 @@ export const products: Product[] = [
       "vinagreta-emulsionada-con-lecitina-de-soja-y-mostaza",
       "batido-de-cacao-y-cacahuete-con-lecitina-de-soja",
       "pan-esponjoso-enriquecido-con-lecitina-de-soja"
+    ],
+    seoTitle: "Lecitina de soja en polvo 1 kg | RAIAN Foods",
+    seoDescription:
+      "Lecitina de soja RAIAN en polvo, 1 kg. Emulsionante natural y vegano para mayonesas sin huevo, salsas, chocolates y espumas culinarias.",
+    faqs: [
+      {
+        question: "¿Para qué sirve la lecitina de soja?",
+        answer:
+          "Es un emulsionante natural que permite unir ingredientes acuosos y grasos: mayonesas veganas, salsas y vinagretas emulsionadas, chocolates y espumas culinarias."
+      },
+      {
+        question: "¿Cuánta lecitina de soja se usa?",
+        answer:
+          "Como referencia, en torno al 0,5-1% del peso total de la preparación. Para una mayonesa vegana, unos 5-10 g por cada 250 ml de mezcla."
+      },
+      {
+        question: "¿Por qué se solidifica con el frío?",
+        answer:
+          "Es normal por su composición y no afecta a su uso. Disuélvela en un líquido tibio para integrarla mejor."
+      }
     ]
   }
 ];
