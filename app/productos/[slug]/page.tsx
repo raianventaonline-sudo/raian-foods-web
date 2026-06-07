@@ -13,7 +13,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { getProductBySlug, getRelatedProducts, products } from "@/data/products";
 import { getRecipesForProduct } from "@/data/recipes";
 import { siteConfig } from "@/data/site";
-import { breadcrumbJsonLd, productJsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd } from "@/lib/seo";
 
 type ProductPageProps = {
   params: {
@@ -76,7 +76,6 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   return (
     <>
-      <JsonLd data={productJsonLd(product)} />
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Inicio", href: "/" },

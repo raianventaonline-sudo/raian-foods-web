@@ -1,4 +1,3 @@
-import type { Product } from "@/data/products";
 import { siteConfig } from "@/data/site";
 
 export const absoluteUrl = (path = "") => new URL(path, siteConfig.siteUrl).toString();
@@ -30,21 +29,6 @@ export const websiteJsonLd = {
     name: "RAIAN"
   }
 };
-
-export const productJsonLd = (product: Product) => ({
-  "@context": "https://schema.org",
-  "@type": "Product",
-  name: `${product.name} - RAIAN`,
-  url: absoluteUrl(`/productos/${product.slug}`),
-  brand: {
-    "@type": "Brand",
-    name: "RAIAN"
-  },
-  category: product.category,
-  description: product.shortDescription,
-  image: product.mainImage.available ? absoluteUrl(product.mainImage.src) : undefined,
-  sku: product.amazonUrl ? product.amazonAsin : undefined
-});
 
 export const itemListJsonLd = (items: Array<{ name: string; url: string }>) => ({
   "@context": "https://schema.org",
