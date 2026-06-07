@@ -15,6 +15,7 @@ import {
   type Recipe,
   type RecipeNutrition
 } from "@/data/recipes";
+import { siteConfig } from "@/data/site";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 
 type RecipePageProps = {
@@ -76,6 +77,11 @@ const recipeJsonLd = (recipe: Recipe) => ({
   name: recipe.title,
   description: recipe.metaDescription,
   url: absoluteUrl(`/recetas/${recipe.slug}`),
+  image: recipe.image.available ? absoluteUrl(recipe.image.src) : absoluteUrl(siteConfig.logo),
+  author: {
+    "@type": "Organization",
+    name: "RAIAN"
+  },
   recipeCategory: recipe.categoryLabel,
   recipeCuisine: "Española",
   recipeYield: `${recipe.servings} raciones`,
@@ -116,6 +122,8 @@ export function generateMetadata({ params }: RecipePageProps): Metadata {
     };
   }
 
+  const ogImage = recipe.image.available ? recipe.image.src : siteConfig.logo;
+
   return {
     title: recipe.seoTitle,
     description: recipe.metaDescription,
@@ -126,7 +134,14 @@ export function generateMetadata({ params }: RecipePageProps): Metadata {
       title: recipe.seoTitle,
       description: recipe.metaDescription,
       type: "article",
-      url: `/recetas/${recipe.slug}`
+      url: `/recetas/${recipe.slug}`,
+      images: [{ url: ogImage, alt: recipe.image.alt }]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: recipe.seoTitle,
+      description: recipe.metaDescription,
+      images: [ogImage]
     }
   };
 }

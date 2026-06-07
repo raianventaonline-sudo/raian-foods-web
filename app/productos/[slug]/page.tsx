@@ -12,6 +12,7 @@ import { RelatedProducts } from "@/components/RelatedProducts";
 import { SectionTitle } from "@/components/SectionTitle";
 import { getProductBySlug, getRelatedProducts, products } from "@/data/products";
 import { getRecipesForProduct } from "@/data/recipes";
+import { siteConfig } from "@/data/site";
 import { breadcrumbJsonLd, productJsonLd } from "@/lib/seo";
 
 type ProductPageProps = {
@@ -37,6 +38,8 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
     };
   }
 
+  const ogImage = product.mainImage.available ? product.mainImage.src : siteConfig.logo;
+
   return {
     title: `${product.name} RAIAN`,
     description: product.shortDescription,
@@ -47,7 +50,14 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
       title: `${product.name} | RAIAN`,
       description: product.shortDescription,
       type: "website",
-      url: `/productos/${product.slug}`
+      url: `/productos/${product.slug}`,
+      images: [{ url: ogImage, alt: product.mainImage.alt }]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.name} | RAIAN`,
+      description: product.shortDescription,
+      images: [ogImage]
     }
   };
 }

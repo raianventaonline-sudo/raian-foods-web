@@ -4,14 +4,64 @@ import { recipes } from "@/data/recipes";
 import { siteConfig } from "@/data/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/productos", "/recetas", "/sobre-nosotros", "/contacto", "/aviso-legal", "/privacidad", "/cookies"];
-  const productRoutes = products.map((product) => `/productos/${product.slug}`);
-  const recipeRoutes = recipes.map((recipe) => `/recetas/${recipe.slug}`);
+  const now = new Date();
 
-  return [...staticRoutes, ...productRoutes, ...recipeRoutes].map((route) => ({
-    url: `${siteConfig.siteUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: route === "" ? 1 : 0.7
-  }));
+  const entries: MetadataRoute.Sitemap = [
+    {
+      url: siteConfig.siteUrl,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 1
+    },
+    {
+      url: `${siteConfig.siteUrl}/productos`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8
+    },
+    {
+      url: `${siteConfig.siteUrl}/recetas`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8
+    }
+  ];
+
+  for (const product of products) {
+    entries.push({
+      url: `${siteConfig.siteUrl}/productos/${product.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8
+    });
+  }
+
+  for (const recipe of recipes) {
+    entries.push({
+      url: `${siteConfig.siteUrl}/recetas/${recipe.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7
+    });
+  }
+
+  for (const route of ["/sobre-nosotros", "/contacto"]) {
+    entries.push({
+      url: `${siteConfig.siteUrl}${route}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6
+    });
+  }
+
+  for (const route of ["/aviso-legal", "/privacidad", "/cookies"]) {
+    entries.push({
+      url: `${siteConfig.siteUrl}${route}`,
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3
+    });
+  }
+
+  return entries;
 }

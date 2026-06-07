@@ -5,7 +5,7 @@ import { CTASection } from "@/components/CTASection";
 import { JsonLd } from "@/components/JsonLd";
 import { ProductSearch } from "@/components/ProductSearch";
 import { products } from "@/data/products";
-import { breadcrumbJsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Catálogo de productos",
@@ -19,6 +19,11 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
     <>
+      <JsonLd
+        data={itemListJsonLd(
+          products.map((product) => ({ name: product.name, url: `/productos/${product.slug}` }))
+        )}
+      />
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Inicio", href: "/" },

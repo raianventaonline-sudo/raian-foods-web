@@ -6,7 +6,7 @@ import { CookieBanner } from "@/components/CookieBanner";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
-import { organizationJsonLd } from "@/lib/seo";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 import { siteConfig } from "@/data/site";
 
 const fraunces = Fraunces({
@@ -48,6 +48,24 @@ export const metadata: Metadata = {
       }
     ]
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "RAIAN | Catálogo de productos alimenticios",
+    description:
+      "Productos alimenticios, recetas y contenido de apoyo reunidos en el catálogo RAIAN.",
+    images: [siteConfig.logo]
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
+  },
   icons: {
     icon: [
       {
@@ -74,6 +92,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="es" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="font-sans">
         <JsonLd data={organizationJsonLd} />
+        <JsonLd data={websiteJsonLd} />
         <Header />
         <main id="contenido" tabIndex={-1} className="outline-none">
           {children}
