@@ -29,6 +29,7 @@ export const navigation = [
   { label: "Inicio", href: "/" },
   { label: "Productos", href: "/productos" },
   { label: "Usos y recetas", href: "/recetas" },
+  { label: "Guías", href: "/guias" },
   { label: "Sobre RAIAN", href: "/sobre-nosotros" },
   { label: "Contacto", href: "/contacto" }
 ] as const;
