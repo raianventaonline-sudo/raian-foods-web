@@ -41,13 +41,13 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
   const ogImage = product.mainImage.available ? product.mainImage.src : siteConfig.logo;
 
   return {
-    title: `${product.name} RAIAN`,
+    title: product.name,
     description: product.shortDescription,
     alternates: {
       canonical: `/productos/${product.slug}`
     },
     openGraph: {
-      title: `${product.name} | RAIAN`,
+      title: `${product.name} | RAIAN Foods`,
       description: product.shortDescription,
       type: "website",
       url: `/productos/${product.slug}`,
@@ -55,7 +55,7 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${product.name} | RAIAN`,
+      title: `${product.name} | RAIAN Foods`,
       description: product.shortDescription,
       images: [ogImage]
     }

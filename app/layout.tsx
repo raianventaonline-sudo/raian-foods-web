@@ -26,17 +26,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "RAIAN | Catálogo de productos alimenticios",
-    template: "%s | RAIAN"
+    default: "RAIAN Foods | Catálogo de productos alimenticios",
+    template: "%s | RAIAN Foods"
   },
   description:
     "Catálogo RAIAN de productos alimenticios, recetas y contenido de apoyo para consultar antes de comprar.",
   openGraph: {
-    title: "RAIAN | Catálogo de productos alimenticios",
+    title: "RAIAN Foods | Catálogo de productos alimenticios",
     description:
       "Productos alimenticios, recetas y contenido de apoyo reunidos en el catálogo RAIAN.",
     url: siteConfig.siteUrl,
-    siteName: "RAIAN",
+    siteName: "RAIAN Foods",
     locale: "es_ES",
     type: "website",
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "RAIAN | Catálogo de productos alimenticios",
+    title: "RAIAN Foods | Catálogo de productos alimenticios",
     description:
       "Productos alimenticios, recetas y contenido de apoyo reunidos en el catálogo RAIAN.",
     images: [siteConfig.logo]

@@ -14,7 +14,9 @@ import { siteConfig } from "@/data/site";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Catálogo RAIAN",
+  title: {
+    absolute: "RAIAN Foods | Catálogo de productos alimenticios"
+  },
   description:
     "Catálogo RAIAN de productos alimenticios, recetas y contenido de apoyo para consultar antes de comprar.",
   alternates: {

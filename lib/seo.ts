@@ -7,6 +7,7 @@ export const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "RAIAN",
+  alternateName: "RAIAN Foods",
   url: siteConfig.siteUrl,
   logo: absoluteUrl(siteConfig.logo),
   email: siteConfig.email,
@@ -21,6 +22,7 @@ export const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "RAIAN",
+  alternateName: "RAIAN Foods",
   url: siteConfig.siteUrl,
   inLanguage: "es-ES",
   publisher: {
