@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { guides } from "@/data/guides";
 import { products } from "@/data/products";
 import { recipes } from "@/data/recipes";
 import { siteConfig } from "@/data/site";
@@ -38,6 +39,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8
     }
   ];
+
+  for (const guide of guides) {
+    entries.push({
+      url: `${siteConfig.siteUrl}/guias/${guide.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7
+    });
+  }
 
   for (const product of products) {
     entries.push({

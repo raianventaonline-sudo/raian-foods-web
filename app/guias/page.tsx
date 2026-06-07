@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { SectionTitle } from "@/components/SectionTitle";
+import { guides as dataGuides } from "@/data/guides";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -19,7 +20,12 @@ const guides = [
     href: "/guias/gelatina-neutra",
     title: "Gelatina neutra: qué es, usos y cómo usarla",
     text: "Qué es la gelatina neutra, qué significa 260 Bloom, diferencias entre bovina y porcina y cómo hidratarla paso a paso."
-  }
+  },
+  ...dataGuides.map((guide) => ({
+    href: `/guias/${guide.slug}`,
+    title: guide.title,
+    text: guide.description
+  }))
 ];
 
 export default function GuidesPage() {
