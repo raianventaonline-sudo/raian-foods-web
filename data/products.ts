@@ -36,6 +36,8 @@ export type Product = {
   relatedSlugs: string[];
   recipeSlugs: string[];
   amazonReviewUrl?: string;
+  seoTitle?: string;
+  seoDescription?: string;
 };
 
 const pending = "Pendiente de completar";
@@ -268,7 +270,10 @@ export const products: Product[] = [
       "vasitos-fitness-de-yogur-griego-frutos-rojos-y-gelatina-bovina",
       "mousse-fitness-de-mango-y-skyr-con-gelatina-bovina",
       "panna-cotta-premium-de-vainilla-y-coulis-de-frambuesa"
-    ]
+    ],
+    seoTitle: "Gelatina neutra bovina 260 Bloom 1 kg | RAIAN Foods",
+    seoDescription:
+      "Gelatina neutra bovina RAIAN: 260 Bloom, formato 1 kg y apta Halal. Ideal para postres, mousses, tartas y gelatinas caseras con textura profesional."
   },
   {
     slug: "gelatina-neutra-porcina",
@@ -323,7 +328,10 @@ export const products: Product[] = [
       "gelatina-de-te-verde-y-menta-con-limon",
       "vasitos-de-proteina-con-gelatina-porcina-y-frutos-rojos",
       "bavarois-de-cafe-y-cardamomo-con-base-de-bizcocho"
-    ]
+    ],
+    seoTitle: "Gelatina neutra porcina 260 Bloom 1 kg | RAIAN Foods",
+    seoDescription:
+      "Gelatina neutra porcina RAIAN 260 Bloom en formato 1 kg. Perfecta para postres, mousses, tartas y recetas que necesitan textura y consistencia."
   },
   {
     slug: "harina-de-almendra",

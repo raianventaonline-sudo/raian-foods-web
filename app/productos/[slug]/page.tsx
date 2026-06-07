@@ -39,24 +39,26 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
   }
 
   const ogImage = product.mainImage.available ? product.mainImage.src : siteConfig.logo;
+  const metaDescription = product.seoDescription ?? product.shortDescription;
+  const socialTitle = product.seoTitle ?? `${product.name} | RAIAN Foods`;
 
   return {
-    title: product.name,
-    description: product.shortDescription,
+    title: product.seoTitle ? { absolute: product.seoTitle } : product.name,
+    description: metaDescription,
     alternates: {
       canonical: `/productos/${product.slug}`
     },
     openGraph: {
-      title: `${product.name} | RAIAN Foods`,
-      description: product.shortDescription,
+      title: socialTitle,
+      description: metaDescription,
       type: "website",
       url: `/productos/${product.slug}`,
       images: [{ url: ogImage, alt: product.mainImage.alt }]
     },
     twitter: {
       card: "summary_large_image",
-      title: `${product.name} | RAIAN Foods`,
-      description: product.shortDescription,
+      title: socialTitle,
+      description: metaDescription,
       images: [ogImage]
     }
   };
