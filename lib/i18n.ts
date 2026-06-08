@@ -1,3 +1,5 @@
+import { guideTranslations } from "./guides-i18n";
+
 export type Locale = "es" | "va" | "ca" | "en" | "fr" | "de";
 
 export type LanguageOption = {
@@ -1770,11 +1772,30 @@ const contextualTranslationsByLocale = Object.entries(contextualTranslations).re
   } as Record<TranslatedLocale, Record<string, string>>
 );
 
+const guideTranslationsByLocale = Object.entries(guideTranslations).reduce(
+  (accumulator, [sourceText, translations]) => {
+    (Object.keys(translations) as TranslatedLocale[]).forEach((locale) => {
+      accumulator[locale][sourceText] = translations[locale];
+    });
+
+    return accumulator;
+  },
+  {
+    va: {},
+    ca: {},
+    en: {},
+    fr: {},
+    de: {}
+  } as Record<TranslatedLocale, Record<string, string>>
+);
+
 export const isLocale = (value: string | null): value is Locale =>
   Boolean(value && languages.some((language) => language.code === value));
 
 const getDictionary = (locale: Locale): Record<string, string> | undefined =>
-  locale === "es" ? undefined : { ...uiTranslations[locale], ...contextualTranslationsByLocale[locale] };
+  locale === "es"
+    ? undefined
+    : { ...uiTranslations[locale], ...contextualTranslationsByLocale[locale], ...guideTranslationsByLocale[locale] };
 
 const translateKnownText = (text: string, locale: Locale) => {
   if (locale === "es") {
@@ -1790,6 +1811,18 @@ const countPatterns: Array<{
   pattern: RegExp;
   render: (locale: Locale, ...matches: string[]) => string;
 }> = [
+  {
+    pattern: /^Punto (\d+)$/,
+    render: (locale, number) =>
+      ({
+        es: `Punto ${number}`,
+        va: `Punt ${number}`,
+        ca: `Punt ${number}`,
+        en: `Point ${number}`,
+        fr: `Point ${number}`,
+        de: `Punkt ${number}`
+      })[locale]
+  },
   {
     pattern: /^Todos los productos \((\d+)\)$/,
     render: (locale, count) =>

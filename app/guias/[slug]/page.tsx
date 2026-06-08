@@ -169,7 +169,7 @@ export default function GuidePage({ params }: GuidePageProps) {
 
       <section className={guide.sections.length % 2 === 0 ? "bg-white py-12 md:py-16" : "bg-cream py-12 md:py-16"}>
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-          <SectionTitle eyebrow="Preguntas frecuentes" title={`Dudas habituales sobre ${guide.metaTitle.toLowerCase()}.`} />
+          <SectionTitle eyebrow="Preguntas frecuentes" title="Dudas habituales." />
           <div className="mt-8 divide-y divide-line rounded-md border border-line bg-white">
             {guide.faqs.map((item) => (
               <details key={item.question} className="group px-5 py-4">
@@ -199,7 +199,7 @@ export default function GuidePage({ params }: GuidePageProps) {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.14em] text-beige">¿Listo para empezar?</p>
             <h2 className="mt-3 font-display text-3xl leading-tight text-white md:text-4xl">
-              {primaryProduct ? `Descubre ${primaryProduct.name.toLowerCase()} en RAIAN.` : "Descubre el catálogo de RAIAN."}
+              Descubre los productos de RAIAN.
             </h2>
           </div>
           <div className="flex shrink-0 flex-wrap gap-3">
