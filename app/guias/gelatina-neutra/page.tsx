@@ -160,10 +160,9 @@ export default function GelatinaNeutraGuidePage() {
               Gelatina neutra: qué es, para qué sirve y cómo usarla
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted">
-              La <strong className="text-ink">gelatina neutra</strong> es una gelatina incolora e insípida que aporta
-              textura y consistencia a postres y preparaciones sin modificar su sabor. En esta guía te explicamos qué es,
-              qué significa el grado 260 Bloom, las diferencias entre gelatina neutra bovina y porcina, y cómo hidratarla
-              y usarla paso a paso.
+              La gelatina neutra es una gelatina incolora e insípida que aporta textura y consistencia a postres y
+              preparaciones sin modificar su sabor. En esta guía te explicamos qué es, qué significa el grado 260 Bloom,
+              las diferencias entre gelatina neutra bovina y porcina, y cómo hidratarla y usarla paso a paso.
             </p>
           </div>
           <div className="raian-media mx-auto w-full max-w-md overflow-hidden rounded-md border border-line bg-white p-3 shadow-sm">
@@ -214,13 +213,13 @@ export default function GelatinaNeutraGuidePage() {
             <SectionTitle eyebrow="260 Bloom" title="Qué significa el grado Bloom." />
             <div className="mt-6 space-y-5 text-base leading-8 text-muted">
               <p>
-                El <strong className="text-ink">grado Bloom</strong> es la medida que indica la fuerza o poder de
-                gelificación de una gelatina. Cuanto más alto es el número, más firme y consistente queda el resultado.
+                El grado Bloom es la medida que indica la fuerza o poder de gelificación de una gelatina. Cuanto más alto
+                es el número, más firme y consistente queda el resultado.
               </p>
               <p>
-                Una gelatina neutra de <strong className="text-ink">260 Bloom</strong>, como la de RAIAN, se sitúa en un
-                valor alto: ideal cuando buscas texturas firmes, cortes limpios y un acabado profesional. Al gelificar con
-                fuerza, normalmente necesitarás menos cantidad que con gelatinas de menor Bloom.
+                Una gelatina neutra de 260 Bloom, como la de RAIAN, se sitúa en un valor alto: ideal cuando buscas texturas
+                firmes, cortes limpios y un acabado profesional. Al gelificar con fuerza, normalmente necesitarás menos
+                cantidad que con gelatinas de menor Bloom.
               </p>
             </div>
           </div>
@@ -266,8 +265,8 @@ export default function GelatinaNeutraGuidePage() {
               <article className="rounded-md border border-line bg-white p-5">
                 <h3 className="font-display text-2xl text-ink">Gelatina neutra bovina</h3>
                 <p className="mt-3 text-sm leading-7 text-muted">
-                  De origen bovino y <strong className="text-ink">apta Halal</strong>. Misma neutralidad y 260 Bloom.
-                  Una buena opción cuando necesitas una gelatina sin origen porcino.
+                  De origen bovino y apta Halal. Misma neutralidad y 260 Bloom. Una buena opción cuando necesitas una
+                  gelatina sin origen porcino.
                 </p>
                 <Link
                   href="/productos/gelatina-neutra-bovina"

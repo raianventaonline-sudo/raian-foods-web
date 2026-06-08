@@ -1434,5 +1434,371 @@ export const guideTranslations: Record<string, Record<GuideLocale, string>> = {
     en: "It may contain traces of milk. Always confirm the allergens with the product's final label.",
     fr: "Il peut contenir des traces de lait. Confirmez toujours les allergènes avec l'étiquetage final du produit.",
     de: "Es kann Spuren von Milch enthalten. Bestätigen Sie die Allergene stets mit dem endgültigen Etikett des Produkts."
+  },
+
+  // ===== Guía bespoke: gelatina neutra (cuerpo de la página) =====
+  "Gelatina neutra": {
+    va: "Gelatina neutra",
+    ca: "Gelatina neutra",
+    en: "Neutral gelatine",
+    fr: "Gélatine neutre",
+    de: "Neutrale Gelatine"
+  },
+  "Gelatina neutra: qué es, para qué sirve y cómo usarla": {
+    va: "Gelatina neutra: què és, per a què serveix i com usar-la",
+    ca: "Gelatina neutra: què és, per a què serveix i com usar-la",
+    en: "Neutral gelatine: what it is, what it is for and how to use it",
+    fr: "Gélatine neutre : qu'est-ce que c'est, à quoi elle sert et comment l'utiliser",
+    de: "Neutrale Gelatine: was sie ist, wofür sie dient und wie man sie verwendet"
+  },
+  "La gelatina neutra es una gelatina incolora e insípida que aporta textura y consistencia a postres y preparaciones sin modificar su sabor. En esta guía te explicamos qué es, qué significa el grado 260 Bloom, las diferencias entre gelatina neutra bovina y porcina, y cómo hidratarla y usarla paso a paso.": {
+    va: "La gelatina neutra és una gelatina incolora i insípida que aporta textura i consistència a postres i preparacions sense modificar-ne el sabor. En esta guia t'expliquem què és, què significa el grau 260 Bloom, les diferències entre gelatina neutra bovina i porcina, i com hidratar-la i usar-la pas a pas.",
+    ca: "La gelatina neutra és una gelatina incolora i insípida que aporta textura i consistència a postres i preparacions sense modificar-ne el sabor. En aquesta guia t'expliquem què és, què significa el grau 260 Bloom, les diferències entre gelatina neutra bovina i porcina, i com hidratar-la i usar-la pas a pas.",
+    en: "Neutral gelatine is a colourless, tasteless gelatine that adds texture and consistency to desserts and preparations without changing their flavour. In this guide we explain what it is, what 260 Bloom means, the differences between bovine and porcine neutral gelatine, and how to hydrate and use it step by step.",
+    fr: "La gélatine neutre est une gélatine incolore et insipide qui apporte texture et consistance aux desserts et préparations sans en modifier le goût. Dans ce guide, nous expliquons ce qu'elle est, ce que signifie le grade 260 Bloom, les différences entre gélatine neutre bovine et porcine, et comment l'hydrater et l'utiliser étape par étape.",
+    de: "Neutrale Gelatine ist eine farb- und geschmacklose Gelatine, die Desserts und Zubereitungen Textur und Konsistenz verleiht, ohne ihren Geschmack zu verändern. In diesem Ratgeber erklären wir, was sie ist, was 260 Bloom bedeutet, die Unterschiede zwischen Rinder- und Schweinegelatine und wie man sie Schritt für Schritt auflöst und verwendet."
+  },
+  "Qué es": {
+    va: "Què és",
+    ca: "Què és",
+    en: "What it is",
+    fr: "Qu'est-ce que c'est",
+    de: "Was sie ist"
+  },
+  "Una gelatina sin sabor ni color.": {
+    va: "Una gelatina sense sabor ni color.",
+    ca: "Una gelatina sense sabor ni color.",
+    en: "A gelatine with no flavour or colour.",
+    fr: "Une gélatine sans goût ni couleur.",
+    de: "Eine Gelatine ohne Geschmack und Farbe."
+  },
+  "La gelatina neutra se obtiene del colágeno de origen animal y se presenta habitualmente en polvo o en hojas. Su nombre \"neutra\" viene de que no aporta sabor ni color: solo cumple su función de gelificar, dar cuerpo y fijar la textura de una elaboración.": {
+    va: "La gelatina neutra s'obté del col·lagen d'origen animal i es presenta habitualment en pols o en fulls. El seu nom \"neutra\" ve del fet que no aporta sabor ni color: només compleix la seua funció de gelificar, donar cos i fixar la textura d'una elaboració.",
+    ca: "La gelatina neutra s'obté del col·lagen d'origen animal i es presenta habitualment en pols o en fulls. El seu nom \"neutra\" ve del fet que no aporta sabor ni color: només compleix la seva funció de gelificar, donar cos i fixar la textura d'una elaboració.",
+    en: "Neutral gelatine is obtained from animal collagen and usually comes as a powder or in sheets. Its name \"neutral\" comes from the fact that it adds no flavour or colour: it only does its job of gelling, adding body and setting the texture of a preparation.",
+    fr: "La gélatine neutre est obtenue à partir du collagène d'origine animale et se présente généralement en poudre ou en feuilles. Son nom « neutre » vient du fait qu'elle n'apporte ni goût ni couleur : elle ne fait que remplir sa fonction de gélifier, donner du corps et fixer la texture d'une préparation.",
+    de: "Neutrale Gelatine wird aus tierischem Kollagen gewonnen und kommt meist als Pulver oder in Blättern. Ihr Name \"neutral\" rührt daher, dass sie weder Geschmack noch Farbe beiträgt: Sie erfüllt nur ihre Aufgabe, zu gelieren, Körper zu geben und die Textur einer Zubereitung zu festigen."
+  },
+  "Esto la convierte en un ingrediente muy versátil en repostería y cocina: permite cuajar mousses, montar tartas frías, preparar gelatinas caseras o conseguir glaseados brillantes manteniendo intacto el sabor original de la receta.": {
+    va: "Això la convertix en un ingredient molt versàtil en rebosteria i cuina: permet quallar mousses, muntar tartes fredes, preparar gelatines casolanes o aconseguir glacejats brillants mantenint intacte el sabor original de la recepta.",
+    ca: "Això la converteix en un ingredient molt versàtil en rebosteria i cuina: permet quallar mousses, muntar tartes fredes, preparar gelatines casolanes o aconseguir glacejats brillants mantenint intacte el sabor original de la recepta.",
+    en: "This makes it a very versatile ingredient in baking and cooking: it lets you set mousses, build cold cakes, make homemade jellies or achieve glossy glazes while keeping the recipe's original flavour intact.",
+    fr: "Cela en fait un ingrédient très polyvalent en pâtisserie et en cuisine : elle permet de prendre des mousses, de monter des gâteaux froids, de préparer des gelées maison ou d'obtenir des glaçages brillants tout en préservant la saveur d'origine de la recette.",
+    de: "Das macht sie zu einer sehr vielseitigen Zutat beim Backen und Kochen: Sie lässt Mousses fest werden, ermöglicht kalte Torten, hausgemachte Gelees oder glänzende Glasuren und bewahrt dabei den ursprünglichen Geschmack des Rezepts."
+  },
+  "Qué significa el grado Bloom.": {
+    va: "Què significa el grau Bloom.",
+    ca: "Què significa el grau Bloom.",
+    en: "What the Bloom grade means.",
+    fr: "Ce que signifie le grade Bloom.",
+    de: "Was der Bloom-Grad bedeutet."
+  },
+  "El grado Bloom es la medida que indica la fuerza o poder de gelificación de una gelatina. Cuanto más alto es el número, más firme y consistente queda el resultado.": {
+    va: "El grau Bloom és la mesura que indica la força o poder de gelificació d'una gelatina. Com més alt és el número, més ferm i consistent queda el resultat.",
+    ca: "El grau Bloom és la mesura que indica la força o poder de gelificació d'una gelatina. Com més alt és el número, més ferm i consistent queda el resultat.",
+    en: "The Bloom grade is the measure that indicates the strength or gelling power of a gelatine. The higher the number, the firmer and more consistent the result.",
+    fr: "Le grade Bloom est la mesure qui indique la force ou le pouvoir gélifiant d'une gélatine. Plus le chiffre est élevé, plus le résultat est ferme et consistant.",
+    de: "Der Bloom-Grad ist das Maß für die Stärke bzw. Gelierkraft einer Gelatine. Je höher die Zahl, desto fester und gleichmäßiger das Ergebnis."
+  },
+  "Una gelatina neutra de 260 Bloom, como la de RAIAN, se sitúa en un valor alto: ideal cuando buscas texturas firmes, cortes limpios y un acabado profesional. Al gelificar con fuerza, normalmente necesitarás menos cantidad que con gelatinas de menor Bloom.": {
+    va: "Una gelatina neutra de 260 Bloom, com la de RAIAN, se situa en un valor alt: ideal quan busques textures fermes, talls nets i un acabat professional. En gelificar amb força, normalment necessitaràs menys quantitat que amb gelatines de menor Bloom.",
+    ca: "Una gelatina neutra de 260 Bloom, com la de RAIAN, se situa en un valor alt: ideal quan busques textures fermes, talls nets i un acabat professional. En gelificar amb força, normalment necessitaràs menys quantitat que amb gelatines de menor Bloom.",
+    en: "A 260 Bloom neutral gelatine, like RAIAN's, sits at a high value: ideal when you want firm textures, clean cuts and a professional finish. As it gels strongly, you will normally need less than with lower-Bloom gelatines.",
+    fr: "Une gélatine neutre de 260 Bloom, comme celle de RAIAN, se situe à une valeur élevée : idéale pour des textures fermes, des découpes nettes et une finition professionnelle. Comme elle gélifie fortement, il en faut normalement moins qu'avec des gélatines de Bloom inférieur.",
+    de: "Eine neutrale Gelatine mit 260 Bloom, wie die von RAIAN, liegt bei einem hohen Wert: ideal für feste Texturen, saubere Schnitte und ein professionelles Finish. Da sie stark geliert, benötigt man in der Regel weniger als bei Gelatinen mit niedrigerem Bloom."
+  },
+  "Cómo se usa": {
+    va: "Com s'usa",
+    ca: "Com s'usa",
+    en: "How to use it",
+    fr: "Comment l'utiliser",
+    de: "Wie man sie verwendet"
+  },
+  "Cómo hidratar y usar la gelatina neutra.": {
+    va: "Com hidratar i usar la gelatina neutra.",
+    ca: "Com hidratar i usar la gelatina neutra.",
+    en: "How to hydrate and use neutral gelatine.",
+    fr: "Comment hydrater et utiliser la gélatine neutre.",
+    de: "Wie man neutrale Gelatine auflöst und verwendet."
+  },
+  "Cuatro pasos sencillos para incorporar la gelatina neutra en polvo a tus preparaciones.": {
+    va: "Quatre passos senzills per a incorporar la gelatina neutra en pols a les teues preparacions.",
+    ca: "Quatre passos senzills per incorporar la gelatina neutra en pols a les teves preparacions.",
+    en: "Four simple steps to add powdered neutral gelatine to your preparations.",
+    fr: "Quatre étapes simples pour incorporer la gélatine neutre en poudre à vos préparations.",
+    de: "Vier einfache Schritte, um neutrale Gelatine in Pulverform in Ihre Zubereitungen einzuarbeiten."
+  },
+  "Hidrata": {
+    va: "Hidrata",
+    ca: "Hidrata",
+    en: "Hydrate",
+    fr: "Hydratez",
+    de: "Einweichen"
+  },
+  "Espolvorea la gelatina neutra en polvo sobre agua fría (aproximadamente 5 veces su peso en agua) y deja que absorba unos minutos hasta que se hinche.": {
+    va: "Espolvorea la gelatina neutra en pols sobre aigua freda (aproximadament 5 vegades el seu pes en aigua) i deixa que absorbisca uns minuts fins que s'infle.",
+    ca: "Espolsa la gelatina neutra en pols sobre aigua freda (aproximadament 5 vegades el seu pes en aigua) i deixa que absorbeixi uns minuts fins que s'infli.",
+    en: "Sprinkle the powdered neutral gelatine over cold water (about 5 times its weight in water) and let it absorb for a few minutes until it swells.",
+    fr: "Saupoudrez la gélatine neutre en poudre sur de l'eau froide (environ 5 fois son poids en eau) et laissez-la absorber quelques minutes jusqu'à ce qu'elle gonfle.",
+    de: "Streuen Sie die neutrale Gelatine in Pulverform über kaltes Wasser (etwa die fünffache Menge ihres Gewichts an Wasser) und lassen Sie sie einige Minuten quellen."
+  },
+  "Disuelve": {
+    va: "Dissol",
+    ca: "Dissol",
+    en: "Dissolve",
+    fr: "Dissolvez",
+    de: "Auflösen"
+  },
+  "Calienta suavemente la mezcla o incorpórala a un líquido caliente sin que llegue a hervir, removiendo hasta que quede totalmente disuelta y transparente.": {
+    va: "Escalfa suaument la mescla o incorpora-la a un líquid calent sense que arribe a bullir, remenant fins que quede totalment dissolta i transparent.",
+    ca: "Escalfa suaument la barreja o incorpora-la a un líquid calent sense que arribi a bullir, remenant fins que quedi totalment dissolta i transparent.",
+    en: "Gently heat the mixture or add it to a hot liquid without letting it boil, stirring until it is fully dissolved and clear.",
+    fr: "Chauffez doucement le mélange ou incorporez-le à un liquide chaud sans le faire bouillir, en remuant jusqu'à dissolution complète et transparence.",
+    de: "Erwärmen Sie die Mischung sanft oder geben Sie sie in eine heiße Flüssigkeit, ohne sie zum Kochen zu bringen, und rühren Sie, bis sie vollständig gelöst und klar ist."
+  },
+  "Integra": {
+    va: "Integra",
+    ca: "Integra",
+    en: "Combine",
+    fr: "Incorporez",
+    de: "Einarbeiten"
+  },
+  "Añade la gelatina disuelta al resto de la preparación cuando aún esté templada, mezclando de forma homogénea para repartirla bien.": {
+    va: "Afig la gelatina dissolta a la resta de la preparació quan encara estiga tèbia, mesclant de manera homogènia per a repartir-la bé.",
+    ca: "Afegeix la gelatina dissolta a la resta de la preparació quan encara estigui tèbia, barrejant de manera homogènia per repartir-la bé.",
+    en: "Add the dissolved gelatine to the rest of the preparation while it is still warm, mixing evenly to distribute it well.",
+    fr: "Ajoutez la gélatine dissoute au reste de la préparation tant qu'elle est encore tiède, en mélangeant de façon homogène pour bien la répartir.",
+    de: "Geben Sie die gelöste Gelatine zur übrigen Zubereitung, solange sie noch lauwarm ist, und mischen Sie gleichmäßig, um sie gut zu verteilen."
+  },
+  "Enfría": {
+    va: "Refreda",
+    ca: "Refreda",
+    en: "Chill",
+    fr: "Réfrigérez",
+    de: "Kühlen"
+  },
+  "Lleva la elaboración a frío (nevera) el tiempo que indique tu receta. La gelatina gana firmeza a medida que baja la temperatura.": {
+    va: "Porta l'elaboració al fred (nevera) el temps que indique la teua recepta. La gelatina guanya fermesa a mesura que baixa la temperatura.",
+    ca: "Porta l'elaboració al fred (nevera) el temps que indiqui la teva recepta. La gelatina guanya fermesa a mesura que baixa la temperatura.",
+    en: "Chill the preparation (in the fridge) for as long as your recipe indicates. The gelatine firms up as the temperature drops.",
+    fr: "Placez la préparation au froid (réfrigérateur) le temps indiqué par votre recette. La gélatine se raffermit à mesure que la température baisse.",
+    de: "Kühlen Sie die Zubereitung (im Kühlschrank) so lange, wie es Ihr Rezept angibt. Die Gelatine wird fester, je weiter die Temperatur sinkt."
+  },
+  "Para qué sirve la gelatina neutra.": {
+    va: "Per a què serveix la gelatina neutra.",
+    ca: "Per a què serveix la gelatina neutra.",
+    en: "What neutral gelatine is for.",
+    fr: "À quoi sert la gélatine neutre.",
+    de: "Wofür neutrale Gelatine dient."
+  },
+  "Mousses y espumas con cuerpo.": {
+    va: "Mousses i escumes amb cos.",
+    ca: "Mousses i escumes amb cos.",
+    en: "Mousses and foams with body.",
+    fr: "Mousses et écumes consistantes.",
+    de: "Mousses und Schäume mit Körper."
+  },
+  "Panna cotta, bavarois y flanes.": {
+    va: "Panna cotta, bavarois i flams.",
+    ca: "Panna cotta, bavarois i flams.",
+    en: "Panna cotta, bavarois and flans.",
+    fr: "Panna cotta, bavarois et flans.",
+    de: "Panna cotta, Bayerische Creme und Flan."
+  },
+  "Tartas frías y cheesecakes sin horno.": {
+    va: "Tartes fredes i cheesecakes sense forn.",
+    ca: "Tartes fredes i cheesecakes sense forn.",
+    en: "Cold cakes and no-bake cheesecakes.",
+    fr: "Gâteaux froids et cheesecakes sans cuisson.",
+    de: "Kalte Torten und No-Bake-Cheesecakes."
+  },
+  "Gelatinas caseras de fruta o infusiones.": {
+    va: "Gelatines casolanes de fruita o infusions.",
+    ca: "Gelatines casolanes de fruita o infusions.",
+    en: "Homemade fruit or infusion jellies.",
+    fr: "Gelées maison de fruits ou d'infusions.",
+    de: "Hausgemachte Frucht- oder Aufguss-Gelees."
+  },
+  "Glaseados espejo y coberturas brillantes.": {
+    va: "Glacejats espill i cobertures brillants.",
+    ca: "Glacejats mirall i cobertures brillants.",
+    en: "Mirror glazes and glossy coatings.",
+    fr: "Glaçages miroir et nappages brillants.",
+    de: "Spiegelglasuren und glänzende Überzüge."
+  },
+  "Rellenos, cremas y preparaciones que necesitan textura.": {
+    va: "Farciments, cremes i preparacions que necessiten textura.",
+    ca: "Farciments, cremes i preparacions que necessiten textura.",
+    en: "Fillings, creams and preparations that need texture.",
+    fr: "Garnitures, crèmes et préparations qui demandent de la texture.",
+    de: "Füllungen, Cremes und Zubereitungen, die Textur benötigen."
+  },
+  "Bovina o porcina": {
+    va: "Bovina o porcina",
+    ca: "Bovina o porcina",
+    en: "Bovine or porcine",
+    fr: "Bovine ou porcine",
+    de: "Rind oder Schwein"
+  },
+  "Qué versión elegir.": {
+    va: "Quina versió triar.",
+    ca: "Quina versió triar.",
+    en: "Which version to choose.",
+    fr: "Quelle version choisir.",
+    de: "Welche Version wählen."
+  },
+  "De origen bovino y apta Halal. Misma neutralidad y 260 Bloom. Una buena opción cuando necesitas una gelatina sin origen porcino.": {
+    va: "D'origen boví i apta Halal. Mateixa neutralitat i 260 Bloom. Una bona opció quan necessites una gelatina sense origen porcí.",
+    ca: "D'origen boví i apta Halal. Mateixa neutralitat i 260 Bloom. Una bona opció quan necessites una gelatina sense origen porcí.",
+    en: "Of bovine origin and Halal-suitable. Same neutrality and 260 Bloom. A good option when you need a gelatine that is not of porcine origin.",
+    fr: "D'origine bovine et adaptée Halal. Même neutralité et 260 Bloom. Une bonne option quand vous avez besoin d'une gélatine sans origine porcine.",
+    de: "Rinderherkunft und Halal-geeignet. Gleiche Neutralität und 260 Bloom. Eine gute Wahl, wenn Sie eine Gelatine ohne Schweineherkunft benötigen."
+  },
+  "Ver gelatina neutra bovina": {
+    va: "Veure gelatina neutra bovina",
+    ca: "Veure gelatina neutra bovina",
+    en: "View neutral bovine gelatine",
+    fr: "Voir la gélatine bovine neutre",
+    de: "Neutrale Rindergelatine ansehen"
+  },
+  "De origen porcino, la opción clásica en repostería. También neutra y de 260 Bloom para texturas firmes.": {
+    va: "D'origen porcí, l'opció clàssica en rebosteria. També neutra i de 260 Bloom per a textures fermes.",
+    ca: "D'origen porcí, l'opció clàssica en rebosteria. També neutra i de 260 Bloom per a textures fermes.",
+    en: "Of porcine origin, the classic choice in baking. Also neutral and 260 Bloom for firm textures.",
+    fr: "D'origine porcine, l'option classique en pâtisserie. Également neutre et de 260 Bloom pour des textures fermes.",
+    de: "Schweineherkunft, die klassische Wahl beim Backen. Ebenfalls neutral und 260 Bloom für feste Texturen."
+  },
+  "Ver gelatina neutra porcina": {
+    va: "Veure gelatina neutra porcina",
+    ca: "Veure gelatina neutra porcina",
+    en: "View neutral porcine gelatine",
+    fr: "Voir la gélatine porcine neutre",
+    de: "Neutrale Schweinegelatine ansehen"
+  },
+  "Dudas habituales sobre la gelatina neutra.": {
+    va: "Dubtes habituals sobre la gelatina neutra.",
+    ca: "Dubtes habituals sobre la gelatina neutra.",
+    en: "Common questions about neutral gelatine.",
+    fr: "Questions courantes sur la gélatine neutre.",
+    de: "Häufige Fragen zur neutralen Gelatine."
+  },
+  "¿La gelatina neutra tiene sabor?": {
+    va: "La gelatina neutra té sabor?",
+    ca: "La gelatina neutra té sabor?",
+    en: "Does neutral gelatine have a flavour?",
+    fr: "La gélatine neutre a-t-elle un goût ?",
+    de: "Hat neutrale Gelatine einen Geschmack?"
+  },
+  "No. La gelatina neutra es incolora e insípida: gelifica y aporta textura sin alterar el sabor ni el color de la preparación, por eso sirve tanto para recetas dulces como saladas.": {
+    va: "No. La gelatina neutra és incolora i insípida: gelifica i aporta textura sense alterar el sabor ni el color de la preparació, per això serveix tant per a receptes dolces com salades.",
+    ca: "No. La gelatina neutra és incolora i insípida: gelifica i aporta textura sense alterar el sabor ni el color de la preparació, per això serveix tant per a receptes dolces com salades.",
+    en: "No. Neutral gelatine is colourless and tasteless: it gels and adds texture without altering the flavour or colour of the preparation, which is why it works for both sweet and savoury recipes.",
+    fr: "Non. La gélatine neutre est incolore et insipide : elle gélifie et apporte de la texture sans altérer le goût ni la couleur de la préparation, c'est pourquoi elle convient aussi bien aux recettes sucrées que salées.",
+    de: "Nein. Neutrale Gelatine ist farb- und geschmacklos: Sie geliert und gibt Textur, ohne Geschmack oder Farbe der Zubereitung zu verändern, weshalb sie für süße wie herzhafte Rezepte geeignet ist."
+  },
+  "¿Qué significa 260 Bloom?": {
+    va: "Què significa 260 Bloom?",
+    ca: "Què significa 260 Bloom?",
+    en: "What does 260 Bloom mean?",
+    fr: "Que signifie 260 Bloom ?",
+    de: "Was bedeutet 260 Bloom?"
+  },
+  "El grado Bloom mide la fuerza de gelificación. Cuanto más alto, más firme queda la gelatina. 260 Bloom es un valor alto, pensado para texturas firmes y resultados de nivel profesional.": {
+    va: "El grau Bloom mesura la força de gelificació. Com més alt, més ferma queda la gelatina. 260 Bloom és un valor alt, pensat per a textures fermes i resultats de nivell professional.",
+    ca: "El grau Bloom mesura la força de gelificació. Com més alt, més ferma queda la gelatina. 260 Bloom és un valor alt, pensat per a textures fermes i resultats de nivell professional.",
+    en: "The Bloom grade measures gelling strength. The higher it is, the firmer the gelatine sets. 260 Bloom is a high value, designed for firm textures and professional-level results.",
+    fr: "Le grade Bloom mesure la force de gélification. Plus il est élevé, plus la gélatine est ferme. 260 Bloom est une valeur élevée, pensée pour des textures fermes et des résultats de niveau professionnel.",
+    de: "Der Bloom-Grad misst die Gelierkraft. Je höher er ist, desto fester wird die Gelatine. 260 Bloom ist ein hoher Wert, gedacht für feste Texturen und professionelle Ergebnisse."
+  },
+  "¿Qué diferencia hay entre gelatina neutra bovina y porcina?": {
+    va: "Quina diferència hi ha entre gelatina neutra bovina i porcina?",
+    ca: "Quina diferència hi ha entre gelatina neutra bovina i porcina?",
+    en: "What is the difference between bovine and porcine neutral gelatine?",
+    fr: "Quelle est la différence entre la gélatine neutre bovine et porcine ?",
+    de: "Was ist der Unterschied zwischen neutraler Rinder- und Schweinegelatine?"
+  },
+  "Técnicamente cumplen la misma función y ambas son neutras. La diferencia es el origen del colágeno. La gelatina neutra bovina de RAIAN es apta Halal; la porcina es la opción clásica para repostería. La elección depende de tus preferencias o necesidades dietéticas.": {
+    va: "Tècnicament compleixen la mateixa funció i totes dues són neutres. La diferència és l'origen del col·lagen. La gelatina neutra bovina de RAIAN és apta Halal; la porcina és l'opció clàssica per a rebosteria. L'elecció depèn de les teues preferències o necessitats dietètiques.",
+    ca: "Tècnicament compleixen la mateixa funció i totes dues són neutres. La diferència és l'origen del col·lagen. La gelatina neutra bovina de RAIAN és apta Halal; la porcina és l'opció clàssica per a rebosteria. L'elecció depèn de les teves preferències o necessitats dietètiques.",
+    en: "Technically they do the same job and both are neutral. The difference is the origin of the collagen. RAIAN's bovine neutral gelatine is Halal-suitable; the porcine one is the classic choice for baking. The choice depends on your preferences or dietary needs.",
+    fr: "Techniquement, elles remplissent la même fonction et sont toutes deux neutres. La différence est l'origine du collagène. La gélatine bovine neutre de RAIAN est adaptée Halal ; la porcine est l'option classique en pâtisserie. Le choix dépend de vos préférences ou besoins alimentaires.",
+    de: "Technisch erfüllen sie dieselbe Funktion und beide sind neutral. Der Unterschied liegt in der Herkunft des Kollagens. RAIANs neutrale Rindergelatine ist Halal-geeignet; die Schweinegelatine ist die klassische Wahl beim Backen. Die Wahl hängt von Ihren Vorlieben oder Ernährungsbedürfnissen ab."
+  },
+  "¿Cómo se hidrata la gelatina neutra en polvo?": {
+    va: "Com s'hidrata la gelatina neutra en pols?",
+    ca: "Com s'hidrata la gelatina neutra en pols?",
+    en: "How do you hydrate powdered neutral gelatine?",
+    fr: "Comment hydrater la gélatine neutre en poudre ?",
+    de: "Wie löst man neutrale Gelatine in Pulverform auf?"
+  },
+  "Espolvoréala sobre agua fría (unas 5 veces su peso en agua), deja que absorba unos minutos y luego disuélvela en un líquido caliente sin que hierva. Incorpórala templada al resto de la elaboración y enfría.": {
+    va: "Espolvorea-la sobre aigua freda (unes 5 vegades el seu pes en aigua), deixa que absorbisca uns minuts i després dissol-la en un líquid calent sense que bulla. Incorpora-la tèbia a la resta de l'elaboració i refreda.",
+    ca: "Espolsa-la sobre aigua freda (unes 5 vegades el seu pes en aigua), deixa que absorbeixi uns minuts i després dissol-la en un líquid calent sense que bulli. Incorpora-la tèbia a la resta de l'elaboració i refreda.",
+    en: "Sprinkle it over cold water (about 5 times its weight in water), let it absorb for a few minutes and then dissolve it in a hot liquid without boiling. Add it warm to the rest of the preparation and chill.",
+    fr: "Saupoudrez-la sur de l'eau froide (environ 5 fois son poids en eau), laissez-la absorber quelques minutes puis dissolvez-la dans un liquide chaud sans le faire bouillir. Incorporez-la tiède au reste de la préparation et réfrigérez.",
+    de: "Streuen Sie sie über kaltes Wasser (etwa die fünffache Menge ihres Gewichts an Wasser), lassen Sie sie einige Minuten quellen und lösen Sie sie dann in einer heißen Flüssigkeit auf, ohne zu kochen. Geben Sie sie lauwarm zur übrigen Zubereitung und kühlen Sie."
+  },
+  "¿Cuánta gelatina neutra debo usar?": {
+    va: "Quanta gelatina neutra he d'usar?",
+    ca: "Quanta gelatina neutra he d'usar?",
+    en: "How much neutral gelatine should I use?",
+    fr: "Quelle quantité de gélatine neutre dois-je utiliser ?",
+    de: "Wie viel neutrale Gelatine sollte ich verwenden?"
+  },
+  "Depende de la receta y de la firmeza que busques. Sigue siempre las cantidades indicadas en tu receta y ajústalas a tu gusto. Al ser 260 Bloom gelifica con fuerza, por lo que suele necesitarse menos cantidad que con gelatinas de menor Bloom.": {
+    va: "Depèn de la recepta i de la fermesa que busques. Segueix sempre les quantitats indicades en la teua recepta i ajusta-les al teu gust. En ser 260 Bloom gelifica amb força, per la qual cosa sol necessitar-se menys quantitat que amb gelatines de menor Bloom.",
+    ca: "Depèn de la recepta i de la fermesa que busquis. Segueix sempre les quantitats indicades a la teva recepta i ajusta-les al teu gust. En ser 260 Bloom gelifica amb força, per la qual cosa se sol necessitar menys quantitat que amb gelatines de menor Bloom.",
+    en: "It depends on the recipe and the firmness you want. Always follow the amounts stated in your recipe and adjust them to your taste. As it is 260 Bloom it gels strongly, so you usually need less than with lower-Bloom gelatines.",
+    fr: "Cela dépend de la recette et de la fermeté recherchée. Suivez toujours les quantités indiquées dans votre recette et ajustez-les à votre goût. Étant 260 Bloom, elle gélifie fortement, il en faut donc généralement moins qu'avec des gélatines de Bloom inférieur.",
+    de: "Das hängt vom Rezept und der gewünschten Festigkeit ab. Halten Sie sich stets an die im Rezept angegebenen Mengen und passen Sie sie nach Geschmack an. Da sie 260 Bloom hat, geliert sie stark, sodass man meist weniger benötigt als mit Gelatinen niedrigeren Blooms."
+  },
+  "¿La gelatina neutra es apta para vegetarianos o veganos?": {
+    va: "La gelatina neutra és apta per a vegetarians o vegans?",
+    ca: "La gelatina neutra és apta per a vegetarians o vegans?",
+    en: "Is neutral gelatine suitable for vegetarians or vegans?",
+    fr: "La gélatine neutre convient-elle aux végétariens ou végétaliens ?",
+    de: "Ist neutrale Gelatine für Vegetarier oder Veganer geeignet?"
+  },
+  "No. La gelatina se obtiene del colágeno animal, así que no es apta para dietas vegetarianas ni veganas. Como alternativas de origen vegetal suelen usarse el agar-agar o la pectina, aunque su comportamiento y textura no son idénticos.": {
+    va: "No. La gelatina s'obté del col·lagen animal, així que no és apta per a dietes vegetarianes ni veganes. Com a alternatives d'origen vegetal solen usar-se l'agar-agar o la pectina, encara que el seu comportament i textura no són idèntics.",
+    ca: "No. La gelatina s'obté del col·lagen animal, així que no és apta per a dietes vegetarianes ni veganes. Com a alternatives d'origen vegetal solen usar-se l'agar-agar o la pectina, encara que el seu comportament i textura no són idèntics.",
+    en: "No. Gelatine is obtained from animal collagen, so it is not suitable for vegetarian or vegan diets. Plant-based alternatives such as agar-agar or pectin are usually used, although their behaviour and texture are not identical.",
+    fr: "Non. La gélatine est obtenue à partir de collagène animal, elle ne convient donc pas aux régimes végétariens ni végétaliens. On utilise généralement des alternatives végétales comme l'agar-agar ou la pectine, bien que leur comportement et leur texture ne soient pas identiques.",
+    de: "Nein. Gelatine wird aus tierischem Kollagen gewonnen und ist daher nicht für vegetarische oder vegane Ernährung geeignet. Als pflanzliche Alternativen werden meist Agar-Agar oder Pektin verwendet, auch wenn ihr Verhalten und ihre Textur nicht identisch sind."
+  },
+  "¿Cómo se conserva la gelatina neutra?": {
+    va: "Com es conserva la gelatina neutra?",
+    ca: "Com es conserva la gelatina neutra?",
+    en: "How is neutral gelatine stored?",
+    fr: "Comment conserver la gélatine neutre ?",
+    de: "Wie wird neutrale Gelatine gelagert?"
+  },
+  "En un lugar seco, fresco y protegido de la luz, con el envase bien cerrado tras cada uso y por debajo de 30 °C. Bien conservada mantiene intacto su poder de gelificación.": {
+    va: "En un lloc sec, fresc i protegit de la llum, amb l'envàs ben tancat després de cada ús i per davall de 30 °C. Ben conservada manté intacte el seu poder de gelificació.",
+    ca: "En un lloc sec, fresc i protegit de la llum, amb l'envàs ben tancat després de cada ús i per sota de 30 °C. Ben conservada manté intacte el seu poder de gelificació.",
+    en: "In a dry, cool place protected from light, with the package well closed after each use and below 30 °C. Well stored, it keeps its gelling power intact.",
+    fr: "Dans un endroit sec, frais et à l'abri de la lumière, l'emballage bien fermé après chaque utilisation et en dessous de 30 °C. Bien conservée, elle garde intact son pouvoir gélifiant.",
+    de: "An einem trockenen, kühlen und lichtgeschützten Ort, mit nach jedem Gebrauch gut verschlossener Verpackung und unter 30 °C. Gut gelagert, behält sie ihre Gelierkraft vollständig."
+  },
+  "Consulta las fichas de gelatina neutra de RAIAN o descubre recetas para sacarles partido.": {
+    va: "Consulta les fitxes de gelatina neutra de RAIAN o descobreix receptes per a traure'ls partit.",
+    ca: "Consulta les fitxes de gelatina neutra de RAIAN o descobreix receptes per treure'n partit.",
+    en: "Check RAIAN's neutral gelatine product pages or discover recipes to make the most of them.",
+    fr: "Consultez les fiches de gélatine neutre de RAIAN ou découvrez des recettes pour en tirer parti.",
+    de: "Sehen Sie sich die Produktseiten der neutralen Gelatine von RAIAN an oder entdecken Sie Rezepte, um sie optimal zu nutzen."
+  },
+  "Ver gelatina neutra": {
+    va: "Veure gelatina neutra",
+    ca: "Veure gelatina neutra",
+    en: "View neutral gelatine",
+    fr: "Voir la gélatine neutre",
+    de: "Neutrale Gelatine ansehen"
+  },
+  "Ver recetas": {
+    va: "Veure receptes",
+    ca: "Veure receptes",
+    en: "View recipes",
+    fr: "Voir les recettes",
+    de: "Rezepte ansehen"
   }
 };
