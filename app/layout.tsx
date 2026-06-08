@@ -66,16 +66,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1
     }
   },
-  icons: {
-    icon: [
-      {
-        url: "/favicon.png?v=raian-circle",
-        type: "image/png"
-      }
-    ],
-    shortcut: "/favicon.png?v=raian-circle",
-    apple: "/apple-touch-icon.png?v=raian-circle"
-  },
   alternates: {
     canonical: "/"
   }
