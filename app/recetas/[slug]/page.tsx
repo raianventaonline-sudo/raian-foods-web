@@ -128,7 +128,8 @@ export function generateMetadata({ params }: RecipePageProps): Metadata {
     title: recipe.seoTitle,
     description: recipe.metaDescription,
     alternates: {
-      canonical: `/recetas/${recipe.slug}`
+      canonical: `/recetas/${recipe.slug}`,
+      languages: { en: `/en/recetas/${recipe.slug}`, "x-default": `/recetas/${recipe.slug}` }
     },
     openGraph: {
       title: recipe.seoTitle,

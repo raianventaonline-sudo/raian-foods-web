@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   description:
     "Catálogo RAIAN de productos alimenticios seleccionados: gelatinas, harina de almendra e ingredientes con información clara y presentación cuidada.",
   alternates: {
-    canonical: "/productos"
+    canonical: "/productos",
+    languages: { en: "/en/productos", "x-default": "/productos" }
   }
 };
 

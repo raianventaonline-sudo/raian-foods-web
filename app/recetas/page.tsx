@@ -36,7 +36,8 @@ export const metadata: Metadata = {
   description:
     "Recetas RAIAN para hacer en casa, organizadas por tipo, necesidades alimentarias y productos del catalogo.",
   alternates: {
-    canonical: "/recetas"
+    canonical: "/recetas",
+    languages: { en: "/en/recetas", "x-default": "/recetas" }
   }
 };
 

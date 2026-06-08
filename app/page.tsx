@@ -20,7 +20,8 @@ export const metadata: Metadata = {
   description:
     "Catálogo RAIAN de productos alimenticios, recetas y contenido de apoyo para consultar antes de comprar.",
   alternates: {
-    canonical: "/"
+    canonical: "/",
+    languages: { en: "/en", "x-default": "/" }
   }
 };
 

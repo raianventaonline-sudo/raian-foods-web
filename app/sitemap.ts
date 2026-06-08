@@ -85,5 +85,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
+  // ── English versions (/en/...) ──────────────────────────────────────────
+  const en = (path: string) => `${siteConfig.siteUrl}/en${path}`;
+
+  entries.push(
+    { url: en(""), lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: en("/productos"), lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: en("/recetas"), lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: en("/guias"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: en("/guias/gelatina-neutra"), lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: en("/sobre-nosotros"), lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: en("/contacto"), lastModified: now, changeFrequency: "monthly", priority: 0.6 }
+  );
+
+  for (const guide of guides) {
+    entries.push({ url: en(`/guias/${guide.slug}`), lastModified: now, changeFrequency: "monthly", priority: 0.7 });
+  }
+
+  for (const product of products) {
+    entries.push({ url: en(`/productos/${product.slug}`), lastModified: now, changeFrequency: "weekly", priority: 0.8 });
+  }
+
+  for (const recipe of recipes) {
+    entries.push({ url: en(`/recetas/${recipe.slug}`), lastModified: now, changeFrequency: "monthly", priority: 0.7 });
+  }
+
   return entries;
 }

@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   title: guideTitle,
   description: guideDescription,
   alternates: {
-    canonical: guidePath
+    canonical: guidePath,
+    languages: { en: "/en/guias/gelatina-neutra", "x-default": guidePath }
   },
   openGraph: {
     title: `${guideTitle} | RAIAN Foods`,

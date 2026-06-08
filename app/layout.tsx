@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { headers } from "next/headers";
 import { Fraunces, Inter } from "next/font/google";
 import "@/app/globals.css";
 import { AutoTranslator } from "@/components/AutoTranslator";
@@ -78,8 +79,11 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const headersList = headers();
+  const locale = headersList.get("x-locale") ?? "es";
+
   return (
-    <html lang="es" className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang={locale} className={`${fraunces.variable} ${inter.variable}`}>
       <body className="font-sans">
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />

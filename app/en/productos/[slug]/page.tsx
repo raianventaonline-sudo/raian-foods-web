@@ -14,31 +14,25 @@ import { getProductBySlug, getRelatedProducts, products } from "@/data/products"
 import { getRecipesForProduct } from "@/data/recipes";
 import { siteConfig } from "@/data/site";
 import { breadcrumbJsonLd } from "@/lib/seo";
+import { translateProductToEn } from "@/lib/en-translate";
+import { translateText } from "@/lib/i18n";
 
 type ProductPageProps = {
-  params: {
-    slug: string;
-  };
+  params: { slug: string };
 };
 
 const isPendingValue = (value: string) => value.toLowerCase().includes("pendiente");
 
 export function generateStaticParams() {
-  return products.map((product) => ({
-    slug: product.slug
-  }));
+  return products.map((product) => ({ slug: product.slug }));
 }
 
 export function generateMetadata({ params }: ProductPageProps): Metadata {
-  const product = getProductBySlug(params.slug);
+  const raw = getProductBySlug(params.slug);
+  if (!raw) return { title: "Product not found" };
+  const product = translateProductToEn(raw);
 
-  if (!product) {
-    return {
-      title: "Producto no encontrado"
-    };
-  }
-
-  const ogImage = product.mainImage.available ? product.mainImage.src : siteConfig.logo;
+  const ogImage = raw.mainImage.available ? raw.mainImage.src : siteConfig.logo;
   const metaDescription = product.seoDescription ?? product.shortDescription;
   const socialTitle = product.seoTitle ?? `${product.name} | RAIAN Foods`;
 
@@ -46,15 +40,20 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
     title: product.seoTitle ? { absolute: product.seoTitle } : product.name,
     description: metaDescription,
     alternates: {
-      canonical: `/productos/${product.slug}`,
-      languages: { en: `/en/productos/${product.slug}`, "x-default": `/productos/${product.slug}` }
+      canonical: `/en/productos/${raw.slug}`,
+      languages: {
+        es: `/productos/${raw.slug}`,
+        en: `/en/productos/${raw.slug}`,
+        "x-default": `/productos/${raw.slug}`
+      }
     },
     openGraph: {
       title: socialTitle,
       description: metaDescription,
       type: "website",
-      url: `/productos/${product.slug}`,
-      images: [{ url: ogImage, alt: product.mainImage.alt }]
+      url: `/en/productos/${raw.slug}`,
+      images: [{ url: ogImage, alt: raw.mainImage.alt }],
+      locale: "en_GB"
     },
     twitter: {
       card: "summary_large_image",
@@ -65,15 +64,13 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
   };
 }
 
-export default function ProductPage({ params }: ProductPageProps) {
-  const product = getProductBySlug(params.slug);
+export default function EnProductPage({ params }: ProductPageProps) {
+  const raw = getProductBySlug(params.slug);
+  if (!raw) notFound();
 
-  if (!product) {
-    notFound();
-  }
-
-  const relatedProducts = getRelatedProducts(product);
-  const relatedRecipes = getRecipesForProduct(product.recipeSlugs);
+  const product = translateProductToEn(raw);
+  const relatedProducts = getRelatedProducts(raw);
+  const relatedRecipes = getRecipesForProduct(raw.recipeSlugs);
   const technicalRows = product.technicalSheet.filter((row) => !isPendingValue(row.value));
   const nutritionRows = product.nutrition.filter((row) => !isPendingValue(row.value));
   const faqs = product.faqs ?? [];
@@ -85,46 +82,40 @@ export default function ProductPage({ params }: ProductPageProps) {
           mainEntity: faqs.map((item) => ({
             "@type": "Question",
             name: item.question,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: item.answer
-            }
+            acceptedAnswer: { "@type": "Answer", text: item.answer }
           }))
         }
       : null;
+
+  const t = (s: string) => translateText(s, "en");
 
   return (
     <>
       <JsonLd
         data={breadcrumbJsonLd([
-          { name: "Inicio", href: "/" },
-          { name: "Productos", href: "/productos" },
-          { name: product.name, href: `/productos/${product.slug}` }
+          { name: "Home", href: "/en" },
+          { name: "Products", href: "/en/productos" },
+          { name: product.name, href: `/en/productos/${raw.slug}` }
         ])}
       />
       {faqJsonLd ? <JsonLd data={faqJsonLd} /> : null}
-      <QrReviewPrompt
-        productSlug={product.slug}
-        productName={product.name}
-        reviewUrl={product.amazonReviewUrl}
-      />
+      <QrReviewPrompt productSlug={raw.slug} productName={product.name} reviewUrl={raw.amazonReviewUrl} />
       <Breadcrumbs
         items={[
-          { label: "Inicio", href: "/" },
-          { label: "Productos", href: "/productos" },
-          { label: product.name, href: `/productos/${product.slug}` }
+          { label: "Home", href: "/en" },
+          { label: "Products", href: "/en/productos" },
+          { label: product.name, href: `/en/productos/${raw.slug}` }
         ]}
       />
       <ProductHero product={product} />
 
       <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-[0.8fr_1.2fr] md:px-8">
-          <SectionTitle eyebrow="Descripción" title="Información clara para entender el producto." />
+          <SectionTitle eyebrow={t("Descripción")} title={t("Información clara para entender el producto.")} />
           <div className="space-y-5 text-base leading-8 text-muted">
             <p>{product.description}</p>
             <p>
-              Mostramos únicamente datos disponibles o pendientes de validación de forma transparente. La información final
-              debe coincidir siempre con el etiquetado y la documentación del producto.
+              We only show available data or data pending validation, transparently. The final information must always match the product labelling and documentation.
             </p>
           </div>
         </div>
@@ -133,7 +124,7 @@ export default function ProductPage({ params }: ProductPageProps) {
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-2 md:px-8">
           <div>
-            <SectionTitle eyebrow="Usos" title="Aplicaciones habituales." />
+            <SectionTitle eyebrow={t("Usos")} title={t("Aplicaciones habituales.")} />
             <ul className="mt-8 space-y-3">
               {product.uses.map((use) => (
                 <li key={use} className="rounded-md border border-line bg-sage px-4 py-3 text-sm leading-6 text-muted">
@@ -143,7 +134,7 @@ export default function ProductPage({ params }: ProductPageProps) {
             </ul>
           </div>
           <div>
-            <SectionTitle eyebrow="Uso orientativo" title="Pautas generales." />
+            <SectionTitle eyebrow={t("Uso orientativo")} title={t("Pautas generales.")} />
             <ol className="mt-8 space-y-3">
               {product.howToUse.map((step, index) => (
                 <li key={step} className="flex gap-4 rounded-md border border-line bg-white px-4 py-4 text-sm leading-6 text-muted">
@@ -161,25 +152,25 @@ export default function ProductPage({ params }: ProductPageProps) {
       <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-2 md:px-8">
           <div>
-            <SectionTitle eyebrow="Ficha técnica" title="Datos disponibles." />
+            <SectionTitle eyebrow={t("Ficha técnica")} title={t("Datos disponibles.")} />
             <div className="mt-8">
               {technicalRows.length > 0 ? (
                 <ProductTechnicalTable rows={technicalRows} />
               ) : (
                 <p className="rounded-md border border-line bg-white p-5 text-sm leading-7 text-muted">
-                  Información técnica pendiente de validar con la documentación final del producto.
+                  Technical information pending validation with the final product documentation.
                 </p>
               )}
             </div>
           </div>
           <div>
-            <SectionTitle eyebrow="Información nutricional" title="Valores por 100 g." />
+            <SectionTitle eyebrow={t("Información nutricional")} title={t("Valores por 100 g.")} />
             <div className="mt-8">
               {nutritionRows.length > 0 ? (
                 <NutritionTable rows={nutritionRows} />
               ) : (
                 <p className="rounded-md border border-line bg-white p-5 text-sm leading-7 text-muted">
-                  Información nutricional pendiente de validar con el etiquetado final.
+                  Nutrition information pending validation with the final labelling.
                 </p>
               )}
             </div>
@@ -190,11 +181,11 @@ export default function ProductPage({ params }: ProductPageProps) {
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 md:grid-cols-2 md:px-8">
           <article className="rounded-md border border-line bg-sage p-6">
-            <h2 className="font-display text-3xl text-ink">Alérgenos</h2>
+            <h2 className="font-display text-3xl text-ink">{t("Alérgenos")}</h2>
             <p className="mt-4 text-sm leading-7 text-muted">{product.allergens}</p>
           </article>
           <article className="rounded-md border border-line bg-sage p-6">
-            <h2 className="font-display text-3xl text-ink">Conservación</h2>
+            <h2 className="font-display text-3xl text-ink">{t("Conservación")}</h2>
             <p className="mt-4 text-sm leading-7 text-muted">{product.conservation}</p>
           </article>
         </div>
@@ -203,7 +194,7 @@ export default function ProductPage({ params }: ProductPageProps) {
       {faqs.length > 0 ? (
         <section className="bg-cream py-12 md:py-16">
           <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-            <SectionTitle eyebrow="Preguntas frecuentes" title={`Dudas habituales sobre ${product.name.toLowerCase()}.`} />
+            <SectionTitle eyebrow={t("Preguntas frecuentes")} title={`Common questions about ${product.name.toLowerCase()}.`} />
             <div className="mt-8 divide-y divide-line rounded-md border border-line bg-white">
               {faqs.map((item) => (
                 <details key={item.question} className="group px-5 py-4">
@@ -223,15 +214,15 @@ export default function ProductPage({ params }: ProductPageProps) {
           <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <SectionTitle
-                eyebrow="Usos y recetas"
-                title="Contenido práctico asociado."
-                description="Guías y usos en preparación para acompañar el producto con información útil y fácil de consultar."
+                eyebrow="Uses & recipes"
+                title="Practical content for this product."
+                description="Guides and usage ideas to accompany the product with useful, easy-to-consult information."
               />
               <Link
-                href={`/recetas?producto=${product.slug}`}
+                href={`/en/recetas?producto=${raw.slug}`}
                 className="shrink-0 inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-beige"
               >
-                Ver todas las recetas
+                {t("Ver todas las recetas")}
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
                   <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
@@ -242,24 +233,13 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <RecipeCard key={recipe.slug} recipe={recipe} index={index} />
               ))}
             </div>
-            <div className="mt-10 flex justify-center">
-              <Link
-                href={`/recetas?producto=${product.slug}`}
-                className="inline-flex items-center gap-2 rounded-full bg-ink px-7 py-3 text-sm font-semibold text-white transition hover:bg-charcoal"
-              >
-                Ver todas las recetas con {product.name}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>
-                  <path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </Link>
-            </div>
           </div>
         </section>
       ) : null}
 
       <section className="bg-white py-12 md:py-16">
         <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
-          <SectionTitle eyebrow="Productos relacionados" title="Otras referencias del catálogo." />
+          <SectionTitle eyebrow={t("Productos relacionados")} title={t("Otras referencias del catálogo.")} />
           <div className="mt-8">
             <RelatedProducts products={relatedProducts} />
           </div>

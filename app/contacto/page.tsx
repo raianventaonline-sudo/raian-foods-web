@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   description:
     "Contacta con RAIAN para consultas sobre productos alimenticios, información comercial o colaboración de marca.",
   alternates: {
-    canonical: "/contacto"
+    canonical: "/contacto",
+    languages: { en: "/en/contacto", "x-default": "/contacto" }
   }
 };
 

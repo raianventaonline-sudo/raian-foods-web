@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   title: "Política de privacidad",
   description: "Política de privacidad de RAIAN pendiente de completar con los datos legales oficiales.",
   alternates: {
-    canonical: "/privacidad"
+    canonical: "/privacidad",
+    languages: { en: "/en/privacidad", "x-default": "/privacidad" }
   }
 };
 

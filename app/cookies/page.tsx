@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   description:
     "Política de cookies de RAIAN con cookies técnicas y opción de consentimiento para analítica si se activa en el futuro.",
   alternates: {
-    canonical: "/cookies"
+    canonical: "/cookies",
+    languages: { en: "/en/cookies", "x-default": "/cookies" }
   }
 };
 

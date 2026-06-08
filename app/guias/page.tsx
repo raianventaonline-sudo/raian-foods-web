@@ -11,7 +11,8 @@ export const metadata: Metadata = {
   description:
     "Guías RAIAN sobre ingredientes alimentarios: qué son, para qué sirven y cómo usarlos con criterio en tus recetas.",
   alternates: {
-    canonical: "/guias"
+    canonical: "/guias",
+    languages: { en: "/en/guias", "x-default": "/guias" }
   }
 };
 

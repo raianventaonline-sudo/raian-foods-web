@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   description:
     "RAIAN es una marca alimentaria valenciana enfocada en selección de producto, presentación cuidada e información clara para el consumidor.",
   alternates: {
-    canonical: "/sobre-nosotros"
+    canonical: "/sobre-nosotros",
+    languages: { en: "/en/sobre-nosotros", "x-default": "/sobre-nosotros" }
   }
 };
 

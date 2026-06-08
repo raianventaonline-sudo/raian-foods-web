@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   title: "Aviso legal",
   description: "Información legal de RAIAN pendiente de completar con los datos oficiales del titular.",
   alternates: {
-    canonical: "/aviso-legal"
+    canonical: "/aviso-legal",
+    languages: { en: "/en/aviso-legal", "x-default": "/aviso-legal" }
   }
 };
 
