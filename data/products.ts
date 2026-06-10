@@ -341,8 +341,9 @@ export const products: Product[] = [
     nutrition: porcineGelatinNutrition,
     allergens: "No contiene alérgenos de declaración obligatoria.",
     conservation: "Conservar en un lugar fresco, seco y protegido de la luz.",
-    amazonUrl: null,
-    amazonAsin: pending,
+    amazonUrl: "https://www.amazon.es/dp/B0H4NYN1KT",
+    amazonAsin: "B0H4NYN1KT",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H4NYN1KT",
     relatedSlugs: ["gelatina-neutra-bovina", "harina-de-almendra", "dextrosa"],
     recipeSlugs: [
       "gelatina-de-naranja-casera-con-trozos-de-fruta",
@@ -745,21 +746,21 @@ export const products: Product[] = [
   },
   {
     slug: "cacao-en-polvo-alcalino",
-    name: "Cacao puro natural alcalinizado",
+    name: "Cacao premium alcalinizado 22-24%",
     shortDescription:
-      "Cacao puro natural alcalinizado, 100% cacao, sin azúcar y apto para veganos. Color intenso y sabor profundo para repostería y bebidas. Formato 1 kg envasado en España.",
+      "Cacao premium alcalinizado 22-24% materia grasa, 100% cacao, sin azúcar y apto para veganos. Color intenso y sabor profundo para repostería y bebidas. Formato 1 kg envasado en España.",
     description:
-      "Cacao en polvo 100% puro sometido a un proceso de alcalinización (proceso holandés) que suaviza el sabor, intensifica el color oscuro y mejora la solubilidad. Sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico, responsable de la alcalinización. Pensado para repostería casera y profesional, así como para bebidas de cacao con cuerpo. Formato de 1 kg, envasado en España.",
+      "Cacao en polvo premium 100% puro con un contenido en materia grasa de 22-24%, sometido a alcalinización (proceso holandés) que suaviza el sabor, intensifica el color oscuro y mejora la solubilidad. Sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico. El mayor contenido en manteca de cacao le da más cuerpo, color más intenso y un sabor más redondo. Pensado para repostería casera y profesional, así como para bebidas de cacao con cuerpo. Formato de 1 kg, envasado en España.",
     category: "Cacao y chocolate",
-    tags: ["100% cacao", "Alcalinizado", "Sin azúcar", "Vegano", "Origen español", "1 kg"],
+    tags: ["100% cacao", "Alcalinizado", "22-24% materia grasa", "Sin azúcar", "Vegano", "Origen español", "1 kg"],
     mainImage: {
       src: "/images/products/cacao-en-polvo-alcalino-main.png",
-      alt: "Bote de cacao puro natural alcalinizado RAIAN 100% cacao 1 kg",
-      label: "Cacao puro natural alcalinizado — 1 kg",
+      alt: "Bote de cacao premium alcalinizado RAIAN 22-24% 1 kg",
+      label: "Cacao premium alcalinizado 22-24% — 1 kg",
       available: true,
       fit: "contain"
     },
-    gallery: galleryFor("Cacao puro natural alcalinizado"),
+    gallery: galleryFor("Cacao premium alcalinizado 22-24%"),
     uses: [
       "Brownies y bizcochos con color y sabor intenso.",
       "Bebidas calientes de cacao.",
@@ -791,9 +792,9 @@ export const products: Product[] = [
       "crema-de-cacao-casera-tipo-avellana",
       "smoothie-de-cacao-alcalino-y-frutos-rojos"
     ],
-    seoTitle: "Cacao puro alcalinizado 100% 1 kg | RAIAN Foods",
+    seoTitle: "Cacao premium alcalinizado 22-24% 1 kg | RAIAN Foods",
     seoDescription:
-      "Cacao puro natural alcalinizado RAIAN: 100% cacao, sin azúcar y apto para veganos, 1 kg. Color intenso y sabor profundo para repostería y bebidas.",
+      "Cacao premium alcalinizado RAIAN 22-24% materia grasa: 100% cacao, sin azúcar, vegano, 1 kg. Mayor contenido en manteca de cacao para repostería y bebidas con más cuerpo.",
     faqs: [
       {
         question: "¿Qué es el cacao alcalinizado?",
@@ -809,6 +810,156 @@ export const products: Product[] = [
         question: "¿Cómo se usa en repostería y bebidas?",
         answer:
           "En repostería puedes sustituir un 20-25% del peso de la harina y tamizarlo antes de mezclar. Para bebidas, unos 10-15 g por cada 200 ml de leche."
+      }
+    ]
+  },
+  {
+    slug: "cacao-en-polvo-alcalino-10-12",
+    name: "Cacao en polvo alcalinizado 10/12%",
+    shortDescription:
+      "Cacao en polvo alcalinizado con 10-12% de materia grasa, 100% cacao, sin azúcar y apto para veganos. Color oscuro y sabor suave para repostería y bebidas.",
+    description:
+      "Cacao en polvo alcalinizado 10-12% de materia grasa, tratado mediante el proceso holandés. Al tener menos contenido en manteca de cacao que el formato 22-24%, se disuelve con mayor facilidad y aporta menos grasa, manteniendo el color oscuro y el sabor profundo que caracterizan al cacao alcalinizado. 100% cacao, sin azúcar añadido y apto para veganos. Ideal para bebidas, mezclas, helados y elaboraciones donde se busca un cacao de bajo contenido graso. Formato 1 kg, envasado en España.",
+    category: "Cacao y chocolate",
+    tags: ["100% cacao", "Alcalinizado", "10-12% materia grasa", "Sin azúcar", "Vegano", "Bajo en grasa", "1 kg"],
+    mainImage: {
+      src: "/images/placeholders/product-placeholder.svg",
+      alt: "Cacao en polvo alcalinizado 10/12% RAIAN 1 kg",
+      label: "Cacao alcalinizado 10/12% — 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cacao en polvo alcalinizado 10/12%"),
+    uses: [
+      "Bebidas calientes de cacao.",
+      "Helados y sorbetes de chocolate.",
+      "Mezclas y preparados en polvo.",
+      "Repostería con bajo contenido graso.",
+      "Glasas y coberturas ligeras."
+    ],
+    howToUse: [
+      "Para bebidas: 10-15 g por 200 ml de leche.",
+      "Para repostería: sustituir 20-25% del peso de harina.",
+      "Tamizar antes de mezclar para evitar grumos.",
+      "Ajustar cantidad según la intensidad deseada."
+    ],
+    technicalSheet: [
+      { label: "Nombre del producto", value: "Cacao en polvo alcalinizado 10/12%" },
+      { label: "Origen / tipo", value: "Cacao en polvo alcalinizado (proceso holandés). Denominación según Directiva 2000/36/CE: cacao en polvo." },
+      { label: "Ingredientes", value: "Cacao en polvo alcalinizado, regulador de acidez: carbonato potásico." },
+      { label: "Aptitud", value: "100% cacao · Sin azúcar · Vegano" },
+      { label: "Contenido en materia grasa", value: "10 - 12%" },
+      { label: "Formato", value: "1 kg" },
+      { label: "Peso neto", value: "1 kg" },
+      { label: "País de origen", value: "España" },
+      { label: "Uso previsto", value: "Uso alimentario y repostería" },
+      { label: "EAN", value: pending },
+      { label: "ASIN de Amazon", value: "B0H4HFYT3C" },
+      { label: "Enlace Amazon", value: "https://www.amazon.es/dp/B0H4HFYT3C" }
+    ],
+    nutrition: nutritionPlaceholder,
+    allergens:
+      "Sin alérgenos de declaración obligatoria. Puede contener trazas de frutos de cáscara, leche y gluten. Pendiente de confirmar con la ficha técnica final.",
+    conservation:
+      "Conservar en lugar limpio, seco y bien ventilado, protegido de la luz y de olores fuertes. Mantener el envase bien cerrado tras cada uso.",
+    amazonUrl: "https://www.amazon.es/dp/B0H4HFYT3C",
+    amazonAsin: "B0H4HFYT3C",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H4HFYT3C",
+    relatedSlugs: ["cacao-en-polvo-alcalino", "cacao-natural-10-12", "chocolate-a-la-taza"],
+    recipeSlugs: [],
+    seoTitle: "Cacao en polvo alcalinizado 10/12% 1 kg | RAIAN Foods",
+    seoDescription:
+      "Cacao alcalinizado 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Bajo contenido en manteca de cacao para bebidas, helados y repostería ligera.",
+    faqs: [
+      {
+        question: "¿Qué diferencia hay entre el cacao 10/12% y el 22-24%?",
+        answer:
+          "La diferencia está en el contenido en manteca de cacao. El 10-12% tiene menos grasa y se disuelve más fácilmente; el 22-24% tiene más cuerpo, color más intenso y sabor más redondo. El uso depende de la receta y del resultado buscado."
+      },
+      {
+        question: "¿El cacao 10/12% lleva azúcar?",
+        answer:
+          "No. Es 100% cacao, sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico."
+      },
+      {
+        question: "¿Para qué elaboraciones es ideal el cacao 10/12%?",
+        answer:
+          "Es especialmente indicado para bebidas, helados, mezclas en polvo y preparaciones donde se busca un cacao alcalinizado con menor aporte graso."
+      }
+    ]
+  },
+  {
+    slug: "cacao-natural-10-12",
+    name: "Cacao en polvo natural 10/12%",
+    shortDescription:
+      "Cacao en polvo natural (sin alcalinizar) con 10-12% de materia grasa, 100% cacao, sin azúcar y apto para veganos. Sabor afrutado y más ácido para repostería y bebidas.",
+    description:
+      "Cacao en polvo natural, sin someterse al proceso de alcalinización, con un contenido en materia grasa de 10-12%. Al no estar tratado, conserva su acidez natural, su color más claro y un perfil de sabor más afrutado y vivo que los cacaos alcalinizados. 100% cacao, sin azúcar añadido y apto para veganos. Ideal para recetas donde se busca la reactividad natural del cacao con bicarbonato (como bizcochos que esponjan por reacción ácida), así como para elaboraciones donde se quiere un sabor más fresco. Formato 1 kg, envasado en España.",
+    category: "Cacao y chocolate",
+    tags: ["100% cacao", "Natural", "Sin alcalinizar", "10-12% materia grasa", "Sin azúcar", "Vegano", "1 kg"],
+    mainImage: {
+      src: "/images/placeholders/product-placeholder.svg",
+      alt: "Cacao en polvo natural 10/12% RAIAN 1 kg",
+      label: "Cacao natural 10/12% — 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cacao en polvo natural 10/12%"),
+    uses: [
+      "Bizcochos que esponjan con bicarbonato.",
+      "Bebidas de cacao con sabor más fresco.",
+      "Mousses y cremas con perfil afrutado.",
+      "Repostería sin proceso holandés.",
+      "Elaboraciones donde la acidez natural aporta matiz."
+    ],
+    howToUse: [
+      "Para bebidas: 10-15 g por 200 ml de leche.",
+      "Para repostería: sustituir 20-25% del peso de harina.",
+      "Tamizar antes de mezclar para evitar grumos.",
+      "Combinar con bicarbonato si la receta lo requiere."
+    ],
+    technicalSheet: [
+      { label: "Nombre del producto", value: "Cacao en polvo natural 10/12%" },
+      { label: "Origen / tipo", value: "Cacao en polvo natural (sin alcalinizar). Denominación según Directiva 2000/36/CE: cacao en polvo." },
+      { label: "Ingredientes", value: "Cacao en polvo." },
+      { label: "Aptitud", value: "100% cacao · Sin azúcar · Vegano" },
+      { label: "Contenido en materia grasa", value: "10 - 12%" },
+      { label: "Formato", value: "1 kg" },
+      { label: "Peso neto", value: "1 kg" },
+      { label: "País de origen", value: "España" },
+      { label: "Uso previsto", value: "Uso alimentario y repostería" },
+      { label: "EAN", value: pending },
+      { label: "ASIN de Amazon", value: "B0H4NWTTSN" },
+      { label: "Enlace Amazon", value: "https://www.amazon.es/dp/B0H4NWTTSN" }
+    ],
+    nutrition: nutritionPlaceholder,
+    allergens:
+      "Sin alérgenos de declaración obligatoria. Puede contener trazas de frutos de cáscara, leche y gluten. Pendiente de confirmar con la ficha técnica final.",
+    conservation:
+      "Conservar en lugar limpio, seco y bien ventilado, protegido de la luz y de olores fuertes. Mantener el envase bien cerrado tras cada uso.",
+    amazonUrl: "https://www.amazon.es/dp/B0H4NWTTSN",
+    amazonAsin: "B0H4NWTTSN",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H4NWTTSN",
+    relatedSlugs: ["cacao-en-polvo-alcalino", "cacao-en-polvo-alcalino-10-12", "chocolate-a-la-taza"],
+    recipeSlugs: [],
+    seoTitle: "Cacao en polvo natural 10/12% 1 kg | RAIAN Foods",
+    seoDescription:
+      "Cacao natural sin alcalinizar 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Sabor afrutado y ácido natural para repostería y bebidas.",
+    faqs: [
+      {
+        question: "¿Qué diferencia hay entre cacao natural y alcalinizado?",
+        answer:
+          "El cacao natural conserva su acidez, tiene un color más claro y un sabor más afrutado. El alcalinizado ha pasado por el proceso holandés, que suaviza la acidez, intensifica el color y mejora la solubilidad."
+      },
+      {
+        question: "¿Por qué usar cacao natural con bicarbonato?",
+        answer:
+          "El cacao natural es ácido y reacciona con el bicarbonato sódico, ayudando al esponjado de bizcochos. Con el cacao alcalinizado esta reacción es mínima, por lo que suele ir mejor con levadura química."
+      },
+      {
+        question: "¿El cacao natural 10/12% lleva azúcar?",
+        answer:
+          "No. Es 100% cacao puro, sin azúcar añadido ni reguladores de acidez. Apto para dietas veganas."
       }
     ]
   },
