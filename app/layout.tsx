@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { headers } from "next/headers";
 import { Fraunces, Inter } from "next/font/google";
 import "@/app/globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { AutoTranslator } from "@/components/AutoTranslator";
 import { CookieBanner } from "@/components/CookieBanner";
 import { Footer } from "@/components/Footer";
@@ -94,6 +95,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Footer />
         <CookieBanner />
         <AutoTranslator />
+        <Analytics />
       </body>
     </html>
   );
