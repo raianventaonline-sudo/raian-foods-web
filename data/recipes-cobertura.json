@@ -1,0 +1,4546 @@
+{
+  "brand": "RAIAN Foods",
+  "product_slug": "cobertura",
+  "product": "Cobertura de chocolate negro y blanco",
+  "recipes": [
+    {
+      "category": "familiar",
+      "title": "Fresas con chocolate negro y líneas de chocolate blanco",
+      "slug": "fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco",
+      "seo_title": "Fresas con chocolate negro y líneas de chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Fresas frescas bañadas en chocolate negro y decoradas con líneas de chocolate blanco. Receta sin gluten facil y vistosa.",
+      "intro": "Un clásico irresistible: fresas jugosas cubiertas de chocolate negro y rematadas con elegantes líneas de chocolate blanco.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Fresas frescas",
+          "g": 400,
+          "key": "fresa"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 50,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Lava y seca muy bien las fresas dejando el rabillo. La humedad impide que el chocolate se adhiera.",
+        "Funde la cobertura de chocolate negro al baño maría o en microondas en tandas de 30 segundos, removiendo entre cada una.",
+        "Sumerge cada pieza en el chocolate fundido y deja escurrir el exceso.",
+        "Coloca sobre papel de horno. Funde el chocolate blanco y, con una manga o cuchara, dibuja líneas finas por encima.",
+        "Refrigera 20-30 minutos hasta que el chocolate quede firme. Sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 165,
+        "protein": 2.2,
+        "carbs": 18.0,
+        "sugars": 15.0,
+        "fat": 9.5,
+        "sat_fat": 5.8,
+        "fiber": 2.5,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 165.0,
+        "protein": 2.2,
+        "carbs": 18.0,
+        "sugars": 15.0,
+        "fat": 9.5,
+        "sat_fat": 5.8,
+        "fiber": 2.5,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "fresas con chocolate",
+        "postre sin gluten",
+        "fresas chocolate negro",
+        "postre fácil"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Fresas con chocolate blanco y polvo de frambuesa",
+      "slug": "fresas-con-chocolate-blanco-y-polvo-de-frambuesa",
+      "seo_title": "Fresas con chocolate blanco y polvo de frambuesa | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Fresas premium cubiertas de chocolate blanco y espolvoreadas con frambuesa liofilizada. Un postre elegante y afrutado.",
+      "intro": "Fresas bañadas en sedoso chocolate blanco y coronadas con polvo de frambuesa liofilizada para un toque ácido y sofisticado.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Fresas frescas",
+          "g": 400,
+          "key": "fresa"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 180,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Frambuesa liofilizada en polvo",
+          "g": 15,
+          "key": "frambuesa_liof"
+        }
+      ],
+      "steps": [
+        "Lava y seca muy bien las fresas. La humedad impide que el chocolate se adhiera.",
+        "Funde la cobertura de chocolate blanco al baño maría o en microondas en tandas de 30 segundos, removiendo entre cada una.",
+        "Sumerge cada pieza en el chocolate fundido y deja escurrir el exceso.",
+        "Coloca sobre papel de horno. Espolvorea generosamente el polvo de frambuesa antes de que cuaje el chocolate.",
+        "Refrigera 20-30 minutos hasta que el chocolate quede firme. Sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 185,
+        "protein": 2.5,
+        "carbs": 22.0,
+        "sugars": 21.0,
+        "fat": 9.8,
+        "sat_fat": 6.0,
+        "fiber": 1.8,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 185.0,
+        "protein": 2.5,
+        "carbs": 22.0,
+        "sugars": 21.0,
+        "fat": 9.8,
+        "sat_fat": 6.0,
+        "fiber": 1.8,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "fresas chocolate blanco",
+        "postre premium",
+        "frambuesa liofilizada",
+        "postre gourmet"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Plátano congelado con chocolate negro",
+      "slug": "platano-congelado-con-chocolate-negro",
+      "seo_title": "Plátano congelado con chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Plátanos congelados bañados en chocolate negro, un snack helado sano y divertido para toda la familia.",
+      "intro": "Plátano congelado en palito y cubierto de chocolate negro: el snack helado más fácil y delicioso para los más pequeños.",
+      "servings": 8,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 130
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Plátanos",
+          "g": 480,
+          "key": "platano"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 160,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Pela los plátanos, córtalos por la mitad e inserta un palito de helado en cada uno.",
+        "Congela los plátanos al menos 2 horas hasta que estén firmes.",
+        "Funde la cobertura de chocolate negro al baño maría.",
+        "Baña cada plátano congelado en el chocolate; cuajará casi al instante por el frío.",
+        "Sirve de inmediato o guarda en el congelador."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 175,
+        "protein": 2.0,
+        "carbs": 24.0,
+        "sugars": 17.0,
+        "fat": 8.5,
+        "sat_fat": 5.0,
+        "fiber": 2.8,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 218.75,
+        "protein": 2.5,
+        "carbs": 30.0,
+        "sugars": 21.25,
+        "fat": 10.62,
+        "sat_fat": 6.25,
+        "fiber": 3.5,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "platano con chocolate",
+        "snack helado",
+        "postre infantil",
+        "platano congelado"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "snack",
+      "title": "Rodajas de plátano con chocolate blanco y cacahuete",
+      "slug": "rodajas-de-platano-con-chocolate-blanco-y-cacahuete",
+      "seo_title": "Rodajas de plátano con chocolate blanco y cacahuete | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Rodajas de plátano bañadas en chocolate blanco y cubiertas de cacahuete picado. Snack energético irresistible.",
+      "intro": "Bocaditos de plátano cubiertos de chocolate blanco y crujiente cacahuete: un snack dulce y salado perfecto.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 72
+      },
+      "allergens": [
+        "Leche",
+        "Soja",
+        "Cacahuetes"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Plátanos",
+          "g": 300,
+          "key": "platano"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 140,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Cacahuetes tostados picados",
+          "g": 50,
+          "key": "cacahuete"
+        }
+      ],
+      "steps": [
+        "Corta los plátanos en rodajas gruesas y congélalas 1 hora.",
+        "Funde la cobertura de chocolate blanco.",
+        "Sumerge cada rodaja en el chocolate y deja escurrir.",
+        "Espolvorea cacahuete picado por encima.",
+        "Refrigera 30 minutos hasta que cuaje."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 190,
+        "protein": 4.0,
+        "carbs": 20.0,
+        "sugars": 15.0,
+        "fat": 10.5,
+        "sat_fat": 5.2,
+        "fiber": 1.8,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 253.33,
+        "protein": 5.33,
+        "carbs": 26.67,
+        "sugars": 20.0,
+        "fat": 14.0,
+        "sat_fat": 6.93,
+        "fiber": 2.4,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "platano cacahuete",
+        "snack energetico",
+        "chocolate blanco",
+        "bocaditos"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Uvas congeladas bañadas en chocolate negro",
+      "slug": "uvas-congeladas-banadas-en-chocolate-negro",
+      "seo_title": "Uvas congeladas bañadas en chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Uvas congeladas cubiertas de chocolate negro, un bocado fresco y crujiente perfecto para el verano.",
+      "intro": "Uvas heladas envueltas en chocolate negro: un snack refrescante con un contraste de texturas adictivo.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 0,
+        "rest_min": 90,
+        "total_min": 100
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Uvas sin semillas",
+          "g": 350,
+          "key": "uva"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Lava y seca bien las uvas y congélalas 1 hora.",
+        "Funde la cobertura de chocolate negro al baño maría.",
+        "Pincha cada uva con un palillo y báñala en el chocolate.",
+        "Coloca sobre papel de horno; el chocolate cuajará rápido por el frío.",
+        "Conserva en el congelador y sirve muy frías."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 150,
+        "protein": 1.8,
+        "carbs": 20.0,
+        "sugars": 17.0,
+        "fat": 7.5,
+        "sat_fat": 4.5,
+        "fiber": 1.8,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 176.47,
+        "protein": 2.12,
+        "carbs": 23.53,
+        "sugars": 20.0,
+        "fat": 8.82,
+        "sat_fat": 5.29,
+        "fiber": 2.12,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 85,
+      "keywords": [
+        "uvas con chocolate",
+        "snack verano",
+        "uvas congeladas",
+        "bocado fresco"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Mandarina con chocolate negro y sal en escamas",
+      "slug": "mandarina-con-chocolate-negro-y-sal-en-escamas",
+      "seo_title": "Mandarina con chocolate negro y sal en escamas | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Gajos de mandarina bañados en chocolate negro y rematados con sal en escamas. Contraste dulce, ácido y salado.",
+      "intro": "Gajos de mandarina cubiertos de chocolate negro intenso y un toque de sal en escamas que realza todos los sabores.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Mandarinas peladas en gajos",
+          "g": 300,
+          "key": "mandarina"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Sal en escamas",
+          "g": 2,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Lava y seca muy bien los gajos de mandarina. La humedad impide que el chocolate se adhiera.",
+        "Funde la cobertura de chocolate negro al baño maría o en microondas en tandas de 30 segundos, removiendo entre cada una.",
+        "Sumerge cada pieza en el chocolate fundido y deja escurrir el exceso.",
+        "Coloca sobre papel de horno. Reparte unas escamas de sal sobre cada gajo antes de que cuaje.",
+        "Refrigera 20-30 minutos hasta que el chocolate quede firme. Sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 145,
+        "protein": 1.8,
+        "carbs": 18.0,
+        "sugars": 15.0,
+        "fat": 8.0,
+        "sat_fat": 4.8,
+        "fiber": 2.0,
+        "salt": 0.15
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 193.33,
+        "protein": 2.4,
+        "carbs": 24.0,
+        "sugars": 20.0,
+        "fat": 10.67,
+        "sat_fat": 6.4,
+        "fiber": 2.67,
+        "salt": 0.2
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "mandarina chocolate",
+        "postre premium",
+        "sal en escamas",
+        "dulce salado"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Naranja confitada con chocolate negro",
+      "slug": "naranja-confitada-con-chocolate-negro",
+      "seo_title": "Naranja confitada con chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Tiras de naranja confitada bañadas en chocolate negro. Un bombón cítrico clásico de pastelería fina.",
+      "intro": "Tiras de cáscara de naranja confitadas y bañadas en chocolate negro, el aperitivo dulce más elegante.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 40,
+        "rest_min": 60,
+        "total_min": 130
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cáscara de naranja",
+          "g": 200,
+          "key": "naranja"
+        },
+        {
+          "name": "Azúcar",
+          "g": 200,
+          "key": "azucar"
+        },
+        {
+          "name": "Agua",
+          "g": 200,
+          "key": "agua"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 160,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Corta la cáscara de naranja en tiras y hiérvelas 2 minutos para quitar amargor.",
+        "Cuece las tiras en un almíbar de azúcar y agua a fuego lento 40 minutos.",
+        "Escurre y deja secar las tiras sobre rejilla varias horas.",
+        "Funde la cobertura de chocolate negro y baña la mitad de cada tira.",
+        "Deja cuajar sobre papel de horno y conserva en lugar fresco."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 210,
+        "protein": 1.5,
+        "carbs": 38.0,
+        "sugars": 33.0,
+        "fat": 6.5,
+        "sat_fat": 4.0,
+        "fiber": 1.5,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 466.67,
+        "protein": 3.33,
+        "carbs": 84.44,
+        "sugars": 73.33,
+        "fat": 14.44,
+        "sat_fat": 8.89,
+        "fiber": 3.33,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 45,
+      "keywords": [
+        "naranja confitada",
+        "chocolate negro",
+        "postre gourmet",
+        "bombon citrico"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Kiwi congelado con chocolate blanco",
+      "slug": "kiwi-congelado-con-chocolate-blanco",
+      "seo_title": "Kiwi congelado con chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Rodajas de kiwi congelado bañadas en chocolate blanco. Un snack helado, ácido y refrescante muy fácil.",
+      "intro": "Rodajas de kiwi heladas y cubiertas de chocolate blanco: el contraste perfecto entre lo ácido y lo dulce.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 0,
+        "rest_min": 90,
+        "total_min": 102
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Kiwis",
+          "g": 320,
+          "key": "kiwi"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 150,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Pela los kiwis y córtalos en rodajas de 1 cm.",
+        "Coloca las rodajas sobre papel de horno y congélalas 1 hora.",
+        "Funde la cobertura de chocolate blanco.",
+        "Baña la mitad de cada rodaja en el chocolate.",
+        "Vuelve a congelar 15 minutos y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 155,
+        "protein": 2.2,
+        "carbs": 19.0,
+        "sugars": 16.0,
+        "fat": 8.2,
+        "sat_fat": 5.0,
+        "fiber": 1.8,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 193.75,
+        "protein": 2.75,
+        "carbs": 23.75,
+        "sugars": 20.0,
+        "fat": 10.25,
+        "sat_fat": 6.25,
+        "fiber": 2.25,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "kiwi chocolate blanco",
+        "snack helado",
+        "postre refrescante",
+        "kiwi congelado"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Mango con chocolate negro y coco",
+      "slug": "mango-con-chocolate-negro-y-coco",
+      "seo_title": "Mango con chocolate negro y coco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bastones de mango bañados en chocolate negro y rebozados en coco rallado. Un bocado tropical irresistible.",
+      "intro": "Jugosos bastones de mango cubiertos de chocolate negro y coco rallado, un capricho con sabor a trópico.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Mango maduro",
+          "g": 350,
+          "key": "mango"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Coco rallado",
+          "g": 30,
+          "key": "coco"
+        }
+      ],
+      "steps": [
+        "Lava y seca muy bien los bastones de mango. La humedad impide que el chocolate se adhiera.",
+        "Funde la cobertura de chocolate negro al baño maría o en microondas en tandas de 30 segundos, removiendo entre cada una.",
+        "Sumerge cada pieza en el chocolate fundido y deja escurrir el exceso.",
+        "Coloca sobre papel de horno. Reboza la parte bañada en coco rallado antes de que cuaje.",
+        "Refrigera 20-30 minutos hasta que el chocolate quede firme. Sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 175,
+        "protein": 2.0,
+        "carbs": 22.0,
+        "sugars": 18.0,
+        "fat": 9.0,
+        "sat_fat": 6.0,
+        "fiber": 2.5,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 205.88,
+        "protein": 2.35,
+        "carbs": 25.88,
+        "sugars": 21.18,
+        "fat": 10.59,
+        "sat_fat": 7.06,
+        "fiber": 2.94,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 85,
+      "keywords": [
+        "mango chocolate",
+        "coco",
+        "postre tropical",
+        "bocado tropical"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Frambuesas rellenas de chocolate blanco y cubiertas de negro",
+      "slug": "frambuesas-rellenas-de-chocolate-blanco-y-cubiertas-de-negro",
+      "seo_title": "Frambuesas rellenas de chocolate blanco y cubiertas de negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Frambuesas rellenas de chocolate blanco y bañadas en chocolate negro. Un bombón natural sorprendente.",
+      "intro": "Frambuesas con el hueco relleno de chocolate blanco y todo el conjunto bañado en chocolate negro: pura sofisticación.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 55
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Frambuesas frescas",
+          "g": 250,
+          "key": "frambuesa"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 80,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate blanco y, con una manga fina, rellena el hueco de cada frambuesa.",
+        "Refrigera 15 minutos para que el relleno cuaje.",
+        "Funde la cobertura de chocolate negro.",
+        "Sumerge cada frambuesa rellena en el chocolate negro.",
+        "Deja cuajar sobre papel de horno y sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 160,
+        "protein": 2.2,
+        "carbs": 17.0,
+        "sugars": 14.0,
+        "fat": 9.5,
+        "sat_fat": 6.0,
+        "fiber": 3.0,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 290.91,
+        "protein": 4.0,
+        "carbs": 30.91,
+        "sugars": 25.45,
+        "fat": 17.27,
+        "sat_fat": 10.91,
+        "fiber": 5.45,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "frambuesas rellenas",
+        "bombon natural",
+        "postre premium",
+        "chocolate"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "fitness",
+      "title": "Dátiles rellenos de crema de almendra y chocolate negro",
+      "slug": "datiles-rellenos-de-crema-de-almendra-y-chocolate-negro",
+      "seo_title": "Dátiles rellenos de crema de almendra y chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Dátiles rellenos de crema de almendra y bañados en chocolate negro. Snack fitness energético sin azúcar añadido.",
+      "intro": "Dátiles Medjool rellenos de crema de almendra y cubiertos de chocolate negro: energía natural en cada bocado.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 50
+      },
+      "allergens": [
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Dátiles Medjool deshuesados",
+          "g": 200,
+          "key": "datil"
+        },
+        {
+          "name": "Crema de almendra",
+          "g": 80,
+          "key": "crema_almendra"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 130,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Abre cada dátil por un lado y retira el hueso si lo tuviera.",
+        "Rellena el interior con una cucharadita de crema de almendra.",
+        "Cierra ligeramente y refrigera 10 minutos.",
+        "Funde la cobertura de chocolate negro y baña cada dátil.",
+        "Deja cuajar sobre papel de horno y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 195,
+        "protein": 4.0,
+        "carbs": 24.0,
+        "sugars": 19.0,
+        "fat": 10.0,
+        "sat_fat": 4.5,
+        "fiber": 3.5,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 354.55,
+        "protein": 7.27,
+        "carbs": 43.64,
+        "sugars": 34.55,
+        "fat": 18.18,
+        "sat_fat": 8.18,
+        "fiber": 6.36,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "datiles rellenos",
+        "snack fitness",
+        "crema de almendra",
+        "energia natural"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Higos secos con chocolate negro y nuez",
+      "slug": "higos-secos-con-chocolate-negro-y-nuez",
+      "seo_title": "Higos secos con chocolate negro y nuez | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Higos secos rellenos de nuez y bañados en chocolate negro. Un dulce tradicional lleno de sabor.",
+      "intro": "Higos secos con una nuez en su interior y bañados en chocolate negro, un bocado clásico de sobremesa.",
+      "servings": 8,
+      "times": {
+        "prep_min": 18,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 48
+      },
+      "allergens": [
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Higos secos",
+          "g": 240,
+          "key": "higo"
+        },
+        {
+          "name": "Nueces",
+          "g": 60,
+          "key": "nuez"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 140,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Abre cada higo por la base e introduce media nuez.",
+        "Presiona suavemente para cerrar.",
+        "Funde la cobertura de chocolate negro al baño maría.",
+        "Baña cada higo dejando escurrir el exceso.",
+        "Deja cuajar sobre papel de horno y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 200,
+        "protein": 3.0,
+        "carbs": 27.0,
+        "sugars": 22.0,
+        "fat": 9.5,
+        "sat_fat": 4.0,
+        "fiber": 4.0,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 363.64,
+        "protein": 5.45,
+        "carbs": 49.09,
+        "sugars": 40.0,
+        "fat": 17.27,
+        "sat_fat": 7.27,
+        "fiber": 7.27,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "higos con chocolate",
+        "dulce tradicional",
+        "nuez",
+        "postre casero"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Manzana en gajos con chocolate blanco y canela",
+      "slug": "manzana-en-gajos-con-chocolate-blanco-y-canela",
+      "seo_title": "Manzana en gajos con chocolate blanco y canela | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Gajos de manzana bañados en chocolate blanco y espolvoreados con canela. Snack dulce ideal para meriendas.",
+      "intro": "Crujientes gajos de manzana cubiertos de chocolate blanco y un toque de canela, perfectos para la merienda.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Manzanas",
+          "g": 350,
+          "key": "manzana"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 150,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Canela en polvo",
+          "g": 3,
+          "key": "canela"
+        }
+      ],
+      "steps": [
+        "Corta las manzanas en gajos y sécalas bien con papel.",
+        "Funde la cobertura de chocolate blanco.",
+        "Baña cada gajo dejando escurrir el exceso.",
+        "Espolvorea canela por encima antes de que cuaje.",
+        "Refrigera 20 minutos hasta que el chocolate quede firme."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 165,
+        "protein": 2.0,
+        "carbs": 22.0,
+        "sugars": 18.0,
+        "fat": 8.0,
+        "sat_fat": 5.0,
+        "fiber": 2.2,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 206.25,
+        "protein": 2.5,
+        "carbs": 27.5,
+        "sugars": 22.5,
+        "fat": 10.0,
+        "sat_fat": 6.25,
+        "fiber": 2.75,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "manzana chocolate",
+        "canela",
+        "merienda",
+        "snack dulce"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Pera deshidratada con chocolate negro",
+      "slug": "pera-deshidratada-con-chocolate-negro",
+      "seo_title": "Pera deshidratada con chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Láminas de pera deshidratada bañadas en chocolate negro. Un snack natural, crujiente y elegante.",
+      "intro": "Finas láminas de pera deshidratada cubiertas a medias de chocolate negro: un capricho ligero y crujiente.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 180,
+        "rest_min": 30,
+        "total_min": 225
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Peras",
+          "g": 400,
+          "key": "pera"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 140,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Corta las peras en láminas finas y deshidrátalas en horno a 90°C durante 3 horas.",
+        "Deja enfriar las láminas hasta que estén crujientes.",
+        "Funde la cobertura de chocolate negro.",
+        "Baña la mitad de cada lámina en el chocolate.",
+        "Deja cuajar sobre papel de horno."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 170,
+        "protein": 1.8,
+        "carbs": 26.0,
+        "sugars": 19.0,
+        "fat": 7.0,
+        "sat_fat": 4.2,
+        "fiber": 3.0,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 340.0,
+        "protein": 3.6,
+        "carbs": 52.0,
+        "sugars": 38.0,
+        "fat": 14.0,
+        "sat_fat": 8.4,
+        "fiber": 6.0,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 50,
+      "keywords": [
+        "pera deshidratada",
+        "snack natural",
+        "chocolate negro",
+        "crujiente"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Piña congelada con chocolate negro y chile suave",
+      "slug": "pina-congelada-con-chocolate-negro-y-chile-suave",
+      "seo_title": "Piña congelada con chocolate negro y chile suave | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Trozos de piña congelada bañados en chocolate negro con un toque de chile suave. Dulce, picante y refrescante.",
+      "intro": "Trozos de piña helada cubiertos de chocolate negro y una pizca de chile suave para un final picante sorprendente.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 0,
+        "rest_min": 90,
+        "total_min": 102
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Piña",
+          "g": 350,
+          "key": "pina"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Chile suave en polvo",
+          "g": 2,
+          "key": "chile"
+        }
+      ],
+      "steps": [
+        "Corta la piña en trozos y congélalos 1 hora.",
+        "Funde la cobertura de chocolate negro.",
+        "Pincha cada trozo y báñalo en el chocolate.",
+        "Espolvorea una pizca de chile suave antes de que cuaje.",
+        "Conserva en el congelador y sirve muy frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 155,
+        "protein": 1.8,
+        "carbs": 20.0,
+        "sugars": 16.0,
+        "fat": 8.0,
+        "sat_fat": 4.8,
+        "fiber": 2.0,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 182.35,
+        "protein": 2.12,
+        "carbs": 23.53,
+        "sugars": 18.82,
+        "fat": 9.41,
+        "sat_fat": 5.65,
+        "fiber": 2.35,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 85,
+      "keywords": [
+        "pina chocolate",
+        "chile",
+        "snack picante",
+        "postre tropical"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Bocaditos tipo TruFru caseros de fruta congelada con doble baño",
+      "slug": "bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano",
+      "seo_title": "Bocaditos tipo TruFru caseros de fruta congelada con doble baño | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bocaditos de fruta congelada con doble capa de yogur, chocolate blanco y negro. Snack helado tipo TruFru casero.",
+      "intro": "Fruta congelada con un primer baño de yogur y chocolate blanco y un segundo de chocolate negro, igual que los TruFru.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 145
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Fresas y arándanos",
+          "g": 300,
+          "key": "fruta_mix"
+        },
+        {
+          "name": "Yogur griego",
+          "g": 80,
+          "key": "yogur"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 120,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 100,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Congela la fruta lavada y seca durante 1 hora.",
+        "Mezcla el yogur con el chocolate blanco fundido y baña la fruta en esta mezcla.",
+        "Congela 30 minutos para fijar la primera capa.",
+        "Funde el chocolate negro y da un segundo baño a cada bocadito.",
+        "Congela 20 minutos más y conserva en el congelador."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 180,
+        "protein": 3.5,
+        "carbs": 21.0,
+        "sugars": 17.0,
+        "fat": 9.0,
+        "sat_fat": 5.5,
+        "fiber": 2.0,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 240.0,
+        "protein": 4.67,
+        "carbs": 28.0,
+        "sugars": 22.67,
+        "fat": 12.0,
+        "sat_fat": 7.33,
+        "fiber": 2.67,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "trufru casero",
+        "fruta congelada",
+        "snack helado",
+        "doble baño chocolate"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "fitness",
+      "title": "Bombones helados de yogur griego y chocolate negro",
+      "slug": "bombones-helados-de-yogur-griego-y-chocolate-negro",
+      "seo_title": "Bombones helados de yogur griego y chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bombones helados de yogur griego bañados en chocolate negro. Snack fitness proteico y refrescante.",
+      "intro": "Cremosos bombones de yogur griego congelado cubiertos de chocolate negro, un capricho proteico bajo en azúcar.",
+      "servings": 10,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Yogur griego natural",
+          "g": 400,
+          "key": "yogur"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Mezcla el yogur griego con la miel.",
+        "Reparte la mezcla en moldes de silicona pequeños y congela 3 horas.",
+        "Desmolda los bombones de yogur congelado.",
+        "Funde el chocolate negro y baña cada bombón.",
+        "Vuelve a congelar 15 minutos y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 130,
+        "protein": 5.0,
+        "carbs": 12.0,
+        "sugars": 10.0,
+        "fat": 7.0,
+        "sat_fat": 4.5,
+        "fiber": 1.0,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 216.67,
+        "protein": 8.33,
+        "carbs": 20.0,
+        "sugars": 16.67,
+        "fat": 11.67,
+        "sat_fat": 7.5,
+        "fiber": 1.67,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "bombones yogur",
+        "snack fitness",
+        "proteico",
+        "helado chocolate negro"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Barritas heladas de yogur, frutos rojos y chocolate blanco",
+      "slug": "barritas-heladas-de-yogur-frutos-rojos-y-chocolate-blanco",
+      "seo_title": "Barritas heladas de yogur, frutos rojos y chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Barritas heladas de yogur y frutos rojos bañadas en chocolate blanco. Postre helado fresco para toda la familia.",
+      "intro": "Barritas de yogur con frutos rojos congeladas y cubiertas de chocolate blanco, un helado casero ligero y vistoso.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 260
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Yogur natural",
+          "g": 350,
+          "key": "yogur"
+        },
+        {
+          "name": "Frutos rojos",
+          "g": 120,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 130,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Tritura los frutos rojos y mézclalos con el yogur y la miel.",
+        "Vierte en moldes de barrita e inserta los palitos. Congela 4 horas.",
+        "Desmolda las barritas heladas.",
+        "Funde el chocolate blanco y baña parcialmente cada barrita.",
+        "Vuelve a congelar 15 minutos y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 175,
+        "protein": 3.5,
+        "carbs": 22.0,
+        "sugars": 18.0,
+        "fat": 8.0,
+        "sat_fat": 5.0,
+        "fiber": 1.5,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 218.75,
+        "protein": 4.38,
+        "carbs": 27.5,
+        "sugars": 22.5,
+        "fat": 10.0,
+        "sat_fat": 6.25,
+        "fiber": 1.88,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "barritas heladas",
+        "yogur frutos rojos",
+        "helado casero",
+        "chocolate blanco"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Mini Magnum casero de vainilla y chocolate negro",
+      "slug": "mini-magnum-casero-de-vainilla-y-chocolate-negro",
+      "seo_title": "Mini Magnum casero de vainilla y chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Mini helados de vainilla bañados en chocolate negro estilo Magnum casero. Postre premium irresistible.",
+      "intro": "Pequeños helados de vainilla cremosa recubiertos de una fina capa de chocolate negro que cruje al morder.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 330
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Leche condensada",
+          "g": 120,
+          "key": "leche_condensada"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 160,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Monta la nata y mézclala con la leche condensada y la vainilla.",
+        "Rellena moldes de mini helado e inserta palitos. Congela 5 horas.",
+        "Desmolda cada helado.",
+        "Funde el chocolate negro y baña cada helado dejando escurrir.",
+        "El chocolate cuaja al instante por el frío; sirve enseguida."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 245,
+        "protein": 3.0,
+        "carbs": 20.0,
+        "sugars": 18.0,
+        "fat": 17.0,
+        "sat_fat": 11.0,
+        "fiber": 1.0,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 326.67,
+        "protein": 4.0,
+        "carbs": 26.67,
+        "sugars": 24.0,
+        "fat": 22.67,
+        "sat_fat": 14.67,
+        "fiber": 1.33,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "magnum casero",
+        "helado vainilla",
+        "chocolate negro",
+        "postre premium"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Mini Magnum de coco y chocolate blanco",
+      "slug": "mini-magnum-de-coco-y-chocolate-blanco",
+      "seo_title": "Mini Magnum de coco y chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Mini helados de coco bañados en chocolate blanco estilo Magnum. Postre premium tropical y cremoso.",
+      "intro": "Helados de coco cremoso recubiertos de chocolate blanco, un Magnum casero con todo el sabor del trópico.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 330
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche de coco",
+          "g": 250,
+          "key": "leche_coco"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 160,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Mezcla la leche de coco con la nata y el azúcar.",
+        "Rellena moldes de mini helado e inserta palitos. Congela 5 horas.",
+        "Desmolda cada helado.",
+        "Funde el chocolate blanco y baña cada helado.",
+        "Vuelve a congelar 10 minutos y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 255,
+        "protein": 2.5,
+        "carbs": 22.0,
+        "sugars": 20.0,
+        "fat": 18.0,
+        "sat_fat": 13.0,
+        "fiber": 0.8,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 340.0,
+        "protein": 3.33,
+        "carbs": 29.33,
+        "sugars": 26.67,
+        "fat": 24.0,
+        "sat_fat": 17.33,
+        "fiber": 1.07,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "magnum coco",
+        "helado coco",
+        "chocolate blanco",
+        "postre tropical"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Bocados helados de cheesecake con chocolate negro",
+      "slug": "bocados-helados-de-cheesecake-con-chocolate-negro",
+      "seo_title": "Bocados helados de cheesecake con chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bocados helados de cheesecake bañados en chocolate negro. Postre premium cremoso y elegante.",
+      "intro": "Pequeños cubos de cheesecake congelado recubiertos de chocolate negro, un bombón helado de tarta de queso.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Queso crema",
+          "g": 250,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 100,
+          "key": "nata"
+        },
+        {
+          "name": "Galletas trituradas",
+          "g": 80,
+          "key": "galleta"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 160,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Bate el queso crema con el azúcar y la nata montada.",
+        "Forma una base con la galleta triturada en un molde y vierte la crema encima. Congela 4 horas.",
+        "Corta en cubos pequeños.",
+        "Funde el chocolate negro y baña cada cubo.",
+        "Vuelve a congelar 10 minutos y sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 210,
+        "protein": 3.5,
+        "carbs": 18.0,
+        "sugars": 13.0,
+        "fat": 14.0,
+        "sat_fat": 8.5,
+        "fiber": 1.0,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 323.08,
+        "protein": 5.38,
+        "carbs": 27.69,
+        "sugars": 20.0,
+        "fat": 21.54,
+        "sat_fat": 13.08,
+        "fiber": 1.54,
+        "salt": 0.18
+      },
+      "estimated_serving_g": 65,
+      "keywords": [
+        "cheesecake helado",
+        "bocados chocolate",
+        "postre premium",
+        "tarta de queso"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Sandwich helado de galleta y chocolate negro",
+      "slug": "sandwich-helado-de-galleta-y-chocolate-negro",
+      "seo_title": "Sandwich helado de galleta y chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Sandwiches helados de galleta rellenos de helado y bañados en chocolate negro. Postre familiar divertido.",
+      "intro": "Dos galletas con helado cremoso en medio, todo bañado a medias en chocolate negro: el sandwich helado perfecto.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Huevo",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Galletas tipo cookie",
+          "g": 180,
+          "key": "galleta"
+        },
+        {
+          "name": "Helado de vainilla",
+          "g": 240,
+          "key": "helado"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 130,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Coloca una bola de helado entre dos galletas y presiona ligeramente.",
+        "Congela los sandwiches 2 horas.",
+        "Funde el chocolate negro.",
+        "Sumerge la mitad de cada sandwich en el chocolate.",
+        "Congela 15 minutos más y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 280,
+        "protein": 4.0,
+        "carbs": 32.0,
+        "sugars": 20.0,
+        "fat": 15.0,
+        "sat_fat": 8.0,
+        "fiber": 1.5,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 329.41,
+        "protein": 4.71,
+        "carbs": 37.65,
+        "sugars": 23.53,
+        "fat": 17.65,
+        "sat_fat": 9.41,
+        "fiber": 1.76,
+        "salt": 0.21
+      },
+      "estimated_serving_g": 85,
+      "keywords": [
+        "sandwich helado",
+        "galleta",
+        "chocolate negro",
+        "postre divertido"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "fitness",
+      "title": "Helado de plátano fitness con cobertura negra",
+      "slug": "helado-de-platano-fitness-con-cobertura-negra",
+      "seo_title": "Helado de plátano fitness con cobertura negra | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Helado de plátano sin azúcar añadido con cobertura de chocolate negro. Postre fitness saludable y cremoso.",
+      "intro": "Nice cream de plátano congelado cubierto de chocolate negro, un helado fitness sin azúcares añadidos.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 135
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Plátanos congelados",
+          "g": 400,
+          "key": "platano"
+        },
+        {
+          "name": "Bebida de almendra",
+          "g": 40,
+          "key": "bebida_almendra"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 120,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Tritura los plátanos congelados con la bebida de almendra hasta obtener una textura cremosa.",
+        "Reparte en moldes e inserta palitos. Congela 2 horas.",
+        "Desmolda cada helado.",
+        "Funde el chocolate negro y baña cada helado.",
+        "El chocolate cuaja al instante; sirve enseguida."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 150,
+        "protein": 2.5,
+        "carbs": 22.0,
+        "sugars": 14.0,
+        "fat": 6.5,
+        "sat_fat": 3.8,
+        "fiber": 2.8,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 200.0,
+        "protein": 3.33,
+        "carbs": 29.33,
+        "sugars": 18.67,
+        "fat": 8.67,
+        "sat_fat": 5.07,
+        "fiber": 3.73,
+        "salt": 0.03
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "helado platano",
+        "nice cream",
+        "fitness",
+        "sin azucar añadido"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "snack",
+      "title": "Cubitos de café con chocolate blanco",
+      "slug": "cubitos-de-cafe-con-chocolate-blanco",
+      "seo_title": "Cubitos de café con chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Cubitos helados de café bañados en chocolate blanco. Snack frío energizante para amantes del café.",
+      "intro": "Cubitos de café congelado recubiertos de chocolate blanco, un snack helado con el punto justo de cafeína.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 195
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Café espresso",
+          "g": 200,
+          "key": "cafe"
+        },
+        {
+          "name": "Leche condensada",
+          "g": 100,
+          "key": "leche_condensada"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 150,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Mezcla el café con la leche condensada.",
+        "Vierte en cubiteras y congela 3 horas.",
+        "Desmolda los cubitos.",
+        "Funde el chocolate blanco y baña cada cubito.",
+        "Vuelve a congelar 10 minutos y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 145,
+        "protein": 2.5,
+        "carbs": 18.0,
+        "sugars": 16.0,
+        "fat": 7.0,
+        "sat_fat": 4.5,
+        "fiber": 0.5,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 241.67,
+        "protein": 4.17,
+        "carbs": 30.0,
+        "sugars": 26.67,
+        "fat": 11.67,
+        "sat_fat": 7.5,
+        "fiber": 0.83,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "cubitos cafe",
+        "chocolate blanco",
+        "snack frio",
+        "cafe helado"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "fitness",
+      "title": "Bocaditos helados de crema de cacahuete y chocolate negro",
+      "slug": "bocaditos-helados-de-crema-de-cacahuete-y-chocolate-negro",
+      "seo_title": "Bocaditos helados de crema de cacahuete y chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bocaditos helados de crema de cacahuete bañados en chocolate negro. Snack fitness proteico y energético.",
+      "intro": "Bolitas heladas de crema de cacahuete recubiertas de chocolate negro, un snack fitness proteico irresistible.",
+      "servings": 10,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 140
+      },
+      "allergens": [
+        "Cacahuetes",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Crema de cacahuete",
+          "g": 200,
+          "key": "crema_cacahuete"
+        },
+        {
+          "name": "Yogur griego",
+          "g": 100,
+          "key": "yogur"
+        },
+        {
+          "name": "Miel",
+          "g": 20,
+          "key": "miel"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 140,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Mezcla la crema de cacahuete con el yogur griego y la miel.",
+        "Forma bolitas y colócalas sobre papel de horno. Congela 2 horas.",
+        "Funde el chocolate negro.",
+        "Baña cada bolita helada en el chocolate.",
+        "Vuelve a congelar 10 minutos y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 200,
+        "protein": 6.0,
+        "carbs": 13.0,
+        "sugars": 9.0,
+        "fat": 14.0,
+        "sat_fat": 5.0,
+        "fiber": 1.5,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 363.64,
+        "protein": 10.91,
+        "carbs": 23.64,
+        "sugars": 16.36,
+        "fat": 25.45,
+        "sat_fat": 9.09,
+        "fiber": 2.73,
+        "salt": 0.15
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "crema de cacahuete",
+        "snack fitness",
+        "proteico",
+        "chocolate negro"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Cookies bañadas en chocolate negro",
+      "slug": "cookies-banadas-en-chocolate-negro",
+      "seo_title": "Cookies bañadas en chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Cookies caseras bañadas a medias en chocolate negro. El clásico de la merienda con un extra de chocolate.",
+      "intro": "Cookies con trozos de chocolate y un baño extra de chocolate negro en la mitad de cada galleta.",
+      "servings": 12,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 12,
+        "rest_min": 30,
+        "total_min": 62
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 250,
+          "key": "harina"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 120,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar moreno",
+          "g": 100,
+          "key": "azucar_moreno"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Pepitas de chocolate",
+          "g": 80,
+          "key": "pepitas"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Mezcla la mantequilla con el azúcar, añade el huevo y la harina.",
+        "Incorpora las pepitas y forma las cookies. Hornea a 180°C 12 minutos.",
+        "Deja enfriar las cookies por completo.",
+        "Funde la cobertura de chocolate negro y baña la mitad de cada cookie.",
+        "Deja cuajar sobre papel de horno."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 230,
+        "protein": 3.0,
+        "carbs": 28.0,
+        "sugars": 16.0,
+        "fat": 12.0,
+        "sat_fat": 7.0,
+        "fiber": 1.2,
+        "salt": 0.15
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 383.33,
+        "protein": 5.0,
+        "carbs": 46.67,
+        "sugars": 26.67,
+        "fat": 20.0,
+        "sat_fat": 11.67,
+        "fiber": 2.0,
+        "salt": 0.25
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "cookies chocolate",
+        "galletas caseras",
+        "merienda",
+        "chocolate negro"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "fitness",
+      "title": "Cookies de avena fitness con chocolate negro",
+      "slug": "cookies-de-avena-fitness-con-chocolate-negro",
+      "seo_title": "Cookies de avena fitness con chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Cookies de avena sin azúcar añadido con chocolate negro. Galletas fitness saludables y energéticas.",
+      "intro": "Cookies de avena y plátano, sin azúcar añadido, con trozos y baño de chocolate negro para un capricho fitness.",
+      "servings": 12,
+      "times": {
+        "prep_min": 18,
+        "cook_min": 14,
+        "rest_min": 20,
+        "total_min": 52
+      },
+      "allergens": [
+        "Gluten",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Copos de avena",
+          "g": 200,
+          "key": "avena"
+        },
+        {
+          "name": "Plátano maduro",
+          "g": 150,
+          "key": "platano"
+        },
+        {
+          "name": "Crema de cacahuete",
+          "g": 60,
+          "key": "crema_cacahuete"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 120,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Tritura el plátano y mézclalo con la avena y la crema de cacahuete.",
+        "Forma las cookies y hornea a 180°C durante 14 minutos.",
+        "Deja enfriar por completo.",
+        "Funde el chocolate negro y baña la mitad de cada cookie.",
+        "Deja cuajar sobre papel de horno."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 165,
+        "protein": 4.5,
+        "carbs": 20.0,
+        "sugars": 7.0,
+        "fat": 7.5,
+        "sat_fat": 3.0,
+        "fiber": 2.8,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 330.0,
+        "protein": 9.0,
+        "carbs": 40.0,
+        "sugars": 14.0,
+        "fat": 15.0,
+        "sat_fat": 6.0,
+        "fiber": 5.6,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 50,
+      "keywords": [
+        "cookies avena",
+        "fitness",
+        "sin azucar añadido",
+        "galletas saludables"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Galletas sin gluten con chocolate blanco y harina de almendra",
+      "slug": "galletas-sin-gluten-con-chocolate-blanco-y-harina-de-almendra",
+      "seo_title": "Galletas sin gluten con chocolate blanco y harina de almendra | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Galletas sin gluten de harina de almendra bañadas en chocolate blanco. Receta apta para celiacos.",
+      "intro": "Galletas tiernas de harina de almendra, sin gluten, cubiertas de chocolate blanco para un capricho apto para celiacos.",
+      "servings": 12,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 12,
+        "rest_min": 30,
+        "total_min": 62
+      },
+      "allergens": [
+        "Frutos de cáscara",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de almendra",
+          "g": 200,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 80,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 150,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina de almendra con la mantequilla, el azúcar y el huevo.",
+        "Forma las galletas y hornea a 170°C durante 12 minutos.",
+        "Deja enfriar por completo.",
+        "Funde el chocolate blanco y baña la mitad de cada galleta.",
+        "Deja cuajar sobre papel de horno."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 205,
+        "protein": 4.0,
+        "carbs": 15.0,
+        "sugars": 11.0,
+        "fat": 14.0,
+        "sat_fat": 5.5,
+        "fiber": 1.8,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 410.0,
+        "protein": 8.0,
+        "carbs": 30.0,
+        "sugars": 22.0,
+        "fat": 28.0,
+        "sat_fat": 11.0,
+        "fiber": 3.6,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 50,
+      "keywords": [
+        "galletas sin gluten",
+        "harina de almendra",
+        "celiacos",
+        "chocolate blanco"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Barritas de arroz inflado con chocolate negro",
+      "slug": "barritas-de-arroz-inflado-con-chocolate-negro",
+      "seo_title": "Barritas de arroz inflado con chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Barritas crujientes de arroz inflado bañadas en chocolate negro. Snack familiar fácil y delicioso.",
+      "intro": "Barritas de arroz inflado unidas con chocolate y bañadas en chocolate negro, un crujiente que encanta a todos.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 60,
+        "total_min": 80
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Arroz inflado",
+          "g": 120,
+          "key": "arroz_inflado"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 200,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Miel",
+          "g": 40,
+          "key": "miel"
+        }
+      ],
+      "steps": [
+        "Funde 120 g de chocolate negro con la miel.",
+        "Mezcla el arroz inflado con el chocolate fundido.",
+        "Reparte en un molde, presiona y refrigera 30 minutos.",
+        "Corta en barritas y baña la base con el chocolate restante fundido.",
+        "Deja cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 195,
+        "protein": 2.5,
+        "carbs": 26.0,
+        "sugars": 18.0,
+        "fat": 9.0,
+        "sat_fat": 5.5,
+        "fiber": 1.5,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 354.55,
+        "protein": 4.55,
+        "carbs": 47.27,
+        "sugars": 32.73,
+        "fat": 16.36,
+        "sat_fat": 10.0,
+        "fiber": 2.73,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "barritas arroz inflado",
+        "crujiente",
+        "chocolate negro",
+        "snack facil"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Barritas de arroz inflado con chocolate blanco y pistacho",
+      "slug": "barritas-de-arroz-inflado-con-chocolate-blanco-y-pistacho",
+      "seo_title": "Barritas de arroz inflado con chocolate blanco y pistacho | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Barritas de arroz inflado con chocolate blanco y pistacho. Snack premium crujiente y elegante.",
+      "intro": "Barritas de arroz inflado bañadas en chocolate blanco y coronadas con pistacho picado, un crujiente premium.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 60,
+        "total_min": 80
+      },
+      "allergens": [
+        "Leche",
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Arroz inflado",
+          "g": 120,
+          "key": "arroz_inflado"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 220,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Pistachos picados",
+          "g": 50,
+          "key": "pistacho"
+        }
+      ],
+      "steps": [
+        "Funde 140 g de chocolate blanco.",
+        "Mezcla el arroz inflado con el chocolate fundido y reparte en un molde. Refrigera 30 minutos.",
+        "Corta en barritas.",
+        "Baña con el chocolate blanco restante y espolvorea pistacho.",
+        "Deja cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 215,
+        "protein": 3.5,
+        "carbs": 25.0,
+        "sugars": 19.0,
+        "fat": 11.0,
+        "sat_fat": 6.0,
+        "fiber": 1.2,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 390.91,
+        "protein": 6.36,
+        "carbs": 45.45,
+        "sugars": 34.55,
+        "fat": 20.0,
+        "sat_fat": 10.91,
+        "fiber": 2.18,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "barritas pistacho",
+        "chocolate blanco",
+        "snack premium",
+        "crujiente"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Turrón crujiente de chocolate negro",
+      "slug": "turron-crujiente-de-chocolate-negro",
+      "seo_title": "Turrón crujiente de chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Turrón crujiente de chocolate negro con arroz inflado. Receta casera navideña fácil y deliciosa.",
+      "intro": "Turrón casero de chocolate negro con arroz inflado que aporta un crujiente irresistible, perfecto para Navidad.",
+      "servings": 12,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 135
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 300,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Arroz inflado",
+          "g": 80,
+          "key": "arroz_inflado"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 30,
+          "key": "mantequilla"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate negro con la mantequilla.",
+        "Mezcla con el arroz inflado.",
+        "Vierte en un molde de turrón y alisa la superficie.",
+        "Refrigera 2 horas hasta que esté firme.",
+        "Desmolda y corta en porciones."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 220,
+        "protein": 2.5,
+        "carbs": 22.0,
+        "sugars": 17.0,
+        "fat": 13.0,
+        "sat_fat": 8.0,
+        "fiber": 2.0,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 440.0,
+        "protein": 5.0,
+        "carbs": 44.0,
+        "sugars": 34.0,
+        "fat": 26.0,
+        "sat_fat": 16.0,
+        "fiber": 4.0,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 50,
+      "keywords": [
+        "turron chocolate negro",
+        "navidad",
+        "crujiente",
+        "turron casero"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Turrón de chocolate blanco, arándanos y pistacho",
+      "slug": "turron-de-chocolate-blanco-arandanos-y-pistacho",
+      "seo_title": "Turrón de chocolate blanco, arándanos y pistacho | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Turrón de chocolate blanco con arándanos y pistacho. Turrón premium colorido y elegante para Navidad.",
+      "intro": "Turrón de chocolate blanco salpicado de arándanos rojos y pistacho, una versión premium y muy vistosa.",
+      "servings": 12,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 135
+      },
+      "allergens": [
+        "Leche",
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 300,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Arándanos secos",
+          "g": 60,
+          "key": "arandano"
+        },
+        {
+          "name": "Pistachos",
+          "g": 60,
+          "key": "pistacho"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate blanco al baño maría.",
+        "Mezcla con los arándanos y los pistachos.",
+        "Vierte en un molde de turrón y alisa.",
+        "Refrigera 2 horas hasta que esté firme.",
+        "Desmolda y corta en porciones."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 235,
+        "protein": 3.5,
+        "carbs": 24.0,
+        "sugars": 21.0,
+        "fat": 13.5,
+        "sat_fat": 7.5,
+        "fiber": 1.0,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 470.0,
+        "protein": 7.0,
+        "carbs": 48.0,
+        "sugars": 42.0,
+        "fat": 27.0,
+        "sat_fat": 15.0,
+        "fiber": 2.0,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 50,
+      "keywords": [
+        "turron chocolate blanco",
+        "arandanos",
+        "pistacho",
+        "turron premium"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "snack",
+      "title": "Pretzels bañados en chocolate negro",
+      "slug": "pretzels-banados-en-chocolate-negro",
+      "seo_title": "Pretzels bañados en chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Pretzels salados bañados en chocolate negro. El snack dulce y salado más adictivo y fácil.",
+      "intro": "Crujientes pretzels salados bañados en chocolate negro, el contraste dulce-salado que engancha.",
+      "servings": 8,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 42
+      },
+      "allergens": [
+        "Gluten",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Pretzels",
+          "g": 150,
+          "key": "pretzel"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 160,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Funde la cobertura de chocolate negro al baño maría.",
+        "Sumerge cada pretzel hasta cubrir la mitad.",
+        "Deja escurrir el exceso.",
+        "Coloca sobre papel de horno.",
+        "Refrigera 20 minutos hasta que cuaje."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 200,
+        "protein": 3.0,
+        "carbs": 26.0,
+        "sugars": 12.0,
+        "fat": 9.0,
+        "sat_fat": 5.5,
+        "fiber": 1.5,
+        "salt": 0.45
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 444.44,
+        "protein": 6.67,
+        "carbs": 57.78,
+        "sugars": 26.67,
+        "fat": 20.0,
+        "sat_fat": 12.22,
+        "fiber": 3.33,
+        "salt": 1.0
+      },
+      "estimated_serving_g": 45,
+      "keywords": [
+        "pretzels chocolate",
+        "dulce salado",
+        "snack",
+        "chocolate negro"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Pretzels con chocolate blanco y caramelo",
+      "slug": "pretzels-con-chocolate-blanco-y-caramelo",
+      "seo_title": "Pretzels con chocolate blanco y caramelo | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Pretzels bañados en chocolate blanco con un hilo de caramelo. Snack dulce y salado para toda la familia.",
+      "intro": "Pretzels cubiertos de chocolate blanco y decorados con un hilo de caramelo, un capricho dulce y salado.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Pretzels",
+          "g": 150,
+          "key": "pretzel"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 160,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Caramelo líquido",
+          "g": 40,
+          "key": "caramelo"
+        }
+      ],
+      "steps": [
+        "Funde la cobertura de chocolate blanco.",
+        "Sumerge cada pretzel hasta cubrir la mitad.",
+        "Coloca sobre papel de horno.",
+        "Decora con un hilo de caramelo líquido.",
+        "Refrigera 20 minutos hasta que cuaje."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 215,
+        "protein": 3.0,
+        "carbs": 30.0,
+        "sugars": 16.0,
+        "fat": 9.0,
+        "sat_fat": 5.5,
+        "fiber": 1.2,
+        "salt": 0.42
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 477.78,
+        "protein": 6.67,
+        "carbs": 66.67,
+        "sugars": 35.56,
+        "fat": 20.0,
+        "sat_fat": 12.22,
+        "fiber": 2.67,
+        "salt": 0.93
+      },
+      "estimated_serving_g": 45,
+      "keywords": [
+        "pretzels caramelo",
+        "chocolate blanco",
+        "dulce salado",
+        "snack familiar"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "snack",
+      "title": "Palomitas gourmet con chocolate negro",
+      "slug": "palomitas-gourmet-con-chocolate-negro",
+      "seo_title": "Palomitas gourmet con chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Palomitas gourmet bañadas con hilos de chocolate negro. Snack crujiente para cine en casa.",
+      "intro": "Palomitas recién hechas regadas con hilos de chocolate negro, el snack perfecto para una noche de cine.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Palomitas",
+          "g": 80,
+          "key": "palomitas"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 120,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Prepara las palomitas y extiéndelas sobre papel de horno.",
+        "Funde la cobertura de chocolate negro.",
+        "Riega las palomitas con hilos de chocolate.",
+        "Mezcla con cuidado para repartir el chocolate.",
+        "Refrigera 15 minutos hasta que cuaje."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 175,
+        "protein": 2.5,
+        "carbs": 20.0,
+        "sugars": 11.0,
+        "fat": 9.5,
+        "sat_fat": 5.5,
+        "fiber": 2.5,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 437.5,
+        "protein": 6.25,
+        "carbs": 50.0,
+        "sugars": 27.5,
+        "fat": 23.75,
+        "sat_fat": 13.75,
+        "fiber": 6.25,
+        "salt": 0.25
+      },
+      "estimated_serving_g": 40,
+      "keywords": [
+        "palomitas chocolate",
+        "snack cine",
+        "gourmet",
+        "chocolate negro"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Palomitas con chocolate blanco y canela",
+      "slug": "palomitas-con-chocolate-blanco-y-canela",
+      "seo_title": "Palomitas con chocolate blanco y canela | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Palomitas bañadas en chocolate blanco con canela. Snack dulce crujiente para toda la familia.",
+      "intro": "Palomitas cubiertas de chocolate blanco y un toque de canela, un snack dulce y crujiente irresistible.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 30,
+        "total_min": 45
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Palomitas",
+          "g": 80,
+          "key": "palomitas"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 130,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Canela en polvo",
+          "g": 3,
+          "key": "canela"
+        }
+      ],
+      "steps": [
+        "Prepara las palomitas y extiéndelas sobre papel de horno.",
+        "Funde la cobertura de chocolate blanco.",
+        "Riega las palomitas con el chocolate y espolvorea canela.",
+        "Mezcla con cuidado.",
+        "Refrigera 15 minutos hasta que cuaje."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 185,
+        "protein": 2.5,
+        "carbs": 22.0,
+        "sugars": 14.0,
+        "fat": 9.5,
+        "sat_fat": 5.5,
+        "fiber": 2.0,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 462.5,
+        "protein": 6.25,
+        "carbs": 55.0,
+        "sugars": 35.0,
+        "fat": 23.75,
+        "sat_fat": 13.75,
+        "fiber": 5.0,
+        "salt": 0.2
+      },
+      "estimated_serving_g": 40,
+      "keywords": [
+        "palomitas chocolate blanco",
+        "canela",
+        "snack dulce",
+        "familiar"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "fitness",
+      "title": "Almendras bañadas en chocolate negro y cacao",
+      "slug": "almendras-banadas-en-chocolate-negro-y-cacao",
+      "seo_title": "Almendras bañadas en chocolate negro y cacao | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Almendras tostadas bañadas en chocolate negro y rebozadas en cacao puro. Snack fitness antioxidante.",
+      "intro": "Almendras tostadas cubiertas de chocolate negro y rebozadas en cacao puro, un snack fitness rico en antioxidantes.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": [
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Almendras tostadas",
+          "g": 200,
+          "key": "almendra"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Cacao puro en polvo",
+          "g": 30,
+          "key": "cacao"
+        }
+      ],
+      "steps": [
+        "Funde la cobertura de chocolate negro.",
+        "Mezcla las almendras con el chocolate hasta cubrirlas.",
+        "Separa las almendras sobre papel de horno y enfría 15 minutos.",
+        "Reboza las almendras en cacao puro.",
+        "Conserva en un recipiente hermético."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 210,
+        "protein": 6.0,
+        "carbs": 11.0,
+        "sugars": 7.0,
+        "fat": 16.0,
+        "sat_fat": 4.5,
+        "fiber": 3.5,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 600.0,
+        "protein": 17.14,
+        "carbs": 31.43,
+        "sugars": 20.0,
+        "fat": 45.71,
+        "sat_fat": 12.86,
+        "fiber": 10.0,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 35,
+      "keywords": [
+        "almendras chocolate",
+        "snack fitness",
+        "cacao",
+        "antioxidante"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "snack",
+      "title": "Avellanas con chocolate blanco y vainilla",
+      "slug": "avellanas-con-chocolate-blanco-y-vainilla",
+      "seo_title": "Avellanas con chocolate blanco y vainilla | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Avellanas tostadas bañadas en chocolate blanco con vainilla. Snack crujiente dulce y aromático.",
+      "intro": "Avellanas tostadas envueltas en chocolate blanco perfumado con vainilla, un bombón crujiente irresistible.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": [
+        "Leche",
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Avellanas tostadas",
+          "g": 200,
+          "key": "avellana"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 160,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 4,
+          "key": "vainilla"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate blanco con la vainilla.",
+        "Mezcla las avellanas con el chocolate hasta cubrirlas.",
+        "Separa sobre papel de horno.",
+        "Refrigera 20 minutos hasta que cuaje.",
+        "Conserva en recipiente hermético."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 225,
+        "protein": 4.5,
+        "carbs": 14.0,
+        "sugars": 11.0,
+        "fat": 17.0,
+        "sat_fat": 5.5,
+        "fiber": 2.5,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 642.86,
+        "protein": 12.86,
+        "carbs": 40.0,
+        "sugars": 31.43,
+        "fat": 48.57,
+        "sat_fat": 15.71,
+        "fiber": 7.14,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 35,
+      "keywords": [
+        "avellanas chocolate blanco",
+        "vainilla",
+        "snack",
+        "bombon crujiente"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Nueces pecanas con chocolate negro y sal",
+      "slug": "nueces-pecanas-con-chocolate-negro-y-sal",
+      "seo_title": "Nueces pecanas con chocolate negro y sal | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Nueces pecanas bañadas en chocolate negro con sal en escamas. Snack premium dulce, salado y crujiente.",
+      "intro": "Nueces pecanas recubiertas de chocolate negro y un toque de sal en escamas, un bocado premium adictivo.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": [
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Nueces pecanas",
+          "g": 200,
+          "key": "pecana"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Sal en escamas",
+          "g": 2,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Funde la cobertura de chocolate negro.",
+        "Mezcla las nueces pecanas con el chocolate.",
+        "Separa sobre papel de horno y espolvorea sal en escamas.",
+        "Refrigera 20 minutos hasta que cuaje.",
+        "Conserva en recipiente hermético."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 235,
+        "protein": 3.5,
+        "carbs": 11.0,
+        "sugars": 7.0,
+        "fat": 20.0,
+        "sat_fat": 5.0,
+        "fiber": 3.0,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 671.43,
+        "protein": 10.0,
+        "carbs": 31.43,
+        "sugars": 20.0,
+        "fat": 57.14,
+        "sat_fat": 14.29,
+        "fiber": 8.57,
+        "salt": 0.51
+      },
+      "estimated_serving_g": 35,
+      "keywords": [
+        "nueces pecanas",
+        "chocolate negro",
+        "sal",
+        "snack premium"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "snack",
+      "title": "Anacardos con chocolate blanco y lima",
+      "slug": "anacardos-con-chocolate-blanco-y-lima",
+      "seo_title": "Anacardos con chocolate blanco y lima | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Anacardos bañados en chocolate blanco con ralladura de lima. Snack premium fresco y crujiente.",
+      "intro": "Anacardos cubiertos de chocolate blanco con un toque cítrico de lima, un snack fresco y muy original.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": [
+        "Leche",
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Anacardos tostados",
+          "g": 200,
+          "key": "anacardo"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 160,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Ralladura de lima",
+          "g": 5,
+          "key": "lima"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate blanco e incorpora la ralladura de lima.",
+        "Mezcla los anacardos con el chocolate.",
+        "Separa sobre papel de horno.",
+        "Refrigera 20 minutos hasta que cuaje.",
+        "Conserva en recipiente hermético."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 220,
+        "protein": 5.0,
+        "carbs": 16.0,
+        "sugars": 11.0,
+        "fat": 15.0,
+        "sat_fat": 5.5,
+        "fiber": 1.5,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 628.57,
+        "protein": 14.29,
+        "carbs": 45.71,
+        "sugars": 31.43,
+        "fat": 42.86,
+        "sat_fat": 15.71,
+        "fiber": 4.29,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 35,
+      "keywords": [
+        "anacardos chocolate blanco",
+        "lima",
+        "snack",
+        "citrico"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Brownie sin gluten con cobertura de chocolate negro",
+      "slug": "brownie-sin-gluten-con-cobertura-de-chocolate-negro",
+      "seo_title": "Brownie sin gluten con cobertura de chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Brownie sin gluten de harina de almendra con cobertura de chocolate negro. Postre premium apto para celiacos.",
+      "intro": "Brownie denso y húmedo de harina de almendra, sin gluten, coronado con una cobertura brillante de chocolate negro.",
+      "servings": 9,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 25,
+        "rest_min": 30,
+        "total_min": 75
+      },
+      "allergens": [
+        "Frutos de cáscara",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de almendra",
+          "g": 120,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 250,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 100,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Huevos",
+          "g": 150,
+          "key": "huevo"
+        },
+        {
+          "name": "Azúcar",
+          "g": 120,
+          "key": "azucar"
+        }
+      ],
+      "steps": [
+        "Funde 150 g de chocolate negro con la mantequilla.",
+        "Bate los huevos con el azúcar e incorpora el chocolate fundido y la harina de almendra.",
+        "Hornea a 180°C durante 25 minutos y deja enfriar.",
+        "Funde los 100 g de chocolate negro restantes y cubre el brownie.",
+        "Deja cuajar la cobertura y corta en porciones."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 320,
+        "protein": 6.0,
+        "carbs": 24.0,
+        "sugars": 20.0,
+        "fat": 22.0,
+        "sat_fat": 11.0,
+        "fiber": 2.5,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 426.67,
+        "protein": 8.0,
+        "carbs": 32.0,
+        "sugars": 26.67,
+        "fat": 29.33,
+        "sat_fat": 14.67,
+        "fiber": 3.33,
+        "salt": 0.13
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "brownie sin gluten",
+        "harina de almendra",
+        "celiacos",
+        "chocolate negro"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Brownie blondie con cobertura de chocolate blanco",
+      "slug": "brownie-blondie-con-cobertura-de-chocolate-blanco",
+      "seo_title": "Brownie blondie con cobertura de chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Blondie casero con cobertura de chocolate blanco. Brownie rubio dulce y cremoso para toda la familia.",
+      "intro": "Blondie de mantequilla y azúcar moreno coronado con una capa de chocolate blanco, un brownie rubio irresistible.",
+      "servings": 9,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 25,
+        "rest_min": 30,
+        "total_min": 75
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 150,
+          "key": "harina"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 120,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar moreno",
+          "g": 150,
+          "key": "azucar_moreno"
+        },
+        {
+          "name": "Huevos",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 180,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Mezcla la mantequilla fundida con el azúcar moreno y los huevos.",
+        "Incorpora la harina y vierte en un molde.",
+        "Hornea a 180°C durante 25 minutos y deja enfriar.",
+        "Funde el chocolate blanco y cubre el blondie.",
+        "Deja cuajar y corta en porciones."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 310,
+        "protein": 4.0,
+        "carbs": 36.0,
+        "sugars": 26.0,
+        "fat": 17.0,
+        "sat_fat": 10.0,
+        "fiber": 0.8,
+        "salt": 0.15
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 413.33,
+        "protein": 5.33,
+        "carbs": 48.0,
+        "sugars": 34.67,
+        "fat": 22.67,
+        "sat_fat": 13.33,
+        "fiber": 1.07,
+        "salt": 0.2
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "blondie",
+        "chocolate blanco",
+        "brownie rubio",
+        "postre familiar"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Mini donuts bañados en chocolate negro",
+      "slug": "mini-donuts-banados-en-chocolate-negro",
+      "seo_title": "Mini donuts bañados en chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Mini donuts caseros bañados en chocolate negro. Postre divertido y goloso para toda la familia.",
+      "intro": "Mini donuts esponjosos bañados en chocolate negro brillante, el capricho perfecto para sorprender.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 12,
+        "rest_min": 30,
+        "total_min": 67
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 200,
+          "key": "harina"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Leche",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 40,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 160,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Mezcla los ingredientes secos y húmedos hasta obtener una masa lisa.",
+        "Rellena un molde de mini donuts y hornea a 180°C 12 minutos.",
+        "Deja enfriar los donuts por completo.",
+        "Funde el chocolate negro y baña la parte superior de cada donut.",
+        "Deja cuajar sobre rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 215,
+        "protein": 4.0,
+        "carbs": 30.0,
+        "sugars": 16.0,
+        "fat": 9.0,
+        "sat_fat": 5.0,
+        "fiber": 1.0,
+        "salt": 0.2
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 358.33,
+        "protein": 6.67,
+        "carbs": 50.0,
+        "sugars": 26.67,
+        "fat": 15.0,
+        "sat_fat": 8.33,
+        "fiber": 1.67,
+        "salt": 0.33
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "mini donuts",
+        "chocolate negro",
+        "postre goloso",
+        "donuts caseros"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Mini donuts con chocolate blanco y frambuesa",
+      "slug": "mini-donuts-con-chocolate-blanco-y-frambuesa",
+      "seo_title": "Mini donuts con chocolate blanco y frambuesa | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Mini donuts con chocolate blanco y polvo de frambuesa. Postre premium afrutado y elegante.",
+      "intro": "Mini donuts bañados en chocolate blanco y espolvoreados con frambuesa liofilizada, un capricho premium.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 12,
+        "rest_min": 30,
+        "total_min": 67
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 200,
+          "key": "harina"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Leche",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 160,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Frambuesa liofilizada en polvo",
+          "g": 12,
+          "key": "frambuesa_liof"
+        }
+      ],
+      "steps": [
+        "Prepara la masa de donuts mezclando secos y húmedos.",
+        "Hornea en molde de mini donuts a 180°C 12 minutos. Deja enfriar.",
+        "Funde el chocolate blanco y baña cada donut.",
+        "Espolvorea polvo de frambuesa antes de que cuaje.",
+        "Deja cuajar sobre rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 225,
+        "protein": 4.0,
+        "carbs": 31.0,
+        "sugars": 18.0,
+        "fat": 9.5,
+        "sat_fat": 5.5,
+        "fiber": 1.0,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 375.0,
+        "protein": 6.67,
+        "carbs": 51.67,
+        "sugars": 30.0,
+        "fat": 15.83,
+        "sat_fat": 9.17,
+        "fiber": 1.67,
+        "salt": 0.3
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "mini donuts frambuesa",
+        "chocolate blanco",
+        "postre premium",
+        "afrutado"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Cake pops de chocolate negro",
+      "slug": "cake-pops-de-chocolate-negro",
+      "seo_title": "Cake pops de chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Cake pops bañados en chocolate negro. Bocados de bizcocho en palito perfectos para fiestas.",
+      "intro": "Cake pops de bizcocho y chocolate bañados en chocolate negro, el bocado de fiesta más divertido.",
+      "servings": 15,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 20,
+        "rest_min": 60,
+        "total_min": 110
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Bizcocho desmenuzado",
+          "g": 250,
+          "key": "bizcocho"
+        },
+        {
+          "name": "Queso crema",
+          "g": 80,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 200,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Mezcla el bizcocho desmenuzado con el queso crema hasta obtener una masa moldeable.",
+        "Forma bolas e inserta un palito en cada una. Refrigera 1 hora.",
+        "Funde la cobertura de chocolate negro.",
+        "Baña cada cake pop dejando escurrir el exceso.",
+        "Clava los palitos en una base y deja cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 190,
+        "protein": 3.0,
+        "carbs": 23.0,
+        "sugars": 17.0,
+        "fat": 10.0,
+        "sat_fat": 6.0,
+        "fiber": 1.0,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 422.22,
+        "protein": 6.67,
+        "carbs": 51.11,
+        "sugars": 37.78,
+        "fat": 22.22,
+        "sat_fat": 13.33,
+        "fiber": 2.22,
+        "salt": 0.27
+      },
+      "estimated_serving_g": 45,
+      "keywords": [
+        "cake pops",
+        "chocolate negro",
+        "fiestas",
+        "bizcocho en palito"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Cake pops de chocolate blanco",
+      "slug": "cake-pops-de-chocolate-blanco",
+      "seo_title": "Cake pops de chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Cake pops bañados en chocolate blanco. Bocados de bizcocho en palito dulces y coloridos para fiestas.",
+      "intro": "Cake pops de bizcocho bañados en chocolate blanco y decorados con sprinkles, perfectos para celebraciones.",
+      "servings": 15,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 20,
+        "rest_min": 60,
+        "total_min": 110
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Bizcocho desmenuzado",
+          "g": 250,
+          "key": "bizcocho"
+        },
+        {
+          "name": "Queso crema",
+          "g": 80,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 200,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Sprinkles de colores",
+          "g": 20,
+          "key": "sprinkles"
+        }
+      ],
+      "steps": [
+        "Mezcla el bizcocho desmenuzado con el queso crema.",
+        "Forma bolas e inserta un palito. Refrigera 1 hora.",
+        "Funde el chocolate blanco.",
+        "Baña cada cake pop y decora con sprinkles.",
+        "Deja cuajar en una base vertical."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 200,
+        "protein": 3.0,
+        "carbs": 26.0,
+        "sugars": 20.0,
+        "fat": 10.0,
+        "sat_fat": 6.0,
+        "fiber": 0.8,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 444.44,
+        "protein": 6.67,
+        "carbs": 57.78,
+        "sugars": 44.44,
+        "fat": 22.22,
+        "sat_fat": 13.33,
+        "fiber": 1.78,
+        "salt": 0.27
+      },
+      "estimated_serving_g": 45,
+      "keywords": [
+        "cake pops chocolate blanco",
+        "sprinkles",
+        "fiestas",
+        "postre colorido"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Magdalenas rellenas con cobertura de chocolate negro",
+      "slug": "magdalenas-rellenas-con-cobertura-de-chocolate-negro",
+      "seo_title": "Magdalenas rellenas con cobertura de chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Magdalenas rellenas de crema con cobertura de chocolate negro. Postre casero esponjoso y goloso.",
+      "intro": "Magdalenas esponjosas rellenas de crema y coronadas con una cobertura de chocolate negro brillante.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 18,
+        "rest_min": 30,
+        "total_min": 73
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 220,
+          "key": "harina"
+        },
+        {
+          "name": "Azúcar",
+          "g": 150,
+          "key": "azucar"
+        },
+        {
+          "name": "Huevos",
+          "g": 150,
+          "key": "huevo"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 100,
+          "key": "aceite"
+        },
+        {
+          "name": "Crema pastelera",
+          "g": 150,
+          "key": "crema_pastelera"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 160,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Bate los huevos con el azúcar, añade el aceite y la harina.",
+        "Hornea las magdalenas a 190°C durante 18 minutos. Deja enfriar.",
+        "Rellena cada magdalena con crema pastelera usando una manga.",
+        "Funde el chocolate negro y cubre la parte superior.",
+        "Deja cuajar la cobertura."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 270,
+        "protein": 4.0,
+        "carbs": 32.0,
+        "sugars": 20.0,
+        "fat": 14.0,
+        "sat_fat": 5.0,
+        "fiber": 0.8,
+        "salt": 0.15
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 385.71,
+        "protein": 5.71,
+        "carbs": 45.71,
+        "sugars": 28.57,
+        "fat": 20.0,
+        "sat_fat": 7.14,
+        "fiber": 1.14,
+        "salt": 0.21
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "magdalenas rellenas",
+        "chocolate negro",
+        "postre casero",
+        "crema"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Cupcakes de fresa con ganache de chocolate negro",
+      "slug": "cupcakes-de-fresa-con-ganache-de-chocolate-negro",
+      "seo_title": "Cupcakes de fresa con ganache de chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Cupcakes de fresa con ganache de chocolate negro. Postre premium afrutado y muy goloso.",
+      "intro": "Cupcakes esponjosos de fresa coronados con una sedosa ganache de chocolate negro, un postre premium.",
+      "servings": 12,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 20,
+        "rest_min": 40,
+        "total_min": 90
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 200,
+          "key": "harina"
+        },
+        {
+          "name": "Azúcar",
+          "g": 150,
+          "key": "azucar"
+        },
+        {
+          "name": "Huevos",
+          "g": 150,
+          "key": "huevo"
+        },
+        {
+          "name": "Puré de fresa",
+          "g": 120,
+          "key": "fresa"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 100,
+          "key": "nata"
+        }
+      ],
+      "steps": [
+        "Prepara la masa con harina, azúcar, huevos y puré de fresa.",
+        "Hornea los cupcakes a 180°C durante 20 minutos. Deja enfriar.",
+        "Calienta la nata y vierte sobre el chocolate negro para hacer la ganache.",
+        "Deja templar la ganache y cubre cada cupcake.",
+        "Refrigera hasta que la ganache cuaje."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 285,
+        "protein": 4.5,
+        "carbs": 33.0,
+        "sugars": 24.0,
+        "fat": 15.0,
+        "sat_fat": 8.5,
+        "fiber": 1.0,
+        "salt": 0.14
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 380.0,
+        "protein": 6.0,
+        "carbs": 44.0,
+        "sugars": 32.0,
+        "fat": 20.0,
+        "sat_fat": 11.33,
+        "fiber": 1.33,
+        "salt": 0.19
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "cupcakes fresa",
+        "ganache",
+        "chocolate negro",
+        "postre premium"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Cheesecake bites con chocolate blanco",
+      "slug": "cheesecake-bites-con-chocolate-blanco",
+      "seo_title": "Cheesecake bites con chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bocaditos de cheesecake bañados en chocolate blanco. Postre premium cremoso y elegante en formato bite.",
+      "intro": "Pequeños bocados de tarta de queso recubiertos de chocolate blanco, un postre premium cremoso e irresistible.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Queso crema",
+          "g": 300,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 120,
+          "key": "nata"
+        },
+        {
+          "name": "Galletas trituradas",
+          "g": 100,
+          "key": "galleta"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 180,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Bate el queso crema con el azúcar y la nata montada.",
+        "Forma una base de galleta en un molde, añade la crema y congela 4 horas.",
+        "Corta en cubos pequeños.",
+        "Funde el chocolate blanco y baña cada cubo.",
+        "Refrigera hasta servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 235,
+        "protein": 4.0,
+        "carbs": 20.0,
+        "sugars": 15.0,
+        "fat": 15.0,
+        "sat_fat": 9.0,
+        "fiber": 0.5,
+        "salt": 0.14
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 361.54,
+        "protein": 6.15,
+        "carbs": 30.77,
+        "sugars": 23.08,
+        "fat": 23.08,
+        "sat_fat": 13.85,
+        "fiber": 0.77,
+        "salt": 0.22
+      },
+      "estimated_serving_g": 65,
+      "keywords": [
+        "cheesecake bites",
+        "chocolate blanco",
+        "postre premium",
+        "tarta de queso"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Cheesecake bites con chocolate negro y frambuesa",
+      "slug": "cheesecake-bites-con-chocolate-negro-y-frambuesa",
+      "seo_title": "Cheesecake bites con chocolate negro y frambuesa | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bocaditos de cheesecake con frambuesa bañados en chocolate negro. Postre premium afrutado y elegante.",
+      "intro": "Bocados de cheesecake con corazón de frambuesa recubiertos de chocolate negro, un postre premium sofisticado.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Queso crema",
+          "g": 300,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 120,
+          "key": "nata"
+        },
+        {
+          "name": "Galletas trituradas",
+          "g": 100,
+          "key": "galleta"
+        },
+        {
+          "name": "Mermelada de frambuesa",
+          "g": 60,
+          "key": "frambuesa"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 180,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Bate el queso crema con la nata montada.",
+        "Forma la base de galleta, añade una capa de crema, un punto de mermelada y más crema. Congela 4 horas.",
+        "Corta en cubos.",
+        "Funde el chocolate negro y baña cada cubo.",
+        "Refrigera hasta servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 230,
+        "protein": 4.0,
+        "carbs": 20.0,
+        "sugars": 14.0,
+        "fat": 15.0,
+        "sat_fat": 9.0,
+        "fiber": 0.8,
+        "salt": 0.14
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 353.85,
+        "protein": 6.15,
+        "carbs": 30.77,
+        "sugars": 21.54,
+        "fat": 23.08,
+        "sat_fat": 13.85,
+        "fiber": 1.23,
+        "salt": 0.22
+      },
+      "estimated_serving_g": 65,
+      "keywords": [
+        "cheesecake frambuesa",
+        "chocolate negro",
+        "postre premium",
+        "afrutado"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Trufas de chocolate negro",
+      "slug": "trufas-de-chocolate-negro",
+      "seo_title": "Trufas de chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Trufas caseras de chocolate negro. El bombón clásico, intenso y fundente, perfecto para regalar.",
+      "intro": "Trufas de ganache de chocolate negro rebozadas en cacao, el bombón casero más clásico e intenso.",
+      "servings": 20,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 145
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 250,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 120,
+          "key": "nata"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 30,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Cacao puro en polvo",
+          "g": 40,
+          "key": "cacao"
+        }
+      ],
+      "steps": [
+        "Calienta la nata y viértela sobre el chocolate negro troceado.",
+        "Añade la mantequilla y remueve hasta obtener una ganache lisa.",
+        "Refrigera 2 horas hasta que cuaje.",
+        "Forma bolitas con las manos.",
+        "Reboza cada trufa en cacao puro y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 95,
+        "protein": 1.2,
+        "carbs": 7.0,
+        "sugars": 6.0,
+        "fat": 7.0,
+        "sat_fat": 4.5,
+        "fiber": 1.0,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 475.0,
+        "protein": 6.0,
+        "carbs": 35.0,
+        "sugars": 30.0,
+        "fat": 35.0,
+        "sat_fat": 22.5,
+        "fiber": 5.0,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 20,
+      "keywords": [
+        "trufas chocolate negro",
+        "bombones",
+        "postre",
+        "regalo"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Trufas de chocolate blanco y coco",
+      "slug": "trufas-de-chocolate-blanco-y-coco",
+      "seo_title": "Trufas de chocolate blanco y coco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Trufas de chocolate blanco rebozadas en coco. Bombones caseros dulces y cremosos muy fáciles.",
+      "intro": "Trufas de ganache de chocolate blanco rebozadas en coco rallado, un bombón casero dulce y delicado.",
+      "servings": 20,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 145
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 250,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 100,
+          "key": "nata"
+        },
+        {
+          "name": "Coco rallado",
+          "g": 60,
+          "key": "coco"
+        }
+      ],
+      "steps": [
+        "Calienta la nata y viértela sobre el chocolate blanco troceado.",
+        "Remueve hasta obtener una ganache lisa.",
+        "Refrigera 2 horas hasta que cuaje.",
+        "Forma bolitas con las manos.",
+        "Reboza cada trufa en coco rallado y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 100,
+        "protein": 1.2,
+        "carbs": 8.0,
+        "sugars": 7.0,
+        "fat": 7.0,
+        "sat_fat": 5.0,
+        "fiber": 0.5,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 500.0,
+        "protein": 6.0,
+        "carbs": 40.0,
+        "sugars": 35.0,
+        "fat": 35.0,
+        "sat_fat": 25.0,
+        "fiber": 2.5,
+        "salt": 0.1
+      },
+      "estimated_serving_g": 20,
+      "keywords": [
+        "trufas chocolate blanco",
+        "coco",
+        "bombones",
+        "postre casero"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "fitness",
+      "title": "Bombones de chocolate negro rellenos de crema de cacahuete",
+      "slug": "bombones-de-chocolate-negro-rellenos-de-crema-de-cacahuete",
+      "seo_title": "Bombones de chocolate negro rellenos de crema de cacahuete | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bombones de chocolate negro rellenos de crema de cacahuete. Capricho fitness proteico estilo peanut butter cup.",
+      "intro": "Bombones de chocolate negro con corazón de crema de cacahuete, una versión fitness de los peanut butter cups.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 85
+      },
+      "allergens": [
+        "Cacahuetes",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 200,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Crema de cacahuete",
+          "g": 120,
+          "key": "crema_cacahuete"
+        },
+        {
+          "name": "Miel",
+          "g": 20,
+          "key": "miel"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate negro y pinta el fondo de moldes de bombón. Refrigera 10 minutos.",
+        "Mezcla la crema de cacahuete con la miel y rellena cada cavidad.",
+        "Cubre con más chocolate negro fundido.",
+        "Refrigera 40 minutos hasta que cuaje.",
+        "Desmolda y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 165,
+        "protein": 5.0,
+        "carbs": 11.0,
+        "sugars": 8.0,
+        "fat": 11.5,
+        "sat_fat": 4.5,
+        "fiber": 1.5,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 471.43,
+        "protein": 14.29,
+        "carbs": 31.43,
+        "sugars": 22.86,
+        "fat": 32.86,
+        "sat_fat": 12.86,
+        "fiber": 4.29,
+        "salt": 0.14
+      },
+      "estimated_serving_g": 35,
+      "keywords": [
+        "bombones cacahuete",
+        "peanut butter cup",
+        "fitness",
+        "proteico"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Bombones blancos rellenos de limón",
+      "slug": "bombones-blancos-rellenos-de-limon",
+      "seo_title": "Bombones blancos rellenos de limón | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Bombones de chocolate blanco rellenos de crema de limón. Postre premium fresco, cítrico y cremoso.",
+      "intro": "Bombones de chocolate blanco con corazón de cremoso lemon curd, un bocado premium fresco y cítrico.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 85
+      },
+      "allergens": [
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 220,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Lemon curd",
+          "g": 120,
+          "key": "lemon_curd"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate blanco y pinta el interior de moldes de bombón. Refrigera 10 minutos.",
+        "Rellena cada cavidad con lemon curd.",
+        "Cubre con más chocolate blanco fundido.",
+        "Refrigera 40 minutos hasta que cuaje.",
+        "Desmolda con cuidado y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 155,
+        "protein": 2.0,
+        "carbs": 17.0,
+        "sugars": 15.0,
+        "fat": 8.5,
+        "sat_fat": 5.5,
+        "fiber": 0.3,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 442.86,
+        "protein": 5.71,
+        "carbs": 48.57,
+        "sugars": 42.86,
+        "fat": 24.29,
+        "sat_fat": 15.71,
+        "fiber": 0.86,
+        "salt": 0.11
+      },
+      "estimated_serving_g": 35,
+      "keywords": [
+        "bombones limon",
+        "chocolate blanco",
+        "lemon curd",
+        "postre premium"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Alfajor bañado en chocolate negro",
+      "slug": "alfajor-banado-en-chocolate-negro",
+      "seo_title": "Alfajor bañado en chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Alfajores caseros rellenos de dulce de leche y bañados en chocolate negro. Postre tradicional irresistible.",
+      "intro": "Alfajores de masa suave rellenos de dulce de leche y bañados en chocolate negro, un clásico irresistible.",
+      "servings": 10,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 12,
+        "rest_min": 30,
+        "total_min": 77
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 200,
+          "key": "harina"
+        },
+        {
+          "name": "Maicena",
+          "g": 100,
+          "key": "maicena"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 100,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Dulce de leche",
+          "g": 150,
+          "key": "dulce_leche"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 200,
+          "key": "choc_negro"
+        }
+      ],
+      "steps": [
+        "Prepara la masa con harina, maicena, mantequilla y huevo. Estira y corta discos.",
+        "Hornea los discos a 170°C durante 12 minutos. Deja enfriar.",
+        "Une los discos de dos en dos con dulce de leche.",
+        "Funde el chocolate negro y baña cada alfajor.",
+        "Deja cuajar sobre rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 290,
+        "protein": 4.0,
+        "carbs": 36.0,
+        "sugars": 22.0,
+        "fat": 14.0,
+        "sat_fat": 8.0,
+        "fiber": 1.0,
+        "salt": 0.15
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 414.29,
+        "protein": 5.71,
+        "carbs": 51.43,
+        "sugars": 31.43,
+        "fat": 20.0,
+        "sat_fat": 11.43,
+        "fiber": 1.43,
+        "salt": 0.21
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "alfajores",
+        "dulce de leche",
+        "chocolate negro",
+        "postre tradicional"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Alfajor blanco con coco",
+      "slug": "alfajor-blanco-con-coco",
+      "seo_title": "Alfajor blanco con coco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Alfajores rellenos de dulce de leche bañados en chocolate blanco y coco. Postre tradicional dulce y tierno.",
+      "intro": "Alfajores rellenos de dulce de leche, bañados en chocolate blanco y rebozados en coco, tiernos y deliciosos.",
+      "servings": 10,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 12,
+        "rest_min": 30,
+        "total_min": 77
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 200,
+          "key": "harina"
+        },
+        {
+          "name": "Maicena",
+          "g": 100,
+          "key": "maicena"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 100,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Dulce de leche",
+          "g": 150,
+          "key": "dulce_leche"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 200,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Coco rallado",
+          "g": 40,
+          "key": "coco"
+        }
+      ],
+      "steps": [
+        "Prepara la masa, estira y corta discos. Hornea a 170°C 12 minutos.",
+        "Une los discos de dos en dos con dulce de leche.",
+        "Funde el chocolate blanco y baña cada alfajor.",
+        "Reboza los bordes en coco rallado antes de que cuaje.",
+        "Deja cuajar sobre rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 300,
+        "protein": 4.0,
+        "carbs": 37.0,
+        "sugars": 24.0,
+        "fat": 15.0,
+        "sat_fat": 9.0,
+        "fiber": 0.8,
+        "salt": 0.15
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 428.57,
+        "protein": 5.71,
+        "carbs": 52.86,
+        "sugars": 34.29,
+        "fat": 21.43,
+        "sat_fat": 12.86,
+        "fiber": 1.14,
+        "salt": 0.21
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "alfajores coco",
+        "dulce de leche",
+        "chocolate blanco",
+        "postre tradicional"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "casera",
+      "title": "Rocas de chocolate negro con frutos secos",
+      "slug": "rocas-de-chocolate-negro-con-frutos-secos",
+      "seo_title": "Rocas de chocolate negro con frutos secos | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Rocas de chocolate negro con frutos secos variados. Bombones rústicos crujientes muy fáciles de hacer.",
+      "intro": "Rocas de chocolate negro repletas de frutos secos, un bombón rústico y crujiente listo en minutos.",
+      "servings": 15,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": [
+        "Frutos de cáscara",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 250,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Almendras y avellanas tostadas",
+          "g": 150,
+          "key": "frutos_secos"
+        }
+      ],
+      "steps": [
+        "Funde la cobertura de chocolate negro al baño maría.",
+        "Mezcla con los frutos secos troceados.",
+        "Forma montoncitos con dos cucharas sobre papel de horno.",
+        "Refrigera 40 minutos hasta que cuajen.",
+        "Conserva en lugar fresco."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 165,
+        "protein": 3.5,
+        "carbs": 10.0,
+        "sugars": 7.0,
+        "fat": 12.0,
+        "sat_fat": 4.5,
+        "fiber": 2.0,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 550.0,
+        "protein": 11.67,
+        "carbs": 33.33,
+        "sugars": 23.33,
+        "fat": 40.0,
+        "sat_fat": 15.0,
+        "fiber": 6.67,
+        "salt": 0.03
+      },
+      "estimated_serving_g": 30,
+      "keywords": [
+        "rocas chocolate",
+        "frutos secos",
+        "bombones",
+        "facil"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "familiar",
+      "title": "Rocas blancas de cereales y frutos rojos",
+      "slug": "rocas-blancas-de-cereales-y-frutos-rojos",
+      "seo_title": "Rocas blancas de cereales y frutos rojos | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Rocas de chocolate blanco con cereales y frutos rojos. Bombones crujientes y coloridos para toda la familia.",
+      "intro": "Rocas de chocolate blanco con cereales crujientes y frutos rojos deshidratados, un capricho vistoso y fácil.",
+      "servings": 15,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 250,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Cereales de maíz",
+          "g": 80,
+          "key": "cereales"
+        },
+        {
+          "name": "Frutos rojos deshidratados",
+          "g": 50,
+          "key": "frutos_rojos"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate blanco al baño maría.",
+        "Mezcla con los cereales y los frutos rojos deshidratados.",
+        "Forma montoncitos con dos cucharas sobre papel de horno.",
+        "Refrigera 40 minutos hasta que cuajen.",
+        "Conserva en lugar fresco."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 155,
+        "protein": 2.0,
+        "carbs": 18.0,
+        "sugars": 13.0,
+        "fat": 8.0,
+        "sat_fat": 5.0,
+        "fiber": 0.8,
+        "salt": 0.06
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 516.67,
+        "protein": 6.67,
+        "carbs": 60.0,
+        "sugars": 43.33,
+        "fat": 26.67,
+        "sat_fat": 16.67,
+        "fiber": 2.67,
+        "salt": 0.2
+      },
+      "estimated_serving_g": 30,
+      "keywords": [
+        "rocas chocolate blanco",
+        "cereales",
+        "frutos rojos",
+        "bombones"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Tartaletas de fruta con baño de chocolate negro",
+      "slug": "tartaletas-de-fruta-con-bano-de-chocolate-negro",
+      "seo_title": "Tartaletas de fruta con baño de chocolate negro | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Tartaletas de masa con fruta fresca y base de chocolate negro. Postre premium vistoso y elegante.",
+      "intro": "Tartaletas crujientes con base de chocolate negro, crema y fruta fresca, un postre premium de pastelería.",
+      "servings": 8,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 15,
+        "rest_min": 30,
+        "total_min": 80
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Masa quebrada",
+          "g": 250,
+          "key": "masa_quebrada"
+        },
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 100,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Crema pastelera",
+          "g": 200,
+          "key": "crema_pastelera"
+        },
+        {
+          "name": "Fruta fresca variada",
+          "g": 200,
+          "key": "fruta_mix"
+        }
+      ],
+      "steps": [
+        "Forra moldes de tartaleta con la masa y hornea a 180°C 15 minutos. Deja enfriar.",
+        "Funde el chocolate negro y pinta el interior de cada tartaleta. Refrigera 10 minutos.",
+        "Rellena con crema pastelera.",
+        "Decora con fruta fresca cortada.",
+        "Refrigera hasta servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 265,
+        "protein": 4.5,
+        "carbs": 32.0,
+        "sugars": 18.0,
+        "fat": 13.0,
+        "sat_fat": 6.5,
+        "fiber": 1.5,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 294.44,
+        "protein": 5.0,
+        "carbs": 35.56,
+        "sugars": 20.0,
+        "fat": 14.44,
+        "sat_fat": 7.22,
+        "fiber": 1.67,
+        "salt": 0.2
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "tartaletas fruta",
+        "chocolate negro",
+        "postre premium",
+        "pasteleria"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    },
+    {
+      "category": "premium",
+      "title": "Vasitos de mousse con disco de chocolate blanco",
+      "slug": "vasitos-de-mousse-con-disco-de-chocolate-blanco",
+      "seo_title": "Vasitos de mousse con disco de chocolate blanco | Receta con cobertura de chocolate RAIAN",
+      "meta_description": "Vasitos de mousse de chocolate coronados con un disco de chocolate blanco. Postre premium individual y elegante.",
+      "intro": "Cremosos vasitos de mousse de chocolate rematados con un fino disco de chocolate blanco decorado.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 145
+      },
+      "allergens": [
+        "Huevo",
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cobertura de chocolate negro",
+          "g": 150,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Huevos",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Cobertura de chocolate blanco",
+          "g": 80,
+          "key": "choc_blanco"
+        }
+      ],
+      "steps": [
+        "Funde el chocolate negro y mézclalo con las yemas.",
+        "Monta la nata y las claras por separado e incorpóralas con suavidad.",
+        "Reparte la mousse en vasitos y refrigera 2 horas.",
+        "Funde el chocolate blanco, extiéndelo fino y corta discos al cuajar.",
+        "Corona cada vasito con un disco de chocolate blanco."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 295,
+        "protein": 5.0,
+        "carbs": 18.0,
+        "sugars": 16.0,
+        "fat": 22.0,
+        "sat_fat": 13.0,
+        "fiber": 1.0,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 327.78,
+        "protein": 5.56,
+        "carbs": 20.0,
+        "sugars": 17.78,
+        "fat": 24.44,
+        "sat_fat": 14.44,
+        "fiber": 1.11,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "vasitos mousse",
+        "chocolate blanco",
+        "postre premium",
+        "individual"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+    }
+  ]
+}

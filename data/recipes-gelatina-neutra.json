@@ -1,0 +1,4332 @@
+{
+  "brand": "RAIAN Foods",
+  "product_slug": "gelatina-neutra",
+  "product": "Gelatina neutra en polvo",
+  "recipes": [
+    {
+      "category": "casera",
+      "title": "Panna cotta de vainilla",
+      "slug": "panna-cotta-de-vainilla",
+      "seo_title": "Panna cotta de vainilla | Receta con gelatina neutra RAIAN",
+      "meta_description": "Panna cotta de vainilla cremosa hecha con gelatina neutra. Postre italiano clásico, suave y elegante.",
+      "intro": "La auténtica panna cotta italiana: una crema de nata y vainilla cuajada con gelatina neutra, suave y sedosa.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 240,
+        "total_min": 263
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 400,
+          "key": "nata"
+        },
+        {
+          "name": "Leche",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Vaina de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la nata, la leche, el azúcar y la vainilla sin que lleguen a hervir.",
+        "Retira del fuego y disuelve la gelatina hidratada removiendo bien.",
+        "Reparte en moldes o vasitos.",
+        "Refrigera al menos 4 horas hasta que cuaje. Desmolda y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 290,
+        "protein": 3.0,
+        "carbs": 16.0,
+        "sugars": 15.0,
+        "fat": 24.0,
+        "sat_fat": 16.0,
+        "fiber": 0.0,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 305.26,
+        "protein": 3.16,
+        "carbs": 16.84,
+        "sugars": 15.79,
+        "fat": 25.26,
+        "sat_fat": 16.84,
+        "fiber": 0.0,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 95,
+      "keywords": [
+        "panna cotta",
+        "vainilla",
+        "postre italiano",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Panna cotta de café",
+      "slug": "panna-cotta-de-cafe",
+      "seo_title": "Panna cotta de café | Receta con gelatina neutra RAIAN",
+      "meta_description": "Panna cotta de café elaborada con gelatina neutra. Postre cremoso italiano con aroma intenso a café.",
+      "intro": "Una panna cotta sedosa con todo el aroma del café, cuajada de forma perfecta con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 240,
+        "total_min": 263
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 400,
+          "key": "nata"
+        },
+        {
+          "name": "Leche",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Café espresso",
+          "g": 60,
+          "key": "cafe"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la nata, la leche, el café y el azúcar sin hervir.",
+        "Disuelve la gelatina hidratada fuera del fuego.",
+        "Reparte en vasitos.",
+        "Refrigera 4 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 285,
+        "protein": 3.0,
+        "carbs": 15.0,
+        "sugars": 14.0,
+        "fat": 24.0,
+        "sat_fat": 16.0,
+        "fiber": 0.0,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300.0,
+        "protein": 3.16,
+        "carbs": 15.79,
+        "sugars": 14.74,
+        "fat": 25.26,
+        "sat_fat": 16.84,
+        "fiber": 0.0,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 95,
+      "keywords": [
+        "panna cotta cafe",
+        "postre italiano",
+        "cafe",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Panna cotta de chocolate blanco",
+      "slug": "panna-cotta-de-chocolate-blanco",
+      "seo_title": "Panna cotta de chocolate blanco | Receta con gelatina neutra RAIAN",
+      "meta_description": "Panna cotta de chocolate blanco con gelatina neutra. Postre premium ultracremoso y dulce.",
+      "intro": "Una panna cotta extra cremosa enriquecida con chocolate blanco, cuajada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 240,
+        "total_min": 263
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Nata para montar",
+          "g": 400,
+          "key": "nata"
+        },
+        {
+          "name": "Leche",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Chocolate blanco",
+          "g": 100,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Azúcar",
+          "g": 30,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la nata y la leche, añade el chocolate blanco y el azúcar y remueve hasta fundir.",
+        "Disuelve la gelatina hidratada fuera del fuego.",
+        "Reparte en moldes.",
+        "Refrigera 4 horas hasta cuajar y desmolda."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 320,
+        "protein": 3.5,
+        "carbs": 22.0,
+        "sugars": 21.0,
+        "fat": 25.0,
+        "sat_fat": 17.0,
+        "fiber": 0.0,
+        "salt": 0.06
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 336.84,
+        "protein": 3.68,
+        "carbs": 23.16,
+        "sugars": 22.11,
+        "fat": 26.32,
+        "sat_fat": 17.89,
+        "fiber": 0.0,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 95,
+      "keywords": [
+        "panna cotta chocolate blanco",
+        "postre premium",
+        "cremoso",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Panna cotta fitness de yogur griego",
+      "slug": "panna-cotta-fitness-de-yogur-griego",
+      "seo_title": "Panna cotta fitness de yogur griego | Receta con gelatina neutra RAIAN",
+      "meta_description": "Panna cotta fitness de yogur griego con gelatina neutra. Postre proteico bajo en grasa y ligero.",
+      "intro": "Una versión fitness de la panna cotta a base de yogur griego, alta en proteína y cuajada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 260
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Yogur griego natural",
+          "g": 400,
+          "key": "yogur"
+        },
+        {
+          "name": "Leche desnatada",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Miel",
+          "g": 40,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la leche con la miel sin hervir y disuelve la gelatina hidratada.",
+        "Deja templar e incorpora el yogur griego batiendo bien.",
+        "Reparte en vasitos.",
+        "Refrigera 4 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 120,
+        "protein": 7.0,
+        "carbs": 11.0,
+        "sugars": 10.0,
+        "fat": 5.0,
+        "sat_fat": 3.0,
+        "fiber": 0.0,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 133.33,
+        "protein": 7.78,
+        "carbs": 12.22,
+        "sugars": 11.11,
+        "fat": 5.56,
+        "sat_fat": 3.33,
+        "fiber": 0.0,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "panna cotta fitness",
+        "yogur griego",
+        "proteico",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Panna cotta de coco",
+      "slug": "panna-cotta-de-coco",
+      "seo_title": "Panna cotta de coco | Receta con gelatina neutra RAIAN",
+      "meta_description": "Panna cotta de coco con gelatina neutra. Postre tropical cremoso, naturalmente aromático.",
+      "intro": "Una panna cotta tropical de leche de coco, cuajada con gelatina neutra para una textura perfecta.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 240,
+        "total_min": 263
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche de coco",
+          "g": 400,
+          "key": "leche_coco"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 100,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche de coco fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la leche de coco, la nata y el azúcar sin hervir.",
+        "Disuelve la gelatina hidratada fuera del fuego.",
+        "Reparte en moldes.",
+        "Refrigera 4 horas hasta cuajar y desmolda."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 250,
+        "protein": 2.5,
+        "carbs": 16.0,
+        "sugars": 14.0,
+        "fat": 20.0,
+        "sat_fat": 16.0,
+        "fiber": 0.5,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 277.78,
+        "protein": 2.78,
+        "carbs": 17.78,
+        "sugars": 15.56,
+        "fat": 22.22,
+        "sat_fat": 17.78,
+        "fiber": 0.56,
+        "salt": 0.03
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "panna cotta coco",
+        "postre tropical",
+        "leche de coco",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina de zumo de naranja natural",
+      "slug": "gelatina-de-zumo-de-naranja-natural",
+      "seo_title": "Gelatina de zumo de naranja natural | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de zumo de naranja natural con gelatina neutra. Postre ligero, refrescante y sin colorantes.",
+      "intro": "Una gelatina ligera de zumo de naranja recién exprimido, cuajada con gelatina neutra sin aditivos.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 195
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de naranja natural",
+          "g": 500,
+          "key": "zumo_naranja"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de zumo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del zumo con el azúcar sin hervir.",
+        "Disuelve la gelatina hidratada en el zumo caliente.",
+        "Mezcla con el resto del zumo y reparte en vasitos.",
+        "Refrigera 3 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 70,
+        "protein": 1.5,
+        "carbs": 15.0,
+        "sugars": 14.0,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 0.2,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 77.78,
+        "protein": 1.67,
+        "carbs": 16.67,
+        "sugars": 15.56,
+        "fat": 0.22,
+        "sat_fat": 0.0,
+        "fiber": 0.22,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "gelatina naranja",
+        "postre refrescante",
+        "natural",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "familiar",
+      "title": "Gelatina de frutos rojos",
+      "slug": "gelatina-de-frutos-rojos",
+      "seo_title": "Gelatina de frutos rojos | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de frutos rojos casera con gelatina neutra. Postre afrutado y refrescante para toda la familia.",
+      "intro": "Una vibrante gelatina de frutos rojos hecha en casa con gelatina neutra, refrescante y muy fácil.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 197
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Frutos rojos",
+          "g": 250,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Agua",
+          "g": 300,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura los frutos rojos con el agua y el azúcar y cuela.",
+        "Calienta parte del líquido y disuelve la gelatina hidratada.",
+        "Mezcla todo y reparte en vasitos.",
+        "Refrigera 3 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 65,
+        "protein": 1.5,
+        "carbs": 13.0,
+        "sugars": 11.0,
+        "fat": 0.3,
+        "sat_fat": 0.0,
+        "fiber": 1.5,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 72.22,
+        "protein": 1.67,
+        "carbs": 14.44,
+        "sugars": 12.22,
+        "fat": 0.33,
+        "sat_fat": 0.0,
+        "fiber": 1.67,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "gelatina frutos rojos",
+        "postre afrutado",
+        "refrescante",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina de mango",
+      "slug": "gelatina-de-mango",
+      "seo_title": "Gelatina de mango | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de mango natural con gelatina neutra. Postre tropical dulce y refrescante muy fácil.",
+      "intro": "Una sedosa gelatina de mango maduro cuajada con gelatina neutra, con todo el sabor tropical.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 197
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Pulpa de mango",
+          "g": 350,
+          "key": "mango"
+        },
+        {
+          "name": "Agua",
+          "g": 200,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura el mango con el agua y el azúcar.",
+        "Calienta parte de la mezcla y disuelve la gelatina hidratada.",
+        "Une todo y reparte en vasitos.",
+        "Refrigera 3 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 75,
+        "protein": 1.5,
+        "carbs": 17.0,
+        "sugars": 15.0,
+        "fat": 0.3,
+        "sat_fat": 0.0,
+        "fiber": 1.2,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 83.33,
+        "protein": 1.67,
+        "carbs": 18.89,
+        "sugars": 16.67,
+        "fat": 0.33,
+        "sat_fat": 0.0,
+        "fiber": 1.33,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "gelatina mango",
+        "postre tropical",
+        "refrescante",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Gelatina de limón tipo postre ligero",
+      "slug": "gelatina-de-limon-tipo-postre-ligero",
+      "seo_title": "Gelatina de limón tipo postre ligero | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de limón ligera con gelatina neutra. Postre cítrico bajo en calorías y muy refrescante.",
+      "intro": "Una gelatina de limón fresca y ligera, ideal como postre bajo en calorías, cuajada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 195
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de limón",
+          "g": 120,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Agua",
+          "g": 400,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta el agua con el azúcar sin hervir.",
+        "Disuelve la gelatina hidratada y añade el zumo de limón.",
+        "Reparte en vasitos.",
+        "Refrigera 3 horas hasta cuajar y sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 45,
+        "protein": 1.2,
+        "carbs": 9.0,
+        "sugars": 8.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 50.0,
+        "protein": 1.33,
+        "carbs": 10.0,
+        "sugars": 8.89,
+        "fat": 0.11,
+        "sat_fat": 0.0,
+        "fiber": 0.11,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "gelatina limon",
+        "postre ligero",
+        "bajo en calorias",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "familiar",
+      "title": "Gelatina de sandía",
+      "slug": "gelatina-de-sandia",
+      "seo_title": "Gelatina de sandía | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de sandía natural con gelatina neutra. Postre veraniego refrescante e hidratante.",
+      "intro": "Una gelatina de sandía pura y refrescante, el postre de verano más hidratante, con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 197
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Pulpa de sandía",
+          "g": 450,
+          "key": "sandia"
+        },
+        {
+          "name": "Azúcar",
+          "g": 30,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de lima",
+          "g": 20,
+          "key": "lima"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura la sandía con el azúcar y la lima y cuela.",
+        "Calienta una parte y disuelve la gelatina hidratada.",
+        "Mezcla todo y reparte en vasitos.",
+        "Refrigera 3 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 50,
+        "protein": 1.2,
+        "carbs": 11.0,
+        "sugars": 10.0,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 0.3,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 52.63,
+        "protein": 1.26,
+        "carbs": 11.58,
+        "sugars": 10.53,
+        "fat": 0.21,
+        "sat_fat": 0.0,
+        "fiber": 0.32,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 95,
+      "keywords": [
+        "gelatina sandia",
+        "postre verano",
+        "refrescante",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "familiar",
+      "title": "Vasitos de yogur con gelatina de fresa",
+      "slug": "vasitos-de-yogur-con-gelatina-de-fresa",
+      "seo_title": "Vasitos de yogur con gelatina de fresa | Receta con gelatina neutra RAIAN",
+      "meta_description": "Vasitos de yogur con gelatina de fresa y gelatina neutra. Postre de dos capas fresco y vistoso.",
+      "intro": "Vasitos de dos capas: cremoso yogur y una gelatina de fresa natural cuajada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 10,
+        "rest_min": 240,
+        "total_min": 270
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Yogur natural",
+          "g": 350,
+          "key": "yogur"
+        },
+        {
+          "name": "Fresas",
+          "g": 200,
+          "key": "fresa"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 100,
+          "key": "nata"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría, repartida en dos partes frío durante 5 minutos hasta que se hinche.",
+        "Mezcla el yogur con la nata y la mitad de la gelatina disuelta en líquido templado. Reparte en vasos y refrigera 1 hora.",
+        "Tritura las fresas con el azúcar y cuela.",
+        "Disuelve la otra mitad de la gelatina en el puré templado de fresa.",
+        "Vierte la capa de fresa sobre el yogur cuajado y refrigera 2 horas más."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 145,
+        "protein": 4.0,
+        "carbs": 16.0,
+        "sugars": 14.0,
+        "fat": 7.0,
+        "sat_fat": 4.5,
+        "fiber": 0.8,
+        "salt": 0.06
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 120.83,
+        "protein": 3.33,
+        "carbs": 13.33,
+        "sugars": 11.67,
+        "fat": 5.83,
+        "sat_fat": 3.75,
+        "fiber": 0.67,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 120,
+      "keywords": [
+        "vasitos yogur fresa",
+        "postre por capas",
+        "fresa",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Tarta fría de queso sin horno",
+      "slug": "tarta-fria-de-queso-sin-horno",
+      "seo_title": "Tarta fría de queso sin horno | Receta con gelatina neutra RAIAN",
+      "meta_description": "Tarta fría de queso sin horno con gelatina neutra. Cheesecake cremoso, fácil y sin necesidad de horno.",
+      "intro": "El cheesecake sin horno definitivo: cremoso, estable y perfecto gracias a la gelatina neutra.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 330
+      },
+      "allergens": [
+        "Leche",
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Queso crema",
+          "g": 400,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 100,
+          "key": "azucar"
+        },
+        {
+          "name": "Galletas",
+          "g": 150,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 70,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 14,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Tritura las galletas, mézclalas con la mantequilla fundida y forma la base en un molde. Refrigera.",
+        "Hidrata la gelatina neutra en 4 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Bate el queso con el azúcar y la nata semimontada.",
+        "Disuelve la gelatina hidratada en un poco de nata templada e incorpórala a la crema.",
+        "Vierte sobre la base y refrigera 5 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 360,
+        "protein": 5.0,
+        "carbs": 26.0,
+        "sugars": 16.0,
+        "fat": 26.0,
+        "sat_fat": 16.0,
+        "fiber": 0.5,
+        "salt": 0.3
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 327.27,
+        "protein": 4.55,
+        "carbs": 23.64,
+        "sugars": 14.55,
+        "fat": 23.64,
+        "sat_fat": 14.55,
+        "fiber": 0.45,
+        "salt": 0.27
+      },
+      "estimated_serving_g": 110,
+      "keywords": [
+        "tarta de queso",
+        "cheesecake sin horno",
+        "tarta fria",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Tarta fría de limón",
+      "slug": "tarta-fria-de-limon",
+      "seo_title": "Tarta fría de limón | Receta con gelatina neutra RAIAN",
+      "meta_description": "Tarta fría de limón con gelatina neutra. Postre cítrico cremoso y refrescante sin horno.",
+      "intro": "Una tarta fría de limón cremosa y refrescante, cuajada a la perfección con gelatina neutra.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 330
+      },
+      "allergens": [
+        "Leche",
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Queso crema",
+          "g": 300,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Leche condensada",
+          "g": 200,
+          "key": "leche_condensada"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 100,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Galletas",
+          "g": 150,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 70,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Forma la base con galletas trituradas y mantequilla. Refrigera.",
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Bate el queso con la leche condensada y el zumo de limón.",
+        "Disuelve la gelatina en un poco de líquido templado e incorpórala.",
+        "Vierte sobre la base y refrigera 5 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 340,
+        "protein": 6.0,
+        "carbs": 34.0,
+        "sugars": 24.0,
+        "fat": 20.0,
+        "sat_fat": 12.0,
+        "fiber": 0.4,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 309.09,
+        "protein": 5.45,
+        "carbs": 30.91,
+        "sugars": 21.82,
+        "fat": 18.18,
+        "sat_fat": 10.91,
+        "fiber": 0.36,
+        "salt": 0.25
+      },
+      "estimated_serving_g": 110,
+      "keywords": [
+        "tarta de limon",
+        "tarta fria",
+        "citrico",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Tarta de chocolate blanco sin horno",
+      "slug": "tarta-de-chocolate-blanco-sin-horno",
+      "seo_title": "Tarta de chocolate blanco sin horno | Receta con gelatina neutra RAIAN",
+      "meta_description": "Tarta de chocolate blanco sin horno con gelatina neutra. Postre premium cremoso y elegante.",
+      "intro": "Una tarta sin horno ultracremosa de chocolate blanco, estabilizada con gelatina neutra.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 330
+      },
+      "allergens": [
+        "Leche",
+        "Gluten",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Chocolate blanco",
+          "g": 250,
+          "key": "choc_blanco"
+        },
+        {
+          "name": "Queso crema",
+          "g": 250,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Galletas",
+          "g": 150,
+          "key": "galleta"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 70,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Forma la base de galleta y mantequilla. Refrigera.",
+        "Hidrata la gelatina neutra en 4 cucharadas de nata fría frío durante 5 minutos hasta que se hinche.",
+        "Funde el chocolate blanco y mézclalo con el queso y la nata semimontada.",
+        "Disuelve la gelatina hidratada en nata templada e incorpórala.",
+        "Vierte sobre la base y refrigera 5 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 390,
+        "protein": 5.5,
+        "carbs": 30.0,
+        "sugars": 22.0,
+        "fat": 27.0,
+        "sat_fat": 17.0,
+        "fiber": 0.4,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 354.55,
+        "protein": 5.0,
+        "carbs": 27.27,
+        "sugars": 20.0,
+        "fat": 24.55,
+        "sat_fat": 15.45,
+        "fiber": 0.36,
+        "salt": 0.25
+      },
+      "estimated_serving_g": 110,
+      "keywords": [
+        "tarta chocolate blanco",
+        "sin horno",
+        "postre premium",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Mousse de chocolate estabilizada",
+      "slug": "mousse-de-chocolate-estabilizada",
+      "seo_title": "Mousse de chocolate estabilizada | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse de chocolate estabilizada con gelatina neutra. Postre aireado que mantiene su forma sin colapsar.",
+      "intro": "Una mousse de chocolate intensa y aireada, estabilizada con gelatina neutra para que aguante perfecta.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 205
+      },
+      "allergens": [
+        "Leche",
+        "Huevo",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Chocolate negro",
+          "g": 200,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Huevos",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 6,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Funde el chocolate y disuelve en él la gelatina hidratada en un poco de nata templada.",
+        "Monta la nata y las claras por separado con el azúcar.",
+        "Incorpora con suavidad el chocolate a las claras y la nata.",
+        "Reparte en vasitos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 310,
+        "protein": 5.5,
+        "carbs": 18.0,
+        "sugars": 16.0,
+        "fat": 23.0,
+        "sat_fat": 14.0,
+        "fiber": 1.5,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 344.44,
+        "protein": 6.11,
+        "carbs": 20.0,
+        "sugars": 17.78,
+        "fat": 25.56,
+        "sat_fat": 15.56,
+        "fiber": 1.67,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "mousse chocolate",
+        "estabilizada",
+        "postre aireado",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "familiar",
+      "title": "Mousse de fresa con gelatina",
+      "slug": "mousse-de-fresa-con-gelatina",
+      "seo_title": "Mousse de fresa con gelatina | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse de fresa con gelatina neutra. Postre aireado, rosado y afrutado que mantiene su forma.",
+      "intro": "Una mousse de fresa ligera y rosada, estabilizada con gelatina neutra para una textura perfecta.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 205
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Fresas",
+          "g": 300,
+          "key": "fresa"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura las fresas con el azúcar y cuela.",
+        "Calienta una parte del puré y disuelve la gelatina hidratada.",
+        "Monta la nata e incorpórala con suavidad al puré de fresa.",
+        "Reparte en vasitos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 250,
+        "protein": 3.0,
+        "carbs": 18.0,
+        "sugars": 16.0,
+        "fat": 18.0,
+        "sat_fat": 12.0,
+        "fiber": 1.2,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 277.78,
+        "protein": 3.33,
+        "carbs": 20.0,
+        "sugars": 17.78,
+        "fat": 20.0,
+        "sat_fat": 13.33,
+        "fiber": 1.33,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "mousse fresa",
+        "postre aireado",
+        "afrutado",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Mousse de mango",
+      "slug": "mousse-de-mango",
+      "seo_title": "Mousse de mango | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse de mango con gelatina neutra. Postre tropical aireado, dulce y refrescante.",
+      "intro": "Una mousse tropical de mango, suave y aireada, estabilizada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 205
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Pulpa de mango",
+          "g": 300,
+          "key": "mango"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura el mango con el azúcar.",
+        "Calienta una parte del puré y disuelve la gelatina hidratada.",
+        "Monta la nata e incorpórala con suavidad al puré.",
+        "Reparte en vasitos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 255,
+        "protein": 3.0,
+        "carbs": 20.0,
+        "sugars": 17.0,
+        "fat": 18.0,
+        "sat_fat": 12.0,
+        "fiber": 1.0,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 283.33,
+        "protein": 3.33,
+        "carbs": 22.22,
+        "sugars": 18.89,
+        "fat": 20.0,
+        "sat_fat": 13.33,
+        "fiber": 1.11,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "mousse mango",
+        "postre tropical",
+        "aireado",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Mousse de yogur y miel",
+      "slug": "mousse-de-yogur-y-miel",
+      "seo_title": "Mousse de yogur y miel | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse de yogur y miel con gelatina neutra. Postre fitness ligero, proteico y aireado.",
+      "intro": "Una mousse fitness de yogur y miel, ligera y proteica, estabilizada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Yogur griego natural",
+          "g": 350,
+          "key": "yogur"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Miel",
+          "g": 50,
+          "key": "miel"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 7,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta un poco de leche con la miel y disuelve la gelatina hidratada.",
+        "Mezcla con el yogur griego.",
+        "Monta la nata e incorpórala con suavidad.",
+        "Reparte en vasitos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 175,
+        "protein": 6.0,
+        "carbs": 13.0,
+        "sugars": 12.0,
+        "fat": 10.0,
+        "sat_fat": 6.5,
+        "fiber": 0.0,
+        "salt": 0.07
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 194.44,
+        "protein": 6.67,
+        "carbs": 14.44,
+        "sugars": 13.33,
+        "fat": 11.11,
+        "sat_fat": 7.22,
+        "fiber": 0.0,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "mousse yogur",
+        "miel",
+        "fitness",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Flan frío de café sin huevo",
+      "slug": "flan-frio-de-cafe-sin-huevo",
+      "seo_title": "Flan frío de café sin huevo | Receta con gelatina neutra RAIAN",
+      "meta_description": "Flan frío de café sin huevo con gelatina neutra. Postre cremoso, sin horno y sin huevo.",
+      "intro": "Un flan de café cremoso, sin huevo ni horno, cuajado con gelatina neutra y con caramelo.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche",
+          "g": 400,
+          "key": "leche"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Café espresso",
+          "g": 60,
+          "key": "cafe"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Caramelo líquido",
+          "g": 50,
+          "key": "caramelo"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Reparte caramelo líquido en el fondo de los moldes.",
+        "Hidrata la gelatina neutra en 4 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la leche, la nata, el café y el azúcar sin hervir.",
+        "Disuelve la gelatina hidratada y reparte en los moldes.",
+        "Refrigera 4 horas hasta cuajar y desmolda."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 210,
+        "protein": 4.0,
+        "carbs": 24.0,
+        "sugars": 22.0,
+        "fat": 11.0,
+        "sat_fat": 7.0,
+        "fiber": 0.0,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 200.0,
+        "protein": 3.81,
+        "carbs": 22.86,
+        "sugars": 20.95,
+        "fat": 10.48,
+        "sat_fat": 6.67,
+        "fiber": 0.0,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 105,
+      "keywords": [
+        "flan cafe",
+        "sin huevo",
+        "flan frio",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Flan frío de chocolate",
+      "slug": "flan-frio-de-chocolate",
+      "seo_title": "Flan frío de chocolate | Receta con gelatina neutra RAIAN",
+      "meta_description": "Flan frío de chocolate con gelatina neutra. Postre cremoso, sin horno, intenso y goloso.",
+      "intro": "Un flan frío de chocolate denso y cremoso, cuajado con gelatina neutra sin necesidad de horno.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [
+        "Leche",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche",
+          "g": 400,
+          "key": "leche"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Cacao puro en polvo",
+          "g": 30,
+          "key": "cacao"
+        },
+        {
+          "name": "Chocolate negro",
+          "g": 60,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Azúcar",
+          "g": 90,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la leche, la nata, el cacao, el chocolate y el azúcar removiendo.",
+        "Disuelve la gelatina hidratada fuera del fuego.",
+        "Reparte en moldes.",
+        "Refrigera 4 horas hasta cuajar y desmolda."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 235,
+        "protein": 5.0,
+        "carbs": 26.0,
+        "sugars": 22.0,
+        "fat": 12.0,
+        "sat_fat": 7.5,
+        "fiber": 1.5,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 223.81,
+        "protein": 4.76,
+        "carbs": 24.76,
+        "sugars": 20.95,
+        "fat": 11.43,
+        "sat_fat": 7.14,
+        "fiber": 1.43,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 105,
+      "keywords": [
+        "flan chocolate",
+        "flan frio",
+        "sin horno",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "infantil",
+      "title": "Gominolas caseras de fruta",
+      "slug": "gominolas-caseras-de-fruta",
+      "seo_title": "Gominolas caseras de fruta | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gominolas caseras de fruta con gelatina neutra. Chuches naturales sin colorantes artificiales.",
+      "intro": "Gominolas caseras de zumo de fruta natural, sin colorantes, elaboradas con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 140
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de fruta natural",
+          "g": 250,
+          "key": "zumo_fruta"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 25,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en parte del zumo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta el resto del zumo con el azúcar y el limón sin hervir.",
+        "Disuelve muy bien la gelatina hidratada hasta que no queden grumos.",
+        "Vierte en moldes de silicona pequeños.",
+        "Refrigera 2 horas, desmolda y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 90,
+        "protein": 4.5,
+        "carbs": 18.0,
+        "sugars": 16.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 225.0,
+        "protein": 11.25,
+        "carbs": 45.0,
+        "sugars": 40.0,
+        "fat": 0.25,
+        "sat_fat": 0.0,
+        "fiber": 0.25,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 40,
+      "keywords": [
+        "gominolas caseras",
+        "chuches naturales",
+        "sin colorantes",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Gominolas fitness de electrolitos",
+      "slug": "gominolas-fitness-de-electrolitos",
+      "seo_title": "Gominolas fitness de electrolitos | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gominolas fitness de electrolitos con gelatina neutra. Snack deportivo hidratante y bajo en azúcar.",
+      "intro": "Gominolas funcionales con electrolitos para deportistas, elaboradas con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 140
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Agua de coco",
+          "g": 250,
+          "key": "agua_coco"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 30,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Sal",
+          "g": 2,
+          "key": "sal"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 25,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en parte del agua de coco fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta el resto del agua de coco con la miel, el limón y la sal sin hervir.",
+        "Disuelve bien la gelatina hidratada.",
+        "Vierte en moldes de silicona.",
+        "Refrigera 2 horas, desmolda y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 60,
+        "protein": 4.5,
+        "carbs": 8.0,
+        "sugars": 7.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.25
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 150.0,
+        "protein": 11.25,
+        "carbs": 20.0,
+        "sugars": 17.5,
+        "fat": 0.25,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.62
+      },
+      "estimated_serving_g": 40,
+      "keywords": [
+        "gominolas electrolitos",
+        "fitness",
+        "deportivo",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Gominolas de colágeno con frutos rojos",
+      "slug": "gominolas-de-colageno-con-frutos-rojos",
+      "seo_title": "Gominolas de colágeno con frutos rojos | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gominolas de colágeno con frutos rojos y gelatina neutra. Snack saludable rico en proteína.",
+      "intro": "Gominolas funcionales con frutos rojos, reforzadas con colágeno y elaboradas con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 120,
+        "total_min": 140
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Puré de frutos rojos",
+          "g": 200,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Agua",
+          "g": 80,
+          "key": "agua"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Colágeno en polvo",
+          "g": 30,
+          "key": "colageno"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 20,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en el agua fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta el puré de frutos rojos con la miel sin hervir.",
+        "Disuelve la gelatina hidratada y el colágeno removiendo bien.",
+        "Vierte en moldes de silicona.",
+        "Refrigera 2 horas, desmolda y conserva en frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 80,
+        "protein": 6.0,
+        "carbs": 11.0,
+        "sugars": 9.0,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 0.8,
+        "salt": 0.03
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 200.0,
+        "protein": 15.0,
+        "carbs": 27.5,
+        "sugars": 22.5,
+        "fat": 0.5,
+        "sat_fat": 0.0,
+        "fiber": 2.0,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 40,
+      "keywords": [
+        "gominolas colageno",
+        "frutos rojos",
+        "proteico",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "infantil",
+      "title": "Marshmallows caseros",
+      "slug": "marshmallows-caseros",
+      "seo_title": "Marshmallows caseros | Receta con gelatina neutra RAIAN",
+      "meta_description": "Marshmallows caseros esponjosos con gelatina neutra. Nubes dulces hechas en casa fáciles.",
+      "intro": "Esponjosos marshmallows caseros, mucho más ricos que los comprados, elaborados con gelatina neutra.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Azúcar",
+          "g": 200,
+          "key": "azucar"
+        },
+        {
+          "name": "Sirope de glucosa",
+          "g": 100,
+          "key": "glucosa"
+        },
+        {
+          "name": "Agua",
+          "g": 100,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar glas",
+          "g": 40,
+          "key": "azucar_glas"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 20,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en la mitad del agua fría frío durante 5 minutos hasta que se hinche.",
+        "Cuece el azúcar, la glucosa y el resto del agua hasta 115°C.",
+        "Vierte el almíbar caliente sobre la gelatina hidratada y bate a máxima velocidad hasta blanquear y triplicar el volumen.",
+        "Extiende la mezcla en un molde espolvoreado con azúcar glas.",
+        "Deja cuajar 4 horas, corta en cubos y reboza en azúcar glas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 110,
+        "protein": 2.5,
+        "carbs": 26.0,
+        "sugars": 24.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 314.29,
+        "protein": 7.14,
+        "carbs": 74.29,
+        "sugars": 68.57,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.03
+      },
+      "estimated_serving_g": 35,
+      "keywords": [
+        "marshmallows",
+        "nubes caseras",
+        "esponjoso",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "infantil",
+      "title": "Nubes de vainilla y coco",
+      "slug": "nubes-de-vainilla-y-coco",
+      "seo_title": "Nubes de vainilla y coco | Receta con gelatina neutra RAIAN",
+      "meta_description": "Nubes de vainilla y coco con gelatina neutra. Marshmallows aromáticos rebozados en coco.",
+      "intro": "Nubes caseras perfumadas con vainilla y rebozadas en coco, elaboradas con gelatina neutra.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 240,
+        "total_min": 265
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Azúcar",
+          "g": 200,
+          "key": "azucar"
+        },
+        {
+          "name": "Sirope de glucosa",
+          "g": 100,
+          "key": "glucosa"
+        },
+        {
+          "name": "Agua",
+          "g": 100,
+          "key": "agua"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Coco rallado",
+          "g": 50,
+          "key": "coco"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 20,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en la mitad del agua fría frío durante 5 minutos hasta que se hinche.",
+        "Cuece el azúcar, la glucosa y el agua hasta 115°C.",
+        "Vierte sobre la gelatina hidratada con la vainilla y bate hasta esponjar.",
+        "Extiende en un molde y deja cuajar 4 horas.",
+        "Corta en cubos y reboza en coco rallado."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 120,
+        "protein": 2.5,
+        "carbs": 26.0,
+        "sugars": 24.0,
+        "fat": 2.0,
+        "sat_fat": 1.5,
+        "fiber": 0.5,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 324.32,
+        "protein": 6.76,
+        "carbs": 70.27,
+        "sugars": 64.86,
+        "fat": 5.41,
+        "sat_fat": 4.05,
+        "fiber": 1.35,
+        "salt": 0.03
+      },
+      "estimated_serving_g": 37,
+      "keywords": [
+        "nubes coco",
+        "marshmallows vainilla",
+        "esponjoso",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Bavarois de vainilla",
+      "slug": "bavarois-de-vainilla",
+      "seo_title": "Bavarois de vainilla | Receta con gelatina neutra RAIAN",
+      "meta_description": "Bavarois de vainilla con gelatina neutra. Postre clásico francés aireado y cremoso.",
+      "intro": "Un elegante bavarois de vainilla, crema inglesa aligerada con nata y cuajada con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 8,
+        "rest_min": 240,
+        "total_min": 278
+      },
+      "allergens": [
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche",
+          "g": 300,
+          "key": "leche"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 80,
+          "key": "huevo"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Vaina de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Prepara una crema inglesa con la leche, las yemas, el azúcar y la vainilla.",
+        "Disuelve la gelatina hidratada en la crema caliente y deja templar.",
+        "Monta la nata e incorpórala con suavidad.",
+        "Vierte en moldes y refrigera 4 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 230,
+        "protein": 4.5,
+        "carbs": 16.0,
+        "sugars": 14.0,
+        "fat": 16.0,
+        "sat_fat": 10.0,
+        "fiber": 0.0,
+        "salt": 0.07
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 242.11,
+        "protein": 4.74,
+        "carbs": 16.84,
+        "sugars": 14.74,
+        "fat": 16.84,
+        "sat_fat": 10.53,
+        "fiber": 0.0,
+        "salt": 0.07
+      },
+      "estimated_serving_g": 95,
+      "keywords": [
+        "bavarois vainilla",
+        "postre frances",
+        "cremoso",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Bavarois de chocolate",
+      "slug": "bavarois-de-chocolate",
+      "seo_title": "Bavarois de chocolate | Receta con gelatina neutra RAIAN",
+      "meta_description": "Bavarois de chocolate con gelatina neutra. Postre francés aireado e intenso en chocolate.",
+      "intro": "Un bavarois de chocolate sedoso y aireado, crema inglesa con cacao cuajada con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 8,
+        "rest_min": 240,
+        "total_min": 278
+      },
+      "allergens": [
+        "Leche",
+        "Huevo",
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche",
+          "g": 300,
+          "key": "leche"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 250,
+          "key": "nata"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 80,
+          "key": "huevo"
+        },
+        {
+          "name": "Chocolate negro",
+          "g": 100,
+          "key": "choc_negro"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Prepara una crema inglesa y funde en ella el chocolate negro.",
+        "Disuelve la gelatina hidratada y deja templar.",
+        "Monta la nata e incorpórala con suavidad.",
+        "Vierte en moldes y refrigera 4 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 270,
+        "protein": 5.0,
+        "carbs": 20.0,
+        "sugars": 17.0,
+        "fat": 18.0,
+        "sat_fat": 11.0,
+        "fiber": 1.5,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 284.21,
+        "protein": 5.26,
+        "carbs": 21.05,
+        "sugars": 17.89,
+        "fat": 18.95,
+        "sat_fat": 11.58,
+        "fiber": 1.58,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 95,
+      "keywords": [
+        "bavarois chocolate",
+        "postre frances",
+        "intenso",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Charlotte fría de frutas",
+      "slug": "charlotte-fria-de-frutas",
+      "seo_title": "Charlotte fría de frutas | Receta con gelatina neutra RAIAN",
+      "meta_description": "Charlotte fría de frutas con gelatina neutra. Postre premium con bizcochos y crema afrutada.",
+      "intro": "Una charlotte fría rodeada de bizcochos de soletilla y rellena de crema bavaroise afrutada con gelatina neutra.",
+      "servings": 10,
+      "times": {
+        "prep_min": 40,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 340
+      },
+      "allergens": [
+        "Leche",
+        "Huevo",
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Bizcochos de soletilla",
+          "g": 200,
+          "key": "soletilla"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 300,
+          "key": "nata"
+        },
+        {
+          "name": "Puré de frutas",
+          "g": 250,
+          "key": "fruta_mix"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Fruta fresca",
+          "g": 150,
+          "key": "fruta_mix"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Forra un molde con los bizcochos de soletilla en las paredes.",
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del puré de frutas con el azúcar y disuelve la gelatina hidratada.",
+        "Monta la nata e incorpórala al puré junto con la fruta fresca.",
+        "Vierte el relleno en el molde y refrigera 5 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 280,
+        "protein": 4.5,
+        "carbs": 30.0,
+        "sugars": 20.0,
+        "fat": 16.0,
+        "sat_fat": 10.0,
+        "fiber": 1.5,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 233.33,
+        "protein": 3.75,
+        "carbs": 25.0,
+        "sugars": 16.67,
+        "fat": 13.33,
+        "sat_fat": 8.33,
+        "fiber": 1.25,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 120,
+      "keywords": [
+        "charlotte frutas",
+        "postre premium",
+        "bizcochos",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Semifrío de turrón",
+      "slug": "semifrio-de-turron",
+      "seo_title": "Semifrío de turrón | Receta con gelatina neutra RAIAN",
+      "meta_description": "Semifrío de turrón con gelatina neutra. Postre premium navideño cremoso y aireado.",
+      "intro": "Un semifrío de turrón blando, cremoso y aireado, estabilizado con gelatina neutra, ideal para Navidad.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 325
+      },
+      "allergens": [
+        "Leche",
+        "Frutos de cáscara",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Turrón blando",
+          "g": 200,
+          "key": "turron"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 300,
+          "key": "nata"
+        },
+        {
+          "name": "Leche",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 9,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura el turrón con la leche caliente y el azúcar.",
+        "Disuelve la gelatina hidratada en la mezcla templada.",
+        "Monta la nata e incorpórala con suavidad.",
+        "Vierte en un molde y congela ligeramente o refrigera 5 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 300,
+        "protein": 5.0,
+        "carbs": 22.0,
+        "sugars": 18.0,
+        "fat": 21.0,
+        "sat_fat": 11.0,
+        "fiber": 1.0,
+        "salt": 0.06
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300.0,
+        "protein": 5.0,
+        "carbs": 22.0,
+        "sugars": 18.0,
+        "fat": 21.0,
+        "sat_fat": 11.0,
+        "fiber": 1.0,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "semifrio turron",
+        "postre navideño",
+        "premium",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Semifrío de frutos rojos",
+      "slug": "semifrio-de-frutos-rojos",
+      "seo_title": "Semifrío de frutos rojos | Receta con gelatina neutra RAIAN",
+      "meta_description": "Semifrío de frutos rojos con gelatina neutra. Postre premium aireado, afrutado y refrescante.",
+      "intro": "Un semifrío suave de frutos rojos, cremoso y afrutado, estabilizado con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 325
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Frutos rojos",
+          "g": 250,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 300,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 9,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura los frutos rojos con el azúcar y cuela.",
+        "Calienta una parte del puré y disuelve la gelatina hidratada.",
+        "Monta la nata e incorpórala con suavidad al puré.",
+        "Vierte en un molde y refrigera 5 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 260,
+        "protein": 3.0,
+        "carbs": 18.0,
+        "sugars": 16.0,
+        "fat": 19.0,
+        "sat_fat": 12.0,
+        "fiber": 1.5,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 260.0,
+        "protein": 3.0,
+        "carbs": 18.0,
+        "sugars": 16.0,
+        "fat": 19.0,
+        "sat_fat": 12.0,
+        "fiber": 1.5,
+        "salt": 0.05
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "semifrio frutos rojos",
+        "postre premium",
+        "afrutado",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Gelée de cava o vino dulce",
+      "slug": "gelee-de-cava-o-vino-dulce",
+      "seo_title": "Gelée de cava o vino dulce | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelée de cava o vino dulce con gelatina neutra. Postre premium festivo, ligero y elegante.",
+      "intro": "Una gelée festiva de cava o vino dulce, ligera y burbujeante, cuajada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 197
+      },
+      "allergens": [
+        "Sulfitos"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Cava o vino dulce",
+          "g": 400,
+          "key": "cava"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Agua",
+          "g": 80,
+          "key": "agua"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en el agua fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del cava con el azúcar sin que pierda todo el gas.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del cava y reparte en copas.",
+        "Refrigera 3 horas hasta cuajar y sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 110,
+        "protein": 1.5,
+        "carbs": 14.0,
+        "sugars": 13.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 129.41,
+        "protein": 1.76,
+        "carbs": 16.47,
+        "sugars": 15.29,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 85,
+      "keywords": [
+        "gelee cava",
+        "postre festivo",
+        "vino dulce",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Gelatina de té verde y miel",
+      "slug": "gelatina-de-te-verde-y-miel",
+      "seo_title": "Gelatina de té verde y miel | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de té verde y miel con gelatina neutra. Postre ligero antioxidante y refrescante.",
+      "intro": "Una gelatina ligera de té verde endulzada con miel, refrescante y antioxidante, con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 195
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Té verde infusionado",
+          "g": 500,
+          "key": "te_verde"
+        },
+        {
+          "name": "Miel",
+          "g": 50,
+          "key": "miel"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de té frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del té con la miel y el limón.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del té y reparte en vasitos.",
+        "Refrigera 3 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 50,
+        "protein": 1.5,
+        "carbs": 10.0,
+        "sugars": 9.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 55.56,
+        "protein": 1.67,
+        "carbs": 11.11,
+        "sugars": 10.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "gelatina te verde",
+        "miel",
+        "antioxidante",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina de chai latte",
+      "slug": "gelatina-de-chai-latte",
+      "seo_title": "Gelatina de chai latte | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de chai latte con gelatina neutra. Postre cremoso y especiado de inspiración hindú.",
+      "intro": "Una gelatina cremosa de chai latte con especias y leche, cuajada con gelatina neutra.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 8,
+        "rest_min": 180,
+        "total_min": 203
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche",
+          "g": 400,
+          "key": "leche"
+        },
+        {
+          "name": "Té chai infusionado",
+          "g": 100,
+          "key": "te_chai"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Mezcla de especias chai",
+          "g": 5,
+          "key": "especias"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 9,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de leche fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta la leche con el té chai, el azúcar y las especias.",
+        "Disuelve la gelatina hidratada fuera del fuego.",
+        "Cuela y reparte en vasitos.",
+        "Refrigera 3 horas hasta cuajar y sirve."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 110,
+        "protein": 3.5,
+        "carbs": 15.0,
+        "sugars": 14.0,
+        "fat": 3.5,
+        "sat_fat": 2.2,
+        "fiber": 0.0,
+        "salt": 0.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 122.22,
+        "protein": 3.89,
+        "carbs": 16.67,
+        "sugars": 15.56,
+        "fat": 3.89,
+        "sat_fat": 2.44,
+        "fiber": 0.0,
+        "salt": 0.06
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "gelatina chai",
+        "chai latte",
+        "especiado",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Cubos de gelatina para bowls de yogur",
+      "slug": "cubos-de-gelatina-para-bowls-de-yogur",
+      "seo_title": "Cubos de gelatina para bowls de yogur | Receta con gelatina neutra RAIAN",
+      "meta_description": "Cubos de gelatina de fruta para bowls de yogur con gelatina neutra. Topping divertido y ligero.",
+      "intro": "Cubos firmes de gelatina de fruta para añadir a tus bowls de yogur o porridge, hechos con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 197
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de fruta natural",
+          "g": 400,
+          "key": "zumo_fruta"
+        },
+        {
+          "name": "Azúcar",
+          "g": 30,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 14,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de zumo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del zumo con el azúcar.",
+        "Disuelve la gelatina hidratada removiendo bien.",
+        "Mezcla con el resto del zumo y vierte en un recipiente plano.",
+        "Refrigera 3 horas, desmolda y corta en cubos pequeños."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 55,
+        "protein": 3.0,
+        "carbs": 10.0,
+        "sugars": 9.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 91.67,
+        "protein": 5.0,
+        "carbs": 16.67,
+        "sugars": 15.0,
+        "fat": 0.17,
+        "sat_fat": 0.0,
+        "fiber": 0.17,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "cubos gelatina",
+        "bowl yogur",
+        "topping",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Crema de limón estabilizada para tartas",
+      "slug": "crema-de-limon-estabilizada-para-tartas",
+      "seo_title": "Crema de limón estabilizada para tartas | Receta con gelatina neutra RAIAN",
+      "meta_description": "Crema de limón estabilizada con gelatina neutra. Relleno cítrico firme ideal para tartas.",
+      "intro": "Una crema de limón cítrica y firme, estabilizada con gelatina neutra, perfecta como relleno de tartas.",
+      "servings": 10,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 8,
+        "rest_min": 120,
+        "total_min": 148
+      },
+      "allergens": [
+        "Huevo",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de limón",
+          "g": 150,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Azúcar",
+          "g": 120,
+          "key": "azucar"
+        },
+        {
+          "name": "Huevos",
+          "g": 150,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 80,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Cocina el zumo, el azúcar y los huevos a fuego suave hasta que espese.",
+        "Retira del fuego, añade la mantequilla y la gelatina hidratada.",
+        "Remueve hasta integrar y deja templar.",
+        "Usa como relleno o refrigera 2 horas hasta que cuaje."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 180,
+        "protein": 3.5,
+        "carbs": 18.0,
+        "sugars": 17.0,
+        "fat": 11.0,
+        "sat_fat": 6.0,
+        "fiber": 0.1,
+        "salt": 0.07
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300.0,
+        "protein": 5.83,
+        "carbs": 30.0,
+        "sugars": 28.33,
+        "fat": 18.33,
+        "sat_fat": 10.0,
+        "fiber": 0.17,
+        "salt": 0.12
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "crema de limon",
+        "relleno tartas",
+        "lemon curd",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Aspic de verduras",
+      "slug": "aspic-de-verduras",
+      "seo_title": "Aspic de verduras | Receta con gelatina neutra RAIAN",
+      "meta_description": "Aspic de verduras con gelatina neutra. Plato frío clásico, ligero y muy vistoso.",
+      "intro": "Un aspic de verduras frescas suspendidas en un caldo gelificado con gelatina neutra, ligero y elegante.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 10,
+        "rest_min": 240,
+        "total_min": 280
+      },
+      "allergens": [
+        "Apio"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Verduras variadas cocidas",
+          "g": 350,
+          "key": "verduras"
+        },
+        {
+          "name": "Caldo de verduras",
+          "g": 500,
+          "key": "caldo_verduras"
+        },
+        {
+          "name": "Vinagre de vino",
+          "g": 15,
+          "key": "vinagre"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 14,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta el caldo con el vinagre y sazona.",
+        "Disuelve la gelatina hidratada en el caldo caliente.",
+        "Coloca las verduras en un molde y cubre con el caldo.",
+        "Refrigera 4 horas hasta cuajar y desmolda."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 55,
+        "protein": 3.0,
+        "carbs": 6.0,
+        "sugars": 3.0,
+        "fat": 1.0,
+        "sat_fat": 0.2,
+        "fiber": 2.0,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 50.0,
+        "protein": 2.73,
+        "carbs": 5.45,
+        "sugars": 2.73,
+        "fat": 0.91,
+        "sat_fat": 0.18,
+        "fiber": 1.82,
+        "salt": 0.55
+      },
+      "estimated_serving_g": 110,
+      "keywords": [
+        "aspic verduras",
+        "plato frio",
+        "gelatina salada",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Aspic de pollo",
+      "slug": "aspic-de-pollo",
+      "seo_title": "Aspic de pollo | Receta con gelatina neutra RAIAN",
+      "meta_description": "Aspic de pollo con gelatina neutra. Plato frío proteico y tradicional, ideal para verano.",
+      "intro": "Un aspic de pollo cocido en caldo gelificado con gelatina neutra, un plato frío proteico y tradicional.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 10,
+        "rest_min": 240,
+        "total_min": 280
+      },
+      "allergens": [
+        "Apio"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Pollo cocido desmenuzado",
+          "g": 300,
+          "key": "pollo"
+        },
+        {
+          "name": "Caldo de pollo",
+          "g": 500,
+          "key": "caldo_pollo"
+        },
+        {
+          "name": "Zanahoria y guisantes cocidos",
+          "g": 100,
+          "key": "verduras"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 14,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta el caldo de pollo y sazona.",
+        "Disuelve la gelatina hidratada en el caldo caliente.",
+        "Coloca el pollo y las verduras en un molde y cubre con el caldo.",
+        "Refrigera 4 horas hasta cuajar y desmolda."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 95,
+        "protein": 12.0,
+        "carbs": 3.0,
+        "sugars": 1.5,
+        "fat": 4.0,
+        "sat_fat": 1.2,
+        "fiber": 1.0,
+        "salt": 0.65
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 86.36,
+        "protein": 10.91,
+        "carbs": 2.73,
+        "sugars": 1.36,
+        "fat": 3.64,
+        "sat_fat": 1.09,
+        "fiber": 0.91,
+        "salt": 0.59
+      },
+      "estimated_serving_g": 110,
+      "keywords": [
+        "aspic pollo",
+        "plato frio",
+        "proteico",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "familiar",
+      "title": "Terrina de pollo y verduras",
+      "slug": "terrina-de-pollo-y-verduras",
+      "seo_title": "Terrina de pollo y verduras | Receta con gelatina neutra RAIAN",
+      "meta_description": "Terrina de pollo y verduras con gelatina neutra. Fiambre casero ligero para cortar en lonchas.",
+      "intro": "Una terrina de pollo y verduras prensada y gelificada con gelatina neutra, perfecta en lonchas.",
+      "servings": 10,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 15,
+        "rest_min": 300,
+        "total_min": 350
+      },
+      "allergens": [
+        "Apio"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Pollo cocido",
+          "g": 400,
+          "key": "pollo"
+        },
+        {
+          "name": "Verduras variadas cocidas",
+          "g": 200,
+          "key": "verduras"
+        },
+        {
+          "name": "Caldo de pollo",
+          "g": 400,
+          "key": "caldo_pollo"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 16,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta el caldo y disuelve la gelatina hidratada.",
+        "Coloca el pollo troceado y las verduras en un molde rectangular.",
+        "Cubre con el caldo gelificado y prensa ligeramente.",
+        "Refrigera 5 horas, desmolda y corta en lonchas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 110,
+        "protein": 13.0,
+        "carbs": 4.0,
+        "sugars": 2.0,
+        "fat": 4.5,
+        "sat_fat": 1.3,
+        "fiber": 1.2,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 91.67,
+        "protein": 10.83,
+        "carbs": 3.33,
+        "sugars": 1.67,
+        "fat": 3.75,
+        "sat_fat": 1.08,
+        "fiber": 1.0,
+        "salt": 0.5
+      },
+      "estimated_serving_g": 120,
+      "keywords": [
+        "terrina pollo",
+        "fiambre casero",
+        "verduras",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Terrina de salmón ahumado",
+      "slug": "terrina-de-salmon-ahumado",
+      "seo_title": "Terrina de salmón ahumado | Receta con gelatina neutra RAIAN",
+      "meta_description": "Terrina de salmón ahumado con gelatina neutra. Entrante premium fino y elegante para fiestas.",
+      "intro": "Una terrina elegante de salmón ahumado y crema gelificada con gelatina neutra, ideal como entrante premium.",
+      "servings": 10,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 0,
+        "rest_min": 300,
+        "total_min": 335
+      },
+      "allergens": [
+        "Pescado",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Salmón ahumado",
+          "g": 300,
+          "key": "salmon"
+        },
+        {
+          "name": "Queso crema",
+          "g": 250,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Eneldo y limón",
+          "g": 20,
+          "key": "eneldo"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de nata fría frío durante 5 minutos hasta que se hinche.",
+        "Bate el queso crema con la nata, el eneldo y el limón.",
+        "Disuelve la gelatina hidratada en un poco de nata templada e incorpórala.",
+        "Forra un molde con salmón ahumado y rellena con la crema.",
+        "Refrigera 5 horas, desmolda y corta en porciones."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 230,
+        "protein": 10.0,
+        "carbs": 3.0,
+        "sugars": 2.0,
+        "fat": 20.0,
+        "sat_fat": 11.0,
+        "fiber": 0.0,
+        "salt": 0.9
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 230.0,
+        "protein": 10.0,
+        "carbs": 3.0,
+        "sugars": 2.0,
+        "fat": 20.0,
+        "sat_fat": 11.0,
+        "fiber": 0.0,
+        "salt": 0.9
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "terrina salmon",
+        "entrante premium",
+        "salmon ahumado",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Mousse salada de salmón",
+      "slug": "mousse-salada-de-salmon",
+      "seo_title": "Mousse salada de salmón | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse salada de salmón con gelatina neutra. Aperitivo premium cremoso para canapés.",
+      "intro": "Una mousse salada y aireada de salmón estabilizada con gelatina neutra, perfecta para canapés.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 205
+      },
+      "allergens": [
+        "Pescado",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Salmón ahumado",
+          "g": 200,
+          "key": "salmon"
+        },
+        {
+          "name": "Queso crema",
+          "g": 200,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura el salmón con el queso crema y el limón.",
+        "Disuelve la gelatina hidratada en un poco de nata templada e incorpórala.",
+        "Monta el resto de la nata y mézclala con suavidad.",
+        "Reparte en moldes o vasitos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 200,
+        "protein": 9.0,
+        "carbs": 2.0,
+        "sugars": 1.5,
+        "fat": 17.0,
+        "sat_fat": 10.0,
+        "fiber": 0.0,
+        "salt": 0.85
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 250.0,
+        "protein": 11.25,
+        "carbs": 2.5,
+        "sugars": 1.88,
+        "fat": 21.25,
+        "sat_fat": 12.5,
+        "fiber": 0.0,
+        "salt": 1.06
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "mousse salmon",
+        "canapes",
+        "aperitivo premium",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "familiar",
+      "title": "Mousse de atún para canapés",
+      "slug": "mousse-de-atun-para-canapes",
+      "seo_title": "Mousse de atún para canapés | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse de atún para canapés con gelatina neutra. Aperitivo cremoso, fácil y económico.",
+      "intro": "Una mousse de atún cremosa y aireada, estabilizada con gelatina neutra, perfecta para canapés.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Pescado",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Atún en conserva escurrido",
+          "g": 200,
+          "key": "atun"
+        },
+        {
+          "name": "Queso crema",
+          "g": 150,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 120,
+          "key": "nata"
+        },
+        {
+          "name": "Mayonesa",
+          "g": 50,
+          "key": "mayonesa"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura el atún con el queso crema y la mayonesa.",
+        "Disuelve la gelatina hidratada en un poco de nata templada e incorpórala.",
+        "Monta el resto de la nata e intégrala con suavidad.",
+        "Reparte en un molde y refrigera 3 horas hasta cuajar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 195,
+        "protein": 10.0,
+        "carbs": 2.0,
+        "sugars": 1.0,
+        "fat": 16.0,
+        "sat_fat": 8.0,
+        "fiber": 0.0,
+        "salt": 0.7
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 243.75,
+        "protein": 12.5,
+        "carbs": 2.5,
+        "sugars": 1.25,
+        "fat": 20.0,
+        "sat_fat": 10.0,
+        "fiber": 0.0,
+        "salt": 0.88
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "mousse atun",
+        "canapes",
+        "aperitivo",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Paté de pollo estabilizado",
+      "slug": "pate-de-pollo-estabilizado",
+      "seo_title": "Paté de pollo estabilizado | Receta con gelatina neutra RAIAN",
+      "meta_description": "Paté de pollo estabilizado con gelatina neutra. Untable casero firme y de larga conservación.",
+      "intro": "Un paté de pollo casero, cremoso pero firme gracias a la gelatina neutra, ideal para untar.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 12,
+        "rest_min": 240,
+        "total_min": 282
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Hígados o pechuga de pollo cocida",
+          "g": 350,
+          "key": "pollo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 120,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Cebolla pochada",
+          "g": 80,
+          "key": "cebolla"
+        },
+        {
+          "name": "Caldo de pollo",
+          "g": 100,
+          "key": "caldo_pollo"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Tritura el pollo con la mantequilla y la cebolla pochada.",
+        "Calienta el caldo y disuelve la gelatina hidratada.",
+        "Incorpora el caldo gelificado al paté y mezcla bien.",
+        "Vierte en un molde o terrina y refrigera 4 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 215,
+        "protein": 11.0,
+        "carbs": 2.0,
+        "sugars": 1.0,
+        "fat": 18.0,
+        "sat_fat": 9.5,
+        "fiber": 0.3,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 307.14,
+        "protein": 15.71,
+        "carbs": 2.86,
+        "sugars": 1.43,
+        "fat": 25.71,
+        "sat_fat": 13.57,
+        "fiber": 0.43,
+        "salt": 0.79
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "pate pollo",
+        "untable casero",
+        "terrina",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Gelatina de tomate para ensaladas",
+      "slug": "gelatina-de-tomate-para-ensaladas",
+      "seo_title": "Gelatina de tomate para ensaladas | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de tomate para ensaladas con gelatina neutra. Topping fresco, ligero y original.",
+      "intro": "Cubos de gelatina de tomate natural para dar un toque original y ligero a tus ensaladas, con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de tomate natural",
+          "g": 450,
+          "key": "tomate"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal y albahaca",
+          "g": 5,
+          "key": "albahaca"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de zumo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del zumo de tomate con la sal y la albahaca.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del zumo y el aceite y vierte en un recipiente plano.",
+        "Refrigera 3 horas, corta en cubos y añade a las ensaladas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 55,
+        "protein": 3.0,
+        "carbs": 4.0,
+        "sugars": 3.5,
+        "fat": 3.0,
+        "sat_fat": 0.5,
+        "fiber": 0.8,
+        "salt": 0.5
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 84.62,
+        "protein": 4.62,
+        "carbs": 6.15,
+        "sugars": 5.38,
+        "fat": 4.62,
+        "sat_fat": 0.77,
+        "fiber": 1.23,
+        "salt": 0.77
+      },
+      "estimated_serving_g": 65,
+      "keywords": [
+        "gelatina tomate",
+        "ensaladas",
+        "topping",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Cubos de gazpacho gelificado",
+      "slug": "cubos-de-gazpacho-gelificado",
+      "seo_title": "Cubos de gazpacho gelificado | Receta con gelatina neutra RAIAN",
+      "meta_description": "Cubos de gazpacho gelificado con gelatina neutra. Aperitivo frío, ligero y refrescante.",
+      "intro": "Cubos de gazpacho andaluz gelificado con gelatina neutra, un aperitivo refrescante y sorprendente.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 205
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Gazpacho",
+          "g": 500,
+          "key": "gazpacho"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 15,
+          "key": "aceite"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de gazpacho frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del gazpacho sin que hierva.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del gazpacho y el aceite y vierte en un recipiente plano.",
+        "Refrigera 3 horas y corta en cubos para servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 60,
+        "protein": 3.0,
+        "carbs": 4.0,
+        "sugars": 3.0,
+        "fat": 3.5,
+        "sat_fat": 0.5,
+        "fiber": 1.0,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 92.31,
+        "protein": 4.62,
+        "carbs": 6.15,
+        "sugars": 4.62,
+        "fat": 5.38,
+        "sat_fat": 0.77,
+        "fiber": 1.54,
+        "salt": 0.85
+      },
+      "estimated_serving_g": 65,
+      "keywords": [
+        "gazpacho gelificado",
+        "aperitivo frio",
+        "refrescante",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Gelée de caldo para ramen o sopas",
+      "slug": "gelee-de-caldo-para-ramen-o-sopas",
+      "seo_title": "Gelée de caldo para ramen o sopas | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelée de caldo para ramen o sopas con gelatina neutra. Topping umami que se funde al servir.",
+      "intro": "Cubos de caldo umami gelificado con gelatina neutra que se funden sobre el ramen o las sopas calientes.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Caldo dashi o de pollo concentrado",
+          "g": 450,
+          "key": "caldo_pollo"
+        },
+        {
+          "name": "Salsa de soja",
+          "g": 30,
+          "key": "soja"
+        },
+        {
+          "name": "Jengibre",
+          "g": 10,
+          "key": "jengibre"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del caldo con la soja y el jengibre.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del caldo y vierte en un recipiente plano.",
+        "Refrigera 3 horas, corta en cubos y añádelos al ramen caliente al servir."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 40,
+        "protein": 5.0,
+        "carbs": 2.0,
+        "sugars": 1.0,
+        "fat": 0.5,
+        "sat_fat": 0.1,
+        "fiber": 0.0,
+        "salt": 0.9
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 66.67,
+        "protein": 8.33,
+        "carbs": 3.33,
+        "sugars": 1.67,
+        "fat": 0.83,
+        "sat_fat": 0.17,
+        "fiber": 0.0,
+        "salt": 1.5
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "gelee caldo",
+        "ramen",
+        "umami",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Gelatina de vino Pedro Ximénez para foie o queso",
+      "slug": "gelatina-de-vino-pedro-ximenez-para-foie-o-queso",
+      "seo_title": "Gelatina de vino Pedro Ximénez para foie o queso | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de Pedro Ximénez para foie o queso con gelatina neutra. Acompañamiento gourmet dulce.",
+      "intro": "Una gelatina de vino Pedro Ximénez, dulce e intensa, para acompañar foie o quesos, con gelatina neutra.",
+      "servings": 10,
+      "times": {
+        "prep_min": 12,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 197
+      },
+      "allergens": [
+        "Sulfitos"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Vino Pedro Ximénez",
+          "g": 350,
+          "key": "px"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta el vino con el azúcar sin que hierva del todo.",
+        "Disuelve la gelatina hidratada.",
+        "Vierte en un recipiente plano.",
+        "Refrigera 3 horas, corta en cubos y sirve sobre foie o queso."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 90,
+        "protein": 2.0,
+        "carbs": 12.0,
+        "sugars": 11.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 180.0,
+        "protein": 4.0,
+        "carbs": 24.0,
+        "sugars": 22.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.0,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 50,
+      "keywords": [
+        "gelatina pedro ximenez",
+        "foie",
+        "queso",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina de manzana para quesos",
+      "slug": "gelatina-de-manzana-para-quesos",
+      "seo_title": "Gelatina de manzana para quesos | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de manzana para tablas de queso con gelatina neutra. Acompañamiento dulce y afrutado.",
+      "intro": "Una gelatina translúcida de manzana para acompañar tablas de queso, elaborada con gelatina neutra.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de manzana",
+          "g": 400,
+          "key": "zumo_manzana"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 11,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de zumo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del zumo con el azúcar y el limón.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del zumo y vierte en un recipiente plano.",
+        "Refrigera 3 horas, corta en porciones y sirve con queso."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 70,
+        "protein": 2.0,
+        "carbs": 15.0,
+        "sugars": 14.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 127.27,
+        "protein": 3.64,
+        "carbs": 27.27,
+        "sugars": 25.45,
+        "fat": 0.18,
+        "sat_fat": 0.0,
+        "fiber": 0.18,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "gelatina manzana",
+        "tabla de quesos",
+        "afrutado",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina de soja y jengibre para cocina asiática",
+      "slug": "gelatina-de-soja-y-jengibre-para-cocina-asiatica",
+      "seo_title": "Gelatina de soja y jengibre para cocina asiática | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de soja y jengibre con gelatina neutra. Acompañamiento umami para platos asiáticos.",
+      "intro": "Una gelatina sabrosa de soja y jengibre para acompañar platos asiáticos, elaborada con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Salsa de soja",
+          "g": 100,
+          "key": "soja"
+        },
+        {
+          "name": "Agua",
+          "g": 350,
+          "key": "agua"
+        },
+        {
+          "name": "Jengibre",
+          "g": 20,
+          "key": "jengibre"
+        },
+        {
+          "name": "Vinagre de arroz",
+          "g": 20,
+          "key": "vinagre_arroz"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Calienta el agua con la soja, el jengibre y el vinagre.",
+        "Disuelve la gelatina hidratada.",
+        "Cuela y vierte en un recipiente plano.",
+        "Refrigera 3 horas y corta en cubos para acompañar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 35,
+        "protein": 4.0,
+        "carbs": 3.0,
+        "sugars": 1.5,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 1.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 58.33,
+        "protein": 6.67,
+        "carbs": 5.0,
+        "sugars": 2.5,
+        "fat": 0.33,
+        "sat_fat": 0.0,
+        "fiber": 0.17,
+        "salt": 2.33
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "gelatina soja jengibre",
+        "cocina asiatica",
+        "umami",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Mousse de queso azul",
+      "slug": "mousse-de-queso-azul",
+      "seo_title": "Mousse de queso azul | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse de queso azul con gelatina neutra. Aperitivo premium cremoso e intenso.",
+      "intro": "Una mousse intensa de queso azul, aireada y estabilizada con gelatina neutra, para los paladares más exigentes.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Queso azul",
+          "g": 150,
+          "key": "queso_azul"
+        },
+        {
+          "name": "Queso crema",
+          "g": 150,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 8,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura el queso azul con el queso crema.",
+        "Disuelve la gelatina hidratada en un poco de nata templada e incorpórala.",
+        "Monta el resto de la nata e intégrala con suavidad.",
+        "Reparte en vasitos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 235,
+        "protein": 8.0,
+        "carbs": 2.0,
+        "sugars": 1.5,
+        "fat": 21.0,
+        "sat_fat": 13.0,
+        "fiber": 0.0,
+        "salt": 0.9
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 313.33,
+        "protein": 10.67,
+        "carbs": 2.67,
+        "sugars": 2.0,
+        "fat": 28.0,
+        "sat_fat": 17.33,
+        "fiber": 0.0,
+        "salt": 1.2
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "mousse queso azul",
+        "aperitivo premium",
+        "cremoso",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "fitness",
+      "title": "Mousse de aguacate y lima",
+      "slug": "mousse-de-aguacate-y-lima",
+      "seo_title": "Mousse de aguacate y lima | Receta con gelatina neutra RAIAN",
+      "meta_description": "Mousse de aguacate y lima con gelatina neutra. Aperitivo fresco, saludable y cremoso.",
+      "intro": "Una mousse fresca y saludable de aguacate y lima, estabilizada con gelatina neutra.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 0,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Aguacate maduro",
+          "g": 250,
+          "key": "aguacate"
+        },
+        {
+          "name": "Nata para montar",
+          "g": 120,
+          "key": "nata"
+        },
+        {
+          "name": "Zumo de lima",
+          "g": 30,
+          "key": "lima"
+        },
+        {
+          "name": "Sal y cilantro",
+          "g": 5,
+          "key": "cilantro"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 7,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de agua fría frío durante 5 minutos hasta que se hinche.",
+        "Tritura el aguacate con la lima, la sal y el cilantro.",
+        "Disuelve la gelatina hidratada en un poco de nata templada e incorpórala.",
+        "Monta el resto de la nata e intégrala con suavidad.",
+        "Reparte en vasitos y refrigera 3 horas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 165,
+        "protein": 2.5,
+        "carbs": 4.0,
+        "sugars": 1.5,
+        "fat": 16.0,
+        "sat_fat": 6.0,
+        "fiber": 3.0,
+        "salt": 0.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 220.0,
+        "protein": 3.33,
+        "carbs": 5.33,
+        "sugars": 2.0,
+        "fat": 21.33,
+        "sat_fat": 8.0,
+        "fiber": 4.0,
+        "salt": 0.53
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "mousse aguacate",
+        "lima",
+        "aperitivo saludable",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Terrina de verduras asadas",
+      "slug": "terrina-de-verduras-asadas",
+      "seo_title": "Terrina de verduras asadas | Receta con gelatina neutra RAIAN",
+      "meta_description": "Terrina de verduras asadas con gelatina neutra. Plato frío vegetariano colorido y ligero.",
+      "intro": "Una terrina vegetariana de verduras asadas en capas, gelificada con gelatina neutra, colorida y ligera.",
+      "servings": 10,
+      "times": {
+        "prep_min": 40,
+        "cook_min": 15,
+        "rest_min": 300,
+        "total_min": 355
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Verduras asadas (pimiento, calabacín, berenjena)",
+          "g": 500,
+          "key": "verduras"
+        },
+        {
+          "name": "Caldo de verduras",
+          "g": 400,
+          "key": "caldo_verduras"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 15,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Asa las verduras, pélalas y córtalas en tiras.",
+        "Hidrata la gelatina neutra en 4 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta el caldo con el aceite y disuelve la gelatina hidratada.",
+        "Coloca las verduras en capas en un molde rectangular y cubre con el caldo.",
+        "Refrigera 5 horas, desmolda y corta en lonchas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 80,
+        "protein": 2.5,
+        "carbs": 6.0,
+        "sugars": 4.0,
+        "fat": 4.5,
+        "sat_fat": 0.7,
+        "fiber": 2.5,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 66.67,
+        "protein": 2.08,
+        "carbs": 5.0,
+        "sugars": 3.33,
+        "fat": 3.75,
+        "sat_fat": 0.58,
+        "fiber": 2.08,
+        "salt": 0.46
+      },
+      "estimated_serving_g": 120,
+      "keywords": [
+        "terrina verduras asadas",
+        "vegetariano",
+        "plato frio",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina de caldo de jamón",
+      "slug": "gelatina-de-caldo-de-jamon",
+      "seo_title": "Gelatina de caldo de jamón | Receta con gelatina neutra RAIAN",
+      "meta_description": "Gelatina de caldo de jamón con gelatina neutra. Bocado umami intenso para tapas y aperitivos.",
+      "intro": "Una gelatina de caldo de jamón con todo el sabor umami, elaborada con gelatina neutra para tapas.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Caldo de jamón concentrado",
+          "g": 450,
+          "key": "caldo_jamon"
+        },
+        {
+          "name": "Jerez seco",
+          "g": 30,
+          "key": "jerez"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 12,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del caldo con el jerez.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del caldo y vierte en un recipiente plano.",
+        "Refrigera 3 horas y corta en cubos para tapas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 45,
+        "protein": 6.0,
+        "carbs": 1.0,
+        "sugars": 0.5,
+        "fat": 1.0,
+        "sat_fat": 0.3,
+        "fiber": 0.0,
+        "salt": 1.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 75.0,
+        "protein": 10.0,
+        "carbs": 1.67,
+        "sugars": 0.83,
+        "fat": 1.67,
+        "sat_fat": 0.5,
+        "fiber": 0.0,
+        "salt": 1.83
+      },
+      "estimated_serving_g": 60,
+      "keywords": [
+        "gelatina caldo jamon",
+        "tapas",
+        "umami",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "casera",
+      "title": "Cubos de caldo gelificado para salsas rápidas",
+      "slug": "cubos-de-caldo-gelificado-para-salsas-rapidas",
+      "seo_title": "Cubos de caldo gelificado para salsas rápidas | Receta con gelatina neutra RAIAN",
+      "meta_description": "Cubos de caldo gelificado con gelatina neutra. Base concentrada para salsas rápidas caseras.",
+      "intro": "Cubos de caldo concentrado y gelificado con gelatina neutra, una base práctica para salsas rápidas.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 200
+      },
+      "allergens": [
+        "Apio"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Caldo concentrado",
+          "g": 500,
+          "key": "caldo_pollo"
+        },
+        {
+          "name": "Vino blanco",
+          "g": 50,
+          "key": "vino_blanco"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 14,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 4 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Calienta una parte del caldo con el vino blanco.",
+        "Disuelve la gelatina hidratada.",
+        "Mezcla con el resto del caldo y vierte en cubiteras.",
+        "Refrigera 3 horas, desmolda y conserva en frío para usar en salsas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 35,
+        "protein": 4.5,
+        "carbs": 1.0,
+        "sugars": 0.5,
+        "fat": 0.5,
+        "sat_fat": 0.1,
+        "fiber": 0.0,
+        "salt": 0.8
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 63.64,
+        "protein": 8.18,
+        "carbs": 1.82,
+        "sugars": 0.91,
+        "fat": 0.91,
+        "sat_fat": 0.18,
+        "fiber": 0.0,
+        "salt": 1.45
+      },
+      "estimated_serving_g": 55,
+      "keywords": [
+        "cubos caldo",
+        "salsas rapidas",
+        "base de cocina",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "premium",
+      "title": "Timbal frío de marisco",
+      "slug": "timbal-frio-de-marisco",
+      "seo_title": "Timbal frío de marisco | Receta con gelatina neutra RAIAN",
+      "meta_description": "Timbal frío de marisco con gelatina neutra. Entrante premium elegante y refrescante.",
+      "intro": "Un timbal frío de marisco ligado con una fina gelatina neutra, un entrante premium muy elegante.",
+      "servings": 8,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 10,
+        "rest_min": 240,
+        "total_min": 285
+      },
+      "allergens": [
+        "Crustáceos",
+        "Pescado",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Marisco cocido (gambas, surimi)",
+          "g": 300,
+          "key": "marisco"
+        },
+        {
+          "name": "Aguacate",
+          "g": 100,
+          "key": "aguacate"
+        },
+        {
+          "name": "Mayonesa suave",
+          "g": 80,
+          "key": "mayonesa"
+        },
+        {
+          "name": "Caldo de pescado",
+          "g": 250,
+          "key": "caldo_pescado"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Mezcla el marisco troceado con el aguacate y la mayonesa.",
+        "Calienta el caldo de pescado y disuelve la gelatina hidratada.",
+        "Incorpora el caldo gelificado templado a la mezcla y reparte en moldes individuales.",
+        "Refrigera 4 horas, desmolda y sirve frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 175,
+        "protein": 11.0,
+        "carbs": 3.0,
+        "sugars": 1.0,
+        "fat": 13.0,
+        "sat_fat": 2.5,
+        "fiber": 1.0,
+        "salt": 0.85
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 194.44,
+        "protein": 12.22,
+        "carbs": 3.33,
+        "sugars": 1.11,
+        "fat": 14.44,
+        "sat_fat": 2.78,
+        "fiber": 1.11,
+        "salt": 0.94
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "timbal marisco",
+        "entrante premium",
+        "frio",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    },
+    {
+      "category": "familiar",
+      "title": "Ensaladilla moldeada con gelatina ligera",
+      "slug": "ensaladilla-moldeada-con-gelatina-ligera",
+      "seo_title": "Ensaladilla moldeada con gelatina ligera | Receta con gelatina neutra RAIAN",
+      "meta_description": "Ensaladilla moldeada con gelatina ligera y gelatina neutra. Plato frío vistoso que mantiene la forma.",
+      "intro": "Una ensaladilla rusa moldeada y ligada con una gelatina ligera de gelatina neutra para que mantenga su forma.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 10,
+        "rest_min": 240,
+        "total_min": 280
+      },
+      "allergens": [
+        "Huevo",
+        "Pescado"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Patata y zanahoria cocidas",
+          "g": 350,
+          "key": "patata"
+        },
+        {
+          "name": "Atún",
+          "g": 120,
+          "key": "atun"
+        },
+        {
+          "name": "Guisantes",
+          "g": 80,
+          "key": "guisantes"
+        },
+        {
+          "name": "Mayonesa",
+          "g": 150,
+          "key": "mayonesa"
+        },
+        {
+          "name": "Caldo de verduras",
+          "g": 150,
+          "key": "caldo_verduras"
+        },
+        {
+          "name": "Gelatina neutra en polvo",
+          "g": 10,
+          "key": "gelatina_neutra"
+        }
+      ],
+      "steps": [
+        "Hidrata la gelatina neutra en 3 cucharadas de caldo frío frío durante 5 minutos hasta que se hinche.",
+        "Mezcla las patatas, la zanahoria, el atún y los guisantes con la mayonesa.",
+        "Calienta el caldo y disuelve la gelatina hidratada.",
+        "Incorpora el caldo gelificado templado a la ensaladilla y reparte en un molde.",
+        "Refrigera 4 horas, desmolda y corta en porciones."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 195,
+        "protein": 7.0,
+        "carbs": 12.0,
+        "sugars": 2.5,
+        "fat": 13.0,
+        "sat_fat": 2.0,
+        "fiber": 2.0,
+        "salt": 0.65
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 177.27,
+        "protein": 6.36,
+        "carbs": 10.91,
+        "sugars": 2.27,
+        "fat": 11.82,
+        "sat_fat": 1.82,
+        "fiber": 1.82,
+        "salt": 0.59
+      },
+      "estimated_serving_g": 110,
+      "keywords": [
+        "ensaladilla moldeada",
+        "plato frio",
+        "rusa",
+        "gelatina neutra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+    }
+  ]
+}
