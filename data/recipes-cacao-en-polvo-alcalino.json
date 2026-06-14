@@ -20,7 +20,12 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["fitness", "premium", "familiar", "casera"],
+    "categories": [
+      "fitness",
+      "premium",
+      "familiar",
+      "casera"
+    ],
     "nutrition_fields_required_eu": [
       "valor energético kJ/kcal",
       "grasas",
@@ -52,17 +57,53 @@
         "rest_min": 30,
         "total_min": 64
       },
-      "allergens": ["Huevo", "Leche", "Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Leche",
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Mantequilla sin sal", "g": 120, "key": "mantequilla" },
-        { "name": "Azúcar moreno", "g": 150, "key": "azucar" },
-        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 60, "key": "cacao" },
-        { "name": "Huevos", "g": 100, "key": "huevos" },
-        { "name": "Harina de almendra", "g": 60, "key": "harina_almendra" },
-        { "name": "Extracto de vainilla", "g": 5, "key": "vainilla" },
-        { "name": "Nueces troceadas", "g": 80, "key": "nueces" },
-        { "name": "Pizca de sal", "g": 2, "key": "sal" }
+        {
+          "name": "Mantequilla sin sal",
+          "g": 120,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar moreno",
+          "g": 150,
+          "key": "azucar"
+        },
+        {
+          "name": "Cacao en polvo alcalino RAIAN 22/24",
+          "g": 60,
+          "key": "cacao"
+        },
+        {
+          "name": "Huevos",
+          "g": 100,
+          "key": "huevos"
+        },
+        {
+          "name": "Harina de almendra",
+          "g": 60,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Nueces troceadas",
+          "g": 80,
+          "key": "nueces"
+        },
+        {
+          "name": "Pizca de sal",
+          "g": 2,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Precalienta el horno a 175°C. Forra un molde cuadrado de 20 cm con papel de horno.",
@@ -94,8 +135,13 @@
         "salt": 0.26
       },
       "estimated_serving_g": 65,
-      "keywords": ["brownie de cacao alcalino", "brownie casero húmedo", "brownie sin gluten"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "brownie de cacao alcalino",
+        "brownie casero húmedo",
+        "brownie sin gluten"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "image": "/images/recipes/brownie-humedo-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -111,16 +157,48 @@
         "rest_min": 60,
         "total_min": 85
       },
-      "allergens": ["Huevo", "Leche", "Gluten"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Leche",
+        "Gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Chocolate negro 70% cacao", "g": 120, "key": "chocolate" },
-        { "name": "Mantequilla sin sal", "g": 80, "key": "mantequilla" },
-        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 20, "key": "cacao" },
-        { "name": "Huevos", "g": 100, "key": "huevos" },
-        { "name": "Yemas de huevo", "g": 40, "key": "yemas" },
-        { "name": "Azúcar", "g": 60, "key": "azucar" },
-        { "name": "Harina de trigo", "g": 25, "key": "harina" }
+        {
+          "name": "Chocolate negro 70% cacao",
+          "g": 120,
+          "key": "chocolate"
+        },
+        {
+          "name": "Mantequilla sin sal",
+          "g": 80,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Cacao en polvo alcalino RAIAN 22/24",
+          "g": 20,
+          "key": "cacao"
+        },
+        {
+          "name": "Huevos",
+          "g": 100,
+          "key": "huevos"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 40,
+          "key": "yemas"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Harina de trigo",
+          "g": 25,
+          "key": "harina"
+        }
       ],
       "steps": [
         "Funde el chocolate negro con la mantequilla al baño maría o en microondas en intervalos de 20 segundos. Deja templar.",
@@ -152,8 +230,13 @@
         "salt": 0.23
       },
       "estimated_serving_g": 111,
-      "keywords": ["coulant de chocolate", "fondant de chocolate", "postre premium de cacao"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "coulant de chocolate",
+        "fondant de chocolate",
+        "postre premium de cacao"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "image": "/images/recipes/coulant-de-chocolate-con-cacao-alcalino.webp"
     },
     {
       "category": "casera",
@@ -169,15 +252,42 @@
         "rest_min": 240,
         "total_min": 260
       },
-      "allergens": ["Leche", "Gluten"],
-      "image_available": false,
+      "allergens": [
+        "Leche",
+        "Gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Galletas tipo María", "g": 200, "key": "galletas" },
-        { "name": "Mantequilla fundida", "g": 80, "key": "mantequilla" },
-        { "name": "Nata líquida 35% MG", "g": 300, "key": "nata" },
-        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 50, "key": "cacao" },
-        { "name": "Azúcar glas", "g": 60, "key": "azucar_glas" },
-        { "name": "Queso mascarpone", "g": 150, "key": "mascarpone" }
+        {
+          "name": "Galletas tipo María",
+          "g": 200,
+          "key": "galletas"
+        },
+        {
+          "name": "Mantequilla fundida",
+          "g": 80,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 300,
+          "key": "nata"
+        },
+        {
+          "name": "Cacao en polvo alcalino RAIAN 22/24",
+          "g": 50,
+          "key": "cacao"
+        },
+        {
+          "name": "Azúcar glas",
+          "g": 60,
+          "key": "azucar_glas"
+        },
+        {
+          "name": "Queso mascarpone",
+          "g": 150,
+          "key": "mascarpone"
+        }
       ],
       "steps": [
         "Tritura las galletas y mézclalas con la mantequilla fundida hasta obtener una arena húmeda.",
@@ -209,8 +319,13 @@
         "salt": 0.36
       },
       "estimated_serving_g": 130,
-      "keywords": ["bizcocho de cacao sin horno", "tarta de chocolate no-bake", "postre de cacao frío"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "bizcocho de cacao sin horno",
+        "tarta de chocolate no-bake",
+        "postre de cacao frío"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "image": "/images/recipes/bizcocho-de-cacao-sin-horno.webp"
     },
     {
       "category": "familiar",
@@ -226,15 +341,41 @@
         "rest_min": 10,
         "total_min": 34
       },
-      "allergens": ["Gluten"],
-      "image_available": false,
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Copos de avena", "g": 180, "key": "avena" },
-        { "name": "Plátano maduro", "g": 200, "key": "platano" },
-        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 25, "key": "cacao" },
-        { "name": "Miel", "g": 30, "key": "miel" },
-        { "name": "Aceite de coco fundido", "g": 20, "key": "aceite_coco" },
-        { "name": "Canela molida", "g": 2, "key": "canela" }
+        {
+          "name": "Copos de avena",
+          "g": 180,
+          "key": "avena"
+        },
+        {
+          "name": "Plátano maduro",
+          "g": 200,
+          "key": "platano"
+        },
+        {
+          "name": "Cacao en polvo alcalino RAIAN 22/24",
+          "g": 25,
+          "key": "cacao"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Aceite de coco fundido",
+          "g": 20,
+          "key": "aceite_coco"
+        },
+        {
+          "name": "Canela molida",
+          "g": 2,
+          "key": "canela"
+        }
       ],
       "steps": [
         "Precalienta el horno a 180°C. Forra una bandeja con papel de horno.",
@@ -266,8 +407,13 @@
         "salt": 0.07
       },
       "estimated_serving_g": 38,
-      "keywords": ["galletas de avena y cacao", "galletas sin azúcar familiar", "galletas fitness de cacao"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "galletas de avena y cacao",
+        "galletas sin azúcar familiar",
+        "galletas fitness de cacao"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "image": "/images/recipes/galletas-de-avena-y-cacao-alcalino.webp"
     },
     {
       "category": "casera",
@@ -283,15 +429,42 @@
         "rest_min": 30,
         "total_min": 45
       },
-      "allergens": ["Frutos de cáscara", "Leche"],
-      "image_available": false,
+      "allergens": [
+        "Frutos de cáscara",
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Avellanas tostadas sin sal", "g": 200, "key": "avellanas" },
-        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 30, "key": "cacao" },
-        { "name": "Azúcar glas", "g": 50, "key": "azucar_glas" },
-        { "name": "Leche entera", "g": 30, "key": "leche" },
-        { "name": "Aceite de girasol", "g": 20, "key": "aceite_girasol" },
-        { "name": "Pizca de sal", "g": 1, "key": "sal" }
+        {
+          "name": "Avellanas tostadas sin sal",
+          "g": 200,
+          "key": "avellanas"
+        },
+        {
+          "name": "Cacao en polvo alcalino RAIAN 22/24",
+          "g": 30,
+          "key": "cacao"
+        },
+        {
+          "name": "Azúcar glas",
+          "g": 50,
+          "key": "azucar_glas"
+        },
+        {
+          "name": "Leche entera",
+          "g": 30,
+          "key": "leche"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 20,
+          "key": "aceite_girasol"
+        },
+        {
+          "name": "Pizca de sal",
+          "g": 1,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Tuesta ligeramente las avellanas en una sartén seca si no vienen tostadas. Deja enfriar.",
@@ -322,8 +495,13 @@
         "salt": 0.25
       },
       "estimated_serving_g": 28,
-      "keywords": ["crema de cacao casera", "crema de avellana y cacao", "crema de chocolate sin aceite de palma"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "crema de cacao casera",
+        "crema de avellana y cacao",
+        "crema de chocolate sin aceite de palma"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "image": "/images/recipes/crema-de-cacao-casera-tipo-avellana.webp"
     },
     {
       "category": "fitness",
@@ -340,13 +518,33 @@
         "total_min": 5
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche de avena", "g": 250, "key": "leche_avena" },
-        { "name": "Cacao en polvo alcalino RAIAN 22/24", "g": 15, "key": "cacao" },
-        { "name": "Frutos rojos congelados (frambuesas, arándanos)", "g": 120, "key": "frutos_rojos" },
-        { "name": "Plátano maduro congelado", "g": 80, "key": "platano" },
-        { "name": "Dátil Medjool deshuesado", "g": 20, "key": "datil" }
+        {
+          "name": "Leche de avena",
+          "g": 250,
+          "key": "leche_avena"
+        },
+        {
+          "name": "Cacao en polvo alcalino RAIAN 22/24",
+          "g": 15,
+          "key": "cacao"
+        },
+        {
+          "name": "Frutos rojos congelados (frambuesas, arándanos)",
+          "g": 120,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Plátano maduro congelado",
+          "g": 80,
+          "key": "platano"
+        },
+        {
+          "name": "Dátil Medjool deshuesado",
+          "g": 20,
+          "key": "datil"
+        }
       ],
       "steps": [
         "Coloca todos los ingredientes en el vaso de la batidora.",
@@ -375,8 +573,13 @@
         "salt": 0.09
       },
       "estimated_serving_g": 485,
-      "keywords": ["smoothie de cacao y frutos rojos", "batido de cacao fitness", "batido de chocolate alcalino"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "smoothie de cacao y frutos rojos",
+        "batido de cacao fitness",
+        "batido de chocolate alcalino"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "image": "/images/recipes/smoothie-de-cacao-alcalino-y-frutos-rojos.webp"
     }
   ]
 }
