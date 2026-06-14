@@ -125,30 +125,19 @@ const productIngredientTerms: Record<string, string[]> = {
   "gelatina-neutra-bovina": [
     "gelatina neutra bovina",
     "gelatina bovina neutra",
-    "gelatina bovina"
+    "gelatina bovina",
+    "gelatina neutra en polvo",
+    "gelatina neutra",
+    "gelatina en polvo"
   ],
   "gelatina-neutra-porcina": [
     "gelatina neutra porcina",
     "gelatina porcina neutra",
-    "gelatina porcina"
-  ],
-  "harina-de-almendra": ["harina de almendra", "almendra molida", "base de almendra"],
-  dextrosa: ["dextrosa"],
-  glucosa: ["glucosa"],
-  "chocolate-a-la-taza": ["chocolate a la taza raian", "preparado de chocolate"],
-  maltodextrina: ["maltodextrina"],
-  "cacao-en-polvo-alcalino": [
-    "cacao en polvo alcalino",
-    "cacao alcalino",
-    "cacao 22/24",
-    "cacao raian",
-    "cacao en polvo",
-    "cacao"
-  ],
-  "caseina-pura-neutra": ["caseína pura", "caseina pura", "caseína neutra", "caseina neutra"],
-  "inulina-de-agave": ["inulina de agave", "inulina raian"],
-  "pistacho-puro-en-grano": ["pistacho puro en grano", "pistacho raian", "pistacho en grano"],
-  "lecitina-de-soja": ["lecitina de soja raian", "lecitina de soja"]
+    "gelatina porcina",
+    "gelatina neutra en polvo",
+    "gelatina neutra",
+    "gelatina en polvo"
+  ]
 };
 
 const normalizeText = (value: string) =>

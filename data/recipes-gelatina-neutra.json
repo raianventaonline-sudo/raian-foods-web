@@ -1,7 +1,11 @@
 {
   "brand": "RAIAN Foods",
-  "product_slug": "gelatina-neutra",
-  "product": "Gelatina neutra en polvo",
+  "product_slug": "gelatina-neutra-bovina",
+  "product": {
+    "name": "Gelatina neutra en polvo",
+    "dosage_note": "",
+    "technical_note": ""
+  },
   "recipes": [
     {
       "category": "casera",

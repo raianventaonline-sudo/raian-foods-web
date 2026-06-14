@@ -1,7 +1,11 @@
 {
   "brand": "RAIAN Foods",
-  "product_slug": "cobertura",
-  "product": "Cobertura de chocolate negro y blanco",
+  "product_slug": "cobertura-negra",
+  "product": {
+    "name": "Cobertura de chocolate negro y blanco",
+    "dosage_note": "",
+    "technical_note": ""
+  },
   "recipes": [
     {
       "category": "familiar",
