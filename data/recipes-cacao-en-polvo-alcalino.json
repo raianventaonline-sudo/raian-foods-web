@@ -141,7 +141,7 @@
         "brownie sin gluten"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "image": "/images/recipes/brownie-humedo-de-cacao-alcalino-raian.webp"
+      "imagePath": "/images/recipes/brownie-humedo-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -236,7 +236,7 @@
         "postre premium de cacao"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "image": "/images/recipes/coulant-de-chocolate-con-cacao-alcalino.webp"
+      "imagePath": "/images/recipes/coulant-de-chocolate-con-cacao-alcalino.webp"
     },
     {
       "category": "casera",
@@ -325,7 +325,7 @@
         "postre de cacao frío"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "image": "/images/recipes/bizcocho-de-cacao-sin-horno.webp"
+      "imagePath": "/images/recipes/bizcocho-de-cacao-sin-horno.webp"
     },
     {
       "category": "familiar",
@@ -413,7 +413,7 @@
         "galletas fitness de cacao"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "image": "/images/recipes/galletas-de-avena-y-cacao-alcalino.webp"
+      "imagePath": "/images/recipes/galletas-de-avena-y-cacao-alcalino.webp"
     },
     {
       "category": "casera",
@@ -501,7 +501,7 @@
         "crema de chocolate sin aceite de palma"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "image": "/images/recipes/crema-de-cacao-casera-tipo-avellana.webp"
+      "imagePath": "/images/recipes/crema-de-cacao-casera-tipo-avellana.webp"
     },
     {
       "category": "fitness",
@@ -579,7 +579,7 @@
         "batido de chocolate alcalino"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "image": "/images/recipes/smoothie-de-cacao-alcalino-y-frutos-rojos.webp"
+      "imagePath": "/images/recipes/smoothie-de-cacao-alcalino-y-frutos-rojos.webp"
     }
   ]
 }

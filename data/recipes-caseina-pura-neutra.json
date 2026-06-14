@@ -128,7 +128,7 @@
         "proteína lenta"
       ],
       "notes": "Cuanto más madura esté el plátano, más dulce quedará el pudding. Ajusta la miel según preferencia.",
-      "image": "/images/recipes/pudding-nocturno-de-caseina-con-cacao-y-platano.webp"
+      "imagePath": "/images/recipes/pudding-nocturno-de-caseina-con-cacao-y-platano.webp"
     },
     {
       "category": "fitness",
@@ -218,7 +218,7 @@
         "postre fitness"
       ],
       "notes": "Usar yogur griego entero da mejor textura. Si la mousse queda muy líquida, añadir 5 g más de caseína y refrigerar más tiempo.",
-      "image": "/images/recipes/mousse-espesa-de-caseina-con-vainilla-y-frutos-rojos.webp"
+      "imagePath": "/images/recipes/mousse-espesa-de-caseina-con-vainilla-y-frutos-rojos.webp"
     },
     {
       "category": "fitness",
@@ -315,7 +315,7 @@
         "alto proteína"
       ],
       "notes": "Fuego bajo es clave: la caseína se quema más fácil que la harina. La masa será más espesa que los pancakes normales, es la consistencia correcta.",
-      "image": "/images/recipes/pancakes-de-caseina-con-arandanos-y-miel.webp"
+      "imagePath": "/images/recipes/pancakes-de-caseina-con-arandanos-y-miel.webp"
     },
     {
       "category": "casera",
@@ -399,7 +399,7 @@
         "fácil"
       ],
       "notes": "Con fresas congeladas el batido queda más frío y cremoso sin necesitar hielo extra.",
-      "image": "/images/recipes/batido-espeso-de-caseina-con-fresa-y-leche.webp"
+      "imagePath": "/images/recipes/batido-espeso-de-caseina-con-fresa-y-leche.webp"
     },
     {
       "category": "casera",

@@ -44,6 +44,7 @@ type SourceRecipe = {
   servings: number;
   times: RecipeTimes;
   allergens: string[];
+  imagePath?: string;
   image_available?: boolean;
   ingredients: RecipeIngredient[];
   steps: string[];
@@ -217,6 +218,7 @@ const mapSource = (source: RecipesSource): Recipe[] => {
       .map((slug) => products.find((p) => p.slug === slug)?.name)
       .filter((name): name is string => Boolean(name));
     const imageAvailable = recipe.image_available ?? true;
+    const imageSrc = recipe.imagePath ?? `/images/recipes/${recipe.slug}.svg`;
 
     return {
       ...recipe,
@@ -229,7 +231,7 @@ const mapSource = (source: RecipesSource): Recipe[] => {
       relatedProductSlug: productSlug,
       time: formatMinutes(recipe.times.total_min),
       image: {
-        src: `/images/recipes/${recipe.slug}.svg`,
+        src: imageSrc,
         alt: `${recipe.title} preparada como receta RAIAN`,
         label: categoryLabels[recipe.category],
         available: imageAvailable
