@@ -322,7 +322,62 @@ export const products: Product[] = [
         available: true,
         fit: "contain"
       },
-      ...galleryFor("Gelatina neutra porcina").slice(0, 4)
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-1.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 1",
+        label: "Gelatina porcina - vista 1",
+        available: true,
+        fit: "contain"
+      },
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-2.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 2",
+        label: "Gelatina porcina - vista 2",
+        available: true,
+        fit: "contain"
+      },
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-3.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 3",
+        label: "Gelatina porcina - vista 3",
+        available: true,
+        fit: "contain"
+      },
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-4.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 4",
+        label: "Gelatina porcina - vista 4",
+        available: true,
+        fit: "contain"
+      },
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-5.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 5",
+        label: "Gelatina porcina - vista 5",
+        available: true,
+        fit: "contain"
+      },
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-6.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 6",
+        label: "Gelatina porcina - vista 6",
+        available: true,
+        fit: "contain"
+      },
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-7.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 7",
+        label: "Gelatina porcina - vista 7",
+        available: true,
+        fit: "contain"
+      },
+      {
+        src: "/images/products/gelatina porcina/gelatina-porcina-8.png",
+        alt: "Gelatina neutra porcina RAIAN - imagen 8",
+        label: "Gelatina porcina - vista 8",
+        available: true,
+        fit: "contain"
+      }
     ],
     uses: [
       "Postres fríos.",
@@ -1254,6 +1309,114 @@ export const products: Product[] = [
         question: "¿Por qué se solidifica con el frío?",
         answer:
           "Es normal por su composición y no afecta a su uso. Disuélvela en un líquido tibio para integrarla mejor."
+      }
+    ]
+  },
+  {
+    slug: "cobertura-blanca",
+    name: "Cobertura blanca",
+    shortDescription:
+      "Cobertura de chocolate blanco para repostería profesional y casera. Perfecta para bañar, decorar y fundir.",
+    description:
+      "Cobertura blanca RAIAN, ideal para bombones, tartas, trufas y decoraciones de repostería. Funde de forma uniforme y ofrece un acabado brillante y cremoso.",
+    category: "Chocolates y coberturas",
+    tags: ["Cobertura", "Chocolate blanco", "Repostería", "Fundir", "Decoración"],
+    mainImage: {
+      src: "/images/products/cobertura-blanca-main.png",
+      alt: "Cobertura blanca RAIAN para repostería",
+      label: "Cobertura blanca",
+      available: true,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cobertura blanca"),
+    uses: [
+      "Bañar bombones y trufas.",
+      "Cobertura de tartas y pasteles.",
+      "Decoraciones de repostería.",
+      "Rellenos de pralinés.",
+      "Fondue de chocolate blanco."
+    ],
+    howToUse: [
+      "Fundir al baño maría o en microondas a intervalos de 30 segundos.",
+      "Remover hasta obtener una textura lisa y brillante.",
+      "Usar entre 40-45 °C para bañar o moldear.",
+      "Templar si se desea un acabado crujiente y brillante."
+    ],
+    technicalSheet: technicalSheetFor("Cobertura blanca", "Cobertura de chocolate blanco", "Pasta de cacao, azúcar, manteca de cacao, leche en polvo, lecitina de soja, vainilla"),
+    nutrition: nutritionPlaceholder,
+    allergens: "Contiene leche y soja. Puede contener trazas de frutos secos.",
+    conservation: "Conservar en lugar seco, sin humedad, sin exposición directa al sol y a temperatura no superior a 20 °C. Mantener el envase cerrado.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["cobertura-negra", "lecitina-de-soja", "cacao-en-polvo-alcalino"],
+    recipeSlugs: [],
+    seoTitle: "Cobertura blanca para repostería | RAIAN Foods",
+    seoDescription:
+      "Cobertura blanca RAIAN para repostería profesional y casera. Funde de forma uniforme, acabado brillante y cremoso. Perfecta para bombones, tartas y decoraciones.",
+    faqs: [
+      {
+        question: "¿Cómo se funde la cobertura blanca?",
+        answer:
+          "Al baño maría o en microondas a intervalos cortos de 30 segundos, removiendo entre cada intervalo hasta obtener una textura lisa."
+      },
+      {
+        question: "¿Hay que templar la cobertura blanca?",
+        answer:
+          "Para un acabado crujiente y brillante, sí. Si solo la usas para mezclar o rellenar, no es necesario."
+      }
+    ]
+  },
+  {
+    slug: "cobertura-negra",
+    name: "Cobertura negra",
+    shortDescription:
+      "Cobertura de chocolate negro para repostería profesional y casera. Intensa, brillante y con cuerpo.",
+    description:
+      "Cobertura negra RAIAN con alto contenido en cacao, ideal para bombones, tartas, trufas y decoraciones. Ofrece un sabor intenso y un acabado brillante con buena fluidez al fundir.",
+    category: "Chocolates y coberturas",
+    tags: ["Cobertura", "Chocolate negro", "Repostería", "Fundir", "Decoración"],
+    mainImage: {
+      src: "/images/products/cobertura-negra-main.png",
+      alt: "Cobertura negra RAIAN para repostería",
+      label: "Cobertura negra",
+      available: true,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cobertura negra"),
+    uses: [
+      "Bañar bombones y trufas.",
+      "Cobertura de tartas y pasteles.",
+      "Decoraciones de repostería.",
+      "Glasas y coberturas oscuras.",
+      "Fondue de chocolate negro."
+    ],
+    howToUse: [
+      "Fundir al baño maría o en microondas a intervalos de 30 segundos.",
+      "Remover hasta obtener una textura lisa y brillante.",
+      "Usar entre 45-50 °C para bañar o moldear.",
+      "Templar si se desea un acabado crujiente y brillante."
+    ],
+    technicalSheet: technicalSheetFor("Cobertura negra", "Cobertura de chocolate negro", "Pasta de cacao, azúcar, manteca de cacao, lecitina de soja, vainilla"),
+    nutrition: nutritionPlaceholder,
+    allergens: "Contiene soja. Puede contener trazas de leche y frutos secos.",
+    conservation: "Conservar en lugar seco, sin humedad, sin exposición directa al sol y a temperatura no superior a 20 °C. Mantener el envase cerrado.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["cobertura-blanca", "cacao-en-polvo-alcalino", "lecitina-de-soja"],
+    recipeSlugs: [],
+    seoTitle: "Cobertura negra para repostería | RAIAN Foods",
+    seoDescription:
+      "Cobertura negra RAIAN para repostería profesional y casera. Alto contenido en cacao, sabor intenso y acabado brillante. Perfecta para bombones, tartas y decoraciones.",
+    faqs: [
+      {
+        question: "¿Cómo se funde la cobertura negra?",
+        answer:
+          "Al baño maría o en microondas a intervalos cortos de 30 segundos, removiendo entre cada intervalo hasta obtener una textura lisa."
+      },
+      {
+        question: "¿Hay que templar la cobertura negra?",
+        answer:
+          "Para un acabado crujiente y brillante, sí es recomendable. Si la usas para mezclar o rellenar, no es imprescindible."
       }
     ]
   }
