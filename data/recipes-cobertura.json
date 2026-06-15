@@ -25,7 +25,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Fresas frescas",
@@ -77,7 +77,8 @@
         "fresas chocolate negro",
         "postre fácil"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco.webp"
     },
     {
       "category": "premium",
@@ -97,7 +98,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Fresas frescas",
@@ -149,7 +150,8 @@
         "frambuesa liofilizada",
         "postre gourmet"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/fresas-con-chocolate-blanco-y-polvo-de-frambuesa.webp"
     },
     {
       "category": "familiar",
@@ -168,7 +170,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Plátanos",
@@ -215,7 +217,8 @@
         "postre infantil",
         "platano congelado"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/platano-congelado-con-chocolate-negro.webp"
     },
     {
       "category": "snack",
@@ -236,7 +239,7 @@
         "Soja",
         "Cacahuetes"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Plátanos",
@@ -288,7 +291,8 @@
         "chocolate blanco",
         "bocaditos"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/rodajas-de-platano-con-chocolate-blanco-y-cacahuete.webp"
     },
     {
       "category": "casera",
@@ -307,7 +311,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Uvas sin semillas",
@@ -354,7 +358,8 @@
         "uvas congeladas",
         "bocado fresco"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/uvas-congeladas-banadas-en-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -373,7 +378,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Mandarinas peladas en gajos",
@@ -425,7 +430,8 @@
         "sal en escamas",
         "dulce salado"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/mandarina-con-chocolate-negro-y-sal-en-escamas.webp"
     },
     {
       "category": "premium",
@@ -444,7 +450,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cáscara de naranja",
@@ -501,7 +507,8 @@
         "postre gourmet",
         "bombon citrico"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/naranja-confitada-con-chocolate-negro.webp"
     },
     {
       "category": "casera",
@@ -521,7 +528,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Kiwis",
@@ -568,7 +575,8 @@
         "postre refrescante",
         "kiwi congelado"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/kiwi-congelado-con-chocolate-blanco.webp"
     },
     {
       "category": "casera",
@@ -587,7 +595,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Mango maduro",
@@ -639,7 +647,8 @@
         "postre tropical",
         "bocado tropical"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/mango-con-chocolate-negro-y-coco.webp"
     },
     {
       "category": "premium",
@@ -659,7 +668,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Frambuesas frescas",
@@ -711,7 +720,8 @@
         "postre premium",
         "chocolate"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/frambuesas-rellenas-de-chocolate-blanco-y-cubiertas-de-negro.webp"
     },
     {
       "category": "fitness",
@@ -731,7 +741,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Dátiles Medjool deshuesados",
@@ -783,7 +793,8 @@
         "crema de almendra",
         "energia natural"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/datiles-rellenos-de-crema-de-almendra-y-chocolate-negro.webp"
     },
     {
       "category": "casera",
@@ -803,7 +814,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Higos secos",
@@ -855,7 +866,8 @@
         "nuez",
         "postre casero"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/higos-secos-con-chocolate-negro-y-nuez.webp"
     },
     {
       "category": "familiar",
@@ -875,7 +887,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Manzanas",
@@ -927,7 +939,8 @@
         "merienda",
         "snack dulce"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/manzana-en-gajos-con-chocolate-blanco-y-canela.webp"
     },
     {
       "category": "casera",
@@ -946,7 +959,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Peras",
@@ -993,7 +1006,8 @@
         "chocolate negro",
         "crujiente"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/pera-deshidratada-con-chocolate-negro.webp"
     },
     {
       "category": "casera",
@@ -1012,7 +1026,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Piña",
@@ -1064,7 +1078,8 @@
         "snack picante",
         "postre tropical"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/pina-congelada-con-chocolate-negro-y-chile-suave.webp"
     },
     {
       "category": "familiar",
@@ -1084,7 +1099,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Fresas y arándanos",
@@ -1141,7 +1156,8 @@
         "snack helado",
         "doble baño chocolate"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano.webp"
     },
     {
       "category": "fitness",
@@ -1161,7 +1177,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Yogur griego natural",
@@ -1213,7 +1229,8 @@
         "proteico",
         "helado chocolate negro"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/bombones-helados-de-yogur-griego-y-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -1233,7 +1250,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Yogur natural",
@@ -1290,7 +1307,8 @@
         "helado casero",
         "chocolate blanco"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/barritas-heladas-de-yogur-frutos-rojos-y-chocolate-blanco.webp"
     },
     {
       "category": "premium",
@@ -1310,7 +1328,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Nata para montar",
@@ -1367,7 +1385,8 @@
         "chocolate negro",
         "postre premium"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/mini-magnum-casero-de-vainilla-y-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -1387,7 +1406,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Leche de coco",
@@ -1444,7 +1463,8 @@
         "chocolate blanco",
         "postre tropical"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/mini-magnum-de-coco-y-chocolate-blanco.webp"
     },
     {
       "category": "premium",
@@ -1465,7 +1485,7 @@
         "Gluten",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Queso crema",
@@ -1527,7 +1547,8 @@
         "postre premium",
         "tarta de queso"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/bocados-helados-de-cheesecake-con-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -1549,7 +1570,7 @@
         "Huevo",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Galletas tipo cookie",
@@ -1601,7 +1622,8 @@
         "chocolate negro",
         "postre divertido"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/sandwich-helado-de-galleta-y-chocolate-negro.webp"
     },
     {
       "category": "fitness",
@@ -1620,7 +1642,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Plátanos congelados",
@@ -1672,7 +1694,8 @@
         "fitness",
         "sin azucar añadido"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/helado-de-platano-fitness-con-cobertura-negra.webp"
     },
     {
       "category": "snack",
@@ -1692,7 +1715,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Café espresso",
@@ -1744,7 +1767,8 @@
         "snack frio",
         "cafe helado"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cubitos-de-cafe-con-chocolate-blanco.webp"
     },
     {
       "category": "fitness",
@@ -1764,7 +1788,7 @@
         "Cacahuetes",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Crema de cacahuete",
@@ -1821,7 +1845,8 @@
         "proteico",
         "chocolate negro"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/bocaditos-helados-de-crema-de-cacahuete-y-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -1843,7 +1868,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -1910,7 +1935,8 @@
         "merienda",
         "chocolate negro"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cookies-banadas-en-chocolate-negro.webp"
     },
     {
       "category": "fitness",
@@ -1930,7 +1956,7 @@
         "Gluten",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Copos de avena",
@@ -1987,7 +2013,8 @@
         "sin azucar añadido",
         "galletas saludables"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cookies-de-avena-fitness-con-chocolate-negro.webp"
     },
     {
       "category": "casera",
@@ -2009,7 +2036,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de almendra",
@@ -2071,7 +2098,8 @@
         "celiacos",
         "chocolate blanco"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/galletas-sin-gluten-con-chocolate-blanco-y-harina-de-almendra.webp"
     },
     {
       "category": "familiar",
@@ -2090,7 +2118,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Arroz inflado",
@@ -2142,7 +2170,8 @@
         "chocolate negro",
         "snack facil"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/barritas-de-arroz-inflado-con-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -2163,7 +2192,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Arroz inflado",
@@ -2215,7 +2244,8 @@
         "snack premium",
         "crujiente"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/barritas-de-arroz-inflado-con-chocolate-blanco-y-pistacho.webp"
     },
     {
       "category": "casera",
@@ -2234,7 +2264,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate negro",
@@ -2286,7 +2316,8 @@
         "crujiente",
         "turron casero"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/turron-crujiente-de-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -2307,7 +2338,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate blanco",
@@ -2359,7 +2390,8 @@
         "pistacho",
         "turron premium"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/turron-de-chocolate-blanco-arandanos-y-pistacho.webp"
     },
     {
       "category": "snack",
@@ -2379,7 +2411,7 @@
         "Gluten",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Pretzels",
@@ -2426,7 +2458,8 @@
         "snack",
         "chocolate negro"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/pretzels-banados-en-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -2447,7 +2480,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Pretzels",
@@ -2499,7 +2532,8 @@
         "dulce salado",
         "snack familiar"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/pretzels-con-chocolate-blanco-y-caramelo.webp"
     },
     {
       "category": "snack",
@@ -2518,7 +2552,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Palomitas",
@@ -2565,7 +2599,8 @@
         "gourmet",
         "chocolate negro"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/palomitas-gourmet-con-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -2585,7 +2620,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Palomitas",
@@ -2637,7 +2672,8 @@
         "snack dulce",
         "familiar"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/palomitas-con-chocolate-blanco-y-canela.webp"
     },
     {
       "category": "fitness",
@@ -2657,7 +2693,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Almendras tostadas",
@@ -2709,7 +2745,8 @@
         "cacao",
         "antioxidante"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/almendras-banadas-en-chocolate-negro-y-cacao.webp"
     },
     {
       "category": "snack",
@@ -2730,7 +2767,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Avellanas tostadas",
@@ -2782,7 +2819,8 @@
         "snack",
         "bombon crujiente"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/avellanas-con-chocolate-blanco-y-vainilla.webp"
     },
     {
       "category": "premium",
@@ -2802,7 +2840,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Nueces pecanas",
@@ -2854,7 +2892,8 @@
         "sal",
         "snack premium"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/nueces-pecanas-con-chocolate-negro-y-sal.webp"
     },
     {
       "category": "snack",
@@ -2875,7 +2914,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Anacardos tostados",
@@ -2927,7 +2966,8 @@
         "snack",
         "citrico"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/anacardos-con-chocolate-blanco-y-lima.webp"
     },
     {
       "category": "premium",
@@ -2949,7 +2989,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de almendra",
@@ -3011,7 +3051,8 @@
         "celiacos",
         "chocolate negro"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/brownie-sin-gluten-con-cobertura-de-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -3033,7 +3074,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3095,7 +3136,8 @@
         "brownie rubio",
         "postre familiar"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/brownie-blondie-con-cobertura-de-chocolate-blanco.webp"
     },
     {
       "category": "familiar",
@@ -3117,7 +3159,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3184,7 +3226,8 @@
         "postre goloso",
         "donuts caseros"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/mini-donuts-banados-en-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -3206,7 +3249,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3273,7 +3316,8 @@
         "postre premium",
         "afrutado"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/mini-donuts-con-chocolate-blanco-y-frambuesa.webp"
     },
     {
       "category": "casera",
@@ -3295,7 +3339,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Bizcocho desmenuzado",
@@ -3347,7 +3391,8 @@
         "fiestas",
         "bizcocho en palito"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cake-pops-de-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -3369,7 +3414,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Bizcocho desmenuzado",
@@ -3426,7 +3471,8 @@
         "fiestas",
         "postre colorido"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cake-pops-de-chocolate-blanco.webp"
     },
     {
       "category": "familiar",
@@ -3448,7 +3494,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3515,7 +3561,8 @@
         "postre casero",
         "crema"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/magdalenas-rellenas-con-cobertura-de-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -3537,7 +3584,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3604,7 +3651,8 @@
         "chocolate negro",
         "postre premium"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cupcakes-de-fresa-con-ganache-de-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -3625,7 +3673,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Queso crema",
@@ -3687,7 +3735,8 @@
         "postre premium",
         "tarta de queso"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cheesecake-bites-con-chocolate-blanco.webp"
     },
     {
       "category": "premium",
@@ -3708,7 +3757,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Queso crema",
@@ -3770,7 +3819,8 @@
         "postre premium",
         "afrutado"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/cheesecake-bites-con-chocolate-negro-y-frambuesa.webp"
     },
     {
       "category": "premium",
@@ -3790,7 +3840,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate negro",
@@ -3847,7 +3897,8 @@
         "postre",
         "regalo"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/trufas-de-chocolate-negro.webp"
     },
     {
       "category": "casera",
@@ -3867,7 +3918,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate blanco",
@@ -3919,7 +3970,8 @@
         "bombones",
         "postre casero"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/trufas-de-chocolate-blanco-y-coco.webp"
     },
     {
       "category": "fitness",
@@ -3939,7 +3991,7 @@
         "Cacahuetes",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate negro",
@@ -3991,7 +4043,8 @@
         "fitness",
         "proteico"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/bombones-de-chocolate-negro-rellenos-de-crema-de-cacahuete.webp"
     },
     {
       "category": "premium",
@@ -4012,7 +4065,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate blanco",
@@ -4059,7 +4112,8 @@
         "lemon curd",
         "postre premium"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/bombones-blancos-rellenos-de-limon.webp"
     },
     {
       "category": "casera",
@@ -4081,7 +4135,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -4148,7 +4202,8 @@
         "chocolate negro",
         "postre tradicional"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/alfajor-banado-en-chocolate-negro.webp"
     },
     {
       "category": "familiar",
@@ -4170,7 +4225,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -4242,7 +4297,8 @@
         "chocolate blanco",
         "postre tradicional"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/alfajor-blanco-con-coco.webp"
     },
     {
       "category": "casera",
@@ -4262,7 +4318,7 @@
         "Frutos de cáscara",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate negro",
@@ -4309,7 +4365,8 @@
         "bombones",
         "facil"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/rocas-de-chocolate-negro-con-frutos-secos.webp"
     },
     {
       "category": "familiar",
@@ -4330,7 +4387,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate blanco",
@@ -4382,7 +4439,8 @@
         "frutos rojos",
         "bombones"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/rocas-blancas-de-cereales-y-frutos-rojos.webp"
     },
     {
       "category": "premium",
@@ -4404,7 +4462,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Masa quebrada",
@@ -4461,7 +4519,8 @@
         "postre premium",
         "pasteleria"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/tartaletas-de-fruta-con-bano-de-chocolate-negro.webp"
     },
     {
       "category": "premium",
@@ -4482,7 +4541,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cobertura de chocolate negro",
@@ -4544,7 +4603,8 @@
         "postre premium",
         "individual"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos.",
+      "imagePath": "/images/recipes/vasitos-de-mousse-con-disco-de-chocolate-blanco.webp"
     }
   ]
 }

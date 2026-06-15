@@ -20,7 +20,12 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["fitness", "premium", "familiar", "casera"],
+    "categories": [
+      "fitness",
+      "premium",
+      "familiar",
+      "casera"
+    ],
     "nutrition_fields_required_eu": [
       "valor energético kJ/kcal",
       "grasas",
@@ -52,11 +57,21 @@
         "rest_min": 0,
         "total_min": 8
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche entera", "g": 400, "key": "leche" },
-        { "name": "Chocolate a la taza RAIAN", "g": 70, "key": "chocolate_taza" }
+        {
+          "name": "Leche entera",
+          "g": 400,
+          "key": "leche"
+        },
+        {
+          "name": "Chocolate a la taza RAIAN",
+          "g": 70,
+          "key": "chocolate_taza"
+        }
       ],
       "steps": [
         "Calienta la leche en un cazo a fuego medio.",
@@ -85,8 +100,13 @@
         "salt": 0.12
       },
       "estimated_serving_g": 235,
-      "keywords": ["chocolate a la taza", "chocolate caliente español", "chocolate espeso casero"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "chocolate a la taza",
+        "chocolate caliente español",
+        "chocolate espeso casero"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/chocolate-caliente-clasico-a-la-taza.webp"
     },
     {
       "category": "familiar",
@@ -102,13 +122,31 @@
         "rest_min": 30,
         "total_min": 38
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche entera", "g": 300, "key": "leche" },
-        { "name": "Chocolate a la taza RAIAN", "g": 60, "key": "chocolate_taza" },
-        { "name": "Hielo picado", "g": 150, "key": "hielo" },
-        { "name": "Nata montada para decorar", "g": 30, "key": "nata_montada" }
+        {
+          "name": "Leche entera",
+          "g": 300,
+          "key": "leche"
+        },
+        {
+          "name": "Chocolate a la taza RAIAN",
+          "g": 60,
+          "key": "chocolate_taza"
+        },
+        {
+          "name": "Hielo picado",
+          "g": 150,
+          "key": "hielo"
+        },
+        {
+          "name": "Nata montada para decorar",
+          "g": 30,
+          "key": "nata_montada"
+        }
       ],
       "steps": [
         "Disuelve el chocolate a la taza RAIAN en 100 g de leche caliente, removiendo bien hasta obtener una mezcla sin grumos.",
@@ -135,11 +173,16 @@
         "fat": 2.8,
         "sat_fat": 1.7,
         "fiber": 0.4,
-        "salt": 0.10
+        "salt": 0.1
       },
       "estimated_serving_g": 270,
-      "keywords": ["batido de chocolate frío", "batido de cacao", "batido de verano con chocolate"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "batido de chocolate frío",
+        "batido de cacao",
+        "batido de verano con chocolate"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/batido-frio-de-chocolate-a-la-taza-con-hielo.webp"
     },
     {
       "category": "premium",
@@ -155,14 +198,36 @@
         "rest_min": 120,
         "total_min": 140
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Nata líquida 35% MG", "g": 350, "key": "nata" },
-        { "name": "Leche entera", "g": 80, "key": "leche" },
-        { "name": "Chocolate a la taza RAIAN", "g": 60, "key": "chocolate_taza" },
-        { "name": "Azúcar glas", "g": 20, "key": "azucar_glas" },
-        { "name": "Cacao en polvo puro para decorar", "g": 5, "key": "cacao_decorar" }
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 350,
+          "key": "nata"
+        },
+        {
+          "name": "Leche entera",
+          "g": 80,
+          "key": "leche"
+        },
+        {
+          "name": "Chocolate a la taza RAIAN",
+          "g": 60,
+          "key": "chocolate_taza"
+        },
+        {
+          "name": "Azúcar glas",
+          "g": 20,
+          "key": "azucar_glas"
+        },
+        {
+          "name": "Cacao en polvo puro para decorar",
+          "g": 5,
+          "key": "cacao_decorar"
+        }
       ],
       "steps": [
         "Disuelve el chocolate a la taza RAIAN en la leche caliente, removiendo hasta obtener una crema lisa. Deja enfriar completamente.",
@@ -192,8 +257,13 @@
         "salt": 0.14
       },
       "estimated_serving_g": 130,
-      "keywords": ["mousse de chocolate sin huevo", "mousse de cacao fácil", "postre de chocolate premium"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "mousse de chocolate sin huevo",
+        "mousse de cacao fácil",
+        "postre de chocolate premium"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/mousse-de-chocolate-a-la-taza-sin-huevo.webp"
     },
     {
       "category": "casera",
@@ -209,14 +279,37 @@
         "rest_min": 0,
         "total_min": 11
       },
-      "allergens": ["Leche", "Gluten"],
-      "image_available": false,
+      "allergens": [
+        "Leche",
+        "Gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Copos de avena finos", "g": 100, "key": "avena" },
-        { "name": "Leche entera", "g": 350, "key": "leche" },
-        { "name": "Chocolate a la taza RAIAN", "g": 40, "key": "chocolate_taza" },
-        { "name": "Plátano en rodajas", "g": 80, "key": "platano" },
-        { "name": "Pizca de sal", "g": 1, "key": "sal" }
+        {
+          "name": "Copos de avena finos",
+          "g": 100,
+          "key": "avena"
+        },
+        {
+          "name": "Leche entera",
+          "g": 350,
+          "key": "leche"
+        },
+        {
+          "name": "Chocolate a la taza RAIAN",
+          "g": 40,
+          "key": "chocolate_taza"
+        },
+        {
+          "name": "Plátano en rodajas",
+          "g": 80,
+          "key": "platano"
+        },
+        {
+          "name": "Pizca de sal",
+          "g": 1,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Calienta la leche en un cazo a fuego medio.",
@@ -246,8 +339,13 @@
         "salt": 0.11
       },
       "estimated_serving_g": 286,
-      "keywords": ["porridge de chocolate", "avena con cacao", "desayuno caliente de cacao"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "porridge de chocolate",
+        "avena con cacao",
+        "desayuno caliente de cacao"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/porridge-de-avena-con-chocolate-a-la-taza.webp"
     },
     {
       "category": "premium",
@@ -263,16 +361,47 @@
         "rest_min": 0,
         "total_min": 18
       },
-      "allergens": ["Leche", "Gluten"],
-      "image_available": false,
+      "allergens": [
+        "Leche",
+        "Gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche entera", "g": 250, "key": "leche" },
-        { "name": "Nata líquida 35% MG", "g": 100, "key": "nata" },
-        { "name": "Chocolate a la taza RAIAN", "g": 80, "key": "chocolate_taza" },
-        { "name": "Fresas", "g": 150, "key": "fresas" },
-        { "name": "Plátano", "g": 100, "key": "platano" },
-        { "name": "Galletas digestive", "g": 80, "key": "galletas" },
-        { "name": "Malvaviscos", "g": 50, "key": "malvaviscos" }
+        {
+          "name": "Leche entera",
+          "g": 250,
+          "key": "leche"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 100,
+          "key": "nata"
+        },
+        {
+          "name": "Chocolate a la taza RAIAN",
+          "g": 80,
+          "key": "chocolate_taza"
+        },
+        {
+          "name": "Fresas",
+          "g": 150,
+          "key": "fresas"
+        },
+        {
+          "name": "Plátano",
+          "g": 100,
+          "key": "platano"
+        },
+        {
+          "name": "Galletas digestive",
+          "g": 80,
+          "key": "galletas"
+        },
+        {
+          "name": "Malvaviscos",
+          "g": 50,
+          "key": "malvaviscos"
+        }
       ],
       "steps": [
         "Calienta la leche con la nata en un cazo a fuego medio.",
@@ -299,11 +428,16 @@
         "fat": 8.3,
         "sat_fat": 4.8,
         "fiber": 1.5,
-        "salt": 0.20
+        "salt": 0.2
       },
       "estimated_serving_g": 203,
-      "keywords": ["fondue de chocolate", "fondue para compartir", "chocolate a la taza fondue"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "fondue de chocolate",
+        "fondue para compartir",
+        "chocolate a la taza fondue"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/fondue-de-chocolate-a-la-taza-con-frutas-y-galletas.webp"
     },
     {
       "category": "fitness",
@@ -319,14 +453,36 @@
         "rest_min": 0,
         "total_min": 5
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Plátano maduro congelado", "g": 120, "key": "platano" },
-        { "name": "Leche semidesnatada", "g": 200, "key": "leche" },
-        { "name": "Chocolate a la taza RAIAN", "g": 25, "key": "chocolate_taza" },
-        { "name": "Yogur griego natural", "g": 80, "key": "yogur" },
-        { "name": "Hielo", "g": 50, "key": "hielo" }
+        {
+          "name": "Plátano maduro congelado",
+          "g": 120,
+          "key": "platano"
+        },
+        {
+          "name": "Leche semidesnatada",
+          "g": 200,
+          "key": "leche"
+        },
+        {
+          "name": "Chocolate a la taza RAIAN",
+          "g": 25,
+          "key": "chocolate_taza"
+        },
+        {
+          "name": "Yogur griego natural",
+          "g": 80,
+          "key": "yogur"
+        },
+        {
+          "name": "Hielo",
+          "g": 50,
+          "key": "hielo"
+        }
       ],
       "steps": [
         "Trocea el plátano congelado.",
@@ -356,8 +512,13 @@
         "salt": 0.11
       },
       "estimated_serving_g": 475,
-      "keywords": ["smoothie de cacao y plátano", "batido de recuperación", "batido fitness de chocolate"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "smoothie de cacao y plátano",
+        "batido de recuperación",
+        "batido fitness de chocolate"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/smoothie-de-cacao-y-platano-con-proteina.webp"
     }
   ]
 }

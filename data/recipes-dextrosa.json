@@ -20,7 +20,11 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["fitness", "familiar", "casera"],
+    "categories": [
+      "fitness",
+      "familiar",
+      "casera"
+    ],
     "nutrition_fields_required_eu": [
       "valor energético kJ/kcal",
       "grasas",
@@ -53,12 +57,28 @@
         "total_min": 5
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Agua mineral o del grifo filtrada", "g": 500, "key": "agua" },
-        { "name": "Dextrosa RAIAN", "g": 35, "key": "dextrosa" },
-        { "name": "Zumo de limón", "g": 30, "key": "zumo_limon" },
-        { "name": "Sal (cloruro sódico)", "g": 1, "key": "sal" }
+        {
+          "name": "Agua mineral o del grifo filtrada",
+          "g": 500,
+          "key": "agua"
+        },
+        {
+          "name": "Dextrosa RAIAN",
+          "g": 35,
+          "key": "dextrosa"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 30,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Sal (cloruro sódico)",
+          "g": 1,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Vierte el agua en una botella o jarra.",
@@ -88,8 +108,13 @@
         "salt": 0.18
       },
       "estimated_serving_g": 566,
-      "keywords": ["bebida isotónica casera", "dextrosa bebida deportiva", "hidratación entrenamiento"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "bebida isotónica casera",
+        "dextrosa bebida deportiva",
+        "hidratación entrenamiento"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bebida-isotonica-casera-de-limon-y-sal-con-dextrosa.webp"
     },
     {
       "category": "fitness",
@@ -106,13 +131,33 @@
         "total_min": 8
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Plátano maduro", "g": 150, "key": "platano" },
-        { "name": "Dextrosa RAIAN", "g": 45, "key": "dextrosa" },
-        { "name": "Agua", "g": 30, "key": "agua" },
-        { "name": "Zumo de limón", "g": 10, "key": "zumo_limon" },
-        { "name": "Pizca de sal", "g": 0.5, "key": "sal" }
+        {
+          "name": "Plátano maduro",
+          "g": 150,
+          "key": "platano"
+        },
+        {
+          "name": "Dextrosa RAIAN",
+          "g": 45,
+          "key": "dextrosa"
+        },
+        {
+          "name": "Agua",
+          "g": 30,
+          "key": "agua"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Pizca de sal",
+          "g": 0.5,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Tritura el plátano con el agua hasta obtener un puré liso.",
@@ -139,11 +184,16 @@
         "fat": 0.1,
         "sat_fat": 0.0,
         "fiber": 1.2,
-        "salt": 0.10
+        "salt": 0.1
       },
       "estimated_serving_g": 78,
-      "keywords": ["gel energético casero", "gel de plátano dextrosa", "nutrición deportiva casera"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "gel energético casero",
+        "gel de plátano dextrosa",
+        "nutrición deportiva casera"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/gel-energetico-casero-de-platano-y-dextrosa.webp"
     },
     {
       "category": "casera",
@@ -159,14 +209,36 @@
         "rest_min": 360,
         "total_min": 375
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Fresas maduras", "g": 400, "key": "fresas" },
-        { "name": "Nata líquida 35% MG", "g": 200, "key": "nata" },
-        { "name": "Leche entera", "g": 100, "key": "leche" },
-        { "name": "Dextrosa RAIAN", "g": 80, "key": "dextrosa" },
-        { "name": "Zumo de limón", "g": 15, "key": "zumo_limon" }
+        {
+          "name": "Fresas maduras",
+          "g": 400,
+          "key": "fresas"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Leche entera",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Dextrosa RAIAN",
+          "g": 80,
+          "key": "dextrosa"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "zumo_limon"
+        }
       ],
       "steps": [
         "Lava y trocea las fresas. Tritúralas con el zumo de limón hasta obtener un puré fino.",
@@ -197,8 +269,13 @@
         "salt": 0.04
       },
       "estimated_serving_g": 132,
-      "keywords": ["helado casero de fresa", "helado con dextrosa", "helado sin heladera"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "helado casero de fresa",
+        "helado con dextrosa",
+        "helado sin heladera"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/helado-artesanal-de-fresa-con-dextrosa.webp"
     },
     {
       "category": "casera",
@@ -215,12 +292,28 @@
         "total_min": 65
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Albaricoques maduros (sin hueso)", "g": 600, "key": "albaricoques" },
-        { "name": "Dextrosa RAIAN", "g": 200, "key": "dextrosa" },
-        { "name": "Zumo de limón", "g": 30, "key": "zumo_limon" },
-        { "name": "Pectina en polvo (opcional)", "g": 5, "key": "pectina" }
+        {
+          "name": "Albaricoques maduros (sin hueso)",
+          "g": 600,
+          "key": "albaricoques"
+        },
+        {
+          "name": "Dextrosa RAIAN",
+          "g": 200,
+          "key": "dextrosa"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 30,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Pectina en polvo (opcional)",
+          "g": 5,
+          "key": "pectina"
+        }
       ],
       "steps": [
         "Lava y trocea los albaricoques sin hueso.",
@@ -251,8 +344,13 @@
         "salt": 0.01
       },
       "estimated_serving_g": 83,
-      "keywords": ["mermelada casera con dextrosa", "mermelada de albaricoque", "mermelada sin azúcar blanca"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "mermelada casera con dextrosa",
+        "mermelada de albaricoque",
+        "mermelada sin azúcar blanca"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/mermelada-de-albaricoque-casera-con-dextrosa.webp"
     },
     {
       "category": "fitness",
@@ -268,16 +366,47 @@
         "rest_min": 10,
         "total_min": 52
       },
-      "allergens": ["Huevo", "Gluten"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Copos de avena finos", "g": 180, "key": "avena" },
-        { "name": "Dextrosa RAIAN", "g": 100, "key": "dextrosa" },
-        { "name": "Huevos", "g": 150, "key": "huevos" },
-        { "name": "Leche desnatada", "g": 150, "key": "leche" },
-        { "name": "Aceite de girasol", "g": 50, "key": "aceite" },
-        { "name": "Levadura química", "g": 8, "key": "levadura" },
-        { "name": "Canela molida", "g": 3, "key": "canela" }
+        {
+          "name": "Copos de avena finos",
+          "g": 180,
+          "key": "avena"
+        },
+        {
+          "name": "Dextrosa RAIAN",
+          "g": 100,
+          "key": "dextrosa"
+        },
+        {
+          "name": "Huevos",
+          "g": 150,
+          "key": "huevos"
+        },
+        {
+          "name": "Leche desnatada",
+          "g": 150,
+          "key": "leche"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 50,
+          "key": "aceite"
+        },
+        {
+          "name": "Levadura química",
+          "g": 8,
+          "key": "levadura"
+        },
+        {
+          "name": "Canela molida",
+          "g": 3,
+          "key": "canela"
+        }
       ],
       "steps": [
         "Precalienta el horno a 175°C. Engrasa un molde de 20 cm.",
@@ -309,8 +438,13 @@
         "salt": 0.27
       },
       "estimated_serving_g": 98,
-      "keywords": ["bizcocho fitness de avena", "bizcocho con dextrosa", "snack preentrenamiento"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "bizcocho fitness de avena",
+        "bizcocho con dextrosa",
+        "snack preentrenamiento"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bizcocho-de-deportista-de-avena-y-dextrosa.webp"
     }
   ]
 }

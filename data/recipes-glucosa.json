@@ -20,7 +20,11 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["premium", "casera", "familiar"],
+    "categories": [
+      "premium",
+      "casera",
+      "familiar"
+    ],
     "nutrition_fields_required_eu": [
       "valor energético kJ/kcal",
       "grasas",
@@ -51,14 +55,36 @@
         "rest_min": 60,
         "total_min": 85
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Azúcar blanco", "g": 200, "key": "azucar" },
-        { "name": "Glucosa RAIAN", "g": 50, "key": "glucosa" },
-        { "name": "Nata líquida 35% MG", "g": 150, "key": "nata" },
-        { "name": "Mantequilla sin sal", "g": 40, "key": "mantequilla" },
-        { "name": "Sal en escamas", "g": 2, "key": "sal" }
+        {
+          "name": "Azúcar blanco",
+          "g": 200,
+          "key": "azucar"
+        },
+        {
+          "name": "Glucosa RAIAN",
+          "g": 50,
+          "key": "glucosa"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Mantequilla sin sal",
+          "g": 40,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Sal en escamas",
+          "g": 2,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Calienta la nata en un cazo pequeño hasta que esté caliente (sin hervir). Reserva.",
@@ -89,8 +115,13 @@
         "salt": 0.63
       },
       "estimated_serving_g": 22,
-      "keywords": ["caramelo suave con glucosa", "toffee casero", "caramelo anticristalización"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "caramelo suave con glucosa",
+        "toffee casero",
+        "caramelo anticristalización"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/caramelo-suave-y-cremoso-con-glucosa.webp"
     },
     {
       "category": "premium",
@@ -106,13 +137,31 @@
         "rest_min": 120,
         "total_min": 135
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Chocolate negro 70% cacao", "g": 200, "key": "chocolate" },
-        { "name": "Nata líquida 35% MG", "g": 150, "key": "nata" },
-        { "name": "Glucosa RAIAN", "g": 25, "key": "glucosa" },
-        { "name": "Mantequilla sin sal", "g": 20, "key": "mantequilla" }
+        {
+          "name": "Chocolate negro 70% cacao",
+          "g": 200,
+          "key": "chocolate"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Glucosa RAIAN",
+          "g": 25,
+          "key": "glucosa"
+        },
+        {
+          "name": "Mantequilla sin sal",
+          "g": 20,
+          "key": "mantequilla"
+        }
       ],
       "steps": [
         "Trocea el chocolate finamente y colócalo en un bol resistente al calor.",
@@ -143,8 +192,13 @@
         "salt": 0.08
       },
       "estimated_serving_g": 33,
-      "keywords": ["ganache de chocolate con glucosa", "ganache brillante", "ganache para tarta"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "ganache de chocolate con glucosa",
+        "ganache brillante",
+        "ganache para tarta"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/ganache-de-chocolate-negro-satinada-con-glucosa.webp"
     },
     {
       "category": "casera",
@@ -160,15 +214,42 @@
         "rest_min": 360,
         "total_min": 385
       },
-      "allergens": ["Leche", "Huevo"],
-      "image_available": false,
+      "allergens": [
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche entera", "g": 300, "key": "leche" },
-        { "name": "Nata líquida 35% MG", "g": 200, "key": "nata" },
-        { "name": "Yemas de huevo", "g": 60, "key": "yemas" },
-        { "name": "Azúcar", "g": 80, "key": "azucar" },
-        { "name": "Glucosa RAIAN", "g": 30, "key": "glucosa" },
-        { "name": "Vaina de vainilla o extracto", "g": 5, "key": "vainilla" }
+        {
+          "name": "Leche entera",
+          "g": 300,
+          "key": "leche"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 60,
+          "key": "yemas"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Glucosa RAIAN",
+          "g": 30,
+          "key": "glucosa"
+        },
+        {
+          "name": "Vaina de vainilla o extracto",
+          "g": 5,
+          "key": "vainilla"
+        }
       ],
       "steps": [
         "Calienta la leche con la nata y la vainilla hasta casi hervir. Retira y deja infusionar 10 minutos.",
@@ -199,8 +280,13 @@
         "salt": 0.07
       },
       "estimated_serving_g": 128,
-      "keywords": ["helado de vainilla casero", "helado con glucosa", "helado cremoso sin heladera"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "helado de vainilla casero",
+        "helado con glucosa",
+        "helado cremoso sin heladera"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/helado-cremoso-de-vainilla-con-glucosa-sin-heladera.webp"
     },
     {
       "category": "casera",
@@ -216,15 +302,41 @@
         "rest_min": 180,
         "total_min": 215
       },
-      "allergens": ["Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Almendras tostadas sin sal", "g": 250, "key": "almendras" },
-        { "name": "Miel", "g": 120, "key": "miel" },
-        { "name": "Azúcar", "g": 80, "key": "azucar" },
-        { "name": "Glucosa RAIAN", "g": 40, "key": "glucosa" },
-        { "name": "Claras de huevo", "g": 30, "key": "claras" },
-        { "name": "Ralladura de limón", "g": 4, "key": "ralladura_limon" }
+        {
+          "name": "Almendras tostadas sin sal",
+          "g": 250,
+          "key": "almendras"
+        },
+        {
+          "name": "Miel",
+          "g": 120,
+          "key": "miel"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Glucosa RAIAN",
+          "g": 40,
+          "key": "glucosa"
+        },
+        {
+          "name": "Claras de huevo",
+          "g": 30,
+          "key": "claras"
+        },
+        {
+          "name": "Ralladura de limón",
+          "g": 4,
+          "key": "ralladura_limon"
+        }
       ],
       "steps": [
         "Tritura la mitad de las almendras hasta obtener una pasta. Reserva el resto enteras o troceadas.",
@@ -256,8 +368,13 @@
         "salt": 0.06
       },
       "estimated_serving_g": 40,
-      "keywords": ["turrón blando casero", "turrón de almendra con glucosa", "turrón artesanal"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "turrón blando casero",
+        "turrón de almendra con glucosa",
+        "turrón artesanal"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/turron-blando-de-almendra-con-glucosa.webp"
     },
     {
       "category": "premium",
@@ -273,16 +390,47 @@
         "rest_min": 60,
         "total_min": 82
       },
-      "allergens": ["Huevo", "Leche"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Zumo de limón", "g": 120, "key": "zumo_limon" },
-        { "name": "Ralladura de limón", "g": 8, "key": "ralladura_limon" },
-        { "name": "Huevos enteros", "g": 100, "key": "huevos" },
-        { "name": "Yemas de huevo", "g": 40, "key": "yemas" },
-        { "name": "Azúcar", "g": 100, "key": "azucar" },
-        { "name": "Glucosa RAIAN", "g": 20, "key": "glucosa" },
-        { "name": "Mantequilla sin sal fría", "g": 80, "key": "mantequilla" }
+        {
+          "name": "Zumo de limón",
+          "g": 120,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Ralladura de limón",
+          "g": 8,
+          "key": "ralladura_limon"
+        },
+        {
+          "name": "Huevos enteros",
+          "g": 100,
+          "key": "huevos"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 40,
+          "key": "yemas"
+        },
+        {
+          "name": "Azúcar",
+          "g": 100,
+          "key": "azucar"
+        },
+        {
+          "name": "Glucosa RAIAN",
+          "g": 20,
+          "key": "glucosa"
+        },
+        {
+          "name": "Mantequilla sin sal fría",
+          "g": 80,
+          "key": "mantequilla"
+        }
       ],
       "steps": [
         "Bate los huevos y las yemas con el azúcar y la glucosa RAIAN en un cazo.",
@@ -310,11 +458,16 @@
         "fat": 17.9,
         "sat_fat": 9.9,
         "fiber": 0.2,
-        "salt": 0.10
+        "salt": 0.1
       },
       "estimated_serving_g": 59,
-      "keywords": ["lemon curd casero", "crema de limón con glucosa", "lemon curd para tarta"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "lemon curd casero",
+        "crema de limón con glucosa",
+        "lemon curd para tarta"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/lemon-curd-sedoso-con-glucosa.webp"
     }
   ]
 }

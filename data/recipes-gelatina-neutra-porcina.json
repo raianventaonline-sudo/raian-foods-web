@@ -19,7 +19,12 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["fitness", "premium", "familiar", "casera"],
+    "categories": [
+      "fitness",
+      "premium",
+      "familiar",
+      "casera"
+    ],
     "nutrition_fields_required_eu": [
       "valor energético kJ/kcal",
       "grasas",
@@ -52,13 +57,33 @@
         "total_min": 195
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Zumo de naranja natural", "g": 600, "key": "zumo_naranja" },
-        { "name": "Gelatina neutra porcina RAIAN 260 Bloom", "g": 12, "key": "gelatina" },
-        { "name": "Agua fría para hidratar", "g": 60, "key": "agua_fria" },
-        { "name": "Azúcar", "g": 40, "key": "azucar" },
-        { "name": "Gajos de mandarina al natural", "g": 150, "key": "mandarina" }
+        {
+          "name": "Zumo de naranja natural",
+          "g": 600,
+          "key": "zumo_naranja"
+        },
+        {
+          "name": "Gelatina neutra porcina RAIAN 260 Bloom",
+          "g": 12,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 60,
+          "key": "agua_fria"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Gajos de mandarina al natural",
+          "g": 150,
+          "key": "mandarina"
+        }
       ],
       "steps": [
         "Hidrata la gelatina porcina RAIAN en el agua fría durante 8-10 minutos.",
@@ -89,8 +114,13 @@
         "salt": 0.04
       },
       "estimated_serving_g": 143,
-      "keywords": ["gelatina de naranja casera", "gelatina porcina", "postre familiar con gelatina"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "gelatina de naranja casera",
+        "gelatina porcina",
+        "postre familiar con gelatina"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/gelatina-de-naranja-casera-con-trozos-de-fruta.webp"
     },
     {
       "category": "familiar",
@@ -106,17 +136,52 @@
         "rest_min": 240,
         "total_min": 265
       },
-      "allergens": ["Leche", "Huevo"],
-      "image_available": false,
+      "allergens": [
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche entera", "g": 500, "key": "leche" },
-        { "name": "Nata líquida 35% MG", "g": 150, "key": "nata" },
-        { "name": "Azúcar para el flan", "g": 80, "key": "azucar_flan" },
-        { "name": "Yemas de huevo", "g": 60, "key": "yemas" },
-        { "name": "Extracto de vainilla", "g": 5, "key": "vainilla" },
-        { "name": "Gelatina neutra porcina RAIAN 260 Bloom", "g": 10, "key": "gelatina" },
-        { "name": "Agua fría para hidratar", "g": 50, "key": "agua_fria" },
-        { "name": "Azúcar para el caramelo", "g": 80, "key": "azucar_caramelo" }
+        {
+          "name": "Leche entera",
+          "g": 500,
+          "key": "leche"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 150,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar para el flan",
+          "g": 80,
+          "key": "azucar_flan"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 60,
+          "key": "yemas"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Gelatina neutra porcina RAIAN 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 50,
+          "key": "agua_fria"
+        },
+        {
+          "name": "Azúcar para el caramelo",
+          "g": 80,
+          "key": "azucar_caramelo"
+        }
       ],
       "steps": [
         "Prepara el caramelo: calienta los 80 g de azúcar para caramelo en un cazo sin remover hasta que tome un color dorado. Vierte rápidamente en los moldes y deja solidificar.",
@@ -148,8 +213,13 @@
         "salt": 0.09
       },
       "estimated_serving_g": 155,
-      "keywords": ["flan de vainilla sin horno", "flan con gelatina", "postre familiar clásico"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "flan de vainilla sin horno",
+        "flan con gelatina",
+        "postre familiar clásico"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/flan-de-vainilla-con-caramelo-casero.webp"
     },
     {
       "category": "casera",
@@ -166,15 +236,43 @@
         "total_min": 260
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche de coco", "g": 400, "key": "leche_coco" },
-        { "name": "Nata líquida 35% MG", "g": 100, "key": "nata" },
-        { "name": "Azúcar", "g": 50, "key": "azucar" },
-        { "name": "Gelatina neutra porcina RAIAN 260 Bloom", "g": 8, "key": "gelatina" },
-        { "name": "Agua fría para hidratar", "g": 40, "key": "agua_fria" },
-        { "name": "Mango maduro", "g": 250, "key": "mango" },
-        { "name": "Zumo de lima", "g": 15, "key": "lima" }
+        {
+          "name": "Leche de coco",
+          "g": 400,
+          "key": "leche_coco"
+        },
+        {
+          "name": "Nata líquida 35% MG",
+          "g": 100,
+          "key": "nata"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra porcina RAIAN 260 Bloom",
+          "g": 8,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 40,
+          "key": "agua_fria"
+        },
+        {
+          "name": "Mango maduro",
+          "g": 250,
+          "key": "mango"
+        },
+        {
+          "name": "Zumo de lima",
+          "g": 15,
+          "key": "lima"
+        }
       ],
       "steps": [
         "Hidrata la gelatina porcina RAIAN en el agua fría durante 8 minutos.",
@@ -205,8 +303,13 @@
         "salt": 0.04
       },
       "estimated_serving_g": 203,
-      "keywords": ["panna cotta de coco", "postre tropical con gelatina", "panna cotta mango"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "panna cotta de coco",
+        "postre tropical con gelatina",
+        "panna cotta mango"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/panna-cotta-de-coco-y-mango.webp"
     },
     {
       "category": "casera",
@@ -223,15 +326,43 @@
         "total_min": 165
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Agua mineral", "g": 500, "key": "agua" },
-        { "name": "Bolsas de té verde", "g": 6, "key": "te_verde" },
-        { "name": "Hojas de menta fresca", "g": 10, "key": "menta" },
-        { "name": "Azúcar", "g": 40, "key": "azucar" },
-        { "name": "Zumo de limón", "g": 30, "key": "limon_zumo" },
-        { "name": "Gelatina neutra porcina RAIAN 260 Bloom", "g": 9, "key": "gelatina" },
-        { "name": "Agua fría para hidratar", "g": 45, "key": "agua_fria" }
+        {
+          "name": "Agua mineral",
+          "g": 500,
+          "key": "agua"
+        },
+        {
+          "name": "Bolsas de té verde",
+          "g": 6,
+          "key": "te_verde"
+        },
+        {
+          "name": "Hojas de menta fresca",
+          "g": 10,
+          "key": "menta"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 30,
+          "key": "limon_zumo"
+        },
+        {
+          "name": "Gelatina neutra porcina RAIAN 260 Bloom",
+          "g": 9,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 45,
+          "key": "agua_fria"
+        }
       ],
       "steps": [
         "Hidrata la gelatina porcina RAIAN en el agua fría durante 8 minutos.",
@@ -262,8 +393,13 @@
         "salt": 0.03
       },
       "estimated_serving_g": 148,
-      "keywords": ["gelatina de té verde", "postre sin lactosa", "gelatina refrescante casera"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "gelatina de té verde",
+        "postre sin lactosa",
+        "gelatina refrescante casera"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/gelatina-de-te-verde-y-menta-con-limon.webp"
     },
     {
       "category": "fitness",
@@ -279,15 +415,41 @@
         "rest_min": 180,
         "total_min": 193
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Skyr natural", "g": 400, "key": "skyr" },
-        { "name": "Frambuesas y arándanos", "g": 200, "key": "frutos_rojos" },
-        { "name": "Gelatina neutra porcina RAIAN 260 Bloom", "g": 8, "key": "gelatina" },
-        { "name": "Agua fría para hidratar", "g": 40, "key": "agua_fria" },
-        { "name": "Edulcorante líquido (stevia)", "g": 8, "key": "edulcorante" },
-        { "name": "Zumo de limón", "g": 10, "key": "limon_zumo" }
+        {
+          "name": "Skyr natural",
+          "g": 400,
+          "key": "skyr"
+        },
+        {
+          "name": "Frambuesas y arándanos",
+          "g": 200,
+          "key": "frutos_rojos"
+        },
+        {
+          "name": "Gelatina neutra porcina RAIAN 260 Bloom",
+          "g": 8,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 40,
+          "key": "agua_fria"
+        },
+        {
+          "name": "Edulcorante líquido (stevia)",
+          "g": 8,
+          "key": "edulcorante"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "limon_zumo"
+        }
       ],
       "steps": [
         "Hidrata la gelatina porcina RAIAN en el agua fría durante 8 minutos.",
@@ -318,8 +480,13 @@
         "salt": 0.06
       },
       "estimated_serving_g": 166,
-      "keywords": ["postre proteico con gelatina", "vasitos fitness", "skyr con gelatina"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "postre proteico con gelatina",
+        "vasitos fitness",
+        "skyr con gelatina"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/vasitos-de-proteina-con-gelatina-porcina-y-frutos-rojos.webp"
     },
     {
       "category": "premium",
@@ -335,18 +502,58 @@
         "rest_min": 300,
         "total_min": 335
       },
-      "allergens": ["Leche", "Huevo", "Gluten"],
-      "image_available": false,
+      "allergens": [
+        "Leche",
+        "Huevo",
+        "Gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Espresso concentrado (o café molido infusionado)", "g": 150, "key": "cafe" },
-        { "name": "Nata líquida 35% MG para la crema", "g": 250, "key": "nata_crema" },
-        { "name": "Nata líquida 35% MG para montar", "g": 150, "key": "nata_montar" },
-        { "name": "Yemas de huevo", "g": 60, "key": "yemas" },
-        { "name": "Azúcar", "g": 70, "key": "azucar" },
-        { "name": "Gelatina neutra porcina RAIAN 260 Bloom", "g": 10, "key": "gelatina" },
-        { "name": "Agua fría para hidratar", "g": 50, "key": "agua_fria" },
-        { "name": "Cardamomo molido", "g": 2, "key": "cardamomo" },
-        { "name": "Bizcochos de soletilla", "g": 80, "key": "bizcocho_soletilla" }
+        {
+          "name": "Espresso concentrado (o café molido infusionado)",
+          "g": 150,
+          "key": "cafe"
+        },
+        {
+          "name": "Nata líquida 35% MG para la crema",
+          "g": 250,
+          "key": "nata_crema"
+        },
+        {
+          "name": "Nata líquida 35% MG para montar",
+          "g": 150,
+          "key": "nata_montar"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 60,
+          "key": "yemas"
+        },
+        {
+          "name": "Azúcar",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Gelatina neutra porcina RAIAN 260 Bloom",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Agua fría para hidratar",
+          "g": 50,
+          "key": "agua_fria"
+        },
+        {
+          "name": "Cardamomo molido",
+          "g": 2,
+          "key": "cardamomo"
+        },
+        {
+          "name": "Bizcochos de soletilla",
+          "g": 80,
+          "key": "bizcocho_soletilla"
+        }
       ],
       "steps": [
         "Hidrata la gelatina porcina RAIAN en el agua fría durante 8 minutos.",
@@ -378,8 +585,13 @@
         "salt": 0.14
       },
       "estimated_serving_g": 163,
-      "keywords": ["bavarois de café", "postre premium con gelatina", "bavarois cardamomo"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "bavarois de café",
+        "postre premium con gelatina",
+        "bavarois cardamomo"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bavarois-de-cafe-y-cardamomo-con-base-de-bizcocho.webp"
     }
   ]
 }

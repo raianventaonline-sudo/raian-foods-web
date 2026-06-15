@@ -19,10 +19,28 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["premium", "familiar", "casera"],
-    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "categories": [
+      "premium",
+      "familiar",
+      "casera"
+    ],
+    "nutrition_fields_required_eu": [
+      "kcal",
+      "protein",
+      "carbs",
+      "sugars",
+      "fat",
+      "sat_fat",
+      "fiber",
+      "salt"
+    ],
     "allergen_policy": "Declarar frutos de cáscara (pistachos). Posible trazas de otros frutos secos.",
-    "claim_policy": ["Alto en fibra", "Sin gluten", "Sin sal añadida", "Fuente de proteínas vegetales"]
+    "claim_policy": [
+      "Alto en fibra",
+      "Sin gluten",
+      "Sin sal añadida",
+      "Fuente de proteínas vegetales"
+    ]
   },
   "recipes": [
     {
@@ -39,15 +57,43 @@
         "rest_min": 360,
         "total_min": 390
       },
-      "allergens": ["frutos de cáscara", "leche", "huevo"],
-      "image_available": false,
+      "allergens": [
+        "frutos de cáscara",
+        "leche",
+        "huevo"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Pistacho puro en grano RAIAN", "g": 100, "key": "pistacho" },
-        { "name": "Leche entera", "g": 250, "key": "leche" },
-        { "name": "Nata para montar 35% MG", "g": 200, "key": "nata" },
-        { "name": "Yemas de huevo", "g": 60, "key": "yemas" },
-        { "name": "Azúcar", "g": 80, "key": "azucar" },
-        { "name": "Extracto de vainilla", "g": 3, "key": "vainilla" }
+        {
+          "name": "Pistacho puro en grano RAIAN",
+          "g": 100,
+          "key": "pistacho"
+        },
+        {
+          "name": "Leche entera",
+          "g": 250,
+          "key": "leche"
+        },
+        {
+          "name": "Nata para montar 35% MG",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 60,
+          "key": "yemas"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 3,
+          "key": "vainilla"
+        }
       ],
       "steps": [
         "Tritura el pistacho puro en grano RAIAN en un procesador de alimentos hasta obtener una pasta fina. Reserva unos granos para decorar.",
@@ -80,8 +126,16 @@
         "salt": 0.07
       },
       "estimated_serving_g": 175,
-      "keywords": ["pistacho", "helado de pistacho", "helado casero", "sin colorantes", "premium", "frutos secos"],
-      "notes": "Para un color verde más intenso, blanquea los pistachos en agua hirviendo 1 minuto y pela la piel fina antes de triturar."
+      "keywords": [
+        "pistacho",
+        "helado de pistacho",
+        "helado casero",
+        "sin colorantes",
+        "premium",
+        "frutos secos"
+      ],
+      "notes": "Para un color verde más intenso, blanquea los pistachos en agua hirviendo 1 minuto y pela la piel fina antes de triturar.",
+      "imagePath": "/images/recipes/helado-de-pistacho-puro-casero.webp"
     },
     {
       "category": "premium",
@@ -97,13 +151,31 @@
         "rest_min": 30,
         "total_min": 53
       },
-      "allergens": ["frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Pistacho puro en grano RAIAN", "g": 200, "key": "pistacho" },
-        { "name": "Aceite de girasol o de pistacho", "g": 20, "key": "aceite" },
-        { "name": "Sal marina", "g": 2, "key": "sal" },
-        { "name": "Miel (opcional)", "g": 15, "key": "miel" }
+        {
+          "name": "Pistacho puro en grano RAIAN",
+          "g": 200,
+          "key": "pistacho"
+        },
+        {
+          "name": "Aceite de girasol o de pistacho",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal marina",
+          "g": 2,
+          "key": "sal"
+        },
+        {
+          "name": "Miel (opcional)",
+          "g": 15,
+          "key": "miel"
+        }
       ],
       "steps": [
         "Precalienta el horno a 160°C. Extiende el pistacho puro en grano RAIAN en una bandeja y tuéstalo 7-8 minutos removiendo a mitad. No debe dorarse en exceso.",
@@ -134,8 +206,16 @@
         "salt": 0.85
       },
       "estimated_serving_g": 28,
-      "keywords": ["pistacho", "crema de pistacho", "pasta de pistacho", "sin aditivos", "artesanal", "untar"],
-      "notes": "El procesador de vaso potente (tipo Thermomix o Vitamix) da mejor resultado que un procesador de alimentos pequeño. Cuanto más tiempo proceso, más suave queda."
+      "keywords": [
+        "pistacho",
+        "crema de pistacho",
+        "pasta de pistacho",
+        "sin aditivos",
+        "artesanal",
+        "untar"
+      ],
+      "notes": "El procesador de vaso potente (tipo Thermomix o Vitamix) da mejor resultado que un procesador de alimentos pequeño. Cuanto más tiempo proceso, más suave queda.",
+      "imagePath": "/images/recipes/crema-de-pistacho-artesanal-para-untar.webp"
     },
     {
       "category": "familiar",
@@ -151,17 +231,51 @@
         "rest_min": 5,
         "total_min": 30
       },
-      "allergens": ["frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Quinoa cocida", "g": 200, "key": "quinoa" },
-        { "name": "Pistacho puro en grano RAIAN", "g": 40, "key": "pistacho" },
-        { "name": "Naranja", "g": 200, "key": "naranja" },
-        { "name": "Rúcula fresca", "g": 60, "key": "rucula" },
-        { "name": "Aceite de oliva virgen extra", "g": 20, "key": "aove" },
-        { "name": "Miel", "g": 8, "key": "miel" },
-        { "name": "Zumo de limón", "g": 10, "key": "limon" },
-        { "name": "Sal y pimienta negra", "g": 3, "key": "sal" }
+        {
+          "name": "Quinoa cocida",
+          "g": 200,
+          "key": "quinoa"
+        },
+        {
+          "name": "Pistacho puro en grano RAIAN",
+          "g": 40,
+          "key": "pistacho"
+        },
+        {
+          "name": "Naranja",
+          "g": 200,
+          "key": "naranja"
+        },
+        {
+          "name": "Rúcula fresca",
+          "g": 60,
+          "key": "rucula"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 20,
+          "key": "aove"
+        },
+        {
+          "name": "Miel",
+          "g": 8,
+          "key": "miel"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "limon"
+        },
+        {
+          "name": "Sal y pimienta negra",
+          "g": 3,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Cuece la quinoa siguiendo las instrucciones del paquete (normalmente 15 min a fuego medio). Escurre y deja templar.",
@@ -192,8 +306,17 @@
         "salt": 0.14
       },
       "estimated_serving_g": 270,
-      "keywords": ["pistacho", "ensalada de quinoa", "naranja", "rúcula", "sin gluten", "vegano", "proteína vegetal"],
-      "notes": "Tostar el pistacho en seco potencia su aroma. No lo dores en exceso o amargará."
+      "keywords": [
+        "pistacho",
+        "ensalada de quinoa",
+        "naranja",
+        "rúcula",
+        "sin gluten",
+        "vegano",
+        "proteína vegetal"
+      ],
+      "notes": "Tostar el pistacho en seco potencia su aroma. No lo dores en exceso o amargará.",
+      "imagePath": "/images/recipes/ensalada-de-quinoa-con-pistacho-naranja-y-rucula.webp"
     },
     {
       "category": "casera",
@@ -209,19 +332,64 @@
         "rest_min": 30,
         "total_min": 95
       },
-      "allergens": ["frutos de cáscara", "huevo", "leche", "gluten"],
-      "image_available": false,
+      "allergens": [
+        "frutos de cáscara",
+        "huevo",
+        "leche",
+        "gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Pistacho puro en grano RAIAN molido", "g": 100, "key": "pistacho_molido" },
-        { "name": "Harina de trigo", "g": 150, "key": "harina" },
-        { "name": "Huevos", "g": 150, "key": "huevos" },
-        { "name": "Azúcar", "g": 120, "key": "azucar" },
-        { "name": "Mantequilla a temperatura ambiente", "g": 100, "key": "mantequilla" },
-        { "name": "Yogur natural", "g": 80, "key": "yogur" },
-        { "name": "Levadura química", "g": 8, "key": "levadura" },
-        { "name": "Ralladura de limón", "g": 5, "key": "ralladura" },
-        { "name": "Azúcar glas para el glaseado", "g": 60, "key": "azucar_glas" },
-        { "name": "Zumo de limón para el glaseado", "g": 20, "key": "zumo_limon" }
+        {
+          "name": "Pistacho puro en grano RAIAN molido",
+          "g": 100,
+          "key": "pistacho_molido"
+        },
+        {
+          "name": "Harina de trigo",
+          "g": 150,
+          "key": "harina"
+        },
+        {
+          "name": "Huevos",
+          "g": 150,
+          "key": "huevos"
+        },
+        {
+          "name": "Azúcar",
+          "g": 120,
+          "key": "azucar"
+        },
+        {
+          "name": "Mantequilla a temperatura ambiente",
+          "g": 100,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Yogur natural",
+          "g": 80,
+          "key": "yogur"
+        },
+        {
+          "name": "Levadura química",
+          "g": 8,
+          "key": "levadura"
+        },
+        {
+          "name": "Ralladura de limón",
+          "g": 5,
+          "key": "ralladura"
+        },
+        {
+          "name": "Azúcar glas para el glaseado",
+          "g": 60,
+          "key": "azucar_glas"
+        },
+        {
+          "name": "Zumo de limón para el glaseado",
+          "g": 20,
+          "key": "zumo_limon"
+        }
       ],
       "steps": [
         "Precalienta el horno a 175°C. Engrasa y enharina un molde de 20 cm o uno de plum cake.",
@@ -250,11 +418,18 @@
         "fat": 22.8,
         "sat_fat": 9.6,
         "fiber": 2.5,
-        "salt": 0.20
+        "salt": 0.2
       },
       "estimated_serving_g": 112,
-      "keywords": ["pistacho", "bizcocho de pistacho", "glaseado de limón", "repostería casera", "sin colorantes"],
-      "notes": "Para un color más verde, blanquea los pistachos y pélalos antes de moler. El bizcocho mejora de un día para otro."
+      "keywords": [
+        "pistacho",
+        "bizcocho de pistacho",
+        "glaseado de limón",
+        "repostería casera",
+        "sin colorantes"
+      ],
+      "notes": "Para un color más verde, blanquea los pistachos y pélalos antes de moler. El bizcocho mejora de un día para otro.",
+      "imagePath": "/images/recipes/bizcocho-humedo-de-pistacho-con-glaseado-de-limon.webp"
     },
     {
       "category": "premium",
@@ -270,17 +445,53 @@
         "rest_min": 0,
         "total_min": 10
       },
-      "allergens": ["frutos de cáscara", "leche", "gluten"],
-      "image_available": false,
+      "allergens": [
+        "frutos de cáscara",
+        "leche",
+        "gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Pistacho puro en grano RAIAN", "g": 80, "key": "pistacho" },
-        { "name": "Albahaca fresca", "g": 30, "key": "albahaca" },
-        { "name": "Parmesano rallado", "g": 40, "key": "parmesano" },
-        { "name": "Aceite de oliva virgen extra", "g": 60, "key": "aove" },
-        { "name": "Diente de ajo", "g": 5, "key": "ajo" },
-        { "name": "Zumo de limón", "g": 10, "key": "limon" },
-        { "name": "Sal y pimienta negra", "g": 3, "key": "sal" },
-        { "name": "Pasta fresca para servir", "g": 320, "key": "pasta" }
+        {
+          "name": "Pistacho puro en grano RAIAN",
+          "g": 80,
+          "key": "pistacho"
+        },
+        {
+          "name": "Albahaca fresca",
+          "g": 30,
+          "key": "albahaca"
+        },
+        {
+          "name": "Parmesano rallado",
+          "g": 40,
+          "key": "parmesano"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 60,
+          "key": "aove"
+        },
+        {
+          "name": "Diente de ajo",
+          "g": 5,
+          "key": "ajo"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "limon"
+        },
+        {
+          "name": "Sal y pimienta negra",
+          "g": 3,
+          "key": "sal"
+        },
+        {
+          "name": "Pasta fresca para servir",
+          "g": 320,
+          "key": "pasta"
+        }
       ],
       "steps": [
         "Cuece la pasta en agua abundante con sal siguiendo las indicaciones del fabricante.",
@@ -311,8 +522,16 @@
         "salt": 0.28
       },
       "estimated_serving_g": 137,
-      "keywords": ["pistacho", "pesto de pistacho", "pasta", "salsa siciliana", "premium", "albahaca"],
-      "notes": "Procesar en pulsos y no de forma continua da una textura más rústica y auténtica. El pesto sin pasta se conserva 5 días en nevera cubierto con aceite."
+      "keywords": [
+        "pistacho",
+        "pesto de pistacho",
+        "pasta",
+        "salsa siciliana",
+        "premium",
+        "albahaca"
+      ],
+      "notes": "Procesar en pulsos y no de forma continua da una textura más rústica y auténtica. El pesto sin pasta se conserva 5 días en nevera cubierto con aceite.",
+      "imagePath": "/images/recipes/pesto-de-pistacho-con-pasta-fresca.webp"
     }
   ]
 }

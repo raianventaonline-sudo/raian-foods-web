@@ -19,10 +19,28 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["premium", "fitness", "casera"],
-    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "categories": [
+      "premium",
+      "fitness",
+      "casera"
+    ],
+    "nutrition_fields_required_eu": [
+      "kcal",
+      "protein",
+      "carbs",
+      "sugars",
+      "fat",
+      "sat_fat",
+      "fiber",
+      "salt"
+    ],
     "allergen_policy": "Declarar soja. Sin gluten.",
-    "claim_policy": ["Sin gluten", "Sin lactosa", "Apto veganos", "Emulsionante natural"]
+    "claim_policy": [
+      "Sin gluten",
+      "Sin lactosa",
+      "Apto veganos",
+      "Emulsionante natural"
+    ]
   },
   "recipes": [
     {
@@ -39,15 +57,41 @@
         "rest_min": 15,
         "total_min": 30
       },
-      "allergens": ["soja"],
-      "image_available": false,
+      "allergens": [
+        "soja"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Tomates maduros licuados o zumo de tomate natural", "g": 400, "key": "tomate" },
-        { "name": "Lecitina de soja RAIAN", "g": 8, "key": "lecitina" },
-        { "name": "Aceite de oliva virgen extra", "g": 20, "key": "aove" },
-        { "name": "Sal", "g": 4, "key": "sal" },
-        { "name": "Vinagre de jerez", "g": 5, "key": "vinagre" },
-        { "name": "Albahaca fresca para decorar", "g": 5, "key": "albahaca" }
+        {
+          "name": "Tomates maduros licuados o zumo de tomate natural",
+          "g": 400,
+          "key": "tomate"
+        },
+        {
+          "name": "Lecitina de soja RAIAN",
+          "g": 8,
+          "key": "lecitina"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 20,
+          "key": "aove"
+        },
+        {
+          "name": "Sal",
+          "g": 4,
+          "key": "sal"
+        },
+        {
+          "name": "Vinagre de jerez",
+          "g": 5,
+          "key": "vinagre"
+        },
+        {
+          "name": "Albahaca fresca para decorar",
+          "g": 5,
+          "key": "albahaca"
+        }
       ],
       "steps": [
         "Licúa los tomates maduros y filtra el jugo para obtener 400 ml de líquido limpio.",
@@ -78,8 +122,16 @@
         "salt": 0.48
       },
       "estimated_serving_g": 88,
-      "keywords": ["lecitina de soja", "espuma de tomate", "cocina molecular", "cocina de vanguardia", "emulsionante", "vegano"],
-      "notes": "La espuma es efímera: debe servirse en máximo 5 minutos. Cuanto más frío esté el líquido, más estable será la espuma. El ángulo de la batidora es clave: debe estar a 45° para incorporar aire."
+      "keywords": [
+        "lecitina de soja",
+        "espuma de tomate",
+        "cocina molecular",
+        "cocina de vanguardia",
+        "emulsionante",
+        "vegano"
+      ],
+      "notes": "La espuma es efímera: debe servirse en máximo 5 minutos. Cuanto más frío esté el líquido, más estable será la espuma. El ángulo de la batidora es clave: debe estar a 45° para incorporar aire.",
+      "imagePath": "/images/recipes/espuma-de-tomate-con-lecitina-de-soja-para-entrante.webp"
     },
     {
       "category": "premium",
@@ -95,15 +147,41 @@
         "rest_min": 0,
         "total_min": 5
       },
-      "allergens": ["soja"],
-      "image_available": false,
+      "allergens": [
+        "soja"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Aceite de oliva virgen extra", "g": 80, "key": "aove" },
-        { "name": "Vinagre de manzana o de Módena", "g": 30, "key": "vinagre" },
-        { "name": "Lecitina de soja RAIAN", "g": 5, "key": "lecitina" },
-        { "name": "Mostaza de Dijon", "g": 8, "key": "mostaza" },
-        { "name": "Miel", "g": 8, "key": "miel" },
-        { "name": "Sal y pimienta negra", "g": 3, "key": "sal" }
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 80,
+          "key": "aove"
+        },
+        {
+          "name": "Vinagre de manzana o de Módena",
+          "g": 30,
+          "key": "vinagre"
+        },
+        {
+          "name": "Lecitina de soja RAIAN",
+          "g": 5,
+          "key": "lecitina"
+        },
+        {
+          "name": "Mostaza de Dijon",
+          "g": 8,
+          "key": "mostaza"
+        },
+        {
+          "name": "Miel",
+          "g": 8,
+          "key": "miel"
+        },
+        {
+          "name": "Sal y pimienta negra",
+          "g": 3,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Disuelve la lecitina de soja RAIAN en el vinagre durante 2-3 minutos hasta que se hidrate completamente.",
@@ -134,8 +212,16 @@
         "salt": 1.29
       },
       "estimated_serving_g": 22,
-      "keywords": ["lecitina de soja", "vinagreta emulsionada", "aliño estable", "emulsionante", "ensaladas", "sin lactosa"],
-      "notes": "Si la vinagreta se corta, bate de nuevo con la batidora añadiendo unas gotas de vinagre frío. La lecitina permite emulsiones estables incluso con poco aceite."
+      "keywords": [
+        "lecitina de soja",
+        "vinagreta emulsionada",
+        "aliño estable",
+        "emulsionante",
+        "ensaladas",
+        "sin lactosa"
+      ],
+      "notes": "Si la vinagreta se corta, bate de nuevo con la batidora añadiendo unas gotas de vinagre frío. La lecitina permite emulsiones estables incluso con poco aceite.",
+      "imagePath": "/images/recipes/vinagreta-emulsionada-con-lecitina-de-soja-y-mostaza.webp"
     },
     {
       "category": "fitness",
@@ -151,15 +237,43 @@
         "rest_min": 0,
         "total_min": 5
       },
-      "allergens": ["soja", "cacahuete", "leche"],
-      "image_available": false,
+      "allergens": [
+        "soja",
+        "cacahuete",
+        "leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche entera o vegetal", "g": 300, "key": "leche" },
-        { "name": "Crema de cacahuete 100%", "g": 30, "key": "cacahuete" },
-        { "name": "Cacao en polvo alcalino RAIAN", "g": 10, "key": "cacao" },
-        { "name": "Lecitina de soja RAIAN", "g": 3, "key": "lecitina" },
-        { "name": "Plátano congelado", "g": 80, "key": "platano" },
-        { "name": "Miel", "g": 10, "key": "miel" }
+        {
+          "name": "Leche entera o vegetal",
+          "g": 300,
+          "key": "leche"
+        },
+        {
+          "name": "Crema de cacahuete 100%",
+          "g": 30,
+          "key": "cacahuete"
+        },
+        {
+          "name": "Cacao en polvo alcalino RAIAN",
+          "g": 10,
+          "key": "cacao"
+        },
+        {
+          "name": "Lecitina de soja RAIAN",
+          "g": 3,
+          "key": "lecitina"
+        },
+        {
+          "name": "Plátano congelado",
+          "g": 80,
+          "key": "platano"
+        },
+        {
+          "name": "Miel",
+          "g": 10,
+          "key": "miel"
+        }
       ],
       "steps": [
         "Añade la leche a la batidora junto con la lecitina de soja RAIAN. Bate 15 segundos para pre-dispersar.",
@@ -188,8 +302,16 @@
         "salt": 0.05
       },
       "estimated_serving_g": 433,
-      "keywords": ["lecitina de soja", "batido cacao", "cacahuete", "emulsionante", "fitness", "proteínas"],
-      "notes": "Sin la lecitina, la crema de cacahuete tiende a separarse y quedar en capas. Con lecitina de soja RAIAN la mezcla queda estable hasta 30 minutos."
+      "keywords": [
+        "lecitina de soja",
+        "batido cacao",
+        "cacahuete",
+        "emulsionante",
+        "fitness",
+        "proteínas"
+      ],
+      "notes": "Sin la lecitina, la crema de cacahuete tiende a separarse y quedar en capas. Con lecitina de soja RAIAN la mezcla queda estable hasta 30 minutos.",
+      "imagePath": "/images/recipes/batido-de-cacao-y-cacahuete-con-lecitina-de-soja.webp"
     },
     {
       "category": "casera",
@@ -205,16 +327,47 @@
         "rest_min": 90,
         "total_min": 140
       },
-      "allergens": ["soja", "gluten"],
-      "image_available": false,
+      "allergens": [
+        "soja",
+        "gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Harina de fuerza", "g": 500, "key": "harina" },
-        { "name": "Agua tibia (35°C)", "g": 300, "key": "agua" },
-        { "name": "Levadura seca de panadero", "g": 7, "key": "levadura" },
-        { "name": "Lecitina de soja RAIAN", "g": 8, "key": "lecitina" },
-        { "name": "Aceite de oliva", "g": 20, "key": "aceite" },
-        { "name": "Sal", "g": 9, "key": "sal" },
-        { "name": "Azúcar", "g": 10, "key": "azucar" }
+        {
+          "name": "Harina de fuerza",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Agua tibia (35°C)",
+          "g": 300,
+          "key": "agua"
+        },
+        {
+          "name": "Levadura seca de panadero",
+          "g": 7,
+          "key": "levadura"
+        },
+        {
+          "name": "Lecitina de soja RAIAN",
+          "g": 8,
+          "key": "lecitina"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 9,
+          "key": "sal"
+        },
+        {
+          "name": "Azúcar",
+          "g": 10,
+          "key": "azucar"
+        }
       ],
       "steps": [
         "Disuelve la levadura y el azúcar en el agua tibia. Deja reposar 5 minutos hasta que espume.",
@@ -246,8 +399,16 @@
         "salt": 0.56
       },
       "estimated_serving_g": 85,
-      "keywords": ["lecitina de soja", "pan casero", "mejorador de pan", "miga suave", "panadería", "artesanal"],
-      "notes": "La lecitina mejora la extensibilidad de la masa y retarda el envejecimiento del pan. El pan hecho con lecitina se mantiene fresco 1-2 días más que sin ella."
+      "keywords": [
+        "lecitina de soja",
+        "pan casero",
+        "mejorador de pan",
+        "miga suave",
+        "panadería",
+        "artesanal"
+      ],
+      "notes": "La lecitina mejora la extensibilidad de la masa y retarda el envejecimiento del pan. El pan hecho con lecitina se mantiene fresco 1-2 días más que sin ella.",
+      "imagePath": "/images/recipes/pan-esponjoso-enriquecido-con-lecitina-de-soja.webp"
     }
   ]
 }

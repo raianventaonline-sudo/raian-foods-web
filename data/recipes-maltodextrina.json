@@ -20,7 +20,10 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["fitness", "familiar"],
+    "categories": [
+      "fitness",
+      "familiar"
+    ],
     "nutrition_fields_required_eu": [
       "valor energético kJ/kcal",
       "grasas",
@@ -52,14 +55,36 @@
         "rest_min": 0,
         "total_min": 5
       },
-      "allergens": ["Leche"],
-      "image_available": false,
+      "allergens": [
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Agua fría", "g": 300, "key": "agua" },
-        { "name": "Maltodextrina RAIAN", "g": 50, "key": "maltodextrina" },
-        { "name": "Proteína de suero de leche en polvo (sabor vainilla)", "g": 25, "key": "proteina_suero" },
-        { "name": "Plátano maduro", "g": 80, "key": "platano" },
-        { "name": "Pizca de sal", "g": 0.5, "key": "sal" }
+        {
+          "name": "Agua fría",
+          "g": 300,
+          "key": "agua"
+        },
+        {
+          "name": "Maltodextrina RAIAN",
+          "g": 50,
+          "key": "maltodextrina"
+        },
+        {
+          "name": "Proteína de suero de leche en polvo (sabor vainilla)",
+          "g": 25,
+          "key": "proteina_suero"
+        },
+        {
+          "name": "Plátano maduro",
+          "g": 80,
+          "key": "platano"
+        },
+        {
+          "name": "Pizca de sal",
+          "g": 0.5,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Pela y trocea el plátano.",
@@ -88,8 +113,13 @@
         "salt": 0.08
       },
       "estimated_serving_g": 455,
-      "keywords": ["batido post-entrenamiento", "bebida de recuperación", "maltodextrina deportiva"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "batido post-entrenamiento",
+        "bebida de recuperación",
+        "maltodextrina deportiva"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bebida-de-recuperacion-post-entreno-con-maltodextrina.webp"
     },
     {
       "category": "fitness",
@@ -106,13 +136,33 @@
         "total_min": 41
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Maltodextrina RAIAN", "g": 60, "key": "maltodextrina" },
-        { "name": "Zumo de naranja natural", "g": 80, "key": "zumo_naranja" },
-        { "name": "Agua", "g": 30, "key": "agua" },
-        { "name": "Sal", "g": 0.5, "key": "sal" },
-        { "name": "Zumo de limón", "g": 10, "key": "zumo_limon" }
+        {
+          "name": "Maltodextrina RAIAN",
+          "g": 60,
+          "key": "maltodextrina"
+        },
+        {
+          "name": "Zumo de naranja natural",
+          "g": 80,
+          "key": "zumo_naranja"
+        },
+        {
+          "name": "Agua",
+          "g": 30,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 0.5,
+          "key": "sal"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "zumo_limon"
+        }
       ],
       "steps": [
         "Calienta el zumo de naranja con el agua en un cazo pequeño hasta que esté tibio.",
@@ -142,8 +192,13 @@
         "salt": 0.12
       },
       "estimated_serving_g": 60,
-      "keywords": ["gel energético casero", "gel de maltodextrina", "nutrición en carrera"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "gel energético casero",
+        "gel de maltodextrina",
+        "nutrición en carrera"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/gel-energetico-casero-de-citricos-con-maltodextrina.webp"
     },
     {
       "category": "fitness",
@@ -159,14 +214,37 @@
         "rest_min": 0,
         "total_min": 5
       },
-      "allergens": ["Gluten", "Leche"],
-      "image_available": false,
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Leche semidesnatada", "g": 250, "key": "leche" },
-        { "name": "Maltodextrina RAIAN", "g": 35, "key": "maltodextrina" },
-        { "name": "Copos de avena", "g": 40, "key": "avena" },
-        { "name": "Plátano maduro", "g": 80, "key": "platano" },
-        { "name": "Canela molida", "g": 2, "key": "canela" }
+        {
+          "name": "Leche semidesnatada",
+          "g": 250,
+          "key": "leche"
+        },
+        {
+          "name": "Maltodextrina RAIAN",
+          "g": 35,
+          "key": "maltodextrina"
+        },
+        {
+          "name": "Copos de avena",
+          "g": 40,
+          "key": "avena"
+        },
+        {
+          "name": "Plátano maduro",
+          "g": 80,
+          "key": "platano"
+        },
+        {
+          "name": "Canela molida",
+          "g": 2,
+          "key": "canela"
+        }
       ],
       "steps": [
         "Coloca todos los ingredientes en el vaso de la batidora.",
@@ -194,8 +272,13 @@
         "salt": 0.08
       },
       "estimated_serving_g": 407,
-      "keywords": ["batido pre-entrenamiento", "batido de carbohidratos", "batido de avena fitness"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "batido pre-entrenamiento",
+        "batido de carbohidratos",
+        "batido de avena fitness"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/batido-pre-entreno-de-avena-y-maltodextrina.webp"
     },
     {
       "category": "familiar",
@@ -211,15 +294,42 @@
         "rest_min": 60,
         "total_min": 75
       },
-      "allergens": ["Gluten", "Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Gluten",
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Copos de avena", "g": 180, "key": "avena" },
-        { "name": "Maltodextrina RAIAN", "g": 50, "key": "maltodextrina" },
-        { "name": "Miel", "g": 80, "key": "miel" },
-        { "name": "Mantequilla de almendra", "g": 60, "key": "mantequilla_almendra" },
-        { "name": "Frutas desecadas variadas (pasas, arándanos)", "g": 60, "key": "frutas_desecadas" },
-        { "name": "Semillas de chía", "g": 15, "key": "chia" }
+        {
+          "name": "Copos de avena",
+          "g": 180,
+          "key": "avena"
+        },
+        {
+          "name": "Maltodextrina RAIAN",
+          "g": 50,
+          "key": "maltodextrina"
+        },
+        {
+          "name": "Miel",
+          "g": 80,
+          "key": "miel"
+        },
+        {
+          "name": "Mantequilla de almendra",
+          "g": 60,
+          "key": "mantequilla_almendra"
+        },
+        {
+          "name": "Frutas desecadas variadas (pasas, arándanos)",
+          "g": 60,
+          "key": "frutas_desecadas"
+        },
+        {
+          "name": "Semillas de chía",
+          "g": 15,
+          "key": "chia"
+        }
       ],
       "steps": [
         "Calienta la miel con la mantequilla de almendra en un cazo pequeño hasta que se fundan y formen una mezcla fluida.",
@@ -250,8 +360,13 @@
         "salt": 0.06
       },
       "estimated_serving_g": 56,
-      "keywords": ["barritas energéticas caseras", "barritas de avena", "snack de maltodextrina"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "barritas energéticas caseras",
+        "barritas de avena",
+        "snack de maltodextrina"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/barritas-energeticas-de-avena-miel-y-maltodextrina.webp"
     },
     {
       "category": "fitness",
@@ -268,13 +383,33 @@
         "total_min": 5
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Agua mineral", "g": 500, "key": "agua" },
-        { "name": "Maltodextrina RAIAN", "g": 40, "key": "maltodextrina" },
-        { "name": "Zumo de limón", "g": 20, "key": "zumo_limon" },
-        { "name": "Sal (cloruro sódico)", "g": 0.8, "key": "sal" },
-        { "name": "Agua de coco (fuente de potasio)", "g": 50, "key": "agua_coco" }
+        {
+          "name": "Agua mineral",
+          "g": 500,
+          "key": "agua"
+        },
+        {
+          "name": "Maltodextrina RAIAN",
+          "g": 40,
+          "key": "maltodextrina"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Sal (cloruro sódico)",
+          "g": 0.8,
+          "key": "sal"
+        },
+        {
+          "name": "Agua de coco (fuente de potasio)",
+          "g": 50,
+          "key": "agua_coco"
+        }
       ],
       "steps": [
         "Vierte el agua en una botella de deporte de 750 ml.",
@@ -304,8 +439,13 @@
         "salt": 0.14
       },
       "estimated_serving_g": 611,
-      "keywords": ["bebida isotónica casera", "maltodextrina bebida deportiva", "hidratación largo entrenamiento"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "bebida isotónica casera",
+        "maltodextrina bebida deportiva",
+        "hidratación largo entrenamiento"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bebida-isotonica-con-sales-minerales-y-maltodextrina.webp"
     }
   ]
 }

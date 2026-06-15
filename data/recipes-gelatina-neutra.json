@@ -24,7 +24,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Nata para montar",
@@ -86,7 +86,8 @@
         "postre italiano",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/panna-cotta-de-vainilla.webp"
     },
     {
       "category": "casera",
@@ -105,7 +106,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Nata para montar",
@@ -167,7 +168,8 @@
         "cafe",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/panna-cotta-de-cafe.webp"
     },
     {
       "category": "premium",
@@ -187,7 +189,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Nata para montar",
@@ -249,7 +251,8 @@
         "cremoso",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/panna-cotta-de-chocolate-blanco.webp"
     },
     {
       "category": "fitness",
@@ -268,7 +271,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Yogur griego natural",
@@ -325,7 +328,8 @@
         "proteico",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/panna-cotta-fitness-de-yogur-griego.webp"
     },
     {
       "category": "casera",
@@ -342,7 +346,7 @@
         "total_min": 263
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Leche de coco",
@@ -399,7 +403,8 @@
         "leche de coco",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/panna-cotta-de-coco.webp"
     },
     {
       "category": "casera",
@@ -416,7 +421,7 @@
         "total_min": 195
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Zumo de naranja natural",
@@ -468,7 +473,8 @@
         "natural",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-zumo-de-naranja-natural.webp"
     },
     {
       "category": "familiar",
@@ -485,7 +491,7 @@
         "total_min": 197
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Frutos rojos",
@@ -542,7 +548,8 @@
         "refrescante",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-frutos-rojos.webp"
     },
     {
       "category": "casera",
@@ -559,7 +566,7 @@
         "total_min": 197
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Pulpa de mango",
@@ -616,7 +623,8 @@
         "refrescante",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-mango.webp"
     },
     {
       "category": "fitness",
@@ -633,7 +641,7 @@
         "total_min": 195
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Zumo de limón",
@@ -690,7 +698,8 @@
         "bajo en calorias",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-limon-tipo-postre-ligero.webp"
     },
     {
       "category": "familiar",
@@ -707,7 +716,7 @@
         "total_min": 197
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Pulpa de sandía",
@@ -764,7 +773,8 @@
         "refrescante",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-sandia.webp"
     },
     {
       "category": "familiar",
@@ -783,7 +793,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Yogur natural",
@@ -845,7 +855,8 @@
         "fresa",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/vasitos-de-yogur-con-gelatina-de-fresa.webp"
     },
     {
       "category": "casera",
@@ -865,7 +876,7 @@
         "Leche",
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Queso crema",
@@ -932,7 +943,8 @@
         "tarta fria",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/tarta-fria-de-queso-sin-horno.webp"
     },
     {
       "category": "casera",
@@ -952,7 +964,7 @@
         "Leche",
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Queso crema",
@@ -1019,7 +1031,8 @@
         "citrico",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/tarta-fria-de-limon.webp"
     },
     {
       "category": "premium",
@@ -1040,7 +1053,7 @@
         "Gluten",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Chocolate blanco",
@@ -1107,7 +1120,8 @@
         "postre premium",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/tarta-de-chocolate-blanco-sin-horno.webp"
     },
     {
       "category": "premium",
@@ -1128,7 +1142,7 @@
         "Huevo",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Chocolate negro",
@@ -1190,7 +1204,8 @@
         "postre aireado",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-de-chocolate-estabilizada.webp"
     },
     {
       "category": "familiar",
@@ -1209,7 +1224,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Fresas",
@@ -1266,7 +1281,8 @@
         "afrutado",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-de-fresa-con-gelatina.webp"
     },
     {
       "category": "casera",
@@ -1285,7 +1301,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Pulpa de mango",
@@ -1342,7 +1358,8 @@
         "aireado",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-de-mango.webp"
     },
     {
       "category": "fitness",
@@ -1361,7 +1378,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Yogur griego natural",
@@ -1418,7 +1435,8 @@
         "fitness",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-de-yogur-y-miel.webp"
     },
     {
       "category": "casera",
@@ -1437,7 +1455,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Leche",
@@ -1504,7 +1522,8 @@
         "flan frio",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/flan-frio-de-cafe-sin-huevo.webp"
     },
     {
       "category": "casera",
@@ -1524,7 +1543,7 @@
         "Leche",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Leche",
@@ -1591,7 +1610,8 @@
         "sin horno",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/flan-frio-de-chocolate.webp"
     },
     {
       "category": "infantil",
@@ -1608,7 +1628,7 @@
         "total_min": 140
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Zumo de fruta natural",
@@ -1665,7 +1685,8 @@
         "sin colorantes",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gominolas-caseras-de-fruta.webp"
     },
     {
       "category": "fitness",
@@ -1682,7 +1703,7 @@
         "total_min": 140
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Agua de coco",
@@ -1744,7 +1765,8 @@
         "deportivo",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gominolas-fitness-de-electrolitos.webp"
     },
     {
       "category": "fitness",
@@ -1761,7 +1783,7 @@
         "total_min": 140
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Puré de frutos rojos",
@@ -1823,7 +1845,8 @@
         "proteico",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gominolas-de-colageno-con-frutos-rojos.webp"
     },
     {
       "category": "infantil",
@@ -1840,7 +1863,7 @@
         "total_min": 265
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Azúcar",
@@ -1902,7 +1925,8 @@
         "esponjoso",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/marshmallows-caseros.webp"
     },
     {
       "category": "infantil",
@@ -1919,7 +1943,7 @@
         "total_min": 265
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Azúcar",
@@ -1986,7 +2010,8 @@
         "esponjoso",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/nubes-de-vainilla-y-coco.webp"
     },
     {
       "category": "casera",
@@ -2006,7 +2031,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Leche",
@@ -2073,7 +2098,8 @@
         "cremoso",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/bavarois-de-vainilla.webp"
     },
     {
       "category": "premium",
@@ -2094,7 +2120,7 @@
         "Huevo",
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Leche",
@@ -2161,7 +2187,8 @@
         "intenso",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/bavarois-de-chocolate.webp"
     },
     {
       "category": "premium",
@@ -2182,7 +2209,7 @@
         "Huevo",
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Bizcochos de soletilla",
@@ -2249,7 +2276,8 @@
         "bizcochos",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/charlotte-fria-de-frutas.webp"
     },
     {
       "category": "premium",
@@ -2270,7 +2298,7 @@
         "Frutos de cáscara",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Turrón blando",
@@ -2332,7 +2360,8 @@
         "premium",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/semifrio-de-turron.webp"
     },
     {
       "category": "premium",
@@ -2351,7 +2380,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Frutos rojos",
@@ -2408,7 +2437,8 @@
         "afrutado",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/semifrio-de-frutos-rojos.webp"
     },
     {
       "category": "premium",
@@ -2427,7 +2457,7 @@
       "allergens": [
         "Sulfitos"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Cava o vino dulce",
@@ -2484,7 +2514,8 @@
         "vino dulce",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelee-de-cava-o-vino-dulce.webp"
     },
     {
       "category": "fitness",
@@ -2501,7 +2532,7 @@
         "total_min": 195
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Té verde infusionado",
@@ -2558,7 +2589,8 @@
         "antioxidante",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-te-verde-y-miel.webp"
     },
     {
       "category": "casera",
@@ -2577,7 +2609,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Leche",
@@ -2639,7 +2671,8 @@
         "especiado",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-chai-latte.webp"
     },
     {
       "category": "fitness",
@@ -2656,7 +2689,7 @@
         "total_min": 197
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Zumo de fruta natural",
@@ -2708,7 +2741,8 @@
         "topping",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/cubos-de-gelatina-para-bowls-de-yogur.webp"
     },
     {
       "category": "casera",
@@ -2728,7 +2762,7 @@
         "Huevo",
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Zumo de limón",
@@ -2790,7 +2824,8 @@
         "lemon curd",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/crema-de-limon-estabilizada-para-tartas.webp"
     },
     {
       "category": "casera",
@@ -2809,7 +2844,7 @@
       "allergens": [
         "Apio"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Verduras variadas cocidas",
@@ -2866,7 +2901,8 @@
         "gelatina salada",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/aspic-de-verduras.webp"
     },
     {
       "category": "casera",
@@ -2885,7 +2921,7 @@
       "allergens": [
         "Apio"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Pollo cocido desmenuzado",
@@ -2942,7 +2978,8 @@
         "proteico",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/aspic-de-pollo.webp"
     },
     {
       "category": "familiar",
@@ -2961,7 +2998,7 @@
       "allergens": [
         "Apio"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Pollo cocido",
@@ -3018,7 +3055,8 @@
         "verduras",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/terrina-de-pollo-y-verduras.webp"
     },
     {
       "category": "premium",
@@ -3038,7 +3076,7 @@
         "Pescado",
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Salmón ahumado",
@@ -3100,7 +3138,8 @@
         "salmon ahumado",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/terrina-de-salmon-ahumado.webp"
     },
     {
       "category": "premium",
@@ -3120,7 +3159,7 @@
         "Pescado",
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Salmón ahumado",
@@ -3182,7 +3221,8 @@
         "aperitivo premium",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-salada-de-salmon.webp"
     },
     {
       "category": "familiar",
@@ -3203,7 +3243,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Atún en conserva escurrido",
@@ -3265,7 +3305,8 @@
         "aperitivo",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-de-atun-para-canapes.webp"
     },
     {
       "category": "casera",
@@ -3284,7 +3325,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Hígados o pechuga de pollo cocida",
@@ -3346,7 +3387,8 @@
         "terrina",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/pate-de-pollo-estabilizado.webp"
     },
     {
       "category": "fitness",
@@ -3363,7 +3405,7 @@
         "total_min": 200
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Zumo de tomate natural",
@@ -3420,7 +3462,8 @@
         "topping",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-tomate-para-ensaladas.webp"
     },
     {
       "category": "fitness",
@@ -3437,7 +3480,7 @@
         "total_min": 205
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Gazpacho",
@@ -3489,7 +3532,8 @@
         "refrescante",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/cubos-de-gazpacho-gelificado.webp"
     },
     {
       "category": "casera",
@@ -3508,7 +3552,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Caldo dashi o de pollo concentrado",
@@ -3565,7 +3609,8 @@
         "umami",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelee-de-caldo-para-ramen-o-sopas.webp"
     },
     {
       "category": "premium",
@@ -3584,7 +3629,7 @@
       "allergens": [
         "Sulfitos"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Vino Pedro Ximénez",
@@ -3636,7 +3681,8 @@
         "queso",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-vino-pedro-ximenez-para-foie-o-queso.webp"
     },
     {
       "category": "casera",
@@ -3653,7 +3699,7 @@
         "total_min": 200
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Zumo de manzana",
@@ -3710,7 +3756,8 @@
         "afrutado",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-manzana-para-quesos.webp"
     },
     {
       "category": "casera",
@@ -3729,7 +3776,7 @@
       "allergens": [
         "Soja"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Salsa de soja",
@@ -3791,7 +3838,8 @@
         "umami",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-soja-y-jengibre-para-cocina-asiatica.webp"
     },
     {
       "category": "premium",
@@ -3810,7 +3858,7 @@
       "allergens": [
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Queso azul",
@@ -3867,7 +3915,8 @@
         "cremoso",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-de-queso-azul.webp"
     },
     {
       "category": "fitness",
@@ -3884,7 +3933,7 @@
         "total_min": 200
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Aguacate maduro",
@@ -3946,7 +3995,8 @@
         "aperitivo saludable",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/mousse-de-aguacate-y-lima.webp"
     },
     {
       "category": "casera",
@@ -3963,7 +4013,7 @@
         "total_min": 355
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Verduras asadas (pimiento, calabacín, berenjena)",
@@ -4020,7 +4070,8 @@
         "plato frio",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/terrina-de-verduras-asadas.webp"
     },
     {
       "category": "casera",
@@ -4037,7 +4088,7 @@
         "total_min": 200
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Caldo de jamón concentrado",
@@ -4089,7 +4140,8 @@
         "umami",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/gelatina-de-caldo-de-jamon.webp"
     },
     {
       "category": "casera",
@@ -4108,7 +4160,7 @@
       "allergens": [
         "Apio"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Caldo concentrado",
@@ -4160,7 +4212,8 @@
         "base de cocina",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/cubos-de-caldo-gelificado-para-salsas-rapidas.webp"
     },
     {
       "category": "premium",
@@ -4181,7 +4234,7 @@
         "Pescado",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Marisco cocido (gambas, surimi)",
@@ -4243,7 +4296,8 @@
         "frio",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/timbal-frio-de-marisco.webp"
     },
     {
       "category": "familiar",
@@ -4263,7 +4317,7 @@
         "Huevo",
         "Pescado"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Patata y zanahoria cocidas",
@@ -4330,7 +4384,8 @@
         "rusa",
         "gelatina neutra"
       ],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal."
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. La gelatina neutra es el ingrediente gelificante principal.",
+      "imagePath": "/images/recipes/ensaladilla-moldeada-con-gelatina-ligera.webp"
     }
   ]
 }

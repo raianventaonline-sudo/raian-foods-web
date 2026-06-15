@@ -19,10 +19,28 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["fitness", "familiar", "casera"],
-    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "categories": [
+      "fitness",
+      "familiar",
+      "casera"
+    ],
+    "nutrition_fields_required_eu": [
+      "kcal",
+      "protein",
+      "carbs",
+      "sugars",
+      "fat",
+      "sat_fat",
+      "fiber",
+      "salt"
+    ],
     "allergen_policy": "Sin alérgenos de declaración obligatoria. Sin gluten. Sin lactosa.",
-    "claim_policy": ["Alto en fibra", "Sin gluten", "Sin lactosa", "Apto veganos"]
+    "claim_policy": [
+      "Alto en fibra",
+      "Sin gluten",
+      "Sin lactosa",
+      "Apto veganos"
+    ]
   },
   "recipes": [
     {
@@ -39,14 +57,36 @@
         "rest_min": 0,
         "total_min": 5
       },
-      "allergens": ["leche"],
-      "image_available": false,
+      "allergens": [
+        "leche"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Yogur natural entero", "g": 250, "key": "yogur" },
-        { "name": "Inulina de agave RAIAN", "g": 10, "key": "inulina" },
-        { "name": "Frutas del bosque mixtas", "g": 100, "key": "frutas_bosque" },
-        { "name": "Miel", "g": 15, "key": "miel" },
-        { "name": "Semillas de chía", "g": 8, "key": "chia" }
+        {
+          "name": "Yogur natural entero",
+          "g": 250,
+          "key": "yogur"
+        },
+        {
+          "name": "Inulina de agave RAIAN",
+          "g": 10,
+          "key": "inulina"
+        },
+        {
+          "name": "Frutas del bosque mixtas",
+          "g": 100,
+          "key": "frutas_bosque"
+        },
+        {
+          "name": "Miel",
+          "g": 15,
+          "key": "miel"
+        },
+        {
+          "name": "Semillas de chía",
+          "g": 8,
+          "key": "chia"
+        }
       ],
       "steps": [
         "Mezcla el yogur natural con la inulina de agave RAIAN hasta que se disuelva completamente.",
@@ -63,7 +103,7 @@
         "fat": 5.8,
         "sat_fat": 3.2,
         "fiber": 6.4,
-        "salt": 0.10
+        "salt": 0.1
       },
       "nutrition_per_100g_estimated": {
         "kcal": 116,
@@ -76,8 +116,16 @@
         "salt": 0.07
       },
       "estimated_serving_g": 192,
-      "keywords": ["inulina de agave", "yogur prebiótico", "fibra soluble", "frutas del bosque", "microbiota", "desayuno saludable"],
-      "notes": "La inulina puede espesar ligeramente el yogur tras reposar en la nevera. Es el efecto normal de la fibra de cadena larga."
+      "keywords": [
+        "inulina de agave",
+        "yogur prebiótico",
+        "fibra soluble",
+        "frutas del bosque",
+        "microbiota",
+        "desayuno saludable"
+      ],
+      "notes": "La inulina puede espesar ligeramente el yogur tras reposar en la nevera. Es el efecto normal de la fibra de cadena larga.",
+      "imagePath": "/images/recipes/yogur-casero-enriquecido-con-inulina-de-agave-y-frutas-del-bosque.webp"
     },
     {
       "category": "casera",
@@ -94,14 +142,38 @@
         "total_min": 8
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Espinacas frescas", "g": 60, "key": "espinacas" },
-        { "name": "Manzana verde", "g": 150, "key": "manzana" },
-        { "name": "Inulina de agave RAIAN", "g": 8, "key": "inulina" },
-        { "name": "Zumo de limón", "g": 15, "key": "limon" },
-        { "name": "Jengibre fresco rallado", "g": 5, "key": "jengibre" },
-        { "name": "Agua fría", "g": 200, "key": "agua" }
+        {
+          "name": "Espinacas frescas",
+          "g": 60,
+          "key": "espinacas"
+        },
+        {
+          "name": "Manzana verde",
+          "g": 150,
+          "key": "manzana"
+        },
+        {
+          "name": "Inulina de agave RAIAN",
+          "g": 8,
+          "key": "inulina"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "limon"
+        },
+        {
+          "name": "Jengibre fresco rallado",
+          "g": 5,
+          "key": "jengibre"
+        },
+        {
+          "name": "Agua fría",
+          "g": 200,
+          "key": "agua"
+        }
       ],
       "steps": [
         "Lava bien las espinacas y trocea la manzana retirando el corazón.",
@@ -131,8 +203,17 @@
         "salt": 0.01
       },
       "estimated_serving_g": 438,
-      "keywords": ["inulina de agave", "batido verde", "espinacas", "manzana", "prebiótico", "vegano", "sin gluten"],
-      "notes": "El jengibre puede resultar intenso. Empieza con 3 g y aumenta al gusto. La manzana Granny Smith da un sabor más fresco y menos dulce."
+      "keywords": [
+        "inulina de agave",
+        "batido verde",
+        "espinacas",
+        "manzana",
+        "prebiótico",
+        "vegano",
+        "sin gluten"
+      ],
+      "notes": "El jengibre puede resultar intenso. Empieza con 3 g y aumenta al gusto. La manzana Granny Smith da un sabor más fresco y menos dulce.",
+      "imagePath": "/images/recipes/batido-verde-con-inulina-de-agave-espinacas-y-manzana.webp"
     },
     {
       "category": "fitness",
@@ -148,15 +229,41 @@
         "rest_min": 0,
         "total_min": 13
       },
-      "allergens": ["gluten"],
-      "image_available": false,
+      "allergens": [
+        "gluten"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Copos de avena", "g": 60, "key": "avena" },
-        { "name": "Leche de avena o agua", "g": 250, "key": "leche_avena" },
-        { "name": "Inulina de agave RAIAN", "g": 8, "key": "inulina" },
-        { "name": "Plátano maduro", "g": 100, "key": "platano" },
-        { "name": "Canela molida", "g": 1, "key": "canela" },
-        { "name": "Aceite de coco", "g": 3, "key": "aceite_coco" }
+        {
+          "name": "Copos de avena",
+          "g": 60,
+          "key": "avena"
+        },
+        {
+          "name": "Leche de avena o agua",
+          "g": 250,
+          "key": "leche_avena"
+        },
+        {
+          "name": "Inulina de agave RAIAN",
+          "g": 8,
+          "key": "inulina"
+        },
+        {
+          "name": "Plátano maduro",
+          "g": 100,
+          "key": "platano"
+        },
+        {
+          "name": "Canela molida",
+          "g": 1,
+          "key": "canela"
+        },
+        {
+          "name": "Aceite de coco",
+          "g": 3,
+          "key": "aceite_coco"
+        }
       ],
       "steps": [
         "Cuece los copos de avena con la leche de avena a fuego medio removiendo constantemente durante 5-7 minutos.",
@@ -186,8 +293,16 @@
         "salt": 0.02
       },
       "estimated_serving_g": 425,
-      "keywords": ["inulina de agave", "porridge", "avena", "plátano", "prebiótico", "desayuno deportista"],
-      "notes": "Para versión sin gluten, usa copos de avena certificados sin gluten. La inulina añade un toque de dulzor que puede reducir la necesidad de azúcar."
+      "keywords": [
+        "inulina de agave",
+        "porridge",
+        "avena",
+        "plátano",
+        "prebiótico",
+        "desayuno deportista"
+      ],
+      "notes": "Para versión sin gluten, usa copos de avena certificados sin gluten. La inulina añade un toque de dulzor que puede reducir la necesidad de azúcar.",
+      "imagePath": "/images/recipes/porridge-de-avena-con-inulina-de-agave-y-platano-caramelizado.webp"
     },
     {
       "category": "casera",
@@ -204,14 +319,38 @@
         "total_min": 36
       },
       "allergens": [],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
-        { "name": "Manzanas", "g": 400, "key": "manzana" },
-        { "name": "Peras", "g": 300, "key": "pera" },
-        { "name": "Inulina de agave RAIAN", "g": 15, "key": "inulina" },
-        { "name": "Zumo de limón", "g": 10, "key": "limon" },
-        { "name": "Canela en rama", "g": 5, "key": "canela_rama" },
-        { "name": "Agua", "g": 50, "key": "agua" }
+        {
+          "name": "Manzanas",
+          "g": 400,
+          "key": "manzana"
+        },
+        {
+          "name": "Peras",
+          "g": 300,
+          "key": "pera"
+        },
+        {
+          "name": "Inulina de agave RAIAN",
+          "g": 15,
+          "key": "inulina"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 10,
+          "key": "limon"
+        },
+        {
+          "name": "Canela en rama",
+          "g": 5,
+          "key": "canela_rama"
+        },
+        {
+          "name": "Agua",
+          "g": 50,
+          "key": "agua"
+        }
       ],
       "steps": [
         "Pela las manzanas y peras, retira los corazones y córtalas en dados de 2 cm.",
@@ -242,8 +381,17 @@
         "salt": 0.01
       },
       "estimated_serving_g": 195,
-      "keywords": ["inulina de agave", "compota", "manzana", "pera", "sin azúcar", "prebiótico", "vegano"],
-      "notes": "Añadir la inulina fuera del fuego preserva mejor sus propiedades prebióticas. La mezcla espesará un poco más al enfriar."
+      "keywords": [
+        "inulina de agave",
+        "compota",
+        "manzana",
+        "pera",
+        "sin azúcar",
+        "prebiótico",
+        "vegano"
+      ],
+      "notes": "Añadir la inulina fuera del fuego preserva mejor sus propiedades prebióticas. La mezcla espesará un poco más al enfriar.",
+      "imagePath": "/images/recipes/compota-de-manzana-y-pera-con-inulina-de-agave.webp"
     }
   ]
 }

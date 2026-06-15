@@ -20,7 +20,12 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["fitness", "premium", "familiar", "casera"],
+    "categories": [
+      "fitness",
+      "premium",
+      "familiar",
+      "casera"
+    ],
     "nutrition_fields_required_eu": [
       "valor energético kJ/kcal",
       "grasas",
@@ -52,16 +57,47 @@
         "rest_min": 0,
         "total_min": 20
       },
-      "allergens": ["Huevo", "Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Harina de almendra RAIAN", "g": 80, "key": "harina_almendra" },
-        { "name": "Plátano maduro", "g": 100, "key": "platano" },
-        { "name": "Huevos", "g": 100, "key": "huevo" },
-        { "name": "Levadura química", "g": 4, "key": "levadura" },
-        { "name": "Canela molida", "g": 2, "key": "canela" },
-        { "name": "Arándanos frescos", "g": 80, "key": "arandanos" },
-        { "name": "Aceite de coco para cocinar", "g": 10, "key": "aceite_coco" }
+        {
+          "name": "Harina de almendra RAIAN",
+          "g": 80,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Plátano maduro",
+          "g": 100,
+          "key": "platano"
+        },
+        {
+          "name": "Huevos",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Levadura química",
+          "g": 4,
+          "key": "levadura"
+        },
+        {
+          "name": "Canela molida",
+          "g": 2,
+          "key": "canela"
+        },
+        {
+          "name": "Arándanos frescos",
+          "g": 80,
+          "key": "arandanos"
+        },
+        {
+          "name": "Aceite de coco para cocinar",
+          "g": 10,
+          "key": "aceite_coco"
+        }
       ],
       "steps": [
         "Aplasta el plátano con un tenedor hasta obtener un puré.",
@@ -92,8 +128,13 @@
         "salt": 0.24
       },
       "estimated_serving_g": 188,
-      "keywords": ["tortitas de almendra", "tortitas sin gluten fitness", "harina de almendra receta"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "tortitas de almendra",
+        "tortitas sin gluten fitness",
+        "harina de almendra receta"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/tortitas-de-harina-de-almendra-con-platano-y-arandanos.webp"
     },
     {
       "category": "fitness",
@@ -109,15 +150,43 @@
         "rest_min": 10,
         "total_min": 34
       },
-      "allergens": ["Huevo", "Frutos de cáscara", "Cacahuete"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Frutos de cáscara",
+        "Cacahuete"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Harina de almendra RAIAN", "g": 150, "key": "harina_almendra" },
-        { "name": "Mantequilla de cacahuete natural", "g": 80, "key": "mantequilla_cacahuete" },
-        { "name": "Huevo", "g": 50, "key": "huevo" },
-        { "name": "Miel", "g": 30, "key": "miel" },
-        { "name": "Bicarbonato sódico", "g": 3, "key": "bicarbonato" },
-        { "name": "Extracto de vainilla", "g": 3, "key": "vainilla" }
+        {
+          "name": "Harina de almendra RAIAN",
+          "g": 150,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Mantequilla de cacahuete natural",
+          "g": 80,
+          "key": "mantequilla_cacahuete"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Miel",
+          "g": 30,
+          "key": "miel"
+        },
+        {
+          "name": "Bicarbonato sódico",
+          "g": 3,
+          "key": "bicarbonato"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 3,
+          "key": "vainilla"
+        }
       ],
       "steps": [
         "Precalienta el horno a 175°C con calor arriba y abajo.",
@@ -148,8 +217,13 @@
         "salt": 0.31
       },
       "estimated_serving_g": 26,
-      "keywords": ["galletas de almendra", "galletas sin harina de trigo", "galletas proteicas"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "galletas de almendra",
+        "galletas sin harina de trigo",
+        "galletas proteicas"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/galletas-de-harina-de-almendra-y-mantequilla-de-cacahuete.webp"
     },
     {
       "category": "casera",
@@ -165,17 +239,52 @@
         "rest_min": 15,
         "total_min": 65
       },
-      "allergens": ["Huevo", "Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Harina de almendra RAIAN", "g": 200, "key": "harina_almendra" },
-        { "name": "Huevos", "g": 150, "key": "huevos" },
-        { "name": "Azúcar", "g": 100, "key": "azucar" },
-        { "name": "Aceite de oliva virgen extra", "g": 60, "key": "aceite_oliva" },
-        { "name": "Ralladura de limón", "g": 8, "key": "ralladura_limon" },
-        { "name": "Zumo de limón", "g": 20, "key": "zumo_limon" },
-        { "name": "Levadura química", "g": 8, "key": "levadura" },
-        { "name": "Pizca de sal", "g": 2, "key": "sal" }
+        {
+          "name": "Harina de almendra RAIAN",
+          "g": 200,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Huevos",
+          "g": 150,
+          "key": "huevos"
+        },
+        {
+          "name": "Azúcar",
+          "g": 100,
+          "key": "azucar"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 60,
+          "key": "aceite_oliva"
+        },
+        {
+          "name": "Ralladura de limón",
+          "g": 8,
+          "key": "ralladura_limon"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "zumo_limon"
+        },
+        {
+          "name": "Levadura química",
+          "g": 8,
+          "key": "levadura"
+        },
+        {
+          "name": "Pizca de sal",
+          "g": 2,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Precalienta el horno a 170°C. Engrasa un molde de 20 cm con aceite y fórralo con papel de horno.",
@@ -206,8 +315,13 @@
         "salt": 0.27
       },
       "estimated_serving_g": 68,
-      "keywords": ["bizcocho de almendra", "bizcocho sin gluten casero", "bizcocho de limón con almendra"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "bizcocho de almendra",
+        "bizcocho sin gluten casero",
+        "bizcocho de limón con almendra"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bizcocho-de-harina-de-almendra-limon-y-aceite-de-oliva.webp"
     },
     {
       "category": "casera",
@@ -223,14 +337,36 @@
         "rest_min": 30,
         "total_min": 40
       },
-      "allergens": ["Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Harina de almendra RAIAN", "g": 180, "key": "harina_almendra" },
-        { "name": "Dátiles Medjool deshuesados", "g": 120, "key": "datiles" },
-        { "name": "Aceite de coco fundido", "g": 30, "key": "aceite_coco" },
-        { "name": "Cacao en polvo sin azúcar", "g": 15, "key": "cacao" },
-        { "name": "Pizca de sal", "g": 1, "key": "sal" }
+        {
+          "name": "Harina de almendra RAIAN",
+          "g": 180,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Dátiles Medjool deshuesados",
+          "g": 120,
+          "key": "datiles"
+        },
+        {
+          "name": "Aceite de coco fundido",
+          "g": 30,
+          "key": "aceite_coco"
+        },
+        {
+          "name": "Cacao en polvo sin azúcar",
+          "g": 15,
+          "key": "cacao"
+        },
+        {
+          "name": "Pizca de sal",
+          "g": 1,
+          "key": "sal"
+        }
       ],
       "steps": [
         "Tritura los dátiles en un procesador de alimentos hasta obtener una pasta.",
@@ -260,8 +396,13 @@
         "salt": 0.11
       },
       "estimated_serving_g": 43,
-      "keywords": ["base de tarta sin horno", "base de tarta de almendra", "base de cheesecake sin gluten"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "base de tarta sin horno",
+        "base de tarta de almendra",
+        "base de cheesecake sin gluten"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/base-de-tarta-crujiente-de-harina-de-almendra-y-datiles.webp"
     },
     {
       "category": "premium",
@@ -277,15 +418,43 @@
         "rest_min": 30,
         "total_min": 60
       },
-      "allergens": ["Huevo", "Leche", "Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Leche",
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Harina de almendra RAIAN", "g": 120, "key": "harina_almendra" },
-        { "name": "Azúcar glas", "g": 150, "key": "azucar_glas" },
-        { "name": "Claras de huevo", "g": 120, "key": "claras" },
-        { "name": "Mantequilla sin sal", "g": 100, "key": "mantequilla" },
-        { "name": "Harina de trigo (para ligar)", "g": 30, "key": "harina_trigo" },
-        { "name": "Frambuesas frescas", "g": 60, "key": "frambuesas" }
+        {
+          "name": "Harina de almendra RAIAN",
+          "g": 120,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Azúcar glas",
+          "g": 150,
+          "key": "azucar_glas"
+        },
+        {
+          "name": "Claras de huevo",
+          "g": 120,
+          "key": "claras"
+        },
+        {
+          "name": "Mantequilla sin sal",
+          "g": 100,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Harina de trigo (para ligar)",
+          "g": 30,
+          "key": "harina_trigo"
+        },
+        {
+          "name": "Frambuesas frescas",
+          "g": 60,
+          "key": "frambuesas"
+        }
       ],
       "steps": [
         "Funde la mantequilla a fuego medio hasta que tome un color dorado avellana y desprenda aroma a nuez (mantequilla noisette). Cuela y deja templar.",
@@ -317,8 +486,13 @@
         "salt": 0.13
       },
       "estimated_serving_g": 49,
-      "keywords": ["financiers de almendra", "pastelería francesa", "bizcocho de almendra premium"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "financiers de almendra",
+        "pastelería francesa",
+        "bizcocho de almendra premium"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/financiers-de-harina-de-almendra-mantequilla-y-frambuesa.webp"
     },
     {
       "category": "familiar",
@@ -334,16 +508,47 @@
         "rest_min": 5,
         "total_min": 42
       },
-      "allergens": ["Huevo", "Frutos de cáscara"],
-      "image_available": false,
+      "allergens": [
+        "Huevo",
+        "Frutos de cáscara"
+      ],
+      "image_available": true,
       "ingredients": [
-        { "name": "Pechugas de pollo", "g": 600, "key": "pollo" },
-        { "name": "Harina de almendra RAIAN", "g": 100, "key": "harina_almendra" },
-        { "name": "Huevos", "g": 100, "key": "huevos" },
-        { "name": "Pimentón ahumado", "g": 4, "key": "pimenton" },
-        { "name": "Ajo en polvo", "g": 3, "key": "ajo_polvo" },
-        { "name": "Sal y pimienta", "g": 4, "key": "sal_pimienta" },
-        { "name": "Aceite de oliva virgen extra", "g": 15, "key": "aceite" }
+        {
+          "name": "Pechugas de pollo",
+          "g": 600,
+          "key": "pollo"
+        },
+        {
+          "name": "Harina de almendra RAIAN",
+          "g": 100,
+          "key": "harina_almendra"
+        },
+        {
+          "name": "Huevos",
+          "g": 100,
+          "key": "huevos"
+        },
+        {
+          "name": "Pimentón ahumado",
+          "g": 4,
+          "key": "pimenton"
+        },
+        {
+          "name": "Ajo en polvo",
+          "g": 3,
+          "key": "ajo_polvo"
+        },
+        {
+          "name": "Sal y pimienta",
+          "g": 4,
+          "key": "sal_pimienta"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 15,
+          "key": "aceite"
+        }
       ],
       "steps": [
         "Precalienta el horno a 200°C. Forra una bandeja con papel de horno y pincela con aceite.",
@@ -374,8 +579,13 @@
         "salt": 0.34
       },
       "estimated_serving_g": 205,
-      "keywords": ["rebozado sin gluten", "pollo con harina de almendra", "pollo al horno crujiente"],
-      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial."
+      "keywords": [
+        "rebozado sin gluten",
+        "pollo con harina de almendra",
+        "pollo al horno crujiente"
+      ],
+      "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/rebozado-crujiente-de-harina-de-almendra-para-pollo-al-horno.webp"
     }
   ]
 }

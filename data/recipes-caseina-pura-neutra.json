@@ -418,7 +418,7 @@
       "allergens": [
         "leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Caseína pura neutra RAIAN",
@@ -489,7 +489,8 @@
         "sin heladera",
         "postre saludable"
       ],
-      "notes": "Para una textura aún más cremosa, sustituye parte de la leche entera por nata líquida para cocinar."
+      "notes": "Para una textura aún más cremosa, sustituye parte de la leche entera por nata líquida para cocinar.",
+      "imagePath": "/images/recipes/helado-proteico-de-caseina-con-vainilla-y-canela.webp"
     }
   ]
 }
