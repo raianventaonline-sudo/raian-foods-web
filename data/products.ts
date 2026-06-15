@@ -953,10 +953,10 @@ export const products: Product[] = [
     category: "Cacao y chocolate",
     tags: ["100% cacao", "Natural", "Sin alcalinizar", "10-12% materia grasa", "Sin azúcar", "Vegano", "1 kg"],
     mainImage: {
-      src: "/images/placeholders/product-placeholder.svg",
+      src: "/images/products/cacao-natural-10-12-main.svg",
       alt: "Cacao en polvo natural 10/12% RAIAN 1 kg",
       label: "Cacao natural 10/12% — 1 kg",
-      available: false,
+      available: true,
       fit: "contain"
     },
     gallery: galleryFor("Cacao en polvo natural 10/12%"),
