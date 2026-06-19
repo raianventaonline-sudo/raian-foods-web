@@ -93,6 +93,39 @@ export default function ProductPage({ params }: ProductPageProps) {
         }
       : null;
 
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.seoDescription ?? product.shortDescription,
+    image: product.mainImage.available
+      ? `${siteConfig.siteUrl}${product.mainImage.src}`
+      : undefined,
+    brand: {
+      "@type": "Brand",
+      name: "RAIAN Foods"
+    },
+    offers: {
+      "@type": "Offer",
+      availability: product.amazonUrl
+        ? "https://schema.org/InStock"
+        : "https://schema.org/PreOrder",
+      url: product.amazonUrl ?? `${siteConfig.siteUrl}/productos/${product.slug}`,
+      priceCurrency: "EUR",
+      price: "0",
+      priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1))
+        .toISOString()
+        .split("T")[0],
+      seller: {
+        "@type": "Organization",
+        name: "RAIAN Foods"
+      }
+    },
+    ...(product.amazonAsin && !product.amazonAsin.includes("Pendiente")
+      ? { gtin: product.amazonAsin }
+      : {})
+  };
+
   return (
     <>
       <JsonLd
@@ -102,6 +135,7 @@ export default function ProductPage({ params }: ProductPageProps) {
           { name: product.name, href: `/productos/${product.slug}` }
         ])}
       />
+      <JsonLd data={productJsonLd} />
       {faqJsonLd ? <JsonLd data={faqJsonLd} /> : null}
       <QrReviewPrompt
         productSlug={product.slug}
