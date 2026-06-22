@@ -1346,8 +1346,9 @@ export const products: Product[] = [
     nutrition: nutritionPlaceholder,
     allergens: "Contiene leche y soja. Puede contener trazas de frutos secos.",
     conservation: "Conservar en lugar seco, sin humedad, sin exposición directa al sol y a temperatura no superior a 20 °C. Mantener el envase cerrado.",
-    amazonUrl: null,
-    amazonAsin: pending,
+    amazonUrl: "https://www.amazon.es/dp/B0H564Y65P",
+    amazonAsin: "B0H564Y65P",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H564Y65P",
     relatedSlugs: ["cobertura-negra", "lecitina-de-soja", "cacao-en-polvo-alcalino"],
     recipeSlugs: [
       "fresas-con-chocolate-blanco-y-polvo-de-frambuesa",
@@ -1425,8 +1426,9 @@ export const products: Product[] = [
     nutrition: nutritionPlaceholder,
     allergens: "Contiene soja. Puede contener trazas de leche y frutos secos.",
     conservation: "Conservar en lugar seco, sin humedad, sin exposición directa al sol y a temperatura no superior a 20 °C. Mantener el envase cerrado.",
-    amazonUrl: null,
-    amazonAsin: pending,
+    amazonUrl: "https://www.amazon.es/dp/B0H55TM8X9",
+    amazonAsin: "B0H55TM8X9",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H55TM8X9",
     relatedSlugs: ["cobertura-blanca", "cacao-en-polvo-alcalino", "lecitina-de-soja"],
     recipeSlugs: [
       "fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco",
