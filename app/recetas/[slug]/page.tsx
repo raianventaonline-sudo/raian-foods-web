@@ -302,8 +302,13 @@ export default function RecipePage({ params }: RecipePageProps) {
                 </>
               ) : (
                 "Sin alérgenos destacados en la receta según la fuente estructurada."
-              )}{" "}
-              La gelatina es de origen bovino y no es apta para dietas vegetarianas o veganas.
+              )}
+              {recipe.ingredients.some((ingredient) => ingredient.name.toLowerCase().includes("gelatina")) ? (
+                <>
+                  {" "}
+                  La gelatina (bovina o porcina) es de origen animal y no es apta para dietas vegetarianas o veganas.
+                </>
+              ) : null}
             </p>
           </article>
           <article className="rounded-md border border-line bg-sage p-6">
@@ -313,6 +318,9 @@ export default function RecipePage({ params }: RecipePageProps) {
               Hidrata siempre la gelatina en agua fría antes de añadirla a una mezcla caliente y evita hervir fuerte
               después de incorporarla.
             </p>
+            {recipe.notes ? (
+              <p className="mt-3 text-sm leading-7 text-muted">{recipe.notes}</p>
+            ) : null}
           </article>
         </div>
       </section>
