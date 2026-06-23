@@ -212,7 +212,7 @@ export const products: Product[] = [
     category: "Gelatinas",
     tags: ["Neutra", "Origen bovino", "260 Bloom", "18 Mesh", "Halal", "1 kg"],
     mainImage: {
-      src: "/images/products/gelatina-bovina-main.png",
+      src: "/images/products/gelatina-bovina-main.svg",
       alt: "Bote de gelatina neutra bovina RAIAN 260 Bloom 1 kg",
       label: "Gelatina bovina 260 Bloom",
       available: true,

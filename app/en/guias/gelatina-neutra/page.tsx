@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     description: guideDescription,
     type: "article",
     url: guidePath,
-    images: [{ url: "/images/products/gelatina-bovina-main.png", alt: "Neutral bovine gelatine RAIAN 260 Bloom 1 kg" }],
+    images: [{ url: "/images/products/gelatina-bovina-main.svg", alt: "Neutral bovine gelatine RAIAN 260 Bloom 1 kg" }],
     locale: "en_GB"
   },
   twitter: {
     card: "summary_large_image",
     title: `${guideTitle} | RAIAN Foods`,
     description: guideDescription,
-    images: ["/images/products/gelatina-bovina-main.png"]
+    images: ["/images/products/gelatina-bovina-main.svg"]
   }
 };
 
@@ -95,7 +95,7 @@ const articleJsonLd = {
   "@type": "Article",
   headline: guideTitle,
   description: guideDescription,
-  image: absoluteUrl("/images/products/gelatina-bovina-main.png"),
+  image: absoluteUrl("/images/products/gelatina-bovina-main.svg"),
   inLanguage: "en-GB",
   author: { "@type": "Organization", name: "RAIAN" },
   publisher: {
@@ -139,7 +139,7 @@ export default function EnGelatinaNeutraGuidePage() {
           </div>
           <div className="raian-media mx-auto w-full max-w-md overflow-hidden rounded-md border border-line bg-white p-3 shadow-sm">
             <Image
-              src="/images/products/gelatina-bovina-main.png"
+              src="/images/products/gelatina-bovina-main.svg"
               alt="Neutral bovine gelatine RAIAN 260 Bloom in 1 kg format"
               width={1000}
               height={1000}

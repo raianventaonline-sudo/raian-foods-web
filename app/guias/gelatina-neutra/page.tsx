@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: guidePath,
     images: [
       {
-        url: "/images/products/gelatina-bovina-main.png",
+        url: "/images/products/gelatina-bovina-main.svg",
         alt: "Gelatina neutra bovina RAIAN 260 Bloom 1 kg"
       }
     ]
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${guideTitle} | RAIAN Foods`,
     description: guideDescription,
-    images: ["/images/products/gelatina-bovina-main.png"]
+    images: ["/images/products/gelatina-bovina-main.svg"]
   }
 };
 
@@ -116,7 +116,7 @@ const articleJsonLd = {
   "@type": "Article",
   headline: guideTitle,
   description: guideDescription,
-  image: absoluteUrl("/images/products/gelatina-bovina-main.png"),
+  image: absoluteUrl("/images/products/gelatina-bovina-main.svg"),
   inLanguage: "es-ES",
   author: {
     "@type": "Organization",
@@ -168,7 +168,7 @@ export default function GelatinaNeutraGuidePage() {
           </div>
           <div className="raian-media mx-auto w-full max-w-md overflow-hidden rounded-md border border-line bg-white p-3 shadow-sm">
             <Image
-              src="/images/products/gelatina-bovina-main.png"
+              src="/images/products/gelatina-bovina-main.svg"
               alt="Gelatina neutra bovina RAIAN 260 Bloom en formato 1 kg"
               width={1000}
               height={1000}
