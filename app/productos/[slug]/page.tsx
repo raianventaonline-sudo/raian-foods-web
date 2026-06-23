@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { NutritionTable } from "@/components/NutritionTable";
+import { ProductCertifications } from "@/components/ProductCertifications";
 import { ProductHero } from "@/components/ProductHero";
 import { ProductTechnicalTable } from "@/components/ProductTechnicalTable";
 import { QrReviewPrompt } from "@/components/QrReviewPrompt";
@@ -221,7 +222,21 @@ export default function ProductPage({ params }: ProductPageProps) {
         </div>
       </section>
 
-      <section className="bg-white py-12 md:py-16">
+      {product.certifications && product.certifications.length > 0 ? (
+        <section className="bg-white py-12 md:py-16">
+          <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+            <SectionTitle
+              eyebrow="Certificaciones y garantías"
+              title="Calidad respaldada por certificados oficiales."
+            />
+            <div className="mt-8">
+              <ProductCertifications certifications={product.certifications} />
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      <section className="bg-cream py-12 md:py-16">
         <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 md:grid-cols-2 md:px-8">
           <article className="rounded-md border border-line bg-sage p-6">
             <h2 className="font-display text-3xl text-ink">Alérgenos</h2>

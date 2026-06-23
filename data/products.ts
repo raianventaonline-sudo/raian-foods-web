@@ -21,6 +21,16 @@ export type FaqItem = {
   answer: string;
 };
 
+export type Certification = {
+  name: string;
+  issuer: string;
+  certNumber?: string;
+  validUntil?: string;
+  description: string;
+  fileUrl?: string;
+  badge?: "iso" | "halal" | "sanitary";
+};
+
 export type Product = {
   slug: string;
   name: string;
@@ -44,6 +54,7 @@ export type Product = {
   seoTitle?: string;
   seoDescription?: string;
   faqs?: FaqItem[];
+  certifications?: Certification[];
 };
 
 const pending = "Pendiente de completar";
@@ -300,6 +311,48 @@ export const products: Product[] = [
         question: "¿Puedo sustituirla por gelatina porcina en una receta?",
         answer:
           "Sí, son intercambiables. La diferencia está en el Bloom: la bovina RAIAN es de 260 Bloom y la porcina de 220 Bloom. Si una receta está calculada para gelatina bovina y usas la porcina, añade un 10-15% más de cantidad para conseguir la misma firmeza."
+      },
+      {
+        question: "¿Qué certificaciones tiene esta gelatina?",
+        answer:
+          "Se fabrica en una planta con certificación ISO 9001 de gestión de calidad, cuenta con doble certificado Halal (GSO 2055-1:2015 y HQC Países Bajos) y está registrada sanitariamente en España con el número RGSEAA 20.047319/V. Puedes descargar los certificados Halal desde la ficha del producto."
+      }
+    ],
+    certifications: [
+      {
+        name: "ISO 9001",
+        issuer: "Sistema de gestión de calidad",
+        description:
+          "Fabricada en una planta certificada bajo la norma ISO 9001 de gestión de calidad, que garantiza procesos controlados y trazabilidad en toda la producción.",
+        badge: "iso"
+      },
+      {
+        name: "Halal — GSO 2055-1:2015",
+        issuer: "Halal Center Quality Certification Ltd. Co.",
+        certNumber: "HAL-TR-26-00060",
+        validUntil: "14-03-2029",
+        description:
+          "Certificado Halal conforme a la norma GSO 2055-1:2015 para la producción de gelatina bovina en polvo, emitido por Halal Center Quality Certification (Turquía).",
+        fileUrl: "/documents/certificates/halal-gso-2055-gelatina-bovina.pdf",
+        badge: "halal"
+      },
+      {
+        name: "Halal — HQC Países Bajos",
+        issuer: "Halal Quality Control B.V. (Países Bajos)",
+        certNumber: "DE10410402434",
+        validUntil: "16-03-2027",
+        description:
+          "Certificado Halal internacional emitido por Halal Quality Control B.V. (Países Bajos), acreditado OIC/SMIIC 2:2019, para la producción de gelatina bovina.",
+        fileUrl: "/documents/certificates/halal-hqc-gelatina-bovina.pdf",
+        badge: "halal"
+      },
+      {
+        name: "Registro Sanitario",
+        issuer: "España",
+        certNumber: "RGSEAA 20.047319/V",
+        description:
+          "Producto registrado sanitariamente en España con el número RGSEAA 20.047319/V.",
+        badge: "sanitary"
       }
     ]
   },
