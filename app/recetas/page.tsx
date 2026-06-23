@@ -28,8 +28,11 @@ type RecipesPageProps = {
     tipo?: string;
     apta?: string;
     producto?: string | string[];
+    pagina?: string;
   };
 };
+
+const RECIPES_PER_PAGE = 20;
 
 export const metadata: Metadata = {
   title: "Usos y recetas",
@@ -63,6 +66,13 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
     diet: selectedDiet,
     productSlugs: selectedProductSlugs
   });
+  const totalPages = Math.max(1, Math.ceil(visibleRecipes.length / RECIPES_PER_PAGE));
+  const requestedPage = Number.parseInt(searchParams?.pagina ?? "1", 10);
+  const currentPage = Number.isFinite(requestedPage) ? Math.min(Math.max(requestedPage, 1), totalPages) : 1;
+  const paginatedRecipes = visibleRecipes.slice(
+    (currentPage - 1) * RECIPES_PER_PAGE,
+    currentPage * RECIPES_PER_PAGE
+  );
   const ratingSummaries = getRecipeRatingSummaries();
   const selectedCategoryLabel = selectedCategory ? getRecipeCategoryLabel(selectedCategory) : "Todos los tipos";
   const selectedDietLabel = selectedDiet ? getRecipeDietLabel(selectedDiet) : undefined;
@@ -93,6 +103,30 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
 
     if (productSlugs.length > 0) {
       params.set("producto", productSlugs.join(","));
+    }
+
+    const query = params.toString();
+
+    return query ? `/recetas?${query}` : "/recetas";
+  };
+
+  const buildPageHref = (page: number) => {
+    const params = new URLSearchParams();
+
+    if (selectedCategory) {
+      params.set("tipo", selectedCategory);
+    }
+
+    if (selectedDiet) {
+      params.set("apta", selectedDiet);
+    }
+
+    if (selectedProductSlugs.length > 0) {
+      params.set("producto", selectedProductSlugs.join(","));
+    }
+
+    if (page > 1) {
+      params.set("pagina", String(page));
     }
 
     const query = params.toString();
@@ -284,15 +318,64 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
               <h2 className="mt-2 font-display text-3xl text-ink">Recetas</h2>
             </div>
             <p className="text-sm leading-6 text-muted">
-              {visibleRecipes.length} recetas encontradas con titulo, descripcion y URL propia.
+              {visibleRecipes.length > 0
+                ? `Mostrando ${(currentPage - 1) * RECIPES_PER_PAGE + 1}-${Math.min(
+                    currentPage * RECIPES_PER_PAGE,
+                    visibleRecipes.length
+                  )} de ${visibleRecipes.length} recetas`
+                : "0 recetas encontradas"}
             </p>
           </div>
-          {visibleRecipes.length > 0 ? (
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {visibleRecipes.map((recipe, index) => (
-                <RecipeCard key={recipe.slug} recipe={recipe} rating={ratingSummaries[recipe.slug]} index={index} />
-              ))}
-            </div>
+          {paginatedRecipes.length > 0 ? (
+            <>
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {paginatedRecipes.map((recipe, index) => (
+                  <RecipeCard key={recipe.slug} recipe={recipe} rating={ratingSummaries[recipe.slug]} index={index} />
+                ))}
+              </div>
+              {totalPages > 1 ? (
+                <nav
+                  aria-label="Paginación de recetas"
+                  className="mt-10 flex flex-wrap items-center justify-center gap-2"
+                >
+                  <Link
+                    href={buildPageHref(Math.max(1, currentPage - 1))}
+                    prefetch={false}
+                    aria-disabled={currentPage === 1}
+                    className={`inline-flex min-h-11 items-center rounded-full border px-4 text-sm font-semibold transition ${
+                      currentPage === 1
+                        ? "pointer-events-none border-line bg-cream text-muted"
+                        : "border-line bg-white text-ink hover:border-olive hover:text-olive"
+                    }`}
+                  >
+                    Anterior
+                  </Link>
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                    <Link
+                      key={page}
+                      href={buildPageHref(page)}
+                      prefetch={false}
+                      aria-current={page === currentPage ? "page" : undefined}
+                      className={filterClass(page === currentPage)}
+                    >
+                      {page}
+                    </Link>
+                  ))}
+                  <Link
+                    href={buildPageHref(Math.min(totalPages, currentPage + 1))}
+                    prefetch={false}
+                    aria-disabled={currentPage === totalPages}
+                    className={`inline-flex min-h-11 items-center rounded-full border px-4 text-sm font-semibold transition ${
+                      currentPage === totalPages
+                        ? "pointer-events-none border-line bg-cream text-muted"
+                        : "border-line bg-white text-ink hover:border-olive hover:text-olive"
+                    }`}
+                  >
+                    Siguiente
+                  </Link>
+                </nav>
+              ) : null}
+            </>
           ) : (
             <div className="rounded-md border border-line bg-cream p-8 text-center">
               <h3 className="font-display text-3xl leading-tight text-ink">No hay recetas con esos filtros</h3>
