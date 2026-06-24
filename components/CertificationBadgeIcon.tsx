@@ -50,6 +50,17 @@ function HalalIcon({ className }: { className?: string }) {
   );
 }
 
+function KosherIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 48 48" className={className} aria-hidden>
+      <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" strokeWidth="2" />
+      <text x="24" y="29" textAnchor="middle" fontSize="18" fontWeight="700" fill="currentColor" fontFamily="Arial, sans-serif">
+        K
+      </text>
+    </svg>
+  );
+}
+
 function SanitaryIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 48 48" className={className} aria-hidden>
@@ -76,6 +87,7 @@ export function CertificationBadgeIcon({ badge, className = "h-10 w-10 text-ink"
   if (badge === "iso") return <IsoIcon className={className} />;
   if (badge === "halal") return <HalalIcon className={className} />;
   if (badge === "sanitary") return <SanitaryIcon className={className} />;
+  if (badge === "kosher") return <KosherIcon className={className} />;
   return (
     <svg viewBox="0 0 48 48" className={className} aria-hidden>
       <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" strokeWidth="2" />

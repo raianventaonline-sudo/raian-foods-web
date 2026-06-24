@@ -68,5 +68,19 @@ export const qrLinks: Record<string, QrLink> = {
   },
   "cacao-no-alcalinizado": {
     targetPath: "/productos/cacao-natural-10-12"
+  },
+
+  // ── Levadura seca instantánea (nuevo) ────────────────────────────────────
+  levadura: {
+    targetPath: "/productos/levadura-instantanea"
+  },
+  "levadura-instantanea": {
+    targetPath: "/productos/levadura-instantanea"
+  },
+  "levadura-en-polvo": {
+    targetPath: "/productos/levadura-instantanea"
+  },
+  "levadura-seca-instantanea": {
+    targetPath: "/productos/levadura-instantanea"
   }
 };

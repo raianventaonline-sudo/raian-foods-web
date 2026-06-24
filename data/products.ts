@@ -28,7 +28,7 @@ export type Certification = {
   validUntil?: string;
   description: string;
   fileUrl?: string;
-  badge?: "iso" | "halal" | "sanitary";
+  badge?: "iso" | "halal" | "sanitary" | "kosher";
 };
 
 export type Product = {
@@ -44,6 +44,7 @@ export type Product = {
   highlights?: string[];
   howToUse: string[];
   technicalSheet: TechnicalRow[];
+  technicalSheetPdf?: string;
   nutrition: NutritionRow[];
   allergens: string;
   conservation: string;
@@ -1561,6 +1562,127 @@ export const products: Product[] = [
         question: "¿Hay que templar la cobertura negra?",
         answer:
           "Para un acabado crujiente y brillante, sí es recomendable. Si la usas para mezclar o rellenar, no es imprescindible."
+      }
+    ]
+  },
+  {
+    slug: "levadura-instantanea",
+    name: "Levadura seca instantánea",
+    shortDescription:
+      "Levadura de panadería seca instantánea, envasada al vacío. Se mezcla directamente con la harina, sin rehidratar, para panes, pizzas y bollería.",
+    description:
+      "Levadura seca instantánea obtenida deshidratando levadura de panadería (Saccharomyces cerevisiae) y envasada al vacío para conservar todo su poder fermentativo. Su estructura porosa permite incorporarla directamente a la harina, sin necesidad de disolverla previamente en agua. Apta para cualquier masa fermentada: panes, pizzas, focaccias y bollería dulce o salada.",
+    category: "Panadería y repostería",
+    tags: ["Levadura", "Instantánea", "Envasada al vacío", "Halal", "Kosher", "Sin gluten", "Vegana"],
+    highlights: ["Alto contenido en proteína (45 g/100 g)", "Rico en fibra (22 g/100 g)", "Apta para veganos y vegetarianos, sin gluten"],
+    mainImage: {
+      src: "/images/products/levadura-instantanea-main.svg",
+      alt: "Bolsa de levadura seca instantánea RAIAN",
+      label: "Levadura seca instantánea",
+      available: true,
+      fit: "contain"
+    },
+    gallery: [
+      {
+        src: "/images/products/levadura-instantanea-main.svg",
+        alt: "Bolsa de levadura seca instantánea RAIAN",
+        label: "Levadura seca instantánea",
+        available: true,
+        fit: "contain"
+      },
+      ...galleryFor("Levadura seca instantánea").slice(0, 4)
+    ],
+    uses: [
+      "Panes de todo tipo: blanco, integral, rústico.",
+      "Pizzas y focaccias.",
+      "Bollería y panes dulces: brioche, roscón, panettone.",
+      "Pretzels, bagels y panes especiales.",
+      "Cualquier masa de panadería fermentada."
+    ],
+    howToUse: [
+      "Mezclar directamente con la harina, sin necesidad de disolver en agua.",
+      "Dosificar entre el 1% y el 1,5% sobre el peso de la harina.",
+      "Amasar e incorporar el resto de ingredientes según la receta.",
+      "Dejar fermentar en un lugar cálido hasta que la masa duplique su volumen."
+    ],
+    technicalSheet: [
+      { label: "Nombre del producto", value: "Levadura seca instantánea INSTAFERM" },
+      { label: "Ingredientes", value: "Levadura de panadería, emulsionante (E491)" },
+      { label: "Certificación / atributo", value: "Kosher y Halal" },
+      { label: "Conformidad alimentaria", value: "Sin gluten · Apta para veganos y vegetarianos" },
+      { label: "Formato", value: "500 g (envasado al vacío)" },
+      { label: "País de origen", value: "Portugal" },
+      { label: "Alérgenos", value: "Ausencia de alérgenos de declaración obligatoria (Reglamento UE 1169/2011, anexo II)" },
+      { label: "Dosis de uso recomendada", value: "1% - 1,5% sobre el peso de la harina" },
+      { label: "Condiciones de almacenaje", value: "Lugar fresco y seco, en condiciones higiénicas" },
+      { label: "Vida útil", value: "2 años desde su fabricación, sin abrir" },
+      { label: "Uso previsto", value: "Uso alimentario, panadería y repostería" },
+      { label: "ASIN de Amazon", value: pending },
+      { label: "Enlace Amazon", value: pending }
+    ],
+    technicalSheetPdf: "/documents/technical-sheets/ficha-tecnica-levadura-instantanea-instaferm.pdf",
+    nutrition: [
+      { label: "Valor energético", value: "1657 kJ / 396 kcal" },
+      { label: "Grasas", value: "7,8 g" },
+      { label: "De las cuales saturadas", value: "2,2 g" },
+      { label: "Hidratos de carbono", value: "36,5 g" },
+      { label: "De los cuales azúcares", value: "2,1 g" },
+      { label: "Fibra alimentaria", value: "22,0 g" },
+      { label: "Proteínas", value: "45,0 g" },
+      { label: "Sal", value: "0,27 g (estimado a partir del sodio)" }
+    ],
+    allergens:
+      "Ausencia de alérgenos de declaración obligatoria según el Reglamento (UE) nº 1169/2011, anexo II. Libre de OGM: no sujeto a declaración en virtud de los Reglamentos (CE) n.º 258/1997, 1829/2003 y 1830/2003.",
+    conservation:
+      "Conservar en un lugar fresco y seco, en condiciones higiénicas adecuadas para un producto alimenticio. Una vez abierto el envase, mantener bien cerrado y consumir en el plazo recomendado.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["harina-de-almendra", "dextrosa", "glucosa"],
+    recipeSlugs: [
+      "pan-casero-de-cada-dia-con-levadura-instantanea",
+      "pizza-margarita-napolitana",
+      "brioche-frances-clasico",
+      "pan-integral-proteico-con-claras-de-huevo",
+      "focaccia-de-romero-y-aceite-de-oliva",
+      "bollos-de-leche-rellenos-de-chocolate"
+    ],
+    seoTitle: "Levadura seca instantánea 500 g | RAIAN Foods",
+    seoDescription:
+      "Levadura seca instantánea RAIAN: Kosher, Halal, sin gluten y apta para veganos. Se mezcla directamente con la harina, sin rehidratar. Ideal para panes, pizzas y bollería.",
+    faqs: [
+      {
+        question: "¿Hay que disolver la levadura instantánea en agua antes de usarla?",
+        answer:
+          "No. A diferencia de la levadura fresca o la seca tradicional, la levadura instantánea se mezcla directamente con la harina, sin necesidad de rehidratarla previamente."
+      },
+      {
+        question: "¿Qué dosis de levadura instantánea debo usar?",
+        answer:
+          "La dosis recomendada varía entre el 1% y el 1,5% sobre el peso de la harina, según el tipo de masa y el tiempo de fermentación deseado."
+      },
+      {
+        question: "¿Es apta para veganos?",
+        answer:
+          "Sí. Es un producto vegetal que conviene para regímenes veganos y vegetarianos, y además está certificada Kosher y Halal."
+      },
+      {
+        question: "¿Contiene gluten?",
+        answer:
+          "La levadura en sí no contiene gluten. Aun así, ten en cuenta que se usa habitualmente con harinas de trigo u otros cereales que sí lo contienen."
+      }
+    ],
+    certifications: [
+      {
+        name: "Halal",
+        issuer: "Lallemand Ibérica, SA",
+        description: "Producto certificado Halal según la documentación técnica del fabricante.",
+        badge: "halal"
+      },
+      {
+        name: "Kosher",
+        issuer: "Lallemand Ibérica, SA",
+        description: "Producto certificado Kosher según la documentación técnica del fabricante.",
+        badge: "kosher"
       }
     ]
   }

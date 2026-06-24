@@ -1,0 +1,3658 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "levadura-instantanea",
+  "product": {
+    "name": "Levadura seca instantánea RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 1657,
+      "energy_kcal": 396,
+      "fat_g": 7.8,
+      "saturates_g": 2.2,
+      "carbohydrate_g": 36.5,
+      "sugars_g": 2.1,
+      "protein_g": 45.0,
+      "fiber_g": 22.0,
+      "salt_g": 0.0
+    },
+    "technical_note": "Levadura de panadería seca instantánea (Saccharomyces cerevisiae), envasada al vacío. Se usa directamente mezclada con la harina, sin necesidad de rehidratación previa. Dosis recomendada: 1-1,5% sobre el peso de la harina.",
+    "dosage_note": "Mezclar directamente con la harina seca, sin disolver en agua. Dosis orientativa: 1-1,5% del peso de la harina (aprox. 5-7 g por cada 500 g de harina)."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": [
+      "fitness",
+      "premium",
+      "familiar",
+      "casera"
+    ],
+    "nutrition_fields_required_eu": [
+      "valor energético kJ/kcal",
+      "grasas",
+      "grasas saturadas",
+      "hidratos de carbono",
+      "azúcares",
+      "proteínas",
+      "sal"
+    ],
+    "allergen_policy": "La levadura instantánea RAIAN no contiene alérgenos de declaración obligatoria. Los alérgenos listados en cada receta corresponden al resto de ingredientes de la elaboración (harina con gluten, leche, huevo, etc.).",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "Describir usos técnicos de panificación de forma objetiva.",
+      "Los tiempos de fermentación pueden variar según temperatura ambiente."
+    ]
+  },
+  "recipes": [
+    {
+      "category": "familiar",
+      "title": "Pan de molde casero blanco",
+      "slug": "pan-de-molde-casero-blanco",
+      "seo_title": "Pan de molde casero blanco con levadura RAIAN | Receta",
+      "meta_description": "Pan de molde suave y esponjoso, perfecto para el desayuno o la merienda, hecho con levadura instantánea RAIAN.",
+      "intro": "Pan de molde suave y esponjoso, perfecto para el desayuno o la merienda, hecho con levadura instantánea RAIAN.",
+      "servings": 16,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 300,
+          "key": "agua"
+        },
+        {
+          "name": "Leche entera",
+          "g": 50,
+          "key": "leche"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 25,
+          "key": "aceite"
+        },
+        {
+          "name": "Azúcar",
+          "g": 20,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 9,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN directamente, sin necesidad de activarla en agua.",
+        "Añade el agua tibia, la leche, el aceite, el azúcar y la sal, y amasa hasta obtener una masa lisa y elástica.",
+        "Deja reposar la masa tapada en un lugar cálido hasta que duplique su volumen, aproximadamente 60 minutos.",
+        "Desgasifica, da forma de barra y colócala en un molde rectangular engrasado.",
+        "Deja fermentar de nuevo 30-40 minutos y hornea a 180°C durante 30-35 minutos.",
+        "Deja enfriar sobre una rejilla antes de cortar en rebanadas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 141,
+        "protein": 4.8,
+        "carbs": 26.0,
+        "sugars": 1.6,
+        "fat": 1.7,
+        "sat_fat": 0.3,
+        "fiber": 1.4,
+        "salt": 0.58
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 265,
+        "protein": 9,
+        "carbs": 49,
+        "sugars": 3,
+        "fat": 3.2,
+        "sat_fat": 0.6,
+        "fiber": 2.7,
+        "salt": 1.1
+      },
+      "estimated_serving_g": 53,
+      "keywords": [
+        "pan de molde casero",
+        "pan blanco con levadura",
+        "receta pan molde"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pan de hamburguesa esponjoso",
+      "slug": "pan-de-hamburguesa-esponjoso",
+      "seo_title": "Pan de hamburguesa esponjoso con levadura RAIAN | Receta",
+      "meta_description": "Panecillos blandos y dorados, perfectos para hamburguesas caseras, fermentados con levadura instantánea RAIAN.",
+      "intro": "Panecillos blandos y dorados, perfectos para hamburguesas caseras, fermentados con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche entera tibia",
+          "g": 180,
+          "key": "leche"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 40,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 30,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 7,
+          "key": "sal"
+        },
+        {
+          "name": "Sésamo (opcional)",
+          "g": 10,
+          "key": "sesamo"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Incorpora la leche tibia, el huevo y la mantequilla derretida, y amasa unos 10 minutos hasta obtener una masa elástica.",
+        "Deja fermentar tapada hasta que duplique su volumen, unos 60 minutos.",
+        "Divide en 8 porciones, boléalas y aplánalas ligeramente sobre una bandeja con papel de horno.",
+        "Pinta con huevo batido, espolvorea sésamo y deja fermentar 30 minutos más.",
+        "Hornea a 190°C durante 14-16 minutos hasta que estén dorados."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 248,
+        "protein": 6.0,
+        "carbs": 33.8,
+        "sugars": 6.8,
+        "fat": 9.8,
+        "sat_fat": 5.2,
+        "fiber": 1.4,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 330,
+        "protein": 8,
+        "carbs": 45,
+        "sugars": 9,
+        "fat": 13,
+        "sat_fat": 7,
+        "fiber": 1.8,
+        "salt": 0.8
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "pan de hamburguesa casero",
+        "panecillos para burger",
+        "pan brioche hamburguesa"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pan de perrito caliente casero",
+      "slug": "pan-de-perrito-caliente-casero",
+      "seo_title": "Pan de perrito caliente casero con levadura RAIAN | Receta",
+      "meta_description": "Panecillos alargados, tiernos y ligeramente dulces, ideales para perritos calientes, con levadura instantánea RAIAN.",
+      "intro": "Panecillos alargados, tiernos y ligeramente dulces, ideales para perritos calientes, con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 380,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 170,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 35,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 25,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 6,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche tibia y la mantequilla derretida, y amasa hasta lograr una masa lisa.",
+        "Deja fermentar tapada hasta duplicar su volumen, unos 50-60 minutos.",
+        "Divide en 8 piezas y forma cilindros alargados sobre la bandeja del horno.",
+        "Deja fermentar 25-30 minutos más y pinta con leche.",
+        "Hornea a 190°C durante 12-15 minutos hasta dorar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 231,
+        "protein": 5.6,
+        "carbs": 31.5,
+        "sugars": 6.3,
+        "fat": 9.1,
+        "sat_fat": 4.9,
+        "fiber": 1.3,
+        "salt": 0.56
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 330,
+        "protein": 8,
+        "carbs": 45,
+        "sugars": 9,
+        "fat": 13,
+        "sat_fat": 7,
+        "fiber": 1.8,
+        "salt": 0.8
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "pan de perrito caliente",
+        "hot dog bread casero",
+        "panecillos alargados"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pizza casera clásica de jamón y queso",
+      "slug": "pizza-casera-clasica-de-jamon-y-queso",
+      "seo_title": "Pizza casera clásica de jamón y queso con levadura RAIAN | Receta",
+      "meta_description": "Pizza casera de base esponjosa con jamón y queso fundido, con masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Pizza casera de base esponjosa con jamón y queso fundido, con masa fermentada con levadura instantánea RAIAN.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 300,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 25,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        },
+        {
+          "name": "Tomate triturado",
+          "g": 150,
+          "key": "tomate"
+        },
+        {
+          "name": "Queso mozzarella",
+          "g": 200,
+          "key": "queso"
+        },
+        {
+          "name": "Jamón cocido",
+          "g": 120,
+          "key": "jamon"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua tibia y el aceite, y amasa hasta obtener una masa fina y elástica.",
+        "Deja fermentar tapada en un lugar cálido durante 45-60 minutos.",
+        "Estira la masa en una bandeja y cubre con el tomate triturado, el queso y el jamón.",
+        "Hornea a 220°C durante 12-15 minutos hasta que el queso esté dorado y burbujeante."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 420,
+        "protein": 16.5,
+        "carbs": 67.5,
+        "sugars": 4.5,
+        "fat": 12.0,
+        "sat_fat": 5.2,
+        "fiber": 3.4,
+        "salt": 2.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 280,
+        "protein": 11,
+        "carbs": 45,
+        "sugars": 3,
+        "fat": 8,
+        "sat_fat": 3.5,
+        "fiber": 2.3,
+        "salt": 1.6
+      },
+      "estimated_serving_g": 150,
+      "keywords": [
+        "pizza casera con levadura",
+        "pizza jamon y queso",
+        "masa de pizza facil"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pizza margarita napolitana",
+      "slug": "pizza-margarita-napolitana",
+      "seo_title": "Pizza margarita napolitana con levadura RAIAN | Receta",
+      "meta_description": "Pizza margarita de masa fina y borde alveolado, con tomate, mozzarella y albahaca fresca, masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Pizza margarita de masa fina y borde alveolado, con tomate, mozzarella y albahaca fresca, masa fermentada con levadura instantánea RAIAN.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 320,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 15,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        },
+        {
+          "name": "Tomate triturado",
+          "g": 150,
+          "key": "tomate"
+        },
+        {
+          "name": "Mozzarella fresca",
+          "g": 180,
+          "key": "mozzarella"
+        },
+        {
+          "name": "Albahaca fresca",
+          "g": 5,
+          "key": "albahaca"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite.",
+        "Amasa unos 10 minutos hasta obtener una masa lisa y elástica.",
+        "Deja fermentar tapada un mínimo de 1 hora, o varias horas en frío para más sabor.",
+        "Estira la masa fina, cubre con el tomate y reparte la mozzarella troceada.",
+        "Hornea a la máxima temperatura del horno (idealmente 250°C) durante 8-10 minutos.",
+        "Añade la albahaca fresca al sacarla del horno."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 398,
+        "protein": 15.0,
+        "carbs": 69.0,
+        "sugars": 4.5,
+        "fat": 9.0,
+        "sat_fat": 3.8,
+        "fiber": 3.6,
+        "salt": 2.25
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 265,
+        "protein": 10,
+        "carbs": 46,
+        "sugars": 3,
+        "fat": 6,
+        "sat_fat": 2.5,
+        "fiber": 2.4,
+        "salt": 1.5
+      },
+      "estimated_serving_g": 150,
+      "keywords": [
+        "pizza margarita casera",
+        "pizza napolitana levadura",
+        "masa de pizza fina"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Focaccia de romero y aceite de oliva",
+      "slug": "focaccia-de-romero-y-aceite-de-oliva",
+      "seo_title": "Focaccia de romero y aceite de oliva con levadura RAIAN | Receta",
+      "meta_description": "Focaccia italiana esponjosa, con un generoso chorro de aceite de oliva y romero fresco, fermentada con levadura instantánea RAIAN.",
+      "intro": "Focaccia italiana esponjosa, con un generoso chorro de aceite de oliva y romero fresco, fermentada con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 380,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 60,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        },
+        {
+          "name": "Romero fresco",
+          "g": 5,
+          "key": "romero"
+        },
+        {
+          "name": "Sal en escamas",
+          "g": 3,
+          "key": "sal_escamas"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua tibia y la mitad del aceite, y mezcla hasta integrar (masa pegajosa, no es necesario amasar mucho).",
+        "Deja fermentar tapada 1 hora en un bol engrasado.",
+        "Vuelca la masa en una bandeja con aceite, extiende con los dedos y marca hoyuelos.",
+        "Riega con el resto del aceite, reparte el romero y la sal en escamas.",
+        "Deja fermentar 30 minutos más y hornea a 220°C durante 20-25 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 290,
+        "protein": 7.5,
+        "carbs": 45.0,
+        "sugars": 2.0,
+        "fat": 9.0,
+        "sat_fat": 1.3,
+        "fiber": 2.4,
+        "salt": 1.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 290,
+        "protein": 7.5,
+        "carbs": 45,
+        "sugars": 2,
+        "fat": 9,
+        "sat_fat": 1.3,
+        "fiber": 2.4,
+        "salt": 1.4
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "focaccia casera",
+        "pan focaccia levadura",
+        "focaccia romero"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pan de ajo y perejil",
+      "slug": "pan-de-ajo-y-perejil",
+      "seo_title": "Pan de ajo y perejil con levadura RAIAN | Receta",
+      "meta_description": "Pan blando relleno de mantequilla de ajo y perejil, perfecto como acompañamiento, con masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Pan blando relleno de mantequilla de ajo y perejil, perfecto como acompañamiento, con masa fermentada con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 270,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 60,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Ajo picado",
+          "g": 15,
+          "key": "ajo"
+        },
+        {
+          "name": "Perejil fresco",
+          "g": 8,
+          "key": "perejil"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
+        "Deja fermentar tapada hasta duplicar su volumen, unos 60 minutos.",
+        "Divide la masa en bolas, colócalas juntas en un molde formando una corona.",
+        "Mezcla la mantequilla derretida con el ajo y el perejil, y pincela generosamente por encima.",
+        "Deja fermentar 20 minutos más y hornea a 200°C durante 20-25 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 262,
+        "protein": 6.1,
+        "carbs": 36.8,
+        "sugars": 1.8,
+        "fat": 9.6,
+        "sat_fat": 3.5,
+        "fiber": 2.0,
+        "salt": 1.14
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300,
+        "protein": 7,
+        "carbs": 42,
+        "sugars": 2,
+        "fat": 11,
+        "sat_fat": 4,
+        "fiber": 2.3,
+        "salt": 1.3
+      },
+      "estimated_serving_g": 88,
+      "keywords": [
+        "pan de ajo casero",
+        "garlic bread receta",
+        "pan con levadura ajo"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Bollos de leche rellenos de chocolate",
+      "slug": "bollos-de-leche-rellenos-de-chocolate",
+      "seo_title": "Bollos de leche rellenos de chocolate con levadura RAIAN | Receta",
+      "meta_description": "Bollos suaves y esponjosos rellenos de chocolate, fermentados con levadura instantánea RAIAN, ideales para el desayuno.",
+      "intro": "Bollos suaves y esponjosos rellenos de chocolate, fermentados con levadura instantánea RAIAN, ideales para el desayuno.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche entera tibia",
+          "g": 200,
+          "key": "leche"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 50,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        },
+        {
+          "name": "Chocolate para rellenar",
+          "g": 120,
+          "key": "chocolate"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta lograr una masa lisa.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Divide en 8 porciones, aplana cada una, coloca un trozo de chocolate en el centro y cierra bien.",
+        "Coloca los bollos en una bandeja, deja fermentar 30 minutos más.",
+        "Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 298,
+        "protein": 6.1,
+        "carbs": 43.8,
+        "sugars": 15.8,
+        "fat": 10.5,
+        "sat_fat": 5.2,
+        "fiber": 1.6,
+        "salt": 0.53
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 340,
+        "protein": 7,
+        "carbs": 50,
+        "sugars": 18,
+        "fat": 12,
+        "sat_fat": 6,
+        "fiber": 1.8,
+        "salt": 0.6
+      },
+      "estimated_serving_g": 88,
+      "keywords": [
+        "bollos de leche con chocolate",
+        "panecillos dulces levadura",
+        "bollos rellenos caseros"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pan de pueblo rústico",
+      "slug": "pan-de-pueblo-rustico",
+      "seo_title": "Pan de pueblo rústico con levadura RAIAN | Receta",
+      "meta_description": "Hogaza rústica de corteza crujiente y miga aireada, con fermentación lenta usando levadura instantánea RAIAN.",
+      "intro": "Hogaza rústica de corteza crujiente y miga aireada, con fermentación lenta usando levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 600,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 400,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 12,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua poco a poco y amasa hasta obtener una masa homogénea (puede quedar algo pegajosa).",
+        "Deja fermentar tapada durante 1-2 horas hasta que duplique su volumen.",
+        "Forma una bola, colócala sobre papel de horno enharinado y haz unos cortes en la superficie.",
+        "Hornea a 230°C con un recipiente de agua dentro del horno durante 35-40 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 238,
+        "protein": 8.1,
+        "carbs": 44.1,
+        "sugars": 2.7,
+        "fat": 2.9,
+        "sat_fat": 0.5,
+        "fiber": 2.4,
+        "salt": 0.99
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 265,
+        "protein": 9,
+        "carbs": 49,
+        "sugars": 3,
+        "fat": 3.2,
+        "sat_fat": 0.6,
+        "fiber": 2.7,
+        "salt": 1.1
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "pan rustico casero",
+        "hogaza con levadura",
+        "pan de pueblo receta"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Chapata casera con aceite de oliva",
+      "slug": "chapata-casera-con-aceite-de-oliva",
+      "seo_title": "Chapata casera con aceite de oliva con levadura RAIAN | Receta",
+      "meta_description": "Chapata de miga alveolada y corteza fina, con un toque de aceite de oliva, fermentada con levadura instantánea RAIAN.",
+      "intro": "Chapata de miga alveolada y corteza fina, con un toque de aceite de oliva, fermentada con levadura instantánea RAIAN.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 4,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 350,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 15,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 9,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua y el aceite, y mezcla con una espátula hasta integrar (masa muy hidratada).",
+        "Deja fermentar tapada 1,5-2 horas, plegando la masa un par de veces durante el reposo.",
+        "Vuelca con cuidado sobre una superficie enharinada y divide en 2-3 piezas sin desgasificar demasiado.",
+        "Coloca sobre papel de horno y hornea a 230°C con vapor durante 20-25 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 298,
+        "protein": 9.9,
+        "carbs": 58.3,
+        "sugars": 2.3,
+        "fat": 2.3,
+        "sat_fat": 0.4,
+        "fiber": 3.0,
+        "salt": 1.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 255,
+        "protein": 8.5,
+        "carbs": 50,
+        "sugars": 2,
+        "fat": 2,
+        "sat_fat": 0.3,
+        "fiber": 2.6,
+        "salt": 1.2
+      },
+      "estimated_serving_g": 117,
+      "keywords": [
+        "chapata casera",
+        "ciabatta con levadura",
+        "pan italiano receta"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pretzels alemanes caseros",
+      "slug": "pretzels-alemanes-caseros",
+      "seo_title": "Pretzels alemanes caseros con levadura RAIAN | Receta",
+      "meta_description": "Pretzels de corteza oscura y brillante con sal gruesa, masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Pretzels de corteza oscura y brillante con sal gruesa, masa fermentada con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 230,
+          "key": "agua"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 20,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 10,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        },
+        {
+          "name": "Bicarbonato (para el baño)",
+          "g": 30,
+          "key": "bicarbonato"
+        },
+        {
+          "name": "Sal gruesa",
+          "g": 10,
+          "key": "sal_gruesa"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade el agua y la mantequilla, y amasa.",
+        "Deja fermentar tapada 45-60 minutos.",
+        "Divide en 8 porciones, forma cordones largos y dales la forma característica de pretzel.",
+        "Sumerge brevemente cada pretzel en agua hirviendo con bicarbonato (unos 20 segundos).",
+        "Coloca sobre la bandeja, espolvorea sal gruesa y hornea a 220°C durante 12-15 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 210,
+        "protein": 6.0,
+        "carbs": 39.8,
+        "sugars": 1.5,
+        "fat": 2.6,
+        "sat_fat": 0.4,
+        "fiber": 1.5,
+        "salt": 1.65
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 280,
+        "protein": 8,
+        "carbs": 53,
+        "sugars": 2,
+        "fat": 3.5,
+        "sat_fat": 0.6,
+        "fiber": 2,
+        "salt": 2.2
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "pretzel aleman casero",
+        "receta pretzels",
+        "pan aleman levadura"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pan de leche para desayuno",
+      "slug": "pan-de-leche-para-desayuno",
+      "seo_title": "Pan de leche para desayuno con levadura RAIAN | Receta",
+      "meta_description": "Panecillos suaves y ligeramente dulces, perfectos para el desayuno, fermentados con levadura instantánea RAIAN.",
+      "intro": "Panecillos suaves y ligeramente dulces, perfectos para el desayuno, fermentados con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche entera tibia",
+          "g": 200,
+          "key": "leche"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 40,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 6,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa unos 10 minutos.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Divide en 8 bollitos, colócalos en una bandeja y deja fermentar 25-30 minutos más.",
+        "Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 225,
+        "protein": 5.2,
+        "carbs": 39.0,
+        "sugars": 10.5,
+        "fat": 6.0,
+        "sat_fat": 3.0,
+        "fiber": 1.4,
+        "salt": 0.52
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300,
+        "protein": 7,
+        "carbs": 52,
+        "sugars": 14,
+        "fat": 8,
+        "sat_fat": 4,
+        "fiber": 1.9,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "pan de leche casero",
+        "panecillos dulces desayuno",
+        "pan suave con levadura"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Bagels caseros para el desayuno",
+      "slug": "bagels-caseros-para-el-desayuno",
+      "seo_title": "Bagels caseros para el desayuno con levadura RAIAN | Receta",
+      "meta_description": "Bagels de miga densa y corteza brillante, hervidos antes de hornear, con masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Bagels de miga densa y corteza brillante, hervidos antes de hornear, con masa fermentada con levadura instantánea RAIAN.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 230,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 15,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        },
+        {
+          "name": "Miel (para el hervido)",
+          "g": 15,
+          "key": "miel"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade el agua y amasa hasta una masa firme.",
+        "Deja fermentar tapada 45 minutos.",
+        "Divide en 6 porciones, forma bolas y haz un agujero en el centro de cada una.",
+        "Hierve cada bagel 60-90 segundos por lado en agua con miel.",
+        "Coloca en una bandeja y hornea a 220°C durante 18-20 minutos hasta dorar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 270,
+        "protein": 9.5,
+        "carbs": 53.0,
+        "sugars": 4.0,
+        "fat": 1.8,
+        "sat_fat": 0.3,
+        "fiber": 2.3,
+        "salt": 1.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 270,
+        "protein": 9.5,
+        "carbs": 53,
+        "sugars": 4,
+        "fat": 1.8,
+        "sat_fat": 0.3,
+        "fiber": 2.3,
+        "salt": 1.1
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "bagels caseros",
+        "receta bagel levadura",
+        "pan bagel desayuno"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Trenza de pan dulce con pasas",
+      "slug": "trenza-de-pan-dulce-con-pasas",
+      "seo_title": "Trenza de pan dulce con pasas con levadura RAIAN | Receta",
+      "meta_description": "Trenza esponjosa y dulce con pasas, ideal para la merienda, fermentada con levadura instantánea RAIAN.",
+      "intro": "Trenza esponjosa y dulce con pasas, ideal para la merienda, fermentada con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 200,
+          "key": "leche"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 50,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        },
+        {
+          "name": "Pasas",
+          "g": 80,
+          "key": "pasas"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche, el huevo y la mantequilla derretida, amasa e incorpora las pasas al final.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Divide en tres tiras y trénzalas sobre la bandeja del horno.",
+        "Deja fermentar 25-30 minutos más, pinta con huevo y hornea a 180°C durante 25-30 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 262,
+        "protein": 6.1,
+        "carbs": 45.5,
+        "sugars": 12.2,
+        "fat": 7.0,
+        "sat_fat": 3.5,
+        "fiber": 1.7,
+        "salt": 0.61
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300,
+        "protein": 7,
+        "carbs": 52,
+        "sugars": 14,
+        "fat": 8,
+        "sat_fat": 4,
+        "fiber": 1.9,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 88,
+      "keywords": [
+        "trenza de pan dulce",
+        "pan con pasas levadura",
+        "trenza dulce casera"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Empanadillas al horno de masa con levadura",
+      "slug": "empanadillas-al-horno-de-masa-con-levadura",
+      "seo_title": "Empanadillas al horno de masa con levadura con levadura RAIAN | Receta",
+      "meta_description": "Empanadillas esponjosas al horno con relleno de atún y tomate, masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Empanadillas esponjosas al horno con relleno de atún y tomate, masa fermentada con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 230,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 40,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        },
+        {
+          "name": "Atún en aceite",
+          "g": 160,
+          "key": "atun"
+        },
+        {
+          "name": "Tomate frito",
+          "g": 100,
+          "key": "tomate"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
+        "Deja fermentar tapada 45-60 minutos.",
+        "Estira la masa y corta círculos, rellena con el atún mezclado con el tomate frito.",
+        "Cierra cada empanadilla sellando bien los bordes con un tenedor.",
+        "Coloca en una bandeja, pinta con aceite y hornea a 200°C durante 18-20 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 216,
+        "protein": 8.0,
+        "carbs": 30.4,
+        "sugars": 1.6,
+        "fat": 7.2,
+        "sat_fat": 2.0,
+        "fiber": 1.6,
+        "salt": 1.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 270,
+        "protein": 10,
+        "carbs": 38,
+        "sugars": 2,
+        "fat": 9,
+        "sat_fat": 2.5,
+        "fiber": 2,
+        "salt": 1.3
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "empanadillas al horno",
+        "masa con levadura rellena",
+        "empanadillas caseras"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "familiar",
+      "title": "Pan rústico multisemillas",
+      "slug": "pan-rustico-multisemillas",
+      "seo_title": "Pan rústico multisemillas con levadura RAIAN | Receta",
+      "meta_description": "Pan integral con mezcla de semillas, rico en fibra, fermentado con levadura instantánea RAIAN.",
+      "intro": "Pan integral con mezcla de semillas, rico en fibra, fermentado con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina integral de trigo",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 380,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        },
+        {
+          "name": "Mezcla de semillas (lino, sésamo, girasol)",
+          "g": 80,
+          "key": "semillas"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina integral con la levadura instantánea RAIAN, la sal y la mitad de las semillas.",
+        "Añade el agua tibia y el aceite, y amasa hasta integrar bien.",
+        "Deja fermentar tapada 1 hora hasta que duplique su volumen.",
+        "Forma una hogaza, humedece la superficie y reparte el resto de las semillas por encima.",
+        "Hornea a 210°C durante 35-40 minutos hasta que suene hueco al golpearlo."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 234,
+        "protein": 9.9,
+        "carbs": 34.2,
+        "sugars": 1.8,
+        "fat": 5.4,
+        "sat_fat": 0.7,
+        "fiber": 7.2,
+        "salt": 0.9
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 260,
+        "protein": 11,
+        "carbs": 38,
+        "sugars": 2,
+        "fat": 6,
+        "sat_fat": 0.8,
+        "fiber": 8,
+        "salt": 1.0
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "pan multisemillas",
+        "pan integral con levadura",
+        "pan rico en fibra"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Brioche francés clásico",
+      "slug": "brioche-frances-clasico",
+      "seo_title": "Brioche francés clásico con levadura RAIAN | Receta",
+      "meta_description": "Brioche francés de miga dorada y mantecosa, elaborado con levadura instantánea RAIAN.",
+      "intro": "Brioche francés de miga dorada y mantecosa, elaborado con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Huevo",
+          "g": 150,
+          "key": "huevo"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 60,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 150,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 6,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade los huevos y la leche, amasa, e incorpora la mantequilla en pomada poco a poco hasta que la masa quede lisa y brillante.",
+        "Deja fermentar en frío durante varias horas o toda la noche.",
+        "Da forma de molde o trenza, deja fermentar a temperatura ambiente 1-2 horas.",
+        "Pinta con huevo batido y hornea a 170°C durante 30-35 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 231,
+        "protein": 5.6,
+        "carbs": 31.5,
+        "sugars": 6.3,
+        "fat": 9.1,
+        "sat_fat": 4.9,
+        "fiber": 1.3,
+        "salt": 0.56
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 330,
+        "protein": 8,
+        "carbs": 45,
+        "sugars": 9,
+        "fat": 13,
+        "sat_fat": 7,
+        "fiber": 1.8,
+        "salt": 0.8
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "brioche frances",
+        "pan brioche con levadura",
+        "receta brioche casero"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Croissants caseros con levadura",
+      "slug": "croissants-caseros-con-levadura",
+      "seo_title": "Croissants caseros con levadura con levadura RAIAN | Receta",
+      "meta_description": "Croissants hojaldrados y dorados, con técnica de laminado de mantequilla, fermentados con levadura instantánea RAIAN.",
+      "intro": "Croissants hojaldrados y dorados, con técnica de laminado de mantequilla, fermentados con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 110,
+          "key": "leche"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 110,
+          "key": "agua"
+        },
+        {
+          "name": "Mantequilla para la masa",
+          "g": 30,
+          "key": "mantequilla_masa"
+        },
+        {
+          "name": "Mantequilla para laminar",
+          "g": 200,
+          "key": "mantequilla_laminar"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade la leche, el agua y la mantequilla de la masa, y amasa.",
+        "Deja reposar la masa en frío 1 hora.",
+        "Lamina la masa con la mantequilla en bloque, realizando 2-3 vueltos con reposos en frío entre cada uno.",
+        "Estira la masa final, corta triángulos y enróllalos dándoles la forma de croissant.",
+        "Deja fermentar a temperatura ambiente 2 horas hasta que doblen su tamaño.",
+        "Pinta con huevo y hornea a 200°C durante 16-18 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 350,
+        "protein": 6.1,
+        "carbs": 36.8,
+        "sugars": 6.1,
+        "fat": 19.2,
+        "sat_fat": 11.4,
+        "fiber": 1.5,
+        "salt": 0.61
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 400,
+        "protein": 7,
+        "carbs": 42,
+        "sugars": 7,
+        "fat": 22,
+        "sat_fat": 13,
+        "fiber": 1.7,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 88,
+      "keywords": [
+        "croissants caseros",
+        "hojaldre con levadura",
+        "receta croissant"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Pan brioche relleno de chocolate",
+      "slug": "pan-brioche-relleno-de-chocolate",
+      "seo_title": "Pan brioche relleno de chocolate con levadura RAIAN | Receta",
+      "meta_description": "Brioche relleno de pepitas de chocolate, jugoso y aromático, fermentado con levadura instantánea RAIAN.",
+      "intro": "Brioche relleno de pepitas de chocolate, jugoso y aromático, fermentado con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Huevo",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 100,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        },
+        {
+          "name": "Pepitas de chocolate",
+          "g": 120,
+          "key": "chocolate"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade el huevo, la leche y la mantequilla en pomada, y amasa hasta lograr una masa lisa y elástica.",
+        "Incorpora las pepitas de chocolate al final del amasado.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Da forma de molde, deja fermentar 1 hora más.",
+        "Hornea a 170°C durante 30-35 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 315,
+        "protein": 6.6,
+        "carbs": 41.1,
+        "sugars": 13.1,
+        "fat": 14.0,
+        "sat_fat": 7.9,
+        "fiber": 1.8,
+        "salt": 0.53
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 360,
+        "protein": 7.5,
+        "carbs": 47,
+        "sugars": 15,
+        "fat": 16,
+        "sat_fat": 9,
+        "fiber": 2,
+        "salt": 0.6
+      },
+      "estimated_serving_g": 88,
+      "keywords": [
+        "brioche con chocolate",
+        "pan dulce relleno",
+        "brioche levadura instantanea"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Roscón de Reyes casero",
+      "slug": "roscon-de-reyes-casero",
+      "seo_title": "Roscón de Reyes casero con levadura RAIAN | Receta",
+      "meta_description": "Roscón de Reyes tradicional, aromatizado con cítricos y agua de azahar, fermentado con levadura instantánea RAIAN.",
+      "intro": "Roscón de Reyes tradicional, aromatizado con cítricos y agua de azahar, fermentado con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 7,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 150,
+          "key": "leche"
+        },
+        {
+          "name": "Huevo",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 90,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 120,
+          "key": "azucar"
+        },
+        {
+          "name": "Ralladura de naranja y limón",
+          "g": 10,
+          "key": "ralladura"
+        },
+        {
+          "name": "Agua de azahar",
+          "g": 15,
+          "key": "azahar"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        },
+        {
+          "name": "Fruta confitada para decorar",
+          "g": 60,
+          "key": "fruta_confitada"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar, la ralladura y la sal.",
+        "Añade la leche, el huevo, la mantequilla y el agua de azahar, y amasa hasta obtener una masa lisa.",
+        "Deja fermentar tapada hasta duplicar su volumen, 1-1,5 horas.",
+        "Da forma de rosca sobre la bandeja del horno y deja fermentar 1 hora más.",
+        "Pinta con huevo, decora con fruta confitada y azúcar humedecido.",
+        "Hornea a 180°C durante 20-25 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 297,
+        "protein": 6.3,
+        "carbs": 45.0,
+        "sugars": 15.3,
+        "fat": 9.9,
+        "sat_fat": 4.5,
+        "fiber": 1.4,
+        "salt": 0.54
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 330,
+        "protein": 7,
+        "carbs": 50,
+        "sugars": 17,
+        "fat": 11,
+        "sat_fat": 5,
+        "fiber": 1.6,
+        "salt": 0.6
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "roscon de reyes casero",
+        "receta roscon levadura",
+        "pan dulce navideño"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Panettone simplificado de frutas confitadas",
+      "slug": "panettone-simplificado-de-frutas-confitadas",
+      "seo_title": "Panettone simplificado de frutas confitadas con levadura RAIAN | Receta",
+      "meta_description": "Versión simplificada del clásico panettone italiano, con frutas confitadas y pasas, fermentado con levadura instantánea RAIAN.",
+      "intro": "Versión simplificada del clásico panettone italiano, con frutas confitadas y pasas, fermentado con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Huevo",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 100,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 90,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 100,
+          "key": "azucar"
+        },
+        {
+          "name": "Pasas y fruta confitada",
+          "g": 120,
+          "key": "fruta"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade el huevo, la leche y la mantequilla, y amasa hasta lograr una masa elástica.",
+        "Incorpora las pasas y la fruta confitada enharinadas para que no se hundan.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Coloca en un molde alto de panettone y deja fermentar 1 hora más.",
+        "Hornea a 170°C durante 35-40 minutos, cubriendo con papel si se dora demasiado."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 272,
+        "protein": 5.6,
+        "carbs": 41.6,
+        "sugars": 15.2,
+        "fat": 8.8,
+        "sat_fat": 4.4,
+        "fiber": 1.4,
+        "salt": 0.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 340,
+        "protein": 7,
+        "carbs": 52,
+        "sugars": 19,
+        "fat": 11,
+        "sat_fat": 5.5,
+        "fiber": 1.8,
+        "salt": 0.5
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "panettone casero",
+        "pan dulce italiano",
+        "panettone con levadura"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Stollen alemán de frutas y mazapán",
+      "slug": "stollen-aleman-de-frutas-y-mazapan",
+      "seo_title": "Stollen alemán de frutas y mazapán con levadura RAIAN | Receta",
+      "meta_description": "Pan dulce navideño alemán relleno de mazapán y frutos secos, fermentado con levadura instantánea RAIAN.",
+      "intro": "Pan dulce navideño alemán relleno de mazapán y frutos secos, fermentado con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 120,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 120,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Pasas y frutos secos",
+          "g": 150,
+          "key": "frutos"
+        },
+        {
+          "name": "Mazapán",
+          "g": 100,
+          "key": "mazapan"
+        },
+        {
+          "name": "Sal",
+          "g": 4,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche y la mantequilla en pomada, y amasa hasta obtener una masa lisa.",
+        "Incorpora las pasas y los frutos secos al final del amasado.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Extiende la masa, coloca el mazapán en el centro en forma de cilindro y dobla la masa sobre él.",
+        "Deja fermentar 45 minutos más y hornea a 170°C durante 35-40 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 304,
+        "protein": 5.6,
+        "carbs": 40.0,
+        "sugars": 16.0,
+        "fat": 12.8,
+        "sat_fat": 5.6,
+        "fiber": 1.6,
+        "salt": 0.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 380,
+        "protein": 7,
+        "carbs": 50,
+        "sugars": 20,
+        "fat": 16,
+        "sat_fat": 7,
+        "fiber": 2,
+        "salt": 0.5
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "stollen aleman",
+        "pan navideño con mazapan",
+        "stollen receta casera"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Pan de brioche para sándwich gourmet",
+      "slug": "pan-de-brioche-para-sandwich-gourmet",
+      "seo_title": "Pan de brioche para sándwich gourmet con levadura RAIAN | Receta",
+      "meta_description": "Pan brioche en molde, suave y ligeramente dulce, ideal para sándwiches gourmet, fermentado con levadura instantánea RAIAN.",
+      "intro": "Pan brioche en molde, suave y ligeramente dulce, ideal para sándwiches gourmet, fermentado con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Huevo",
+          "g": 100,
+          "key": "huevo"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 120,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 80,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 6,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade el huevo, la leche y la mantequilla, y amasa hasta obtener una masa elástica y brillante.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Coloca la masa en un molde rectangular engrasado.",
+        "Deja fermentar 45-60 minutos más, pinta con huevo.",
+        "Hornea a 175°C durante 30-35 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 231,
+        "protein": 5.6,
+        "carbs": 31.5,
+        "sugars": 6.3,
+        "fat": 9.1,
+        "sat_fat": 4.9,
+        "fiber": 1.3,
+        "salt": 0.56
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 330,
+        "protein": 8,
+        "carbs": 45,
+        "sugars": 9,
+        "fat": 13,
+        "sat_fat": 7,
+        "fiber": 1.8,
+        "salt": 0.8
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "pan brioche molde",
+        "brioche para sandwich",
+        "pan gourmet con levadura"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Focaccia gourmet de tomates cherry y burrata",
+      "slug": "focaccia-gourmet-de-tomates-cherry-y-burrata",
+      "seo_title": "Focaccia gourmet de tomates cherry y burrata con levadura RAIAN | Receta",
+      "meta_description": "Focaccia gourmet con tomates cherry asados y burrata cremosa, fermentada con levadura instantánea RAIAN.",
+      "intro": "Focaccia gourmet con tomates cherry asados y burrata cremosa, fermentada con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 380,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 50,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        },
+        {
+          "name": "Tomates cherry",
+          "g": 200,
+          "key": "tomate"
+        },
+        {
+          "name": "Burrata",
+          "g": 150,
+          "key": "burrata"
+        },
+        {
+          "name": "Albahaca fresca",
+          "g": 5,
+          "key": "albahaca"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y la mitad del aceite, y mezcla sin amasar demasiado.",
+        "Deja fermentar tapada 1 hora.",
+        "Vuelca en una bandeja con aceite, marca hoyuelos con los dedos y reparte los tomates cherry.",
+        "Riega con el resto del aceite y deja fermentar 30 minutos más.",
+        "Hornea a 220°C durante 20-22 minutos.",
+        "Al sacarla, añade la burrata troceada y la albahaca fresca."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 310,
+        "protein": 9.0,
+        "carbs": 42.0,
+        "sugars": 3.0,
+        "fat": 12.0,
+        "sat_fat": 4.5,
+        "fiber": 2.4,
+        "salt": 1.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 310,
+        "protein": 9,
+        "carbs": 42,
+        "sugars": 3,
+        "fat": 12,
+        "sat_fat": 4.5,
+        "fiber": 2.4,
+        "salt": 1.4
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "focaccia gourmet",
+        "focaccia con burrata",
+        "pan italiano premium"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Ciabatta artesanal con masa madre y levadura",
+      "slug": "ciabatta-artesanal-con-masa-madre-y-levadura",
+      "seo_title": "Ciabatta artesanal con masa madre y levadura con levadura RAIAN | Receta",
+      "meta_description": "Ciabatta artesanal de fermentación larga y miga muy alveolada, combinando masa madre y levadura instantánea RAIAN.",
+      "intro": "Ciabatta artesanal de fermentación larga y miga muy alveolada, combinando masa madre y levadura instantánea RAIAN.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo de fuerza",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Masa madre activa",
+          "g": 80,
+          "key": "masa_madre"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 3,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 330,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 15,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 9,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la masa madre y la levadura instantánea RAIAN, añade el agua y el aceite.",
+        "Mezcla con espátula hasta integrar (masa muy hidratada, sin amasado intenso).",
+        "Deja fermentar tapada 3-4 horas, plegando la masa cada hora.",
+        "Vuelca sobre superficie enharinada, divide en piezas sin desgasificar demasiado.",
+        "Hornea a 230°C con vapor durante 22-25 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 298,
+        "protein": 9.9,
+        "carbs": 58.3,
+        "sugars": 2.3,
+        "fat": 2.3,
+        "sat_fat": 0.4,
+        "fiber": 3.0,
+        "salt": 1.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 255,
+        "protein": 8.5,
+        "carbs": 50,
+        "sugars": 2,
+        "fat": 2,
+        "sat_fat": 0.3,
+        "fiber": 2.6,
+        "salt": 1.2
+      },
+      "estimated_serving_g": 117,
+      "keywords": [
+        "ciabatta artesanal",
+        "pan con masa madre y levadura",
+        "ciabatta premium"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Naan de ajo y mantequilla al estilo indio",
+      "slug": "naan-de-ajo-y-mantequilla-al-estilo-indio",
+      "seo_title": "Naan de ajo y mantequilla al estilo indio con levadura RAIAN | Receta",
+      "meta_description": "Naan tierno y esponjoso, pintado con mantequilla de ajo, elaborado con levadura instantánea RAIAN.",
+      "intro": "Naan tierno y esponjoso, pintado con mantequilla de ajo, elaborado con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Yogur natural",
+          "g": 100,
+          "key": "yogur"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 120,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Azúcar",
+          "g": 10,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 7,
+          "key": "sal"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 40,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Ajo picado",
+          "g": 12,
+          "key": "ajo"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade el yogur, el agua y el aceite, y amasa hasta obtener una masa suave.",
+        "Deja fermentar tapada 45-60 minutos.",
+        "Divide en 8 porciones y estira cada una en forma ovalada.",
+        "Cocina en una sartén muy caliente o plancha 1-2 minutos por lado hasta que se formen burbujas doradas.",
+        "Pinta con mantequilla fundida mezclada con ajo recién hecho."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 232,
+        "protein": 6.0,
+        "carbs": 34.5,
+        "sugars": 2.2,
+        "fat": 7.5,
+        "sat_fat": 3.8,
+        "fiber": 1.5,
+        "salt": 0.98
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 310,
+        "protein": 8,
+        "carbs": 46,
+        "sugars": 3,
+        "fat": 10,
+        "sat_fat": 5,
+        "fiber": 2,
+        "salt": 1.3
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "naan casero con levadura",
+        "pan indio receta",
+        "naan de ajo"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "premium",
+      "title": "Pan de calabaza y especias otoñales",
+      "slug": "pan-de-calabaza-y-especias-otonales",
+      "seo_title": "Pan de calabaza y especias otoñales con levadura RAIAN | Receta",
+      "meta_description": "Pan dulce de calabaza asada y especias cálidas, jugoso y aromático, fermentado con levadura instantánea RAIAN.",
+      "intro": "Pan dulce de calabaza asada y especias cálidas, jugoso y aromático, fermentado con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Puré de calabaza asada",
+          "g": 200,
+          "key": "calabaza"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 50,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar moreno",
+          "g": 70,
+          "key": "azucar"
+        },
+        {
+          "name": "Canela y especias",
+          "g": 5,
+          "key": "especias"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar, las especias y la sal.",
+        "Añade el puré de calabaza, el huevo y la mantequilla derretida, y amasa hasta integrar bien.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Da forma de hogaza o trenza en un molde.",
+        "Deja fermentar 45 minutos más y hornea a 180°C durante 30-35 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 240,
+        "protein": 5.6,
+        "carbs": 40.0,
+        "sugars": 9.6,
+        "fat": 6.4,
+        "sat_fat": 2.8,
+        "fiber": 2.0,
+        "salt": 0.48
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300,
+        "protein": 7,
+        "carbs": 50,
+        "sugars": 12,
+        "fat": 8,
+        "sat_fat": 3.5,
+        "fiber": 2.5,
+        "salt": 0.6
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "pan de calabaza casero",
+        "pan dulce otoño",
+        "receta pan especias"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Pan integral proteico con claras de huevo",
+      "slug": "pan-integral-proteico-con-claras-de-huevo",
+      "seo_title": "Pan integral proteico con claras de huevo con levadura RAIAN | Receta",
+      "meta_description": "Pan integral enriquecido con claras de huevo para aumentar su aporte proteico, fermentado con levadura instantánea RAIAN.",
+      "intro": "Pan integral enriquecido con claras de huevo para aumentar su aporte proteico, fermentado con levadura instantánea RAIAN.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina integral de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Claras de huevo",
+          "g": 150,
+          "key": "claras"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 150,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 15,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal.",
+        "Añade las claras de huevo, el agua y el aceite, y amasa hasta obtener una masa homogénea.",
+        "Deja fermentar tapada 60 minutos hasta que duplique su volumen.",
+        "Da forma de hogaza alargada y colócala en un molde.",
+        "Deja fermentar 30 minutos más y hornea a 190°C durante 30-35 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 153,
+        "protein": 9.3,
+        "carbs": 21.3,
+        "sugars": 1.3,
+        "fat": 2.7,
+        "sat_fat": 0.5,
+        "fiber": 4.0,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 230,
+        "protein": 14,
+        "carbs": 32,
+        "sugars": 2,
+        "fat": 4,
+        "sat_fat": 0.8,
+        "fiber": 6,
+        "salt": 0.9
+      },
+      "estimated_serving_g": 67,
+      "keywords": [
+        "pan proteico con levadura",
+        "pan integral fitness",
+        "pan alto en proteina"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Panecillos integrales de avena y semillas",
+      "slug": "panecillos-integrales-de-avena-y-semillas",
+      "seo_title": "Panecillos integrales de avena y semillas con levadura RAIAN | Receta",
+      "meta_description": "Panecillos integrales con avena y semillas, ricos en fibra, fermentados con levadura instantánea RAIAN.",
+      "intro": "Panecillos integrales con avena y semillas, ricos en fibra, fermentados con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina integral de trigo",
+          "g": 350,
+          "key": "harina"
+        },
+        {
+          "name": "Copos de avena",
+          "g": 80,
+          "key": "avena"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 280,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 15,
+          "key": "aceite"
+        },
+        {
+          "name": "Mezcla de semillas",
+          "g": 50,
+          "key": "semillas"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina integral, la avena y la levadura instantánea RAIAN con la sal.",
+        "Añade el agua y el aceite, y amasa hasta integrar bien.",
+        "Incorpora la mitad de las semillas al amasado y deja fermentar tapada 60 minutos.",
+        "Divide en 10 panecillos, reparte el resto de las semillas por encima.",
+        "Deja fermentar 25 minutos más y hornea a 200°C durante 20-22 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 182,
+        "protein": 7.7,
+        "carbs": 26.6,
+        "sugars": 1.4,
+        "fat": 4.2,
+        "sat_fat": 0.6,
+        "fiber": 5.6,
+        "salt": 0.7
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 260,
+        "protein": 11,
+        "carbs": 38,
+        "sugars": 2,
+        "fat": 6,
+        "sat_fat": 0.8,
+        "fiber": 8,
+        "salt": 1.0
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "panecillos integrales avena",
+        "pan fitness con semillas",
+        "pan rico en fibra fitness"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Pan de espelta integral bajo en grasa",
+      "slug": "pan-de-espelta-integral-bajo-en-grasa",
+      "seo_title": "Pan de espelta integral bajo en grasa con levadura RAIAN | Receta",
+      "meta_description": "Pan de espelta integral, ligero y con bajo contenido en grasa, fermentado con levadura instantánea RAIAN.",
+      "intro": "Pan de espelta integral, ligero y con bajo contenido en grasa, fermentado con levadura instantánea RAIAN.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina integral de espelta",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 380,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina de espelta con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua tibia y amasa hasta obtener una masa homogénea (la espelta admite menos amasado que el trigo).",
+        "Deja fermentar tapada 50-60 minutos.",
+        "Da forma de hogaza y coloca en un molde o sobre la bandeja del horno.",
+        "Deja fermentar 30 minutos más y hornea a 200°C durante 35-40 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 157,
+        "protein": 6.7,
+        "carbs": 26.7,
+        "sugars": 1.3,
+        "fat": 1.3,
+        "sat_fat": 0.2,
+        "fiber": 5.0,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 235,
+        "protein": 10,
+        "carbs": 40,
+        "sugars": 2,
+        "fat": 2,
+        "sat_fat": 0.3,
+        "fiber": 7.5,
+        "salt": 0.9
+      },
+      "estimated_serving_g": 67,
+      "keywords": [
+        "pan de espelta integral",
+        "pan bajo en grasa",
+        "pan fitness sin grasas añadidas"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Pizza integral fit de pollo y verduras",
+      "slug": "pizza-integral-fit-de-pollo-y-verduras",
+      "seo_title": "Pizza integral fit de pollo y verduras con levadura RAIAN | Receta",
+      "meta_description": "Pizza de base integral con pollo a la plancha y verduras asadas, masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Pizza de base integral con pollo a la plancha y verduras asadas, masa fermentada con levadura instantánea RAIAN.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina integral de trigo",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 280,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 10,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        },
+        {
+          "name": "Pechuga de pollo a la plancha",
+          "g": 200,
+          "key": "pollo"
+        },
+        {
+          "name": "Pimiento y calabacín asados",
+          "g": 150,
+          "key": "verduras"
+        },
+        {
+          "name": "Tomate triturado",
+          "g": 100,
+          "key": "tomate"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
+        "Deja fermentar tapada 45-60 minutos.",
+        "Estira la masa en una bandeja, cubre con el tomate triturado.",
+        "Reparte el pollo troceado y las verduras asadas por encima.",
+        "Hornea a 220°C durante 14-16 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 360,
+        "protein": 24.0,
+        "carbs": 52.5,
+        "sugars": 4.5,
+        "fat": 7.5,
+        "sat_fat": 2.2,
+        "fiber": 6.0,
+        "salt": 1.95
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 240,
+        "protein": 16,
+        "carbs": 35,
+        "sugars": 3,
+        "fat": 5,
+        "sat_fat": 1.5,
+        "fiber": 4,
+        "salt": 1.3
+      },
+      "estimated_serving_g": 150,
+      "keywords": [
+        "pizza fit integral",
+        "pizza con pollo y verduras",
+        "pizza saludable con levadura"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Pan plano integral para wraps fit",
+      "slug": "pan-plano-integral-para-wraps-fit",
+      "seo_title": "Pan plano integral para wraps fit con levadura RAIAN | Receta",
+      "meta_description": "Panes planos integrales, ligeros y versátiles, ideales para wraps y rellenos saludables, con levadura instantánea RAIAN.",
+      "intro": "Panes planos integrales, ligeros y versátiles, ideales para wraps y rellenos saludables, con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina integral de trigo",
+          "g": 350,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 4,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 220,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 10,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 6,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
+        "Deja fermentar tapada 30-40 minutos.",
+        "Divide en 8 porciones y estira cada una muy fina con el rodillo.",
+        "Cocina en una sartén o plancha caliente 1-2 minutos por lado hasta que se doren ligeramente.",
+        "Deja enfriar y rellena con tus ingredientes favoritos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 144,
+        "protein": 5.6,
+        "carbs": 25.0,
+        "sugars": 0.6,
+        "fat": 1.9,
+        "sat_fat": 0.3,
+        "fiber": 3.8,
+        "salt": 0.62
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 230,
+        "protein": 9,
+        "carbs": 40,
+        "sugars": 1,
+        "fat": 3,
+        "sat_fat": 0.5,
+        "fiber": 6,
+        "salt": 1.0
+      },
+      "estimated_serving_g": 62,
+      "keywords": [
+        "pan plano integral",
+        "wraps fit caseros",
+        "pan para rellenos saludables"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "fitness",
+      "title": "Bagels integrales con semillas para el desayuno fit",
+      "slug": "bagels-integrales-con-semillas-para-el-desayuno-fit",
+      "seo_title": "Bagels integrales con semillas para el desayuno fit con levadura RAIAN | Receta",
+      "meta_description": "Bagels integrales con semillas, ricos en fibra, ideales para un desayuno fitness, con levadura instantánea RAIAN.",
+      "intro": "Bagels integrales con semillas, ricos en fibra, ideales para un desayuno fitness, con levadura instantánea RAIAN.",
+      "servings": 6,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina integral de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 230,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        },
+        {
+          "name": "Mezcla de semillas",
+          "g": 40,
+          "key": "semillas"
+        },
+        {
+          "name": "Miel (para el hervido)",
+          "g": 15,
+          "key": "miel"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y amasa hasta una masa firme.",
+        "Deja fermentar tapada 45 minutos.",
+        "Divide en 6 porciones, forma bolas y haz un agujero en el centro de cada una.",
+        "Hierve cada bagel 60-90 segundos por lado en agua con miel.",
+        "Reparte las semillas por encima y hornea a 210°C durante 18-20 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 245,
+        "protein": 11.0,
+        "carbs": 42.0,
+        "sugars": 3.0,
+        "fat": 3.0,
+        "sat_fat": 0.5,
+        "fiber": 6.5,
+        "salt": 1.0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 245,
+        "protein": 11,
+        "carbs": 42,
+        "sugars": 3,
+        "fat": 3,
+        "sat_fat": 0.5,
+        "fiber": 6.5,
+        "salt": 1.0
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "bagels integrales fitness",
+        "desayuno fit con levadura",
+        "pan bagel saludable"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Pan casero de cada día con levadura instantánea",
+      "slug": "pan-casero-de-cada-dia-con-levadura-instantanea",
+      "seo_title": "Pan casero de cada día con levadura instantánea con levadura RAIAN | Receta",
+      "meta_description": "Pan sencillo para el día a día, con corteza dorada y miga tierna, hecho con levadura instantánea RAIAN sin necesidad de activarla.",
+      "intro": "Pan sencillo para el día a día, con corteza dorada y miga tierna, hecho con levadura instantánea RAIAN sin necesidad de activarla.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 6,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 320,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN directamente, sin disolverla previamente en agua.",
+        "Añade el agua tibia y la sal, y amasa hasta obtener una masa lisa y homogénea.",
+        "Deja fermentar tapada en un lugar cálido hasta que duplique su volumen, 45-60 minutos.",
+        "Da forma de hogaza o barra y colócala sobre la bandeja del horno.",
+        "Deja fermentar 20-30 minutos más y hornea a 210°C durante 30-35 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 212,
+        "protein": 7.2,
+        "carbs": 39.2,
+        "sugars": 2.4,
+        "fat": 2.6,
+        "sat_fat": 0.5,
+        "fiber": 2.2,
+        "salt": 0.88
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 265,
+        "protein": 9,
+        "carbs": 49,
+        "sugars": 3,
+        "fat": 3.2,
+        "sat_fat": 0.6,
+        "fiber": 2.7,
+        "salt": 1.1
+      },
+      "estimated_serving_g": 80,
+      "keywords": [
+        "pan casero facil",
+        "pan del dia con levadura instantanea",
+        "receta pan sencillo"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Bollos suizos para el desayuno",
+      "slug": "bollos-suizos-para-el-desayuno",
+      "seo_title": "Bollos suizos para el desayuno con levadura RAIAN | Receta",
+      "meta_description": "Bollos suizos suaves y dulces, perfectos para untar con mantequilla y mermelada, con levadura instantánea RAIAN.",
+      "intro": "Bollos suizos suaves y dulces, perfectos para untar con mantequilla y mermelada, con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 190,
+          "key": "leche"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 40,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta lograr una masa suave.",
+        "Deja fermentar tapada hasta duplicar su volumen.",
+        "Divide en 8 bollos, colócalos en una bandeja y deja fermentar 25-30 minutos más.",
+        "Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 225,
+        "protein": 5.2,
+        "carbs": 39.0,
+        "sugars": 10.5,
+        "fat": 6.0,
+        "sat_fat": 3.0,
+        "fiber": 1.4,
+        "salt": 0.52
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 300,
+        "protein": 7,
+        "carbs": 52,
+        "sugars": 14,
+        "fat": 8,
+        "sat_fat": 4,
+        "fiber": 1.9,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "bollos suizos caseros",
+        "pan dulce desayuno",
+        "bollos con levadura instantanea"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Pan candeal tradicional",
+      "slug": "pan-candeal-tradicional",
+      "seo_title": "Pan candeal tradicional con levadura RAIAN | Receta",
+      "meta_description": "Pan candeal de miga prieta y corteza fina, elaborado de forma tradicional con levadura instantánea RAIAN.",
+      "intro": "Pan candeal de miga prieta y corteza fina, elaborado de forma tradicional con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo candeal",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 280,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua tibia poco a poco y amasa bien hasta obtener una masa firme y lisa.",
+        "Deja fermentar tapada 45-60 minutos.",
+        "Da forma redonda y aplánala ligeramente, marcando la cruz tradicional en la superficie.",
+        "Deja fermentar 20 minutos más y hornea a 200°C durante 25-30 minutos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 265,
+        "protein": 9.0,
+        "carbs": 49.0,
+        "sugars": 3.0,
+        "fat": 3.2,
+        "sat_fat": 0.6,
+        "fiber": 2.7,
+        "salt": 1.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 265,
+        "protein": 9,
+        "carbs": 49,
+        "sugars": 3,
+        "fat": 3.2,
+        "sat_fat": 0.6,
+        "fiber": 2.7,
+        "salt": 1.1
+      },
+      "estimated_serving_g": 100,
+      "keywords": [
+        "pan candeal casero",
+        "pan tradicional con levadura",
+        "receta pan candeal"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Mollete andaluz casero",
+      "slug": "mollete-andaluz-casero",
+      "seo_title": "Mollete andaluz casero con levadura RAIAN | Receta",
+      "meta_description": "Molletes andaluces blandos y bajos en grasa, perfectos para el desayuno con aceite de oliva, con levadura instantánea RAIAN.",
+      "intro": "Molletes andaluces blandos y bajos en grasa, perfectos para el desayuno con aceite de oliva, con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 450,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 280,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 10,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 9,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
+        "Deja fermentar tapada 45-60 minutos.",
+        "Divide en 10 porciones, aplánalas con suavidad formando óvalos.",
+        "Cubre con un paño y deja fermentar 20-25 minutos más.",
+        "Hornea a 200°C durante 15-18 minutos, sin que doren demasiado para que queden blandos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 175,
+        "protein": 5.6,
+        "carbs": 34.3,
+        "sugars": 1.4,
+        "fat": 1.0,
+        "sat_fat": 0.2,
+        "fiber": 1.8,
+        "salt": 0.77
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 250,
+        "protein": 8,
+        "carbs": 49,
+        "sugars": 2,
+        "fat": 1.5,
+        "sat_fat": 0.3,
+        "fiber": 2.5,
+        "salt": 1.1
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "mollete andaluz casero",
+        "pan blando para desayuno",
+        "receta mollete"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Pan de pita casero para rellenar",
+      "slug": "pan-de-pita-casero-para-rellenar",
+      "seo_title": "Pan de pita casero para rellenar con levadura RAIAN | Receta",
+      "meta_description": "Panes de pita esponjosos con bolsa interior, ideales para rellenar, hechos con levadura instantánea RAIAN.",
+      "intro": "Panes de pita esponjosos con bolsa interior, ideales para rellenar, hechos con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 250,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 10,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 7,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
+        "Deja fermentar tapada 45-60 minutos.",
+        "Divide en 8 porciones y estira cada una en forma de disco fino.",
+        "Hornea a máxima temperatura (250°C) sobre una bandeja muy caliente durante 4-5 minutos hasta que se inflen.",
+        "Deja enfriar envueltas en un paño para que queden blandas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 195,
+        "protein": 6.8,
+        "carbs": 39.8,
+        "sugars": 1.5,
+        "fat": 0.8,
+        "sat_fat": 0.2,
+        "fiber": 1.7,
+        "salt": 0.9
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 260,
+        "protein": 9,
+        "carbs": 53,
+        "sugars": 2,
+        "fat": 1,
+        "sat_fat": 0.2,
+        "fiber": 2.2,
+        "salt": 1.2
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "pan de pita casero",
+        "pita para rellenar",
+        "receta pan arabe con levadura"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Grissini caseros (palitos de pan)",
+      "slug": "grissini-caseros-palitos-de-pan",
+      "seo_title": "Grissini caseros (palitos de pan) con levadura RAIAN | Receta",
+      "meta_description": "Grissini crujientes italianos, perfectos como aperitivo, con masa fermentada con levadura instantánea RAIAN.",
+      "intro": "Grissini crujientes italianos, perfectos como aperitivo, con masa fermentada con levadura instantánea RAIAN.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 350,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 4,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 180,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 30,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        },
+        {
+          "name": "Sal gruesa para decorar",
+          "g": 5,
+          "key": "sal_gruesa"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
+        "Deja fermentar tapada 30-40 minutos.",
+        "Divide la masa en porciones pequeñas y forma palitos largos y finos con las manos.",
+        "Coloca en la bandeja, espolvorea sal gruesa y deja reposar 10 minutos.",
+        "Hornea a 200°C durante 12-15 minutos hasta que estén dorados y crujientes."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 190,
+        "protein": 5.0,
+        "carbs": 30.0,
+        "sugars": 1.0,
+        "fat": 5.0,
+        "sat_fat": 0.8,
+        "fiber": 1.2,
+        "salt": 1.0
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 380,
+        "protein": 10,
+        "carbs": 60,
+        "sugars": 2,
+        "fat": 10,
+        "sat_fat": 1.5,
+        "fiber": 2.5,
+        "salt": 2.0
+      },
+      "estimated_serving_g": 50,
+      "keywords": [
+        "grissini caseros",
+        "palitos de pan italianos",
+        "aperitivo con levadura"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    },
+    {
+      "category": "casera",
+      "title": "Pan de queso casero para aperitivo",
+      "slug": "pan-de-queso-casero-para-aperitivo",
+      "seo_title": "Pan de queso casero para aperitivo con levadura RAIAN | Receta",
+      "meta_description": "Panecillos de queso curado, sabrosos y esponjosos, ideales como aperitivo, fermentados con levadura instantánea RAIAN.",
+      "intro": "Panecillos de queso curado, sabrosos y esponjosos, ideales como aperitivo, fermentados con levadura instantánea RAIAN.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 25,
+        "rest_min": 75,
+        "total_min": 125
+      },
+      "allergens": [
+        "Gluten",
+        "Leche",
+        "Huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de trigo",
+          "g": 400,
+          "key": "harina"
+        },
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 180,
+          "key": "leche"
+        },
+        {
+          "name": "Huevo",
+          "g": 50,
+          "key": "huevo"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 40,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Queso curado rallado",
+          "g": 150,
+          "key": "queso"
+        },
+        {
+          "name": "Sal",
+          "g": 6,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta integrar bien.",
+        "Incorpora la mayor parte del queso rallado al amasado, reservando un poco para decorar.",
+        "Divide en 8 porciones, forma bolitas y coloca en una bandeja.",
+        "Reparte el queso reservado por encima, deja fermentar 30 minutos.",
+        "Hornea a 190°C durante 18-20 minutos hasta dorar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 280,
+        "protein": 9.6,
+        "carbs": 33.2,
+        "sugars": 1.8,
+        "fat": 11.4,
+        "sat_fat": 5.2,
+        "fiber": 1.6,
+        "salt": 1.31
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 320,
+        "protein": 11,
+        "carbs": 38,
+        "sugars": 2,
+        "fat": 13,
+        "sat_fat": 6,
+        "fiber": 1.8,
+        "salt": 1.5
+      },
+      "estimated_serving_g": 88,
+      "keywords": [
+        "pan de queso casero",
+        "aperitivo con levadura",
+        "panecillos de queso"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+    }
+  ]
+}
