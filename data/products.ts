@@ -1617,8 +1617,8 @@ export const products: Product[] = [
       { label: "Condiciones de almacenaje", value: "Lugar fresco y seco, en condiciones higiénicas" },
       { label: "Vida útil", value: "2 años desde su fabricación, sin abrir" },
       { label: "Uso previsto", value: "Uso alimentario, panadería y repostería" },
-      { label: "ASIN de Amazon", value: pending },
-      { label: "Enlace Amazon", value: pending }
+      { label: "ASIN de Amazon", value: "B0H6GMJGNQ" },
+      { label: "Enlace Amazon", value: "https://www.amazon.es/dp/B0H6GMJGNQ" }
     ],
     technicalSheetPdf: "/documents/technical-sheets/ficha-tecnica-levadura-instantanea-instaferm.pdf",
     nutrition: [
@@ -1635,8 +1635,9 @@ export const products: Product[] = [
       "Ausencia de alérgenos de declaración obligatoria según el Reglamento (UE) nº 1169/2011, anexo II. Libre de OGM: no sujeto a declaración en virtud de los Reglamentos (CE) n.º 258/1997, 1829/2003 y 1830/2003.",
     conservation:
       "Conservar en un lugar fresco y seco, en condiciones higiénicas adecuadas para un producto alimenticio. Una vez abierto el envase, mantener bien cerrado y consumir en el plazo recomendado.",
-    amazonUrl: null,
-    amazonAsin: pending,
+    amazonUrl: "https://www.amazon.es/dp/B0H6GMJGNQ",
+    amazonAsin: "B0H6GMJGNQ",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H6GMJGNQ",
     relatedSlugs: ["harina-de-almendra", "dextrosa", "glucosa"],
     recipeSlugs: [
       "pan-casero-de-cada-dia-con-levadura-instantanea",
