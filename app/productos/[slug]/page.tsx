@@ -11,6 +11,7 @@ import { QrReviewPrompt } from "@/components/QrReviewPrompt";
 import { RecipeCard } from "@/components/RecipeCard";
 import { RelatedProducts } from "@/components/RelatedProducts";
 import { SectionTitle } from "@/components/SectionTitle";
+import { SupportNotice } from "@/components/SupportNotice";
 import { getProductBySlug, getRelatedProducts, products } from "@/data/products";
 import { getRecipesForProduct } from "@/data/recipes";
 import { siteConfig } from "@/data/site";
@@ -246,6 +247,9 @@ export default function ProductPage({ params }: ProductPageProps) {
             <h2 className="font-display text-3xl text-ink">Conservación</h2>
             <p className="mt-4 text-sm leading-7 text-muted">{product.conservation}</p>
           </article>
+        </div>
+        <div className="mx-auto mt-6 w-full max-w-7xl px-5 md:px-8">
+          <SupportNotice />
         </div>
       </section>
 

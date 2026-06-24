@@ -4,6 +4,7 @@ export const siteConfig = {
   domain: "foods.raian.es",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://foods.raian.es",
   email: "ventas@raian.es",
+  whatsapp: "34624028496",
   logo: "/images/brand/raian-foods-logo.png",
   location: "Valencia, España",
   shortBrandText:

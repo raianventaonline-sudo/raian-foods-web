@@ -7,8 +7,9 @@ import { CookieBanner } from "@/components/CookieBanner";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
-import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { siteConfig } from "@/data/site";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -93,6 +94,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </main>
         <Footer />
         <CookieBanner />
+        <WhatsAppButton />
         <AutoTranslator />
       </body>
     </html>
