@@ -2,6 +2,7 @@
 
 import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
+import { AnimatePresence, motion } from "framer-motion";
 
 const VISITS_KEY = "raian:qr-visits";
 const CONFIRMED_KEY = "raian:review-confirmed";
@@ -44,6 +45,27 @@ function XIcon() {
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
       <path d="M18 6 6 18M6 6l12 12" />
     </svg>
+  );
+}
+
+function AnimatedStars() {
+  return (
+    <div className="flex shrink-0 gap-0.5" aria-hidden>
+      {[0, 1, 2, 3, 4].map((i) => (
+        <motion.svg
+          key={i}
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          initial={{ scale: 0, rotate: -90 }}
+          animate={{ scale: 1, rotate: 0 }}
+          transition={{ delay: 0.15 + i * 0.07, type: "spring", stiffness: 320, damping: 14 }}
+        >
+          <path d="M12 2.5l2.9 6.2 6.8.8-5 4.7 1.3 6.7L12 17.6 5.9 20.9l1.3-6.7-5-4.7 6.8-.8L12 2.5Z" />
+        </motion.svg>
+      ))}
+    </div>
   );
 }
 
@@ -110,100 +132,129 @@ function QrReviewPromptInner({ productSlug, productName, reviewUrl }: QrReviewPr
     setShowToast(false);
   };
 
-  if (!isQrRef || (!showBanner && !showToast)) return null;
+  if (!isQrRef) return null;
 
   const url = reviewUrl ?? "#";
 
   return (
     <>
-      {showBanner && (
-        <div
-          className={`w-full border-b px-4 py-3 ${
-            isRepeat
-              ? "border-terracotta/30 bg-terracotta/10"
-              : "border-olive/25 bg-olive/10"
-          }`}
-        >
-          <div className="mx-auto flex max-w-7xl items-center gap-3">
-            <span aria-hidden className="shrink-0">⭐</span>
-            <p
-              className={`flex-1 text-sm font-medium leading-5 ${
-                isRepeat ? "text-terracotta" : "text-olive"
-              }`}
-            >
-              {isRepeat
-                ? "Si te gusta nuestro trabajo, por favor déjanos una reseña: nos ayuda a seguir creciendo y mejorando el producto."
-                : `¿Qué tal la ${productName}? Tu opinión ayuda a otros compradores a elegir bien.`}
-            </p>
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={confirm}
-              className={`shrink-0 rounded-full px-4 py-1.5 text-xs font-semibold text-white transition ${
+      <AnimatePresence>
+        {showBanner && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+            className="overflow-hidden"
+          >
+            <div
+              className={`relative w-full overflow-hidden border-b px-4 py-4 ${
                 isRepeat
-                  ? "bg-terracotta hover:bg-terracotta/80"
-                  : "bg-olive hover:bg-olive/80"
+                  ? "bg-[linear-gradient(110deg,#B86744_0%,#D08259_50%,#B86744_100%)]"
+                  : "bg-[linear-gradient(110deg,#3F4F2F_0%,#6F7D4F_50%,#3F4F2F_100%)]"
               }`}
             >
-              Dejar reseña
-            </a>
-            <button
-              onClick={dismiss}
-              aria-label="Cerrar aviso de reseña"
-              className="ml-1 shrink-0 text-muted transition hover:text-ink"
-            >
-              <XIcon />
-            </button>
-          </div>
-        </div>
-      )}
-
-      {showToast && (
-        <div className="fixed bottom-6 right-5 z-50 w-80 max-w-[calc(100vw-2.5rem)]">
-          <div className="overflow-hidden rounded-2xl border border-line bg-white shadow-2xl">
-            <div className={`h-1 ${isRepeat ? "bg-terracotta" : "bg-olive"}`} />
-            <div className="p-5">
-              <div className="flex items-start justify-between gap-2">
-                <p className="font-display text-xl text-ink">Tu opinión importa</p>
-                <button
-                  onClick={dismiss}
-                  aria-label="Cerrar"
-                  className="mt-0.5 shrink-0 text-muted transition hover:text-ink"
+              <div className="pointer-events-none absolute inset-0 raian-grain opacity-[0.08]" />
+              <div className="relative mx-auto flex max-w-7xl items-center gap-3">
+                <AnimatedStars />
+                <motion.p
+                  initial={{ opacity: 0, x: -8 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.1 }}
+                  className="flex-1 text-sm font-medium leading-5 text-white"
                 >
-                  <XIcon />
-                </button>
-              </div>
-              <p className="mt-2 text-sm leading-6 text-muted">
-                {isRepeat
-                  ? "Si te gusta nuestro trabajo, por favor ponnos una reseña: nos ayuda a seguir creciendo, a seguir generando contenido y a mejorar el producto para que te llegue lo mejor posible. Solo lleva 2 minutos."
-                  : `¿Qué tal la ${productName}? Cuéntaselo a otros compradores en Amazon. Solo tarda 2 minutos.`}
-              </p>
-              <div className="mt-4 flex gap-2">
-                <a
+                  {isRepeat
+                    ? "Si te gusta nuestro trabajo, por favor déjanos una reseña: nos ayuda a seguir creciendo y mejorando el producto."
+                    : `¿Qué tal la ${productName}? Tu opinión ayuda a otros compradores a elegir bien.`}
+                </motion.p>
+                <motion.a
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={confirm}
-                  className={`flex-1 rounded-full py-2.5 text-center text-sm font-semibold text-white transition ${
-                    isRepeat
-                      ? "bg-terracotta hover:bg-terracotta/80"
-                      : "bg-olive hover:bg-olive/80"
-                  }`}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="shrink-0 rounded-full bg-white px-4 py-1.5 text-xs font-bold text-ink shadow-md transition"
                 >
-                  Dejar reseña →
-                </a>
+                  Dejar reseña
+                </motion.a>
                 <button
                   onClick={dismiss}
-                  className="rounded-full border border-line px-4 py-2.5 text-sm text-muted transition hover:border-ink hover:text-ink"
+                  aria-label="Cerrar aviso de reseña"
+                  className="ml-1 shrink-0 text-white/70 transition hover:text-white"
                 >
-                  Ahora no
+                  <XIcon />
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      <AnimatePresence>
+        {showToast && (
+          <motion.div
+            initial={{ opacity: 0, y: 40, scale: 0.92 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 20, scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 260, damping: 22 }}
+            className="fixed bottom-6 right-5 z-50 w-80 max-w-[calc(100vw-2.5rem)]"
+          >
+            <div className="relative overflow-hidden rounded-2xl border border-line bg-white shadow-2xl">
+              <div
+                className={`h-1.5 ${
+                  isRepeat
+                    ? "bg-[linear-gradient(90deg,#B86744,#D08259,#B86744)]"
+                    : "bg-[linear-gradient(90deg,#3F4F2F,#6F7D4F,#3F4F2F)]"
+                }`}
+              />
+              <div className="p-5">
+                <div className="flex items-start justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <AnimatedStars />
+                  </div>
+                  <button
+                    onClick={dismiss}
+                    aria-label="Cerrar"
+                    className="mt-0.5 shrink-0 text-muted transition hover:text-ink"
+                  >
+                    <XIcon />
+                  </button>
+                </div>
+                <p className="mt-3 font-display text-xl text-ink">Tu opinión importa</p>
+                <p className="mt-2 text-sm leading-6 text-muted">
+                  {isRepeat
+                    ? "Si te gusta nuestro trabajo, por favor ponnos una reseña: nos ayuda a seguir creciendo, a seguir generando contenido y a mejorar el producto para que te llegue lo mejor posible. Solo lleva 2 minutos."
+                    : `¿Qué tal la ${productName}? Cuéntaselo a otros compradores en Amazon. Solo tarda 2 minutos.`}
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <motion.a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={confirm}
+                    whileHover={{ scale: 1.03 }}
+                    whileTap={{ scale: 0.97 }}
+                    className={`flex-1 rounded-full py-2.5 text-center text-sm font-semibold text-white shadow-md transition ${
+                      isRepeat
+                        ? "bg-[linear-gradient(90deg,#B86744,#D08259)]"
+                        : "bg-[linear-gradient(90deg,#3F4F2F,#6F7D4F)]"
+                    }`}
+                  >
+                    Dejar reseña →
+                  </motion.a>
+                  <button
+                    onClick={dismiss}
+                    className="rounded-full border border-line px-4 py-2.5 text-sm text-muted transition hover:border-ink hover:text-ink"
+                  >
+                    Ahora no
+                  </button>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }
@@ -260,49 +311,65 @@ function QrRecipeReviewBannerInner() {
     setVisible(false);
   };
 
-  if (!visible || !review) return null;
-
-  const url = review.reviewUrl ?? "#";
+  const url = review?.reviewUrl ?? "#";
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 md:bottom-6 md:left-1/2 md:right-auto md:-translate-x-1/2 md:w-[560px] md:max-w-[calc(100vw-3rem)]">
-      <div className="relative border-t border-terracotta/30 bg-ink px-5 py-5 text-white md:rounded-2xl md:border md:shadow-2xl md:px-8 md:py-6">
-        <button
-          onClick={handleDismiss}
-          aria-label="Cerrar"
-          className="absolute right-4 top-4 text-white/50 transition hover:text-white"
+    <AnimatePresence>
+      {visible && review && (
+        <motion.div
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 60 }}
+          transition={{ type: "spring", stiffness: 240, damping: 24 }}
+          className="fixed bottom-0 left-0 right-0 z-50 md:bottom-6 md:left-1/2 md:right-auto md:-translate-x-1/2 md:w-[560px] md:max-w-[calc(100vw-3rem)]"
         >
-          <XIcon />
-        </button>
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-terracotta">
-          RAIAN · Tu opinión
-        </p>
-        <p className="raian-display-balance mt-2 font-display text-xl font-medium leading-tight md:text-2xl">
-          Si te gusta nuestro trabajo, por favor déjanos una reseña.
-        </p>
-        <p className="mt-2 text-sm leading-6 text-white/70">
-          Tu opinión sobre {review.productName} nos ayuda a seguir creciendo, a seguir generando
-          contenido y a mejorar el producto para que te llegue lo mejor posible. Solo lleva 2 minutos.
-        </p>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={handleConfirm}
-            className="rounded-full bg-terracotta px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-terracotta/80"
-          >
-            Dejar reseña en Amazon →
-          </a>
-          <button
-            onClick={handleConfirm}
-            className="rounded-full border border-white/20 px-5 py-2.5 text-sm text-white/70 transition hover:border-white hover:text-white"
-          >
-            Ya la he dejado
-          </button>
-        </div>
-      </div>
-    </div>
+          <div className="relative overflow-hidden border-t border-terracotta/30 bg-[linear-gradient(135deg,#18201C_0%,#262F22_55%,#3F4F2F_100%)] px-5 py-5 text-white md:rounded-2xl md:border md:shadow-2xl md:px-8 md:py-6">
+            <div className="pointer-events-none absolute inset-0 raian-grain opacity-[0.06]" />
+            <button
+              onClick={handleDismiss}
+              aria-label="Cerrar"
+              className="absolute right-4 top-4 text-white/50 transition hover:text-white"
+            >
+              <XIcon />
+            </button>
+            <div className="relative">
+              <div className="flex items-center gap-3">
+                <AnimatedStars />
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-terracotta">
+                  RAIAN · Tu opinión
+                </p>
+              </div>
+              <p className="raian-display-balance mt-3 font-display text-xl font-medium leading-tight md:text-2xl">
+                Si te gusta nuestro trabajo, por favor déjanos una reseña.
+              </p>
+              <p className="mt-2 text-sm leading-6 text-white/70">
+                Tu opinión sobre {review.productName} nos ayuda a seguir creciendo, a seguir generando
+                contenido y a mejorar el producto para que te llegue lo mejor posible. Solo lleva 2 minutos.
+              </p>
+              <div className="mt-5 flex flex-wrap gap-3">
+                <motion.a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleConfirm}
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="rounded-full bg-terracotta px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:bg-terracotta/80"
+                >
+                  Dejar reseña en Amazon →
+                </motion.a>
+                <button
+                  onClick={handleConfirm}
+                  className="rounded-full border border-white/20 px-5 py-2.5 text-sm text-white/70 transition hover:border-white hover:text-white"
+                >
+                  Ya la he dejado
+                </button>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }
 
