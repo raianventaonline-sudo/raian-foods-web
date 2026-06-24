@@ -1,13 +1,8 @@
+import { CertificationBadgeIcon } from "@/components/CertificationBadgeIcon";
 import type { Certification } from "@/data/products";
 
 type ProductCertificationsProps = {
   certifications: Certification[];
-};
-
-const badgeIcon: Record<NonNullable<Certification["badge"]>, string> = {
-  iso: "🏆",
-  halal: "☪",
-  sanitary: "🛡️"
 };
 
 export function ProductCertifications({ certifications }: ProductCertificationsProps) {
@@ -19,8 +14,8 @@ export function ProductCertifications({ certifications }: ProductCertificationsP
         {certifications.map((cert) => (
           <li key={cert.name} className="flex flex-col gap-3 p-5 sm:flex-row sm:items-start sm:justify-between">
             <div className="flex gap-3">
-              <span className="mt-0.5 text-2xl" aria-hidden>
-                {cert.badge ? badgeIcon[cert.badge] : "✔"}
+              <span className="mt-0.5 shrink-0 rounded-full border border-line bg-cream p-1.5 text-olive">
+                <CertificationBadgeIcon badge={cert.badge} className="h-9 w-9" />
               </span>
               <div>
                 <p className="font-display text-lg text-ink">{cert.name}</p>
