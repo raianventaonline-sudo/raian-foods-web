@@ -7,6 +7,7 @@ import { NutritionTable } from "@/components/NutritionTable";
 import { ProductCertifications } from "@/components/ProductCertifications";
 import { ProductHero } from "@/components/ProductHero";
 import { ProductTechnicalTable } from "@/components/ProductTechnicalTable";
+import { ProductStepsList, ProductUsesList } from "@/components/ProductUsesSection";
 import { QrReviewPrompt } from "@/components/QrReviewPrompt";
 import { RecipeCard } from "@/components/RecipeCard";
 import { RelatedProducts } from "@/components/RelatedProducts";
@@ -172,26 +173,11 @@ export default function ProductPage({ params }: ProductPageProps) {
         <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-2 md:px-8">
           <div>
             <SectionTitle eyebrow="Usos" title="Aplicaciones habituales." />
-            <ul className="mt-8 space-y-3">
-              {product.uses.map((use) => (
-                <li key={use} className="rounded-md border border-line bg-sage px-4 py-3 text-sm leading-6 text-muted">
-                  {use}
-                </li>
-              ))}
-            </ul>
+            <ProductUsesList uses={product.uses} />
           </div>
           <div>
             <SectionTitle eyebrow="Uso orientativo" title="Pautas generales." />
-            <ol className="mt-8 space-y-3">
-              {product.howToUse.map((step, index) => (
-                <li key={step} className="flex gap-4 rounded-md border border-line bg-white px-4 py-4 text-sm leading-6 text-muted">
-                  <span className="grid size-8 shrink-0 place-items-center rounded-full bg-olive text-sm font-bold text-white">
-                    {index + 1}
-                  </span>
-                  <span>{step}</span>
-                </li>
-              ))}
-            </ol>
+            <ProductStepsList steps={product.howToUse} />
           </div>
         </div>
       </section>
