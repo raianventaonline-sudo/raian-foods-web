@@ -22,6 +22,19 @@ export const languages: LanguageOption[] = [
 
 const uiTranslations = {
   va: {
+    "Recibe novedades de RAIAN": "Rep novetats de RAIAN",
+    "Nuevos productos, recetas y contenido de ayuda directamente en tu correo. Sin spam, puedes darte de baja cuando quieras.":
+      "Productes nous, receptes i continguts d'ajuda directament al teu correu. Sense spam, pots donar-te de baixa quan vulgues.",
+    "Suscribirme": "Subscriure'm",
+    "Enviando...": "Enviant...",
+    "Acepto recibir el boletín de RAIAN por email y he leído la": "Accepte rebre el butlletí de RAIAN per email i he llegit la",
+    "política de privacidad": "política de privacitat",
+    "¡Listo! Ya estás suscrito a nuestro boletín.": "Llest! Ja estàs subscrit al nostre butlletí.",
+    "Ya estabas suscrito a nuestro boletín.": "Ja estaves subscrit al nostre butlletí.",
+    "Introduce un email válido.": "Introdueix un email vàlid.",
+    "Debes aceptar la política de privacidad.": "Has d'acceptar la política de privacitat.",
+    "El servicio de newsletter no está disponible ahora mismo.": "El servei de butlletí no està disponible ara mateix.",
+    "No se ha podido completar la suscripción. Inténtalo de nuevo.": "No s'ha pogut completar la subscripció. Torna-ho a intentar.",
     "Saltar al contenido": "Saltar al contingut",
     "Inicio": "Inici",
     "Productos": "Productes",
@@ -86,6 +99,19 @@ const uiTranslations = {
     "Aceptar": "Acceptar"
   },
   ca: {
+    "Recibe novedades de RAIAN": "Rep novetats de RAIAN",
+    "Nuevos productos, recetas y contenido de ayuda directamente en tu correo. Sin spam, puedes darte de baja cuando quieras.":
+      "Productes nous, receptes i continguts d'ajuda directament al teu correu. Sense spam, pots donar-te de baixa quan vulguis.",
+    "Suscribirme": "Subscriure'm",
+    "Enviando...": "Enviant...",
+    "Acepto recibir el boletín de RAIAN por email y he leído la": "Accepto rebre el butlletí de RAIAN per email i he llegit la",
+    "política de privacidad": "política de privacitat",
+    "¡Listo! Ya estás suscrito a nuestro boletín.": "Llest! Ja estàs subscrit al nostre butlletí.",
+    "Ya estabas suscrito a nuestro boletín.": "Ja estaves subscrit al nostre butlletí.",
+    "Introduce un email válido.": "Introdueix un email vàlid.",
+    "Debes aceptar la política de privacidad.": "Has d'acceptar la política de privacitat.",
+    "El servicio de newsletter no está disponible ahora mismo.": "El servei de butlletí no està disponible ara mateix.",
+    "No se ha podido completar la suscripción. Inténtalo de nuevo.": "No s'ha pogut completar la subscripció. Torna-ho a provar.",
     "Saltar al contenido": "Saltar al contingut",
     "Inicio": "Inici",
     "Productos": "Productes",
@@ -150,6 +176,19 @@ const uiTranslations = {
     "Aceptar": "Acceptar"
   },
   en: {
+    "Recibe novedades de RAIAN": "Get news from RAIAN",
+    "Nuevos productos, recetas y contenido de ayuda directamente en tu correo. Sin spam, puedes darte de baja cuando quieras.":
+      "New products, recipes and helpful content straight to your inbox. No spam, unsubscribe anytime.",
+    "Suscribirme": "Subscribe",
+    "Enviando...": "Sending...",
+    "Acepto recibir el boletín de RAIAN por email y he leído la": "I agree to receive RAIAN's newsletter by email and I have read the",
+    "política de privacidad": "privacy policy",
+    "¡Listo! Ya estás suscrito a nuestro boletín.": "Done! You're now subscribed to our newsletter.",
+    "Ya estabas suscrito a nuestro boletín.": "You were already subscribed to our newsletter.",
+    "Introduce un email válido.": "Enter a valid email address.",
+    "Debes aceptar la política de privacidad.": "You must accept the privacy policy.",
+    "El servicio de newsletter no está disponible ahora mismo.": "The newsletter service is not available right now.",
+    "No se ha podido completar la suscripción. Inténtalo de nuevo.": "We couldn't complete the subscription. Please try again.",
     "Saltar al contenido": "Skip to content",
     "Inicio": "Home",
     "Productos": "Products",
@@ -214,6 +253,19 @@ const uiTranslations = {
     "Aceptar": "Accept"
   },
   fr: {
+    "Recibe novedades de RAIAN": "Recevez les actualités de RAIAN",
+    "Nuevos productos, recetas y contenido de ayuda directamente en tu correo. Sin spam, puedes darte de baja cuando quieras.":
+      "Nouveaux produits, recettes et contenus utiles directement dans votre boîte mail. Sans spam, désabonnement à tout moment.",
+    "Suscribirme": "S'abonner",
+    "Enviando...": "Envoi...",
+    "Acepto recibir el boletín de RAIAN por email y he leído la": "J'accepte de recevoir la newsletter de RAIAN par email et j'ai lu la",
+    "política de privacidad": "politique de confidentialité",
+    "¡Listo! Ya estás suscrito a nuestro boletín.": "C'est fait ! Vous êtes maintenant abonné à notre newsletter.",
+    "Ya estabas suscrito a nuestro boletín.": "Vous étiez déjà abonné à notre newsletter.",
+    "Introduce un email válido.": "Saisissez une adresse email valide.",
+    "Debes aceptar la política de privacidad.": "Vous devez accepter la politique de confidentialité.",
+    "El servicio de newsletter no está disponible ahora mismo.": "Le service de newsletter n'est pas disponible pour le moment.",
+    "No se ha podido completar la suscripción. Inténtalo de nuevo.": "L'inscription n'a pas pu être effectuée. Veuillez réessayer.",
     "Saltar al contenido": "Aller au contenu",
     "Inicio": "Accueil",
     "Productos": "Produits",
@@ -278,6 +330,19 @@ const uiTranslations = {
     "Aceptar": "Accepter"
   },
   de: {
+    "Recibe novedades de RAIAN": "Erhalte Neuigkeiten von RAIAN",
+    "Nuevos productos, recetas y contenido de ayuda directamente en tu correo. Sin spam, puedes darte de baja cuando quieras.":
+      "Neue Produkte, Rezepte und hilfreiche Inhalte direkt in dein Postfach. Kein Spam, jederzeit abbestellbar.",
+    "Suscribirme": "Abonnieren",
+    "Enviando...": "Wird gesendet...",
+    "Acepto recibir el boletín de RAIAN por email y he leído la": "Ich stimme zu, den RAIAN-Newsletter per E-Mail zu erhalten, und habe die",
+    "política de privacidad": "Datenschutzerklärung",
+    "¡Listo! Ya estás suscrito a nuestro boletín.": "Fertig! Du bist jetzt für unseren Newsletter angemeldet.",
+    "Ya estabas suscrito a nuestro boletín.": "Du warst bereits für unseren Newsletter angemeldet.",
+    "Introduce un email válido.": "Gib eine gültige E-Mail-Adresse ein.",
+    "Debes aceptar la política de privacidad.": "Du musst die Datenschutzerklärung akzeptieren.",
+    "El servicio de newsletter no está disponible ahora mismo.": "Der Newsletter-Dienst ist derzeit nicht verfügbar.",
+    "No se ha podido completar la suscripción. Inténtalo de nuevo.": "Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuche es erneut.",
     "Saltar al contenido": "Zum Inhalt springen",
     "Inicio": "Startseite",
     "Productos": "Produkte",

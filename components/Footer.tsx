@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BrandLogo } from "@/components/BrandLogo";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 import { navigation, siteConfig } from "@/data/site";
 
 const legalLinks = [
@@ -11,6 +12,9 @@ const legalLinks = [
 export function Footer() {
   return (
     <footer className="border-t border-line bg-white">
+      <div className="mx-auto w-full max-w-7xl px-5 pt-14 md:px-8">
+        <NewsletterSignup />
+      </div>
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 py-14 md:grid-cols-[1.2fr_0.8fr_0.8fr] md:px-8">
         <div>
           <Link href="/" prefetch={false} className="inline-flex items-center" aria-label="Inicio de RAIAN">

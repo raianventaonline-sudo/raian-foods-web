@@ -61,16 +61,22 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-lg font-bold text-ink">Datos tratados</h2>
               <p className="mt-3">
-                Los datos recogidos mediante el formulario de contacto pueden incluir nombre, email, asunto y mensaje.
+                Los datos recogidos mediante el formulario de contacto pueden incluir nombre, email, asunto y mensaje. El
+                formulario de suscripción al boletín recoge únicamente la dirección de email.
               </p>
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Finalidad</h2>
-              <p className="mt-3">Responder consultas recibidas sobre productos, colaboraciones o información comercial.</p>
+              <p className="mt-3">
+                Responder consultas recibidas sobre productos, colaboraciones o información comercial, y enviar el
+                boletín de novedades a quienes se suscriban voluntariamente.
+              </p>
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Base legitimadora</h2>
-              <p className="mt-3">Consentimiento del usuario mediante el envío voluntario de la consulta.</p>
+              <p className="mt-3">
+                Consentimiento del usuario mediante el envío voluntario de la consulta o la suscripción al boletín.
+              </p>
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Conservación de datos</h2>
@@ -79,6 +85,10 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-lg font-bold text-ink">Destinatarios</h2>
               <p className="mt-3">{siteConfig.legal.recipients}</p>
+              <p className="mt-3">
+                El envío del boletín se gestiona a través de Brevo (Sendinblue SA), que actúa como encargado del
+                tratamiento y aloja los datos de suscripción en sus servidores.
+              </p>
             </section>
             <section>
               <h2 className="text-lg font-bold text-ink">Derechos</h2>
