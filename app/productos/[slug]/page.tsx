@@ -10,6 +10,7 @@ import { ProductTechnicalTable } from "@/components/ProductTechnicalTable";
 import { QrReviewPrompt } from "@/components/QrReviewPrompt";
 import { RecipeCard } from "@/components/RecipeCard";
 import { RelatedProducts } from "@/components/RelatedProducts";
+import { ReviewCTA, ReviewFloatingBubble } from "@/components/ReviewWidget";
 import { SectionTitle } from "@/components/SectionTitle";
 import { SupportNotice } from "@/components/SupportNotice";
 import { getProductBySlug, getRelatedProducts, products } from "@/data/products";
@@ -144,6 +145,7 @@ export default function ProductPage({ params }: ProductPageProps) {
         productName={product.name}
         reviewUrl={product.amazonReviewUrl}
       />
+      <ReviewFloatingBubble reviewUrl={product.amazonReviewUrl} productName={product.name} />
       <Breadcrumbs
         items={[
           { label: "Inicio", href: "/" },
@@ -248,7 +250,12 @@ export default function ProductPage({ params }: ProductPageProps) {
             <p className="mt-4 text-sm leading-7 text-muted">{product.conservation}</p>
           </article>
         </div>
-        <div className="mx-auto mt-6 w-full max-w-7xl px-5 md:px-8">
+        <div
+          className={`mx-auto mt-6 grid w-full max-w-7xl gap-6 px-5 md:px-8 ${
+            product.amazonReviewUrl ? "md:grid-cols-2" : ""
+          }`}
+        >
+          <ReviewCTA reviewUrl={product.amazonReviewUrl} productName={product.name} />
           <SupportNotice />
         </div>
       </section>

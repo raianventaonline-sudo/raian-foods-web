@@ -8,6 +8,8 @@ import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { QrRecipeReviewBanner } from "@/components/QrReviewPrompt";
 import { RecipeCard } from "@/components/RecipeCard";
 import { RecipeRating } from "@/components/RecipeRating";
+import { ReviewFloatingBubble } from "@/components/ReviewWidget";
+import { getProductBySlug } from "@/data/products";
 import {
   getRecipeBySlug,
   recipeProduct,
@@ -176,6 +178,7 @@ export default function RecipePage({ params }: RecipePageProps) {
     notFound();
   }
 
+  const relatedProduct = getProductBySlug(recipe.relatedProductSlug);
   const recipeUrl = absoluteUrl(`/recetas/${recipe.slug}`);
   const emailSubject = `Receta RAIAN: ${recipe.title}`;
   const emailBody = `Te comparto esta receta de RAIAN:\n\n${recipe.title}\n${recipeUrl}`;
@@ -372,6 +375,10 @@ export default function RecipePage({ params }: RecipePageProps) {
       )}
 
       <QrRecipeReviewBanner />
+      <ReviewFloatingBubble
+        reviewUrl={relatedProduct?.amazonReviewUrl}
+        productName={relatedProduct?.name ?? recipe.relatedProduct}
+      />
     </>
   );
 }
