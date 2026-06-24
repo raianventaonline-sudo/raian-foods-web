@@ -91,10 +91,7 @@ function QrReviewPromptInner({ productSlug, productName, reviewUrl }: QrReviewPr
 
     setIsRepeat(repeat);
     setShowBanner(true);
-
-    const delay = repeat ? 1500 : 4000;
-    const timer = setTimeout(() => setShowToast(true), delay);
-    return () => clearTimeout(timer);
+    setShowToast(true);
   }, [isQrRef, productSlug, productName, reviewUrl]);
 
   const dismiss = () => {
@@ -135,7 +132,7 @@ function QrReviewPromptInner({ productSlug, productName, reviewUrl }: QrReviewPr
               }`}
             >
               {isRepeat
-                ? "Vemos que ya nos conoces. Necesitamos tu reseña para poder seguir construyendo esto."
+                ? "Si te gusta nuestro trabajo, por favor déjanos una reseña: nos ayuda a seguir creciendo y mejorando el producto."
                 : `¿Qué tal la ${productName}? Tu opinión ayuda a otros compradores a elegir bien.`}
             </p>
             <a
@@ -179,7 +176,7 @@ function QrReviewPromptInner({ productSlug, productName, reviewUrl }: QrReviewPr
               </div>
               <p className="mt-2 text-sm leading-6 text-muted">
                 {isRepeat
-                  ? "Necesitamos tu reseña para poder seguir construyendo esto. Solo lleva 2 minutos."
+                  ? "Si te gusta nuestro trabajo, por favor ponnos una reseña: nos ayuda a seguir creciendo, a seguir generando contenido y a mejorar el producto para que te llegue lo mejor posible. Solo lleva 2 minutos."
                   : `¿Qué tal la ${productName}? Cuéntaselo a otros compradores en Amazon. Solo tarda 2 minutos.`}
               </p>
               <div className="mt-4 flex gap-2">
@@ -281,11 +278,11 @@ function QrRecipeReviewBannerInner() {
           RAIAN · Tu opinión
         </p>
         <p className="raian-display-balance mt-2 font-display text-xl font-medium leading-tight md:text-2xl">
-          Necesitamos tu reseña para poder seguir construyendo esto.
+          Si te gusta nuestro trabajo, por favor déjanos una reseña.
         </p>
         <p className="mt-2 text-sm leading-6 text-white/70">
-          Tu experiencia con {review.productName} ayuda a otros compradores y nos permite seguir
-          mejorando. Solo lleva 2 minutos.
+          Tu opinión sobre {review.productName} nos ayuda a seguir creciendo, a seguir generando
+          contenido y a mejorar el producto para que te llegue lo mejor posible. Solo lleva 2 minutos.
         </p>
         <div className="mt-5 flex flex-wrap gap-3">
           <a
