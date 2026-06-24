@@ -41,6 +41,7 @@ export type Product = {
   mainImage: ImageAsset;
   gallery: ImageAsset[];
   uses: string[];
+  highlights?: string[];
   howToUse: string[];
   technicalSheet: TechnicalRow[];
   nutrition: NutritionRow[];
@@ -211,6 +212,7 @@ export const products: Product[] = [
       "Gelatina neutra de origen bovino en formato 1 kg, con especificación 260 Bloom y 18 Mesh. Producto Halal pensado para preparaciones alimentarias que requieren textura, consistencia o una presentación cuidada.",
     category: "Gelatinas",
     tags: ["Neutra", "Origen bovino", "260 Bloom", "18 Mesh", "Halal", "1 kg"],
+    highlights: ["Alto contenido en proteína (85,6 g/100 g)", "Muy bajo en grasa", "Apto Halal y sin alérgenos declarables"],
     mainImage: {
       src: "/images/products/gelatina-bovina-main.svg",
       alt: "Bote de gelatina neutra bovina RAIAN 260 Bloom 1 kg",
@@ -365,6 +367,7 @@ export const products: Product[] = [
       "Gelatina neutra de origen porcino en formato 1 kg, con indicación 220 Bloom. Pensada para recetas dulces y preparaciones alimentarias donde la textura final forma parte de la elaboración.",
     category: "Gelatinas",
     tags: ["Neutra", "Origen porcino", "220 Bloom", "Postres", "Cocina", "1 kg"],
+    highlights: ["Alto contenido en proteína (85,6 g/100 g)", "Muy bajo en grasa", "Sin alérgenos de declaración obligatoria"],
     mainImage: {
       src: "/images/products/gelatina-porcina-main.png",
       alt: "Bote de gelatina neutra porcina RAIAN 220 Bloom 1 kg",
@@ -501,6 +504,7 @@ export const products: Product[] = [
       "Harina de almendra elaborada con 100% almendra molida, orientada a elaboraciones de repostería y cocina casera donde se busca una textura fina y versátil.",
     category: "Harinas",
     tags: ["Almendra", "100% almendra molida", "Repostería", "Recetas", "Cocina", "1 kg"],
+    highlights: ["Alto contenido en fibra", "Buena fuente de proteína vegetal", "100% almendra molida, sin aditivos"],
     mainImage: {
       src: "/images/products/harina-almendra-main.png",
       alt: "Bote de harina de almendra RAIAN 1 kg",
@@ -576,6 +580,7 @@ export const products: Product[] = [
       "Dextrosa orientada a usos alimentarios generales y aplicaciones culinarias específicas. La ficha reúne la información disponible y debe completarse con datos técnicos validados antes de publicar valores definitivos.",
     category: "Ingredientes alimentarios",
     tags: ["Ingrediente", "Uso alimentario", "Preparaciones", "1 kg"],
+    highlights: ["Disolución rápida y fácil dosificación", "Apto para preparaciones deportivas y heladería", "Formato profesional de 1 kg"],
     mainImage: {
       src: "/images/products/dextrosa-main.png",
       alt: "Bote de dextrosa RAIAN 1 kg",
@@ -649,6 +654,7 @@ export const products: Product[] = [
       "Glucosa orientada a recetas, elaboraciones dulces y usos culinarios donde la receta indique este ingrediente. La información técnica y nutricional debe validarse con el etiquetado final antes de publicarse como definitiva.",
     category: "Ingredientes alimentarios",
     tags: ["Ingrediente", "Dulces", "Uso culinario", "1 kg"],
+    highlights: ["Textura suave con efecto anticristalizante", "Ideal para repostería profesional", "Formato 1 kg de uso versátil"],
     mainImage: {
       src: "/images/products/glucosa-main.png",
       alt: "Bote de glucosa RAIAN 1 kg",
@@ -722,6 +728,7 @@ export const products: Product[] = [
       "Preparado de cacao en polvo para chocolate a la taza, pensado tanto para bebidas calientes tradicionales como para usarse en repostería. Formato 1 kg orientado a uso frecuente en casa o negocio.",
     category: "Cacao y chocolate",
     tags: ["Chocolate", "Bebida caliente", "Repostería", "Cacao", "1 kg"],
+    highlights: ["Sabor intenso de cacao", "Cremoso y de fácil disolución", "Válido para bebida caliente y repostería"],
     mainImage: {
       src: "/images/products/chocolate-a-la-taza-main.png",
       alt: "Bote de chocolate a la taza RAIAN 1 kg",
@@ -797,6 +804,7 @@ export const products: Product[] = [
       "Maltodextrina en polvo de fácil disolución, orientada a deportistas y personas activas que necesitan aportar energía rápidamente antes, durante o después del ejercicio. También usada como agente de textura en preparaciones alimentarias.",
     category: "Deportes y energía",
     tags: ["Carbohidrato", "Deportes", "Energía", "Pre-entreno", "Post-entreno", "1 kg"],
+    highlights: ["Sin grasas", "Carbohidrato de absorción rápida", "Ideal antes, durante y después del entreno"],
     mainImage: {
       src: "/images/products/maltodextrina-main.png",
       alt: "Bote de maltodextrina RAIAN 1 kg",
@@ -871,6 +879,7 @@ export const products: Product[] = [
       "Cacao en polvo premium 100% puro con un contenido en materia grasa de 22-24%, sometido a alcalinización (proceso holandés) que suaviza el sabor, intensifica el color oscuro y mejora la solubilidad. Sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico. El mayor contenido en manteca de cacao le da más cuerpo, color más intenso y un sabor más redondo. Pensado para repostería casera y profesional, así como para bebidas de cacao con cuerpo. Formato de 1 kg, envasado en España.",
     category: "Cacao y chocolate",
     tags: ["100% cacao", "Alcalinizado", "22-24% materia grasa", "Sin azúcar", "Vegano", "Origen español", "1 kg"],
+    highlights: ["100% cacao puro", "Sin azúcar añadido", "Apto para veganos"],
     mainImage: {
       src: "/images/products/cacao-en-polvo-alcalino-main.png",
       alt: "Bote de cacao premium alcalinizado RAIAN 22-24% 1 kg",
@@ -940,6 +949,7 @@ export const products: Product[] = [
       "Cacao en polvo alcalinizado 10-12% de materia grasa, tratado mediante el proceso holandés. Al tener menos contenido en manteca de cacao que el formato 22-24%, se disuelve con mayor facilidad y aporta menos grasa, manteniendo el color oscuro y el sabor profundo que caracterizan al cacao alcalinizado. 100% cacao, sin azúcar añadido y apto para veganos. Ideal para bebidas, mezclas, helados y elaboraciones donde se busca un cacao de bajo contenido graso. Formato 1 kg, envasado en España.",
     category: "Cacao y chocolate",
     tags: ["100% cacao", "Alcalinizado", "10-12% materia grasa", "Sin azúcar", "Vegano", "Bajo en grasa", "1 kg"],
+    highlights: ["100% cacao, sin azúcar añadido", "Bajo en grasa (10-12%)", "Apto para veganos"],
     mainImage: {
       src: "/images/products/cacao-en-polvo-alcalino-10-12-main.svg",
       alt: "Cacao en polvo alcalinizado 10/12% RAIAN 1 kg",
@@ -1015,6 +1025,7 @@ export const products: Product[] = [
       "Cacao en polvo natural, sin someterse al proceso de alcalinización, con un contenido en materia grasa de 10-12%. Al no estar tratado, conserva su acidez natural, su color más claro y un perfil de sabor más afrutado y vivo que los cacaos alcalinizados. 100% cacao, sin azúcar añadido y apto para veganos. Ideal para recetas donde se busca la reactividad natural del cacao con bicarbonato (como bizcochos que esponjan por reacción ácida), así como para elaboraciones donde se quiere un sabor más fresco. Formato 1 kg, envasado en España.",
     category: "Cacao y chocolate",
     tags: ["100% cacao", "Natural", "Sin alcalinizar", "10-12% materia grasa", "Sin azúcar", "Vegano", "1 kg"],
+    highlights: ["100% cacao puro sin alcalinizar", "Sin azúcar añadido", "Apto para veganos"],
     mainImage: {
       src: "/images/products/cacao-natural-10-12-main.svg",
       alt: "Cacao en polvo natural 10/12% RAIAN 1 kg",
@@ -1090,6 +1101,7 @@ export const products: Product[] = [
       "Caseína micelar pura en formato neutro sin aromas ni edulcorantes añadidos. Proteína de digestión lenta que libera aminoácidos de forma gradual durante horas, pensada para tomas antes de dormir o períodos prolongados sin ingesta.",
     category: "Proteínas",
     tags: ["Proteína", "Caseína", "Digestión lenta", "Nocturna", "Sin aroma", "1 kg"],
+    highlights: ["Alto contenido en proteína (82 g/100 g)", "Bajo en grasa", "Digestión lenta, ideal para la noche"],
     mainImage: {
       src: "/images/products/caseina-pura-neutra-main.png",
       alt: "Bote de caseína pura neutra RAIAN 1 kg",
@@ -1164,6 +1176,7 @@ export const products: Product[] = [
       "Inulina extraída del agave en polvo fino de fácil disolución. Fibra prebiótica soluble que alimenta la flora intestinal beneficiosa. Aporta una dulzura muy ligera sin calorías significativas. Se mezcla con facilidad en frío o templado.",
     category: "Fibra y prebióticos",
     tags: ["Fibra", "Prebiótico", "Inulina", "Agave", "Sin azúcar", "1 kg"],
+    highlights: ["Altísimo contenido en fibra prebiótica (85 g/100 g)", "Muy bajo en azúcares", "100% natural, extraída del agave"],
     mainImage: {
       src: "/images/products/inulina-de-agave-main.png",
       alt: "Bote de inulina de agave RAIAN 1 kg",
@@ -1237,6 +1250,7 @@ export const products: Product[] = [
       "Pistacho puro pelado en grano, sin sal añadida ni proceso de tueste previo. Ideal para repostería premium, cremas artesanales, granolas y preparaciones donde el sabor del pistacho debe ser el protagonista.",
     category: "Frutos secos",
     tags: ["Pistacho", "Natural", "Sin sal", "Repostería", "Premium", "1 kg"],
+    highlights: ["Buena fuente de proteína vegetal", "Alto contenido en fibra", "Sin sal añadida ni tostado"],
     mainImage: {
       src: "/images/products/pistacho-puro-en-grano-main.png",
       alt: "Bote de pistacho puro en grano RAIAN 1 kg",
@@ -1311,6 +1325,7 @@ export const products: Product[] = [
       "Lecitina de soja en polvo fino, emulsionante natural que permite integrar ingredientes de base acuosa con ingredientes grasos. Imprescindible para mayonesas veganas, aderezos emulsionados, chocolates con mejor textura y espumas culinarias.",
     category: "Ingredientes funcionales",
     tags: ["Lecitina", "Soja", "Emulsionante", "Vegano", "Funcional", "1 kg"],
+    highlights: ["Emulsionante natural 100% vegetal", "Apto para veganos", "Ingrediente funcional versátil en cocina y repostería"],
     mainImage: {
       src: "/images/products/lecitina-de-soja-main.png",
       alt: "Bote de lecitina de soja RAIAN 1 kg",
@@ -1384,6 +1399,7 @@ export const products: Product[] = [
       "Cobertura blanca RAIAN, ideal para bombones, tartas, trufas y decoraciones de repostería. Funde de forma uniforme y ofrece un acabado brillante y cremoso.",
     category: "Chocolates y coberturas",
     tags: ["Cobertura", "Chocolate blanco", "Repostería", "Fundir", "Decoración"],
+    highlights: ["Fusión uniforme y acabado brillante", "Ideal para repostería profesional y casera", "Versátil: bombones, tartas y decoraciones"],
     mainImage: {
       src: "/images/products/cobertura-blanca-main.png",
       alt: "Cobertura blanca RAIAN para repostería",
@@ -1464,6 +1480,7 @@ export const products: Product[] = [
       "Cobertura negra RAIAN con alto contenido en cacao, ideal para bombones, tartas, trufas y decoraciones. Ofrece un sabor intenso y un acabado brillante con buena fluidez al fundir.",
     category: "Chocolates y coberturas",
     tags: ["Cobertura", "Chocolate negro", "Repostería", "Fundir", "Decoración"],
+    highlights: ["Alto contenido en cacao", "Acabado brillante e intenso sabor", "Ideal para repostería profesional y casera"],
     mainImage: {
       src: "/images/products/cobertura-negra-main.png",
       alt: "Cobertura negra RAIAN para repostería",

@@ -20,6 +20,14 @@ const fadeUp: Variants = {
   })
 };
 
+function CheckIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5 text-olive" fill="none" aria-hidden>
+      <path d="M5 13l4 4L19 7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export function ProductHero({ product }: ProductHeroProps) {
   const reduceMotion = useReducedMotion();
   const initial = reduceMotion ? "show" : "hidden";
@@ -72,6 +80,23 @@ export function ProductHero({ product }: ProductHeroProps) {
               </span>
             ))}
           </motion.div>
+          {product.highlights && product.highlights.length > 0 ? (
+            <div className="mt-7 space-y-3">
+              {product.highlights.map((highlight, index) => (
+                <motion.div
+                  key={highlight}
+                  initial={initial}
+                  animate="show"
+                  custom={0.4 + index * 0.08}
+                  variants={fadeUp}
+                  className="flex items-center gap-3"
+                >
+                  <CheckIcon />
+                  <span className="text-base text-ink">{highlight}</span>
+                </motion.div>
+              ))}
+            </div>
+          ) : null}
           <motion.div
             initial={initial}
             animate="show"
