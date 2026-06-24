@@ -63,7 +63,7 @@ export function FeaturedProductsCarousel({ products }: FeaturedProductsCarouselP
             data-carousel-item
             className="min-w-[82%] snap-start sm:min-w-[420px] lg:min-w-[390px] xl:min-w-[410px]"
           >
-            <ProductCard product={product} index={index} />
+            <ProductCard product={product} index={index} featured />
           </div>
         ))}
       </div>

@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import type { Product } from "@/data/products";
+import { BorderBeam } from "@/components/BorderBeam";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
 
 type ProductHeroProps = {
@@ -83,8 +84,9 @@ export function ProductHero({ product }: ProductHeroProps) {
                 href={product.amazonUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="raian-button-glow inline-flex min-h-12 items-center justify-center rounded-full bg-terracotta px-7 text-sm font-semibold text-white transition hover:bg-[#A85F3A] focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
+                className="raian-button-glow relative inline-flex min-h-12 items-center justify-center overflow-hidden rounded-full bg-terracotta px-7 text-sm font-semibold text-white transition hover:bg-[#A85F3A] focus:outline-none focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
               >
+                <BorderBeam size={70} duration={5} colorFrom="#ffffff" colorTo="#F4DECF" />
                 Ver disponibilidad en Amazon
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="ml-2" aria-hidden>
                   <path d="M7 17 17 7m0 0H8m9 0v9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

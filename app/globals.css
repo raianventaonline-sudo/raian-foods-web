@@ -203,6 +203,20 @@ img {
   animation: raian-spin-slow 6s linear infinite;
 }
 
+@keyframes raian-border-beam {
+  to {
+    offset-distance: 100%;
+  }
+}
+
+.raian-border-beam {
+  position: absolute;
+  aspect-ratio: 1 / 1;
+  animation-name: raian-border-beam;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 .raian-shimmer-text {
   background: linear-gradient(90deg, #18201c 0%, #b86744 50%, #18201c 100%);
   background-size: 200% auto;

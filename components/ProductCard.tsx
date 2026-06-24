@@ -3,16 +3,18 @@
 import { motion, useReducedMotion, type Transition } from "framer-motion";
 import Link from "next/link";
 import type { Product } from "@/data/products";
+import { BorderBeam } from "@/components/BorderBeam";
 import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 
 type ProductCardProps = {
   product: Product;
   index?: number;
+  featured?: boolean;
 };
 
 const easing = [0.22, 1, 0.36, 1] as const;
 
-export function ProductCard({ product, index = 0 }: ProductCardProps) {
+export function ProductCard({ product, index = 0, featured = false }: ProductCardProps) {
   const reduceMotion = useReducedMotion();
   const transition: Transition = { duration: 0.65, delay: index * 0.05, ease: easing };
   const variants = reduceMotion
@@ -29,6 +31,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
       viewport={{ once: true, amount: 0.2 }}
       className="raian-card group relative flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-sm"
     >
+      {featured ? <BorderBeam size={120} duration={8} /> : null}
       <Link href={`/productos/${product.slug}`} prefetch={false} aria-label={`Ver ${product.name}`} className="block">
         <div className="relative overflow-hidden">
           <PlaceholderMedia asset={product.mainImage} className="aspect-[4/3] rounded-none border-0" />
