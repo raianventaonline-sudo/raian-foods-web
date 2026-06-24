@@ -78,7 +78,17 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   const relatedProducts = getRelatedProducts(product);
   const relatedRecipes = getRecipesForProduct(product.recipeSlugs);
-  const technicalRows = product.technicalSheet.filter((row) => !isPendingValue(row.value));
+  const hiddenTechnicalLabels = new Set([
+    "Nombre del producto",
+    "Denominación interna",
+    "Origen / tipo",
+    "Peso neto",
+    "Uso previsto",
+    "ASIN de Amazon"
+  ]);
+  const technicalRows = product.technicalSheet.filter(
+    (row) => !isPendingValue(row.value) && !hiddenTechnicalLabels.has(row.label)
+  );
   const nutritionRows = product.nutrition.filter((row) => !isPendingValue(row.value));
   const faqs = product.faqs ?? [];
   const faqJsonLd =
