@@ -1824,7 +1824,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo de fuerza",
@@ -1933,7 +1933,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo de fuerza",
@@ -2031,7 +2031,7 @@
         "Gluten",
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo de fuerza",
@@ -2130,7 +2130,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo de fuerza",
@@ -2223,7 +2223,7 @@
         "Gluten",
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -2320,7 +2320,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo de fuerza",
@@ -2407,7 +2407,7 @@
         "Gluten",
         "Leche"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -2511,7 +2511,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -2608,7 +2608,7 @@
         "Gluten",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina integral de trigo",
@@ -2694,7 +2694,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina integral de trigo",
@@ -2785,7 +2785,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina integral de espelta",
@@ -2861,7 +2861,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina integral de trigo",
@@ -2957,7 +2957,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina integral de trigo",
@@ -3038,7 +3038,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina integral de trigo",
@@ -3124,7 +3124,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3202,7 +3202,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3293,7 +3293,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo candeal",
@@ -3369,7 +3369,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3450,7 +3450,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3531,7 +3531,7 @@
       "allergens": [
         "Gluten"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
@@ -3619,7 +3619,7 @@
         "Leche",
         "Huevo"
       ],
-      "image_available": false,
+      "image_available": true,
       "ingredients": [
         {
           "name": "Harina de trigo",
