@@ -100,11 +100,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN directamente, sin necesidad de activarla en agua.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN directamente, sin necesidad de activarla en agua.",
         "Añade el agua tibia, la leche, el aceite, el azúcar y la sal, y amasa hasta obtener una masa lisa y elástica.",
-        "Deja reposar la masa tapada en un lugar cálido hasta que duplique su volumen, aproximadamente 60 minutos.",
-        "Desgasifica, da forma de barra y colócala en un molde rectangular engrasado.",
-        "Deja fermentar de nuevo 30-40 minutos y hornea a 180°C durante 30-35 minutos.",
+        "Tapa el bol con un paño húmedo o film transparente y deja reposar la masa tapada en un lugar cálido hasta que duplique su volumen, aproximadamente 60 minutos.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y desgasifica, da forma de barra y colócala en un molde rectangular engrasado.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar de nuevo 30-40 minutos y hornea a 180°C durante 30-35 minutos.",
         "Deja enfriar sobre una rejilla antes de cortar en rebanadas."
       ],
       "nutrition_per_serving": {
@@ -134,7 +134,15 @@
         "receta pan molde"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-molde-casero-blanco.webp"
+      "imagePath": "/images/recipes/pan-de-molde-casero-blanco.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara.",
+        "Aunque cueste esperar, cortarlo en caliente aplasta la miga y la deja gomosa: el interior todavía sigue terminando de asentarse mientras se enfría."
+      ]
     },
     {
       "category": "familiar",
@@ -199,12 +207,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
-        "Incorpora la leche tibia, el huevo y la mantequilla derretida, y amasa unos 10 minutos hasta obtener una masa elástica.",
-        "Deja fermentar tapada hasta que duplique su volumen, unos 60 minutos.",
-        "Divide en 8 porciones, boléalas y aplánalas ligeramente sobre una bandeja con papel de horno.",
-        "Pinta con huevo batido, espolvorea sésamo y deja fermentar 30 minutos más.",
-        "Hornea a 190°C durante 14-16 minutos hasta que estén dorados."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Incorpora la leche tibia, el huevo y la mantequilla derretida, y amasa unos 10 minutos hasta obtener una masa elástica. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta que duplique su volumen, unos 60 minutos.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 porciones, boléalas y aplánalas ligeramente sobre una bandeja con papel de horno.",
+        "Pinta con huevo batido, espolvorea sésamo y deja fermentar 30 minutos más. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 190°C durante 14-16 minutos hasta que estén dorados."
       ],
       "nutrition_per_serving": {
         "kcal": 248,
@@ -233,7 +241,15 @@
         "pan brioche hamburguesa"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-hamburguesa-esponjoso.webp"
+      "imagePath": "/images/recipes/pan-de-hamburguesa-esponjoso.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -287,12 +303,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
         "Añade la leche tibia y la mantequilla derretida, y amasa hasta lograr una masa lisa.",
-        "Deja fermentar tapada hasta duplicar su volumen, unos 50-60 minutos.",
-        "Divide en 8 piezas y forma cilindros alargados sobre la bandeja del horno.",
-        "Deja fermentar 25-30 minutos más y pinta con leche.",
-        "Hornea a 190°C durante 12-15 minutos hasta dorar."
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen, unos 50-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 piezas y forma cilindros alargados sobre la bandeja del horno.",
+        "Deja fermentar 25-30 minutos más y pinta con leche. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 190°C durante 12-15 minutos hasta dorar."
       ],
       "nutrition_per_serving": {
         "kcal": 231,
@@ -321,7 +337,15 @@
         "panecillos alargados"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-perrito-caliente-casero.webp"
+      "imagePath": "/images/recipes/pan-de-perrito-caliente-casero.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -385,11 +409,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
-        "Añade el agua tibia y el aceite, y amasa hasta obtener una masa fina y elástica.",
-        "Deja fermentar tapada en un lugar cálido durante 45-60 minutos.",
-        "Estira la masa en una bandeja y cubre con el tomate triturado, el queso y el jamón.",
-        "Hornea a 220°C durante 12-15 minutos hasta que el queso esté dorado y burbujeante."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua tibia y el aceite, y amasa hasta obtener una masa fina y elástica. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada en un lugar cálido durante 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y estira la masa en una bandeja y cubre con el tomate triturado, el queso y el jamón.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 220°C durante 12-15 minutos hasta que el queso esté dorado y burbujeante."
       ],
       "nutrition_per_serving": {
         "kcal": 420,
@@ -418,7 +442,14 @@
         "masa de pizza facil"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pizza-casera-clasica-de-jamon-y-queso.webp"
+      "imagePath": "/images/recipes/pizza-casera-clasica-de-jamon-y-queso.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -482,11 +513,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite.",
         "Amasa unos 10 minutos hasta obtener una masa lisa y elástica.",
-        "Deja fermentar tapada un mínimo de 1 hora, o varias horas en frío para más sabor.",
-        "Estira la masa fina, cubre con el tomate y reparte la mozzarella troceada.",
-        "Hornea a la máxima temperatura del horno (idealmente 250°C) durante 8-10 minutos.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada un mínimo de 1 hora, o varias horas en frío para más sabor. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y estira la masa fina, cubre con el tomate y reparte la mozzarella troceada.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a la máxima temperatura del horno (idealmente 250°C) durante 8-10 minutos.",
         "Añade la albahaca fresca al sacarla del horno."
       ],
       "nutrition_per_serving": {
@@ -516,7 +547,15 @@
         "masa de pizza fina"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pizza-margarita-napolitana.webp"
+      "imagePath": "/images/recipes/pizza-margarita-napolitana.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -574,12 +613,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
-        "Añade el agua tibia y la mitad del aceite, y mezcla hasta integrar (masa pegajosa, no es necesario amasar mucho).",
-        "Deja fermentar tapada 1 hora en un bol engrasado.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua tibia y la mitad del aceite, y mezcla hasta integrar (masa pegajosa, no es necesario amasar mucho). Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 1 hora en un bol engrasado. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
         "Vuelca la masa en una bandeja con aceite, extiende con los dedos y marca hoyuelos.",
         "Riega con el resto del aceite, reparte el romero y la sal en escamas.",
-        "Deja fermentar 30 minutos más y hornea a 220°C durante 20-25 minutos."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 30 minutos más y hornea a 220°C durante 20-25 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 290,
@@ -608,7 +647,15 @@
         "focaccia romero"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/focaccia-de-romero-y-aceite-de-oliva.webp"
+      "imagePath": "/images/recipes/focaccia-de-romero-y-aceite-de-oliva.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        null,
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -672,11 +719,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
-        "Deja fermentar tapada hasta duplicar su volumen, unos 60 minutos.",
-        "Divide la masa en bolas, colócalas juntas en un molde formando una corona.",
-        "Mezcla la mantequilla derretida con el ajo y el perejil, y pincela generosamente por encima.",
-        "Deja fermentar 20 minutos más y hornea a 200°C durante 20-25 minutos."
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen, unos 60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide la masa en bolas, colócalas juntas en un molde formando una corona.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la mantequilla derretida con el ajo y el perejil, y pincela generosamente por encima.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 20 minutos más y hornea a 200°C durante 20-25 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 262,
@@ -705,7 +752,14 @@
         "pan con levadura ajo"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-ajo-y-perejil.webp"
+      "imagePath": "/images/recipes/pan-de-ajo-y-perejil.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -770,12 +824,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
         "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta lograr una masa lisa.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Divide en 8 porciones, aplana cada una, coloca un trozo de chocolate en el centro y cierra bien.",
-        "Coloca los bollos en una bandeja, deja fermentar 30 minutos más.",
-        "Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 porciones, aplana cada una, coloca un trozo de chocolate en el centro y cierra bien.",
+        "Coloca los bollos en una bandeja, deja fermentar 30 minutos más. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 298,
@@ -804,7 +858,15 @@
         "bollos rellenos caseros"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bollos-de-leche-rellenos-de-chocolate.webp"
+      "imagePath": "/images/recipes/bollos-de-leche-rellenos-de-chocolate.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -847,11 +909,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
-        "Añade el agua poco a poco y amasa hasta obtener una masa homogénea (puede quedar algo pegajosa).",
-        "Deja fermentar tapada durante 1-2 horas hasta que duplique su volumen.",
-        "Forma una bola, colócala sobre papel de horno enharinado y haz unos cortes en la superficie.",
-        "Hornea a 230°C con un recipiente de agua dentro del horno durante 35-40 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua poco a poco y amasa hasta obtener una masa homogénea (puede quedar algo pegajosa). Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada durante 1-2 horas hasta que duplique su volumen.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y forma una bola, colócala sobre papel de horno enharinado y haz unos cortes en la superficie.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 230°C con un recipiente de agua dentro del horno durante 35-40 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 238,
@@ -880,7 +942,14 @@
         "pan de pueblo receta"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-pueblo-rustico.webp"
+      "imagePath": "/images/recipes/pan-de-pueblo-rustico.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -928,11 +997,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
-        "Añade el agua y el aceite, y mezcla con una espátula hasta integrar (masa muy hidratada).",
-        "Deja fermentar tapada 1,5-2 horas, plegando la masa un par de veces durante el reposo.",
-        "Vuelca con cuidado sobre una superficie enharinada y divide en 2-3 piezas sin desgasificar demasiado.",
-        "Coloca sobre papel de horno y hornea a 230°C con vapor durante 20-25 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), añade el agua y el aceite, y mezcla con una espátula hasta integrar (masa muy hidratada).",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 1,5-2 horas, plegando la masa un par de veces durante el reposo. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y vuelca con cuidado sobre una superficie enharinada y divide en 2-3 piezas sin desgasificar demasiado.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Coloca sobre papel de horno y hornea a 230°C con vapor durante 20-25 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 298,
@@ -961,7 +1030,14 @@
         "pan italiano receta"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/chapata-casera-con-aceite-de-oliva.webp"
+      "imagePath": "/images/recipes/chapata-casera-con-aceite-de-oliva.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -1025,11 +1101,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade el agua y la mantequilla, y amasa.",
-        "Deja fermentar tapada 45-60 minutos.",
-        "Divide en 8 porciones, forma cordones largos y dales la forma característica de pretzel.",
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade el agua y la mantequilla, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 porciones, forma cordones largos y dales la forma característica de pretzel.",
         "Sumerge brevemente cada pretzel en agua hirviendo con bicarbonato (unos 20 segundos).",
-        "Coloca sobre la bandeja, espolvorea sal gruesa y hornea a 220°C durante 12-15 minutos."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Coloca sobre la bandeja, espolvorea sal gruesa y hornea a 220°C durante 12-15 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 210,
@@ -1058,7 +1134,14 @@
         "pan aleman levadura"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pretzels-alemanes-caseros.webp"
+      "imagePath": "/images/recipes/pretzels-alemanes-caseros.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Este breve paso por agua hirviendo (a veces con bicarbonato) gelatiniza la superficie antes de hornear, y es lo que da esa corteza brillante y algo más densa típica de bagels y pretzels.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -1118,11 +1201,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
-        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa unos 10 minutos.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Divide en 8 bollitos, colócalos en una bandeja y deja fermentar 25-30 minutos más.",
-        "Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa unos 10 minutos. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 bollitos, colócalos en una bandeja y deja fermentar 25-30 minutos más.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 225,
@@ -1151,7 +1234,14 @@
         "pan suave con levadura"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-leche-para-desayuno.webp"
+      "imagePath": "/images/recipes/pan-de-leche-para-desayuno.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -1204,11 +1294,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade el agua y amasa hasta una masa firme.",
-        "Deja fermentar tapada 45 minutos.",
-        "Divide en 6 porciones, forma bolas y haz un agujero en el centro de cada una.",
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade el agua y amasa hasta una masa firme. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 6 porciones, forma bolas y haz un agujero en el centro de cada una.",
         "Hierve cada bagel 60-90 segundos por lado en agua con miel.",
-        "Coloca en una bandeja y hornea a 220°C durante 18-20 minutos hasta dorar."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Coloca en una bandeja y hornea a 220°C durante 18-20 minutos hasta dorar."
       ],
       "nutrition_per_serving": {
         "kcal": 270,
@@ -1237,7 +1327,14 @@
         "pan bagel desayuno"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bagels-caseros-para-el-desayuno.webp"
+      "imagePath": "/images/recipes/bagels-caseros-para-el-desayuno.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Este breve paso por agua hirviendo (a veces con bicarbonato) gelatiniza la superficie antes de hornear, y es lo que da esa corteza brillante y algo más densa típica de bagels y pretzels.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -1302,11 +1399,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
-        "Añade la leche, el huevo y la mantequilla derretida, amasa e incorpora las pasas al final.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Divide en tres tiras y trénzalas sobre la bandeja del horno.",
-        "Deja fermentar 25-30 minutos más, pinta con huevo y hornea a 180°C durante 25-30 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche, el huevo y la mantequilla derretida, amasa e incorpora las pasas al final. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en tres tiras y trénzalas sobre la bandeja del horno.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 25-30 minutos más, pinta con huevo y hornea a 180°C durante 25-30 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 262,
@@ -1335,7 +1432,14 @@
         "trenza dulce casera"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/trenza-de-pan-dulce-con-pasas.webp"
+      "imagePath": "/images/recipes/trenza-de-pan-dulce-con-pasas.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -1393,11 +1497,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
-        "Deja fermentar tapada 45-60 minutos.",
-        "Estira la masa y corta círculos, rellena con el atún mezclado con el tomate frito.",
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y estira la masa y corta círculos, rellena con el atún mezclado con el tomate frito.",
         "Cierra cada empanadilla sellando bien los bordes con un tenedor.",
-        "Coloca en una bandeja, pinta con aceite y hornea a 200°C durante 18-20 minutos."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Coloca en una bandeja, pinta con aceite y hornea a 200°C durante 18-20 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 216,
@@ -1426,7 +1530,14 @@
         "empanadillas caseras"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/empanadillas-al-horno-de-masa-con-levadura.webp"
+      "imagePath": "/images/recipes/empanadillas-al-horno-de-masa-con-levadura.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        null,
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "familiar",
@@ -1479,11 +1590,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina integral con la levadura instantánea RAIAN, la sal y la mitad de las semillas.",
-        "Añade el agua tibia y el aceite, y amasa hasta integrar bien.",
-        "Deja fermentar tapada 1 hora hasta que duplique su volumen.",
-        "Forma una hogaza, humedece la superficie y reparte el resto de las semillas por encima.",
-        "Hornea a 210°C durante 35-40 minutos hasta que suene hueco al golpearlo."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina integral con la levadura instantánea RAIAN, la sal y la mitad de las semillas.",
+        "Añade el agua tibia y el aceite, y amasa hasta integrar bien. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 1 hora hasta que duplique su volumen.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y forma una hogaza, humedece la superficie y reparte el resto de las semillas por encima.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 210°C durante 35-40 minutos hasta que suene hueco al golpearlo."
       ],
       "nutrition_per_serving": {
         "kcal": 234,
@@ -1512,7 +1623,14 @@
         "pan rico en fibra"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-rustico-multisemillas.webp"
+      "imagePath": "/images/recipes/pan-rustico-multisemillas.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -1572,11 +1690,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
         "Añade los huevos y la leche, amasa, e incorpora la mantequilla en pomada poco a poco hasta que la masa quede lisa y brillante.",
-        "Deja fermentar en frío durante varias horas o toda la noche.",
-        "Da forma de molde o trenza, deja fermentar a temperatura ambiente 1-2 horas.",
-        "Pinta con huevo batido y hornea a 170°C durante 30-35 minutos."
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar en frío durante varias horas o toda la noche. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma de molde o trenza, deja fermentar a temperatura ambiente 1-2 horas.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Pinta con huevo batido y hornea a 170°C durante 30-35 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 231,
@@ -1605,7 +1723,14 @@
         "receta brioche casero"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/brioche-frances-clasico.webp"
+      "imagePath": "/images/recipes/brioche-frances-clasico.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -1670,12 +1795,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade la leche, el agua y la mantequilla de la masa, y amasa.",
-        "Deja reposar la masa en frío 1 hora.",
+        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal, añade la leche, el agua y la mantequilla de la masa, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja reposar la masa en frío 1 hora. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
         "Lamina la masa con la mantequilla en bloque, realizando 2-3 vueltos con reposos en frío entre cada uno.",
-        "Estira la masa final, corta triángulos y enróllalos dándoles la forma de croissant.",
-        "Deja fermentar a temperatura ambiente 2 horas hasta que doblen su tamaño.",
-        "Pinta con huevo y hornea a 200°C durante 16-18 minutos."
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y estira la masa final, corta triángulos y enróllalos dándoles la forma de croissant.",
+        "Deja fermentar a temperatura ambiente 2 horas hasta que doblen su tamaño. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Pinta con huevo y hornea a 200°C durante 16-18 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 350,
@@ -1704,7 +1829,15 @@
         "receta croissant"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/croissants-caseros-con-levadura.webp"
+      "imagePath": "/images/recipes/croissants-caseros-con-levadura.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        null,
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -1769,12 +1902,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
         "Añade el huevo, la leche y la mantequilla en pomada, y amasa hasta lograr una masa lisa y elástica.",
-        "Incorpora las pepitas de chocolate al final del amasado.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Da forma de molde, deja fermentar 1 hora más.",
-        "Hornea a 170°C durante 30-35 minutos."
+        "Incorpora las pepitas de chocolate al final del amasado. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma de molde, deja fermentar 1 hora más.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 170°C durante 30-35 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 315,
@@ -1803,7 +1936,15 @@
         "brioche levadura instantanea"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-brioche-relleno-de-chocolate.webp"
+      "imagePath": "/images/recipes/pan-brioche-relleno-de-chocolate.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -1878,12 +2019,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar, la ralladura y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar, la ralladura y la sal.",
         "Añade la leche, el huevo, la mantequilla y el agua de azahar, y amasa hasta obtener una masa lisa.",
-        "Deja fermentar tapada hasta duplicar su volumen, 1-1,5 horas.",
-        "Da forma de rosca sobre la bandeja del horno y deja fermentar 1 hora más.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen, 1-1,5 horas. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma de rosca sobre la bandeja del horno y deja fermentar 1 hora más.",
         "Pinta con huevo, decora con fruta confitada y azúcar humedecido.",
-        "Hornea a 180°C durante 20-25 minutos."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 180°C durante 20-25 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 297,
@@ -1912,7 +2053,15 @@
         "pan dulce navideño"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/roscon-de-reyes-casero.webp"
+      "imagePath": "/images/recipes/roscon-de-reyes-casero.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Pintar la superficie con huevo batido (o con leche) antes de hornear es lo que da ese color dorado y ese brillo característico a la corteza.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -1977,12 +2126,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
-        "Añade el huevo, la leche y la mantequilla, y amasa hasta lograr una masa elástica.",
-        "Incorpora las pasas y la fruta confitada enharinadas para que no se hundan.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Coloca en un molde alto de panettone y deja fermentar 1 hora más.",
-        "Hornea a 170°C durante 35-40 minutos, cubriendo con papel si se dora demasiado."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade el huevo, la leche y la mantequilla, y amasa hasta lograr una masa elástica. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "En un bol grande (o en el bol de tu robot de cocina), incorpora las pasas y la fruta confitada enharinadas para que no se hundan.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Tapa el bol con un paño húmedo o film transparente y coloca en un molde alto de panettone y deja fermentar 1 hora más. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 170°C durante 35-40 minutos, cubriendo con papel si se dora demasiado."
       ],
       "nutrition_per_serving": {
         "kcal": 272,
@@ -2011,7 +2160,15 @@
         "panettone con levadura"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/panettone-simplificado-de-frutas-confitadas.webp"
+      "imagePath": "/images/recipes/panettone-simplificado-de-frutas-confitadas.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -2075,12 +2232,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
         "Añade la leche y la mantequilla en pomada, y amasa hasta obtener una masa lisa.",
-        "Incorpora las pasas y los frutos secos al final del amasado.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Extiende la masa, coloca el mazapán en el centro en forma de cilindro y dobla la masa sobre él.",
-        "Deja fermentar 45 minutos más y hornea a 170°C durante 35-40 minutos."
+        "Incorpora las pasas y los frutos secos al final del amasado. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y extiende la masa, coloca el mazapán en el centro en forma de cilindro y dobla la masa sobre él.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 45 minutos más y hornea a 170°C durante 35-40 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 304,
@@ -2109,7 +2266,15 @@
         "stollen receta casera"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/stollen-aleman-de-frutas-y-mazapan.webp"
+      "imagePath": "/images/recipes/stollen-aleman-de-frutas-y-mazapan.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -2169,12 +2334,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
         "Añade el huevo, la leche y la mantequilla, y amasa hasta obtener una masa elástica y brillante.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Coloca la masa en un molde rectangular engrasado.",
-        "Deja fermentar 45-60 minutos más, pinta con huevo.",
-        "Hornea a 175°C durante 30-35 minutos."
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y coloca la masa en un molde rectangular engrasado.",
+        "Deja fermentar 45-60 minutos más, pinta con huevo. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 175°C durante 30-35 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 231,
@@ -2203,7 +2368,15 @@
         "pan gourmet con levadura"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-brioche-para-sandwich-gourmet.webp"
+      "imagePath": "/images/recipes/pan-de-brioche-para-sandwich-gourmet.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -2267,11 +2440,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y la mitad del aceite, y mezcla sin amasar demasiado.",
-        "Deja fermentar tapada 1 hora.",
-        "Vuelca en una bandeja con aceite, marca hoyuelos con los dedos y reparte los tomates cherry.",
-        "Riega con el resto del aceite y deja fermentar 30 minutos más.",
-        "Hornea a 220°C durante 20-22 minutos.",
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y la mitad del aceite, y mezcla sin amasar demasiado. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 1 hora. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y vuelca en una bandeja con aceite, marca hoyuelos con los dedos y reparte los tomates cherry.",
+        "Riega con el resto del aceite y deja fermentar 30 minutos más. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 220°C durante 20-22 minutos.",
         "Al sacarla, añade la burrata troceada y la albahaca fresca."
       ],
       "nutrition_per_serving": {
@@ -2301,7 +2474,15 @@
         "pan italiano premium"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/focaccia-gourmet-de-tomates-cherry-y-burrata.webp"
+      "imagePath": "/images/recipes/focaccia-gourmet-de-tomates-cherry-y-burrata.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -2354,11 +2535,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la masa madre y la levadura instantánea RAIAN, añade el agua y el aceite.",
-        "Mezcla con espátula hasta integrar (masa muy hidratada, sin amasado intenso).",
-        "Deja fermentar tapada 3-4 horas, plegando la masa cada hora.",
-        "Vuelca sobre superficie enharinada, divide en piezas sin desgasificar demasiado.",
-        "Hornea a 230°C con vapor durante 22-25 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la masa madre y la levadura instantánea RAIAN, añade el agua y el aceite.",
+        "Mezcla con espátula hasta integrar (masa muy hidratada, sin amasado intenso). Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 3-4 horas, plegando la masa cada hora. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y vuelca sobre superficie enharinada, divide en piezas sin desgasificar demasiado.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 230°C con vapor durante 22-25 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 298,
@@ -2387,7 +2568,14 @@
         "ciabatta premium"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/ciabatta-artesanal-con-masa-madre-y-levadura.webp"
+      "imagePath": "/images/recipes/ciabatta-artesanal-con-masa-madre-y-levadura.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "premium",
@@ -2456,10 +2644,10 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
-        "Añade el yogur, el agua y el aceite, y amasa hasta obtener una masa suave.",
-        "Deja fermentar tapada 45-60 minutos.",
-        "Divide en 8 porciones y estira cada una en forma ovalada.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade el yogur, el agua y el aceite, y amasa hasta obtener una masa suave. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 porciones y estira cada una en forma ovalada.",
         "Cocina en una sartén muy caliente o plancha 1-2 minutos por lado hasta que se formen burbujas doradas.",
         "Pinta con mantequilla fundida mezclada con ajo recién hecho."
       ],
@@ -2490,7 +2678,15 @@
         "naan de ajo"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/naan-de-ajo-y-mantequilla-al-estilo-indio.webp"
+      "imagePath": "/images/recipes/naan-de-ajo-y-mantequilla-al-estilo-indio.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Cocinar a fuego fuerte en sartén o plancha, en vez de en el horno, es lo que consigue esas burbujas doradas por fuera y la textura tierna por dentro, típica del pan plano.",
+        "Este toque de aceite, especias o sal gruesa sobre la superficie, antes o justo después de hornear, es lo que aporta brillo y un extra de sabor a la corteza."
+      ]
     },
     {
       "category": "premium",
@@ -2555,11 +2751,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar, las especias y la sal.",
-        "Añade el puré de calabaza, el huevo y la mantequilla derretida, y amasa hasta integrar bien.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Da forma de hogaza o trenza en un molde.",
-        "Deja fermentar 45 minutos más y hornea a 180°C durante 30-35 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar, las especias y la sal.",
+        "Añade el puré de calabaza, el huevo y la mantequilla derretida, y amasa hasta integrar bien. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma de hogaza o trenza en un molde.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 45 minutos más y hornea a 180°C durante 30-35 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 240,
@@ -2588,7 +2784,14 @@
         "receta pan especias"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-calabaza-y-especias-otonales.webp"
+      "imagePath": "/images/recipes/pan-de-calabaza-y-especias-otonales.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "fitness",
@@ -2642,11 +2845,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal.",
-        "Añade las claras de huevo, el agua y el aceite, y amasa hasta obtener una masa homogénea.",
-        "Deja fermentar tapada 60 minutos hasta que duplique su volumen.",
-        "Da forma de hogaza alargada y colócala en un molde.",
-        "Deja fermentar 30 minutos más y hornea a 190°C durante 30-35 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina integral con la levadura instantánea RAIAN y la sal.",
+        "Añade las claras de huevo, el agua y el aceite, y amasa hasta obtener una masa homogénea. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 60 minutos hasta que duplique su volumen.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma de hogaza alargada y colócala en un molde.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 30 minutos más y hornea a 190°C durante 30-35 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 153,
@@ -2675,7 +2878,14 @@
         "pan alto en proteina"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-integral-proteico-con-claras-de-huevo.webp"
+      "imagePath": "/images/recipes/pan-integral-proteico-con-claras-de-huevo.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "fitness",
@@ -2733,11 +2943,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina integral, la avena y la levadura instantánea RAIAN con la sal.",
-        "Añade el agua y el aceite, y amasa hasta integrar bien.",
-        "Incorpora la mitad de las semillas al amasado y deja fermentar tapada 60 minutos.",
-        "Divide en 10 panecillos, reparte el resto de las semillas por encima.",
-        "Deja fermentar 25 minutos más y hornea a 200°C durante 20-22 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina integral, la avena y la levadura instantánea RAIAN con la sal.",
+        "Añade el agua y el aceite, y amasa hasta integrar bien. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y incorpora la mitad de las semillas al amasado y deja fermentar tapada 60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 10 panecillos, reparte el resto de las semillas por encima.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 25 minutos más y hornea a 200°C durante 20-22 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 182,
@@ -2766,7 +2976,14 @@
         "pan rico en fibra fitness"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/panecillos-integrales-de-avena-y-semillas.webp"
+      "imagePath": "/images/recipes/panecillos-integrales-de-avena-y-semillas.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "fitness",
@@ -2809,11 +3026,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina de espelta con la levadura instantánea RAIAN y la sal.",
-        "Añade el agua tibia y amasa hasta obtener una masa homogénea (la espelta admite menos amasado que el trigo).",
-        "Deja fermentar tapada 50-60 minutos.",
-        "Da forma de hogaza y coloca en un molde o sobre la bandeja del horno.",
-        "Deja fermentar 30 minutos más y hornea a 200°C durante 35-40 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina de espelta con la levadura instantánea RAIAN y la sal.",
+        "Añade el agua tibia y amasa hasta obtener una masa homogénea (la espelta admite menos amasado que el trigo). Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 50-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma de hogaza y coloca en un molde o sobre la bandeja del horno.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 30 minutos más y hornea a 200°C durante 35-40 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 157,
@@ -2842,7 +3059,14 @@
         "pan fitness sin grasas añadidas"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-espelta-integral-bajo-en-grasa.webp"
+      "imagePath": "/images/recipes/pan-de-espelta-integral-bajo-en-grasa.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "fitness",
@@ -2905,11 +3129,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
-        "Deja fermentar tapada 45-60 minutos.",
-        "Estira la masa en una bandeja, cubre con el tomate triturado.",
+        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y estira la masa en una bandeja, cubre con el tomate triturado.",
         "Reparte el pollo troceado y las verduras asadas por encima.",
-        "Hornea a 220°C durante 14-16 minutos."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 220°C durante 14-16 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 360,
@@ -2938,7 +3162,14 @@
         "pizza saludable con levadura"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pizza-integral-fit-de-pollo-y-verduras.webp"
+      "imagePath": "/images/recipes/pizza-integral-fit-de-pollo-y-verduras.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        null,
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "fitness",
@@ -2986,9 +3217,9 @@
         }
       ],
       "steps": [
-        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
-        "Deja fermentar tapada 30-40 minutos.",
-        "Divide en 8 porciones y estira cada una muy fina con el rodillo.",
+        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 30-40 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 porciones y estira cada una muy fina con el rodillo.",
         "Cocina en una sartén o plancha caliente 1-2 minutos por lado hasta que se doren ligeramente.",
         "Deja enfriar y rellena con tus ingredientes favoritos."
       ],
@@ -3019,7 +3250,14 @@
         "pan para rellenos saludables"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-plano-integral-para-wraps-fit.webp"
+      "imagePath": "/images/recipes/pan-plano-integral-para-wraps-fit.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Cocinar a fuego fuerte en sartén o plancha, en vez de en el horno, es lo que consigue esas burbujas doradas por fuera y la textura tierna por dentro, típica del pan plano.",
+        "Aunque cueste esperar, cortarlo en caliente aplasta la miga y la deja gomosa: el interior todavía sigue terminando de asentarse mientras se enfría."
+      ]
     },
     {
       "category": "fitness",
@@ -3072,11 +3310,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y amasa hasta una masa firme.",
-        "Deja fermentar tapada 45 minutos.",
-        "Divide en 6 porciones, forma bolas y haz un agujero en el centro de cada una.",
+        "Mezcla la harina integral con la levadura instantánea RAIAN y la sal, añade el agua y amasa hasta una masa firme. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 6 porciones, forma bolas y haz un agujero en el centro de cada una.",
         "Hierve cada bagel 60-90 segundos por lado en agua con miel.",
-        "Reparte las semillas por encima y hornea a 210°C durante 18-20 minutos."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Reparte las semillas por encima y hornea a 210°C durante 18-20 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 245,
@@ -3105,7 +3343,14 @@
         "pan bagel saludable"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bagels-integrales-con-semillas-para-el-desayuno-fit.webp"
+      "imagePath": "/images/recipes/bagels-integrales-con-semillas-para-el-desayuno-fit.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Este breve paso por agua hirviendo (a veces con bicarbonato) gelatiniza la superficie antes de hornear, y es lo que da esa corteza brillante y algo más densa típica de bagels y pretzels.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "casera",
@@ -3148,11 +3393,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN directamente, sin disolverla previamente en agua.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN directamente, sin disolverla previamente en agua.",
         "Añade el agua tibia y la sal, y amasa hasta obtener una masa lisa y homogénea.",
-        "Deja fermentar tapada en un lugar cálido hasta que duplique su volumen, 45-60 minutos.",
-        "Da forma de hogaza o barra y colócala sobre la bandeja del horno.",
-        "Deja fermentar 20-30 minutos más y hornea a 210°C durante 30-35 minutos."
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada en un lugar cálido hasta que duplique su volumen, 45-60 minutos.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma de hogaza o barra y colócala sobre la bandeja del horno.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 20-30 minutos más y hornea a 210°C durante 30-35 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 212,
@@ -3181,7 +3426,14 @@
         "receta pan sencillo"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-casero-de-cada-dia-con-levadura-instantanea.webp"
+      "imagePath": "/images/recipes/pan-casero-de-cada-dia-con-levadura-instantanea.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "casera",
@@ -3241,11 +3493,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
-        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta lograr una masa suave.",
-        "Deja fermentar tapada hasta duplicar su volumen.",
-        "Divide en 8 bollos, colócalos en una bandeja y deja fermentar 25-30 minutos más.",
-        "Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN, el azúcar y la sal.",
+        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta lograr una masa suave. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada hasta duplicar su volumen. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 bollos, colócalos en una bandeja y deja fermentar 25-30 minutos más.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Pinta con huevo batido y hornea a 180°C durante 15-18 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 225,
@@ -3274,7 +3526,14 @@
         "bollos con levadura instantanea"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bollos-suizos-para-el-desayuno.webp"
+      "imagePath": "/images/recipes/bollos-suizos-para-el-desayuno.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "casera",
@@ -3317,11 +3576,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN y la sal.",
         "Añade el agua tibia poco a poco y amasa bien hasta obtener una masa firme y lisa.",
-        "Deja fermentar tapada 45-60 minutos.",
-        "Da forma redonda y aplánala ligeramente, marcando la cruz tradicional en la superficie.",
-        "Deja fermentar 20 minutos más y hornea a 200°C durante 25-30 minutos."
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y da forma redonda y aplánala ligeramente, marcando la cruz tradicional en la superficie.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Deja fermentar 20 minutos más y hornea a 200°C durante 25-30 minutos."
       ],
       "nutrition_per_serving": {
         "kcal": 265,
@@ -3350,7 +3609,14 @@
         "receta pan candeal"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-candeal-tradicional.webp"
+      "imagePath": "/images/recipes/pan-candeal-tradicional.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "casera",
@@ -3398,11 +3664,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
-        "Deja fermentar tapada 45-60 minutos.",
-        "Divide en 10 porciones, aplánalas con suavidad formando óvalos.",
-        "Cubre con un paño y deja fermentar 20-25 minutos más.",
-        "Hornea a 200°C durante 15-18 minutos, sin que doren demasiado para que queden blandos."
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 10 porciones, aplánalas con suavidad formando óvalos.",
+        "Cubre con un paño y deja fermentar 20-25 minutos más. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 200°C durante 15-18 minutos, sin que doren demasiado para que queden blandos."
       ],
       "nutrition_per_serving": {
         "kcal": 175,
@@ -3431,7 +3697,14 @@
         "receta mollete"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/mollete-andaluz-casero.webp"
+      "imagePath": "/images/recipes/mollete-andaluz-casero.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "casera",
@@ -3479,10 +3752,10 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
-        "Deja fermentar tapada 45-60 minutos.",
-        "Divide en 8 porciones y estira cada una en forma de disco fino.",
-        "Hornea a máxima temperatura (250°C) sobre una bandeja muy caliente durante 4-5 minutos hasta que se inflen.",
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 45-60 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 porciones y estira cada una en forma de disco fino.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a máxima temperatura (250°C) sobre una bandeja muy caliente durante 4-5 minutos hasta que se inflen.",
         "Deja enfriar envueltas en un paño para que queden blandas."
       ],
       "nutrition_per_serving": {
@@ -3512,7 +3785,14 @@
         "receta pan arabe con levadura"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-pita-casero-para-rellenar.webp"
+      "imagePath": "/images/recipes/pan-de-pita-casero-para-rellenar.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara.",
+        "Aunque cueste esperar, cortarlo en caliente aplasta la miga y la deja gomosa: el interior todavía sigue terminando de asentarse mientras se enfría."
+      ]
     },
     {
       "category": "casera",
@@ -3565,11 +3845,11 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa.",
-        "Deja fermentar tapada 30-40 minutos.",
-        "Divide la masa en porciones pequeñas y forma palitos largos y finos con las manos.",
+        "Mezcla la harina con la levadura instantánea RAIAN y la sal, añade el agua y el aceite, y amasa. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
+        "Tapa el bol con un paño húmedo o film transparente y deja fermentar tapada 30-40 minutos. La masa estará lista cuando, al hundir un dedo enharinado, la marca quede señalada sin que la masa vuelva del todo a su sitio.",
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide la masa en porciones pequeñas y forma palitos largos y finos con las manos.",
         "Coloca en la bandeja, espolvorea sal gruesa y deja reposar 10 minutos.",
-        "Hornea a 200°C durante 12-15 minutos hasta que estén dorados y crujientes."
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 200°C durante 12-15 minutos hasta que estén dorados y crujientes."
       ],
       "nutrition_per_serving": {
         "kcal": 190,
@@ -3598,7 +3878,14 @@
         "aperitivo con levadura"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/grissini-caseros-palitos-de-pan.webp"
+      "imagePath": "/images/recipes/grissini-caseros-palitos-de-pan.webp",
+      "stepNotes": [
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Durante esta primera fermentación la levadura transforma los azúcares de la masa en gas carbónico, que es lo que hace que suba. Cuanto más cálido esté el ambiente, más rápido irá; en una cocina fría puede necesitar más tiempo del indicado.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Este toque de aceite, especias o sal gruesa sobre la superficie, antes o justo después de hornear, es lo que aporta brillo y un extra de sabor a la corteza.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
     },
     {
       "category": "casera",
@@ -3658,12 +3945,12 @@
         }
       ],
       "steps": [
-        "Mezcla la harina con la levadura instantánea RAIAN y la sal.",
-        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta integrar bien.",
+        "En un bol grande (o en el bol de tu robot de cocina), mezcla la harina con la levadura instantánea RAIAN y la sal.",
+        "Añade la leche tibia, el huevo y la mantequilla derretida, y amasa hasta integrar bien. Si amasas a mano, cuenta con unos 8-10 minutos; con amasadora y gancho, con 5-6 minutos a velocidad media suele bastar. Sabrás que está lista cuando la masa esté lisa, algo brillante, y se despegue de las manos o de las paredes del bol.",
         "Incorpora la mayor parte del queso rallado al amasado, reservando un poco para decorar.",
-        "Divide en 8 porciones, forma bolitas y coloca en una bandeja.",
-        "Reparte el queso reservado por encima, deja fermentar 30 minutos.",
-        "Hornea a 190°C durante 18-20 minutos hasta dorar."
+        "Vuelca la masa sobre la mesa de trabajo ligeramente enharinada y divide en 8 porciones, forma bolitas y coloca en una bandeja.",
+        "Reparte el queso reservado por encima, deja fermentar 30 minutos. No hace falta que doble del todo su tamaño: basta con que se note visiblemente hinchada al tacto.",
+        "Precalienta el horno a la temperatura indicada, con calor arriba y abajo. Hornea a 190°C durante 18-20 minutos hasta dorar."
       ],
       "nutrition_per_serving": {
         "kcal": 280,
@@ -3692,7 +3979,122 @@
         "panecillos de queso"
       ],
       "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/pan-de-queso-casero-para-aperitivo.webp"
+      "imagePath": "/images/recipes/pan-de-queso-casero-para-aperitivo.webp",
+      "stepNotes": [
+        "La levadura instantánea RAIAN se incorpora siempre seca, mezclada con la harina, nunca disuelta antes en agua: por su grano fino se reparte de forma uniforme y empieza a actuar en cuanto la masa coge humedad.",
+        "Amasar desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura al fermentar. Una masa poco trabajada sube menos y el resultado sale más denso y compacto.",
+        "Este toque de aceite, especias o sal gruesa sobre la superficie, antes o justo después de hornear, es lo que aporta brillo y un extra de sabor a la corteza.",
+        "Dar forma con cuidado, sin desgasificar en exceso, ayuda a conservar el aire que la masa ya ha ganado en la primera fermentación.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que aporta el volumen final en el horno. No hace falta que doble del todo: basta con que se note visiblemente hinchada.",
+        "Meter la masa en un horno ya caliente desde el principio evita que siga fermentando de más mientras el horno alcanza temperatura, lo que podría hacer que perdiera forma o se desinflara."
+      ]
+    },
+    {
+      "category": "premium",
+      "title": "Pan casero tierno de queso crema",
+      "slug": "pan-casero-tierno-de-queso-crema",
+      "seo_title": "Pan casero tierno de queso crema con levadura RAIAN | Receta",
+      "meta_description": "Pan de molde tierno y jugoso a base de queso crema y claras de huevo, con fermentación lenta en frío, hecho con levadura instantánea RAIAN.",
+      "intro": "Un pan de molde sorprendentemente tierno y húmedo gracias al queso crema y las claras de huevo en la masa, con una fermentación lenta en la nevera que potencia el sabor. Queda especialmente bueno con mantequilla y mermelada, o montado con salmón ahumado, más queso crema, alcaparras y un chorro de aceite de oliva virgen extra.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 45,
+        "rest_min": 600,
+        "total_min": 670
+      },
+      "allergens": [
+        "Gluten",
+        "Huevo",
+        "Leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Levadura seca instantánea RAIAN",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 75,
+          "key": "agua"
+        },
+        {
+          "name": "Claras de huevo",
+          "g": 135,
+          "key": "claras"
+        },
+        {
+          "name": "Queso crema tipo Philadelphia",
+          "g": 185,
+          "key": "queso_crema"
+        },
+        {
+          "name": "Harina panificable",
+          "g": 500,
+          "key": "harina"
+        },
+        {
+          "name": "Sal",
+          "g": 10,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "En un bol grande, bate las claras de huevo con el queso crema con unas varillas de mano hasta obtener una crema homogénea, sin grumos.",
+        "Mezcla la harina panificable (tamizada) con la levadura instantánea RAIAN y la sal, y añade esta mezcla seca al bol junto con el agua tibia.",
+        "Amasa con el gancho del robot de cocina a velocidad media (o a mano, sobre la mesa) hasta que todos los ingredientes queden bien combinados y la masa se despegue de las paredes del bol, unos 8-10 minutos.",
+        "Forma una bola con la masa, colócala en un bol untado con un poco de aceite de oliva, cúbrelo con un paño húmedo o film transparente, y guárdalo en la nevera durante 8-10 horas (toda la noche).",
+        "Forra un molde rectangular con papel de horno en los dos lados más largos, o engrásalo bien con spray antiadherente, y resérvalo.",
+        "Pasa la masa fría a la mesa de trabajo enharinada, déjala reposar 10 minutos para que pierda el frío de la nevera, y extiéndela con las manos hasta formar un rectángulo.",
+        "Dobla los dos bordes más largos hacia el centro y enrolla la masa sobre sí misma para formar un cilindro, sellando bien la unión final.",
+        "Coloca el rollo en el molde con la unión hacia abajo y deja fermentar, tapado, hasta que casi duplique su volumen.",
+        "Precalienta el horno a 200°C. Justo antes de hornear, marca un corte a lo largo de la superficie con una cuchilla (puedes espolvorear un poco de harina antes para que se vea mejor el dibujo) y mete el pan al horno de inmediato.",
+        "Hornea durante 40-45 minutos, hasta que al darle unos golpes en la superficie con los dedos suene hueco, como un tambor.",
+        "Retira del horno, deja reposar 20 minutos sobre una rejilla antes de desmoldar, y deja enfriar por completo antes de cortarlo."
+      ],
+      "stepNotes": [
+        null,
+        "Con la levadura instantánea RAIAN no hace falta activarla antes en agua templada, como sí se hace con la levadura seca tradicional: se incorpora directamente seca, mezclada con la harina, y empieza a actuar en cuanto entra en contacto con la humedad de la masa.",
+        "Amasar el tiempo suficiente desarrolla el gluten de la harina, la red elástica que retiene el gas que produce la levadura. Sabrás que está lista cuando la masa esté lisa, algo brillante, y no se pegue a las manos ni al bol.",
+        "La fermentación lenta en frío, durante toda la noche, desarrolla mucho más sabor que una fermentación corta a temperatura ambiente, y además hace que la masa sea más fácil de manejar al día siguiente.",
+        null,
+        "Dejar que la masa se atempere un poco antes de manipularla evita que se rompa o se resista al estirarla, ya que el frío de la nevera la vuelve más rígida y elástica de manejar.",
+        "Sellar bien la unión evita que el rollo se abra al fermentar o al hornear y que el pan pierda su forma.",
+        "Esta segunda fermentación, ya con la forma definitiva, es la que da el volumen final al pan; no hace falta que doble del todo, basta con que se note visiblemente hinchada.",
+        "El corte permite que el pan se abra de forma controlada al subir en el horno. Si no se hace, puede agrietarse de forma irregular por donde menos lo esperas.",
+        "El sonido hueco al golpear la base o la superficie es la señal más fiable de que el pan está cocido por dentro, mejor que fiarse solo del color de la corteza.",
+        "Aunque cueste esperar, cortarlo recién salido del horno aplasta la miga y la deja gomosa: el interior todavía sigue terminando de asentarse mientras se enfría."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 202,
+        "protein": 7.5,
+        "carbs": 31.5,
+        "sugars": 1.5,
+        "fat": 5.3,
+        "sat_fat": 2.6,
+        "fiber": 1.4,
+        "salt": 0.75
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 270,
+        "protein": 10.0,
+        "carbs": 42.0,
+        "sugars": 2.0,
+        "fat": 7.0,
+        "sat_fat": 3.5,
+        "fiber": 1.8,
+        "salt": 1.0
+      },
+      "estimated_serving_g": 75,
+      "keywords": [
+        "pan de queso crema casero",
+        "pan tierno con levadura instantanea",
+        "pan philadelphia casero",
+        "pan de molde con queso crema"
+      ],
+      "notes": "Tabla nutricional estimada según composición estándar de panificación enriquecida con lácteos. Validar con análisis de laboratorio si se usa como dato legal o comercial."
     }
   ]
 }
