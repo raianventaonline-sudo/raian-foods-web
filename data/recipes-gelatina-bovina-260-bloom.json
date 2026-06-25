@@ -129,7 +129,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/vasitos-fitness-de-yogur-griego-frutos-rojos-y-gelatina-bovina.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        null,
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "fitness",
@@ -214,7 +222,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/mousse-fitness-de-mango-y-skyr-con-gelatina-bovina.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "fitness",
@@ -299,7 +314,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/flan-frio-fitness-de-cacao-y-leche-desnatada.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "fitness",
@@ -385,7 +407,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-fitness-de-cafe-con-capa-cremosa-de-skyr.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -477,7 +507,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/tarta-fria-fitness-de-queso-batido-limon-y-avena.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        null,
+        null,
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "fitness",
@@ -562,7 +600,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/cubos-fitness-de-fresa-y-lima-con-gelatina-bovina.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "fitness",
@@ -647,7 +692,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/bavarois-fitness-de-vainilla-y-queso-fresco-batido.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "fitness",
@@ -732,7 +784,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-fitness-de-matcha-y-leche-de-coco.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "fitness",
@@ -817,7 +876,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/pudding-fitness-de-chia-con-gelatina-de-frutos-rojos.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "fitness",
@@ -904,7 +970,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/barritas-frias-fitness-de-yogur-avena-y-cacao.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        null,
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -1000,7 +1074,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/panna-cotta-premium-de-vainilla-y-coulis-de-frambuesa.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria.",
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -1104,7 +1186,16 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/cheesecake-premium-de-mango-y-maracuya-sin-horno.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "Presionar bien la base de galleta compacta la mezcla para que no se desmorone al cortar o desmoldar el postre terminado.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "premium",
@@ -1190,7 +1281,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/terrina-premium-de-frutos-rojos-e-hibisco.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Disponer los ingredientes antes de cubrir con el líquido permite controlar cómo quedarán distribuidos visualmente al desmoldar el postre.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria.",
+        "Desmoldar con cuidado (ayudándote de agua templada por fuera del molde si hace falta) evita romper una pieza que ya está cuajada pero sigue siendo delicada."
+      ]
     },
     {
       "category": "premium",
@@ -1276,7 +1375,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/panna-cotta-premium-de-coco-y-chocolate-blanco.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "premium",
@@ -1368,7 +1474,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/bavarois-premium-de-pistacho-con-base-de-almendra.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "Disponer los ingredientes antes de cubrir con el líquido permite controlar cómo quedarán distribuidos visualmente al desmoldar el postre.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "premium",
@@ -1472,7 +1586,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/tarta-mousse-premium-de-limon-y-merengue-sin-horno.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "Presionar bien la base de galleta compacta la mezcla para que no se desmorone al cortar o desmoldar el postre terminado.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -1562,7 +1684,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-premium-de-manzana-asada-vainilla-y-canela.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        null,
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "premium",
@@ -1653,7 +1782,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/mousse-premium-de-cafe-y-mascarpone-con-gelatina-bovina.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -1749,7 +1886,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/terrina-premium-salada-de-pollo-y-verduras-en-gelatina.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Disponer los ingredientes antes de cubrir con el líquido permite controlar cómo quedarán distribuidos visualmente al desmoldar el postre.",
+        null,
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "premium",
@@ -1839,7 +1984,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/flan-premium-de-queso-crema-y-caramelo-salado.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "Hay que vigilar el punto del caramelo porque si se quema amarga el resultado, y si se vierte demasiado frío no se extiende bien por el molde.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina."
+      ]
     },
     {
       "category": "familiar",
@@ -1919,7 +2071,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-familiar-de-naranja-natural.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        null,
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "familiar",
@@ -2015,7 +2174,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-mosaico-familiar-con-crema-de-leche.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        null,
+        null,
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar."
+      ]
     },
     {
       "category": "familiar",
@@ -2113,7 +2280,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/tarta-familiar-fria-de-queso-y-fresa.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "Presionar bien la base de galleta compacta la mezcla para que no se desmorone al cortar o desmoldar el postre terminado.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "familiar",
@@ -2198,7 +2373,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gominolas-familiares-de-fresa-natural.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "familiar",
@@ -2278,7 +2460,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/vasitos-familiares-de-yogur-y-melocoton.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "familiar",
@@ -2358,7 +2547,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/flan-familiar-de-leche-y-vainilla-sin-horno.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "familiar",
@@ -2448,7 +2644,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-familiar-de-limon-con-frutas.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Disponer los ingredientes antes de cubrir con el líquido permite controlar cómo quedarán distribuidos visualmente al desmoldar el postre.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar."
+      ]
     },
     {
       "category": "familiar",
@@ -2534,7 +2737,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/mousse-familiar-de-chocolate-suave.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "familiar",
@@ -2631,7 +2841,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/tarta-familiar-de-galleta-nata-y-gelatina-de-cacao.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "Presionar bien la base de galleta compacta la mezcla para que no se desmorone al cortar o desmoldar el postre terminado.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "familiar",
@@ -2726,7 +2943,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/terrina-familiar-dulce-de-frutas-variadas.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Disponer los ingredientes antes de cubrir con el líquido permite controlar cómo quedarán distribuidos visualmente al desmoldar el postre.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -2810,7 +3034,13 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-casera-de-leche-merengada.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "casera",
@@ -2899,7 +3129,13 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/panna-cotta-casera-de-canela-y-naranja.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "casera",
@@ -2984,7 +3220,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/crema-casera-de-arroz-con-leche-gelificada.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "casera",
@@ -3069,7 +3312,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/postre-casero-de-membrillo-y-queso-fresco.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "casera",
@@ -3148,7 +3398,13 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/flan-casero-frio-de-cafe-con-leche.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "casera",
@@ -3240,7 +3496,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/tarta-casera-de-yogur-y-limon-sin-horno.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "Presionar bien la base de galleta compacta la mezcla para que no se desmorone al cortar o desmoldar el postre terminado.",
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Mezclar bien en este punto asegura que todos los ingredientes queden integrados de forma homogénea antes de que la gelatina empiece a actuar.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "casera",
@@ -3330,7 +3593,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/mousse-casera-de-platano-y-cacao.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria."
+      ]
     },
     {
       "category": "casera",
@@ -3415,7 +3685,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/gelatina-casera-de-manzana-asada.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        null,
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "casera",
@@ -3500,7 +3777,14 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/postre-casero-de-nata-y-fresas-con-gelatina-bovina.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        null,
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Montar la nata solo hasta picos suaves (no del todo firme) ayuda a que se integre con el resto de la mezcla sin perder aire ni volverse grumosa.",
+        "Conviene repartir la mezcla en su recipiente definitivo antes de que la gelatina empiece a cuajar, para conseguir un acabado liso y uniforme."
+      ]
     },
     {
       "category": "casera",
@@ -3591,7 +3875,15 @@
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
       "imagePath": "/images/recipes/terrina-casera-salada-de-pollo-zanahoria-y-guisantes.webp",
-      "image_available": true
+      "image_available": true,
+      "stepNotes": [
+        "La gelatina debe hidratarse primero en frío para que absorba el líquido de forma uniforme; si se añade directamente en caliente, se forman grumos que no se disuelven bien.",
+        "Calentar suavemente, sin hervir, prepara la base para disolver la gelatina sin arriesgarte a que pierda fuerza de gelificación por temperaturas demasiado altas.",
+        "Se disuelve en un líquido caliente pero sin llegar a hervir, porque el hervor prolongado puede debilitar el poder gelificante de la gelatina.",
+        "Disponer los ingredientes antes de cubrir con el líquido permite controlar cómo quedarán distribuidos visualmente al desmoldar el postre.",
+        "El frío es lo que activa el efecto gelificante: sin el tiempo de refrigeración indicado, la mezcla no llegará a cuajar con la firmeza necesaria.",
+        "Desmoldar con cuidado (ayudándote de agua templada por fuera del molde si hace falta) evita romper una pieza que ya está cuajada pero sigue siendo delicada."
+      ]
     }
   ]
 }

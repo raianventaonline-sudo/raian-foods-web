@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import path from "node:path";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -8,6 +10,7 @@ import { PlaceholderMedia } from "@/components/PlaceholderMedia";
 import { QrRecipeReviewBanner } from "@/components/QrReviewPrompt";
 import { RecipeCard } from "@/components/RecipeCard";
 import { RecipeRating } from "@/components/RecipeRating";
+import { RecipeStepsList } from "@/components/RecipeStepsList";
 import { ReviewFloatingBubble } from "@/components/ReviewWidget";
 import { getProductBySlug } from "@/data/products";
 import {
@@ -179,6 +182,9 @@ export default function RecipePage({ params }: RecipePageProps) {
   }
 
   const relatedProduct = getProductBySlug(recipe.relatedProductSlug);
+  const stepImages = recipe.steps.map((_, index) =>
+    existsSync(path.join(process.cwd(), "public", "images", "recipes", "steps", `${recipe.slug}-paso-${index + 1}.webp`))
+  );
   const recipeUrl = absoluteUrl(`/recetas/${recipe.slug}`);
   const emailSubject = `Receta RAIAN: ${recipe.title}`;
   const emailBody = `Te comparto esta receta de RAIAN:\n\n${recipe.title}\n${recipeUrl}`;
@@ -275,16 +281,12 @@ export default function RecipePage({ params }: RecipePageProps) {
           </div>
           <div>
             <h2 className="font-display text-3xl text-ink">Preparación</h2>
-            <ol className="mt-6 space-y-4">
-              {recipe.steps.map((step, index) => (
-                <li key={step} className="flex gap-4 rounded-md border border-line bg-white px-4 py-4 text-sm leading-7 text-muted">
-                  <span className="grid size-8 shrink-0 place-items-center rounded-full bg-olive text-sm font-bold text-white">
-                    {index + 1}
-                  </span>
-                  <span>{step}</span>
-                </li>
-              ))}
-            </ol>
+            <RecipeStepsList
+              recipeSlug={recipe.slug}
+              steps={recipe.steps}
+              stepNotes={recipe.stepNotes}
+              stepImages={stepImages}
+            />
           </div>
         </div>
       </section>

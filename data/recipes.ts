@@ -48,6 +48,7 @@ type SourceRecipe = {
   image_available?: boolean;
   ingredients: RecipeIngredient[];
   steps: string[];
+  stepNotes?: Array<string | null>;
   nutrition_per_serving: RecipeNutrition;
   nutrition_per_100g_estimated: RecipeNutrition;
   estimated_serving_g: number;
