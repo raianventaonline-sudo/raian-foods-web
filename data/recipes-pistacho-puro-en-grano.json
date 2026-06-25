@@ -135,7 +135,17 @@
         "frutos secos"
       ],
       "notes": "Para un color verde más intenso, blanquea los pistachos en agua hirviendo 1 minuto y pela la piel fina antes de triturar.",
-      "imagePath": "/images/recipes/helado-de-pistacho-puro-casero.webp"
+      "imagePath": "/images/recipes/helado-de-pistacho-puro-casero.webp",
+      "stepNotes": [
+        null,
+        "Calentar el líquido sin dejar que llegue a hervir evita que se corte, se queme el fondo o pierda matices de sabor.",
+        null,
+        "Añadir el líquido caliente poco a poco sin dejar de batir atempera el resto de los ingredientes de forma gradual, en vez de cuajarlos de golpe y dejar grumos.",
+        null,
+        "Filtrar o colar el líquido elimina los restos sólidos que queden, lo que da una textura mucho más fina al resultado final.",
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -215,7 +225,15 @@
         "untar"
       ],
       "notes": "El procesador de vaso potente (tipo Thermomix o Vitamix) da mejor resultado que un procesador de alimentos pequeño. Cuanto más tiempo proceso, más suave queda.",
-      "imagePath": "/images/recipes/crema-de-pistacho-artesanal-para-untar.webp"
+      "imagePath": "/images/recipes/crema-de-pistacho-artesanal-para-untar.webp",
+      "stepNotes": [
+        null,
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -316,7 +334,15 @@
         "proteína vegetal"
       ],
       "notes": "Tostar el pistacho en seco potencia su aroma. No lo dores en exceso o amargará.",
-      "imagePath": "/images/recipes/ensalada-de-quinoa-con-pistacho-naranja-y-rucula.webp"
+      "imagePath": "/images/recipes/ensalada-de-quinoa-con-pistacho-naranja-y-rucula.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -429,7 +455,16 @@
         "sin colorantes"
       ],
       "notes": "Para un color más verde, blanquea los pistachos y pélalos antes de moler. El bizcocho mejora de un día para otro.",
-      "imagePath": "/images/recipes/bizcocho-humedo-de-pistacho-con-glaseado-de-limon.webp"
+      "imagePath": "/images/recipes/bizcocho-humedo-de-pistacho-con-glaseado-de-limon.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor."
+      ]
     },
     {
       "category": "premium",
@@ -531,7 +566,15 @@
         "albahaca"
       ],
       "notes": "Procesar en pulsos y no de forma continua da una textura más rústica y auténtica. El pesto sin pasta se conserva 5 días en nevera cubierto con aceite.",
-      "imagePath": "/images/recipes/pesto-de-pistacho-con-pasta-fresca.webp"
+      "imagePath": "/images/recipes/pesto-de-pistacho-con-pasta-fresca.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ]
 }

@@ -120,7 +120,15 @@
         "postre familiar con gelatina"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
-      "imagePath": "/images/recipes/gelatina-de-naranja-casera-con-trozos-de-fruta.webp"
+      "imagePath": "/images/recipes/gelatina-de-naranja-casera-con-trozos-de-fruta.webp",
+      "stepNotes": [
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        "Calentar el líquido sin dejar que llegue a hervir evita que se corte, se queme el fondo o pierda matices de sabor.",
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     },
     {
       "category": "familiar",
@@ -219,7 +227,16 @@
         "postre familiar clásico"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
-      "imagePath": "/images/recipes/flan-de-vainilla-con-caramelo-casero.webp"
+      "imagePath": "/images/recipes/flan-de-vainilla-con-caramelo-casero.webp",
+      "stepNotes": [
+        "No remover el azúcar mientras se funde (o remover lo mínimo) evita que cristalice; por eso se deja que tome color por sí solo, a fuego medio y con paciencia.",
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        null,
+        "Añadir el líquido caliente poco a poco sin dejar de batir atempera el resto de los ingredientes de forma gradual, en vez de cuajarlos de golpe y dejar grumos.",
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        "Filtrar o colar el líquido elimina los restos sólidos que queden, lo que da una textura mucho más fina al resultado final.",
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     },
     {
       "category": "casera",
@@ -309,7 +326,15 @@
         "panna cotta mango"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
-      "imagePath": "/images/recipes/panna-cotta-de-coco-y-mango.webp"
+      "imagePath": "/images/recipes/panna-cotta-de-coco-y-mango.webp",
+      "stepNotes": [
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        null,
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -399,7 +424,15 @@
         "gelatina refrescante casera"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
-      "imagePath": "/images/recipes/gelatina-de-te-verde-y-menta-con-limon.webp"
+      "imagePath": "/images/recipes/gelatina-de-te-verde-y-menta-con-limon.webp",
+      "stepNotes": [
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        "Filtrar o colar el líquido elimina los restos sólidos que queden, lo que da una textura mucho más fina al resultado final.",
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        null,
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     },
     {
       "category": "fitness",
@@ -486,7 +519,15 @@
         "skyr con gelatina"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
-      "imagePath": "/images/recipes/vasitos-de-proteina-con-gelatina-porcina-y-frutos-rojos.webp"
+      "imagePath": "/images/recipes/vasitos-de-proteina-con-gelatina-porcina-y-frutos-rojos.webp",
+      "stepNotes": [
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        null,
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     },
     {
       "category": "premium",
@@ -591,7 +632,16 @@
         "bavarois cardamomo"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial. Esta receta puede prepararse con gelatina neutra bovina RAIAN (260 Bloom) o porcina RAIAN (220 Bloom): son intercambiables. Si usas la versión bovina (260 Bloom), la cantidad indicada es la correcta. Si usas la porcina (220 Bloom), añade un 10-15% más de gelatina para conseguir la misma firmeza, ya que un Bloom más bajo tiene menos fuerza de gelificación.",
-      "imagePath": "/images/recipes/bavarois-de-cafe-y-cardamomo-con-base-de-bizcocho.webp"
+      "imagePath": "/images/recipes/bavarois-de-cafe-y-cardamomo-con-base-de-bizcocho.webp",
+      "stepNotes": [
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        "Calentar el líquido sin dejar que llegue a hervir evita que se corte, se queme el fondo o pierda matices de sabor.",
+        "Añadir el líquido caliente poco a poco sin dejar de batir atempera el resto de los ingredientes de forma gradual, en vez de cuajarlos de golpe y dejar grumos.",
+        "Hidratar la gelatina en agua fría antes de usarla activa las proteínas de forma gradual y evita que se formen grumos al disolverla después en caliente.",
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     }
   ]
 }

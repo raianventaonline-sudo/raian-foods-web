@@ -125,7 +125,14 @@
         "desayuno saludable"
       ],
       "notes": "La inulina puede espesar ligeramente el yogur tras reposar en la nevera. Es el efecto normal de la fibra de cadena larga.",
-      "imagePath": "/images/recipes/yogur-casero-enriquecido-con-inulina-de-agave-y-frutas-del-bosque.webp"
+      "imagePath": "/images/recipes/yogur-casero-enriquecido-con-inulina-de-agave-y-frutas-del-bosque.webp",
+      "stepNotes": [
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     },
     {
       "category": "casera",
@@ -213,7 +220,14 @@
         "sin gluten"
       ],
       "notes": "El jengibre puede resultar intenso. Empieza con 3 g y aumenta al gusto. La manzana Granny Smith da un sabor más fresco y menos dulce.",
-      "imagePath": "/images/recipes/batido-verde-con-inulina-de-agave-espinacas-y-manzana.webp"
+      "imagePath": "/images/recipes/batido-verde-con-inulina-de-agave-espinacas-y-manzana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -302,7 +316,14 @@
         "desayuno deportista"
       ],
       "notes": "Para versión sin gluten, usa copos de avena certificados sin gluten. La inulina añade un toque de dulzor que puede reducir la necesidad de azúcar.",
-      "imagePath": "/images/recipes/porridge-de-avena-con-inulina-de-agave-y-platano-caramelizado.webp"
+      "imagePath": "/images/recipes/porridge-de-avena-con-inulina-de-agave-y-platano-caramelizado.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        "Cocinar a fuego medio y por tandas, sin amontonar, es lo que permite que se doren bien por fuera sin quedar crudas por dentro.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -391,7 +412,15 @@
         "vegano"
       ],
       "notes": "Añadir la inulina fuera del fuego preserva mejor sus propiedades prebióticas. La mezcla espesará un poco más al enfriar.",
-      "imagePath": "/images/recipes/compota-de-manzana-y-pera-con-inulina-de-agave.webp"
+      "imagePath": "/images/recipes/compota-de-manzana-y-pera-con-inulina-de-agave.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        null,
+        null
+      ]
     }
   ]
 }

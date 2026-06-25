@@ -141,7 +141,16 @@
         "brownie sin gluten"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/brownie-humedo-de-cacao-alcalino-raian.webp"
+      "imagePath": "/images/recipes/brownie-humedo-de-cacao-alcalino-raian.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor."
+      ]
     },
     {
       "category": "premium",
@@ -236,7 +245,16 @@
         "postre premium de cacao"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/coulant-de-chocolate-con-cacao-alcalino.webp"
+      "imagePath": "/images/recipes/coulant-de-chocolate-con-cacao-alcalino.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -325,7 +343,16 @@
         "postre de cacao frío"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bizcocho-de-cacao-sin-horno.webp"
+      "imagePath": "/images/recipes/bizcocho-de-cacao-sin-horno.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     },
     {
       "category": "familiar",
@@ -413,7 +440,16 @@
         "galletas fitness de cacao"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/galletas-de-avena-y-cacao-alcalino.webp"
+      "imagePath": "/images/recipes/galletas-de-avena-y-cacao-alcalino.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción."
+      ]
     },
     {
       "category": "casera",
@@ -501,7 +537,15 @@
         "crema de chocolate sin aceite de palma"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/crema-de-cacao-casera-tipo-avellana.webp"
+      "imagePath": "/images/recipes/crema-de-cacao-casera-tipo-avellana.webp",
+      "stepNotes": [
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -579,7 +623,13 @@
         "batido de chocolate alcalino"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/smoothie-de-cacao-alcalino-y-frutos-rojos.webp"
+      "imagePath": "/images/recipes/smoothie-de-cacao-alcalino-y-frutos-rojos.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ]
 }

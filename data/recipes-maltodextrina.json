@@ -119,7 +119,13 @@
         "maltodextrina deportiva"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bebida-de-recuperacion-post-entreno-con-maltodextrina.webp"
+      "imagePath": "/images/recipes/bebida-de-recuperacion-post-entreno-con-maltodextrina.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -198,7 +204,14 @@
         "nutrición en carrera"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/gel-energetico-casero-de-citricos-con-maltodextrina.webp"
+      "imagePath": "/images/recipes/gel-energetico-casero-de-citricos-con-maltodextrina.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -278,7 +291,12 @@
         "batido de avena fitness"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/batido-pre-entreno-de-avena-y-maltodextrina.webp"
+      "imagePath": "/images/recipes/batido-pre-entreno-de-avena-y-maltodextrina.webp",
+      "stepNotes": [
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -366,7 +384,15 @@
         "snack de maltodextrina"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/barritas-energeticas-de-avena-miel-y-maltodextrina.webp"
+      "imagePath": "/images/recipes/barritas-energeticas-de-avena-miel-y-maltodextrina.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     },
     {
       "category": "fitness",
@@ -445,7 +471,14 @@
         "hidratación largo entrenamiento"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bebida-isotonica-con-sales-minerales-y-maltodextrina.webp"
+      "imagePath": "/images/recipes/bebida-isotonica-con-sales-minerales-y-maltodextrina.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null
+      ]
     }
   ]
 }

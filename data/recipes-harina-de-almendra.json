@@ -134,7 +134,15 @@
         "harina de almendra receta"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/tortitas-de-harina-de-almendra-con-platano-y-arandanos.webp"
+      "imagePath": "/images/recipes/tortitas-de-harina-de-almendra-con-platano-y-arandanos.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -223,7 +231,15 @@
         "galletas proteicas"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/galletas-de-harina-de-almendra-y-mantequilla-de-cacahuete.webp"
+      "imagePath": "/images/recipes/galletas-de-harina-de-almendra-y-mantequilla-de-cacahuete.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor."
+      ]
     },
     {
       "category": "casera",
@@ -321,7 +337,15 @@
         "bizcocho de limón con almendra"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bizcocho-de-harina-de-almendra-limon-y-aceite-de-oliva.webp"
+      "imagePath": "/images/recipes/bizcocho-de-harina-de-almendra-limon-y-aceite-de-oliva.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor."
+      ]
     },
     {
       "category": "casera",
@@ -402,7 +426,14 @@
         "base de cheesecake sin gluten"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/base-de-tarta-crujiente-de-harina-de-almendra-y-datiles.webp"
+      "imagePath": "/images/recipes/base-de-tarta-crujiente-de-harina-de-almendra-y-datiles.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -492,7 +523,16 @@
         "bizcocho de almendra premium"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/financiers-de-harina-de-almendra-mantequilla-y-frambuesa.webp"
+      "imagePath": "/images/recipes/financiers-de-harina-de-almendra-mantequilla-y-frambuesa.webp",
+      "stepNotes": [
+        "Filtrar o colar el líquido elimina los restos sólidos que queden, lo que da una textura mucho más fina al resultado final.",
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción."
+      ]
     },
     {
       "category": "familiar",
@@ -585,7 +625,15 @@
         "pollo al horno crujiente"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/rebozado-crujiente-de-harina-de-almendra-para-pollo-al-horno.webp"
+      "imagePath": "/images/recipes/rebozado-crujiente-de-harina-de-almendra-para-pollo-al-horno.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción."
+      ]
     }
   ]
 }

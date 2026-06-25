@@ -78,7 +78,14 @@
         "postre fácil"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -151,7 +158,14 @@
         "postre gourmet"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/fresas-con-chocolate-blanco-y-polvo-de-frambuesa.webp"
+      "imagePath": "/images/recipes/fresas-con-chocolate-blanco-y-polvo-de-frambuesa.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -218,7 +232,14 @@
         "platano congelado"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/platano-congelado-con-chocolate-negro.webp"
+      "imagePath": "/images/recipes/platano-congelado-con-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa."
+      ]
     },
     {
       "category": "snack",
@@ -292,7 +313,14 @@
         "bocaditos"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/rodajas-de-platano-con-chocolate-blanco-y-cacahuete.webp"
+      "imagePath": "/images/recipes/rodajas-de-platano-con-chocolate-blanco-y-cacahuete.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -359,7 +387,14 @@
         "bocado fresco"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/uvas-congeladas-banadas-en-chocolate-negro.webp"
+      "imagePath": "/images/recipes/uvas-congeladas-banadas-en-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa."
+      ]
     },
     {
       "category": "premium",
@@ -431,7 +466,14 @@
         "dulce salado"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/mandarina-con-chocolate-negro-y-sal-en-escamas.webp"
+      "imagePath": "/images/recipes/mandarina-con-chocolate-negro-y-sal-en-escamas.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -508,7 +550,14 @@
         "bombon citrico"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/naranja-confitada-con-chocolate-negro.webp"
+      "imagePath": "/images/recipes/naranja-confitada-con-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -576,7 +625,14 @@
         "kiwi congelado"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/kiwi-congelado-con-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/kiwi-congelado-con-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -648,7 +704,14 @@
         "bocado tropical"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/mango-con-chocolate-negro-y-coco.webp"
+      "imagePath": "/images/recipes/mango-con-chocolate-negro-y-coco.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -721,7 +784,14 @@
         "chocolate"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/frambuesas-rellenas-de-chocolate-blanco-y-cubiertas-de-negro.webp"
+      "imagePath": "/images/recipes/frambuesas-rellenas-de-chocolate-blanco-y-cubiertas-de-negro.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -794,7 +864,14 @@
         "energia natural"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/datiles-rellenos-de-crema-de-almendra-y-chocolate-negro.webp"
+      "imagePath": "/images/recipes/datiles-rellenos-de-crema-de-almendra-y-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -867,7 +944,14 @@
         "postre casero"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/higos-secos-con-chocolate-negro-y-nuez.webp"
+      "imagePath": "/images/recipes/higos-secos-con-chocolate-negro-y-nuez.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -940,7 +1024,14 @@
         "snack dulce"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/manzana-en-gajos-con-chocolate-blanco-y-canela.webp"
+      "imagePath": "/images/recipes/manzana-en-gajos-con-chocolate-blanco-y-canela.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -1007,7 +1098,14 @@
         "crujiente"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/pera-deshidratada-con-chocolate-negro.webp"
+      "imagePath": "/images/recipes/pera-deshidratada-con-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -1079,7 +1177,14 @@
         "postre tropical"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/pina-congelada-con-chocolate-negro-y-chile-suave.webp"
+      "imagePath": "/images/recipes/pina-congelada-con-chocolate-negro-y-chile-suave.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa."
+      ]
     },
     {
       "category": "familiar",
@@ -1157,7 +1262,14 @@
         "doble baño chocolate"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano.webp"
+      "imagePath": "/images/recipes/bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano.webp",
+      "stepNotes": [
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa."
+      ]
     },
     {
       "category": "fitness",
@@ -1230,7 +1342,14 @@
         "helado chocolate negro"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/bombones-helados-de-yogur-griego-y-chocolate-negro.webp"
+      "imagePath": "/images/recipes/bombones-helados-de-yogur-griego-y-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -1308,7 +1427,14 @@
         "chocolate blanco"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/barritas-heladas-de-yogur-frutos-rojos-y-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/barritas-heladas-de-yogur-frutos-rojos-y-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -1386,7 +1512,14 @@
         "postre premium"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/mini-magnum-casero-de-vainilla-y-chocolate-negro.webp"
+      "imagePath": "/images/recipes/mini-magnum-casero-de-vainilla-y-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -1464,7 +1597,14 @@
         "postre tropical"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/mini-magnum-de-coco-y-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/mini-magnum-de-coco-y-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -1548,7 +1688,14 @@
         "tarta de queso"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/bocados-helados-de-cheesecake-con-chocolate-negro.webp"
+      "imagePath": "/images/recipes/bocados-helados-de-cheesecake-con-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -1623,7 +1770,14 @@
         "postre divertido"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/sandwich-helado-de-galleta-y-chocolate-negro.webp"
+      "imagePath": "/images/recipes/sandwich-helado-de-galleta-y-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -1695,7 +1849,14 @@
         "sin azucar añadido"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/helado-de-platano-fitness-con-cobertura-negra.webp"
+      "imagePath": "/images/recipes/helado-de-platano-fitness-con-cobertura-negra.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "snack",
@@ -1768,7 +1929,14 @@
         "cafe helado"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cubitos-de-cafe-con-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/cubitos-de-cafe-con-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -1846,7 +2014,14 @@
         "chocolate negro"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/bocaditos-helados-de-crema-de-cacahuete-y-chocolate-negro.webp"
+      "imagePath": "/images/recipes/bocaditos-helados-de-crema-de-cacahuete-y-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -1936,7 +2111,14 @@
         "chocolate negro"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cookies-banadas-en-chocolate-negro.webp"
+      "imagePath": "/images/recipes/cookies-banadas-en-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -2014,7 +2196,14 @@
         "galletas saludables"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cookies-de-avena-fitness-con-chocolate-negro.webp"
+      "imagePath": "/images/recipes/cookies-de-avena-fitness-con-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -2099,7 +2288,14 @@
         "chocolate blanco"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/galletas-sin-gluten-con-chocolate-blanco-y-harina-de-almendra.webp"
+      "imagePath": "/images/recipes/galletas-sin-gluten-con-chocolate-blanco-y-harina-de-almendra.webp",
+      "stepNotes": [
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -2171,7 +2367,14 @@
         "snack facil"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/barritas-de-arroz-inflado-con-chocolate-negro.webp"
+      "imagePath": "/images/recipes/barritas-de-arroz-inflado-con-chocolate-negro.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -2245,7 +2448,14 @@
         "crujiente"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/barritas-de-arroz-inflado-con-chocolate-blanco-y-pistacho.webp"
+      "imagePath": "/images/recipes/barritas-de-arroz-inflado-con-chocolate-blanco-y-pistacho.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -2317,7 +2527,14 @@
         "turron casero"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/turron-crujiente-de-chocolate-negro.webp"
+      "imagePath": "/images/recipes/turron-crujiente-de-chocolate-negro.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -2391,7 +2608,14 @@
         "turron premium"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/turron-de-chocolate-blanco-arandanos-y-pistacho.webp"
+      "imagePath": "/images/recipes/turron-de-chocolate-blanco-arandanos-y-pistacho.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        null
+      ]
     },
     {
       "category": "snack",
@@ -2459,7 +2683,14 @@
         "chocolate negro"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/pretzels-banados-en-chocolate-negro.webp"
+      "imagePath": "/images/recipes/pretzels-banados-en-chocolate-negro.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -2533,7 +2764,14 @@
         "snack familiar"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/pretzels-con-chocolate-blanco-y-caramelo.webp"
+      "imagePath": "/images/recipes/pretzels-con-chocolate-blanco-y-caramelo.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "snack",
@@ -2600,7 +2838,14 @@
         "chocolate negro"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/palomitas-gourmet-con-chocolate-negro.webp"
+      "imagePath": "/images/recipes/palomitas-gourmet-con-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -2673,7 +2918,14 @@
         "familiar"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/palomitas-con-chocolate-blanco-y-canela.webp"
+      "imagePath": "/images/recipes/palomitas-con-chocolate-blanco-y-canela.webp",
+      "stepNotes": [
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -2746,7 +2998,14 @@
         "antioxidante"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/almendras-banadas-en-chocolate-negro-y-cacao.webp"
+      "imagePath": "/images/recipes/almendras-banadas-en-chocolate-negro-y-cacao.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        null,
+        null
+      ]
     },
     {
       "category": "snack",
@@ -2820,7 +3079,14 @@
         "bombon crujiente"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/avellanas-con-chocolate-blanco-y-vainilla.webp"
+      "imagePath": "/images/recipes/avellanas-con-chocolate-blanco-y-vainilla.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -2893,7 +3159,14 @@
         "snack premium"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/nueces-pecanas-con-chocolate-negro-y-sal.webp"
+      "imagePath": "/images/recipes/nueces-pecanas-con-chocolate-negro-y-sal.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "snack",
@@ -2967,7 +3240,14 @@
         "citrico"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/anacardos-con-chocolate-blanco-y-lima.webp"
+      "imagePath": "/images/recipes/anacardos-con-chocolate-blanco-y-lima.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -3052,7 +3332,14 @@
         "chocolate negro"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/brownie-sin-gluten-con-cobertura-de-chocolate-negro.webp"
+      "imagePath": "/images/recipes/brownie-sin-gluten-con-cobertura-de-chocolate-negro.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -3137,7 +3424,14 @@
         "postre familiar"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/brownie-blondie-con-cobertura-de-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/brownie-blondie-con-cobertura-de-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -3227,7 +3521,14 @@
         "donuts caseros"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/mini-donuts-banados-en-chocolate-negro.webp"
+      "imagePath": "/images/recipes/mini-donuts-banados-en-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -3317,7 +3618,14 @@
         "afrutado"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/mini-donuts-con-chocolate-blanco-y-frambuesa.webp"
+      "imagePath": "/images/recipes/mini-donuts-con-chocolate-blanco-y-frambuesa.webp",
+      "stepNotes": [
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -3392,7 +3700,14 @@
         "bizcocho en palito"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cake-pops-de-chocolate-negro.webp"
+      "imagePath": "/images/recipes/cake-pops-de-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -3472,7 +3787,14 @@
         "postre colorido"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cake-pops-de-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/cake-pops-de-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -3562,7 +3884,14 @@
         "crema"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/magdalenas-rellenas-con-cobertura-de-chocolate-negro.webp"
+      "imagePath": "/images/recipes/magdalenas-rellenas-con-cobertura-de-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        null,
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -3652,7 +3981,14 @@
         "postre premium"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cupcakes-de-fresa-con-ganache-de-chocolate-negro.webp"
+      "imagePath": "/images/recipes/cupcakes-de-fresa-con-ganache-de-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -3736,7 +4072,14 @@
         "tarta de queso"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cheesecake-bites-con-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/cheesecake-bites-con-chocolate-blanco.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -3820,7 +4163,14 @@
         "afrutado"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/cheesecake-bites-con-chocolate-negro-y-frambuesa.webp"
+      "imagePath": "/images/recipes/cheesecake-bites-con-chocolate-negro-y-frambuesa.webp",
+      "stepNotes": [
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "premium",
@@ -3898,7 +4248,14 @@
         "regalo"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/trufas-de-chocolate-negro.webp"
+      "imagePath": "/images/recipes/trufas-de-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -3971,7 +4328,14 @@
         "postre casero"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/trufas-de-chocolate-blanco-y-coco.webp"
+      "imagePath": "/images/recipes/trufas-de-chocolate-blanco-y-coco.webp",
+      "stepNotes": [
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -4044,7 +4408,14 @@
         "proteico"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/bombones-de-chocolate-negro-rellenos-de-crema-de-cacahuete.webp"
+      "imagePath": "/images/recipes/bombones-de-chocolate-negro-rellenos-de-crema-de-cacahuete.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -4113,7 +4484,14 @@
         "postre premium"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/bombones-blancos-rellenos-de-limon.webp"
+      "imagePath": "/images/recipes/bombones-blancos-rellenos-de-limon.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -4203,7 +4581,14 @@
         "postre tradicional"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/alfajor-banado-en-chocolate-negro.webp"
+      "imagePath": "/images/recipes/alfajor-banado-en-chocolate-negro.webp",
+      "stepNotes": [
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -4298,7 +4683,14 @@
         "postre tradicional"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/alfajor-blanco-con-coco.webp"
+      "imagePath": "/images/recipes/alfajor-blanco-con-coco.webp",
+      "stepNotes": [
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        null,
+        "Dejar escurrir el exceso de chocolate antes de colocar la pieza evita que se forme una base gruesa al solidificar y que el resultado se vea menos limpio.",
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -4366,7 +4758,14 @@
         "facil"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/rocas-de-chocolate-negro-con-frutos-secos.webp"
+      "imagePath": "/images/recipes/rocas-de-chocolate-negro-con-frutos-secos.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -4440,7 +4839,14 @@
         "bombones"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/rocas-blancas-de-cereales-y-frutos-rojos.webp"
+      "imagePath": "/images/recipes/rocas-blancas-de-cereales-y-frutos-rojos.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -4520,7 +4926,14 @@
         "pasteleria"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/tartaletas-de-fruta-con-bano-de-chocolate-negro.webp"
+      "imagePath": "/images/recipes/tartaletas-de-fruta-con-bano-de-chocolate-negro.webp",
+      "stepNotes": [
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -4604,7 +5017,14 @@
         "individual"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos.",
-      "imagePath": "/images/recipes/vasitos-de-mousse-con-disco-de-chocolate-blanco.webp"
+      "imagePath": "/images/recipes/vasitos-de-mousse-con-disco-de-chocolate-blanco.webp",
+      "stepNotes": [
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        "Fundir el chocolate poco a poco, sin que llegue a hervir ni quemarse, evita que la grasa del cacao se separe; por eso se hace al baño maría o en tandas cortas de microondas.",
+        null
+      ]
     }
   ]
 }

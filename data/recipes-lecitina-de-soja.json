@@ -131,7 +131,15 @@
         "vegano"
       ],
       "notes": "La espuma es efímera: debe servirse en máximo 5 minutos. Cuanto más frío esté el líquido, más estable será la espuma. El ángulo de la batidora es clave: debe estar a 45° para incorporar aire.",
-      "imagePath": "/images/recipes/espuma-de-tomate-con-lecitina-de-soja-para-entrante.webp"
+      "imagePath": "/images/recipes/espuma-de-tomate-con-lecitina-de-soja-para-entrante.webp",
+      "stepNotes": [
+        "Filtrar o colar el líquido elimina los restos sólidos que queden, lo que da una textura mucho más fina al resultado final.",
+        "Calentar el líquido sin dejar que llegue a hervir evita que se corte, se queme el fondo o pierda matices de sabor.",
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        "Dejar reposar unos minutos antes de seguir permite que el ingrediente se hidrate o se integre por completo, lo que mejora su efecto en el siguiente paso.",
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -221,7 +229,15 @@
         "sin lactosa"
       ],
       "notes": "Si la vinagreta se corta, bate de nuevo con la batidora añadiendo unas gotas de vinagre frío. La lecitina permite emulsiones estables incluso con poco aceite.",
-      "imagePath": "/images/recipes/vinagreta-emulsionada-con-lecitina-de-soja-y-mostaza.webp"
+      "imagePath": "/images/recipes/vinagreta-emulsionada-con-lecitina-de-soja-y-mostaza.webp",
+      "stepNotes": [
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -311,7 +327,13 @@
         "proteínas"
       ],
       "notes": "Sin la lecitina, la crema de cacahuete tiende a separarse y quedar en capas. Con lecitina de soja RAIAN la mezcla queda estable hasta 30 minutos.",
-      "imagePath": "/images/recipes/batido-de-cacao-y-cacahuete-con-lecitina-de-soja.webp"
+      "imagePath": "/images/recipes/batido-de-cacao-y-cacahuete-con-lecitina-de-soja.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -408,7 +430,16 @@
         "artesanal"
       ],
       "notes": "La lecitina mejora la extensibilidad de la masa y retarda el envejecimiento del pan. El pan hecho con lecitina se mantiene fresco 1-2 días más que sin ella.",
-      "imagePath": "/images/recipes/pan-esponjoso-enriquecido-con-lecitina-de-soja.webp"
+      "imagePath": "/images/recipes/pan-esponjoso-enriquecido-con-lecitina-de-soja.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción."
+      ]
     }
   ]
 }

@@ -121,7 +121,15 @@
         "caramelo anticristalización"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/caramelo-suave-y-cremoso-con-glucosa.webp"
+      "imagePath": "/images/recipes/caramelo-suave-y-cremoso-con-glucosa.webp",
+      "stepNotes": [
+        "Calentar el líquido sin dejar que llegue a hervir evita que se corte, se queme el fondo o pierda matices de sabor.",
+        "No remover el azúcar mientras se funde (o remover lo mínimo) evita que cristalice; por eso se deja que tome color por sí solo, a fuego medio y con paciencia.",
+        null,
+        null,
+        null,
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor."
+      ]
     },
     {
       "category": "premium",
@@ -198,7 +206,15 @@
         "ganache para tarta"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/ganache-de-chocolate-negro-satinada-con-glucosa.webp"
+      "imagePath": "/images/recipes/ganache-de-chocolate-negro-satinada-con-glucosa.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -286,7 +302,15 @@
         "helado cremoso sin heladera"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/helado-cremoso-de-vainilla-con-glucosa-sin-heladera.webp"
+      "imagePath": "/images/recipes/helado-cremoso-de-vainilla-con-glucosa-sin-heladera.webp",
+      "stepNotes": [
+        null,
+        "No remover el azúcar mientras se funde (o remover lo mínimo) evita que cristalice; por eso se deja que tome color por sí solo, a fuego medio y con paciencia.",
+        "Añadir el líquido caliente poco a poco sin dejar de batir atempera el resto de los ingredientes de forma gradual, en vez de cuajarlos de golpe y dejar grumos.",
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa."
+      ]
     },
     {
       "category": "casera",
@@ -374,7 +398,16 @@
         "turrón artesanal"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/turron-blando-de-almendra-con-glucosa.webp"
+      "imagePath": "/images/recipes/turron-blando-de-almendra-con-glucosa.webp",
+      "stepNotes": [
+        null,
+        "No remover el azúcar mientras se funde (o remover lo mínimo) evita que cristalice; por eso se deja que tome color por sí solo, a fuego medio y con paciencia.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -467,7 +500,15 @@
         "lemon curd para tarta"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/lemon-curd-sedoso-con-glucosa.webp"
+      "imagePath": "/images/recipes/lemon-curd-sedoso-con-glucosa.webp",
+      "stepNotes": [
+        "No remover el azúcar mientras se funde (o remover lo mínimo) evita que cristalice; por eso se deja que tome color por sí solo, a fuego medio y con paciencia.",
+        null,
+        null,
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro."
+      ]
     }
   ]
 }

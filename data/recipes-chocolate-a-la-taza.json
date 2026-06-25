@@ -106,7 +106,13 @@
         "chocolate espeso casero"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/chocolate-caliente-clasico-a-la-taza.webp"
+      "imagePath": "/images/recipes/chocolate-caliente-clasico-a-la-taza.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "familiar",
@@ -182,7 +188,14 @@
         "batido de verano con chocolate"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/batido-frio-de-chocolate-a-la-taza-con-hielo.webp"
+      "imagePath": "/images/recipes/batido-frio-de-chocolate-a-la-taza-con-hielo.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -263,7 +276,14 @@
         "postre de chocolate premium"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/mousse-de-chocolate-a-la-taza-sin-huevo.webp"
+      "imagePath": "/images/recipes/mousse-de-chocolate-a-la-taza-sin-huevo.webp",
+      "stepNotes": [
+        "Dejar enfriar a temperatura ambiente antes de cortar o desmoldar evita que la pieza se rompa o se deforme mientras todavía está blanda por el calor.",
+        null,
+        null,
+        "El frío de la nevera es lo que asienta la textura final, ya sea por la gelatina, el chocolate o las grasas. Si se sirve antes de tiempo, queda blando o líquido por dentro.",
+        null
+      ]
     },
     {
       "category": "casera",
@@ -345,7 +365,14 @@
         "desayuno caliente de cacao"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/porridge-de-avena-con-chocolate-a-la-taza.webp"
+      "imagePath": "/images/recipes/porridge-de-avena-con-chocolate-a-la-taza.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "premium",
@@ -437,7 +464,14 @@
         "chocolate a la taza fondue"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/fondue-de-chocolate-a-la-taza-con-frutas-y-galletas.webp"
+      "imagePath": "/images/recipes/fondue-de-chocolate-a-la-taza-con-frutas-y-galletas.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -518,7 +552,14 @@
         "batido fitness de chocolate"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/smoothie-de-cacao-y-platano-con-proteina.webp"
+      "imagePath": "/images/recipes/smoothie-de-cacao-y-platano-con-proteina.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ]
 }

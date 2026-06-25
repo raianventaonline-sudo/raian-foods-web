@@ -114,7 +114,14 @@
         "hidratación entrenamiento"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bebida-isotonica-casera-de-limon-y-sal-con-dextrosa.webp"
+      "imagePath": "/images/recipes/bebida-isotonica-casera-de-limon-y-sal-con-dextrosa.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -193,7 +200,14 @@
         "nutrición deportiva casera"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/gel-energetico-casero-de-platano-y-dextrosa.webp"
+      "imagePath": "/images/recipes/gel-energetico-casero-de-platano-y-dextrosa.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "casera",
@@ -275,7 +289,15 @@
         "helado sin heladera"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/helado-artesanal-de-fresa-con-dextrosa.webp"
+      "imagePath": "/images/recipes/helado-artesanal-de-fresa-con-dextrosa.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa.",
+        "El paso por el congelador (o por la heladora) es el que da la textura cremosa final; si se satura de cristales de hielo grandes por ir muy despacio, queda con una textura más granulosa."
+      ]
     },
     {
       "category": "casera",
@@ -350,7 +372,15 @@
         "mermelada sin azúcar blanca"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/mermelada-de-albaricoque-casera-con-dextrosa.webp"
+      "imagePath": "/images/recipes/mermelada-de-albaricoque-casera-con-dextrosa.webp",
+      "stepNotes": [
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "category": "fitness",
@@ -444,7 +474,16 @@
         "snack preentrenamiento"
       ],
       "notes": "Tabla nutricional estimada con ingredientes genéricos. Validar con fichas técnicas reales si se usa como dato legal o comercial.",
-      "imagePath": "/images/recipes/bizcocho-de-deportista-de-avena-y-dextrosa.webp"
+      "imagePath": "/images/recipes/bizcocho-de-deportista-de-avena-y-dextrosa.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver bien el polvo desde el principio, sin prisa, evita que queden grumos sin deshacer: si se quedan grumos, no se aprovecha bien el ingrediente y se nota una textura arenosa.",
+        null,
+        null,
+        "Meter la masa en el horno ya caliente desde el principio es lo que asegura una subida uniforme desde el primer minuto de cocción.",
+        null
+      ]
     }
   ]
 }
