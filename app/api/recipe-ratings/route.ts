@@ -10,7 +10,7 @@ import {
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-export function GET(request: Request) {
+export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const slug = searchParams.get("slug");
 
@@ -19,10 +19,10 @@ export function GET(request: Request) {
       return NextResponse.json({ error: "Receta no encontrada" }, { status: 404 });
     }
 
-    return NextResponse.json(getRecipeRatingSummary(slug));
+    return NextResponse.json(await getRecipeRatingSummary(slug));
   }
 
-  return NextResponse.json(getRecipeRatingSummaries());
+  return NextResponse.json(await getRecipeRatingSummaries());
 }
 
 export async function POST(request: Request) {
@@ -39,7 +39,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Valoracion no valida" }, { status: 400 });
   }
 
-  const summary = saveRecipeRating({
+  const summary = await saveRecipeRating({
     slug,
     rating,
     previousRating: isRatingValue(previousRating) ? previousRating : undefined

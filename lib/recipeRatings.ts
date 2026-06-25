@@ -1,5 +1,4 @@
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import path from "node:path";
+import { head, put } from "@vercel/blob";
 
 export type RatingValue = 1 | 2 | 3 | 4 | 5;
 
@@ -16,7 +15,7 @@ type RatingEntry = {
 
 type RatingsFile = Record<string, RatingEntry>;
 
-const ratingsFilePath = path.join(process.cwd(), "data", "recipe-ratings.json");
+const ratingsBlobPathname = "recipe-ratings.json";
 const emptyCounts: RatingEntry["counts"] = [0, 0, 0, 0, 0];
 
 export const isRatingValue = (value: unknown): value is RatingValue => {
@@ -25,20 +24,28 @@ export const isRatingValue = (value: unknown): value is RatingValue => {
   return Number.isInteger(numericValue) && numericValue >= 1 && numericValue <= 5;
 };
 
-const readRatingsFile = (): RatingsFile => {
-  if (!existsSync(ratingsFilePath)) {
-    return {};
-  }
-
+const readRatingsBlob = async (): Promise<RatingsFile> => {
   try {
-    return JSON.parse(readFileSync(ratingsFilePath, "utf8")) as RatingsFile;
+    const blob = await head(ratingsBlobPathname);
+    const response = await fetch(blob.url, { cache: "no-store" });
+
+    if (!response.ok) {
+      return {};
+    }
+
+    return (await response.json()) as RatingsFile;
   } catch {
     return {};
   }
 };
 
-const writeRatingsFile = (ratings: RatingsFile) => {
-  writeFileSync(ratingsFilePath, `${JSON.stringify(ratings, null, 2)}\n`, "utf8");
+const writeRatingsBlob = async (ratings: RatingsFile) => {
+  await put(ratingsBlobPathname, JSON.stringify(ratings, null, 2), {
+    access: "public",
+    contentType: "application/json",
+    addRandomSuffix: false,
+    allowOverwrite: true
+  });
 };
 
 const normalizeEntry = (entry?: RatingEntry): RatingEntry => ({
@@ -64,15 +71,15 @@ const toSummary = (slug: string, entry?: RatingEntry): RecipeRatingSummary => {
   };
 };
 
-export const getRecipeRatingSummary = (slug: string) => toSummary(slug, readRatingsFile()[slug]);
+export const getRecipeRatingSummary = async (slug: string) => toSummary(slug, (await readRatingsBlob())[slug]);
 
-export const getRecipeRatingSummaries = () => {
-  const ratings = readRatingsFile();
+export const getRecipeRatingSummaries = async () => {
+  const ratings = await readRatingsBlob();
 
   return Object.fromEntries(Object.entries(ratings).map(([slug, entry]) => [slug, toSummary(slug, entry)]));
 };
 
-export const saveRecipeRating = ({
+export const saveRecipeRating = async ({
   slug,
   rating,
   previousRating
@@ -81,7 +88,7 @@ export const saveRecipeRating = ({
   rating: RatingValue;
   previousRating?: RatingValue;
 }) => {
-  const ratings = readRatingsFile();
+  const ratings = await readRatingsBlob();
   const entry = normalizeEntry(ratings[slug]);
 
   if (previousRating) {
@@ -91,7 +98,7 @@ export const saveRecipeRating = ({
 
   entry.counts[rating - 1] += 1;
   ratings[slug] = entry;
-  writeRatingsFile(ratings);
+  await writeRatingsBlob(ratings);
 
   return toSummary(slug, entry);
 };

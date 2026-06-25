@@ -53,7 +53,7 @@ const getSearchParamValues = (value?: string | string[]) => {
     .filter(Boolean);
 };
 
-export default function RecipesPage({ searchParams }: RecipesPageProps) {
+export default async function RecipesPage({ searchParams }: RecipesPageProps) {
   const selectedCategory = isRecipeCategory(searchParams?.tipo)
     ? searchParams?.tipo
     : isRecipeCategory(searchParams?.categoria)
@@ -73,7 +73,7 @@ export default function RecipesPage({ searchParams }: RecipesPageProps) {
     (currentPage - 1) * RECIPES_PER_PAGE,
     currentPage * RECIPES_PER_PAGE
   );
-  const ratingSummaries = getRecipeRatingSummaries();
+  const ratingSummaries = await getRecipeRatingSummaries();
   const selectedCategoryLabel = selectedCategory ? getRecipeCategoryLabel(selectedCategory) : "Todos los tipos";
   const selectedDietLabel = selectedDiet ? getRecipeDietLabel(selectedDiet) : undefined;
   const selectedProductLabels = selectedProductSlugs.map(getRecipeProductLabel);
