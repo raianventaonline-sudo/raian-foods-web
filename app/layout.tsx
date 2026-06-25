@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { headers } from "next/headers";
 import { Fraunces, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "@/app/globals.css";
 import { AutoTranslator } from "@/components/AutoTranslator";
 import { CookieBanner } from "@/components/CookieBanner";
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <CookieBanner />
         <WhatsAppButton />
         <AutoTranslator />
+        <Analytics />
       </body>
     </html>
   );
