@@ -133,7 +133,8 @@
         "pan blanco con levadura",
         "receta pan molde"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-molde-casero-blanco.webp"
     },
     {
       "category": "familiar",
@@ -231,7 +232,8 @@
         "panecillos para burger",
         "pan brioche hamburguesa"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-hamburguesa-esponjoso.webp"
     },
     {
       "category": "familiar",
@@ -318,7 +320,8 @@
         "hot dog bread casero",
         "panecillos alargados"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-perrito-caliente-casero.webp"
     },
     {
       "category": "familiar",
@@ -414,7 +417,8 @@
         "pizza jamon y queso",
         "masa de pizza facil"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pizza-casera-clasica-de-jamon-y-queso.webp"
     },
     {
       "category": "familiar",
@@ -511,7 +515,8 @@
         "pizza napolitana levadura",
         "masa de pizza fina"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pizza-margarita-napolitana.webp"
     },
     {
       "category": "familiar",
@@ -602,7 +607,8 @@
         "pan focaccia levadura",
         "focaccia romero"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/focaccia-de-romero-y-aceite-de-oliva.webp"
     },
     {
       "category": "familiar",
@@ -698,7 +704,8 @@
         "garlic bread receta",
         "pan con levadura ajo"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-ajo-y-perejil.webp"
     },
     {
       "category": "familiar",
@@ -796,7 +803,8 @@
         "panecillos dulces levadura",
         "bollos rellenos caseros"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bollos-de-leche-rellenos-de-chocolate.webp"
     },
     {
       "category": "familiar",
@@ -871,7 +879,8 @@
         "hogaza con levadura",
         "pan de pueblo receta"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-pueblo-rustico.webp"
     },
     {
       "category": "familiar",
@@ -951,7 +960,8 @@
         "ciabatta con levadura",
         "pan italiano receta"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/chapata-casera-con-aceite-de-oliva.webp"
     },
     {
       "category": "familiar",
@@ -1047,7 +1057,8 @@
         "receta pretzels",
         "pan aleman levadura"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pretzels-alemanes-caseros.webp"
     },
     {
       "category": "familiar",
@@ -1139,7 +1150,8 @@
         "panecillos dulces desayuno",
         "pan suave con levadura"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-leche-para-desayuno.webp"
     },
     {
       "category": "familiar",
@@ -1224,7 +1236,8 @@
         "receta bagel levadura",
         "pan bagel desayuno"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bagels-caseros-para-el-desayuno.webp"
     },
     {
       "category": "familiar",
@@ -1321,7 +1334,8 @@
         "pan con pasas levadura",
         "trenza dulce casera"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/trenza-de-pan-dulce-con-pasas.webp"
     },
     {
       "category": "familiar",
@@ -1411,7 +1425,8 @@
         "masa con levadura rellena",
         "empanadillas caseras"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/empanadillas-al-horno-de-masa-con-levadura.webp"
     },
     {
       "category": "familiar",
@@ -1496,7 +1511,8 @@
         "pan integral con levadura",
         "pan rico en fibra"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-rustico-multisemillas.webp"
     },
     {
       "category": "premium",
@@ -1588,7 +1604,8 @@
         "pan brioche con levadura",
         "receta brioche casero"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/brioche-frances-clasico.webp"
     },
     {
       "category": "premium",
@@ -1686,7 +1703,8 @@
         "hojaldre con levadura",
         "receta croissant"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/croissants-caseros-con-levadura.webp"
     },
     {
       "category": "premium",
@@ -1784,7 +1802,8 @@
         "pan dulce relleno",
         "brioche levadura instantanea"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-brioche-relleno-de-chocolate.webp"
     },
     {
       "category": "premium",
@@ -1892,7 +1911,8 @@
         "receta roscon levadura",
         "pan dulce navideño"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/roscon-de-reyes-casero.webp"
     },
     {
       "category": "premium",
@@ -1990,7 +2010,8 @@
         "pan dulce italiano",
         "panettone con levadura"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/panettone-simplificado-de-frutas-confitadas.webp"
     },
     {
       "category": "premium",
@@ -2087,7 +2108,8 @@
         "pan navideño con mazapan",
         "stollen receta casera"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/stollen-aleman-de-frutas-y-mazapan.webp"
     },
     {
       "category": "premium",
@@ -2180,7 +2202,8 @@
         "brioche para sandwich",
         "pan gourmet con levadura"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-brioche-para-sandwich-gourmet.webp"
     },
     {
       "category": "premium",
@@ -2277,7 +2300,8 @@
         "focaccia con burrata",
         "pan italiano premium"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/focaccia-gourmet-de-tomates-cherry-y-burrata.webp"
     },
     {
       "category": "premium",
@@ -2362,7 +2386,8 @@
         "pan con masa madre y levadura",
         "ciabatta premium"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/ciabatta-artesanal-con-masa-madre-y-levadura.webp"
     },
     {
       "category": "premium",
@@ -2464,7 +2489,8 @@
         "pan indio receta",
         "naan de ajo"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/naan-de-ajo-y-mantequilla-al-estilo-indio.webp"
     },
     {
       "category": "premium",
@@ -2561,7 +2587,8 @@
         "pan dulce otoño",
         "receta pan especias"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-calabaza-y-especias-otonales.webp"
     },
     {
       "category": "fitness",
@@ -2647,7 +2674,8 @@
         "pan integral fitness",
         "pan alto en proteina"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-integral-proteico-con-claras-de-huevo.webp"
     },
     {
       "category": "fitness",
@@ -2737,7 +2765,8 @@
         "pan fitness con semillas",
         "pan rico en fibra fitness"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/panecillos-integrales-de-avena-y-semillas.webp"
     },
     {
       "category": "fitness",
@@ -2812,7 +2841,8 @@
         "pan bajo en grasa",
         "pan fitness sin grasas añadidas"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-espelta-integral-bajo-en-grasa.webp"
     },
     {
       "category": "fitness",
@@ -2907,7 +2937,8 @@
         "pizza con pollo y verduras",
         "pizza saludable con levadura"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pizza-integral-fit-de-pollo-y-verduras.webp"
     },
     {
       "category": "fitness",
@@ -2987,7 +3018,8 @@
         "wraps fit caseros",
         "pan para rellenos saludables"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-plano-integral-para-wraps-fit.webp"
     },
     {
       "category": "fitness",
@@ -3072,7 +3104,8 @@
         "desayuno fit con levadura",
         "pan bagel saludable"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bagels-integrales-con-semillas-para-el-desayuno-fit.webp"
     },
     {
       "category": "casera",
@@ -3147,7 +3180,8 @@
         "pan del dia con levadura instantanea",
         "receta pan sencillo"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-casero-de-cada-dia-con-levadura-instantanea.webp"
     },
     {
       "category": "casera",
@@ -3239,7 +3273,8 @@
         "pan dulce desayuno",
         "bollos con levadura instantanea"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/bollos-suizos-para-el-desayuno.webp"
     },
     {
       "category": "casera",
@@ -3314,7 +3349,8 @@
         "pan tradicional con levadura",
         "receta pan candeal"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-candeal-tradicional.webp"
     },
     {
       "category": "casera",
@@ -3394,7 +3430,8 @@
         "pan blando para desayuno",
         "receta mollete"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/mollete-andaluz-casero.webp"
     },
     {
       "category": "casera",
@@ -3474,7 +3511,8 @@
         "pita para rellenar",
         "receta pan arabe con levadura"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-pita-casero-para-rellenar.webp"
     },
     {
       "category": "casera",
@@ -3559,7 +3597,8 @@
         "palitos de pan italianos",
         "aperitivo con levadura"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/grissini-caseros-palitos-de-pan.webp"
     },
     {
       "category": "casera",
@@ -3652,7 +3691,8 @@
         "aperitivo con levadura",
         "panecillos de queso"
       ],
-      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial."
+      "notes": "Tabla nutricional estimada según composición estándar de panificación. Validar con análisis de laboratorio si se usa como dato legal o comercial.",
+      "imagePath": "/images/recipes/pan-de-queso-casero-para-aperitivo.webp"
     }
   ]
 }
