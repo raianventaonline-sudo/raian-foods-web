@@ -8,6 +8,7 @@ import { CookieBanner } from "@/components/CookieBanner";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
+import { QrGlobalBanners } from "@/components/QrGlobalBanners";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { siteConfig } from "@/data/site";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
@@ -89,6 +90,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className="font-sans">
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />
+        <QrGlobalBanners />
         <Header />
         <main id="contenido" tabIndex={-1} className="outline-none">
           {children}

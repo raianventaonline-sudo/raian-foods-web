@@ -3,42 +3,17 @@
 import { useEffect, useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-
-const VISITS_KEY = "raian:qr-visits";
-const CONFIRMED_KEY = "raian:review-confirmed";
-const DISMISSED_KEY = "raian:review-dismissed";
-const DISMISS_COOLDOWN_MS = 20 * 60 * 1000;
-
-const isSameCalendarDay = (a: number, b: number) => {
-  const da = new Date(a);
-  const db = new Date(b);
-  return da.getFullYear() === db.getFullYear() &&
-    da.getMonth() === db.getMonth() &&
-    da.getDate() === db.getDate();
-};
-
-type QrVisit = {
-  count: number;
-  firstVisit: number;
-  lastVisit: number;
-  productName: string;
-  reviewUrl?: string;
-};
-
-const readJson = <T,>(key: string, fallback: T): T => {
-  try {
-    const raw = localStorage.getItem(key);
-    return raw ? (JSON.parse(raw) as T) : fallback;
-  } catch {
-    return fallback;
-  }
-};
-
-const writeJson = (key: string, value: unknown) => {
-  try {
-    localStorage.setItem(key, JSON.stringify(value));
-  } catch {}
-};
+import {
+  CONFIRMED_KEY,
+  DISMISSED_KEY,
+  DISMISS_COOLDOWN_MS,
+  VISITS_KEY,
+  isSameCalendarDay,
+  readJson,
+  setActiveQrSession,
+  writeJson,
+  type QrVisit
+} from "@/lib/qrSession";
 
 function XIcon() {
   return (
@@ -106,6 +81,7 @@ function QrReviewPromptInner({ productSlug, productName, reviewUrl }: QrReviewPr
       reviewUrl
     };
     writeJson(VISITS_KEY, visits);
+    setActiveQrSession({ slug: productSlug, productName, reviewUrl });
 
     const dismissed = readJson<Record<string, number>>(DISMISSED_KEY, {});
     const dismissedAt = dismissed[productSlug] ?? 0;

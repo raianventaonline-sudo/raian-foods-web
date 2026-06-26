@@ -195,6 +195,10 @@ img {
   animation: raian-pulse-ring-green 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+body.has-qr-review-banner .raian-pulse-green {
+  bottom: 4.25rem;
+}
+
 .raian-float {
   animation: raian-float 3s ease-in-out infinite;
 }
