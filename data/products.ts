@@ -1590,7 +1590,55 @@ export const products: Product[] = [
         available: true,
         fit: "contain"
       },
-      ...galleryFor("Levadura seca instantánea").slice(0, 4)
+      {
+        src: "/images/products/levadura%20instantanea/levadura-instantanea-masas-caseras.webp",
+        alt: "Levadura instantánea RAIAN, perfecta para masas caseras: añádela directamente a la harina",
+        label: "Perfecta para masas caseras",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/levadura%20instantanea/levadura-instantanea-pizzas-caseras.webp",
+        alt: "Levadura instantánea RAIAN ideal para pizzas caseras, masa ligera y alveolada",
+        label: "Ideal para pizzas caseras",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/levadura%20instantanea/levadura-instantanea-pan-crujiente-esponjoso.webp",
+        alt: "Pan artesano crujiente y esponjoso hecho con levadura instantánea RAIAN",
+        label: "Pan crujiente y esponjoso",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/levadura%20instantanea/levadura-instantanea-uso-directo-pasos.webp",
+        alt: "Pasos de uso de la levadura instantánea RAIAN: añadir a la harina, amasar, fermentar y hornear",
+        label: "Uso directo, sin rehidratación",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/levadura%20instantanea/levadura-instantanea-calidad-cocina.webp",
+        alt: "Levadura instantánea RAIAN vegana, halal, kosher, sin gluten y envasada al vacío",
+        label: "Calidad para tu cocina",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/levadura%20instantanea/levadura-instantanea-un-ingrediente-posibilidades.webp",
+        alt: "Levadura instantánea RAIAN: un ingrediente para pan, pizza, focaccia y masas dulces",
+        label: "Un ingrediente, muchas posibilidades",
+        available: true,
+        fit: "cover"
+      },
+      {
+        src: "/images/products/levadura%20instantanea/levadura-instantanea-resultados-consistentes.webp",
+        alt: "Levadura instantánea RAIAN para resultados consistentes: uso directo y fermentación rápida",
+        label: "Resultados consistentes",
+        available: true,
+        fit: "cover"
+      }
     ],
     uses: [
       "Panes de todo tipo: blanco, integral, rústico.",
