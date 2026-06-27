@@ -1,5 +1,3 @@
-import { existsSync } from "node:fs";
-import path from "node:path";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -22,6 +20,9 @@ import {
 } from "@/data/recipes";
 import { siteConfig } from "@/data/site";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
+import stepImagesManifest from "@/lib/stepImagesManifest.json";
+
+const stepImagesSet = new Set(stepImagesManifest as string[]);
 
 type RecipePageProps = {
   params: {
@@ -183,7 +184,7 @@ export default function RecipePage({ params }: RecipePageProps) {
 
   const relatedProduct = getProductBySlug(recipe.relatedProductSlug);
   const stepImages = recipe.steps.map((_, index) =>
-    existsSync(path.join(process.cwd(), "public", "images", "recipes", "steps", `${recipe.slug}-paso-${index + 1}.webp`))
+    stepImagesSet.has(`${recipe.slug}-paso-${index + 1}.webp`)
   );
   const recipeUrl = absoluteUrl(`/recetas/${recipe.slug}`);
   const emailSubject = `Receta RAIAN: ${recipe.title}`;
