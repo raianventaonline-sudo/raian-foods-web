@@ -46,7 +46,8 @@ function QrVideoModalInner() {
   const [session, setSession] = useState<ActiveQrSession | null>(null);
   const [visible, setVisible] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(VIDEO_DURATION_FALLBACK);
-  const [muted, setMuted] = useState(true);
+  const [muted, setMuted] = useState(false);
+  const [blockedHint, setBlockedHint] = useState(false);
 
   useEffect(() => {
     if (!isQrRef) return;
@@ -67,7 +68,35 @@ function QrVideoModalInner() {
     return onQrSessionUpdated(tryShow);
   }, [isQrRef]);
 
+  useEffect(() => {
+    if (!visible) return;
+    const videoEl = videoRef.current;
+    if (!videoEl) return;
+
+    videoEl.muted = false;
+    const playResult = videoEl.play();
+    if (playResult && typeof playResult.catch === "function") {
+      playResult.catch(() => {
+        // Most browsers block unmuted autoplay without a prior user gesture.
+        // Fall back to muted playback and let the speaker button unmute on tap.
+        videoEl.muted = true;
+        setMuted(true);
+        setBlockedHint(true);
+        videoEl.play().catch(() => {});
+      });
+    }
+  }, [visible]);
+
   const close = () => setVisible(false);
+
+  const unmute = () => {
+    setMuted(false);
+    setBlockedHint(false);
+    if (videoRef.current) {
+      videoRef.current.muted = false;
+      videoRef.current.play().catch(() => {});
+    }
+  };
 
   if (!session) return null;
 
@@ -96,6 +125,7 @@ function QrVideoModalInner() {
               autoPlay
               muted={muted}
               playsInline
+              onClick={() => muted && unmute()}
               onLoadedMetadata={(e) => setSecondsLeft(Math.ceil(e.currentTarget.duration))}
               onTimeUpdate={(e) => {
                 const remaining = Math.max(0, Math.ceil(e.currentTarget.duration - e.currentTarget.currentTime));
@@ -107,7 +137,7 @@ function QrVideoModalInner() {
 
             <div className="absolute right-3 top-3 flex items-center gap-2">
               <button
-                onClick={() => setMuted((m) => !m)}
+                onClick={() => (muted ? unmute() : setMuted(true))}
                 aria-label={muted ? "Activar sonido" : "Silenciar"}
                 className="flex h-8 w-8 items-center justify-center rounded-full bg-black/50 text-white transition hover:bg-black/70"
               >
@@ -124,6 +154,15 @@ function QrVideoModalInner() {
                 <XIcon />
               </button>
             </div>
+
+            {blockedHint && (
+              <button
+                onClick={unmute}
+                className="absolute left-1/2 top-3 -translate-x-1/2 rounded-full bg-black/60 px-3 py-1 text-xs font-semibold text-white"
+              >
+                🔇 Toca para activar el sonido
+              </button>
+            )}
 
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent p-4 pt-10">
               <p className="text-sm font-medium leading-5 text-white">
