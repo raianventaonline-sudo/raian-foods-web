@@ -9,6 +9,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
 import { QrGlobalBanners } from "@/components/QrGlobalBanners";
+import { QrVideoModal } from "@/components/QrVideoModal";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { siteConfig } from "@/data/site";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
@@ -91,6 +92,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <JsonLd data={organizationJsonLd} />
         <JsonLd data={websiteJsonLd} />
         <QrGlobalBanners />
+        <QrVideoModal />
         <Header />
         <main id="contenido" tabIndex={-1} className="outline-none">
           {children}

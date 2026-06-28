@@ -7,6 +7,7 @@ import { siteConfig } from "@/data/site";
 import {
   TOP_BANNER_DISMISSED_KEY,
   getActiveQrSession,
+  onQrSessionUpdated,
   readJson,
   writeJson,
   type ActiveQrSession
@@ -43,11 +44,16 @@ function ContactTopBannerInner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const dismissed = readJson<number>(TOP_BANNER_DISMISSED_KEY, 0);
-    const hasActiveSession = getActiveQrSession() != null;
-    if ((isQrRef || hasActiveSession) && !dismissed) {
-      setVisible(true);
-    }
+    const tryShow = () => {
+      const dismissed = readJson<number>(TOP_BANNER_DISMISSED_KEY, 0);
+      const hasActiveSession = getActiveQrSession() != null;
+      if ((isQrRef || hasActiveSession) && !dismissed) {
+        setVisible(true);
+      }
+    };
+
+    tryShow();
+    return onQrSessionUpdated(tryShow);
   }, [isQrRef]);
 
   const dismiss = () => {
@@ -113,8 +119,13 @@ function ReviewBottomBannerInner() {
   const [session, setSession] = useState<ActiveQrSession | null>(null);
 
   useEffect(() => {
-    const active = getActiveQrSession();
-    if (active) setSession(active);
+    const tryShow = () => {
+      const active = getActiveQrSession();
+      if (active) setSession(active);
+    };
+
+    tryShow();
+    return onQrSessionUpdated(tryShow);
   }, [isQrRef]);
 
   useEffect(() => {

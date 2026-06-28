@@ -3,6 +3,7 @@ export const CONFIRMED_KEY = "raian:review-confirmed";
 export const DISMISSED_KEY = "raian:review-dismissed";
 export const ACTIVE_QR_KEY = "raian:active-qr";
 export const TOP_BANNER_DISMISSED_KEY = "raian:contact-banner-dismissed";
+export const VIDEO_SEEN_AT_KEY = "raian:qr-video-seen-at";
 
 export const DISMISS_COOLDOWN_MS = 20 * 60 * 1000;
 export const ACTIVE_QR_TTL_MS = 7 * 24 * 60 * 60 * 1000;
@@ -53,8 +54,22 @@ export const clearKey = (key: string) => {
   } catch {}
 };
 
+export const QR_SESSION_UPDATED_EVENT = "raian:qr-session-updated";
+
 export const setActiveQrSession = (session: Omit<ActiveQrSession, "startedAt">) => {
   writeJson(ACTIVE_QR_KEY, { ...session, startedAt: Date.now() } satisfies ActiveQrSession);
+  try {
+    window.dispatchEvent(new Event(QR_SESSION_UPDATED_EVENT));
+  } catch {}
+};
+
+export const onQrSessionUpdated = (handler: () => void) => {
+  try {
+    window.addEventListener(QR_SESSION_UPDATED_EVENT, handler);
+    return () => window.removeEventListener(QR_SESSION_UPDATED_EVENT, handler);
+  } catch {
+    return () => {};
+  }
 };
 
 export const getActiveQrSession = (): ActiveQrSession | null => {

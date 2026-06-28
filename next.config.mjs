@@ -2,9 +2,6 @@
 const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"]
-  },
-  outputFileTracingExcludes: {
-    "*": ["public/images/recipes/**/*"]
   }
 };
 
