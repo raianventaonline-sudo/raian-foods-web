@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { NutritionTable } from "@/components/NutritionTable";
 import { ProductHero } from "@/components/ProductHero";
+import { ProductProcessVideo } from "@/components/ProductProcessVideo";
 import { ProductTechnicalTable } from "@/components/ProductTechnicalTable";
 import { QrReviewPrompt } from "@/components/QrReviewPrompt";
 import { RecipeCard } from "@/components/RecipeCard";
@@ -256,6 +257,14 @@ export default function EnProductPage({ params }: ProductPageProps) {
           </div>
         </div>
       </section>
+
+      <ProductProcessVideo
+        eyebrow={t("Nuestro proceso")}
+        title={t("Así preparamos cada lote, paso a paso.")}
+        description={t(
+          "Un vistazo real a la preparación de producto en nuestras instalaciones, con el mismo cuidado que ponemos en cada ficha y cada envase."
+        )}
+      />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { NutritionTable } from "@/components/NutritionTable";
 import { ProductCertifications } from "@/components/ProductCertifications";
 import { ProductHero } from "@/components/ProductHero";
+import { ProductProcessVideo } from "@/components/ProductProcessVideo";
 import { ProductTechnicalTable } from "@/components/ProductTechnicalTable";
 import { ProductStepsList, ProductUsesList } from "@/components/ProductUsesSection";
 import { QrReviewPrompt } from "@/components/QrReviewPrompt";
@@ -340,6 +341,8 @@ export default function ProductPage({ params }: ProductPageProps) {
           </div>
         </div>
       </section>
+
+      <ProductProcessVideo />
     </>
   );
 }
