@@ -37,9 +37,9 @@ export default function ProductsPage() {
           { label: "Productos", href: "/productos" }
         ]}
       />
-      <section className="raian-mesh-cream py-14 md:py-20">
-        <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 lg:grid-cols-[1fr_0.92fr_1fr] lg:items-center md:px-8">
-          <div className="raian-media overflow-hidden rounded-2xl border border-line bg-white p-2 shadow-sm">
+      <section className="raian-mesh-cream py-6 md:py-8">
+        <div className="mx-auto grid w-full max-w-7xl gap-6 px-5 lg:grid-cols-[0.7fr_1fr_0.7fr] lg:items-center md:px-8">
+          <div className="raian-media hidden overflow-hidden rounded-2xl border border-line bg-white p-1.5 shadow-sm lg:block">
             <Image
               src="/images/brand/mapa-espana-ingredientes.webp"
               alt="Mapa de España compuesto con ingredientes alimentarios"
@@ -47,19 +47,19 @@ export default function ProductsPage() {
               height={1024}
               priority
               className="raian-media-image aspect-[16/9] w-full rounded-xl object-cover"
-              sizes="(min-width: 1024px) 31vw, 100vw"
+              sizes="(min-width: 1024px) 22vw, 100vw"
             />
           </div>
-          <div className="text-center lg:px-2">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-terracotta">Catálogo RAIAN</p>
-            <h1 className="raian-display-balance font-display text-4xl font-medium leading-[1.05] text-ink md:text-5xl">
+          <div className="text-center">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-terracotta">Catálogo RAIAN</p>
+            <h1 className="raian-display-balance font-display text-2xl font-medium leading-[1.1] text-ink md:text-3xl">
               Productos alimenticios seleccionados y presentados con claridad.
             </h1>
-            <p className="mx-auto mt-5 max-w-md text-base leading-7 text-muted md:text-lg">
+            <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-muted md:text-base">
               Referencias, usos habituales y datos disponibles organizados para facilitar la decisión de compra.
             </p>
           </div>
-          <div className="raian-media overflow-hidden rounded-2xl border border-line bg-white p-2 shadow-sm">
+          <div className="raian-media hidden overflow-hidden rounded-2xl border border-line bg-white p-1.5 shadow-sm lg:block">
             <Image
               src="/images/brand/catalogo-raian-foods-oficina.png"
               alt="Composición visual del catálogo RAIAN en un entorno corporativo"
@@ -67,7 +67,7 @@ export default function ProductsPage() {
               height={1254}
               priority
               className="raian-media-image aspect-[16/9] w-full rounded-xl object-cover"
-              sizes="(min-width: 1024px) 31vw, 100vw"
+              sizes="(min-width: 1024px) 22vw, 100vw"
             />
           </div>
         </div>
