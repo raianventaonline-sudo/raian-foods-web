@@ -4,7 +4,7 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import {
-  VIDEO_SEEN_AT_KEY,
+  CONFIRMED_KEY,
   getActiveQrSession,
   onQrSessionUpdated,
   readJson,
@@ -56,10 +56,6 @@ function QrVideoModalInner() {
       const active = getActiveQrSession();
       if (!active) return;
 
-      const seenAt = readJson<number>(VIDEO_SEEN_AT_KEY, 0);
-      if (seenAt === active.startedAt) return;
-
-      writeJson(VIDEO_SEEN_AT_KEY, active.startedAt);
       setSession(active);
       setVisible(true);
     };
@@ -88,6 +84,14 @@ function QrVideoModalInner() {
   }, [visible]);
 
   const close = () => setVisible(false);
+
+  const confirmReview = () => {
+    if (!session) return;
+    const confirmed = readJson<Record<string, boolean>>(CONFIRMED_KEY, {});
+    confirmed[session.slug] = true;
+    writeJson(CONFIRMED_KEY, confirmed);
+    setVisible(false);
+  };
 
   const unmute = () => {
     setMuted(false);
@@ -172,6 +176,7 @@ function QrVideoModalInner() {
                 href={reviewUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={confirmReview}
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-white px-5 py-2.5 text-sm font-bold text-ink shadow-md transition"
