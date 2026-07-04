@@ -327,6 +327,12 @@ try {
   extraSources.push(m);
 } catch { /* fichero aún no creado */ }
 
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const m = require("./recipes-azucar-perlado.json") as RecipesSource;
+  extraSources.push(m);
+} catch { /* fichero aún no creado */ }
+
 // ── Export principal ─────────────────────────────────────────────────────────
 export const recipeProduct = {
   name: bovineSource.product.name,

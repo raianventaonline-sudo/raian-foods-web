@@ -1835,6 +1835,100 @@ export const products: Product[] = [
         badge: "kosher"
       }
     ]
+  },
+  {
+    slug: "azucar-perlado",
+    name: "Azúcar perlado",
+    shortDescription: "Azúcar cristalizado en grano grueso que resiste el horno sin fundirse.",
+    description:
+      "Azúcar perlado de grano grueso seleccionado para decoración de bollería y repostería. Fabricado por Azúcares Ros (Valencia), resiste las temperaturas habituales de horno sin fundirse, lo que garantiza un acabado crujiente y visual en gofres belgas, bollos, brioches y cualquier pieza de bollería.",
+    category: "Azúcares y endulzantes",
+    tags: ["azúcar perlado", "decoración bollería", "gofres", "sin gluten", "vegano"],
+    uses: [
+      "Decoración exterior de bollería y panes dulces",
+      "Integración en masa de gofres belgas",
+      "Cobertura crujiente de bollos, brioches y magdalenas",
+      "Relleno entre capas en kouign-amann y pasteles hojaldrados",
+      "Acabado crujiente en chouquettes y napolitanas"
+    ],
+    dietFilters: ["Sin gluten", "Vegano"],
+    mainImage: {
+      src: "/images/products/azucar-perlado-main.svg",
+      alt: "Azúcar perlado RAIAN en un cuenco de cerámica",
+      label: "Imagen principal",
+      available: true,
+      fit: "contain"
+    },
+    gallery: galleryFor("Azúcar perlado RAIAN"),
+    nutrition: [
+      { label: "Valor energético", value: "1700 kJ / 400 kcal" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "99,8 g" },
+      { label: "De los cuales azúcares", value: "99,8 g" },
+      { label: "Proteínas", value: "0 g" },
+      { label: "Sal", value: "0 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria según el Reglamento (UE) n.° 1169/2011.",
+    howToUse: [
+      "Espolvorear sobre la superficie de la masa antes de hornear.",
+      "Para gofres belgas, incorporar directamente a la masa antes de la fermentación final.",
+      "En chouquettes y bollería, cubrir generosamente la superficie antes de meter al horno.",
+      "La cantidad habitual es de 5-10 g por pieza o 80 g por cada 500 g de masa para gofres."
+    ],
+    technicalSheet: technicalSheetFor("Azúcar perlado", "Azúcar cristalizado en grano grueso", "Sacarosa"),
+    conservation: "Conservar en lugar fresco y seco, alejado de la humedad y fuentes de calor.",
+    amazonUrl: "https://www.amazon.es/dp/B0H6XXB2GT",
+    amazonAsin: "B0H6XXB2GT",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H6XXB2GT",
+    relatedSlugs: ["levadura-instantanea", "harina-de-almendra"],
+    recipeSlugs: [
+      "gofres-belgas-clasicos-con-azucar-perlado",
+      "bollos-suizos-con-azucar-perlado",
+      "pan-de-leche-con-costra-de-azucar-perlado",
+      "brioche-trenzado-con-azucar-perlado",
+      "chouquettes-francesas-con-azucar-perlado",
+      "roscon-de-aniversario-con-azucar-perlado",
+      "kouign-amann-con-azucar-perlado",
+      "panecillos-vieneses-con-azucar-perlado",
+      "trenza-de-canela-y-azucar-perlado",
+      "croissants-rellenos-con-azucar-perlado",
+      "magdalenas-con-azucar-perlado-y-limon",
+      "pain-au-lait-con-azucar-perlado",
+      "stollen-navideno-con-azucar-perlado",
+      "mini-brioches-individuales-con-azucar-perlado",
+      "tarta-de-masa-hojaldrada-con-azucar-perlado",
+      "donuts-caseros-con-azucar-perlado",
+      "napolitanas-de-chocolate-con-azucar-perlado",
+      "kugelhopf-alsaciano-con-azucar-perlado",
+      "galletas-de-mantequilla-con-azucar-perlado"
+    ],
+    seoTitle: "Azúcar perlado 500 g | RAIAN Foods",
+    seoDescription:
+      "Azúcar perlado RAIAN: grano grueso que resiste el horno sin fundirse. Ideal para gofres belgas, bollos, brioches y bollería. Sin gluten. Apto para veganos.",
+    faqs: [
+      {
+        question: "¿Por qué el azúcar perlado no se funde en el horno?",
+        answer:
+          "El azúcar perlado tiene una granulometría especial y mayor masa que el azúcar convencional, lo que eleva su punto de fusión efectivo en hornos domésticos y de obrador (hasta ~200 °C), manteniéndose crujiente tras el horneado."
+      },
+      {
+        question: "¿Se puede usar el azúcar perlado dentro de la masa o solo encima?",
+        answer:
+          "Puede usarse de las dos formas. Integrado en la masa de gofres belgas queda caramelizado en la superficie de la gofrera; espolvoreado por encima de bollería antes de hornear, mantiene la forma y aporta textura crujiente."
+      },
+      {
+        question: "¿Es apto para celíacos?",
+        answer:
+          "El azúcar perlado RAIAN no contiene gluten en su composición. No obstante, si tienes celiaquía, comprueba siempre el etiquetado del lote concreto por posible contaminación cruzada en el proceso de envasado."
+      },
+      {
+        question: "¿Cuánto azúcar perlado se usa por pieza de bollería?",
+        answer:
+          "La cantidad habitual es de 5-10 g por pieza (bollo, magdalena) y de unos 80 g por 500 g de masa en gofres belgas al incorporarlo dentro. Para las chouquettes francesas se recomienda cubrir generosamente la superficie."
+      }
+    ],
+    certifications: []
   }
 ];
 

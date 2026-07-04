@@ -1,0 +1,1379 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "azucar-perlado",
+  "product": {
+    "name": "Azúcar perlado RAIAN",
+    "nutrition_per_100g": {
+      "energy_kj": 1700,
+      "energy_kcal": 400,
+      "fat_g": 0,
+      "saturates_g": 0,
+      "carbohydrate_g": 99.8,
+      "sugars_g": 99.8,
+      "protein_g": 0,
+      "fiber_g": 0,
+      "salt_g": 0
+    },
+    "technical_note": "Azúcar perlado (sacarosa cristalizada en grano grueso). Resiste las altas temperaturas sin fundirse, lo que lo hace ideal como decoración exterior en bollería, gofres y panes dulces. Fabricado por Azúcares Ros (Valencia, España).",
+    "dosage_note": "Espolvorear sobre la superficie de la masa antes o después del horneado. La cantidad habitual oscila entre 10 y 30 g por unidad de bollería."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": ["familiar", "casera", "premium"],
+    "nutrition_fields_required_eu": ["kcal", "fat", "sat_fat", "carbs", "sugars", "protein", "salt"],
+    "allergen_policy": "El azúcar perlado RAIAN no contiene alérgenos de declaración obligatoria. Los alérgenos indicados en cada receta corresponden al resto de ingredientes de la elaboración.",
+    "claim_policy": [
+      "Evitar claims de salud no permitidos por reglamento UE 1924/2006.",
+      "Describir usos técnicos de decoración y repostería de forma objetiva."
+    ]
+  },
+  "recipes": [
+    {
+      "slug": "gofres-belgas-clasicos-con-azucar-perlado",
+      "category": "familiar",
+      "title": "Gofres belgas clásicos con azúcar perlado",
+      "seo_title": "Gofres belgas clásicos con azúcar perlado RAIAN | Receta",
+      "meta_description": "Gofres belgas crujientes y esponjosos con azúcar perlado RAIAN integrado en la masa. Receta auténtica con levadura y mantequilla.",
+      "intro": "Los gofres belgas auténticos llevan azúcar perlado en la masa, no por encima. Al contacto con la plancha caliente, el azúcar se carameliza y crea bolsillos crujientes en cada cuadrícula.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 25,
+        "rest_min": 60,
+        "total_min": 105
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo", "g": 250, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 180, "key": "leche" },
+        { "name": "Mantequilla derretida", "g": 120, "key": "mantequilla" },
+        { "name": "Huevos", "g": 100, "key": "huevos" },
+        { "name": "Azúcar perlado RAIAN", "g": 80, "key": "azucar_perlado" },
+        { "name": "Levadura fresca", "g": 15, "key": "levadura" },
+        { "name": "Sal", "g": 4, "key": "sal" },
+        { "name": "Vainilla en pasta", "g": 5, "key": "vainilla" }
+      ],
+      "steps": [
+        "Disuelve la levadura fresca en la leche tibia y deja reposar 5 minutos hasta que espume.",
+        "En un bol grande mezcla la harina con la sal y la vainilla. Haz un hueco en el centro y añade la mezcla de leche y levadura, los huevos y la mantequilla derretida.",
+        "Amasa hasta obtener una masa lisa y homogénea. Tapa con film y deja fermentar 60 minutos a temperatura ambiente.",
+        "Incorpora el azúcar perlado RAIAN y amasa suavemente para distribuirlo sin aplastarlo.",
+        "Divide la masa en 8 porciones iguales y cocina en la gofrera precalentada durante 3-4 minutos hasta que estén dorados.",
+        "Sirve inmediatamente: el azúcar perlado queda ligeramente caramelizado y crujiente en cada mordisco."
+      ],
+      "stepNotes": [
+        "La levadura necesita temperatura entre 30-35 °C para activarse. Si la leche está demasiado caliente destruirá los microorganismos.",
+        null,
+        null,
+        "Integrar el azúcar al final evita que se disuelva durante la fermentación: así conserva su granulometría gruesa y el crujiente característico.",
+        "No abrir la gofrera antes de los 3 minutos: el vapor generado es necesario para que la masa se expanda y quede esponjosa por dentro.",
+        null
+      ],
+      "nutrition_per_serving": {
+        "kcal": 320,
+        "protein": 6,
+        "carbs": 42,
+        "sugars": 12,
+        "fat": 13,
+        "sat_fat": 8,
+        "fiber": 1,
+        "salt": 0.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 350,
+        "protein": 6.5,
+        "carbs": 46,
+        "sugars": 13,
+        "fat": 14,
+        "sat_fat": 8.5,
+        "fiber": 1.1,
+        "salt": 0.45
+      },
+      "estimated_serving_g": 90,
+      "keywords": ["gofres belgas", "gofres con azúcar perlado", "receta gofres caseros"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "bollos-suizos-con-azucar-perlado",
+      "category": "casera",
+      "title": "Bollos suizos con azúcar perlado",
+      "seo_title": "Bollos suizos con azúcar perlado RAIAN | Receta",
+      "meta_description": "Bollos suizos tiernos y esponjosos con cobertura de azúcar perlado RAIAN que no se funde en el horno. Perfectos para el desayuno.",
+      "intro": "El azúcar perlado RAIAN es el secreto de los bollos suizos perfectos: no se funde con el calor del horno y queda crujiente una vez horneado, a diferencia del azúcar normal que desaparece.",
+      "servings": 10,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 20,
+        "rest_min": 90,
+        "total_min": 135
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 400, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 160, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 80, "key": "mantequilla" },
+        { "name": "Huevo", "g": 55, "key": "huevo" },
+        { "name": "Azúcar blanco", "g": 60, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 7, "key": "levadura" },
+        { "name": "Sal", "g": 6, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 60, "key": "azucar_perlado" },
+        { "name": "Huevo batido para pintar", "g": 30, "key": "huevo_pintar" }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura, el azúcar y la sal. Añade la leche tibia, el huevo y la mantequilla. Amasa 10 minutos hasta obtener una masa elástica.",
+        "Tapa y deja fermentar 60 minutos a temperatura cálida hasta que doble su volumen.",
+        "Divide en 10 porciones, boléalas y colócalas en la bandeja con papel de horno separadas entre sí.",
+        "Deja fermentar 30 minutos más hasta que vuelvan a crecer visiblemente.",
+        "Pinta cada bollo con huevo batido y espolvorea generosamente el azúcar perlado RAIAN por encima.",
+        "Hornea a 180 °C con calor arriba y abajo 18-20 minutos hasta que estén dorados. Deja enfriar sobre rejilla."
+      ],
+      "stepNotes": [
+        "Una masa bien amasada desarrolla el gluten necesario para que los bollos queden esponjosos.",
+        null,
+        null,
+        null,
+        "El azúcar perlado RAIAN no se funde a las temperaturas habituales de horno (hasta ~200 °C), a diferencia del azúcar normal que desaparece.",
+        "No sobrepasar 20 minutos: los bollos siguen cocinándose por dentro con el calor residual."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 245,
+        "protein": 6.5,
+        "carbs": 40,
+        "sugars": 11,
+        "fat": 6,
+        "sat_fat": 3.5,
+        "fiber": 1.2,
+        "salt": 0.5
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 290,
+        "protein": 7.5,
+        "carbs": 47,
+        "sugars": 13,
+        "fat": 7,
+        "sat_fat": 4,
+        "fiber": 1.4,
+        "salt": 0.6
+      },
+      "estimated_serving_g": 85,
+      "keywords": ["bollos suizos", "bollos con azúcar perlado", "receta bollos caseros"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "pan-de-leche-con-costra-de-azucar-perlado",
+      "category": "familiar",
+      "title": "Pan de leche con costra de azúcar perlado",
+      "seo_title": "Pan de leche con costra de azúcar perlado RAIAN | Receta",
+      "meta_description": "Pan de leche tierno con cobertura crujiente de azúcar perlado RAIAN. Receta sencilla de bollería casera para desayunos y meriendas.",
+      "intro": "Un pan de leche tierno y ligeramente dulce con una costra exterior de azúcar perlado RAIAN que no necesita más decoración. Una receta de bollería familiar que gusta a todos.",
+      "servings": 12,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 25,
+        "rest_min": 90,
+        "total_min": 135
+      },
+      "allergens": ["Gluten", "Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 500, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 250, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 50, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 40, "key": "azucar" },
+        { "name": "Sal", "g": 8, "key": "sal" },
+        { "name": "Levadura seca instantánea", "g": 7, "key": "levadura" },
+        { "name": "Azúcar perlado RAIAN", "g": 50, "key": "azucar_perlado" },
+        { "name": "Leche para pintar", "g": 20, "key": "leche_pintar" }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura, el azúcar y la sal. Incorpora la leche tibia y la mantequilla. Amasa 8-10 minutos.",
+        "Deja fermentar tapado 60 minutos hasta que doble su volumen.",
+        "Divide en 12 porciones, forma bolitas y dispón en molde engrasado o bandeja con papel.",
+        "Segunda fermentación de 30 minutos tapado.",
+        "Pinta con leche y espolvorea el azúcar perlado RAIAN encima de cada pieza.",
+        "Hornea a 175 °C durante 22-25 minutos hasta que estén dorados y suenen a hueco al golpear la base."
+      ],
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        "Pintar con leche da un acabado más suave y menos brillante que el huevo, ideal para que el azúcar perlado RAIAN sea el protagonista visual.",
+        "El truco del golpe en la base es infalible: si suena a hueco, la miga interior está completamente cocida."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 195,
+        "protein": 5.5,
+        "carbs": 35,
+        "sugars": 7,
+        "fat": 3.5,
+        "sat_fat": 2,
+        "fiber": 1.2,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 265,
+        "protein": 7.5,
+        "carbs": 47,
+        "sugars": 9.5,
+        "fat": 4.7,
+        "sat_fat": 2.7,
+        "fiber": 1.6,
+        "salt": 0.75
+      },
+      "estimated_serving_g": 73,
+      "keywords": ["pan de leche", "pan de leche con azúcar perlado", "bollería casera"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "brioche-trenzado-con-azucar-perlado",
+      "category": "premium",
+      "title": "Brioche trenzado con azúcar perlado",
+      "seo_title": "Brioche trenzado con azúcar perlado RAIAN | Receta",
+      "meta_description": "Brioche trenzado esponjoso y dorado con azúcar perlado RAIAN en la superficie. Receta de bollería premium con fermentación lenta.",
+      "intro": "Un brioche de miga hojaldrada con fermentación lenta en nevera para un sabor más complejo. El azúcar perlado RAIAN sobre la trenza le da un aspecto de pastelería y una textura que contrasta con la miga suave.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 30,
+        "rest_min": 540,
+        "total_min": 600
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 350, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 100, "key": "leche" },
+        { "name": "Mantequilla fría en dados", "g": 120, "key": "mantequilla" },
+        { "name": "Huevos", "g": 110, "key": "huevos" },
+        { "name": "Azúcar", "g": 50, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 6, "key": "levadura" },
+        { "name": "Sal", "g": 6, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 40, "key": "azucar_perlado" },
+        { "name": "Huevo batido para pintar", "g": 30, "key": "huevo_pintar" }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura, azúcar y sal. Añade los huevos y la leche tibia; amasa 5 minutos.",
+        "Incorpora la mantequilla fría en trozos poco a poco, amasando entre 10 y 15 minutos hasta que la masa se despegue limpiamente del bol.",
+        "Tapa y deja fermentar en nevera 8 horas o toda la noche. La fermentación lenta desarrolla el sabor.",
+        "Saca la masa de la nevera, divide en 3 porciones iguales y estira cada una en un rulo largo.",
+        "Trenza los tres rulos y coloca en molde de plum cake engrasado. Segunda fermentación 90 minutos a temperatura ambiente.",
+        "Pinta con huevo batido y espolvorea el azúcar perlado RAIAN generosamente. Hornea a 175 °C durante 28-32 minutos."
+      ],
+      "stepNotes": [
+        null,
+        "Incorporar la mantequilla en frío y de forma progresiva es clave en el brioche: así la masa absorbe la grasa sin calentarse ni perder estructura.",
+        "La fermentación lenta en frío permite desarrollar aromas complejos y hace la masa más manejable para el formado.",
+        null,
+        null,
+        "El azúcar perlado RAIAN no se disuelve con el calor del horno: el brioche sale con los granos intactos, dando un contraste entre la miga blanda y el exterior crujiente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 310,
+        "protein": 7,
+        "carbs": 36,
+        "sugars": 10,
+        "fat": 14,
+        "sat_fat": 8.5,
+        "fiber": 1,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 360,
+        "protein": 8,
+        "carbs": 42,
+        "sugars": 12,
+        "fat": 16,
+        "sat_fat": 10,
+        "fiber": 1.2,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 87,
+      "keywords": ["brioche trenzado", "brioche con azúcar perlado", "receta brioche casero"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "chouquettes-francesas-con-azucar-perlado",
+      "category": "premium",
+      "title": "Chouquettes francesas con azúcar perlado",
+      "seo_title": "Chouquettes francesas con azúcar perlado RAIAN | Receta",
+      "meta_description": "Las auténticas chouquettes de las boulangeries parisinas: masa choux hueca con azúcar perlado RAIAN crujiente. Receta francesa original.",
+      "intro": "Las chouquettes son el bocado de media mañana de las boulangeries parisinas: ligeras, huecas y generosamente cubiertas de azúcar perlado RAIAN que cruje al morder.",
+      "servings": 30,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 25,
+        "rest_min": 0,
+        "total_min": 45
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Agua", "g": 125, "key": "agua" },
+        { "name": "Leche entera", "g": 125, "key": "leche" },
+        { "name": "Mantequilla", "g": 100, "key": "mantequilla" },
+        { "name": "Harina de trigo", "g": 150, "key": "harina" },
+        { "name": "Huevos", "g": 200, "key": "huevos" },
+        { "name": "Sal", "g": 4, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 100, "key": "azucar_perlado" }
+      ],
+      "steps": [
+        "Lleva a ebullición el agua, la leche, la mantequilla y la sal. Retira del fuego y añade la harina de golpe.",
+        "Remueve enérgicamente con espátula sobre el fuego hasta que la masa se despegue de las paredes y forme una bola lisa.",
+        "Pasa la masa a un bol y deja enfriar 5 minutos. Incorpora los huevos de uno en uno, batiendo bien entre cada adición hasta que la masa sea lisa y caiga en cinta.",
+        "Con manga pastelera y boquilla redonda, forma bolitas de unos 3 cm sobre bandeja con papel de horno.",
+        "Espolvorea abundantemente el azúcar perlado RAIAN sobre cada chouquette antes de hornear.",
+        "Hornea a 200 °C sin abrir el horno durante 20-25 minutos hasta que estén doradas y secas por fuera."
+      ],
+      "stepNotes": [
+        null,
+        null,
+        "Los huevos se añaden progresivamente para controlar la consistencia: la masa está lista cuando forma un pico que cae lentamente al levantar la espátula.",
+        null,
+        "La cantidad generosa de azúcar perlado es característica de las chouquettes auténticas: no escatimes, debe cubrir bien la superficie.",
+        "Nunca abrir el horno antes de que estén doradas: la diferencia de presión haría colapsar la estructura hueca."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 68,
+        "protein": 1.5,
+        "carbs": 6.5,
+        "sugars": 3.2,
+        "fat": 4,
+        "sat_fat": 2.3,
+        "fiber": 0.1,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 310,
+        "protein": 6.8,
+        "carbs": 29,
+        "sugars": 14,
+        "fat": 18,
+        "sat_fat": 10,
+        "fiber": 0.5,
+        "salt": 0.55
+      },
+      "estimated_serving_g": 22,
+      "keywords": ["chouquettes", "masa choux", "chouquettes con azúcar perlado", "repostería francesa"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "roscon-de-aniversario-con-azucar-perlado",
+      "category": "premium",
+      "title": "Roscón de aniversario con azúcar perlado",
+      "seo_title": "Roscón esponjoso con azúcar perlado RAIAN | Receta",
+      "meta_description": "Roscón esponjoso con agua de azahar y almendra laminada, decorado con azúcar perlado RAIAN. Perfecto para cualquier celebración.",
+      "intro": "Un roscón esponjoso y aromático con agua de azahar que funciona para cualquier celebración, no solo en Navidad. El azúcar perlado RAIAN y la almendra laminada dan la decoración sin necesitar glaseados ni coberturas.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 25,
+        "rest_min": 120,
+        "total_min": 175
+      },
+      "allergens": ["Gluten", "Leche", "Huevo", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 450, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 150, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 80, "key": "mantequilla" },
+        { "name": "Huevos", "g": 110, "key": "huevos" },
+        { "name": "Azúcar", "g": 80, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 7, "key": "levadura" },
+        { "name": "Agua de azahar", "g": 20, "key": "azahar" },
+        { "name": "Sal", "g": 6, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 50, "key": "azucar_perlado" },
+        { "name": "Almendra laminada", "g": 30, "key": "almendra" },
+        { "name": "Huevo batido para pintar", "g": 30, "key": "huevo_pintar" }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura, el azúcar y la sal. Añade los huevos, la leche tibia y el agua de azahar. Incorpora la mantequilla en pomada y amasa 12 minutos.",
+        "Tapa con film y deja fermentar 60 minutos o hasta que doble su volumen.",
+        "Desgasifica la masa, forma una bola y hazle un agujero en el centro. Estira progresivamente hasta obtener la forma de rosco.",
+        "Coloca en bandeja con papel de horno y deja fermentar 60 minutos más.",
+        "Pinta con huevo batido. Distribuye la almendra laminada y el azúcar perlado RAIAN sobre la superficie.",
+        "Hornea a 180 °C durante 22-25 minutos hasta que esté dorado. Deja enfriar sobre rejilla antes de cortar."
+      ],
+      "stepNotes": [
+        "El agua de azahar es el aroma característico del roscón; no la sustituyas por esencia de naranja o el resultado será muy diferente.",
+        null,
+        null,
+        null,
+        "Combinar almendra laminada y azúcar perlado RAIAN da dos texturas crujientes complementarias y un acabado muy atractivo.",
+        "Si el roscón se dora demasiado rápido, cúbrelo con papel de aluminio los últimos 5 minutos sin bajarlo del horno."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 290,
+        "protein": 7.5,
+        "carbs": 44,
+        "sugars": 12,
+        "fat": 9,
+        "sat_fat": 5,
+        "fiber": 1.5,
+        "salt": 0.5
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 320,
+        "protein": 8,
+        "carbs": 49,
+        "sugars": 13,
+        "fat": 10,
+        "sat_fat": 5.5,
+        "fiber": 1.7,
+        "salt": 0.55
+      },
+      "estimated_serving_g": 90,
+      "keywords": ["roscón", "roscón con azúcar perlado", "bollería festiva", "receta roscón"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "kouign-amann-con-azucar-perlado",
+      "category": "premium",
+      "title": "Kouign-amann con azúcar perlado",
+      "seo_title": "Kouign-amann con azúcar perlado RAIAN | Receta",
+      "meta_description": "Pastel bretón de capas caramelizadas con azúcar perlado RAIAN entre las láminas. La receta más crujiente del kouign-amann.",
+      "intro": "El kouign-amann es el pastel más crujiente de Bretaña: capas de masa con mantequilla y azúcar que se carameliza en el horno. El azúcar perlado RAIAN entre las capas crea bolsas de caramelo que elevan la receta original.",
+      "servings": 8,
+      "times": {
+        "prep_min": 40,
+        "cook_min": 40,
+        "rest_min": 90,
+        "total_min": 170
+      },
+      "allergens": ["Gluten", "Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 300, "key": "harina" },
+        { "name": "Agua tibia", "g": 180, "key": "agua" },
+        { "name": "Mantequilla fría", "g": 200, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 100, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 5, "key": "levadura" },
+        { "name": "Sal", "g": 6, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 40, "key": "azucar_perlado" }
+      ],
+      "steps": [
+        "Mezcla la harina, levadura y sal. Añade el agua y amasa 8 minutos hasta tener una masa lisa. Deja reposar 30 minutos tapada.",
+        "Extiende la masa en rectángulo. Coloca la mantequilla fría laminada en el centro, dobla y realiza 2 pliegues simples con 20 minutos de reposo en nevera entre cada uno.",
+        "En el último pliegue, espolvorea el azúcar y el azúcar perlado RAIAN sobre la masa antes de doblar.",
+        "Coloca en molde redondo engrasado, dejando que la masa sobresalga un poco. Deja fermentar 30 minutos.",
+        "Hornea a 200 °C durante 35-40 minutos: el azúcar caramelizará completamente y la base quedará dorada y crujiente.",
+        "Desmolda inmediatamente sobre papel de horno. Deja enfriar 10 minutos antes de servir."
+      ],
+      "stepNotes": [
+        null,
+        "En cada pliegue es imprescindible que la mantequilla y la masa estén a la misma temperatura (fría pero maleable). Demasiado calor rompe las capas.",
+        "El azúcar perlado RAIAN, al quedar entre las capas, se funde parcialmente y crea bolsas de caramelo en la miga distintas a la cobertura exterior.",
+        null,
+        null,
+        "Desmoldar inmediatamente es crítico: el caramelo líquido a alta temperatura solidifica en segundos al enfriarse y el pastel quedaría pegado al molde."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 370,
+        "protein": 4,
+        "carbs": 38,
+        "sugars": 18,
+        "fat": 22,
+        "sat_fat": 14,
+        "fiber": 0.8,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 420,
+        "protein": 4.5,
+        "carbs": 43,
+        "sugars": 20,
+        "fat": 25,
+        "sat_fat": 16,
+        "fiber": 0.9,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 88,
+      "keywords": ["kouign-amann", "pastel bretón", "kouign amann con azúcar perlado"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "panecillos-vieneses-con-azucar-perlado",
+      "category": "familiar",
+      "title": "Panecillos vieneses con azúcar perlado",
+      "seo_title": "Panecillos vieneses con azúcar perlado RAIAN | Receta",
+      "meta_description": "Panecillos vieneses tiernos con cobertura crujiente de azúcar perlado RAIAN. Ideales para desayuno o merienda en familia.",
+      "intro": "Panecillos de estilo vienés con miga tierna y abizcochada, y una cobertura de azúcar perlado RAIAN que los hace diferentes de cualquier pan de bollería industrial.",
+      "servings": 12,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 20,
+        "rest_min": 75,
+        "total_min": 115
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 400, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 200, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 60, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 40, "key": "azucar" },
+        { "name": "Huevo", "g": 55, "key": "huevo" },
+        { "name": "Levadura seca instantánea", "g": 6, "key": "levadura" },
+        { "name": "Sal", "g": 7, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 50, "key": "azucar_perlado" },
+        { "name": "Leche para pintar", "g": 20, "key": "leche_pintar" }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura, el azúcar y la sal. Añade la leche, el huevo y la mantequilla. Amasa 10 minutos.",
+        "Tapa y deja fermentar 45 minutos a temperatura cálida.",
+        "Divide en 12 porciones iguales y forma bolitas. Coloca en bandeja con papel de horno.",
+        "Segunda fermentación de 30 minutos tapadas con paño húmedo.",
+        "Pinta con leche y espolvorea generosamente el azúcar perlado RAIAN.",
+        "Hornea a 180 °C unos 18-20 minutos hasta que estén dorados. Deja enfriar sobre rejilla."
+      ],
+      "stepNotes": [
+        null,
+        "Una temperatura de 24-26 °C en la cocina es ideal para la fermentación. En invierno, puedes dejar el bol dentro del horno apagado con la luz encendida.",
+        null,
+        null,
+        "La cantidad de azúcar perlado RAIAN que se adhiere depende de qué tan húmeda esté la superficie pintada; aplica la leche y el azúcar justo antes de hornear.",
+        null
+      ],
+      "nutrition_per_serving": {
+        "kcal": 200,
+        "protein": 5.5,
+        "carbs": 33,
+        "sugars": 7.5,
+        "fat": 5,
+        "sat_fat": 3,
+        "fiber": 1.1,
+        "salt": 0.5
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 275,
+        "protein": 7.5,
+        "carbs": 45,
+        "sugars": 10,
+        "fat": 7,
+        "sat_fat": 4,
+        "fiber": 1.5,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 73,
+      "keywords": ["panecillos vieneses", "panecillos con azúcar perlado", "bollería casera"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "trenza-de-canela-y-azucar-perlado",
+      "category": "casera",
+      "title": "Trenza de canela y azúcar perlado",
+      "seo_title": "Trenza de canela con azúcar perlado RAIAN | Receta",
+      "meta_description": "Trenza de canela y azúcar moreno con acabado crujiente de azúcar perlado RAIAN. Bollería casera sencilla y muy vistosa.",
+      "intro": "Una trenza de masa tierna rellena de canela y azúcar moreno, con el azúcar perlado RAIAN en la superficie para ese acabado rústico y crujiente que marca la diferencia entre una trenza normal y una especial.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 25,
+        "rest_min": 90,
+        "total_min": 145
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 350, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 160, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 60, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 50, "key": "azucar" },
+        { "name": "Huevo", "g": 55, "key": "huevo" },
+        { "name": "Levadura seca instantánea", "g": 6, "key": "levadura" },
+        { "name": "Sal", "g": 5, "key": "sal" },
+        { "name": "Canela en polvo (relleno)", "g": 8, "key": "canela" },
+        { "name": "Azúcar moreno (relleno)", "g": 40, "key": "azucar_moreno" },
+        { "name": "Mantequilla derretida (relleno)", "g": 30, "key": "mantequilla_relleno" },
+        { "name": "Azúcar perlado RAIAN (cobertura)", "g": 40, "key": "azucar_perlado" },
+        { "name": "Huevo batido para pintar", "g": 30, "key": "huevo_pintar" }
+      ],
+      "steps": [
+        "Prepara la masa: mezcla la harina con la levadura, azúcar y sal. Añade la leche, el huevo y la mantequilla. Amasa 10 minutos. Deja fermentar 60 minutos.",
+        "Estira la masa en rectángulo de unos 30×40 cm.",
+        "Mezcla la mantequilla derretida del relleno con la canela y el azúcar moreno. Extiende sobre la masa dejando 1 cm libre en los bordes.",
+        "Enrolla la masa formando un cilindro apretado y córtalo en tres tiras dejando unido el extremo superior.",
+        "Trenza las tres tiras y coloca en bandeja. Segunda fermentación de 30 minutos.",
+        "Pinta con huevo, espolvorea el azúcar perlado RAIAN y hornea a 180 °C durante 22-25 minutos."
+      ],
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Cortar en tiras en lugar de en rodajas permite ver las capas de canela en la trenza terminada, lo que resulta muy vistoso al servir.",
+        null,
+        "El azúcar perlado RAIAN se añade justo antes de hornear para que se adhiera bien al huevo húmedo y no se caiga durante la cocción."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 285,
+        "protein": 6.5,
+        "carbs": 42,
+        "sugars": 13,
+        "fat": 9,
+        "sat_fat": 5.5,
+        "fiber": 1.3,
+        "salt": 0.5
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 330,
+        "protein": 7.5,
+        "carbs": 49,
+        "sugars": 15,
+        "fat": 10.5,
+        "sat_fat": 6.5,
+        "fiber": 1.5,
+        "salt": 0.58
+      },
+      "estimated_serving_g": 86,
+      "keywords": ["trenza de canela", "trenza con azúcar perlado", "bollería casera", "receta trenza"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "magdalenas-con-azucar-perlado-y-limon",
+      "category": "familiar",
+      "title": "Magdalenas con azúcar perlado y limón",
+      "seo_title": "Magdalenas con azúcar perlado y limón RAIAN | Receta",
+      "meta_description": "Magdalenas esponjosas con aroma de limón y copete alto coronado por azúcar perlado RAIAN caramelizado. Receta clásica mejorada.",
+      "intro": "Las magdalenas de siempre, pero con un toque que las hace distintas: el azúcar perlado RAIAN en el copete se carameliza ligeramente al hornear y da una textura crujiente que contrasta con la miga esponjosa.",
+      "servings": 12,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 20,
+        "rest_min": 60,
+        "total_min": 95
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo", "g": 200, "key": "harina" },
+        { "name": "Azúcar", "g": 180, "key": "azucar" },
+        { "name": "Huevos", "g": 110, "key": "huevos" },
+        { "name": "Aceite de girasol", "g": 140, "key": "aceite" },
+        { "name": "Leche entera", "g": 80, "key": "leche" },
+        { "name": "Levadura química", "g": 10, "key": "levadura" },
+        { "name": "Ralladura de limón", "g": 6, "key": "limon" },
+        { "name": "Sal", "g": 2, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 40, "key": "azucar_perlado" }
+      ],
+      "steps": [
+        "Bate los huevos con el azúcar durante 4 minutos a velocidad alta hasta que la mezcla blanquee y esté espumosa.",
+        "Añade el aceite en hilo fino mientras bates a velocidad media. Incorpora la leche y la ralladura de limón.",
+        "Tamiza la harina con la levadura química y la sal. Incorpórala con movimientos envolventes.",
+        "Reparte la masa en cápsulas de magdalena llenando hasta ¾ de capacidad. Refrigera 60 minutos para favorecer el copete.",
+        "Espolvorea el azúcar perlado RAIAN sobre cada magdalena fría antes de meter al horno.",
+        "Hornea a 210 °C durante 16-18 minutos hasta que el copete esté dorado. No abras el horno en los primeros 12 minutos."
+      ],
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "El reposo en nevera crea un contraste térmico al meter la masa fría en el horno caliente, lo que provoca un copete más pronunciado.",
+        "Al estar la superficie fría por la nevera, el azúcar perlado RAIAN se adhiere bien y no se escurre antes de hornear.",
+        "La temperatura alta al inicio (210 °C) es lo que sube rápido el copete; se puede bajar a 190 °C si se doran demasiado."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 225,
+        "protein": 3.5,
+        "carbs": 30,
+        "sugars": 18,
+        "fat": 10,
+        "sat_fat": 1.5,
+        "fiber": 0.6,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 380,
+        "protein": 5.9,
+        "carbs": 50,
+        "sugars": 30,
+        "fat": 17,
+        "sat_fat": 2.5,
+        "fiber": 1,
+        "salt": 0.3
+      },
+      "estimated_serving_g": 59,
+      "keywords": ["magdalenas con azúcar perlado", "magdalenas de limón", "receta magdalenas caseras"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "pain-au-lait-con-azucar-perlado",
+      "category": "casera",
+      "title": "Pain au lait con azúcar perlado",
+      "seo_title": "Pain au lait con azúcar perlado RAIAN | Receta",
+      "meta_description": "Pain au lait francés en formato individual con cobertura de azúcar perlado RAIAN. Desayuno clásico con textura crujiente.",
+      "intro": "El pan de leche francés en su versión más clásica: barrita individual con tres cortes en diagonal y una cobertura de azúcar perlado RAIAN que le da personalidad sin complicar la receta.",
+      "servings": 14,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 15,
+        "rest_min": 90,
+        "total_min": 125
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 350, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 200, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 50, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 35, "key": "azucar" },
+        { "name": "Yemas de huevo", "g": 40, "key": "yemas" },
+        { "name": "Levadura seca instantánea", "g": 5, "key": "levadura" },
+        { "name": "Sal", "g": 6, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 45, "key": "azucar_perlado" },
+        { "name": "Leche para pintar", "g": 20, "key": "leche_pintar" }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura, azúcar y sal. Añade la leche tibia, las yemas y la mantequilla. Amasa 10 minutos hasta obtener una masa suave.",
+        "Deja fermentar tapado 60 minutos hasta que doble su volumen.",
+        "Divide en 14 porciones y forma barritas alargadas de unos 8 cm. Realiza 3 cortes superficiales en diagonal con tijera.",
+        "Segunda fermentación de 30 minutos.",
+        "Pinta con leche y cubre con azúcar perlado RAIAN presionando ligeramente para que se adhiera.",
+        "Hornea a 185 °C durante 13-15 minutos hasta que estén dorados. Deja enfriar sobre rejilla."
+      ],
+      "stepNotes": [
+        null,
+        null,
+        "Los cortes en diagonal no son solo decorativos: permiten que la pieza se expanda uniformemente durante el horneado sin que reviente por los lados.",
+        null,
+        "Presionar suavemente el azúcar perlado RAIAN sobre la superficie húmeda garantiza que se adhiera bien y no caiga durante el horneado.",
+        null
+      ],
+      "nutrition_per_serving": {
+        "kcal": 155,
+        "protein": 4.5,
+        "carbs": 26,
+        "sugars": 6,
+        "fat": 3.5,
+        "sat_fat": 2,
+        "fiber": 0.9,
+        "salt": 0.38
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 285,
+        "protein": 8.3,
+        "carbs": 48,
+        "sugars": 11,
+        "fat": 6.5,
+        "sat_fat": 3.7,
+        "fiber": 1.7,
+        "salt": 0.7
+      },
+      "estimated_serving_g": 54,
+      "keywords": ["pain au lait", "pan de leche francés", "pain au lait con azúcar perlado"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "mini-brioches-individuales-con-azucar-perlado",
+      "category": "casera",
+      "title": "Mini brioches individuales con azúcar perlado",
+      "seo_title": "Mini brioches individuales con azúcar perlado RAIAN | Receta",
+      "meta_description": "Mini brioches à tête en moldes individuales con azúcar perlado RAIAN. Receta de bollería francesa sencilla para desayunos especiales.",
+      "intro": "Los brioches individuales en molde son la bollería más elegante de la tradición francesa. El azúcar perlado RAIAN en la superficie los hace irresistibles sin necesitar ninguna cobertura adicional.",
+      "servings": 12,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 18,
+        "rest_min": 450,
+        "total_min": 493
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 300, "key": "harina" },
+        { "name": "Mantequilla fría en dados", "g": 120, "key": "mantequilla" },
+        { "name": "Huevos", "g": 110, "key": "huevos" },
+        { "name": "Leche entera tibia", "g": 60, "key": "leche" },
+        { "name": "Azúcar", "g": 40, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 5, "key": "levadura" },
+        { "name": "Sal", "g": 5, "key": "sal" },
+        { "name": "Azúcar perlado RAIAN", "g": 40, "key": "azucar_perlado" },
+        { "name": "Huevo batido para pintar", "g": 30, "key": "huevo_pintar" }
+      ],
+      "steps": [
+        "Mezcla la harina con la levadura, azúcar y sal. Añade los huevos y la leche tibia; amasa 5 minutos.",
+        "Incorpora la mantequilla fría en trozos poco a poco, amasando hasta que se integre completamente (10-12 min). La masa debe estar lisa y brillante.",
+        "Tapa con film y refrigera mínimo 6 horas o toda la noche.",
+        "Divide la masa fría en 12 porciones. Forma una bolita grande y una pequeña; coloca la grande en el molde y la pequeña encima.",
+        "Fermentación final de 90 minutos a temperatura ambiente.",
+        "Pinta con huevo y espolvorea azúcar perlado RAIAN. Hornea a 180 °C durante 16-18 minutos."
+      ],
+      "stepNotes": [
+        null,
+        null,
+        "La fermentación lenta en frío es esencial en el brioche: ralentiza la levadura y permite desarrollar un sabor más complejo y una miga más sedosa.",
+        "Trabajar la masa fría facilita el formado: si está a temperatura ambiente se pega en las manos y resulta difícil de bolear.",
+        null,
+        null
+      ],
+      "nutrition_per_serving": {
+        "kcal": 220,
+        "protein": 5.5,
+        "carbs": 24,
+        "sugars": 6,
+        "fat": 11,
+        "sat_fat": 6.5,
+        "fiber": 0.8,
+        "salt": 0.4
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 365,
+        "protein": 9,
+        "carbs": 40,
+        "sugars": 10,
+        "fat": 18,
+        "sat_fat": 11,
+        "fiber": 1.3,
+        "salt": 0.67
+      },
+      "estimated_serving_g": 60,
+      "keywords": ["mini brioches", "brioches individuales", "brioche con azúcar perlado", "bollería francesa"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "tarta-de-manzana-con-hojaldre-y-azucar-perlado",
+      "category": "familiar",
+      "title": "Tarta de manzana con hojaldre y azúcar perlado",
+      "seo_title": "Tarta de manzana con azúcar perlado RAIAN | Receta",
+      "meta_description": "Tarta de manzana sobre masa hojaldrada con azúcar perlado RAIAN que se carameliza al hornear. Receta sencilla y muy vistosa.",
+      "intro": "La tarta de manzana más sencilla que existe: hojaldre, manzana laminada y azúcar perlado RAIAN que se carameliza ligeramente en el horno y hace que la tarta brille sin necesidad de ningún glaseado.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 30,
+        "rest_min": 0,
+        "total_min": 50
+      },
+      "allergens": ["Gluten", "Leche"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Masa de hojaldre (lámina)", "g": 320, "key": "hojaldre" },
+        { "name": "Manzanas Golden", "g": 600, "key": "manzana" },
+        { "name": "Mantequilla", "g": 30, "key": "mantequilla" },
+        { "name": "Mermelada de albaricoque", "g": 40, "key": "mermelada" },
+        { "name": "Azúcar perlado RAIAN", "g": 30, "key": "azucar_perlado" },
+        { "name": "Canela", "g": 3, "key": "canela" }
+      ],
+      "steps": [
+        "Extiende la lámina de hojaldre sobre papel de horno y pincha la superficie con un tenedor dejando 2 cm de borde libre.",
+        "Pela y corta las manzanas en láminas finas de unos 3 mm. Colócalas superpuestas sobre el hojaldre.",
+        "Reparte la mantequilla en dados pequeños sobre las manzanas. Espolvorea la canela.",
+        "Pincela el borde de hojaldre con mermelada de albaricoque y espolvorea el azúcar perlado RAIAN sobre toda la superficie.",
+        "Hornea a 200 °C durante 28-30 minutos hasta que el hojaldre esté dorado y las manzanas ligeramente caramelizadas.",
+        "Al salir del horno, pincela las manzanas con la mermelada restante para dar brillo. Servir templada."
+      ],
+      "stepNotes": [
+        "Pinchar el hojaldre evita que suba en exceso en las zonas sin borde; el borde sin pinchar sí subirá y formará el reborde de la tarta.",
+        null,
+        null,
+        "El azúcar perlado RAIAN sobre las manzanas se carameliza parcialmente durante el horneado, creando puntos crujientes más atractivos que el azúcar normal.",
+        null,
+        null
+      ],
+      "nutrition_per_serving": {
+        "kcal": 230,
+        "protein": 3,
+        "carbs": 32,
+        "sugars": 16,
+        "fat": 10,
+        "sat_fat": 5,
+        "fiber": 2,
+        "salt": 0.3
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 220,
+        "protein": 2.9,
+        "carbs": 31,
+        "sugars": 15,
+        "fat": 9.5,
+        "sat_fat": 4.7,
+        "fiber": 1.9,
+        "salt": 0.28
+      },
+      "estimated_serving_g": 105,
+      "keywords": ["tarta de manzana", "tarta hojaldre azúcar perlado", "receta tarta manzana fácil"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "donuts-caseros-con-azucar-perlado",
+      "category": "familiar",
+      "title": "Donuts caseros con glaseado y azúcar perlado",
+      "seo_title": "Donuts caseros con azúcar perlado RAIAN | Receta",
+      "meta_description": "Donuts fritos esponjosos con glaseado de vainilla y azúcar perlado RAIAN. Receta de donuts caseros con acabado de pastelería.",
+      "intro": "Donuts fritos con masa esponjosa y glaseado de vainilla, terminados con azúcar perlado RAIAN que cruje al morder y da ese acabado de pastelería que no se consigue con otros ingredientes.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 20,
+        "rest_min": 90,
+        "total_min": 140
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 350, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 140, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 50, "key": "mantequilla" },
+        { "name": "Huevo", "g": 55, "key": "huevo" },
+        { "name": "Azúcar", "g": 40, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 6, "key": "levadura" },
+        { "name": "Sal", "g": 5, "key": "sal" },
+        { "name": "Aceite de girasol para freír", "g": 500, "key": "aceite" },
+        { "name": "Azúcar glas (glaseado)", "g": 150, "key": "azucar_glas" },
+        { "name": "Leche (glaseado)", "g": 30, "key": "leche_glaseado" },
+        { "name": "Vainilla (glaseado)", "g": 3, "key": "vainilla" },
+        { "name": "Azúcar perlado RAIAN", "g": 30, "key": "azucar_perlado" }
+      ],
+      "steps": [
+        "Mezcla la harina, levadura, azúcar y sal. Añade la leche, el huevo y la mantequilla. Amasa 10 minutos hasta que la masa sea elástica.",
+        "Deja fermentar 60 minutos tapado. Extiende la masa a 1,5 cm de grosor y corta los donuts con cortador de 9 cm y agujero interior de 3 cm.",
+        "Coloca en papel de horno y fermentación final de 30 minutos.",
+        "Calienta el aceite a 170 °C. Fríe los donuts 1,5 minutos por cada lado hasta que estén dorados. Escurre sobre papel.",
+        "Prepara el glaseado mezclando el azúcar glas, la leche y la vainilla hasta obtener una consistencia espesa pero fluida.",
+        "Sumerge la parte superior de cada donut en el glaseado y antes de que seque, espolvorea azúcar perlado RAIAN. Deja solidificar 10 minutos."
+      ],
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "El aceite a 170 °C es la temperatura ideal: por debajo los donuts absorben demasiado aceite, por encima se doran por fuera antes de cocinarse por dentro.",
+        null,
+        "El azúcar perlado RAIAN debe añadirse antes de que el glaseado seque (tiene una ventana de 2-3 minutos) para que quede bien adherido."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 315,
+        "protein": 5.5,
+        "carbs": 46,
+        "sugars": 20,
+        "fat": 12,
+        "sat_fat": 3.5,
+        "fiber": 0.9,
+        "salt": 0.42
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 360,
+        "protein": 6.3,
+        "carbs": 52,
+        "sugars": 23,
+        "fat": 13.5,
+        "sat_fat": 4,
+        "fiber": 1,
+        "salt": 0.48
+      },
+      "estimated_serving_g": 88,
+      "keywords": ["donuts caseros", "donuts con azúcar perlado", "receta donuts glaseados"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "napolitanas-de-chocolate-con-azucar-perlado",
+      "category": "casera",
+      "title": "Napolitanas de chocolate con azúcar perlado",
+      "seo_title": "Napolitanas de chocolate con azúcar perlado RAIAN | Receta",
+      "meta_description": "Napolitanas de masa hojaldrada rellenas de chocolate con azúcar perlado RAIAN. Acabado crujiente de pastelería en casa.",
+      "intro": "Napolitanas hojaldradas rellenas de chocolate negro, con el azúcar perlado RAIAN en la superficie que contrasta con el amargor del chocolate y da ese acabado brillante y crujiente de pastelería.",
+      "servings": 8,
+      "times": {
+        "prep_min": 50,
+        "cook_min": 20,
+        "rest_min": 180,
+        "total_min": 250
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 300, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 150, "key": "leche" },
+        { "name": "Mantequilla de hojaldrar", "g": 180, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 25, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 5, "key": "levadura" },
+        { "name": "Sal", "g": 5, "key": "sal" },
+        { "name": "Chocolate negro en barritas", "g": 120, "key": "chocolate" },
+        { "name": "Azúcar perlado RAIAN", "g": 30, "key": "azucar_perlado" },
+        { "name": "Huevo batido para pintar", "g": 30, "key": "huevo_pintar" }
+      ],
+      "steps": [
+        "Prepara la masa: mezcla harina, levadura, azúcar y sal con la leche. Amasa 5 minutos. Refrigera 1 hora.",
+        "Realiza 3 pliegues de hojaldre con la mantequilla fría, refrigerando 30 minutos entre cada pliegue.",
+        "Extiende la masa hasta 4-5 mm y corta en rectángulos de 10×15 cm.",
+        "Coloca una barrita de chocolate en el borde inferior de cada rectángulo y otra a 4 cm. Enrolla la masa sobre ellas.",
+        "Coloca con el cierre hacia abajo en bandeja. Fermenta 90 minutos.",
+        "Pinta con huevo, espolvorea azúcar perlado RAIAN y hornea a 200 °C durante 18-20 minutos hasta que estén doradas."
+      ],
+      "stepNotes": [
+        null,
+        "En cada pliegue de hojaldre la mantequilla y la masa deben estar a la misma temperatura (fría pero maleable). Demasiado calor rompe las capas.",
+        null,
+        null,
+        null,
+        "El azúcar perlado RAIAN sobre las napolitanas no solo aporta textura: al dorarse ligeramente crea un contraste dulce con el amargor del chocolate negro."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 395,
+        "protein": 6,
+        "carbs": 34,
+        "sugars": 10,
+        "fat": 26,
+        "sat_fat": 16,
+        "fiber": 1.5,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 430,
+        "protein": 6.5,
+        "carbs": 37,
+        "sugars": 11,
+        "fat": 28,
+        "sat_fat": 17.5,
+        "fiber": 1.6,
+        "salt": 0.6
+      },
+      "estimated_serving_g": 92,
+      "keywords": ["napolitanas de chocolate", "napolitanas con azúcar perlado", "receta napolitanas hojaldre"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "galletas-de-mantequilla-con-azucar-perlado",
+      "category": "familiar",
+      "title": "Galletas de mantequilla con azúcar perlado",
+      "seo_title": "Galletas sablé con azúcar perlado RAIAN | Receta",
+      "meta_description": "Galletas sablé de mantequilla con azúcar perlado RAIAN integrado en la superficie. Receta de galletas crujientes y muy aromáticas.",
+      "intro": "Galletas sablé de mantequilla con el azúcar perlado RAIAN semi-incrustado en la superficie mediante el rodillo. Resultan más crujientes que las galletas normales y con un sabor más intenso a mantequilla.",
+      "servings": 24,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 15,
+        "rest_min": 30,
+        "total_min": 65
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo", "g": 250, "key": "harina" },
+        { "name": "Mantequilla fría en dados", "g": 150, "key": "mantequilla" },
+        { "name": "Azúcar glas", "g": 80, "key": "azucar_glas" },
+        { "name": "Yema de huevo", "g": 20, "key": "yema" },
+        { "name": "Sal", "g": 2, "key": "sal" },
+        { "name": "Vainilla", "g": 3, "key": "vainilla" },
+        { "name": "Azúcar perlado RAIAN", "g": 50, "key": "azucar_perlado" }
+      ],
+      "steps": [
+        "Mezcla la harina con el azúcar glas y la sal. Incorpora la mantequilla fría frotando con las yemas de los dedos hasta obtener textura de migas.",
+        "Añade la yema de huevo y la vainilla. Une la masa sin amasar en exceso. Refrigera 30 minutos.",
+        "Estira la masa a 5 mm de grosor y corta con el cortador deseado.",
+        "Espolvorea abundantemente el azúcar perlado RAIAN sobre cada galleta y presiona suavemente con el rodillo para que se integre en la superficie.",
+        "Hornea a 175 °C durante 12-14 minutos hasta que los bordes estén ligeramente dorados.",
+        "Deja enfriar completamente sobre rejilla antes de manipular: salen blandas del horno y se endurecen al enfriarse."
+      ],
+      "stepNotes": [
+        "No trabajar la masa en exceso es clave en las galletas sablé: el calor de las manos funde la mantequilla y la masa pierde la textura arenosa característica.",
+        null,
+        null,
+        "Pasar el rodillo ligeramente sobre el azúcar perlado RAIAN lo integra a medias en la masa, creando una superficie irregular y crujiente muy atractiva.",
+        null,
+        null
+      ],
+      "nutrition_per_serving": {
+        "kcal": 105,
+        "protein": 1.3,
+        "carbs": 11.5,
+        "sugars": 4.5,
+        "fat": 6,
+        "sat_fat": 3.8,
+        "fiber": 0.4,
+        "salt": 0.08
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 490,
+        "protein": 6,
+        "carbs": 54,
+        "sugars": 21,
+        "fat": 28,
+        "sat_fat": 17.5,
+        "fiber": 1.9,
+        "salt": 0.38
+      },
+      "estimated_serving_g": 21,
+      "keywords": ["galletas de mantequilla", "galletas sablé azúcar perlado", "receta galletas mantequilla"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "strudel-de-manzana-con-azucar-perlado",
+      "category": "casera",
+      "title": "Strudel de manzana con azúcar perlado",
+      "seo_title": "Strudel de manzana con azúcar perlado RAIAN | Receta",
+      "meta_description": "Strudel de manzana con masa filo y azúcar perlado RAIAN en la superficie. Receta austríaca clásica con acabado crujiente.",
+      "intro": "El strudel de manzana austríaco en su versión más sencilla con masa filo: crujiente por fuera, jugoso por dentro y con el azúcar perlado RAIAN que se carameliza ligeramente en el horno.",
+      "servings": 8,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 35,
+        "rest_min": 0,
+        "total_min": 60
+      },
+      "allergens": ["Gluten", "Leche", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Láminas de masa filo", "g": 200, "key": "filo" },
+        { "name": "Manzanas reinetas", "g": 700, "key": "manzana" },
+        { "name": "Mantequilla derretida", "g": 80, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 60, "key": "azucar" },
+        { "name": "Pan rallado", "g": 40, "key": "pan_rallado" },
+        { "name": "Canela en polvo", "g": 5, "key": "canela" },
+        { "name": "Nueces picadas", "g": 40, "key": "nueces" },
+        { "name": "Azúcar perlado RAIAN", "g": 25, "key": "azucar_perlado" }
+      ],
+      "steps": [
+        "Pela y corta las manzanas en láminas finas. Mezcla con el azúcar, la canela y las nueces picadas.",
+        "Extiende una lámina de masa filo sobre un paño limpio y pincela con mantequilla derretida. Coloca otra lámina encima y repite hasta usar 4 capas.",
+        "Espolvorea el pan rallado sobre la masa (absorbe el jugo de la manzana y evita que la masa se ablande). Distribuye el relleno de manzana dejando un borde libre.",
+        "Enrolla el strudel ayudándote del paño, formando un cilindro apretado. Cierra los extremos hacia abajo.",
+        "Coloca en bandeja, pincela con mantequilla y espolvorea el azúcar perlado RAIAN sobre la superficie.",
+        "Hornea a 190 °C durante 30-35 minutos hasta que la masa esté dorada y crujiente."
+      ],
+      "stepNotes": [
+        null,
+        "La masa filo se seca muy rápido: mantén las láminas que no uses cubiertas con un paño húmedo para que no se rompan al enrollar.",
+        "El pan rallado tostado en mantequilla es el secreto del strudel auténtico: evita que el relleno ablande la masa filo durante el horneado.",
+        null,
+        "El azúcar perlado RAIAN en la superficie del strudel se carameliza sin fundirse completamente, dando un acabado más crujiente y visual que el azúcar glas habitual.",
+        null
+      ],
+      "nutrition_per_serving": {
+        "kcal": 250,
+        "protein": 3.5,
+        "carbs": 36,
+        "sugars": 20,
+        "fat": 10,
+        "sat_fat": 5.5,
+        "fiber": 2.5,
+        "salt": 0.28
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 235,
+        "protein": 3.3,
+        "carbs": 34,
+        "sugars": 19,
+        "fat": 9.5,
+        "sat_fat": 5.2,
+        "fiber": 2.3,
+        "salt": 0.26
+      },
+      "estimated_serving_g": 106,
+      "keywords": ["strudel de manzana", "strudel con azúcar perlado", "receta strudel austríaco"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "kugelhopf-alsaciano-con-azucar-perlado",
+      "category": "premium",
+      "title": "Kugelhopf alsaciano con azúcar perlado",
+      "seo_title": "Kugelhopf alsaciano con azúcar perlado RAIAN | Receta",
+      "meta_description": "Kugelhopf de Alsacia con pasas, almendras y azúcar perlado RAIAN. Receta del pastel de molde acanalado más clásico de Francia.",
+      "intro": "El kugelhopf es el pastel de molde acanalado más típico de Alsacia. Con pasas maceradas en kirsch, almendras en el molde y azúcar perlado RAIAN en la superficie, es una receta que impresiona sin ser complicada.",
+      "servings": 10,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 45,
+        "rest_min": 480,
+        "total_min": 555
+      },
+      "allergens": ["Gluten", "Leche", "Huevo", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 400, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 150, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 150, "key": "mantequilla" },
+        { "name": "Huevos", "g": 110, "key": "huevos" },
+        { "name": "Azúcar", "g": 60, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 7, "key": "levadura" },
+        { "name": "Sal", "g": 6, "key": "sal" },
+        { "name": "Pasas sultanas", "g": 100, "key": "pasas" },
+        { "name": "Kirsch o ron", "g": 30, "key": "kirsch" },
+        { "name": "Almendras enteras peladas", "g": 30, "key": "almendras" },
+        { "name": "Azúcar perlado RAIAN", "g": 40, "key": "azucar_perlado" },
+        { "name": "Mantequilla derretida para desmoldar", "g": 30, "key": "mantequilla_molde" }
+      ],
+      "steps": [
+        "La noche anterior, macera las pasas en el kirsch o ron.",
+        "Mezcla la harina, levadura, azúcar y sal. Añade la leche tibia y los huevos. Amasa 8 minutos e incorpora la mantequilla en trozos hasta que la masa esté suave.",
+        "Integra las pasas escurridas. Tapa y fermenta 60 minutos.",
+        "Pincela el molde kugelhopf con mantequilla derretida y coloca una almendra entera en cada acanalado.",
+        "Coloca la masa en el molde. Segunda fermentación 60 minutos hasta que llegue al borde.",
+        "Espolvorea el azúcar perlado RAIAN sobre la superficie y hornea a 175 °C durante 40-45 minutos. Desmolda en caliente y deja enfriar."
+      ],
+      "stepNotes": [
+        "Macerar las pasas en kirsch añade aroma y evita que absorban la humedad de la masa durante el reposo.",
+        null,
+        null,
+        "Las almendras en el molde quedan en la base del pastel al desmoldar, formando la decoración tradicional del kugelhopf. Asegúrate de que el molde esté bien engrasado.",
+        null,
+        "El azúcar perlado RAIAN en la masa visible queda en la parte inferior del desmoldado; si quieres verlo en la parte decorativa, espolvoréalo después de desmoldar con el pastel aún caliente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 360,
+        "protein": 8,
+        "carbs": 46,
+        "sugars": 16,
+        "fat": 15,
+        "sat_fat": 9,
+        "fiber": 1.5,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 360,
+        "protein": 8,
+        "carbs": 46,
+        "sugars": 16,
+        "fat": 15,
+        "sat_fat": 9,
+        "fiber": 1.5,
+        "salt": 0.55
+      },
+      "estimated_serving_g": 100,
+      "keywords": ["kugelhopf", "kugelhopf alsaciano", "kugelhopf con azúcar perlado", "bollería francesa"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "croissants-rellenos-con-azucar-perlado",
+      "category": "premium",
+      "title": "Croissants rellenos de crema con azúcar perlado",
+      "seo_title": "Croissants con crema y azúcar perlado RAIAN | Receta",
+      "meta_description": "Croissants de mantequilla rellenos de crema pastelera y espolvoreados con azúcar perlado RAIAN. Receta de pastelería francesa en casa.",
+      "intro": "Croissants hojaldrados rellenos de crema pastelera con azúcar perlado RAIAN en la superficie: la combinación perfecta entre el hojaldre crujiente, la crema suave y el toque crujiente del azúcar de grano grueso.",
+      "servings": 8,
+      "times": {
+        "prep_min": 60,
+        "cook_min": 20,
+        "rest_min": 240,
+        "total_min": 320
+      },
+      "allergens": ["Gluten", "Leche", "Huevo"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 300, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 150, "key": "leche" },
+        { "name": "Mantequilla de hojaldrar", "g": 180, "key": "mantequilla_hojaldrar" },
+        { "name": "Azúcar", "g": 30, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 5, "key": "levadura" },
+        { "name": "Sal", "g": 5, "key": "sal" },
+        { "name": "Leche para la crema", "g": 250, "key": "leche_crema" },
+        { "name": "Yemas de huevo para la crema", "g": 80, "key": "yemas" },
+        { "name": "Azúcar para la crema", "g": 60, "key": "azucar_crema" },
+        { "name": "Maicena para la crema", "g": 25, "key": "maicena" },
+        { "name": "Vainilla para la crema", "g": 3, "key": "vainilla" },
+        { "name": "Azúcar perlado RAIAN", "g": 30, "key": "azucar_perlado" },
+        { "name": "Huevo batido para pintar", "g": 30, "key": "huevo_pintar" }
+      ],
+      "steps": [
+        "Prepara la masa base mezclando la harina, levadura, azúcar y sal con la leche. Amasa 5 minutos. Refrigera 1 hora.",
+        "Realiza 3 pliegues de hojaldre con la mantequilla fría, refrigerando 30 minutos entre cada pliegue.",
+        "Extiende, corta triángulos y enrolla en forma de croissant. Coloca en bandeja y fermenta 90 minutos.",
+        "Para la crema: calienta la leche con la vainilla. Bate las yemas con el azúcar y la maicena; añade la leche caliente poco a poco y cuece hasta espesar. Enfría con film en contacto.",
+        "Pinta los croissants con huevo batido y espolvorea azúcar perlado RAIAN sobre la superficie.",
+        "Hornea a 200 °C durante 18-20 minutos. Una vez fríos, rellena con la crema usando manga pastelera."
+      ],
+      "stepNotes": [
+        null,
+        "La clave del hojaldre es que la mantequilla y la masa estén siempre a la misma temperatura (fría pero flexible). Si la mantequilla se rompe, el hojaldre no se formará.",
+        null,
+        "El film en contacto directo con la crema evita que se forme costra al enfriar.",
+        null,
+        "Rellenar los croissants cuando están completamente fríos evita que la crema se derrita y salga por los lados al presionar con la manga."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 420,
+        "protein": 8,
+        "carbs": 38,
+        "sugars": 14,
+        "fat": 26,
+        "sat_fat": 16,
+        "fiber": 0.9,
+        "salt": 0.6
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 390,
+        "protein": 7.4,
+        "carbs": 35,
+        "sugars": 13,
+        "fat": 24,
+        "sat_fat": 15,
+        "fiber": 0.8,
+        "salt": 0.56
+      },
+      "estimated_serving_g": 108,
+      "keywords": ["croissants con azúcar perlado", "croissants rellenos crema", "receta croissants caseros"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    },
+    {
+      "slug": "stollen-navideno-con-azucar-perlado",
+      "category": "familiar",
+      "title": "Stollen navideño con azúcar perlado",
+      "seo_title": "Stollen navideño con azúcar perlado RAIAN | Receta",
+      "meta_description": "Stollen alemán con frutas confitadas y almendras, terminado con azúcar perlado RAIAN en lugar del clásico azúcar glas. Receta navideña.",
+      "intro": "El stollen alemán es el pan dulce navideño más tradicional de Centroeuropa. Esta versión sustituye el azúcar glas habitual por azúcar perlado RAIAN, consiguiendo una costra más crujiente y un acabado más rústico.",
+      "servings": 12,
+      "times": {
+        "prep_min": 35,
+        "cook_min": 50,
+        "rest_min": 120,
+        "total_min": 205
+      },
+      "allergens": ["Gluten", "Leche", "Huevo", "Frutos de cáscara"],
+      "image_available": false,
+      "ingredients": [
+        { "name": "Harina de trigo de fuerza", "g": 500, "key": "harina" },
+        { "name": "Leche entera tibia", "g": 180, "key": "leche" },
+        { "name": "Mantequilla en pomada", "g": 150, "key": "mantequilla" },
+        { "name": "Azúcar", "g": 80, "key": "azucar" },
+        { "name": "Levadura seca instantánea", "g": 8, "key": "levadura" },
+        { "name": "Huevo", "g": 55, "key": "huevo" },
+        { "name": "Sal", "g": 6, "key": "sal" },
+        { "name": "Frutas confitadas variadas", "g": 200, "key": "frutas" },
+        { "name": "Almendra cruda", "g": 80, "key": "almendra" },
+        { "name": "Ron añejo", "g": 40, "key": "ron" },
+        { "name": "Mantequilla derretida para pintar", "g": 50, "key": "mantequilla_pintar" },
+        { "name": "Azúcar perlado RAIAN", "g": 60, "key": "azucar_perlado" }
+      ],
+      "steps": [
+        "La noche anterior, macera las frutas confitadas en el ron.",
+        "Prepara la masa: mezcla harina, levadura, azúcar y sal. Añade la leche, el huevo y la mantequilla. Amasa 12 minutos.",
+        "Incorpora las frutas escurridas y las almendras. Amasa 3 minutos más para distribuir.",
+        "Deja fermentar 90 minutos. Da forma ovalada característica del stollen doblando la masa sobre sí misma.",
+        "Hornea a 170 °C durante 45-50 minutos hasta que esté bien cocido. El stollen debe sonar a hueco al golpear la base.",
+        "Recién salido del horno, pinta generosamente con mantequilla derretida y espolvorea el azúcar perlado RAIAN. Deja enfriar completamente."
+      ],
+      "stepNotes": [
+        "Macerar las frutas en ron añade aroma y evita que absorban la humedad de la masa durante el reposo.",
+        null,
+        null,
+        null,
+        null,
+        "Pintar con mantequilla caliente y añadir el azúcar perlado RAIAN inmediatamente crea una costra brillante y crujiente que sustituye con éxito al azúcar glas tradicional."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 370,
+        "protein": 8,
+        "carbs": 50,
+        "sugars": 20,
+        "fat": 15,
+        "sat_fat": 8,
+        "fiber": 2,
+        "salt": 0.45
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 360,
+        "protein": 7.8,
+        "carbs": 48,
+        "sugars": 19,
+        "fat": 14.5,
+        "sat_fat": 7.7,
+        "fiber": 1.9,
+        "salt": 0.44
+      },
+      "estimated_serving_g": 103,
+      "keywords": ["stollen navideño", "stollen con azúcar perlado", "receta stollen alemán"],
+      "notes": "Valores nutricionales estimados según composición estándar. Validar con análisis de laboratorio si se usa como dato legal."
+    }
+  ]
+}
