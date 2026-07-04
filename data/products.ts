@@ -966,13 +966,13 @@ export const products: Product[] = [
     slug: "cacao-en-polvo-alcalino",
     name: "Cacao premium alcalinizado 22-24%",
     shortDescription:
-      "Cacao premium alcalinizado 22-24% materia grasa, 100% cacao, sin azúcar y apto para veganos. Color intenso y sabor profundo para repostería y bebidas. Formato 1 kg envasado en España.",
+      "Cacao alcalinizado con 22-24% de materia grasa: el de mayor contenido en manteca de cacao de la gama RAIAN. Color muy intenso, sabor redondo y pleno cuerpo para repostería y bebidas.",
     description:
-      "Cacao en polvo premium 100% puro con un contenido en materia grasa de 22-24%, sometido a alcalinización (proceso holandés) que suaviza el sabor, intensifica el color oscuro y mejora la solubilidad. Sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico. El mayor contenido en manteca de cacao le da más cuerpo, color más intenso y un sabor más redondo. Pensado para repostería casera y profesional, así como para bebidas de cacao con cuerpo. Formato de 1 kg, envasado en España.",
+      "Cacao en polvo 100% puro con un contenido en materia grasa de 22-24%, alcalinizado mediante el proceso holandés. La alcalinización eleva el pH del cacao con carbonato potásico, suavizando la acidez natural, intensificando el color oscuro y mejorando la solubilidad. A mayor porcentaje de materia grasa (manteca de cacao), más cuerpo tiene la mezcla, más color aporta y más sabor profundo y redondo. Este formato 22-24% es el indicado para brownies, coulants, fondants y bebidas de cacao con mucho cuerpo. Sin azúcar añadido, apto para veganos.",
     category: "Cacao y chocolate",
     tags: ["100% cacao", "Alcalinizado", "22-24% materia grasa", "Sin azúcar", "Vegano", "Origen español", "1 kg"],
     dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido"],
-    highlights: ["100% cacao puro", "Sin azúcar añadido", "Apto para veganos"],
+    highlights: ["Alcalinizado — color oscuro y sabor suave", "22-24% materia grasa — mayor cuerpo", "Sin azúcar añadido · Vegano"],
     mainImage: {
       src: "/images/products/cacao-en-polvo-alcalino-main.png",
       alt: "Bote de cacao premium alcalinizado RAIAN 22-24% 1 kg",
@@ -1017,19 +1017,24 @@ export const products: Product[] = [
       "Cacao premium alcalinizado RAIAN 22-24% materia grasa: 100% cacao, sin azúcar, vegano, 1 kg. Mayor contenido en manteca de cacao para repostería y bebidas con más cuerpo.",
     faqs: [
       {
-        question: "¿Qué es el cacao alcalinizado?",
+        question: "¿Qué significa que el cacao es alcalinizado?",
         answer:
-          "Es cacao en polvo tratado mediante el proceso holandés (alcalinización), que suaviza el sabor, intensifica el color oscuro y mejora la solubilidad."
+          "El cacao en polvo natural tiene acidez propia del grano de cacao. La alcalinización (proceso holandés) añade carbonato potásico para elevar el pH, lo que neutraliza esa acidez, oscurece el color y suaviza el sabor. El resultado es un cacao de color más intenso, sabor más redondo y que se disuelve mejor. La contrapartida es que al estar alcalinizado, ya no reacciona con el bicarbonato sódico: si tu receta esponja por la reacción cacao ácido + bicarbonato, necesitas cacao natural, no alcalinizado."
       },
       {
-        question: "¿Lleva azúcar este cacao?",
+        question: "¿Qué aporta el 22-24% de materia grasa frente al 10-12%?",
         answer:
-          "No. Es 100% cacao, sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico, responsable de la alcalinización."
+          "La materia grasa del cacao es la manteca de cacao que permanece en el polvo tras el prensado. A mayor porcentaje: más cuerpo en la mezcla, color más intenso y sabor más profundo y untuoso. El 22-24% es el indicado para brownies, coulants, fondants y bebidas de chocolate con cuerpo. El 10-12% es más ligero, se disuelve más fácil y aporta menos calorías — mejor para helados, bebidas o preparaciones donde se busca un cacao con menos grasa."
       },
       {
-        question: "¿Cómo se usa en repostería y bebidas?",
+        question: "¿Cuándo usar alcalinizado 22-24% y cuándo los otros cacaos?",
         answer:
-          "En repostería puedes sustituir un 20-25% del peso de la harina y tamizarlo antes de mezclar. Para bebidas, unos 10-15 g por cada 200 ml de leche."
+          "Alcalinizado 22-24%: brownies, coulants, fondants, cremas de chocolate y bebidas con mucho cuerpo. Alcalinizado 10-12%: bebidas, helados, mezclas en polvo y preparaciones ligeras donde se busca cacao oscuro con menos grasa. Natural 10-12%: recetas que esponjan con bicarbonato (el ácido del cacao reactiva el bicarbonato), o cuando se busca un sabor más fresco y afrutado."
+      },
+      {
+        question: "¿Lleva azúcar?",
+        answer:
+          "No. Es 100% cacao, sin azúcar añadido. Su único aditivo es el carbonato potásico, que es el regulador de acidez usado para la alcalinización. Apto para veganos."
       }
     ]
   },
@@ -1037,13 +1042,13 @@ export const products: Product[] = [
     slug: "cacao-en-polvo-alcalino-10-12",
     name: "Cacao en polvo alcalinizado 10/12%",
     shortDescription:
-      "Cacao en polvo alcalinizado con 10-12% de materia grasa, 100% cacao, sin azúcar y apto para veganos. Color oscuro y sabor suave para repostería y bebidas.",
+      "Cacao alcalinizado con 10-12% de materia grasa: color oscuro y sabor suave con menos grasa. Ideal para bebidas, helados y repostería ligera.",
     description:
-      "Cacao en polvo alcalinizado 10-12% de materia grasa, tratado mediante el proceso holandés. Al tener menos contenido en manteca de cacao que el formato 22-24%, se disuelve con mayor facilidad y aporta menos grasa, manteniendo el color oscuro y el sabor profundo que caracterizan al cacao alcalinizado. 100% cacao, sin azúcar añadido y apto para veganos. Ideal para bebidas, mezclas, helados y elaboraciones donde se busca un cacao de bajo contenido graso. Formato 1 kg, envasado en España.",
+      "Cacao en polvo alcalinizado 10-12% de materia grasa, tratado mediante el proceso holandés. La alcalinización eleva el pH del cacao con carbonato potásico, neutralizando la acidez natural, intensificando el color oscuro y mejorando la solubilidad. Al tener menos manteca de cacao que el formato 22-24%, se disuelve con mayor facilidad y aporta menos grasa, manteniendo el color oscuro y el sabor suave y redondo del cacao alcalinizado. 100% cacao, sin azúcar añadido, apto para veganos. Ideal para bebidas, helados, mezclas en polvo y repostería donde se busca cacao alcalinizado con menor aporte graso.",
     category: "Cacao y chocolate",
     tags: ["100% cacao", "Alcalinizado", "10-12% materia grasa", "Sin azúcar", "Vegano", "Bajo en grasa", "1 kg"],
     dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido"],
-    highlights: ["100% cacao, sin azúcar añadido", "Bajo en grasa (10-12%)", "Apto para veganos"],
+    highlights: ["Alcalinizado — color oscuro y sabor suave", "10-12% materia grasa — más ligero", "Sin azúcar añadido · Vegano"],
     mainImage: {
       src: "/images/products/cacao-en-polvo-alcalino-10-12-main.svg",
       alt: "Cacao en polvo alcalinizado 10/12% RAIAN 1 kg",
@@ -1088,25 +1093,37 @@ export const products: Product[] = [
     amazonAsin: "B0H4HFYT3C",
     amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H4HFYT3C",
     relatedSlugs: ["cacao-en-polvo-alcalino", "cacao-natural-10-12", "chocolate-a-la-taza"],
-    recipeSlugs: [],
+    recipeSlugs: [
+      "brownie-humedo-de-cacao-alcalino-raian",
+      "coulant-de-chocolate-con-cacao-alcalino",
+      "bizcocho-de-cacao-sin-horno",
+      "galletas-de-avena-y-cacao-alcalino",
+      "crema-de-cacao-casera-tipo-avellana",
+      "smoothie-de-cacao-alcalino-y-frutos-rojos"
+    ],
     seoTitle: "Cacao en polvo alcalinizado 10/12% 1 kg | RAIAN Foods",
     seoDescription:
-      "Cacao alcalinizado 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Bajo contenido en manteca de cacao para bebidas, helados y repostería ligera.",
+      "Cacao alcalinizado 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Menos grasa y más fácil de disolver para bebidas, helados y repostería ligera.",
     faqs: [
       {
-        question: "¿Qué diferencia hay entre el cacao 10/12% y el 22-24%?",
+        question: "¿Qué significa que el cacao es alcalinizado?",
         answer:
-          "La diferencia está en el contenido en manteca de cacao. El 10-12% tiene menos grasa y se disuelve más fácilmente; el 22-24% tiene más cuerpo, color más intenso y sabor más redondo. El uso depende de la receta y del resultado buscado."
+          "El cacao natural tiene acidez propia del grano. La alcalinización (proceso holandés) añade carbonato potásico para elevar el pH, neutralizando esa acidez, oscureciendo el color y suavizando el sabor. El resultado es un cacao de color más intenso y sabor más redondo que se disuelve mejor. La contrapartida: ya no reacciona con el bicarbonato sódico, por lo que en recetas que esponjan por esa reacción conviene usar cacao natural."
       },
       {
-        question: "¿El cacao 10/12% lleva azúcar?",
+        question: "¿Qué diferencia hay entre el 10-12% y el 22-24% de materia grasa?",
         answer:
-          "No. Es 100% cacao, sin azúcar añadido y apto para dietas veganas. Su único regulador de acidez es el carbonato potásico."
+          "La materia grasa es la manteca de cacao que permanece en el polvo. El 10-12% tiene menos grasa: se disuelve más fácil, es más ligero calóricamente y conviene para bebidas, helados y mezclas. El 22-24% tiene más cuerpo, color más intenso y sabor más profundo — mejor para brownies, coulants y fondants donde se busca textura densa y color oscuro."
       },
       {
-        question: "¿Para qué elaboraciones es ideal el cacao 10/12%?",
+        question: "¿Cuándo usar el cacao alcalinizado 10-12% frente a los otros?",
         answer:
-          "Es especialmente indicado para bebidas, helados, mezclas en polvo y preparaciones donde se busca un cacao alcalinizado con menor aporte graso."
+          "Este formato es el equilibrio entre color alcalinizado (oscuro, suave) y bajo aporte graso. Ideal para bebidas calientes o frías, helados, mousses y cualquier preparación donde se quiera cacao de color oscuro sin añadir demasiada grasa. Para más cuerpo: alcalinizado 22-24%. Para recetas con bicarbonato o sabor más afrutado: natural 10-12%."
+      },
+      {
+        question: "¿Lleva azúcar?",
+        answer:
+          "No. Es 100% cacao, sin azúcar añadido. Su único aditivo es el carbonato potásico, el regulador de acidez de la alcalinización. Apto para veganos."
       }
     ]
   },
@@ -1114,13 +1131,13 @@ export const products: Product[] = [
     slug: "cacao-natural-10-12",
     name: "Cacao en polvo natural 10/12%",
     shortDescription:
-      "Cacao en polvo natural (sin alcalinizar) con 10-12% de materia grasa, 100% cacao, sin azúcar y apto para veganos. Sabor afrutado y más ácido para repostería y bebidas.",
+      "Cacao natural (sin alcalinizar) con 10-12% de materia grasa: sabor afrutado y acidez propia del cacao. Reactivo con bicarbonato para bizcochos que esponjan de forma natural.",
     description:
-      "Cacao en polvo natural, sin someterse al proceso de alcalinización, con un contenido en materia grasa de 10-12%. Al no estar tratado, conserva su acidez natural, su color más claro y un perfil de sabor más afrutado y vivo que los cacaos alcalinizados. 100% cacao, sin azúcar añadido y apto para veganos. Ideal para recetas donde se busca la reactividad natural del cacao con bicarbonato (como bizcochos que esponjan por reacción ácida), así como para elaboraciones donde se quiere un sabor más fresco. Formato 1 kg, envasado en España.",
+      "Cacao en polvo natural, sin pasar por el proceso de alcalinización, con un contenido en materia grasa de 10-12%. Al no estar alcalinizado, conserva su acidez natural (pH bajo), su color más claro y un perfil de sabor más afrutado y vivo. Esta acidez es clave en recetas que usan bicarbonato sódico como impulsor: el ácido del cacao reacciona con el bicarbonato generando gas y esponjando la masa de forma natural. 100% cacao, sin azúcar añadido, apto para veganos. Ideal cuando se busca un sabor más fresco o cuando la receta requiere que el cacao reaccione con el bicarbonato. No recomendado como sustituto directo del alcalinizado en recetas que dependen del color oscuro o del sabor suave.",
     category: "Cacao y chocolate",
     tags: ["100% cacao", "Natural", "Sin alcalinizar", "10-12% materia grasa", "Sin azúcar", "Vegano", "1 kg"],
     dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido"],
-    highlights: ["100% cacao puro sin alcalinizar", "Sin azúcar añadido", "Apto para veganos"],
+    highlights: ["Natural — sin alcalinizar, sabor afrutado", "Reactivo con bicarbonato para bizcochos", "Sin azúcar añadido · Vegano"],
     mainImage: {
       src: "/images/products/cacao-natural-10-12-main.svg",
       alt: "Cacao en polvo natural 10/12% RAIAN 1 kg",
@@ -1165,25 +1182,37 @@ export const products: Product[] = [
     amazonAsin: "B0H4NWTTSN",
     amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H4NWTTSN",
     relatedSlugs: ["cacao-en-polvo-alcalino", "cacao-en-polvo-alcalino-10-12", "chocolate-a-la-taza"],
-    recipeSlugs: [],
+    recipeSlugs: [
+      "brownie-humedo-de-cacao-alcalino-raian",
+      "coulant-de-chocolate-con-cacao-alcalino",
+      "bizcocho-de-cacao-sin-horno",
+      "galletas-de-avena-y-cacao-alcalino",
+      "crema-de-cacao-casera-tipo-avellana",
+      "smoothie-de-cacao-alcalino-y-frutos-rojos"
+    ],
     seoTitle: "Cacao en polvo natural 10/12% 1 kg | RAIAN Foods",
     seoDescription:
-      "Cacao natural sin alcalinizar 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Sabor afrutado y ácido natural para repostería y bebidas.",
+      "Cacao natural sin alcalinizar 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Sabor afrutado y ácido natural. Reactivo con bicarbonato para bizcochos.",
     faqs: [
       {
         question: "¿Qué diferencia hay entre cacao natural y alcalinizado?",
         answer:
-          "El cacao natural conserva su acidez, tiene un color más claro y un sabor más afrutado. El alcalinizado ha pasado por el proceso holandés, que suaviza la acidez, intensifica el color y mejora la solubilidad."
+          "El cacao natural conserva la acidez propia del grano: color más claro, sabor más afrutado y vivo. El alcalinizado ha pasado por el proceso holandés (se añade carbonato potásico para elevar el pH): color más oscuro, sabor más suave y mejor solubilidad. Ambos son 100% cacao sin azúcar, pero su comportamiento en recetas es diferente."
       },
       {
-        question: "¿Por qué usar cacao natural con bicarbonato?",
+        question: "¿Por qué usar cacao natural con bicarbonato y no con levadura química?",
         answer:
-          "El cacao natural es ácido y reacciona con el bicarbonato sódico, ayudando al esponjado de bizcochos. Con el cacao alcalinizado esta reacción es mínima, por lo que suele ir mejor con levadura química."
+          "El bicarbonato sódico necesita un ácido para activarse y generar gas. El cacao natural lo proporciona: la reacción ácido-base esponja la masa de forma eficaz. El cacao alcalinizado tiene pH neutro o ligeramente básico y no activa el bicarbonato, por lo que en esas recetas se usa levadura química (que ya incorpora su propio ácido). Si cambias cacao natural por alcalinizado en una receta con bicarbonato, el resultado puede salir denso y sin subir bien."
       },
       {
-        question: "¿El cacao natural 10/12% lleva azúcar?",
+        question: "¿Cuándo conviene el cacao natural y cuándo el alcalinizado?",
         answer:
-          "No. Es 100% cacao puro, sin azúcar añadido ni reguladores de acidez. Apto para dietas veganas."
+          "Natural: recetas que esponjan con bicarbonato, elaboraciones donde se quiere sabor afrutado o más fresco, y cuando el color claro no es un problema. Alcalinizado 10-12%: bebidas, helados y preparaciones ligeras donde se quiere color oscuro y sabor suave. Alcalinizado 22-24%: brownies, coulants y fondants donde se busca el mayor color, cuerpo y sabor profundo."
+      },
+      {
+        question: "¿Lleva azúcar o aditivos?",
+        answer:
+          "No. Es 100% cacao puro, sin azúcar añadido y sin reguladores de acidez ni ningún otro aditivo. Apto para veganos."
       }
     ]
   },
