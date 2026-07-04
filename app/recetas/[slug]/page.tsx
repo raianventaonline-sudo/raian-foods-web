@@ -93,7 +93,7 @@ const recipeJsonLd = (recipe: Recipe) => ({
   recipeYield: `${recipe.servings} raciones`,
   prepTime: toIsoDuration(recipe.times.prep_min),
   cookTime: toIsoDuration(recipe.times.cook_min),
-  totalTime: toIsoDuration(recipe.times.total_min),
+  totalTime: toIsoDuration(recipe.times.prep_min + recipe.times.cook_min),
   keywords: recipe.keywords.join(", "),
   recipeIngredient: recipe.ingredients.map((ingredient) => `${ingredient.name}: ${ingredient.g} g`),
   recipeInstructions: recipe.steps.map((step, index) => ({
@@ -254,7 +254,7 @@ export default function RecipePage({ params }: RecipePageProps) {
             ["Preparación", recipe.times.prep_min],
             ["Cocción", recipe.times.cook_min],
             ["Reposo", recipe.times.rest_min],
-            ["Total", recipe.times.total_min]
+            ["Total", recipe.times.prep_min + recipe.times.cook_min]
           ].map(([label, minutes]) => (
             <div key={label} className="rounded-md border border-line bg-white p-5 shadow-sm">
               <p className="text-sm font-semibold text-olive">{label}</p>

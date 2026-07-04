@@ -219,7 +219,7 @@ const mapSource = (source: RecipesSource): Recipe[] => {
       categoryLabel: categoryLabels[recipe.category],
       relatedProduct: productName,
       relatedProductSlug: productSlug,
-      time: formatMinutes(recipe.times.total_min),
+      time: formatMinutes(recipe.times.prep_min + recipe.times.cook_min),
       image: {
         src: imageSrc,
         alt: `${recipe.title} preparada como receta RAIAN`,
