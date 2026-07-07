@@ -17,7 +17,7 @@ export function PlaceholderMedia({
   if (asset.available) {
     const fit = asset.fit ?? "cover";
     const imageClassName = fit === "contain" ? "object-contain p-3" : "object-cover";
-    const isSvg = asset.src.endsWith(".svg") || asset.src.endsWith(".png");
+    const isSvg = asset.src.endsWith(".svg") || asset.src.endsWith(".png") || asset.src.endsWith(".webp");
 
     return (
       <div className={`raian-media relative overflow-hidden rounded-lg bg-beige ${className}`}>
