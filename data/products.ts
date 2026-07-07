@@ -124,8 +124,8 @@ const bovineGelatinNutrition: NutritionRow[] = [
 ];
 
 const porcineGelatinTechnicalSheet: TechnicalRow[] = [
-  { label: "Nombre del producto", value: "Gelatina neutra porcina 220 Bloom" },
-  { label: "Origen / tipo", value: "Gelatina porcina 220 Bloom" },
+  { label: "Nombre del producto", value: "Gelatina neutra porcina 260 Bloom" },
+  { label: "Origen / tipo", value: "Gelatina porcina 260 Bloom" },
   { label: "Ingredientes", value: "Gelatina porcina" },
   { label: "Formato", value: "1 kg" },
   { label: "Peso neto", value: "1 kg" },
@@ -358,7 +358,7 @@ export const products: Product[] = [
       {
         question: "¿Puedo sustituirla por gelatina porcina en una receta?",
         answer:
-          "Sí, son intercambiables. La diferencia está en el Bloom: la bovina RAIAN es de 260 Bloom y la porcina de 220 Bloom. Si una receta está calculada para gelatina bovina y usas la porcina, añade un 10-15% más de cantidad para conseguir la misma firmeza."
+          "Sí, son completamente intercambiables en las mismas cantidades. Ambas son de 260 Bloom, por lo que tienen la misma fuerza de gelificación. La única diferencia es el origen del colágeno: bovina (apta Halal) o porcina."
       },
       {
         question: "¿Qué certificaciones tiene esta gelatina?",
@@ -410,22 +410,22 @@ export const products: Product[] = [
     shortDescription:
       "Gelatina neutra de origen porcino para preparaciones culinarias, postres y recetas que requieren textura y consistencia.",
     description:
-      "Gelatina neutra de origen porcino en formato 1 kg, con indicación 220 Bloom. Pensada para recetas dulces y preparaciones alimentarias donde la textura final forma parte de la elaboración.",
+      "Gelatina neutra de origen porcino en formato 1 kg, con indicación 260 Bloom. Pensada para recetas dulces y preparaciones alimentarias donde la textura final forma parte de la elaboración.",
     category: "Gelatinas",
-    tags: ["Neutra", "Origen porcino", "220 Bloom", "Postres", "Cocina", "1 kg"],
+    tags: ["Neutra", "Origen porcino", "260 Bloom", "Postres", "Cocina", "1 kg"],
     dietFilters: ["Sin gluten", "Alto en proteína"],
     highlights: ["Alto contenido en proteína (85,6 g/100 g)", "Muy bajo en grasa", "Sin alérgenos de declaración obligatoria"],
     mainImage: {
       src: "/images/products/gelatina-porcina-main.png",
-      alt: "Bote de gelatina neutra porcina RAIAN 220 Bloom 1 kg",
-      label: "Gelatina porcina 220 Bloom",
+      alt: "Bote de gelatina neutra porcina RAIAN 260 Bloom 1 kg",
+      label: "Gelatina porcina 260 Bloom",
       available: true,
       fit: "contain"
     },
     gallery: [
       {
         src: "/images/products/gelatina-porcina-main.png",
-        alt: "Bote de gelatina neutra porcina RAIAN 220 Bloom 1 kg",
+        alt: "Bote de gelatina neutra porcina RAIAN 260 Bloom 1 kg",
         label: "Gelatina porcina 1 kg",
         available: true,
         fit: "contain"
@@ -556,9 +556,9 @@ export const products: Product[] = [
       "postre-casero-de-nata-y-fresas-con-gelatina-bovina",
       "terrina-casera-salada-de-pollo-zanahoria-y-guisantes"
     ],
-    seoTitle: "Gelatina neutra porcina 220 Bloom 1 kg | RAIAN Foods",
+    seoTitle: "Gelatina neutra porcina 260 Bloom 1 kg | RAIAN Foods",
     seoDescription:
-      "Gelatina neutra porcina RAIAN 220 Bloom en formato 1 kg. Perfecta para postres, mousses, tartas y recetas que necesitan textura y consistencia.",
+      "Gelatina neutra porcina RAIAN 260 Bloom en formato 1 kg. Perfecta para postres, mousses, tartas y recetas que necesitan textura y consistencia.",
     faqs: [
       {
         question: "¿La gelatina neutra porcina tiene sabor?",
@@ -568,12 +568,12 @@ export const products: Product[] = [
       {
         question: "¿En qué se diferencia de la gelatina bovina?",
         answer:
-          "Además del origen del colágeno, el grado Bloom: la bovina RAIAN es de 260 Bloom y la porcina de 220 Bloom. Cuanto más alto es el Bloom, mayor fuerza de gelificación tiene el producto y menos cantidad necesitas para conseguir el mismo resultado. Si sustituyes una por otra en una receta calculada para 260 Bloom, añade un 10-15% más de gelatina porcina para igualar la firmeza. La versión bovina, además, es apta Halal."
+          "Únicamente el origen del colágeno. Ambas son 260 Bloom, por lo que tienen exactamente la misma fuerza de gelificación y son intercambiables en las mismas cantidades sin ningún ajuste. La bovina RAIAN es apta Halal; la porcina no."
       },
       {
-        question: "¿Qué significa que sea 220 Bloom?",
+        question: "¿Qué significa que sea 260 Bloom?",
         answer:
-          "El grado Bloom mide la fuerza de gelificación de la gelatina: a mayor Bloom, más firme queda el resultado con la misma cantidad y más rendimiento tiene el producto. 220 Bloom es un valor alto, propio de gelatinas de calidad profesional."
+          "El grado Bloom mide la fuerza de gelificación de la gelatina: a mayor Bloom, más firme queda el resultado con la misma cantidad y más rendimiento tiene el producto. 260 Bloom es un valor alto, propio de gelatinas de calidad profesional."
       },
       {
         question: "¿Para qué recetas sirve?",
