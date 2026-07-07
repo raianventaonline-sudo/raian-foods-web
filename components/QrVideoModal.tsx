@@ -38,6 +38,15 @@ function SpeakerOffIcon() {
   );
 }
 
+function PlayIcon() {
+  return (
+    <svg width="48" height="48" viewBox="0 0 24 24" fill="white" aria-hidden>
+      <circle cx="12" cy="12" r="12" fill="rgba(0,0,0,0.5)" />
+      <path d="M10 8l6 4-6 4V8z" fill="white" />
+    </svg>
+  );
+}
+
 function QrVideoModalInner() {
   const searchParams = useSearchParams();
   const isQrRef = searchParams.get("ref") === "qr";
@@ -45,9 +54,9 @@ function QrVideoModalInner() {
 
   const [session, setSession] = useState<ActiveQrSession | null>(null);
   const [visible, setVisible] = useState(false);
+  const [started, setStarted] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(VIDEO_DURATION_FALLBACK);
   const [muted, setMuted] = useState(false);
-  const [blockedHint, setBlockedHint] = useState(false);
 
   useEffect(() => {
     if (!isQrRef) return;
@@ -55,8 +64,8 @@ function QrVideoModalInner() {
     const tryShow = () => {
       const active = getActiveQrSession();
       if (!active) return;
-
       setSession(active);
+      setStarted(false);
       setVisible(true);
     };
 
@@ -64,24 +73,16 @@ function QrVideoModalInner() {
     return onQrSessionUpdated(tryShow);
   }, [isQrRef]);
 
-  useEffect(() => {
-    if (!visible) return;
+  const startVideo = () => {
+    setStarted(true);
     const videoEl = videoRef.current;
     if (!videoEl) return;
-
     videoEl.muted = false;
-    const playResult = videoEl.play();
-    if (playResult && typeof playResult.catch === "function") {
-      playResult.catch(() => {
-        // Most browsers block unmuted autoplay without a prior user gesture.
-        // Fall back to muted playback and let the speaker button unmute on tap.
-        videoEl.muted = true;
-        setMuted(true);
-        setBlockedHint(true);
-        videoEl.play().catch(() => {});
-      });
-    }
-  }, [visible]);
+    videoEl.play().catch(() => {
+      videoEl.muted = true;
+      setMuted(true);
+    });
+  };
 
   const close = () => setVisible(false);
 
@@ -93,13 +94,11 @@ function QrVideoModalInner() {
     setVisible(false);
   };
 
-  const unmute = () => {
-    setMuted(false);
-    setBlockedHint(false);
-    if (videoRef.current) {
-      videoRef.current.muted = false;
-      videoRef.current.play().catch(() => {});
-    }
+  const toggleMute = () => {
+    const videoEl = videoRef.current;
+    if (!videoEl) return;
+    videoEl.muted = !muted;
+    setMuted(!muted);
   };
 
   if (!session) return null;
@@ -126,10 +125,8 @@ function QrVideoModalInner() {
               ref={videoRef}
               src="/videos/qr-review-prompt.mp4"
               poster="/videos/qr-review-prompt-poster.jpg"
-              autoPlay
-              muted={muted}
               playsInline
-              onClick={() => muted && unmute()}
+              muted={muted}
               onLoadedMetadata={(e) => setSecondsLeft(Math.ceil(e.currentTarget.duration))}
               onTimeUpdate={(e) => {
                 const remaining = Math.max(0, Math.ceil(e.currentTarget.duration - e.currentTarget.currentTime));
@@ -139,17 +136,41 @@ function QrVideoModalInner() {
               className="h-full w-full object-cover"
             />
 
-            <div className="absolute right-3 top-3 flex items-center gap-2">
-              <button
-                onClick={() => (muted ? unmute() : setMuted(true))}
-                aria-label={muted ? "Activar sonido" : "Silenciar"}
-                className="flex h-8 w-8 items-center justify-center rounded-full bg-black/50 text-white transition hover:bg-black/70"
+            {/* Pantalla de inicio — requiere tap para poder reproducir con sonido */}
+            {!started && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="absolute inset-0 flex flex-col items-center justify-center bg-black/60"
               >
-                {muted ? <SpeakerOffIcon /> : <SpeakerOnIcon />}
-              </button>
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black/50 text-xs font-bold text-white">
-                {secondsLeft}s
-              </div>
+                <button
+                  onClick={startVideo}
+                  aria-label="Reproducir vídeo"
+                  className="flex flex-col items-center gap-3"
+                >
+                  <PlayIcon />
+                  <span className="rounded-full bg-white/20 px-4 py-1.5 text-sm font-semibold text-white backdrop-blur">
+                    Toca para ver el vídeo
+                  </span>
+                </button>
+              </motion.div>
+            )}
+
+            <div className="absolute right-3 top-3 flex items-center gap-2">
+              {started && (
+                <button
+                  onClick={toggleMute}
+                  aria-label={muted ? "Activar sonido" : "Silenciar"}
+                  className="flex h-8 w-8 items-center justify-center rounded-full bg-black/50 text-white transition hover:bg-black/70"
+                >
+                  {muted ? <SpeakerOffIcon /> : <SpeakerOnIcon />}
+                </button>
+              )}
+              {started && (
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black/50 text-xs font-bold text-white">
+                  {secondsLeft}s
+                </div>
+              )}
               <button
                 onClick={close}
                 aria-label="Cerrar vídeo"
@@ -158,15 +179,6 @@ function QrVideoModalInner() {
                 <XIcon />
               </button>
             </div>
-
-            {blockedHint && (
-              <button
-                onClick={unmute}
-                className="absolute left-1/2 top-3 -translate-x-1/2 rounded-full bg-black/60 px-3 py-1 text-xs font-semibold text-white"
-              >
-                🔇 Toca para activar el sonido
-              </button>
-            )}
 
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent p-4 pt-10">
               <p className="text-sm font-medium leading-5 text-white">
