@@ -712,7 +712,8 @@
         "batido de caseína y cacao",
         "proteína nocturna cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/batido-proteico-de-cacao-y-caseina-raian.webp"
     },
     {
       "category": "fitness",
@@ -795,7 +796,8 @@
         "desayuno fitness cacao",
         "pudding nocturno"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/pudding-de-chia-y-cacao-alcalino.webp"
     },
     {
       "category": "fitness",
@@ -886,7 +888,8 @@
         "desayuno fitness cacao",
         "porridge de chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bowl-de-avena-con-cacao-y-platano.webp"
     },
     {
       "category": "fitness",
@@ -985,7 +988,8 @@
         "brownie fitness sin harina",
         "brownie caseína RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/brownie-proteico-de-cacao-raian.webp"
     },
     {
       "category": "fitness",
@@ -1078,7 +1082,8 @@
         "barrita deportiva sin azúcar",
         "barrita RAIAN cacao dátil"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/barritas-energeticas-de-cacao-y-datil-raian.webp"
     },
     {
       "category": "fitness",
@@ -1169,7 +1174,8 @@
         "mousse de caseína cacao",
         "postre fitness chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/mousse-de-cacao-proteico-raian.webp"
     },
     {
       "category": "fitness",
@@ -1254,7 +1260,8 @@
         "avena con cacao fitness",
         "desayuno chocolate alcalino"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/porridge-de-cacao-y-avena-raian.webp"
     },
     {
       "category": "fitness",
@@ -1337,7 +1344,8 @@
         "maltodextrina cacao recuperación",
         "batido recuperación muscular"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/batido-post-entrenamiento-cacao-maltodextrina-raian.webp"
     },
     {
       "category": "fitness",
@@ -1428,7 +1436,8 @@
         "pancakes de avena cacao",
         "tortitas sin harina chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tortitas-de-cacao-y-avena-fitness.webp"
     },
     {
       "category": "fitness",
@@ -1511,7 +1520,8 @@
         "postre fitness gelatina cacao",
         "cacao y gelatina bovina RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/gelatina-de-cacao-con-proteina-raian.webp"
     },
     {
       "category": "fitness",
@@ -1601,7 +1611,8 @@
         "avena nocturna chocolate",
         "desayuno cacao sin cocción"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/overnight-oats-de-cacao-raian.webp"
     },
     {
       "category": "fitness",
@@ -1697,7 +1708,8 @@
         "bizcocho microondas sin gluten",
         "postre fitness cacao rápido"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/mugcake-de-cacao-fitness-raian.webp"
     },
     {
       "category": "fitness",
@@ -1780,7 +1792,8 @@
         "recuperación muscular cacao",
         "dextrosa cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bowl-post-workout-cacao-dextrosa-raian.webp"
     },
     {
       "category": "fitness",
@@ -1870,7 +1883,8 @@
         "bolitas proteicas cacao",
         "snack fitness cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/energy-balls-de-cacao-y-gelatina-raian.webp"
     },
     {
       "category": "fitness",
@@ -1968,7 +1982,8 @@
         "granola fitness cacao",
         "granola de chocolate saludable"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/granola-de-cacao-sin-azucar-raian.webp"
     },
     {
       "category": "fitness",
@@ -2048,7 +2063,8 @@
         "nice cream cacao fitness",
         "helado caseína cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/helado-proteico-de-cacao-raian.webp"
     },
     {
       "category": "fitness",
@@ -2139,7 +2155,8 @@
         "tortitas fitness sin harina",
         "pancakes alto en proteína cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/pancakes-de-cacao-y-caseina-raian.webp"
     },
     {
       "category": "fitness",
@@ -2236,7 +2253,8 @@
         "tarta de queso cacao fit",
         "postre fitness cacao proteico"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-fria-de-cacao-y-queso-fitness-raian.webp"
     },
     {
       "category": "fitness",
@@ -2319,7 +2337,8 @@
         "batido chocolate microbiota",
         "cacao con fibra prebiótica RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/batido-de-cacao-e-inulina-raian.webp"
     },
     {
       "category": "familiar",
@@ -2430,7 +2449,8 @@
         "bizcocho de cacao esponjoso",
         "tarta de cumpleaños cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-chocolate-facil-cacao-alcalino-raian.webp"
     },
     {
       "category": "familiar",
@@ -2534,7 +2554,8 @@
         "muffins de chocolate caseros",
         "merienda familiar cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/magdalenas-de-cacao-esponjosas-raian.webp"
     },
     {
       "category": "familiar",
@@ -2638,7 +2659,8 @@
         "gofres de chocolate caseros",
         "waffles familiar chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/waffles-de-cacao-y-miel-raian.webp"
     },
     {
       "category": "familiar",
@@ -2730,7 +2752,8 @@
         "crepes de chocolate familiar",
         "merienda niños cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/crepes-de-cacao-para-ninos-raian.webp"
     },
     {
       "category": "familiar",
@@ -2817,7 +2840,8 @@
         "chocolate caliente casero con cacao",
         "chocolate para churros RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/chocolate-a-la-taza-espeso-cacao-raian.webp"
     },
     {
       "category": "familiar",
@@ -2933,7 +2957,8 @@
         "cupcakes de chocolate con buttercream",
         "merienda especial cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/cupcakes-de-cacao-con-buttercream-raian.webp"
     },
     {
       "category": "familiar",
@@ -3032,7 +3057,8 @@
         "bizcocho de chocolate esponjoso familiar",
         "tarta de chocolate clásica"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bizcocho-de-yogur-y-cacao-alcalino-raian.webp"
     },
     {
       "category": "familiar",
@@ -3112,7 +3138,8 @@
         "batido americano cacao RAIAN",
         "batido de helado y cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/milkshake-de-chocolate-casero-raian.webp"
     },
     {
       "category": "familiar",
@@ -3211,7 +3238,8 @@
         "muffins sin azúcar chocolate",
         "merienda familiar muffins cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/muffins-de-cacao-y-platano-raian.webp"
     },
     {
       "category": "familiar",
@@ -3315,7 +3343,8 @@
         "bizcocho bicolor chocolate",
         "marmolado familiar RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bizcocho-marmolado-cacao-vainilla-raian.webp"
     },
     {
       "category": "familiar",
@@ -3410,7 +3439,8 @@
         "tarta de chocolate fría sin horno",
         "postre familiar verano cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-helada-de-cacao-raian.webp"
     },
     {
       "category": "familiar",
@@ -3514,7 +3544,8 @@
         "donuts de chocolate sin freír",
         "merienda niños cacao donuts"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/rosquillas-de-cacao-al-horno-raian.webp"
     },
     {
       "category": "familiar",
@@ -3606,7 +3637,8 @@
         "arroz con leche de chocolate",
         "postre familiar chocolate español RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/arroz-con-leche-de-cacao-raian.webp"
     },
     {
       "category": "familiar",
@@ -3715,7 +3747,8 @@
         "bizcocho de chocolate y naranja familiar",
         "tarta naranja y cacao alcalino RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-cacao-y-naranja-raian.webp"
     },
     {
       "category": "familiar",
@@ -3806,7 +3839,8 @@
         "napolitana de chocolate hojaldre",
         "merienda familiar napolitanas RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/napolitana-de-cacao-casera-raian.webp"
     },
     {
       "category": "familiar",
@@ -3903,7 +3937,8 @@
         "pancakes fluffy chocolate",
         "desayuno familiar tortitas cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tortitas-americanas-de-cacao-raian.webp"
     },
     {
       "category": "familiar",
@@ -3991,7 +4026,8 @@
         "natillas de chocolate caseras",
         "postre familiar cacao fácil RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/postre-de-cacao-y-leche-condensada-raian.webp"
     },
     {
       "category": "casera",
@@ -4081,7 +4117,8 @@
         "mousse de cacao casera",
         "postre casero de chocolate RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/mousse-de-chocolate-clasica-cacao-raian.webp"
     },
     {
       "category": "casera",
@@ -4170,7 +4207,8 @@
         "trufas de chocolate RAIAN",
         "regalo de chocolate casero"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/trufas-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "casera",
@@ -4257,7 +4295,8 @@
         "fondue de cacao RAIAN",
         "postre compartido chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/fondue-de-chocolate-casera-cacao-raian.webp"
     },
     {
       "category": "casera",
@@ -4340,7 +4379,8 @@
         "helado casero de chocolate 3 ingredientes",
         "helado cacao alcalino RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/helado-de-cacao-sin-maquina-raian.webp"
     },
     {
       "category": "casera",
@@ -4436,7 +4476,8 @@
         "tiramisú casero italiano RAIAN",
         "postre casero tiramisú chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tiramisu-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "casera",
@@ -4523,7 +4564,8 @@
         "panna cotta de chocolate casera",
         "postre italiano cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/panna-cotta-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "casera",
@@ -4628,7 +4670,8 @@
         "tarta de queso y chocolate casera",
         "cheesecake cacao RAIAN sin horno"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-queso-y-cacao-alcalino-raian.webp"
     },
     {
       "category": "casera",
@@ -4710,7 +4753,8 @@
         "brigadeiro brasileño casero RAIAN",
         "dulce de chocolate brasileño"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/brigadeiros-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "casera",
@@ -4796,7 +4840,8 @@
         "mendiants de cacao caseros",
         "dulce chocolate frutos secos RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/rocas-de-chocolate-y-frutos-secos-cacao-raian.webp"
     },
     {
       "category": "casera",
@@ -4881,7 +4926,8 @@
         "salsa de chocolate casera",
         "topping de cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/salsa-de-cacao-raian-para-postres.webp"
     },
     {
       "category": "casera",
@@ -4964,7 +5010,8 @@
         "bolitas de coco y chocolate sin horno",
         "dulce casero cacao coco RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bocaditos-de-cacao-y-coco-raian.webp"
     },
     {
       "category": "casera",
@@ -5067,7 +5114,8 @@
         "bizcocho húmedo de chocolate",
         "tarta de chocolate y remolacha RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bizcocho-de-cacao-y-remolacha-raian.webp"
     },
     {
       "category": "casera",
@@ -5165,7 +5213,8 @@
         "granola casera chocolate sin azúcar",
         "muesli crujiente cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/muesli-de-cacao-tostado-raian.webp"
     },
     {
       "category": "casera",
@@ -5258,7 +5307,8 @@
         "natillas de chocolate caseras",
         "postre casero cacao RAIAN natillas"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/natillas-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "casera",
@@ -5346,7 +5396,8 @@
         "chocolate caliente con leche de coco RAIAN",
         "bebida caliente cacao especias"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/hot-chocolate-artesanal-cacao-raian.webp"
     },
     {
       "category": "premium",
@@ -5457,7 +5508,8 @@
         "Sachertorte cacao alcalino",
         "tarta austríaca de chocolate RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-sacher-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -5544,7 +5596,8 @@
         "cobertura de chocolate casera",
         "ganache RAIAN para tartas"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/ganache-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -5649,7 +5702,8 @@
         "crema catalana de chocolate RAIAN",
         "postre premium español cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/crema-catalana-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -5745,7 +5799,8 @@
         "semifreddo italiano chocolate",
         "postre helado premium cacao RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/semifreddo-de-cacao-y-avellana-raian.webp"
     },
     {
       "category": "premium",
@@ -5841,7 +5896,8 @@
         "financier de chocolate francés RAIAN",
         "petit four de cacao alcalino"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/financier-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -5957,7 +6013,8 @@
         "tarta de chocolate negro premium RAIAN",
         "entremet de cacao alcalino"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-mousse-de-chocolate-negro-raian.webp"
     },
     {
       "category": "premium",
@@ -6078,7 +6135,8 @@
         "eclair cacao alcalino RAIAN",
         "pastelería francesa chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/eclair-de-chocolate-cacao-raian.webp"
     },
     {
       "category": "premium",
@@ -6173,7 +6231,8 @@
         "crema quemada de chocolate RAIAN",
         "postre francés premium cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/creme-brulee-de-cacao-raian.webp"
     },
     {
       "category": "premium",
@@ -6269,7 +6328,8 @@
         "parfait helado premium chocolate RAIAN",
         "helado francés sin máquina cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/parfait-de-cacao-y-avellana-raian.webp"
     },
     {
       "category": "premium",
@@ -6383,7 +6443,8 @@
         "brownie mousse frambuesa RAIAN",
         "postre premium chocolate frambuesa"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-chocolate-y-frambuesa-raian.webp"
     },
     {
       "category": "premium",
@@ -6473,7 +6534,8 @@
         "bombones de chocolate negro RAIAN",
         "confitería premium cacao alcalino"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/pralines-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -6573,7 +6635,8 @@
         "postre bomba cacao RAIAN gelatina",
         "bomba de chocolate premium espectacular"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bomba-helada-de-cacao-y-gelatina-raian.webp"
     },
     {
       "category": "premium",
@@ -6690,7 +6753,8 @@
         "tarta de autor cacao RAIAN pistacho",
         "pastelería francesa cacao pistacho premium"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/entremet-de-cacao-y-pistacho-raian.webp"
     },
     {
       "category": "premium",
@@ -6809,7 +6873,8 @@
         "tarta chocolate caramelo premium RAIAN",
         "pastelería moderna cacao caramelo sal"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-cacao-y-caramelo-salado-raian.webp"
     },
     {
       "category": "premium",
@@ -6910,7 +6975,8 @@
         "macarons de chocolate RAIAN",
         "macaron francés cacao premium"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/macaron-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -7025,7 +7091,8 @@
         "opera cake cacao alcalino RAIAN",
         "alta pastelería francesa cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/opera-de-cacao-alcalino-raian.webp"
     },
     {
       "category": "premium",
@@ -7115,7 +7182,8 @@
         "tarta sin harina cacao extremo",
         "tarta belga cacao alcalino RAIAN premium"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-chocolate-belga-cacao-raian.webp"
     },
     {
       "category": "fitness",
@@ -7200,7 +7268,8 @@
         "postre de gelatina y cacao RAIAN",
         "flan proteico de chocolate"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/flan-de-cacao-y-gelatina-raian.webp"
     },
     {
       "category": "fitness",
@@ -7291,7 +7360,8 @@
         "postre fitness ricotta chocolate",
         "tarta sin gluten cacao RAIAN ricotta"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tarta-de-ricotta-y-cacao-fitness-raian.webp"
     },
     {
       "category": "familiar",
@@ -7394,7 +7464,8 @@
         "bizcocho húmedo familiar chocolate",
         "bizcocho niños sin que noten verdura cacao"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bizcocho-de-cacao-y-calabacin-raian.webp"
     },
     {
       "category": "familiar",
@@ -7480,7 +7551,8 @@
         "avena chocolate naranja desayuno familiar",
         "porridge cacao naranja RAIAN"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/porridge-de-avena-cacao-y-naranja-raian.webp"
     },
     {
       "category": "casera",
@@ -7560,7 +7632,8 @@
         "glaseado de cacao sin chocolate RAIAN",
         "frosting de cacao alcalino casero"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/cobertura-de-cacao-raian-para-tartas.webp"
     },
     {
       "category": "casera",
@@ -7657,7 +7730,8 @@
         "bizcocho sin horno rápido cacao RAIAN",
         "tarta de cacao sartén 10 minutos"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/bizcocho-de-cacao-rapido-en-sarten-raian.webp"
     },
     {
       "category": "premium",
@@ -7760,7 +7834,8 @@
         "postre dôme cacao RAIAN frambuesa",
         "entremes individual chocolate espejo"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/dome-de-cacao-y-frambuesa-raian.webp"
     },
     {
       "category": "premium",
@@ -7871,7 +7946,8 @@
         "Bûche de Noël chocolate RAIAN",
         "postre navideño premium cacao alcalino"
       ],
-      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales."
+      "notes": "Tabla nutricional estimada. Validar con fichas técnicas reales.",
+      "imagePath": "/images/recipes/tronco-de-navidad-de-cacao-raian.webp"
     }
   ]
 }
