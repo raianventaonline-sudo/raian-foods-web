@@ -138,6 +138,24 @@ const productIngredientTerms: Record<string, string[]> = {
     "gelatina neutra en polvo",
     "gelatina neutra",
     "gelatina en polvo"
+  ],
+  "cacao-en-polvo-alcalino": [
+    "cacao en polvo alcalino raian",
+    "cacao en polvo alcalino",
+    "cacao alcalino raian",
+    "cacao alcalino"
+  ],
+  "cacao-en-polvo-alcalino-10-12": [
+    "cacao en polvo alcalino raian",
+    "cacao en polvo alcalino",
+    "cacao alcalino raian",
+    "cacao alcalino"
+  ],
+  "cacao-natural-10-12": [
+    "cacao en polvo alcalino raian",
+    "cacao en polvo alcalino",
+    "cacao alcalino raian",
+    "cacao alcalino"
   ]
 };
 
