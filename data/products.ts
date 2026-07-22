@@ -351,6 +351,11 @@ export const products: Product[] = [
           "El grado Bloom mide la fuerza de gelificación: cuanto más alto, más firme queda el resultado y menos cantidad de producto necesitas, porque tiene mayor fuerza para gelificar. 260 Bloom es un valor alto, pensado para texturas firmes y resultados profesionales con menos gramaje por receta."
       },
       {
+        question: "¿Cuántos gramos uso según el tipo de preparación?",
+        answer:
+          "La cantidad depende de la textura que quieras conseguir. Como referencia para 500 ml de líquido: textura suave y cremosa (mousses, salsas, gelatinas para beber) → 4-5 g; textura media (panna cotta, vasitos, natillas cuajadas) → 6-8 g; textura firme para desmoldar (flan, tarta de queso, gelatinas para cortar) → 9-11 g; textura muy firme (gominolas, bombones, decoraciones) → 12-15 g. Estas cantidades son orientativas: cuantos más azúcares, grasas o ácidos tenga la preparación, más gelatina necesitas."
+      },
+      {
         question: "¿Cómo se usa la gelatina neutra en polvo?",
         answer:
           "Hidrátala en agua fría, disuélvela en un líquido caliente sin que llegue a hervir, incorpórala templada a la elaboración y deja enfriar para que gane firmeza."
@@ -574,6 +579,11 @@ export const products: Product[] = [
         question: "¿Qué significa que sea 260 Bloom?",
         answer:
           "El grado Bloom mide la fuerza de gelificación de la gelatina: a mayor Bloom, más firme queda el resultado con la misma cantidad y más rendimiento tiene el producto. 260 Bloom es un valor alto, propio de gelatinas de calidad profesional."
+      },
+      {
+        question: "¿Cuántos gramos uso según el tipo de preparación?",
+        answer:
+          "La cantidad depende de la textura que quieras conseguir. Como referencia para 500 ml de líquido: textura suave y cremosa (mousses, salsas, gelatinas para beber) → 4-5 g; textura media (panna cotta, vasitos, natillas cuajadas) → 6-8 g; textura firme para desmoldar (flan, tarta de queso, gelatinas para cortar) → 9-11 g; textura muy firme (gominolas, bombones, decoraciones) → 12-15 g. Estas cantidades son orientativas: cuantos más azúcares, grasas o ácidos tenga la preparación, más gelatina necesitas."
       },
       {
         question: "¿Para qué recetas sirve?",
