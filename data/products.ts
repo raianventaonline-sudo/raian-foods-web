@@ -358,7 +358,7 @@ export const products: Product[] = [
       {
         question: "¿Cómo se usa la gelatina neutra en polvo?",
         answer:
-          "Hidrátala en agua fría, disuélvela en un líquido caliente sin que llegue a hervir, incorpórala templada a la elaboración y deja enfriar para que gane firmeza."
+          "Sigue estos pasos: 1) Hidrata la gelatina en agua fría (usa 5 veces su peso en agua: p.ej. 10 g de gelatina → 50 g de agua fría) durante 8-10 minutos hasta que absorba toda el agua y se note hinchada. 2) Calienta una pequeña parte del líquido de tu receta (sin que llegue a hervir, 60-80 °C es suficiente) y añade la gelatina hidratada removiendo hasta que se disuelva por completo. 3) Incorpora esta mezcla al resto de ingredientes cuando estén a temperatura ambiente o templados. 4) Deja enfriar en nevera al menos 3-4 horas. Consejo clave: nunca hiervas la gelatina una vez disuelta, ya que el calor excesivo destruye su poder gelificante. Si se te ha enfriado antes de mezclarla, caliéntala brevemente al baño maría sin que llegue a hervir."
       },
       {
         question: "¿Puedo sustituirla por gelatina porcina en una receta?",
@@ -584,6 +584,11 @@ export const products: Product[] = [
         question: "¿Cuántos gramos uso según el tipo de preparación?",
         answer:
           "La cantidad depende de la textura que quieras conseguir. Como referencia para 500 ml de líquido: textura suave y cremosa (mousses, salsas, gelatinas para beber) → 4-5 g; textura media (panna cotta, vasitos, natillas cuajadas) → 6-8 g; textura firme para desmoldar (flan, tarta de queso, gelatinas para cortar) → 9-11 g; textura muy firme (gominolas, bombones, decoraciones) → 12-15 g. Estas cantidades son orientativas: cuantos más azúcares, grasas o ácidos tenga la preparación, más gelatina necesitas."
+      },
+      {
+        question: "¿Cómo se disuelve correctamente?",
+        answer:
+          "Sigue estos pasos: 1) Hidrata la gelatina en agua fría (usa 5 veces su peso en agua: p.ej. 10 g de gelatina → 50 g de agua fría) durante 8-10 minutos hasta que absorba toda el agua y se note hinchada. 2) Calienta una pequeña parte del líquido de tu receta (sin que llegue a hervir, 60-80 °C es suficiente) y añade la gelatina hidratada removiendo hasta que se disuelva por completo. 3) Incorpora esta mezcla al resto de ingredientes cuando estén a temperatura ambiente o templados. 4) Deja enfriar en nevera al menos 3-4 horas. Consejo clave: nunca hiervas la gelatina una vez disuelta, ya que el calor excesivo destruye su poder gelificante. Si se te ha enfriado antes de mezclarla, caliéntala brevemente al baño maría sin que llegue a hervir."
       },
       {
         question: "¿Para qué recetas sirve?",
