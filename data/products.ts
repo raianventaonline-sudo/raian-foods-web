@@ -275,6 +275,7 @@ export const products: Product[] = [
       "Preparaciones que requieren textura."
     ],
     howToUse: [
+      "Una cuchara rasa equivale a 18 g (30 ml) — úsala como referencia rápida para medir sin báscula.",
       "Preparar la cantidad indicada en la receta.",
       "Hidratar o mezclar según el tipo de preparación.",
       "Incorporar a la elaboración.",
@@ -353,7 +354,7 @@ export const products: Product[] = [
       {
         question: "¿Cuántos gramos uso según el tipo de preparación?",
         answer:
-          "La cantidad depende de la textura que quieras conseguir. Como referencia para 500 ml de líquido: textura suave y cremosa (mousses, salsas, gelatinas para beber) → 4-5 g; textura media (panna cotta, vasitos, natillas cuajadas) → 6-8 g; textura firme para desmoldar (flan, tarta de queso, gelatinas para cortar) → 9-11 g; textura muy firme (gominolas, bombones, decoraciones) → 12-15 g. Estas cantidades son orientativas: cuantos más azúcares, grasas o ácidos tenga la preparación, más gelatina necesitas."
+          "Una cuchara rasa = 18 g (30 ml), úsala como referencia rápida sin báscula. La cantidad depende de la textura que quieras conseguir. Como referencia para 500 ml de líquido: textura suave y cremosa (mousses, salsas, gelatinas para beber) → 4-5 g; textura media (panna cotta, vasitos, natillas cuajadas) → 6-8 g; textura firme para desmoldar (flan, tarta de queso, gelatinas para cortar) → 9-11 g; textura muy firme (gominolas, bombones, decoraciones) → 12-15 g. Estas cantidades son orientativas: cuantos más azúcares, grasas o ácidos tenga la preparación, más gelatina necesitas."
       },
       {
         question: "¿Cómo se usa la gelatina neutra en polvo?",
@@ -500,6 +501,7 @@ export const products: Product[] = [
       "Preparaciones que requieren textura."
     ],
     howToUse: [
+      "Una cuchara rasa equivale a 18 g (30 ml) — úsala como referencia rápida para medir sin báscula.",
       "Preparar la cantidad indicada en la receta.",
       "Hidratar o mezclar según el tipo de preparación.",
       "Incorporar a la elaboración.",
@@ -583,7 +585,7 @@ export const products: Product[] = [
       {
         question: "¿Cuántos gramos uso según el tipo de preparación?",
         answer:
-          "La cantidad depende de la textura que quieras conseguir. Como referencia para 500 ml de líquido: textura suave y cremosa (mousses, salsas, gelatinas para beber) → 4-5 g; textura media (panna cotta, vasitos, natillas cuajadas) → 6-8 g; textura firme para desmoldar (flan, tarta de queso, gelatinas para cortar) → 9-11 g; textura muy firme (gominolas, bombones, decoraciones) → 12-15 g. Estas cantidades son orientativas: cuantos más azúcares, grasas o ácidos tenga la preparación, más gelatina necesitas."
+          "Una cuchara rasa = 18 g (30 ml), úsala como referencia rápida sin báscula. La cantidad depende de la textura que quieras conseguir. Como referencia para 500 ml de líquido: textura suave y cremosa (mousses, salsas, gelatinas para beber) → 4-5 g; textura media (panna cotta, vasitos, natillas cuajadas) → 6-8 g; textura firme para desmoldar (flan, tarta de queso, gelatinas para cortar) → 9-11 g; textura muy firme (gominolas, bombones, decoraciones) → 12-15 g. Estas cantidades son orientativas: cuantos más azúcares, grasas o ácidos tenga la preparación, más gelatina necesitas."
       },
       {
         question: "¿Cómo se disuelve correctamente?",
