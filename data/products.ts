@@ -194,8 +194,7 @@ const cacaoAlkalineTechnicalSheet: TechnicalRow[] = [
     label: "Envasado por",
     value: "Heladería Artesanal Valenciana GLASOL, S.L. (B96926480) para RAIAN AMZ SL (B26704098)"
   },
-  { label: "Núm. RGSEAA", value: "20.047319/V" },
-  { label: "País de origen", value: "España · La Pobla de Vallbona" },
+{ label: "País de origen", value: "España · La Pobla de Vallbona" },
   { label: "Certificaciones", value: "Kosher y Halal (según ficha técnica del proveedor)" },
   { label: "Alérgenos", value: pending },
   { label: "Uso previsto", value: "Uso alimentario y repostería" },
@@ -369,7 +368,7 @@ export const products: Product[] = [
       {
         question: "¿Qué certificaciones tiene esta gelatina?",
         answer:
-          "Se fabrica en una planta con certificación ISO 9001 de gestión de calidad, cuenta con doble certificado Halal (GSO 2055-1:2015 y HQC Países Bajos) y está registrada sanitariamente en España con el número RGSEAA 20.047319/V. Puedes descargar los certificados Halal desde la ficha del producto."
+          "Se fabrica en una planta con certificación ISO 9001 de gestión de calidad y cuenta con doble certificado Halal (GSO 2055-1:2015 y HQC Países Bajos). Puedes descargar los certificados Halal desde la ficha del producto."
       }
     ],
     certifications: [
@@ -401,20 +400,12 @@ export const products: Product[] = [
         badge: "halal"
       },
       {
-        name: "Registro Sanitario",
-        issuer: "España",
-        certNumber: "RGSEAA 20.047319/V",
-        description:
-          "Producto registrado sanitariamente en España con el número RGSEAA 20.047319/V.",
-        badge: "sanitary",
-      {
         name: "Registro Sanitario de Empresa",
         issuer: "España · Unión Europea",
         certNumber: "ES 40.098583/V CE",
         description:
           "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
         badge: "sanitary"
-      }
       }
     ]
   },
