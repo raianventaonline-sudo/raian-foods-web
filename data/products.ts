@@ -406,7 +406,15 @@ export const products: Product[] = [
         certNumber: "RGSEAA 20.047319/V",
         description:
           "Producto registrado sanitariamente en España con el número RGSEAA 20.047319/V.",
+        badge: "sanitary",
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
         badge: "sanitary"
+      }
       }
     ]
   },
@@ -563,6 +571,16 @@ export const products: Product[] = [
       "postre-casero-de-nata-y-fresas-con-gelatina-bovina",
       "terrina-casera-salada-de-pollo-zanahoria-y-guisantes"
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Gelatina neutra porcina 260 Bloom 1 kg | RAIAN Foods",
     seoDescription:
       "Gelatina neutra porcina RAIAN 260 Bloom en formato 1 kg. Perfecta para postres, mousses, tartas y recetas que necesitan textura y consistencia.",
@@ -655,6 +673,16 @@ export const products: Product[] = [
       "financiers-de-harina-de-almendra-mantequilla-y-frambuesa",
       "rebozado-crujiente-de-harina-de-almendra-para-pollo-al-horno"
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Harina de almendra 100% molida 1 kg | RAIAN Foods",
     seoDescription:
       "Harina de almendra RAIAN, 100% almendra molida en formato 1 kg. Textura fina para bizcochos, galletas, bases de tarta y repostería casera.",
@@ -730,6 +758,16 @@ export const products: Product[] = [
       "mermelada-de-albaricoque-casera-con-dextrosa",
       "bizcocho-de-deportista-de-avena-y-dextrosa"
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Dextrosa en polvo 1 kg | RAIAN Foods",
     seoDescription:
       "Dextrosa en polvo RAIAN en formato 1 kg. Ideal para bebidas isotónicas, geles energéticos, heladería y elaboraciones de repostería caseras.",
@@ -804,6 +842,16 @@ export const products: Product[] = [
       "helado-cremoso-de-vainilla-con-glucosa-sin-heladera",
       "turron-blando-de-almendra-con-glucosa",
       "lemon-curd-sedoso-con-glucosa"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
     ],
     seoTitle: "Glucosa 1 kg para repostería | RAIAN Foods",
     seoDescription:
@@ -882,6 +930,16 @@ export const products: Product[] = [
       "fondue-de-chocolate-a-la-taza-con-frutas-y-galletas",
       "smoothie-de-cacao-y-platano-con-proteina"
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Chocolate a la taza 1 kg | RAIAN Foods",
     seoDescription:
       "Chocolate a la taza RAIAN en formato 1 kg. Cremoso para bebidas calientes, batidos y repostería: mousses, bizcochos y fondue de chocolate.",
@@ -957,6 +1015,16 @@ export const products: Product[] = [
       "batido-pre-entreno-de-avena-y-maltodextrina",
       "barritas-energeticas-de-avena-miel-y-maltodextrina",
       "bebida-isotonica-con-sales-minerales-y-maltodextrina"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
     ],
     seoTitle: "Maltodextrina en polvo 1 kg | RAIAN Foods",
     seoDescription:
@@ -1104,6 +1172,16 @@ export const products: Product[] = [
       "bizcocho-de-cacao-rapido-en-sarten-raian",
       "dome-de-cacao-y-frambuesa-raian",
       "tronco-de-navidad-de-cacao-raian",
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
     ],
     seoTitle: "Cacao premium alcalinizado 22-24% 1 kg | RAIAN Foods",
     seoDescription:
@@ -1270,6 +1348,16 @@ export const products: Product[] = [
       "dome-de-cacao-y-frambuesa-raian",
       "tronco-de-navidad-de-cacao-raian",
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Cacao en polvo alcalinizado 10/12% 1 kg | RAIAN Foods",
     seoDescription:
       "Cacao alcalinizado 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Menos grasa y más fácil de disolver para bebidas, helados y repostería ligera.",
@@ -1435,6 +1523,16 @@ export const products: Product[] = [
       "dome-de-cacao-y-frambuesa-raian",
       "tronco-de-navidad-de-cacao-raian",
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Cacao en polvo natural 10/12% 1 kg | RAIAN Foods",
     seoDescription:
       "Cacao natural sin alcalinizar 10-12% materia grasa RAIAN: 100% cacao, sin azúcar, vegano, 1 kg. Sabor afrutado y ácido natural. Reactivo con bicarbonato para bizcochos.",
@@ -1516,6 +1614,16 @@ export const products: Product[] = [
       "batido-espeso-de-caseina-con-fresa-y-leche",
       "helado-proteico-de-caseina-con-vainilla-y-canela"
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Caseína pura neutra micelar 1 kg | RAIAN Foods",
     seoDescription:
       "Caseína micelar pura neutra RAIAN, 1 kg, sin aromas ni edulcorantes. Proteína de digestión lenta ideal para la toma nocturna y batidos de saciedad.",
@@ -1590,6 +1698,16 @@ export const products: Product[] = [
       "batido-verde-con-inulina-de-agave-espinacas-y-manzana",
       "porridge-de-avena-con-inulina-de-agave-y-platano-caramelizado",
       "compota-de-manzana-y-pera-con-inulina-de-agave"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
     ],
     seoTitle: "Inulina de agave en polvo 1 kg | RAIAN Foods",
     seoDescription:
@@ -1667,6 +1785,16 @@ export const products: Product[] = [
       "bizcocho-humedo-de-pistacho-con-glaseado-de-limon",
       "pesto-de-pistacho-con-pasta-fresca"
     ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
     seoTitle: "Pistacho puro en grano natural 1 kg | RAIAN Foods",
     seoDescription:
       "Pistacho puro pelado en grano RAIAN, natural sin sal ni tostar, 1 kg. Para crema de pistacho, repostería, granolas y snacks de calidad.",
@@ -1741,6 +1869,16 @@ export const products: Product[] = [
       "vinagreta-emulsionada-con-lecitina-de-soja-y-mostaza",
       "batido-de-cacao-y-cacahuete-con-lecitina-de-soja",
       "pan-esponjoso-enriquecido-con-lecitina-de-soja"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
     ],
     seoTitle: "Lecitina de soja en polvo 1 kg | RAIAN Foods",
     seoDescription:
@@ -1828,6 +1966,16 @@ export const products: Product[] = [
       "alfajor-blanco-con-coco",
       "rocas-blancas-de-cereales-y-frutos-rojos",
       "vasitos-de-mousse-con-disco-de-chocolate-blanco"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
     ],
     seoTitle: "Cobertura blanca para repostería | RAIAN Foods",
     seoDescription:
@@ -1922,6 +2070,16 @@ export const products: Product[] = [
       "rocas-de-chocolate-negro-con-frutos-secos",
       "tartaletas-de-fruta-con-bano-de-chocolate-negro",
       "bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
     ],
     seoTitle: "Cobertura negra para repostería | RAIAN Foods",
     seoDescription:
@@ -2106,7 +2264,15 @@ export const products: Product[] = [
         name: "Kosher",
         issuer: "Lallemand Ibérica, SA",
         description: "Producto certificado Kosher según la documentación técnica del fabricante.",
-        badge: "kosher"
+        badge: "kosher",
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
       }
     ]
   },
@@ -2202,7 +2368,16 @@ export const products: Product[] = [
           "La cantidad habitual es de 5-10 g por pieza (bollo, magdalena) y de unos 80 g por 500 g de masa en gofres belgas al incorporarlo dentro. Para las chouquettes francesas se recomienda cubrir generosamente la superficie."
       }
     ],
-    certifications: []
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ]
   }
 ];
 

@@ -58,8 +58,23 @@ export function Footer() {
           </p>
         </div>
       </div>
-      <div className="border-t border-line px-5 py-5 text-center text-xs text-muted">
-        © {new Date().getFullYear()} RAIAN. Catálogo alimentario.
+      <div className="border-t border-line px-5 py-4">
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 text-center sm:flex-row sm:justify-between sm:text-left">
+          <div className="flex items-center gap-2.5">
+            {/* Óvalo CE estilo registro sanitario europeo */}
+            <span className="inline-flex items-center gap-1 rounded border-2 border-muted px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest text-muted">
+              ES <span className="text-[8px] font-normal">·</span> CE
+            </span>
+            <span className="text-xs text-muted">
+              Registro Sanitario de Empresa{" "}
+              <span className="font-semibold text-ink">ES 40.098583/V CE</span>
+              {" "}— Empresa autorizada para la comercialización de productos alimentarios en la UE.
+            </span>
+          </div>
+          <p className="shrink-0 text-xs text-muted">
+            © {new Date().getFullYear()} RAIAN. Catálogo alimentario.
+          </p>
+        </div>
       </div>
     </footer>
   );
