@@ -203,6 +203,38 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="bg-cream py-12 md:py-16">
+        <div className="mx-auto w-full max-w-7xl px-5 md:px-8">
+          <div className="rounded-md border border-line bg-white p-8 md:p-10">
+            <div className="flex flex-col gap-8 md:flex-row md:items-start md:gap-12">
+              <div className="shrink-0">
+                <div className="flex h-20 w-20 flex-col items-center justify-center rounded-md border-4 border-olive text-center">
+                  <span className="text-[11px] font-extrabold uppercase leading-tight tracking-widest text-olive">ES</span>
+                  <span className="text-[8px] font-bold text-olive">·</span>
+                  <span className="text-[11px] font-extrabold uppercase leading-tight tracking-widest text-olive">CE</span>
+                </div>
+              </div>
+              <div>
+                <p className="mb-2 text-sm font-semibold uppercase text-terracotta">Seguridad alimentaria</p>
+                <h2 className="font-display text-3xl leading-tight text-ink md:text-4xl">
+                  Empresa con Registro Sanitario oficial.
+                </h2>
+                <p className="mt-4 max-w-2xl text-base leading-8 text-muted">
+                  RAIAN dispone de Registro Sanitario de Empresa expedido por las autoridades competentes españolas y reconocido en toda la Unión Europea. Este registro acredita que nuestra actividad de comercialización de productos alimentarios cumple con la normativa sanitaria vigente.
+                </p>
+                <div className="mt-6 inline-flex flex-col gap-1 rounded-md border border-line bg-cream px-5 py-4 sm:flex-row sm:items-center sm:gap-4">
+                  <span className="text-xs font-semibold uppercase tracking-wide text-muted">Nº de registro</span>
+                  <span className="font-display text-xl font-bold text-ink">ES 40.098583/V CE</span>
+                </div>
+                <p className="mt-4 text-sm text-muted">
+                  Emitido por el Registro General Sanitario de Empresas Alimentarias y Alimentos (RGSEAA) de España.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <ProductProcessVideo />
     </>
   );
