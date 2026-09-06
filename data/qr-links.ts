@@ -84,14 +84,11 @@ export const qrLinks: Record<string, QrLink> = {
     targetPath: "/productos/levadura-instantanea"
   },
 
-  // ── Flor de visco (hibisco) ───────────────────────────────────────────────
-  "flor-de-visco": {
-    targetPath: "/productos/flor-de-visco"
+  // ── Flor de hibisco ──────────────────────────────────────────────────────
+  "flor-de-hibisco": {
+    targetPath: "/productos/flor-de-hibisco"
   },
   "hibisco": {
-    targetPath: "/productos/flor-de-visco"
-  },
-  "visco": {
-    targetPath: "/productos/flor-de-visco"
+    targetPath: "/productos/flor-de-hibisco"
   }
 };

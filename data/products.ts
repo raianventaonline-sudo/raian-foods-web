@@ -2371,14 +2371,14 @@ export const products: Product[] = [
     ]
   },
   {
-    slug: "flor-de-visco",
-    name: "Flor de visco",
+    slug: "flor-de-hibisco",
+    name: "Flor de hibisco",
     shortDescription:
       "Flor de hibisco seca de alta calidad, perfecta para preparar infusiones naturales con un color rojo intenso y sabor afrutado y ligeramente ácido.",
     description:
-      "La flor de visco (hibisco) es una de las infusiones más populares del mundo por su intenso color rojo rubí, su aroma floral y su sabor afrutado con un toque ácido natural. Se elabora únicamente con pétalos de hibisco secos, sin aditivos ni aromas artificiales. Puede tomarse en caliente o en frío como agua fresca, y combina perfectamente con jengibre, menta o canela. Rica en antioxidantes y vitamina C.",
+      "La flor de hibisco (hibisco) es una de las infusiones más populares del mundo por su intenso color rojo rubí, su aroma floral y su sabor afrutado con un toque ácido natural. Se elabora únicamente con pétalos de hibisco secos, sin aditivos ni aromas artificiales. Puede tomarse en caliente o en frío como agua fresca, y combina perfectamente con jengibre, menta o canela. Rica en antioxidantes y vitamina C.",
     category: "Infusiones y plantas",
-    tags: ["Infusión", "Hibisco", "Flor de visco", "Sin cafeína", "Natural", "Antioxidante"],
+    tags: ["Infusión", "Hibisco", "Flor de hibisco", "Sin cafeína", "Natural", "Antioxidante"],
     dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido", "Sin cafeína"],
     highlights: [
       "100% flor de hibisco seca, sin mezclas ni añadidos",
@@ -2387,13 +2387,13 @@ export const products: Product[] = [
       "Sin cafeína, apta para tomar a cualquier hora"
     ],
     mainImage: {
-      src: "/images/products/flor-de-visco-main.png",
-      alt: "Bolsa de flor de visco (hibisco) seca RAIAN",
-      label: "Flor de visco",
+      src: "/images/products/flor-de-hibisco-main.png",
+      alt: "Bolsa de flor de hibisco (hibisco) seca RAIAN",
+      label: "Flor de hibisco",
       available: false,
       fit: "contain"
     },
-    gallery: galleryFor("Flor de visco"),
+    gallery: galleryFor("Flor de hibisco"),
     uses: [
       "Infusión caliente sola o con miel.",
       "Agua fresca de jamaica fría con azúcar o edulcorante.",
@@ -2403,12 +2403,12 @@ export const products: Product[] = [
     ],
     howToUse: [
       "Hervir agua y retirar del fuego.",
-      "Añadir 5-8 g de flor de visco por 500 ml (1 taza generosa).",
+      "Añadir 5-8 g de flor de hibisco por 500 ml (1 taza generosa).",
       "Dejar reposar 5-8 minutos tapado.",
       "Colar y endulzar al gusto.",
       "Para agua fresca: preparar el doble de concentración y añadir agua fría o hielo."
     ],
-    technicalSheet: technicalSheetFor("Flor de visco", "Planta seca para infusión", "Flor de hibisco (Hibiscus sabdariffa) seca 100%"),
+    technicalSheet: technicalSheetFor("Flor de hibisco", "Planta seca para infusión", "Flor de hibisco (Hibiscus sabdariffa) seca 100%"),
     nutrition: [
       { label: "Valor energético", value: "37 kcal / 155 kJ" },
       { label: "Grasas", value: "0,7 g" },
@@ -2435,22 +2435,22 @@ export const products: Product[] = [
         badge: "sanitary"
       }
     ],
-    seoTitle: "Flor de visco (hibisco) seca | Infusión natural RAIAN",
+    seoTitle: "Flor de hibisco (hibisco) seca | Infusión natural RAIAN",
     seoDescription:
       "Flor de hibisco seca RAIAN. Infusión 100% natural con color rojo intenso, sabor afrutado y rico en antioxidantes. Sin cafeína, perfecta en caliente o fría.",
     faqs: [
       {
-        question: "¿Qué es la flor de visco?",
+        question: "¿Qué es la flor de hibisco?",
         answer:
-          "La flor de visco es el nombre popular del hibisco (Hibiscus sabdariffa). Sus pétalos secos se usan para hacer infusiones de color rojo intenso, con sabor afrutado y ligeramente ácido, muy popular en todo el mundo como agua de jamaica o té de hibisco."
+          "La flor de hibisco es el nombre popular del hibisco (Hibiscus sabdariffa). Sus pétalos secos se usan para hacer infusiones de color rojo intenso, con sabor afrutado y ligeramente ácido, muy popular en todo el mundo como agua de jamaica o té de hibisco."
       },
       {
-        question: "¿Cómo se prepara la infusión de flor de visco?",
+        question: "¿Cómo se prepara la infusión de flor de hibisco?",
         answer:
-          "Retira el agua del fuego justo al hervir y añade 5-8 g de flor de visco por cada 500 ml. Tapa y deja reposar 5-8 minutos. Cuélala y endulza al gusto. Para tomarla fría, prepara la infusión más concentrada y añade hielo o agua fría."
+          "Retira el agua del fuego justo al hervir y añade 5-8 g de flor de hibisco por cada 500 ml. Tapa y deja reposar 5-8 minutos. Cuélala y endulza al gusto. Para tomarla fría, prepara la infusión más concentrada y añade hielo o agua fría."
       },
       {
-        question: "¿Tiene cafeína la flor de visco?",
+        question: "¿Tiene cafeína la flor de hibisco?",
         answer:
           "No, la flor de hibisco no contiene cafeína. Es una infusión apta para tomar a cualquier hora del día, incluida la noche."
       },
