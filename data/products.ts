@@ -2255,7 +2255,8 @@ export const products: Product[] = [
         name: "Kosher",
         issuer: "Lallemand Ibérica, SA",
         description: "Producto certificado Kosher según la documentación técnica del fabricante.",
-        badge: "kosher",
+        badge: "kosher"
+      },
       {
         name: "Registro Sanitario de Empresa",
         issuer: "España · Unión Europea",
@@ -2263,7 +2264,6 @@ export const products: Product[] = [
         description:
           "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
         badge: "sanitary"
-      }
       }
     ]
   },
@@ -2367,6 +2367,97 @@ export const products: Product[] = [
         description:
           "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
         badge: "sanitary"
+      }
+    ]
+  },
+  {
+    slug: "flor-de-visco",
+    name: "Flor de visco",
+    shortDescription:
+      "Flor de hibisco seca de alta calidad, perfecta para preparar infusiones naturales con un color rojo intenso y sabor afrutado y ligeramente ácido.",
+    description:
+      "La flor de visco (hibisco) es una de las infusiones más populares del mundo por su intenso color rojo rubí, su aroma floral y su sabor afrutado con un toque ácido natural. Se elabora únicamente con pétalos de hibisco secos, sin aditivos ni aromas artificiales. Puede tomarse en caliente o en frío como agua fresca, y combina perfectamente con jengibre, menta o canela. Rica en antioxidantes y vitamina C.",
+    category: "Infusiones y plantas",
+    tags: ["Infusión", "Hibisco", "Flor de visco", "Sin cafeína", "Natural", "Antioxidante"],
+    dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido", "Sin cafeína"],
+    highlights: [
+      "100% flor de hibisco seca, sin mezclas ni añadidos",
+      "Color rojo rubí intenso, natural del hibisco",
+      "Rica en antioxidantes y vitamina C",
+      "Sin cafeína, apta para tomar a cualquier hora"
+    ],
+    mainImage: {
+      src: "/images/products/flor-de-visco-main.png",
+      alt: "Bolsa de flor de visco (hibisco) seca RAIAN",
+      label: "Flor de visco",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Flor de visco"),
+    uses: [
+      "Infusión caliente sola o con miel.",
+      "Agua fresca de jamaica fría con azúcar o edulcorante.",
+      "Base para refrescos y cócteles sin alcohol.",
+      "Combinada con jengibre, canela o menta.",
+      "Colorante natural para postres y gelatinas."
+    ],
+    howToUse: [
+      "Hervir agua y retirar del fuego.",
+      "Añadir 5-8 g de flor de visco por 500 ml (1 taza generosa).",
+      "Dejar reposar 5-8 minutos tapado.",
+      "Colar y endulzar al gusto.",
+      "Para agua fresca: preparar el doble de concentración y añadir agua fría o hielo."
+    ],
+    technicalSheet: technicalSheetFor("Flor de visco", "Planta seca para infusión", "Flor de hibisco (Hibiscus sabdariffa) seca 100%"),
+    nutrition: [
+      { label: "Valor energético", value: "37 kcal / 155 kJ" },
+      { label: "Grasas", value: "0,7 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "7,7 g" },
+      { label: "De los cuales azúcares", value: "1,5 g" },
+      { label: "Fibra alimentaria", value: "2,5 g" },
+      { label: "Proteínas", value: "1,1 g" },
+      { label: "Sal", value: "0,02 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria.",
+    conservation: "Conservar en lugar fresco, seco y alejado de la luz directa. Cerrar bien el envase tras cada uso.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["inulina-de-agave", "gelatina-neutra-bovina", "gelatina-neutra-porcina"],
+    recipeSlugs: [],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
+    seoTitle: "Flor de visco (hibisco) seca | Infusión natural RAIAN",
+    seoDescription:
+      "Flor de hibisco seca RAIAN. Infusión 100% natural con color rojo intenso, sabor afrutado y rico en antioxidantes. Sin cafeína, perfecta en caliente o fría.",
+    faqs: [
+      {
+        question: "¿Qué es la flor de visco?",
+        answer:
+          "La flor de visco es el nombre popular del hibisco (Hibiscus sabdariffa). Sus pétalos secos se usan para hacer infusiones de color rojo intenso, con sabor afrutado y ligeramente ácido, muy popular en todo el mundo como agua de jamaica o té de hibisco."
+      },
+      {
+        question: "¿Cómo se prepara la infusión de flor de visco?",
+        answer:
+          "Retira el agua del fuego justo al hervir y añade 5-8 g de flor de visco por cada 500 ml. Tapa y deja reposar 5-8 minutos. Cuélala y endulza al gusto. Para tomarla fría, prepara la infusión más concentrada y añade hielo o agua fría."
+      },
+      {
+        question: "¿Tiene cafeína la flor de visco?",
+        answer:
+          "No, la flor de hibisco no contiene cafeína. Es una infusión apta para tomar a cualquier hora del día, incluida la noche."
+      },
+      {
+        question: "¿Para qué más se puede usar aparte de la infusión?",
+        answer:
+          "Su intenso color rojo natural la hace perfecta como colorante para gelatinas, mermeladas o postres. También se puede usar como base para refrescos, aguas aromatizadas y cócteles sin alcohol."
       }
     ]
   }

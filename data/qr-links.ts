@@ -82,5 +82,16 @@ export const qrLinks: Record<string, QrLink> = {
   },
   "levadura-seca-instantanea": {
     targetPath: "/productos/levadura-instantanea"
+  },
+
+  // ── Flor de visco (hibisco) ───────────────────────────────────────────────
+  "flor-de-visco": {
+    targetPath: "/productos/flor-de-visco"
+  },
+  "hibisco": {
+    targetPath: "/productos/flor-de-visco"
+  },
+  "visco": {
+    targetPath: "/productos/flor-de-visco"
   }
 };
