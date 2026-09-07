@@ -2424,7 +2424,14 @@ export const products: Product[] = [
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["inulina-de-agave", "gelatina-neutra-bovina", "gelatina-neutra-porcina"],
-    recipeSlugs: [],
+    recipeSlugs: [
+      "infusion-de-hibisco-clasica-en-caliente",
+      "agua-fresca-de-hibisco-fria-agua-de-jamaica",
+      "gelatina-de-hibisco-con-miel",
+      "sirope-de-hibisco-para-cocteles-y-postres",
+      "te-helado-de-hibisco-con-jengibre-y-menta",
+      "limonada-rosa-de-hibisco-con-naranja"
+    ],
     certifications: [
       {
         name: "Registro Sanitario de Empresa",
@@ -2440,24 +2447,39 @@ export const products: Product[] = [
       "Flor de hibisco seca RAIAN. Infusión 100% natural con color rojo intenso, sabor afrutado y rico en antioxidantes. Sin cafeína, perfecta en caliente o fría.",
     faqs: [
       {
-        question: "¿Qué es la flor de hibisco?",
+        question: "¿Qué es la flor de hibisco y para qué sirve?",
         answer:
-          "La flor de hibisco es el nombre popular del hibisco (Hibiscus sabdariffa). Sus pétalos secos se usan para hacer infusiones de color rojo intenso, con sabor afrutado y ligeramente ácido, muy popular en todo el mundo como agua de jamaica o té de hibisco."
+          "La flor de hibisco (Hibiscus sabdariffa) es una planta tropical cuyos pétalos secos se usan para hacer infusiones de color rojo rubí intenso, con sabor afrutado y ligeramente ácido. Es conocida en todo el mundo como agua de jamaica, té de hibisco o flor de visco. Se usa tanto en caliente como en frío, y es muy popular también para preparar gelatinas, siropes y limonadas naturales."
       },
       {
-        question: "¿Cómo se prepara la infusión de flor de hibisco?",
+        question: "¿Cómo se prepara la infusión de hibisco?",
         answer:
-          "Retira el agua del fuego justo al hervir y añade 5-8 g de flor de hibisco por cada 500 ml. Tapa y deja reposar 5-8 minutos. Cuélala y endulza al gusto. Para tomarla fría, prepara la infusión más concentrada y añade hielo o agua fría."
+          "Hierve agua y retírala del fuego. Añade 5–8 g de flor de hibisco por cada 500 ml (aproximadamente una cuchara sopera colmada). Tapa y deja reposar 5–8 minutos: más tiempo da un sabor más intenso y ácido. Cuela y endulza al gusto con miel o azúcar. Para tomarla fría, prepara la infusión más concentrada y añade agua fría o hielo."
+      },
+      {
+        question: "¿Cómo se hace gelatina con flor de hibisco?",
+        answer:
+          "Prepara 600 ml de infusión de hibisco bien cargada (12 g de flor). Hidrata 10 g de gelatina neutra en polvo RAIAN en 100 ml de la infusión fría durante 2 minutos. Calienta el resto de la infusión a 60–70 °C (sin hervir), disuelve la gelatina hidratada removiendo bien, endulza con miel, vierte en moldes y refrigera un mínimo de 3 horas. El resultado es una gelatina de color rojo rubí natural espectacular, sin ningún colorante artificial."
+      },
+      {
+        question: "¿Qué propiedades tiene la flor de hibisco?",
+        answer:
+          "El hibisco es rico en antocianinas (los pigmentos que le dan su color rojo), ácido hibísico, vitamina C y flavonoides. Se le atribuyen propiedades antioxidantes, diuréticas (ayuda a eliminar líquidos) y se ha estudiado su efecto positivo sobre la presión arterial y el colesterol en el contexto de una dieta equilibrada. Es una planta con tradición milenaria en fitoterapia. Sin cafeína, se puede tomar a cualquier hora."
+      },
+      {
+        question: "¿Tiene efecto diurético el hibisco?",
+        answer:
+          "Sí, el hibisco tiene un reconocido efecto diurético suave, lo que lo hace popular en dietas de control de peso y depuración. Favorece la eliminación de líquidos de forma natural y ayuda a reducir la retención de agua. Si tomas medicación para la presión arterial o diuréticos prescritos, consulta con tu médico antes de tomarlo de forma habitual."
       },
       {
         question: "¿Tiene cafeína la flor de hibisco?",
         answer:
-          "No, la flor de hibisco no contiene cafeína. Es una infusión apta para tomar a cualquier hora del día, incluida la noche."
+          "No. La flor de hibisco no contiene cafeína. Es una infusión apta para tomar a cualquier hora del día, incluida la noche, y es perfecta para personas que quieren reducir su consumo de cafeína sin renunciar a una bebida caliente o fría con mucho sabor."
       },
       {
         question: "¿Para qué más se puede usar aparte de la infusión?",
         answer:
-          "Su intenso color rojo natural la hace perfecta como colorante para gelatinas, mermeladas o postres. También se puede usar como base para refrescos, aguas aromatizadas y cócteles sin alcohol."
+          "Su color rojo natural la convierte en un ingrediente muy versátil: sirope para cócteles sin alcohol, limonadas rosas, gelatinas caseras, agua fresca (agua de jamaica), colorante natural para postres y mermeladas. Combina muy bien con jengibre, menta, canela y cítricos."
       }
     ]
   }
