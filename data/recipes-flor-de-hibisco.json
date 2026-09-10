@@ -19,10 +19,28 @@
   "website_requirements": {
     "market": "España",
     "language": "es-ES",
-    "categories": ["casera", "familiar", "fitness"],
-    "nutrition_fields_required_eu": ["kcal", "protein", "carbs", "sugars", "fat", "sat_fat", "fiber", "salt"],
+    "categories": [
+      "casera",
+      "familiar",
+      "fitness"
+    ],
+    "nutrition_fields_required_eu": [
+      "kcal",
+      "protein",
+      "carbs",
+      "sugars",
+      "fat",
+      "sat_fat",
+      "fiber",
+      "salt"
+    ],
     "allergen_policy": "Sin alérgenos de declaración obligatoria. Sin gluten. Sin cafeína.",
-    "claim_policy": ["Sin cafeína", "Sin gluten", "Apto veganos", "Rico en antioxidantes"]
+    "claim_policy": [
+      "Sin cafeína",
+      "Sin gluten",
+      "Apto veganos",
+      "Rico en antioxidantes"
+    ]
   },
   "recipes": [
     {
@@ -33,14 +51,35 @@
       "meta_description": "Prepara la infusión de hibisco más sencilla y aromática. Color rojo rubí intenso, sabor afrutado y ligeramente ácido. Sin cafeína, lista en 10 minutos.",
       "intro": "La infusión de hibisco es una de las bebidas más sencillas y vistosas que puedes preparar en casa. Con unos pocos gramos de flor de hibisco RAIAN obtienes una taza de color rojo rubí intenso, aroma floral y un sabor afrutado con un toque ácido muy refrescante. Sin cafeína, perfecta a cualquier hora del día.",
       "servings": 2,
-      "times": { "prep_min": 2, "cook_min": 5, "rest_min": 8, "total_min": 15 },
+      "times": {
+        "prep_min": 2,
+        "cook_min": 5,
+        "rest_min": 8,
+        "total_min": 15
+      },
       "allergens": [],
       "image_available": true,
       "ingredients": [
-        { "name": "Flor de hibisco RAIAN", "g": 10, "key": "hibisco" },
-        { "name": "Agua mineral", "g": 500, "key": "agua" },
-        { "name": "Miel o azúcar (al gusto)", "g": 15, "key": "endulzante" },
-        { "name": "Rodaja de limón (opcional)", "g": 20, "key": "limon" }
+        {
+          "name": "Flor de hibisco RAIAN",
+          "g": 10,
+          "key": "hibisco"
+        },
+        {
+          "name": "Agua mineral",
+          "g": 500,
+          "key": "agua"
+        },
+        {
+          "name": "Miel o azúcar (al gusto)",
+          "g": 15,
+          "key": "endulzante"
+        },
+        {
+          "name": "Rodaja de limón (opcional)",
+          "g": 20,
+          "key": "limon"
+        }
       ],
       "steps": [
         "Lleva 500 ml de agua a ebullición y retira del fuego.",
@@ -50,15 +89,35 @@
         "Endulza al gusto con miel o azúcar y sirve caliente. Añade rodaja de limón si lo prefieres más cítrico."
       ],
       "nutrition_per_serving": {
-        "kcal": 30, "protein": 0.1, "carbs": 7.8, "sugars": 7.5,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.1, "salt": 0.01
+        "kcal": 30,
+        "protein": 0.1,
+        "carbs": 7.8,
+        "sugars": 7.5,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.01
       },
       "nutrition_per_100g_estimated": {
-        "kcal": 12, "protein": 0.04, "carbs": 3.1, "sugars": 3.0,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.04, "salt": 0.004
+        "kcal": 12,
+        "protein": 0.04,
+        "carbs": 3.1,
+        "sugars": 3.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.04,
+        "salt": 0.004
       },
       "estimated_serving_g": 250,
-      "keywords": ["infusión de hibisco", "té de hibisco", "flor de hibisco", "sin cafeína", "bebida saludable", "antioxidante", "agua de jamaica"],
+      "keywords": [
+        "infusión de hibisco",
+        "té de hibisco",
+        "flor de hibisco",
+        "sin cafeína",
+        "bebida saludable",
+        "antioxidante",
+        "agua de jamaica"
+      ],
       "notes": "La acidez natural del hibisco activa el sabor sin necesidad de añadir mucho azúcar. Si te gusta más suave, reduce el tiempo de reposo a 4–5 minutos. El color vira al morado si el agua es muy calcárea — es una reacción química normal, el sabor no cambia.",
       "imagePath": "/images/recipes/infusion-de-hibisco-clasica-en-caliente.webp",
       "stepNotes": [
@@ -77,16 +136,45 @@
       "meta_description": "Agua de jamaica casera con flor de hibisco RAIAN. Refrescante, sin cafeína y rica en antioxidantes. Perfecta para el verano, lista en minutos.",
       "intro": "El agua de jamaica es la versión fría y refrescante de la infusión de hibisco, popularísima en México y toda Latinoamérica. Con la flor de hibisco RAIAN queda de un rojo espectacular y un sabor frutal delicioso. Ideal para el verano, sin cafeína y con un perfil antioxidante excepcional.",
       "servings": 4,
-      "times": { "prep_min": 5, "cook_min": 5, "rest_min": 30, "total_min": 40 },
+      "times": {
+        "prep_min": 5,
+        "cook_min": 5,
+        "rest_min": 30,
+        "total_min": 40
+      },
       "allergens": [],
       "image_available": true,
       "ingredients": [
-        { "name": "Flor de hibisco RAIAN", "g": 15, "key": "hibisco" },
-        { "name": "Agua mineral caliente", "g": 500, "key": "agua_caliente" },
-        { "name": "Agua fría o hielo", "g": 500, "key": "agua_fria" },
-        { "name": "Azúcar o sirope de agave", "g": 40, "key": "azucar" },
-        { "name": "Zumo de lima o limón", "g": 30, "key": "lima" },
-        { "name": "Hojas de menta fresca (opcional)", "g": 5, "key": "menta" }
+        {
+          "name": "Flor de hibisco RAIAN",
+          "g": 15,
+          "key": "hibisco"
+        },
+        {
+          "name": "Agua mineral caliente",
+          "g": 500,
+          "key": "agua_caliente"
+        },
+        {
+          "name": "Agua fría o hielo",
+          "g": 500,
+          "key": "agua_fria"
+        },
+        {
+          "name": "Azúcar o sirope de agave",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de lima o limón",
+          "g": 30,
+          "key": "lima"
+        },
+        {
+          "name": "Hojas de menta fresca (opcional)",
+          "g": 5,
+          "key": "menta"
+        }
       ],
       "steps": [
         "Hierve 500 ml de agua y retira del fuego. Añade 15 g de flor de hibisco RAIAN y el azúcar.",
@@ -97,15 +185,34 @@
         "Sirve en vasos con hielo y adorna con menta fresca si lo tienes."
       ],
       "nutrition_per_serving": {
-        "kcal": 42, "protein": 0.1, "carbs": 10.5, "sugars": 10.2,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.1, "salt": 0.01
+        "kcal": 42,
+        "protein": 0.1,
+        "carbs": 10.5,
+        "sugars": 10.2,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.01
       },
       "nutrition_per_100g_estimated": {
-        "kcal": 17, "protein": 0.04, "carbs": 4.2, "sugars": 4.1,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.04, "salt": 0.004
+        "kcal": 17,
+        "protein": 0.04,
+        "carbs": 4.2,
+        "sugars": 4.1,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.04,
+        "salt": 0.004
       },
       "estimated_serving_g": 250,
-      "keywords": ["agua de jamaica", "agua fresca de hibisco", "bebida fría hibisco", "refrescante sin cafeína", "verano", "antioxidante natural"],
+      "keywords": [
+        "agua de jamaica",
+        "agua fresca de hibisco",
+        "bebida fría hibisco",
+        "refrescante sin cafeína",
+        "verano",
+        "antioxidante natural"
+      ],
       "notes": "Preparar la base concentrada con la mitad del agua y luego diluir es el truco para conseguir el color más intenso sin necesitar más flor. Aguanta hasta 3 días en la nevera tapada.",
       "imagePath": "/images/recipes/agua-fresca-de-hibisco-fria-agua-de-jamaica.webp",
       "stepNotes": [
@@ -125,15 +232,40 @@
       "meta_description": "Gelatina de hibisco casera con flor de hibisco RAIAN y gelatina neutra en polvo. Color rojo intenso, sabor afrutado y textura perfecta. Sin colorantes artificiales.",
       "intro": "Preparar gelatina con la infusión de hibisco es una de las formas más elegantes de disfrutar esta flor. El color rojo rubí natural del hibisco lo convierte en un postre visualmente espectacular y sin ningún colorante artificial. La receta es muy sencilla y se puede personalizar con frutas, menta o naranja.",
       "servings": 4,
-      "times": { "prep_min": 10, "cook_min": 5, "rest_min": 180, "total_min": 195 },
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 180,
+        "total_min": 195
+      },
       "allergens": [],
       "image_available": true,
       "ingredients": [
-        { "name": "Flor de hibisco RAIAN", "g": 12, "key": "hibisco" },
-        { "name": "Agua mineral", "g": 650, "key": "agua" },
-        { "name": "Gelatina neutra en polvo RAIAN", "g": 10, "key": "gelatina" },
-        { "name": "Miel", "g": 40, "key": "miel" },
-        { "name": "Zumo de naranja (opcional)", "g": 50, "key": "naranja" }
+        {
+          "name": "Flor de hibisco RAIAN",
+          "g": 12,
+          "key": "hibisco"
+        },
+        {
+          "name": "Agua mineral",
+          "g": 650,
+          "key": "agua"
+        },
+        {
+          "name": "Gelatina neutra en polvo RAIAN",
+          "g": 10,
+          "key": "gelatina"
+        },
+        {
+          "name": "Miel",
+          "g": 40,
+          "key": "miel"
+        },
+        {
+          "name": "Zumo de naranja (opcional)",
+          "g": 50,
+          "key": "naranja"
+        }
       ],
       "steps": [
         "Hierve 650 ml de agua y retira del fuego. Añade la flor de hibisco RAIAN, tapa y deja reposar 8 minutos.",
@@ -145,16 +277,35 @@
         "Refrigera al menos 3 horas o hasta que cuaje completamente. Desmolda y sirve."
       ],
       "nutrition_per_serving": {
-        "kcal": 52, "protein": 2.1, "carbs": 11.0, "sugars": 10.4,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.1, "salt": 0.02
+        "kcal": 52,
+        "protein": 2.1,
+        "carbs": 11.0,
+        "sugars": 10.4,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.02
       },
       "nutrition_per_100g_estimated": {
-        "kcal": 30, "protein": 1.2, "carbs": 6.3, "sugars": 6.0,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.06, "salt": 0.01
+        "kcal": 30,
+        "protein": 1.2,
+        "carbs": 6.3,
+        "sugars": 6.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.06,
+        "salt": 0.01
       },
       "estimated_serving_g": 175,
-      "keywords": ["gelatina de hibisco", "gelatina de jamaica", "postre hibisco", "gelatina casera sin colorantes", "flor de hibisco gelatina", "gelatina neutra"],
-      "notes": "La clave para una gelatina perfecta: hidratar la gelatina en líquido frío antes de añadirla al caliente, y nunca hervir la mezcla una vez disuelta. El hibisco ya da un color rojo natural espectacular sin necesidad de colorantes. Puedes añadir gajos de naranja o frambuesas dentro de los moldes antes de verter.",
+      "keywords": [
+        "gelatina de hibisco",
+        "gelatina de jamaica",
+        "postre hibisco",
+        "gelatina casera sin colorantes",
+        "flor de hibisco gelatina",
+        "gelatina neutra"
+      ],
+      "notes": "La clave para una gelatina perfecta: hidratar la gelatina en líquido frío antes de añadirla al caliente, y nunca hervir la mezcla una vez disuelta. El hibisco ya da un color rojo natural espectacular sin necesidad de colorantes. Puedes añadir gajos de naranja o frambuesas dentro de los moldes antes de verter. Gelatina: usa 10 g (260 Bloom) — 11 g (220 Bloom).",
       "imagePath": "/images/recipes/gelatina-de-hibisco-con-miel.webp",
       "stepNotes": [
         null,
@@ -174,14 +325,35 @@
       "meta_description": "Sirope concentrado de hibisco casero con flor de hibisco RAIAN. Color rojo intenso natural para cócteles, soda, postres y yogures. Receta en 15 minutos.",
       "intro": "Un sirope de hibisco concentrado que lo cambia todo. Con unos pocos gramos de flor de hibisco RAIAN obtienes un sirope de color rojo rubí intensísimo, perfecto para añadir a agua con gas, cócteles sin alcohol, helados, yogures o como cobertura de postres. Dura hasta 2 semanas en nevera.",
       "servings": 8,
-      "times": { "prep_min": 3, "cook_min": 12, "rest_min": 10, "total_min": 25 },
+      "times": {
+        "prep_min": 3,
+        "cook_min": 12,
+        "rest_min": 10,
+        "total_min": 25
+      },
       "allergens": [],
       "image_available": true,
       "ingredients": [
-        { "name": "Flor de hibisco RAIAN", "g": 20, "key": "hibisco" },
-        { "name": "Agua mineral", "g": 300, "key": "agua" },
-        { "name": "Azúcar", "g": 200, "key": "azucar" },
-        { "name": "Zumo de limón", "g": 20, "key": "limon" }
+        {
+          "name": "Flor de hibisco RAIAN",
+          "g": 20,
+          "key": "hibisco"
+        },
+        {
+          "name": "Agua mineral",
+          "g": 300,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 200,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "limon"
+        }
       ],
       "steps": [
         "Pon el agua, el hibisco RAIAN y el azúcar en un cazo. Lleva a ebullición a fuego medio removiendo para disolver el azúcar.",
@@ -192,15 +364,34 @@
         "Guarda en nevera hasta 2 semanas. Para servir: 2–3 cucharadas en agua, soda o cóctel."
       ],
       "nutrition_per_serving": {
-        "kcal": 98, "protein": 0.1, "carbs": 24.5, "sugars": 24.3,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.1, "salt": 0.01
+        "kcal": 98,
+        "protein": 0.1,
+        "carbs": 24.5,
+        "sugars": 24.3,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.01
       },
       "nutrition_per_100g_estimated": {
-        "kcal": 245, "protein": 0.2, "carbs": 61.2, "sugars": 60.8,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.2, "salt": 0.02
+        "kcal": 245,
+        "protein": 0.2,
+        "carbs": 61.2,
+        "sugars": 60.8,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.2,
+        "salt": 0.02
       },
       "estimated_serving_g": 40,
-      "keywords": ["sirope de hibisco", "sirope de jamaica", "salsa hibisco", "cóctel sin alcohol", "hibisco cóctel", "colorante natural rojo"],
+      "keywords": [
+        "sirope de hibisco",
+        "sirope de jamaica",
+        "salsa hibisco",
+        "cóctel sin alcohol",
+        "hibisco cóctel",
+        "colorante natural rojo"
+      ],
       "notes": "Para un sirope menos dulce reduce el azúcar a 150 g. Si prefieres un sirope para repostería más espeso, deja cocinar 3–4 minutos más. La acidez del limón actúa como conservante natural y potencia el color rojo.",
       "imagePath": "/images/recipes/sirope-de-hibisco-para-cocteles-y-postres.webp",
       "stepNotes": [
@@ -220,16 +411,45 @@
       "meta_description": "Bebida helada de hibisco con jengibre fresco y menta. Sin cafeína, diurética, rica en antioxidantes y vitamina C. Perfecta para hidratarse de forma saludable.",
       "intro": "Esta bebida helada combina las propiedades diuréticas y antioxidantes del hibisco con el efecto antiinflamatorio del jengibre y el frescor de la menta. Una de las combinaciones más populares en fitoterapia y bienestar, con un sabor vibrante y un color rojo espectacular. Sin cafeína, sin azúcar añadido.",
       "servings": 2,
-      "times": { "prep_min": 5, "cook_min": 5, "rest_min": 20, "total_min": 30 },
+      "times": {
+        "prep_min": 5,
+        "cook_min": 5,
+        "rest_min": 20,
+        "total_min": 30
+      },
       "allergens": [],
       "image_available": true,
       "ingredients": [
-        { "name": "Flor de hibisco RAIAN", "g": 8, "key": "hibisco" },
-        { "name": "Agua mineral caliente", "g": 500, "key": "agua" },
-        { "name": "Jengibre fresco rallado", "g": 10, "key": "jengibre" },
-        { "name": "Hojas de menta fresca", "g": 8, "key": "menta" },
-        { "name": "Zumo de limón", "g": 20, "key": "limon" },
-        { "name": "Hielo", "g": 100, "key": "hielo" }
+        {
+          "name": "Flor de hibisco RAIAN",
+          "g": 8,
+          "key": "hibisco"
+        },
+        {
+          "name": "Agua mineral caliente",
+          "g": 500,
+          "key": "agua"
+        },
+        {
+          "name": "Jengibre fresco rallado",
+          "g": 10,
+          "key": "jengibre"
+        },
+        {
+          "name": "Hojas de menta fresca",
+          "g": 8,
+          "key": "menta"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "limon"
+        },
+        {
+          "name": "Hielo",
+          "g": 100,
+          "key": "hielo"
+        }
       ],
       "steps": [
         "Hierve el agua y retira del fuego. Añade el hibisco RAIAN, el jengibre rallado y la menta.",
@@ -239,15 +459,35 @@
         "Sirve en vasos altos con abundante hielo. Decora con una ramita de menta fresca."
       ],
       "nutrition_per_serving": {
-        "kcal": 8, "protein": 0.2, "carbs": 1.8, "sugars": 0.8,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.2, "salt": 0.01
+        "kcal": 8,
+        "protein": 0.2,
+        "carbs": 1.8,
+        "sugars": 0.8,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.2,
+        "salt": 0.01
       },
       "nutrition_per_100g_estimated": {
-        "kcal": 3, "protein": 0.1, "carbs": 0.7, "sugars": 0.3,
-        "fat": 0.0, "sat_fat": 0.0, "fiber": 0.1, "salt": 0.004
+        "kcal": 3,
+        "protein": 0.1,
+        "carbs": 0.7,
+        "sugars": 0.3,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.004
       },
       "estimated_serving_g": 325,
-      "keywords": ["té helado hibisco", "hibisco con jengibre", "bebida diurética", "bebida sin cafeína", "antioxidante natural", "fitoterapia", "menta hibisco"],
+      "keywords": [
+        "té helado hibisco",
+        "hibisco con jengibre",
+        "bebida diurética",
+        "bebida sin cafeína",
+        "antioxidante natural",
+        "fitoterapia",
+        "menta hibisco"
+      ],
       "notes": "Esta infusión tiene un perfil muy completo: el hibisco aporta antocianinas y efecto diurético, el jengibre actúa como antiinflamatorio natural y la menta facilita la digestión. Sin azúcar añadido, es una de las bebidas más saludables que puedes preparar. Si quieres endulzar, usa miel cruda o sirope de agave.",
       "imagePath": "/images/recipes/te-helado-de-hibisco-con-jengibre-y-menta.webp",
       "stepNotes": [
@@ -266,17 +506,50 @@
       "meta_description": "Limonada rosa de hibisco con zumo de naranja natural. Color rosa intenso sin colorantes artificiales. Refrescante, sin cafeína y lista en 15 minutos para toda la familia.",
       "intro": "Una limonada de color rosa espectacular y completamente natural, sin ningún colorante artificial. La flor de hibisco RAIAN le da ese tono rosado-rojo precioso y el zumo de naranja redondea el sabor con un dulzor afrutado que gusta a todos. Perfecta para niños y adultos por igual.",
       "servings": 4,
-      "times": { "prep_min": 5, "cook_min": 5, "rest_min": 15, "total_min": 25 },
+      "times": {
+        "prep_min": 5,
+        "cook_min": 5,
+        "rest_min": 15,
+        "total_min": 25
+      },
       "allergens": [],
       "image_available": true,
       "ingredients": [
-        { "name": "Flor de hibisco RAIAN", "g": 10, "key": "hibisco" },
-        { "name": "Agua mineral caliente", "g": 400, "key": "agua_caliente" },
-        { "name": "Zumo de limón recién exprimido", "g": 80, "key": "limon" },
-        { "name": "Zumo de naranja recién exprimido", "g": 150, "key": "naranja" },
-        { "name": "Azúcar o miel", "g": 50, "key": "azucar" },
-        { "name": "Agua fría con gas o sin gas", "g": 400, "key": "agua_fria" },
-        { "name": "Hielo y rodajas de limón para servir", "g": 80, "key": "decoracion" }
+        {
+          "name": "Flor de hibisco RAIAN",
+          "g": 10,
+          "key": "hibisco"
+        },
+        {
+          "name": "Agua mineral caliente",
+          "g": 400,
+          "key": "agua_caliente"
+        },
+        {
+          "name": "Zumo de limón recién exprimido",
+          "g": 80,
+          "key": "limon"
+        },
+        {
+          "name": "Zumo de naranja recién exprimido",
+          "g": 150,
+          "key": "naranja"
+        },
+        {
+          "name": "Azúcar o miel",
+          "g": 50,
+          "key": "azucar"
+        },
+        {
+          "name": "Agua fría con gas o sin gas",
+          "g": 400,
+          "key": "agua_fria"
+        },
+        {
+          "name": "Hielo y rodajas de limón para servir",
+          "g": 80,
+          "key": "decoracion"
+        }
       ],
       "steps": [
         "Prepara la base de hibisco: vierte 400 ml de agua caliente sobre los 10 g de flor de hibisco RAIAN. Añade el azúcar o la miel y remueve. Tapa y deja reposar 8 minutos.",
@@ -286,15 +559,35 @@
         "Sirve en vasos con hielo y rodajas de limón o naranja. Guarda en nevera hasta 24 horas."
       ],
       "nutrition_per_serving": {
-        "kcal": 68, "protein": 0.4, "carbs": 16.5, "sugars": 15.8,
-        "fat": 0.1, "sat_fat": 0.0, "fiber": 0.3, "salt": 0.01
+        "kcal": 68,
+        "protein": 0.4,
+        "carbs": 16.5,
+        "sugars": 15.8,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.3,
+        "salt": 0.01
       },
       "nutrition_per_100g_estimated": {
-        "kcal": 30, "protein": 0.2, "carbs": 7.3, "sugars": 7.0,
-        "fat": 0.04, "sat_fat": 0.0, "fiber": 0.1, "salt": 0.004
+        "kcal": 30,
+        "protein": 0.2,
+        "carbs": 7.3,
+        "sugars": 7.0,
+        "fat": 0.04,
+        "sat_fat": 0.0,
+        "fiber": 0.1,
+        "salt": 0.004
       },
       "estimated_serving_g": 285,
-      "keywords": ["limonada rosa hibisco", "limonada de hibisco", "bebida rosa natural", "sin colorantes", "familiar", "naranja hibisco", "refresco casero"],
+      "keywords": [
+        "limonada rosa hibisco",
+        "limonada de hibisco",
+        "bebida rosa natural",
+        "sin colorantes",
+        "familiar",
+        "naranja hibisco",
+        "refresco casero"
+      ],
       "notes": "El agua con gas le da un punto especial pero la versión sin gas es igual de buena y dura más tiempo en la nevera sin perder sabor. El color rosa varía según la cantidad de hibisco y la acidez del limón: más limón = más rojo intenso.",
       "imagePath": "/images/recipes/limonada-rosa-de-hibisco-con-naranja.webp",
       "stepNotes": [
