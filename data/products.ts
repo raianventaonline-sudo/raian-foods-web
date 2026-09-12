@@ -2447,6 +2447,107 @@ export const products: Product[] = [
       "Flor de hibisco seca RAIAN. Infusión 100% natural con color rojo intenso, sabor afrutado y rico en antioxidantes. Sin cafeína, perfecta en caliente o fría.",
     faqs: [
       {
+        question: "¿Qué es el xilitol?",
+        answer:
+          "El xilitol es un edulcorante natural de bajo índice glucémico (IG 7 frente al IG 65 del azúcar) extraído principalmente de la madera de abedul. Tiene el mismo poder endulzante que el azúcar común pero un 40 % menos de calorías. Es ampliamente usado en dietas bajas en azúcar, dietas para diabéticos y en productos de salud bucodental."
+      },
+      {
+        question: "¿El xilitol es apto para diabéticos?",
+        answer:
+          "El xilitol tiene un índice glucémico muy bajo (IG 7) y no provoca picos de insulina significativos. Muchas personas con diabetes lo utilizan como sustituto del azúcar, aunque siempre es recomendable consultarlo con el médico o nutricionista antes de incorporarlo de forma habitual."
+      },
+      {
+        question: "¿Cuánto xilitol se usa en lugar de azúcar?",
+        answer:
+          "La relación es 1:1 con el azúcar. Si tu receta pide 100 g de azúcar, puedes usar 100 g de xilitol. No necesitas ajustar cantidades."
+      },
+      {
+        question: "¿Se puede calentar el xilitol?",
+        answer:
+          "Sí, el xilitol es estable al calor y puede usarse en horneado, repostería y cocción. Sin embargo, no carameliza igual que el azúcar, por lo que los resultados visuales pueden ser algo distintos."
+      },
+      {
+        question: "¿El xilitol es bueno para los dientes?",
+        answer:
+          "Sí, el xilitol tiene propiedades reconocidas para la salud bucodental. Inhibe el crecimiento de las bacterias causantes de la caries (especialmente Streptococcus mutans) y es el edulcorante más utilizado en chicles y caramelos sin azúcar precisamente por este motivo."
+      },
+      {
+        question: "¿Es tóxico para mascotas?",
+        answer:
+          "Sí, el xilitol es muy tóxico para perros y otros animales domésticos. Incluso pequeñas cantidades pueden provocar una bajada brusca de azúcar en sangre o daño hepático. Guárdalo siempre fuera de su alcance y nunca se lo des."
+      }
+    ]
+  },
+  {
+    slug: "xilitol",
+    name: "Xilitol",
+    shortDescription:
+      "Edulcorante natural de abedul con el mismo poder que el azúcar pero un 40 % menos de calorías e índice glucémico ultra bajo (IG 7). Perfecto para repostería, bebidas y cocina sin azúcar.",
+    description:
+      "El xilitol es un alcohol de azúcar de origen natural extraído de la corteza de abedul. Endulza exactamente igual que el azúcar blanco (relación 1:1) pero aporta un 40 % menos de calorías y tiene un índice glucémico de solo 7, frente al 65 del azúcar común. No provoca picos de insulina, lo que lo convierte en el edulcorante preferido para dietas bajas en azúcar, dietas cetogénicas y personas con diabetes. Además, tiene propiedades probadas para la salud bucodental: inhibe el crecimiento de bacterias cariogénicas como el Streptococcus mutans.",
+    category: "Azúcares y endulzantes",
+    tags: ["Edulcorante", "Xilitol", "Sin azúcar", "Bajo índice glucémico", "Keto", "Repostería", "1 kg"],
+    dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido", "Bajo en carbohidratos"],
+    highlights: [
+      "Mismo poder endulzante que el azúcar, relación 1:1",
+      "40 % menos calorías que el azúcar",
+      "Índice glucémico ultra bajo: IG 7 (azúcar = IG 65)",
+      "Propiedades reconocidas para la salud bucodental"
+    ],
+    mainImage: {
+      src: "/images/products/xilitol-main.png",
+      alt: "Bote de xilitol RAIAN 1 kg",
+      label: "Xilitol 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Xilitol"),
+    uses: [
+      "Sustituto directo del azúcar en repostería casera (1:1).",
+      "Bebidas calientes y frías sin azúcar.",
+      "Recetas keto y bajas en carbohidratos.",
+      "Mermeladas y conservas sin azúcar añadido.",
+      "Salsas, aderezos y preparaciones saladas que llevan un toque dulce."
+    ],
+    howToUse: [
+      "Sustituye el azúcar en la misma cantidad (100 g azúcar = 100 g xilitol).",
+      "Se disuelve fácilmente en frío y en caliente.",
+      "En horneado funciona igual que el azúcar, aunque no carameliza con el mismo color.",
+      "Empieza con cantidades moderadas (20–30 g/día) para que el organismo se adapte.",
+      "Guárdalo siempre fuera del alcance de mascotas — es tóxico para perros."
+    ],
+    technicalSheet: technicalSheetFor("Xilitol", "Edulcorante (alcohol de azúcar)", "Xilitol (E967)"),
+    nutrition: [
+      { label: "Valor energético", value: "240 kcal / 1004 kJ" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "100 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "0 g" },
+      { label: "Sal", value: "0 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Sin gluten.",
+    conservation: "Conservar en lugar fresco y seco, alejado de la humedad. Cerrar bien el envase tras cada uso.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["inulina-de-agave", "dextrosa", "glucosa"],
+    recipeSlugs: [],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
+    seoTitle: "Xilitol 1 kg | Edulcorante natural de abedul sin azúcar | RAIAN",
+    seoDescription:
+      "Xilitol RAIAN 1 kg. Edulcorante natural de abedul con IG 7, mismo poder que el azúcar y un 40 % menos de calorías. Ideal para repostería keto y dietas sin azúcar.",
+    faqs: [
+      {
         question: "¿Qué es la flor de hibisco y para qué sirve?",
         answer:
           "La flor de hibisco (Hibiscus sabdariffa) es una planta tropical cuyos pétalos secos se usan para hacer infusiones de color rojo rubí intenso, con sabor afrutado y ligeramente ácido. Es conocida en todo el mundo como agua de jamaica, té de hibisco o flor de visco. Se usa tanto en caliente como en frío, y es muy popular también para preparar gelatinas, siropes y limonadas naturales."

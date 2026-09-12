@@ -90,5 +90,13 @@ export const qrLinks: Record<string, QrLink> = {
   },
   "hibisco": {
     targetPath: "/productos/flor-de-hibisco"
+  },
+
+  // ── Xilitol ──────────────────────────────────────────────────────────────
+  "xilitol": {
+    targetPath: "/productos/xilitol"
+  },
+  "xylitol": {
+    targetPath: "/productos/xilitol"
   }
 };
