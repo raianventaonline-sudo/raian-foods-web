@@ -4,6 +4,8 @@ import { products } from "@/data/products";
 import { recipes } from "@/data/recipes";
 import { siteConfig } from "@/data/site";
 
+export const revalidate = 86400; // regenerar una vez al día
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 

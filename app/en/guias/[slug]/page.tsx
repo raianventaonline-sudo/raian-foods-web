@@ -14,6 +14,8 @@ import { translateGuideToEn, translateProductToEn } from "@/lib/en-translate";
 
 type GuidePageProps = { params: { slug: string } };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return guides.map((guide) => ({ slug: guide.slug }));
 }

@@ -26,6 +26,8 @@ type ProductPageProps = {
 
 const isPendingValue = (value: string) => value.toLowerCase().includes("pendiente");
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
 }

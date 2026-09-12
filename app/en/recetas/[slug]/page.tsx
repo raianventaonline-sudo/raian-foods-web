@@ -5,6 +5,8 @@ import SpanishRecipePage from "@/app/recetas/[slug]/page";
 
 type RecipePageProps = { params: { slug: string } };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return recipes.map((recipe) => ({ slug: recipe.slug }));
 }

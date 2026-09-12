@@ -9,5 +9,8 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon|icon|apple-icon|images|robots|sitemap).*)"]
+  // Solo rutas de página — excluye estáticos, imágenes, API, QR redirects, sitemap y robots
+  matcher: [
+    "/((?!_next/static|_next/image|favicon\\.ico|icon|apple-icon|images|videos|documents|api/|qr/|robots\\.txt|sitemap\\.xml|\\.well-known).+)"
+  ]
 };

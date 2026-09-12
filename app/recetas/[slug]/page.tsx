@@ -113,6 +113,8 @@ const recipeJsonLd = (recipe: Recipe) => ({
   }
 });
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return recipes.map((recipe) => ({
     slug: recipe.slug

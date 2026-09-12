@@ -19,10 +19,16 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: "Receta no encontrada" }, { status: 404 });
     }
 
-    return NextResponse.json(await getRecipeRatingSummary(slug));
+    const data = await getRecipeRatingSummary(slug);
+    return NextResponse.json(data, {
+      headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" }
+    });
   }
 
-  return NextResponse.json(await getRecipeRatingSummaries());
+  const data = await getRecipeRatingSummaries();
+  return NextResponse.json(data, {
+    headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" }
+  });
 }
 
 export async function POST(request: Request) {

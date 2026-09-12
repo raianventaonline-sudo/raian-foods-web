@@ -17,6 +17,8 @@ type GuidePageProps = {
   };
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return guides.map((guide) => ({
     slug: guide.slug
