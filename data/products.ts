@@ -2543,7 +2543,7 @@ export const products: Product[] = [
         badge: "sanitary"
       }
     ],
-    seoTitle: "Xilitol 1 kg | Edulcorante natural de abedul sin azúcar | RAIAN",
+    seoTitle: "Xilitol 1 kg | Edulcorante natural sin azúcar | RAIAN",
     seoDescription:
       "Xilitol RAIAN 1 kg. Edulcorante natural de abedul con IG 7, mismo poder que el azúcar y un 40 % menos de calorías. Ideal para repostería keto y dietas sin azúcar.",
     faqs: [
@@ -2581,6 +2581,109 @@ export const products: Product[] = [
         question: "¿Para qué más se puede usar aparte de la infusión?",
         answer:
           "Su color rojo natural la convierte en un ingrediente muy versátil: sirope para cócteles sin alcohol, limonadas rosas, gelatinas caseras, agua fresca (agua de jamaica), colorante natural para postres y mermeladas. Combina muy bien con jengibre, menta, canela y cítricos."
+      }
+    ]
+  },
+  {
+    slug: "goma-xantana",
+    name: "Goma xantana",
+    shortDescription:
+      "Espesante y estabilizante natural sin gluten, imprescindible en repostería sin gluten, salsas, helados y emulsiones. Actúa desde 0,1 % de la cantidad total.",
+    description:
+      "La goma xantana (E415) es un polisacárido natural producido por fermentación de la bacteria Xanthomonas campestris. Es el aditivo alimentario espesante más versátil del mercado: actúa en cantidades mínimas (0,1–0,5 % del peso total), es estable en frío y en caliente, resiste la congelación y el ciclo de descongelación, y funciona igual en medio ácido que en neutro. En repostería sin gluten es insustituible: aporta la elasticidad y la cohesión que el gluten daría de forma natural, logrando masas que no se desmigan. En cocina profesional se usa para espesar salsas, gelificar líquidos, estabilizar emulsiones y dar textura a helados y sorbetes sin añadir calorías significativas.",
+    category: "Espesantes y estabilizantes",
+    tags: ["Goma xantana", "Espesante", "Sin gluten", "E415", "Repostería", "Salsas", "Helados", "100 g"],
+    dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido"],
+    highlights: [
+      "Sin gluten: imprescindible en masas y repostería sin gluten",
+      "Actúa desde 0,1 g por cada 100 g de mezcla",
+      "Estable en frío, caliente y ciclos de congelación-descongelación",
+      "Sin sabor ni color propios — no altera el sabor del plato"
+    ],
+    mainImage: {
+      src: "/images/products/goma-xantana-main.png",
+      alt: "Bote de goma xantana RAIAN 100 g",
+      label: "Goma xantana 100 g",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Goma xantana"),
+    uses: [
+      "Repostería sin gluten: pan, bizcochos, galletas, pizza.",
+      "Espesar salsas, cremas y caldos.",
+      "Estabilizar vinagretas y emulsiones.",
+      "Mejorar la textura de helados y sorbetes.",
+      "Espesar batidos proteicos y bebidas vegetales.",
+      "Cocina de vanguardia: esferificaciones y gelificaciones."
+    ],
+    howToUse: [
+      "Medir con precisión: entre 0,1 g y 0,5 g por cada 100 g de mezcla (1–5 g por kg).",
+      "Para masas sin gluten: usar 1–2 g por cada 100 g de harina sin gluten.",
+      "Para salsas y cremas: añadir 0,1–0,3 g por 100 ml y batir bien.",
+      "Para helados: incorporar 0,2–0,5 g por 100 ml antes de turbinar.",
+      "Mezclar siempre en seco con los demás polvos antes de añadir líquido — evita grumos.",
+      "Una báscula de precisión (0,1 g) es imprescindible para dosificar correctamente."
+    ],
+    technicalSheet: technicalSheetFor("Goma xantana", "Espesante y estabilizante (E415)", "Goma xantana (Xanthomonas campestris)"),
+    nutrition: [
+      { label: "Valor energético", value: "10 kcal / 42 kJ" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "6 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Fibra alimentaria", value: "67 g" },
+      { label: "Proteínas", value: "7 g" },
+      { label: "Sal", value: "7 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Sin gluten (apta para celíacos). Puede estar producida en instalaciones que manejan soja.",
+    conservation: "Conservar en lugar fresco y seco, alejado de la humedad. Cerrar bien el envase tras cada uso — la goma xantana absorbe la humedad del ambiente.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["harina-de-almendra", "inulina-de-agave", "gelatina-neutra-bovina"],
+    recipeSlugs: [],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
+    seoTitle: "Goma xantana 100 g | Espesante sin gluten E415 | RAIAN Foods",
+    seoDescription:
+      "Goma xantana RAIAN 100 g. Espesante natural E415 sin gluten para repostería, salsas, helados y emulsiones. Actúa desde 0,1 g por cada 100 g de mezcla.",
+    faqs: [
+      {
+        question: "¿Qué es la goma xantana?",
+        answer:
+          "La goma xantana (E415) es un espesante y estabilizante natural obtenido por fermentación bacteriana. Se usa en cantidades muy pequeñas (0,1–0,5 g por cada 100 g) para espesar, dar cohesión y mejorar la textura de todo tipo de preparaciones, sin aportar sabor ni color."
+      },
+      {
+        question: "¿Para qué sirve la goma xantana en repostería sin gluten?",
+        answer:
+          "El gluten es lo que da elasticidad y cohesión a las masas tradicionales. Sin él, el pan y los bizcochos se desmigan. La goma xantana replica ese papel: aporta la red estructural que mantiene la masa unida, mejora la esponjosidad y evita que el producto final quede seco o quebradizo. La dosis habitual es 1–2 g por cada 100 g de harina sin gluten."
+      },
+      {
+        question: "¿Cuánta goma xantana se usa?",
+        answer:
+          "La dosis varía según la aplicación: masas sin gluten (1–2 g/100 g harina), salsas y cremas (0,1–0,3 g/100 ml), helados y sorbetes (0,2–0,5 g/100 ml), vinagretas (0,1–0,2 g/100 ml). Siempre se mide en báscula de precisión (0,1 g) porque excederse da una textura pegajosa o mucilaginosa."
+      },
+      {
+        question: "¿La goma xantana es apta para celíacos?",
+        answer:
+          "Sí. La goma xantana no contiene gluten y es ampliamente usada precisamente en productos aptos para celíacos. Es uno de los ingredientes básicos de la repostería sin gluten."
+      },
+      {
+        question: "¿Se puede usar en frío y en caliente?",
+        answer:
+          "Sí, esa es una de sus grandes ventajas frente a otros espesantes. La goma xantana es estable a temperaturas de 0 °C a más de 100 °C, soporta ciclos de congelación y descongelación, y funciona tanto en medios ácidos como neutros. A diferencia del almidón, no pierde eficacia al enfriar o recalentar."
+      },
+      {
+        question: "¿En qué se diferencia de otros espesantes como la maicena o la gelatina?",
+        answer:
+          "La maicena necesita calor para activarse y pierde parte de su efecto al enfriar. La gelatina es de origen animal y forma geles sólidos. La goma xantana actúa en frío y en caliente, es vegana, no gelifica sino que espesa y estabiliza, y actúa con cantidades hasta 10–20 veces menores que la maicena. Cada espesante tiene su uso ideal; la xantana destaca por su versatilidad y la precisión de sus resultados."
       }
     ]
   }

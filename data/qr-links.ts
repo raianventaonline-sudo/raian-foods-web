@@ -98,5 +98,13 @@ export const qrLinks: Record<string, QrLink> = {
   },
   "xylitol": {
     targetPath: "/productos/xilitol"
+  },
+
+  // ── Goma xantana ─────────────────────────────────────────────────────────
+  "goma-xantana": {
+    targetPath: "/productos/goma-xantana"
+  },
+  "xantana": {
+    targetPath: "/productos/goma-xantana"
   }
 };
