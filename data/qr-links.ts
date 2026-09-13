@@ -100,6 +100,17 @@ export const qrLinks: Record<string, QrLink> = {
     targetPath: "/productos/xilitol"
   },
 
+  // ── Azúcar perlado ───────────────────────────────────────────────────────
+  "azucar-perlado": {
+    targetPath: "/productos/azucar-perlado"
+  },
+  "azúcar-perlado": {
+    targetPath: "/productos/azucar-perlado"
+  },
+  "pearl-sugar": {
+    targetPath: "/productos/azucar-perlado"
+  },
+
   // ── Goma xantana ─────────────────────────────────────────────────────────
   "goma-xantana": {
     targetPath: "/productos/goma-xantana"
