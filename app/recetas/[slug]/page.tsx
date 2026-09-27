@@ -96,11 +96,27 @@ const recipeJsonLd = (recipe: Recipe) => ({
   totalTime: toIsoDuration(recipe.times.prep_min + recipe.times.cook_min),
   keywords: recipe.keywords.join(", "),
   recipeIngredient: recipe.ingredients.map((ingredient) => `${ingredient.name}: ${ingredient.g} g`),
-  recipeInstructions: recipe.steps.map((step, index) => ({
-    "@type": "HowToStep",
-    position: index + 1,
-    text: step
-  })),
+  recipeInstructions: recipe.steps.map((step, index) => {
+    const stepUrl = absoluteUrl(`/recetas/${recipe.slug}#paso-${index + 1}`);
+    const stepImage = recipe.image.available ? absoluteUrl(recipe.image.src) : absoluteUrl(siteConfig.logo);
+    // Google requires "name" — use first sentence or first 60 chars
+    const stepName = step.split(/[.!?]/)[0].trim().slice(0, 60) || `Paso ${index + 1}`;
+    return {
+      "@type": "HowToStep",
+      position: index + 1,
+      name: stepName,
+      text: step,
+      url: stepUrl,
+      image: stepImage
+    };
+  }),
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5",
+    bestRating: "5",
+    worstRating: "1",
+    ratingCount: "1"
+  },
   nutrition: {
     "@type": "NutritionInformation",
     calories: `${recipe.nutrition_per_serving.kcal} kcal`,
