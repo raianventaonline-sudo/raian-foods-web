@@ -2913,6 +2913,114 @@ export const products: Product[] = [
           "La maicena necesita calor para activarse y pierde parte de su efecto al enfriar. La gelatina es de origen animal y forma geles sólidos. La goma xantana actúa en frío y en caliente, es vegana, no gelifica sino que espesa y estabiliza, y actúa con cantidades hasta 10–20 veces menores que la maicena. Cada espesante tiene su uso ideal; la xantana destaca por su versatilidad y la precisión de sus resultados."
       }
     ]
+  },
+  {
+    slug: "msm",
+    name: "MSM — Metilsulfonilmetano",
+    shortDescription:
+      "Azufre orgánico biodisponible de pureza >99,9 %. Apoya la salud articular, la piel, el cabello y la recuperación muscular. Sin alérgenos, sin GMO, apto para veganos.",
+    description:
+      "El MSM (metilsulfonilmetano, también conocido como dimetilsulfona) es un compuesto orgánico azufrado de origen natural con una pureza superior al 99,9 %. Es una de las fuentes de azufre biodisponible más estudiadas en nutrición deportiva y salud articular. El azufre es un elemento esencial para la síntesis de colágeno, queratina y glutatión — tres moléculas clave para la salud de las articulaciones, la piel, el cabello, las uñas y el sistema antioxidante del organismo. El MSM RAIAN está fabricado por Hansen Chemicals (China) según el estándar HS60-80MESH, con pureza GC >99,9 %, libre de metales pesados, sin alérgenos, sin GMO, sin aditivos y sin BSE/TSE.",
+    category: "Suplementos y complementos",
+    tags: ["MSM", "Metilsulfonilmetano", "Azufre orgánico", "Articulaciones", "Colágeno", "Deporte", "Piel", "Vegano", "250 g"],
+    dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido"],
+    highlights: [
+      "Pureza >99,9 % (verificada por cromatografía de gases)",
+      "Fuente de azufre orgánico biodisponible para síntesis de colágeno",
+      "Sin alérgenos · Sin GMO · Sin aditivos · Sin BSE/TSE",
+      "Apoya articulaciones, piel, cabello, uñas y recuperación muscular",
+      "Soluble en agua — fácil de incorporar en bebidas y batidos"
+    ],
+    mainImage: {
+      src: "/images/products/msm-main.png",
+      alt: "Bolsa de MSM metilsulfonilmetano RAIAN 250 g",
+      label: "MSM 250 g",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("MSM Metilsulfonilmetano"),
+    uses: [
+      "Disuelto en agua, zumo o batido (1–3 g/día según necesidad).",
+      "Como suplemento diario para la salud articular y el colágeno.",
+      "En nutrición deportiva para la recuperación muscular post-entreno.",
+      "Para la salud de la piel, el cabello y las uñas.",
+      "En combinación con colágeno hidrolizado o vitamina C para potenciar su efecto."
+    ],
+    howToUse: [
+      "Dosis habitual: 1–3 g/día (1/4 a 3/4 de cucharadita rasa).",
+      "Disolver en agua, zumo, batido o infusión. El MSM tiene sabor ligeramente amargo — mezclarlo con cítricos lo neutraliza.",
+      "Empezar con 500 mg–1 g/día e ir aumentando progresivamente para que el organismo se adapte.",
+      "Se puede tomar en cualquier momento del día, con o sin alimentos.",
+      "Para uso articular prolongado, los estudios sugieren un mínimo de 12 semanas para valorar resultados.",
+      "Conservar en lugar fresco y seco, alejado de la luz. Una vez abierto, cerrar bien el envase."
+    ],
+    technicalSheet: technicalSheetFor(
+      "MSM — Metilsulfonilmetano",
+      "Suplemento de azufre orgánico (dimetilsulfona)",
+      "Metilsulfonilmetano (C₂H₆O₂S) >99,9 %"
+    ),
+    nutrition: [
+      { label: "Valor energético", value: "0 kcal / 0 kJ" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "0 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "0 g" },
+      { label: "Sal", value: "0 g" },
+      { label: "Azufre (S)", value: "34 % (340 mg/g)" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Sin gluten. Sin GMO. Sin BSE/TSE.",
+    conservation: "Conservar en lugar fresco y seco, alejado del calor y la luz directa. Cerrar bien el envase tras cada uso. Vida útil: 4 años desde la fecha de fabricación.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["gelatina-neutra-bovina", "inulina-de-agave", "harina-de-almendra"],
+    recipeSlugs: [],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary" as const
+      }
+    ],
+    seoTitle: "MSM Metilsulfonilmetano 250 g | Azufre orgánico >99,9 % | RAIAN",
+    seoDescription:
+      "MSM (metilsulfonilmetano) RAIAN: azufre orgánico biodisponible de pureza >99,9 %. Para articulaciones, colágeno, piel y recuperación muscular. Sin alérgenos. Vegano.",
+    faqs: [
+      {
+        question: "¿Qué es el MSM (metilsulfonilmetano)?",
+        answer:
+          "El MSM (metilsulfonilmetano o dimetilsulfona, CAS 67-71-0) es un compuesto orgánico azufrado que se encuentra de forma natural en frutas, verduras, cereales y carnes. Como suplemento se obtiene por síntesis a partir de DMSO, con una pureza superior al 99,9 %. Es una fuente de azufre biodisponible muy bien tolerada por el organismo, sin olor ni sabor intenso en su forma pura."
+      },
+      {
+        question: "¿Para qué sirve el MSM?",
+        answer:
+          "El azufre del MSM es esencial para la síntesis de colágeno (salud articular y de la piel), queratina (cabello y uñas) y glutatión (principal antioxidante celular). Los estudios clínicos más relevantes lo relacionan con: reducción del dolor e inflamación articular (especialmente en artrosis de rodilla), mejora de la recuperación muscular post-ejercicio, apoyo a la salud de la piel y reducción de marcadores de oxidación celular."
+      },
+      {
+        question: "¿Cuánto MSM se toma al día?",
+        answer:
+          "La dosis habitual en adultos es de 1 a 3 g/día, repartida en 1 o 2 tomas. Los estudios clínicos más frecuentemente usados emplean 3 g/día (1,5 g mañana + 1,5 g noche) durante 12 semanas. Se recomienda empezar con 500 mg–1 g/día e ir aumentando progresivamente. No existe una dosis máxima establecida, pero dosis superiores a 4–6 g/día no aportan beneficio adicional probado."
+      },
+      {
+        question: "¿Tiene efectos secundarios?",
+        answer:
+          "El MSM es generalmente muy bien tolerado. A dosis normales (1–3 g/día) los efectos adversos son raros. Algunas personas pueden experimentar leve malestar digestivo al inicio — empezar con dosis bajas y aumentar gradualmente lo minimiza. No se han descrito efectos secundarios graves a las dosis habituales. Como precaución, consultar con médico en caso de embarazo, lactancia o tratamiento anticoagulante (el MSM puede potenciar levemente el efecto de anticoagulantes)."
+      },
+      {
+        question: "¿Cuánto tiempo hay que tomarlo para notar efectos?",
+        answer:
+          "Para la salud articular los estudios sugieren un mínimo de 12 semanas de uso continuado para valorar resultados. Para la recuperación muscular y la piel algunos usuarios notan mejoría antes, entre 4 y 8 semanas. El MSM no es un analgésico de acción inmediata — actúa de forma gradual apoyando la síntesis de colágeno y reduciendo el estrés oxidativo."
+      },
+      {
+        question: "¿El MSM RAIAN es vegano y sin alérgenos?",
+        answer:
+          "Sí. El MSM RAIAN (fabricado por Hansen Chemicals, código HS60-80MESH, pureza >99,9 %) está certificado como libre de alérgenos, libre de GMO, libre de aditivos y libre de BSE/TSE. Es apto para veganos y no contiene gluten."
+      }
+    ]
   }
 ];
 
