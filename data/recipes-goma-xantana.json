@@ -1,0 +1,2907 @@
+{
+  "brand": "RAIAN",
+  "product_slug": "goma-xantana",
+  "product": {
+    "name": "Goma xantana RAIAN",
+    "nutrition_per_100g": {
+      "kcal": 10,
+      "protein": 0,
+      "carbs": 6,
+      "sugars": 0,
+      "fat": 0,
+      "sat_fat": 0,
+      "fiber": 67,
+      "salt": 5.5
+    },
+    "technical_note": "Goma xantana (E415), espesante y estabilizante producido por fermentación de Xanthomonas campestris. Sin sabor ni color propios. Sin gluten (apta para celíacos). Actúa a partir de 0,1 % sobre el total. Estable en frío, caliente y ciclos de congelación-descongelación.",
+    "dosage_note": "En masas sin gluten: 1–2 g por cada 100 g de harina. En salsas y cremas: 0,1–0,3 g por cada 100 ml de líquido. En helados y sorbetes: 0,2–0,5 g por cada 100 ml. En batidos y smoothies: 0,1–0,2 g por 200 ml. Añadir siempre en seco mezclada con otros polvos para evitar grumos. No superar 2 g por 100 g — puede volverse gomoso en exceso."
+  },
+  "website_requirements": {
+    "market": "España",
+    "language": "es-ES",
+    "categories": [
+      "sin gluten",
+      "casera",
+      "saludable",
+      "vegana",
+      "familiar"
+    ],
+    "nutrition_fields_required_eu": [
+      "kcal",
+      "protein",
+      "carbs",
+      "sugars",
+      "fat",
+      "sat_fat",
+      "fiber",
+      "salt"
+    ],
+    "allergen_policy": "Sin alérgenos de declaración obligatoria. Sin gluten (apta para celíacos).",
+    "claim_policy": [
+      "Sin gluten",
+      "Vegano",
+      "Sin azúcar",
+      "Espesante natural E415"
+    ]
+  },
+  "recipes": [
+    {
+      "category": "sin gluten",
+      "title": "Pan blanco sin gluten con goma xantana",
+      "slug": "pan-blanco-sin-gluten-con-goma-xantana",
+      "seo_title": "Pan blanco sin gluten con goma xantana | RAIAN",
+      "meta_description": "Pan blanco casero sin gluten esponjoso y con buena miga, gracias a la goma xantana. Apto para celíacos, fácil de preparar en casa.",
+      "intro": "La goma xantana es el ingrediente clave para conseguir un pan sin gluten con miga esponjosa y corteza crujiente. Actúa como el gluten, atrapando los gases de la fermentación y dando elasticidad a la masa.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 40,
+        "rest_min": 60,
+        "total_min": 120
+      },
+      "allergens": [
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz blanca",
+          "g": 250,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de maíz (maicena)",
+          "g": 100,
+          "key": "maicena"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Levadura seca de panadero sin gluten",
+          "g": 7,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 280,
+          "key": "agua"
+        },
+        {
+          "name": "Huevo L",
+          "g": 55,
+          "key": "huevo"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        }
+      ],
+      "steps": [
+        "Mezclar en seco la harina de arroz, la maicena, la goma xantana y la sal. La goma xantana se añade en seco para evitar grumos.",
+        "Disolver la levadura en el agua tibia con una pizca de azúcar; esperar 5–10 minutos hasta que espume.",
+        "Añadir el huevo, el aceite y la mezcla de levadura a los ingredientes secos; amasar con batidora de varillas o mezclador 3–4 minutos. La masa será pegajosa, es normal.",
+        "Verter en un molde engrasado de 20 cm, alisar la superficie con una espátula húmeda.",
+        "Dejar fermentar en lugar cálido tapado con film 45–60 minutos hasta que aumente su volumen.",
+        "Hornear a 200 °C durante 35–40 minutos hasta que suene hueco al golpear la base. Enfriar en rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 188,
+        "protein": 3.5,
+        "carbs": 38.5,
+        "sugars": 0.2,
+        "fat": 3.2,
+        "sat_fat": 0.5,
+        "fiber": 1.8,
+        "salt": 0.48
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 226,
+        "protein": 4.2,
+        "carbs": 46.2,
+        "sugars": 0.2,
+        "fat": 3.8,
+        "sat_fat": 0.6,
+        "fiber": 2.2,
+        "salt": 0.58
+      },
+      "estimated_serving_g": 83,
+      "keywords": [
+        "pan sin gluten",
+        "pan sin gluten con goma xantana",
+        "pan celíacos casero",
+        "pan blanco sin gluten"
+      ],
+      "notes": "Se usan 5 g de goma xantana para 350 g de harina (1,4 g por 100 g de harina), dentro del rango recomendado de 1–2 g/100 g. La goma xantana aporta la viscoelasticidad que el gluten proporciona en harinas convencionales, evitando que la masa se desmorone.",
+      "imagePath": "/images/recipes/pan-blanco-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        "Mezclar siempre la goma xantana con los polvos secos primero.",
+        null,
+        "La masa de pan sin gluten es siempre más pegajosa que la convencional.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Pizza sin gluten con goma xantana",
+      "slug": "pizza-sin-gluten-con-goma-xantana",
+      "seo_title": "Pizza sin gluten con goma xantana | RAIAN",
+      "meta_description": "Masa de pizza sin gluten crujiente y manejable gracias a la goma xantana. Apta para celíacos, se extiende sin romperse.",
+      "intro": "Conseguir una masa de pizza sin gluten que se extienda sin romperse y quede crujiente es posible gracias a la goma xantana. Aporta la elasticidad necesaria para manejar la masa con facilidad.",
+      "servings": 4,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 18,
+        "rest_min": 30,
+        "total_min": 68
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz integral",
+          "g": 150,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de tapioca",
+          "g": 80,
+          "key": "tapioca"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 3,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Levadura seca sin gluten",
+          "g": 5,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 160,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezclar en seco las harinas, la goma xantana y la sal. La goma xantana integrada en seco no formará grumos.",
+        "Disolver la levadura en el agua tibia; esperar 5 minutos hasta que espume.",
+        "Mezclar el agua con levadura y el aceite con los ingredientes secos hasta obtener una masa uniforme.",
+        "Dejar reposar 30 minutos cubierta con film en lugar cálido.",
+        "Extender entre dos papeles de horno con un rodillo hasta 3–4 mm de grosor. Pasar a la bandeja de horno.",
+        "Cubrir con tomate y toppings al gusto. Hornear a 220 °C 15–18 minutos hasta que los bordes estén dorados."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 198,
+        "protein": 2.8,
+        "carbs": 40.5,
+        "sugars": 0.5,
+        "fat": 4.2,
+        "sat_fat": 0.6,
+        "fiber": 2.5,
+        "salt": 0.62
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 220,
+        "protein": 3.1,
+        "carbs": 45.0,
+        "sugars": 0.6,
+        "fat": 4.7,
+        "sat_fat": 0.7,
+        "fiber": 2.8,
+        "salt": 0.69
+      },
+      "estimated_serving_g": 90,
+      "keywords": [
+        "pizza sin gluten",
+        "masa pizza sin gluten goma xantana",
+        "pizza celíacos",
+        "masa sin gluten crujiente"
+      ],
+      "notes": "Se usan 3 g de goma xantana para 230 g de harina (1,3 g/100 g de harina). La goma xantana permite extender la masa sin que se agriete, comportándose de forma similar a una masa con gluten.",
+      "imagePath": "/images/recipes/pizza-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        "Extender entre papeles de horno facilita el manejo sin que se pegue.",
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Tortillas de maíz sin gluten con goma xantana",
+      "slug": "tortillas-de-maiz-sin-gluten-con-goma-xantana",
+      "seo_title": "Tortillas de maíz sin gluten con goma xantana | RAIAN",
+      "meta_description": "Tortillas de maíz flexibles y sin rotura gracias a la goma xantana. Sin gluten, aptas para celíacos y perfectas para tacos y wraps.",
+      "intro": "Las tortillas de maíz sin gluten suelen romperse al doblarlas, pero añadiendo goma xantana se consigue la flexibilidad necesaria para enrollarlas sin problemas.",
+      "servings": 8,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 16,
+        "rest_min": 15,
+        "total_min": 46
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de maíz (masa harina)",
+          "g": 240,
+          "key": "masa-harina"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 2,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Agua caliente",
+          "g": 200,
+          "key": "agua"
+        },
+        {
+          "name": "Sal",
+          "g": 4,
+          "key": "sal"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 10,
+          "key": "aceite"
+        }
+      ],
+      "steps": [
+        "Mezclar la harina de maíz con la goma xantana y la sal en un bol. Incorporar en seco para que la xantana se distribuya uniformemente.",
+        "Añadir el agua caliente y el aceite; mezclar hasta obtener una masa homogénea que no se pegue a las manos.",
+        "Reposar 15 minutos tapada con un paño.",
+        "Dividir en 8 porciones iguales. Extender entre dos plásticos o papeles de horno con prensa de tortillas o rodillo hasta 2 mm.",
+        "Cocinar en sartén o comal seco a fuego fuerte 1–2 minutos por cada lado hasta que aparezcan manchas doradas.",
+        "Mantener en un paño de cocina apiladas para que se mantengan flexibles."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 118,
+        "protein": 2.5,
+        "carbs": 25.8,
+        "sugars": 0.4,
+        "fat": 1.8,
+        "sat_fat": 0.3,
+        "fiber": 2.8,
+        "salt": 0.24
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 258,
+        "protein": 5.5,
+        "carbs": 56.5,
+        "sugars": 0.9,
+        "fat": 3.9,
+        "sat_fat": 0.7,
+        "fiber": 6.1,
+        "salt": 0.52
+      },
+      "estimated_serving_g": 46,
+      "keywords": [
+        "tortillas sin gluten",
+        "tortillas de maíz sin gluten",
+        "tortillas goma xantana",
+        "wraps sin gluten"
+      ],
+      "notes": "Se usan 2 g de goma xantana para 240 g de harina (0,8 g/100 g). La goma xantana aporta flexibilidad a la tortilla de maíz, evitando que se agriete al doblar. Sin ella, las tortillas de maíz son frágiles.",
+      "imagePath": "/images/recipes/tortillas-de-maiz-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "El apilado en paño mantiene el vapor y la flexibilidad."
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Pasta fresca sin gluten con goma xantana",
+      "slug": "pasta-fresca-sin-gluten-con-goma-xantana",
+      "seo_title": "Pasta fresca sin gluten con goma xantana | RAIAN",
+      "meta_description": "Pasta fresca sin gluten que no se rompe al cocer gracias a la goma xantana. Textura firme y manejable. Apta para celíacos.",
+      "intro": "La pasta fresca sin gluten tiende a deshacerse al cocer porque le falta la red elástica del gluten. La goma xantana actúa como aglutinante, dando cohesión y resistencia a la pasta para que no se rompa.",
+      "servings": 3,
+      "times": {
+        "prep_min": 25,
+        "cook_min": 5,
+        "rest_min": 30,
+        "total_min": 60
+      },
+      "allergens": [
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz fina",
+          "g": 180,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de maíz",
+          "g": 60,
+          "key": "maicena"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 4,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Huevos L",
+          "g": 110,
+          "key": "huevos"
+        },
+        {
+          "name": "Sal",
+          "g": 3,
+          "key": "sal"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 10,
+          "key": "aceite"
+        }
+      ],
+      "steps": [
+        "Mezclar en seco la harina, la maicena, la goma xantana y la sal. La xantana debe distribuirse de forma homogénea antes de añadir líquidos.",
+        "Añadir los huevos y el aceite; amasar 5–8 minutos hasta obtener una masa lisa y no pegajosa.",
+        "Envolver en film y reposar 30 minutos en nevera.",
+        "Estirar con máquina de pasta o rodillo hasta 2 mm de grosor. Cortar el tipo de pasta deseado.",
+        "Cocer en agua hirviendo con sal abundante 3–5 minutos.",
+        "Escurrir y servir inmediatamente con la salsa elegida."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 295,
+        "protein": 9.5,
+        "carbs": 55.8,
+        "sugars": 0.5,
+        "fat": 5.2,
+        "sat_fat": 1.2,
+        "fiber": 2.5,
+        "salt": 0.58
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 302,
+        "protein": 9.7,
+        "carbs": 57.2,
+        "sugars": 0.5,
+        "fat": 5.3,
+        "sat_fat": 1.2,
+        "fiber": 2.6,
+        "salt": 0.59
+      },
+      "estimated_serving_g": 98,
+      "keywords": [
+        "pasta sin gluten casera",
+        "pasta fresca sin gluten goma xantana",
+        "pasta celíacos",
+        "tallarines sin gluten"
+      ],
+      "notes": "Se usan 4 g de goma xantana para 240 g de harina (1,67 g/100 g). La goma xantana es esencial para que la pasta sin gluten no se deshaga al cocer: forma una red que simula el gluten.",
+      "imagePath": "/images/recipes/pasta-fresca-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        "La pasta sin gluten se cuece más rápido que la convencional; probar a partir de 3 minutos.",
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Brioche sin gluten con goma xantana",
+      "slug": "brioche-sin-gluten-con-goma-xantana",
+      "seo_title": "Brioche sin gluten con goma xantana | RAIAN",
+      "meta_description": "Brioche esponjoso y tierno sin gluten, posible gracias a la goma xantana. Miga suave, apto para celíacos y con sabor mantequilloso.",
+      "intro": "El brioche sin gluten es uno de los retos más difíciles de la repostería sin gluten. La goma xantana aporta la elasticidad necesaria para retener los gases de la levadura y conseguir una miga suave y aireada.",
+      "servings": 8,
+      "times": {
+        "prep_min": 30,
+        "cook_min": 35,
+        "rest_min": 90,
+        "total_min": 155
+      },
+      "allergens": [
+        "huevo",
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Mezcla de harinas sin gluten (arroz y tapioca)",
+          "g": 300,
+          "key": "harinas-sg"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Mantequilla blanda",
+          "g": 80,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Huevos L",
+          "g": 110,
+          "key": "huevos"
+        },
+        {
+          "name": "Leche tibia",
+          "g": 80,
+          "key": "leche"
+        },
+        {
+          "name": "Azúcar",
+          "g": 40,
+          "key": "azucar"
+        },
+        {
+          "name": "Levadura seca sin gluten",
+          "g": 7,
+          "key": "levadura"
+        },
+        {
+          "name": "Sal",
+          "g": 5,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezclar las harinas, la goma xantana, el azúcar y la sal en seco.",
+        "Disolver la levadura en la leche tibia; esperar 5 minutos.",
+        "Añadir los huevos, la leche con levadura a los secos; batir con amasadora 5 minutos.",
+        "Incorporar la mantequilla blanda a trozos batiendo otros 5 minutos hasta integrar.",
+        "Colocar en molde engrasado; fermentar tapado 60–90 minutos hasta doblar volumen.",
+        "Pintar con huevo batido y hornear a 180 °C 30–35 minutos. Enfriar en rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 265,
+        "protein": 6.2,
+        "carbs": 38.5,
+        "sugars": 6.8,
+        "fat": 10.2,
+        "sat_fat": 5.8,
+        "fiber": 1.5,
+        "salt": 0.38
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 310,
+        "protein": 7.2,
+        "carbs": 45.0,
+        "sugars": 7.9,
+        "fat": 11.9,
+        "sat_fat": 6.8,
+        "fiber": 1.8,
+        "salt": 0.44
+      },
+      "estimated_serving_g": 85,
+      "keywords": [
+        "brioche sin gluten",
+        "brioche celíacos goma xantana",
+        "pan dulce sin gluten",
+        "bollería sin gluten"
+      ],
+      "notes": "Se usan 5 g de goma xantana para 300 g de harina (1,67 g/100 g). La goma xantana es imprescindible en esta receta: sin ella la masa no tendría la elasticidad necesaria para retener los gases y la miga sería densa y apelmazada.",
+      "imagePath": "/images/recipes/brioche-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Bechamel sin gluten con goma xantana",
+      "slug": "bechamel-sin-gluten-con-goma-xantana",
+      "seo_title": "Bechamel sin gluten con goma xantana | RAIAN",
+      "meta_description": "Bechamel cremosa y sin gluten elaborada con goma xantana en lugar de harina de trigo. Apta para celíacos, textura perfecta.",
+      "intro": "Una bechamel completamente libre de gluten usando goma xantana como espesante. La goma xantana en pequeña cantidad da la misma cremosidad que la harina de trigo sin ningún gluten ni cereal.",
+      "servings": 4,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 10,
+        "rest_min": 0,
+        "total_min": 15
+      },
+      "allergens": [
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche entera",
+          "g": 500,
+          "key": "leche"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 30,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1.5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Sal",
+          "g": 4,
+          "key": "sal"
+        },
+        {
+          "name": "Nuez moscada molida",
+          "g": 1,
+          "key": "nuez-moscada"
+        },
+        {
+          "name": "Pimienta blanca molida",
+          "g": 0.5,
+          "key": "pimienta"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con la sal y la pimienta en seco; reservar.",
+        "Calentar la leche en un cazo a fuego suave sin que hierva.",
+        "Derretir la mantequilla en otro cazo. Añadir la mezcla de goma xantana y sal en lluvia, batiendo con varillas continuamente.",
+        "Incorporar la leche caliente en hilo fino sin dejar de batir con energía.",
+        "Cocer a fuego suave 5–7 minutos removiendo hasta que la salsa espese a la consistencia deseada.",
+        "Añadir la nuez moscada, rectificar de sal y usar inmediatamente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 128,
+        "protein": 5.5,
+        "carbs": 8.5,
+        "sugars": 6.8,
+        "fat": 8.5,
+        "sat_fat": 5.5,
+        "fiber": 0.5,
+        "salt": 0.72
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 96,
+        "protein": 4.1,
+        "carbs": 6.4,
+        "sugars": 5.1,
+        "fat": 6.4,
+        "sat_fat": 4.1,
+        "fiber": 0.4,
+        "salt": 0.54
+      },
+      "estimated_serving_g": 133,
+      "keywords": [
+        "bechamel sin gluten",
+        "bechamel goma xantana",
+        "salsa blanca sin gluten",
+        "bechamel celíacos"
+      ],
+      "notes": "Se usan 1,5 g de goma xantana para 500 ml de leche (0,3 g/100 ml), en el rango recomendado de 0,1–0,3 g/100 ml para salsas. La goma xantana espesa directamente sin necesidad de roux, simplificando el proceso.",
+      "imagePath": "/images/recipes/bechamel-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        "Mezclar la xantana en seco con la sal evita grumos al incorporarla.",
+        null,
+        "Batir con energía al añadir la xantana es clave para una textura lisa.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Salsa de tomate espesa con goma xantana",
+      "slug": "salsa-de-tomate-espesa-con-goma-xantana",
+      "seo_title": "Salsa de tomate espesa sin almidón con goma xantana | RAIAN",
+      "meta_description": "Salsa de tomate casera espesa y brillante sin almidón ni fécula, gracias a la goma xantana. Sin gluten, vegana y lista en 20 minutos.",
+      "intro": "Una salsa de tomate casera con textura espesa y brillante conseguida con una mínima cantidad de goma xantana. Sin necesidad de reducir horas ni añadir almidones.",
+      "servings": 4,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 20,
+        "rest_min": 0,
+        "total_min": 25
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Tomates maduros troceados (o lata de tomate triturado)",
+          "g": 600,
+          "key": "tomate"
+        },
+        {
+          "name": "Cebolla",
+          "g": 100,
+          "key": "cebolla"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 30,
+          "key": "aceite"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Sal, azúcar y orégano",
+          "g": 8,
+          "key": "condimentos"
+        }
+      ],
+      "steps": [
+        "Sofreír la cebolla picada fina en el aceite a fuego medio 8 minutos hasta que esté transparente.",
+        "Añadir el tomate triturado, sal, una pizca de azúcar y orégano; cocer 15 minutos.",
+        "Triturar con batidora de mano hasta obtener una salsa fina.",
+        "Mezclar la goma xantana con una cucharada de agua fría hasta disolver antes de añadirla a la salsa.",
+        "Incorporar la mezcla de xantana a la salsa caliente batiendo rápidamente con varillas.",
+        "Cocinar 1–2 minutos más a fuego suave removiendo. La salsa espesará visiblemente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 95,
+        "protein": 2.2,
+        "carbs": 10.5,
+        "sugars": 7.8,
+        "fat": 7.2,
+        "sat_fat": 1.0,
+        "fiber": 2.8,
+        "salt": 0.52
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 72,
+        "protein": 1.7,
+        "carbs": 8.0,
+        "sugars": 5.9,
+        "fat": 5.5,
+        "sat_fat": 0.8,
+        "fiber": 2.1,
+        "salt": 0.4
+      },
+      "estimated_serving_g": 132,
+      "keywords": [
+        "salsa de tomate espesa sin almidón",
+        "salsa tomate goma xantana",
+        "salsa sin gluten",
+        "tomate espesado natural"
+      ],
+      "notes": "Se usa 1 g de goma xantana para aproximadamente 650 ml de salsa (0,15 g/100 ml), dentro del rango recomendado para salsas. La goma xantana espesa sin alterar el color ni el sabor.",
+      "imagePath": "/images/recipes/salsa-de-tomate-espesa-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Disolver la xantana en agua fría antes de añadir a la salsa caliente evita la formación de grumos.",
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Mayonesa estabilizada con goma xantana",
+      "slug": "mayonesa-estabilizada-con-goma-xantana",
+      "seo_title": "Mayonesa casera estabilizada con goma xantana | RAIAN",
+      "meta_description": "Mayonesa casera que no se corta gracias a la goma xantana como estabilizante. Sin gluten, vegana (con aquafaba) o clásica con huevo.",
+      "intro": "La goma xantana actúa como emulsionante y estabilizante en la mayonesa, evitando que se corte y prolongando su consistencia cremosa varios días en nevera.",
+      "servings": 12,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 8
+      },
+      "allergens": [
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Aceite de girasol",
+          "g": 200,
+          "key": "aceite"
+        },
+        {
+          "name": "Huevo L",
+          "g": 55,
+          "key": "huevo"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "limon"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Sal",
+          "g": 3,
+          "key": "sal"
+        },
+        {
+          "name": "Mostaza de Dijon (opcional)",
+          "g": 5,
+          "key": "mostaza"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con la sal en un bol pequeño.",
+        "Poner el huevo, el zumo de limón y la mostaza en el vaso de la batidora. Añadir la mezcla de xantana y sal.",
+        "Colocar el brazo de la batidora en el fondo del vaso sin moverlo.",
+        "Verter el aceite por encima del huevo.",
+        "Accionar la batidora a máxima potencia sin mover hasta que el 80 % haya emulsionado.",
+        "Levantar lentamente la batidora para integrar el aceite restante. Rectificar de sal y limón. Guardar en nevera hasta 5 días."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 142,
+        "protein": 0.8,
+        "carbs": 0.2,
+        "sugars": 0.1,
+        "fat": 15.5,
+        "sat_fat": 1.5,
+        "fiber": 0.0,
+        "salt": 0.18
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 588,
+        "protein": 3.3,
+        "carbs": 0.8,
+        "sugars": 0.4,
+        "fat": 64.2,
+        "sat_fat": 6.2,
+        "fiber": 0.0,
+        "salt": 0.75
+      },
+      "estimated_serving_g": 24,
+      "keywords": [
+        "mayonesa casera estabilizada",
+        "mayonesa sin gluten goma xantana",
+        "mayonesa que no se corta",
+        "emulsión estable"
+      ],
+      "notes": "Se usa 0,5 g de goma xantana para 275 ml de mayonesa (0,18 g/100 ml). La goma xantana refuerza la emulsión aceite-agua, evitando que se separen con el tiempo. La mayonesa aguanta perfecta en nevera hasta 5 días.",
+      "imagePath": "/images/recipes/mayonesa-estabilizada-con-goma-xantana.webp",
+      "stepNotes": [
+        "La xantana mezclada en seco con sal se integra mejor.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Salsa teriyaki espesa con goma xantana",
+      "slug": "salsa-teriyaki-espesa-con-goma-xantana",
+      "seo_title": "Salsa teriyaki espesa sin almidón con goma xantana | RAIAN",
+      "meta_description": "Salsa teriyaki brillante y espesa sin maicena ni almidón de trigo, elaborada con goma xantana. Sin gluten, vegana y lista en 10 minutos.",
+      "intro": "Una salsa teriyaki brillante y espesa sin necesidad de almidón de maíz ni harina. La goma xantana espesa la salsa en frío o en caliente, manteniendo el glaseado brillante característico.",
+      "servings": 6,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 8,
+        "rest_min": 0,
+        "total_min": 13
+      },
+      "allergens": [
+        "soja"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Salsa de soja sin gluten (tamari)",
+          "g": 80,
+          "key": "tamari"
+        },
+        {
+          "name": "Mirin",
+          "g": 60,
+          "key": "mirin"
+        },
+        {
+          "name": "Azúcar moreno",
+          "g": 30,
+          "key": "azucar"
+        },
+        {
+          "name": "Agua",
+          "g": 60,
+          "key": "agua"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Jengibre fresco rallado",
+          "g": 5,
+          "key": "jengibre"
+        }
+      ],
+      "steps": [
+        "Combinar el tamari, el mirin, el azúcar, el agua y el jengibre en un cazo pequeño.",
+        "Calentar a fuego medio removiendo hasta disolver el azúcar.",
+        "Mezclar la goma xantana con 2 cucharadas de la salsa fría hasta disolver completamente.",
+        "Añadir la mezcla de xantana a la salsa caliente batiendo rápidamente con varillas.",
+        "Cocer a fuego suave 2–3 minutos; la salsa espesará y adquirirá brillo.",
+        "Usar inmediatamente como glaseado o guardar en nevera hasta 2 semanas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 42,
+        "protein": 1.5,
+        "carbs": 8.8,
+        "sugars": 7.5,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.2,
+        "salt": 1.05
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 90,
+        "protein": 3.2,
+        "carbs": 18.9,
+        "sugars": 16.1,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 0.4,
+        "salt": 2.26
+      },
+      "estimated_serving_g": 47,
+      "keywords": [
+        "salsa teriyaki sin gluten",
+        "teriyaki sin maicena goma xantana",
+        "salsa japonesa sin gluten",
+        "glaseado teriyaki"
+      ],
+      "notes": "Se usa 0,5 g de goma xantana para aproximadamente 240 ml de salsa (0,21 g/100 ml). La goma xantana sustituye al almidón de maíz típico para espesar el teriyaki, con la ventaja de que también estabiliza en frío.",
+      "imagePath": "/images/recipes/salsa-teriyaki-espesa-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver la xantana en líquido frío antes de añadirla al caliente evita grumos.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "saludable",
+      "title": "Helado de fresa sin azúcar con goma xantana",
+      "slug": "helado-de-fresa-sin-azucar-con-goma-xantana",
+      "seo_title": "Helado de fresa cremoso sin azúcar con goma xantana | RAIAN",
+      "meta_description": "Helado de fresa cremoso y sin cristales de hielo gracias a la goma xantana. Sin gluten, sin azúcar añadido y con textura suave.",
+      "intro": "La goma xantana es el secreto de los helados artesanales: evita la formación de cristales de hielo grandes durante la congelación, dando una textura cremosa y suave sin necesidad de heladera.",
+      "servings": 6,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 360,
+        "total_min": 375
+      },
+      "allergens": [
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Fresas frescas o congeladas",
+          "g": 400,
+          "key": "fresas"
+        },
+        {
+          "name": "Nata para montar 35 %",
+          "g": 200,
+          "key": "nata"
+        },
+        {
+          "name": "Miel o sirope de agave",
+          "g": 60,
+          "key": "miel"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "limon"
+        }
+      ],
+      "steps": [
+        "Triturar las fresas con el zumo de limón y la miel hasta obtener un puré liso.",
+        "Mezclar la goma xantana con 2 cucharadas de la nata fría hasta disolver; incorporar al puré de fresas.",
+        "Montar la nata restante a punto de nieve firme.",
+        "Incorporar el puré de fresas a la nata montada con movimientos envolventes.",
+        "Verter en un recipiente hermético y congelar 6 horas mínimo.",
+        "Sacar del congelador 10 minutos antes de servir para que se ablande ligeramente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 195,
+        "protein": 1.8,
+        "carbs": 16.5,
+        "sugars": 14.8,
+        "fat": 14.5,
+        "sat_fat": 9.0,
+        "fiber": 1.5,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 178,
+        "protein": 1.6,
+        "carbs": 15.1,
+        "sugars": 13.5,
+        "fat": 13.3,
+        "sat_fat": 8.2,
+        "fiber": 1.4,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 110,
+      "keywords": [
+        "helado sin cristales goma xantana",
+        "helado de fresa sin heladera",
+        "helado sin gluten",
+        "helado casero cremoso"
+      ],
+      "notes": "Se usa 1 g de goma xantana para aproximadamente 660 ml de mezcla (0,15 g/100 ml). La goma xantana actúa como estabilizante en helados: inhibe el crecimiento de cristales de hielo durante la congelación, resultando en una textura más cremosa.",
+      "imagePath": "/images/recipes/helado-de-fresa-sin-azucar-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        "Disolver la xantana en nata fría antes de añadir al puré evita grumos.",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "saludable",
+      "title": "Sorbete de limón sin heladera con goma xantana",
+      "slug": "sorbete-de-limon-sin-heladera-con-goma-xantana",
+      "seo_title": "Sorbete de limón sin heladera con goma xantana | RAIAN",
+      "meta_description": "Sorbete de limón refrescante con textura suave sin heladera gracias a la goma xantana. Sin gluten, vegano y muy fácil.",
+      "intro": "Un sorbete de limón refrescante y con textura suave sin necesidad de heladera. La goma xantana evita la formación de hielo granulado, consiguiendo un sorbete fino y agradable.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 255
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Zumo de limón natural",
+          "g": 200,
+          "key": "limon"
+        },
+        {
+          "name": "Agua",
+          "g": 200,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar o sirope de agave",
+          "g": 120,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.8,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Ralladura de limón",
+          "g": 5,
+          "key": "ralladura"
+        }
+      ],
+      "steps": [
+        "Preparar un jarabe disolviendo el azúcar en el agua caliente; añadir la ralladura de limón y enfriar.",
+        "Mezclar la goma xantana con una cucharada de jarabe frío hasta disolver; incorporar al zumo de limón.",
+        "Combinar el zumo de limón con la xantana y el jarabe frío; mezclar bien.",
+        "Verter en recipiente plano y congelar 1 hora.",
+        "Triturar con tenedor rompiendo los cristales. Volver a congelar 3 horas más.",
+        "Servir raspando con una cuchara o usando una cuchara de helado."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 118,
+        "protein": 0.4,
+        "carbs": 30.8,
+        "sugars": 28.5,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.5,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 88,
+        "protein": 0.3,
+        "carbs": 23.0,
+        "sugars": 21.3,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 0.4,
+        "salt": 0.01
+      },
+      "estimated_serving_g": 134,
+      "keywords": [
+        "sorbete de limón sin heladera",
+        "sorbete goma xantana",
+        "sorbete sin gluten vegano",
+        "granita de limón suave"
+      ],
+      "notes": "Se usa 0,8 g de goma xantana para 400 ml de base de sorbete (0,2 g/100 ml). La goma xantana estabiliza los cristales de hielo en sorbetes y granizados, dando una textura más fina y menos granulosa que sin ella.",
+      "imagePath": "/images/recipes/sorbete-de-limon-sin-heladera-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        "El rascado y recongelación es el proceso manual que sustituye a la heladera.",
+        null
+      ]
+    },
+    {
+      "category": "saludable",
+      "title": "Crema de calabaza espesa con goma xantana",
+      "slug": "crema-de-calabaza-espesa-con-goma-xantana",
+      "seo_title": "Crema de calabaza sin fécula con goma xantana | RAIAN",
+      "meta_description": "Crema de calabaza aterciopelada sin fécula ni nata, espesada con goma xantana. Sin gluten, vegana y lista en 30 minutos.",
+      "intro": "Una crema de calabaza suave y aterciopelada sin necesidad de fécula o nata para espesar. La goma xantana da cuerpo a la sopa con una mínima cantidad, sin alterar el sabor.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 25,
+        "rest_min": 0,
+        "total_min": 35
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Calabaza",
+          "g": 600,
+          "key": "calabaza"
+        },
+        {
+          "name": "Caldo de verduras sin gluten",
+          "g": 600,
+          "key": "caldo"
+        },
+        {
+          "name": "Cebolla",
+          "g": 100,
+          "key": "cebolla"
+        },
+        {
+          "name": "Aceite de oliva",
+          "g": 20,
+          "key": "aceite"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Sal, pimienta y cúrcuma",
+          "g": 5,
+          "key": "especias"
+        }
+      ],
+      "steps": [
+        "Sofreír la cebolla picada en aceite 5 minutos. Añadir la calabaza pelada y troceada; saltear 3 minutos.",
+        "Añadir el caldo y las especias; cocer 20 minutos hasta que la calabaza esté muy blanda.",
+        "Triturar con batidora de mano hasta obtener una crema fina.",
+        "Mezclar la goma xantana con 2 cucharadas del caldo frío hasta disolver.",
+        "Incorporar la mezcla de xantana a la crema caliente removiendo con varillas.",
+        "Cocinar 2 minutos más a fuego suave; rectificar de sal y servir con un chorrito de aceite."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 98,
+        "protein": 2.8,
+        "carbs": 14.5,
+        "sugars": 7.5,
+        "fat": 5.2,
+        "sat_fat": 0.8,
+        "fiber": 3.5,
+        "salt": 0.45
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 52,
+        "protein": 1.5,
+        "carbs": 7.7,
+        "sugars": 4.0,
+        "fat": 2.8,
+        "sat_fat": 0.4,
+        "fiber": 1.9,
+        "salt": 0.24
+      },
+      "estimated_serving_g": 188,
+      "keywords": [
+        "crema de calabaza sin fécula",
+        "sopa crema goma xantana",
+        "crema vegana sin gluten",
+        "sopa espesa sin almidón"
+      ],
+      "notes": "Se usa 1 g de goma xantana para 1.200 ml de crema (0,08 g/100 ml). La goma xantana da cuerpo a la crema sin añadir calorías ni sabor; ideal para sopas bajas en calorías que necesitan textura.",
+      "imagePath": "/images/recipes/crema-de-calabaza-espesa-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        "Disolver siempre la xantana en frío antes de añadir al caliente.",
+        null,
+        null
+      ]
+    },
+    {
+      "category": "fitness",
+      "title": "Batido proteico espeso con goma xantana",
+      "slug": "batido-proteico-espeso-con-goma-xantana",
+      "seo_title": "Batido proteico espeso con goma xantana | RAIAN",
+      "meta_description": "Batido proteico con textura espesa y cremosa conseguida con goma xantana. Sin gluten, alto en proteínas y muy saciante.",
+      "intro": "Un batido proteico con textura de yogur espeso gracias a una mínima cantidad de goma xantana. Saciante, cremoso y perfecto para después del entrenamiento.",
+      "servings": 1,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": [
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche desnatada o bebida vegetal",
+          "g": 250,
+          "key": "leche"
+        },
+        {
+          "name": "Proteína whey o vegetal en polvo",
+          "g": 30,
+          "key": "proteina"
+        },
+        {
+          "name": "Plátano congelado",
+          "g": 80,
+          "key": "platano"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.4,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Cacao puro en polvo",
+          "g": 10,
+          "key": "cacao"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con la proteína en polvo y el cacao en seco.",
+        "Añadir la leche fría y el plátano congelado a la batidora.",
+        "Incorporar la mezcla de polvos.",
+        "Triturar 45–60 segundos a máxima potencia hasta obtener un batido espeso y cremoso.",
+        "Servir inmediatamente con pajita o cucharilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 298,
+        "protein": 32.5,
+        "carbs": 35.8,
+        "sugars": 18.5,
+        "fat": 3.2,
+        "sat_fat": 1.2,
+        "fiber": 3.8,
+        "salt": 0.32
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 73,
+        "protein": 8.0,
+        "carbs": 8.8,
+        "sugars": 4.5,
+        "fat": 0.8,
+        "sat_fat": 0.3,
+        "fiber": 0.9,
+        "salt": 0.08
+      },
+      "estimated_serving_g": 408,
+      "keywords": [
+        "batido espeso goma xantana",
+        "smoothie proteico espeso sin gluten",
+        "batido cremoso deportivo"
+      ],
+      "notes": "Se usa 0,4 g de goma xantana para 250 ml de líquido (0,16 g/100 ml). La goma xantana da espesor y cremosidad al batido sin añadir calorías, creando una textura similar a un batido comercial.",
+      "imagePath": "/images/recipes/batido-proteico-espeso-con-goma-xantana.webp",
+      "stepNotes": [
+        "Mezclar la xantana con los polvos secos primero garantiza una distribución homogénea.",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Mermelada baja en azúcar con goma xantana",
+      "slug": "mermelada-baja-en-azucar-con-goma-xantana",
+      "seo_title": "Mermelada baja en azúcar con goma xantana | RAIAN",
+      "meta_description": "Mermelada casera con menos azúcar y textura perfecta gracias a la goma xantana. Sin gluten y con todo el sabor de la fruta.",
+      "intro": "Una mermelada con mucho menos azúcar que la tradicional. La goma xantana aporta la consistencia espesa sin necesidad de grandes cantidades de azúcar ni pectina industrial.",
+      "servings": 14,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 20,
+        "rest_min": 30,
+        "total_min": 60
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Arándanos frescos o congelados",
+          "g": 400,
+          "key": "arandanos"
+        },
+        {
+          "name": "Azúcar moreno",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 20,
+          "key": "limon"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1.5,
+          "key": "goma-xantana"
+        }
+      ],
+      "steps": [
+        "Poner los arándanos con el azúcar y el zumo de limón en un cazo a fuego medio.",
+        "Cocer 15 minutos hasta que los arándanos suelten su jugo y reduzcan.",
+        "Aplasta parcialmente con tenedor para la textura deseada.",
+        "Disolver la goma xantana en 2 cucharadas del líquido de la mermelada fría.",
+        "Incorporar la mezcla de xantana a la mermelada caliente removiendo con varillas.",
+        "Cocer 2 minutos más; verter en botes esterilizados y cerrar en caliente. Guardar en nevera hasta 3 semanas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 32,
+        "protein": 0.3,
+        "carbs": 7.8,
+        "sugars": 5.5,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "fiber": 1.5,
+        "salt": 0.01
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 72,
+        "protein": 0.7,
+        "carbs": 17.5,
+        "sugars": 12.3,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 3.4,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 45,
+      "keywords": [
+        "mermelada baja en azúcar goma xantana",
+        "mermelada casera sin pectina",
+        "mermelada saludable sin gluten"
+      ],
+      "notes": "Se usan 1,5 g de goma xantana para aproximadamente 480 ml de mermelada (0,31 g/100 ml). La goma xantana permite usar mucho menos azúcar (60 g vs 200 g típico) y aun así conseguir la consistencia gelatinosa de una mermelada.",
+      "imagePath": "/images/recipes/mermelada-baja-en-azucar-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Natillas ligeras sin almidón con goma xantana",
+      "slug": "natillas-ligeras-sin-almidon-con-goma-xantana",
+      "seo_title": "Natillas sin almidón con goma xantana | RAIAN",
+      "meta_description": "Natillas cremosas sin maicena ni almidón, espesadas solo con goma xantana. Sin gluten, más ligeras y con textura suave.",
+      "intro": "Natillas sin almidón ni maicena, cuyo espesor proviene únicamente de la goma xantana y las yemas de huevo. Más ligeras calóricamente y perfectamente aptas para celíacos.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 12,
+        "rest_min": 60,
+        "total_min": 82
+      },
+      "allergens": [
+        "leche",
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche entera",
+          "g": 500,
+          "key": "leche"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 80,
+          "key": "yemas"
+        },
+        {
+          "name": "Azúcar",
+          "g": 60,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.8,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con el azúcar en seco.",
+        "Batir las yemas con la mezcla de xantana y azúcar hasta blanquear.",
+        "Calentar la leche con la vainilla sin que hierva.",
+        "Verter la leche caliente sobre las yemas en hilo fino batiendo continuamente.",
+        "Devolver al cazo y cocer a fuego suave sin parar de remover hasta espesar, unos 8–10 minutos.",
+        "Verter en vasitos, enfriar y refrigerar mínimo 1 hora."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 162,
+        "protein": 6.8,
+        "carbs": 20.5,
+        "sugars": 18.5,
+        "fat": 6.5,
+        "sat_fat": 3.2,
+        "fiber": 0.2,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 120,
+        "protein": 5.0,
+        "carbs": 15.2,
+        "sugars": 13.7,
+        "fat": 4.8,
+        "sat_fat": 2.4,
+        "fiber": 0.1,
+        "salt": 0.09
+      },
+      "estimated_serving_g": 135,
+      "keywords": [
+        "natillas sin almidón goma xantana",
+        "natillas sin gluten",
+        "postre celíacos cremoso",
+        "natillas ligeras"
+      ],
+      "notes": "Se usa 0,8 g de goma xantana para 580 ml de natillas (0,14 g/100 ml). La goma xantana trabaja junto con las yemas para espesar, permitiendo eliminar totalmente el almidón. Resultado: natillas más ligeras en calorías.",
+      "imagePath": "/images/recipes/natillas-ligeras-sin-almidon-con-goma-xantana.webp",
+      "stepNotes": [
+        "Mezclar la xantana con el azúcar en seco facilita su dispersión.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Gelatina de mango estabilizada con goma xantana",
+      "slug": "gelatina-de-mango-estabilizada-con-goma-xantana",
+      "seo_title": "Gelatina de mango estabilizada con goma xantana | RAIAN",
+      "meta_description": "Gelatina de mango casera sin sinéresis gracias a la goma xantana. Sin gluten, vegana y con textura firme que no suelta líquido.",
+      "intro": "Una gelatina de mango que no suelta agua (sinéresis) al cortarla, gracias a la goma xantana. Perfecta para tartas frías, postres moldeados y presentaciones elegantes.",
+      "servings": 4,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 5,
+        "rest_min": 240,
+        "total_min": 255
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Puré de mango (fresco o en lata)",
+          "g": 400,
+          "key": "mango"
+        },
+        {
+          "name": "Agua",
+          "g": 100,
+          "key": "agua"
+        },
+        {
+          "name": "Azúcar",
+          "g": 30,
+          "key": "azucar"
+        },
+        {
+          "name": "Agar-agar en polvo",
+          "g": 4,
+          "key": "agar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.5,
+          "key": "goma-xantana"
+        }
+      ],
+      "steps": [
+        "Mezclar el agar-agar con la goma xantana y el azúcar en seco.",
+        "Calentar el agua y el puré de mango en un cazo. Añadir la mezcla de polvos en lluvia.",
+        "Llevar a ebullición suave sin dejar de remover. Cocer 2 minutos.",
+        "Retirar del fuego y verter en moldes.",
+        "Dejar enfriar a temperatura ambiente y refrigerar 4 horas.",
+        "Desmoldar con cuidado pasando un cuchillo por los bordes. La gelatina no soltará agua."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 78,
+        "protein": 0.8,
+        "carbs": 19.5,
+        "sugars": 16.8,
+        "fat": 0.3,
+        "sat_fat": 0.0,
+        "fiber": 2.2,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 62,
+        "protein": 0.6,
+        "carbs": 15.6,
+        "sugars": 13.4,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "fiber": 1.8,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 126,
+      "keywords": [
+        "gelatina sin sinéresis goma xantana",
+        "gelatina de mango vegana sin gluten",
+        "gelatina firme vegana"
+      ],
+      "notes": "Se usa 0,5 g de goma xantana para 500 ml de base (0,1 g/100 ml). La goma xantana combinada con agar-agar evita la sinéresis (el líquido que suelen soltar las gelatinas al cortarlas), dando una presentación perfecta.",
+      "imagePath": "/images/recipes/gelatina-de-mango-estabilizada-con-goma-xantana.webp",
+      "stepNotes": [
+        "La mezcla en seco es clave para evitar grumos.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Emulsión de vinagreta con goma xantana",
+      "slug": "emulsion-de-vinagreta-con-goma-xantana",
+      "seo_title": "Vinagreta emulsionada estable con goma xantana | RAIAN",
+      "meta_description": "Vinagreta emulsionada que no se separa gracias a la goma xantana. Sin gluten, vegana y perfecta para ensaladas elegantes.",
+      "intro": "La vinagreta clásica siempre se separa si no se agita. Con una mínima cantidad de goma xantana la emulsión se estabiliza y la vinagreta queda unificada durante horas.",
+      "servings": 6,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 90,
+          "key": "aceite"
+        },
+        {
+          "name": "Vinagre de Módena o manzana",
+          "g": 30,
+          "key": "vinagre"
+        },
+        {
+          "name": "Mostaza de Dijon",
+          "g": 5,
+          "key": "mostaza"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.2,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Sal, pimienta y miel",
+          "g": 6,
+          "key": "condimentos"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con la sal y la pimienta en un bol pequeño.",
+        "Añadir el vinagre, la mostaza y la miel; batir con varillas.",
+        "Verter el aceite en hilo muy fino batiendo continuamente hasta emulsionar.",
+        "La vinagreta quedará espesa y unificada; no se separará.",
+        "Guardar en bote con tapa en nevera hasta 2 semanas."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 128,
+        "protein": 0.1,
+        "carbs": 1.5,
+        "sugars": 1.2,
+        "fat": 14.2,
+        "sat_fat": 2.0,
+        "fiber": 0.0,
+        "salt": 0.22
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 598,
+        "protein": 0.5,
+        "carbs": 7.0,
+        "sugars": 5.6,
+        "fat": 66.4,
+        "sat_fat": 9.3,
+        "fiber": 0.0,
+        "salt": 1.03
+      },
+      "estimated_serving_g": 22,
+      "keywords": [
+        "vinagreta emulsionada goma xantana",
+        "aliño ensalada estable sin gluten",
+        "salsa vinagreta espesa"
+      ],
+      "notes": "Se usan 0,2 g de goma xantana para 125 ml de vinagreta (0,16 g/100 ml). Una cantidad mínima de xantana es suficiente para estabilizar la emulsión aceite-vinagre indefinidamente.",
+      "imagePath": "/images/recipes/emulsion-de-vinagreta-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Aderezo César sin gluten con goma xantana",
+      "slug": "aderezo-cesar-sin-gluten-con-goma-xantana",
+      "seo_title": "Aderezo César sin gluten con goma xantana | RAIAN",
+      "meta_description": "Aderezo César cremoso sin gluten, estabilizado con goma xantana para que no se separe. Textura perfecta para ensaladas y wraps.",
+      "intro": "Un aderezo César sin gluten y con textura cremosa estable. La goma xantana mantiene la emulsión unificada y da el cuerpo característico de este clásico aliño.",
+      "servings": 8,
+      "times": {
+        "prep_min": 8,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 8
+      },
+      "allergens": [
+        "huevo",
+        "leche",
+        "pescado"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Mayonesa sin gluten",
+          "g": 100,
+          "key": "mayonesa"
+        },
+        {
+          "name": "Queso parmesano rallado",
+          "g": 30,
+          "key": "parmesano"
+        },
+        {
+          "name": "Anchoas en aceite",
+          "g": 15,
+          "key": "anchoas"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "limon"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.3,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Ajo, sal y pimienta",
+          "g": 5,
+          "key": "condimentos"
+        }
+      ],
+      "steps": [
+        "Triturar las anchoas con el ajo hasta hacer una pasta.",
+        "Mezclar la mayonesa, la pasta de anchoas, el parmesano y el zumo de limón.",
+        "Disolver la goma xantana en 1 cucharada de agua fría; incorporar a la mezcla.",
+        "Batir con varillas hasta obtener una crema homogénea.",
+        "Rectificar de sal y pimienta.",
+        "Refrigerar 30 minutos antes de usar. Conservar en nevera hasta 5 días."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 105,
+        "protein": 2.5,
+        "carbs": 0.8,
+        "sugars": 0.4,
+        "fat": 10.5,
+        "sat_fat": 2.2,
+        "fiber": 0.0,
+        "salt": 0.48
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 412,
+        "protein": 9.8,
+        "carbs": 3.1,
+        "sugars": 1.6,
+        "fat": 41.2,
+        "sat_fat": 8.6,
+        "fiber": 0.0,
+        "salt": 1.88
+      },
+      "estimated_serving_g": 26,
+      "keywords": [
+        "aderezo césar sin gluten",
+        "salsa cesar goma xantana",
+        "aliño sin gluten cremoso"
+      ],
+      "notes": "Se usan 0,3 g de goma xantana para 170 ml de aderezo (0,18 g/100 ml). La xantana da consistencia al aderezo, evitando que se vuelva líquido con el tiempo y que se separe el aceite.",
+      "imagePath": "/images/recipes/aderezo-cesar-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "saludable",
+      "title": "Smoothie de mango y espinacas espeso con goma xantana",
+      "slug": "smoothie-de-mango-y-espinacas-espeso-con-goma-xantana",
+      "seo_title": "Smoothie verde espeso con goma xantana | RAIAN",
+      "meta_description": "Smoothie verde de mango y espinacas con textura cremosa y espesa gracias a la goma xantana. Sin gluten, vegano y muy nutritivo.",
+      "intro": "Un smoothie verde nutritivo con textura espesa y cremosa conseguida con goma xantana. La xantana evita que el smoothie se separe y le da cuerpo sin añadir calorías.",
+      "servings": 2,
+      "times": {
+        "prep_min": 5,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 5
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Mango congelado",
+          "g": 200,
+          "key": "mango"
+        },
+        {
+          "name": "Espinacas frescas",
+          "g": 80,
+          "key": "espinacas"
+        },
+        {
+          "name": "Leche de coco o agua de coco",
+          "g": 200,
+          "key": "coco"
+        },
+        {
+          "name": "Plátano congelado",
+          "g": 80,
+          "key": "platano"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.4,
+          "key": "goma-xantana"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con la leche de coco y remover brevemente.",
+        "Añadir todos los ingredientes a la batidora de vaso.",
+        "Triturar a máxima potencia 60 segundos hasta textura completamente lisa.",
+        "Servir inmediatamente en vasos altos."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 198,
+        "protein": 2.8,
+        "carbs": 35.5,
+        "sugars": 26.8,
+        "fat": 7.5,
+        "sat_fat": 6.5,
+        "fiber": 4.8,
+        "salt": 0.06
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 70,
+        "protein": 1.0,
+        "carbs": 12.6,
+        "sugars": 9.5,
+        "fat": 2.7,
+        "sat_fat": 2.3,
+        "fiber": 1.7,
+        "salt": 0.02
+      },
+      "estimated_serving_g": 283,
+      "keywords": [
+        "smoothie verde espeso goma xantana",
+        "batido verde sin gluten",
+        "smoothie cremoso sin lácteos"
+      ],
+      "notes": "Se usan 0,4 g de goma xantana para 560 ml de smoothie (0,07 g/100 ml). Una cantidad muy pequeña es suficiente; más de 0,5 g puede hacer el smoothie gomoso. La xantana también estabiliza la emulsión evitando que se separe.",
+      "imagePath": "/images/recipes/smoothie-de-mango-y-espinacas-espeso-con-goma-xantana.webp",
+      "stepNotes": [
+        "Disolver la xantana en líquido antes de triturar con frutas evita grumos.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Pan de molde sin gluten con goma xantana",
+      "slug": "pan-de-molde-sin-gluten-con-goma-xantana",
+      "seo_title": "Pan de molde sin gluten con goma xantana | RAIAN",
+      "meta_description": "Pan de molde tierno y rebanable sin gluten, con miga esponjosa gracias a la goma xantana. Apto para celíacos, perfecto para sándwich.",
+      "intro": "Un pan de molde sin gluten que se corta en rebanadas sin desmoronarse, con una miga tierna y alveolada. La goma xantana es clave para conseguir la cohesión que da el gluten en el pan convencional.",
+      "servings": 10,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 45,
+        "rest_min": 60,
+        "total_min": 125
+      },
+      "allergens": [
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz blanca",
+          "g": 200,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de tapioca",
+          "g": 100,
+          "key": "tapioca"
+        },
+        {
+          "name": "Harina de teff o sorgo",
+          "g": 60,
+          "key": "harina-teff"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 7,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Levadura seca sin gluten",
+          "g": 7,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 290,
+          "key": "agua"
+        },
+        {
+          "name": "Huevo L",
+          "g": 55,
+          "key": "huevo"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 25,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal",
+          "g": 8,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezclar las harinas, la goma xantana y la sal en el bol de la amasadora.",
+        "Disolver la levadura en el agua tibia con una pizca de azúcar; esperar 5 minutos.",
+        "Añadir el huevo, el aceite y el agua con levadura a los secos; amasar 5 minutos.",
+        "Verter en molde de plum cake de 25 cm engrasado y alisar.",
+        "Fermentar tapado en lugar cálido 45–60 minutos hasta que sobresalga del molde.",
+        "Hornear a 200 °C durante 40–45 minutos. Dejar enfriar completamente antes de cortar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 178,
+        "protein": 3.8,
+        "carbs": 35.2,
+        "sugars": 0.3,
+        "fat": 3.5,
+        "sat_fat": 0.5,
+        "fiber": 2.2,
+        "salt": 0.48
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 212,
+        "protein": 4.5,
+        "carbs": 41.9,
+        "sugars": 0.4,
+        "fat": 4.2,
+        "sat_fat": 0.6,
+        "fiber": 2.6,
+        "salt": 0.57
+      },
+      "estimated_serving_g": 84,
+      "keywords": [
+        "pan de molde sin gluten",
+        "pan sandwich celíacos goma xantana",
+        "pan rebanable sin gluten"
+      ],
+      "notes": "Se usan 7 g de goma xantana para 360 g de harina (1,94 g/100 g), próximo al límite máximo de 2 g/100 g. Usar esta cantidad máxima en pan de molde da la mejor estructura. Superar 2 g/100 g puede resultar en un pan gomoso.",
+      "imagePath": "/images/recipes/pan-de-molde-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Enfriar completamente es imprescindible; el pan sin gluten se asienta mientras enfría."
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Magdalenas sin gluten con goma xantana",
+      "slug": "magdalenas-sin-gluten-con-goma-xantana",
+      "seo_title": "Magdalenas sin gluten con goma xantana | RAIAN",
+      "meta_description": "Magdalenas esponjosas sin gluten que no se desmigan, gracias a la goma xantana. Apto para celíacos, tiernas y con copete.",
+      "intro": "Magdalenas sin gluten que se comportan como las de siempre: esponjosas, tiernas y que no se desmigan al morderlas. La goma xantana da la estructura interna que el gluten aportaría.",
+      "servings": 10,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 20,
+        "rest_min": 10,
+        "total_min": 45
+      },
+      "allergens": [
+        "huevo",
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz fina",
+          "g": 150,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de maíz",
+          "g": 70,
+          "key": "maicena"
+        },
+        {
+          "name": "Azúcar",
+          "g": 120,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 3,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Huevos L",
+          "g": 110,
+          "key": "huevos"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 80,
+          "key": "aceite"
+        },
+        {
+          "name": "Leche",
+          "g": 80,
+          "key": "leche"
+        },
+        {
+          "name": "Levadura sin gluten",
+          "g": 8,
+          "key": "levadura"
+        }
+      ],
+      "steps": [
+        "Mezclar en seco las harinas, la goma xantana, el azúcar y la levadura.",
+        "Batir los huevos con el aceite y la leche en otro bol.",
+        "Unir los ingredientes húmedos con los secos; mezclar hasta que no haya grumos.",
+        "Colocar en cápsulas de magdalena y reposar 5 minutos.",
+        "Hornear a 200 °C durante 18–20 minutos. Comprobar con palillo.",
+        "Dejar enfriar 10 minutos sobre rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 218,
+        "protein": 3.5,
+        "carbs": 31.5,
+        "sugars": 14.2,
+        "fat": 9.5,
+        "sat_fat": 1.5,
+        "fiber": 0.8,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 342,
+        "protein": 5.5,
+        "carbs": 49.4,
+        "sugars": 22.3,
+        "fat": 14.9,
+        "sat_fat": 2.4,
+        "fiber": 1.3,
+        "salt": 0.16
+      },
+      "estimated_serving_g": 64,
+      "keywords": [
+        "magdalenas sin gluten goma xantana",
+        "muffins celíacos",
+        "magdalenas sin gluten esponjosas"
+      ],
+      "notes": "Se usan 3 g de goma xantana para 220 g de harina (1,36 g/100 g). La goma xantana evita que las magdalenas sin gluten sean frágiles y se desmiguen, dándoles cohesión interna.",
+      "imagePath": "/images/recipes/magdalenas-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        "Mezclar la xantana con los polvos secos primero es fundamental.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Galletas de mantequilla sin gluten con goma xantana",
+      "slug": "galletas-de-mantequilla-sin-gluten-con-goma-xantana",
+      "seo_title": "Galletas sin gluten con goma xantana | RAIAN",
+      "meta_description": "Galletas de mantequilla crujientes sin gluten gracias a la goma xantana. Fácil de extender y cortar, aptas para celíacos.",
+      "intro": "Galletas de mantequilla sin gluten que se extienden y cortan como las convencionales. La goma xantana da a la masa la plasticidad y cohesión necesaria para que no se rompa.",
+      "servings": 18,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 14,
+        "rest_min": 30,
+        "total_min": 64
+      },
+      "allergens": [
+        "leche",
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz fina",
+          "g": 180,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de patata",
+          "g": 60,
+          "key": "almidon-patata"
+        },
+        {
+          "name": "Mantequilla fría",
+          "g": 100,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Azúcar glas",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 3,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Yema de huevo",
+          "g": 20,
+          "key": "yema"
+        }
+      ],
+      "steps": [
+        "Mezclar las harinas, el azúcar y la goma xantana en seco.",
+        "Incorporar la mantequilla fría en dados y trabajar con los dedos hasta textura arena.",
+        "Añadir la yema de huevo y unir la masa sin amasar en exceso.",
+        "Envolver en film y refrigerar 30 minutos.",
+        "Extender entre dos papeles a 5 mm. Cortar con moldes y colocar en bandeja.",
+        "Hornear a 170 °C 12–14 minutos. Enfriar completamente en rejilla."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 105,
+        "protein": 1.2,
+        "carbs": 14.5,
+        "sugars": 4.8,
+        "fat": 5.2,
+        "sat_fat": 3.2,
+        "fiber": 0.5,
+        "salt": 0.04
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 438,
+        "protein": 5.0,
+        "carbs": 60.4,
+        "sugars": 20.0,
+        "fat": 21.7,
+        "sat_fat": 13.3,
+        "fiber": 2.1,
+        "salt": 0.17
+      },
+      "estimated_serving_g": 24,
+      "keywords": [
+        "galletas sin gluten goma xantana",
+        "cookies celíacos mantequilla",
+        "masa galletas sin gluten"
+      ],
+      "notes": "Se usan 3 g de goma xantana para 240 g de harina (1,25 g/100 g). La goma xantana da plasticidad a la masa sin gluten, permitiendo extenderla y cortarla sin que se agriete.",
+      "imagePath": "/images/recipes/galletas-de-mantequilla-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Tortitas sin gluten con goma xantana",
+      "slug": "tortitas-sin-gluten-con-goma-xantana",
+      "seo_title": "Tortitas americanas sin gluten con goma xantana | RAIAN",
+      "meta_description": "Tortitas esponjosas sin gluten que no se rompen gracias a la goma xantana. Apto para celíacos, perfectas para desayunos sin gluten.",
+      "intro": "Tortitas sin gluten esponjosas y fáciles de voltear. La goma xantana da cohesión a la masa, evitando que las tortitas se rompan al darles la vuelta en la sartén.",
+      "servings": 8,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 20,
+        "rest_min": 5,
+        "total_min": 35
+      },
+      "allergens": [
+        "huevo",
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz",
+          "g": 150,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de maíz",
+          "g": 50,
+          "key": "maicena"
+        },
+        {
+          "name": "Leche entera",
+          "g": 200,
+          "key": "leche"
+        },
+        {
+          "name": "Huevos L",
+          "g": 110,
+          "key": "huevos"
+        },
+        {
+          "name": "Azúcar",
+          "g": 20,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 2,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Levadura sin gluten",
+          "g": 6,
+          "key": "levadura"
+        }
+      ],
+      "steps": [
+        "Mezclar las harinas, la goma xantana, el azúcar y la levadura en seco.",
+        "Batir los huevos con la leche; incorporar a los secos hasta obtener masa lisa.",
+        "Reposar 5 minutos.",
+        "Calentar sartén antiadherente engrasada a fuego medio.",
+        "Verter cucharones de masa y cocinar 2–3 minutos hasta que aparezcan burbujas; girar con cuidado.",
+        "Cocinar 1–2 minutos más. Servir con fruta, sirope o miel."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 125,
+        "protein": 4.5,
+        "carbs": 22.5,
+        "sugars": 3.5,
+        "fat": 2.5,
+        "sat_fat": 0.9,
+        "fiber": 0.8,
+        "salt": 0.1
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 178,
+        "protein": 6.4,
+        "carbs": 32.1,
+        "sugars": 5.0,
+        "fat": 3.6,
+        "sat_fat": 1.3,
+        "fiber": 1.1,
+        "salt": 0.14
+      },
+      "estimated_serving_g": 70,
+      "keywords": [
+        "tortitas sin gluten goma xantana",
+        "pancakes celíacos",
+        "desayuno sin gluten esponjoso"
+      ],
+      "notes": "Se usan 2 g de goma xantana para 200 g de harina (1 g/100 g). La goma xantana da a la tortita cohesión para no romperse al voltearla y esponjosidad al atrapar las burbujas de la levadura.",
+      "imagePath": "/images/recipes/tortitas-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        "Voltear solo cuando salgan burbujas en la superficie.",
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Crepes sin gluten con goma xantana",
+      "slug": "crepes-sin-gluten-con-goma-xantana",
+      "seo_title": "Crepes sin gluten con goma xantana | RAIAN",
+      "meta_description": "Crepes finos y flexibles sin gluten que no se rompen al doblar, gracias a la goma xantana. Aptos para celíacos y muy versátiles.",
+      "intro": "Los crepes sin gluten suelen ser frágiles y difíciles de manipular. La goma xantana da flexibilidad y resistencia a la masa, permitiendo doblarlos y enrollarlos sin que se rompan.",
+      "servings": 8,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 20,
+        "rest_min": 30,
+        "total_min": 60
+      },
+      "allergens": [
+        "huevo",
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz fina",
+          "g": 130,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de tapioca",
+          "g": 40,
+          "key": "tapioca"
+        },
+        {
+          "name": "Leche entera",
+          "g": 300,
+          "key": "leche"
+        },
+        {
+          "name": "Huevos L",
+          "g": 110,
+          "key": "huevos"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1.5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Mantequilla fundida",
+          "g": 20,
+          "key": "mantequilla"
+        },
+        {
+          "name": "Sal",
+          "g": 2,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezclar las harinas, la goma xantana y la sal en seco.",
+        "Añadir los huevos, la leche y la mantequilla fundida; batir hasta masa lisa.",
+        "Reposar 30 minutos en nevera.",
+        "Calentar sartén de crepes engrasada a fuego medio-fuerte.",
+        "Verter un cucharón y extender girando la sartén; cocinar 1 minuto por cada lado.",
+        "Apilar los crepes en un plato tapados para que se mantengan flexibles."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 115,
+        "protein": 4.5,
+        "carbs": 17.5,
+        "sugars": 2.5,
+        "fat": 3.8,
+        "sat_fat": 2.0,
+        "fiber": 0.8,
+        "salt": 0.16
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 152,
+        "protein": 5.9,
+        "carbs": 23.1,
+        "sugars": 3.3,
+        "fat": 5.0,
+        "sat_fat": 2.6,
+        "fiber": 1.1,
+        "salt": 0.21
+      },
+      "estimated_serving_g": 76,
+      "keywords": [
+        "crepes sin gluten goma xantana",
+        "crepes celíacos finos",
+        "masa crepe sin gluten"
+      ],
+      "notes": "Se usan 1,5 g de goma xantana para 170 g de harina (0,88 g/100 g). La goma xantana da a los crepes la elasticidad necesaria para doblarlos sin que se rompan, imitando el comportamiento del gluten.",
+      "imagePath": "/images/recipes/crepes-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Bizcocho de limón sin gluten con goma xantana",
+      "slug": "bizcocho-de-limon-sin-gluten-con-goma-xantana",
+      "seo_title": "Bizcocho de limón sin gluten con goma xantana | RAIAN",
+      "meta_description": "Bizcocho de limón esponjoso sin gluten gracias a la goma xantana. Apto para celíacos, tierno y con sabor cítrico intenso.",
+      "intro": "Un bizcocho de limón tierno y aromático sin gluten. La goma xantana reemplaza la función del gluten, dando estructura a la masa y evitando que el bizcocho se desmorone.",
+      "servings": 8,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 40,
+        "rest_min": 15,
+        "total_min": 75
+      },
+      "allergens": [
+        "huevo",
+        "leche"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Harina de arroz",
+          "g": 200,
+          "key": "harina-arroz"
+        },
+        {
+          "name": "Almidón de maíz",
+          "g": 60,
+          "key": "maicena"
+        },
+        {
+          "name": "Azúcar",
+          "g": 150,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 4,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Huevos L",
+          "g": 150,
+          "key": "huevos"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 80,
+          "key": "aceite"
+        },
+        {
+          "name": "Zumo y ralladura de limón",
+          "g": 60,
+          "key": "limon"
+        },
+        {
+          "name": "Levadura sin gluten",
+          "g": 8,
+          "key": "levadura"
+        }
+      ],
+      "steps": [
+        "Precalentar el horno a 180 °C. Engrasar un molde de 22 cm.",
+        "Mezclar las harinas, la goma xantana, el azúcar y la levadura en seco.",
+        "Batir los huevos con el aceite, el zumo y la ralladura de limón.",
+        "Unir húmedos y secos; mezclar hasta masa homogénea.",
+        "Verter en el molde y hornear 38–42 minutos. Comprobar con palillo.",
+        "Enfriar 15 minutos antes de desmoldar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 285,
+        "protein": 5.2,
+        "carbs": 46.5,
+        "sugars": 20.8,
+        "fat": 10.2,
+        "sat_fat": 1.5,
+        "fiber": 1.2,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 310,
+        "protein": 5.7,
+        "carbs": 50.5,
+        "sugars": 22.6,
+        "fat": 11.1,
+        "sat_fat": 1.6,
+        "fiber": 1.3,
+        "salt": 0.13
+      },
+      "estimated_serving_g": 92,
+      "keywords": [
+        "bizcocho limón sin gluten goma xantana",
+        "bizcocho celíacos",
+        "tarta limón sin gluten"
+      ],
+      "notes": "Se usan 4 g de goma xantana para 260 g de harina (1,54 g/100 g). La goma xantana da estructura al bizcocho sin gluten, evitando que se desmorone al cortarlo. Sin ella el resultado sería muy frágil.",
+      "imagePath": "/images/recipes/bizcocho-de-limon-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Crema pastelera sin gluten con goma xantana",
+      "slug": "crema-pastelera-sin-gluten-con-goma-xantana",
+      "seo_title": "Crema pastelera sin gluten con goma xantana | RAIAN",
+      "meta_description": "Crema pastelera sin maicena ni almidón, espesada con goma xantana. Sin gluten, apta para celíacos y con textura cremosa perfecta.",
+      "intro": "La crema pastelera sin gluten spesada con goma xantana. Sin almidón de maíz, con una textura sedosa y ligera que es perfecta para rellenar tartas, bollería y eclairs sin gluten.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 12,
+        "rest_min": 60,
+        "total_min": 82
+      },
+      "allergens": [
+        "leche",
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche entera",
+          "g": 500,
+          "key": "leche"
+        },
+        {
+          "name": "Yemas de huevo",
+          "g": 80,
+          "key": "yemas"
+        },
+        {
+          "name": "Azúcar",
+          "g": 80,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1.2,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 5,
+          "key": "vainilla"
+        },
+        {
+          "name": "Mantequilla",
+          "g": 20,
+          "key": "mantequilla"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con el azúcar en seco.",
+        "Batir las yemas con la mezcla de azúcar y xantana hasta blanquear.",
+        "Calentar la leche con la vainilla; verterla sobre las yemas en hilo fino batiendo.",
+        "Devolver al cazo a fuego suave, removiendo sin parar hasta espesar, unos 8 minutos.",
+        "Retirar del fuego y añadir la mantequilla; mezclar hasta integrar.",
+        "Cubrir con film a piel y refrigerar 1 hora antes de usar."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 165,
+        "protein": 5.8,
+        "carbs": 21.5,
+        "sugars": 18.8,
+        "fat": 7.0,
+        "sat_fat": 3.8,
+        "fiber": 0.2,
+        "salt": 0.12
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 152,
+        "protein": 5.3,
+        "carbs": 19.8,
+        "sugars": 17.3,
+        "fat": 6.4,
+        "sat_fat": 3.5,
+        "fiber": 0.2,
+        "salt": 0.11
+      },
+      "estimated_serving_g": 109,
+      "keywords": [
+        "crema pastelera sin gluten goma xantana",
+        "crema sin maicena celíacos",
+        "crema pastelera ligera sin almidón"
+      ],
+      "notes": "Se usan 1,2 g de goma xantana para 580 ml de crema (0,21 g/100 ml). La goma xantana espesa la crema sin necesidad de maicena ni almidón. La textura es ligeramente más ligera que la crema pastelera tradicional.",
+      "imagePath": "/images/recipes/crema-pastelera-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        "Mezclar xantana con azúcar en seco facilita su dispersión sin grumos.",
+        null,
+        null,
+        null,
+        null,
+        "El film a piel evita que se forme costra."
+      ]
+    },
+    {
+      "category": "vegana",
+      "title": "Nata vegetal montada y estabilizada con goma xantana",
+      "slug": "nata-vegetal-montada-estabilizada-con-goma-xantana",
+      "seo_title": "Nata vegetal estabilizada con goma xantana | RAIAN",
+      "meta_description": "Nata de coco montada que no se desmonta gracias a la goma xantana. Vegana, sin gluten y perfecta para decorar postres.",
+      "intro": "La nata de coco montada tiende a perder consistencia rápidamente. La goma xantana la estabiliza para que aguante horas sin desmontarse, perfecta para decorar tartas y postres veganos.",
+      "servings": 6,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 0,
+        "rest_min": 480,
+        "total_min": 490
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche de coco entera en lata (refrigerada)",
+          "g": 400,
+          "key": "coco"
+        },
+        {
+          "name": "Azúcar glas",
+          "g": 30,
+          "key": "azucar"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Extracto de vainilla",
+          "g": 3,
+          "key": "vainilla"
+        }
+      ],
+      "steps": [
+        "Refrigerar la lata de leche de coco 8 horas o toda la noche para que la nata sólida suba.",
+        "Abrir la lata sin agitar y recoger solo la parte sólida blanca del techo.",
+        "Mezclar la goma xantana con el azúcar glas en seco.",
+        "Batir la nata de coco con batidora a velocidad alta 2 minutos.",
+        "Añadir la mezcla de xantana y vainilla; batir 2 minutos más hasta obtener picos firmes.",
+        "Usar inmediatamente o refrigerar hasta 2 días. No perderá consistencia."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 142,
+        "protein": 1.2,
+        "carbs": 7.5,
+        "sugars": 5.8,
+        "fat": 13.5,
+        "sat_fat": 12.0,
+        "fiber": 0.8,
+        "salt": 0.02
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 295,
+        "protein": 2.5,
+        "carbs": 15.6,
+        "sugars": 12.1,
+        "fat": 28.1,
+        "sat_fat": 25.0,
+        "fiber": 1.7,
+        "salt": 0.04
+      },
+      "estimated_serving_g": 48,
+      "keywords": [
+        "nata vegetal montada goma xantana",
+        "nata de coco estabilizada",
+        "nata vegana sin gluten decorar"
+      ],
+      "notes": "Se usan 0,5 g de goma xantana para la nata de coco (0,1 g/100 ml aproximado). La goma xantana estabiliza la emulsión de la nata de coco, evitando que suelte agua y se desmorone con el tiempo.",
+      "imagePath": "/images/recipes/nata-vegetal-montada-estabilizada-con-goma-xantana.webp",
+      "stepNotes": [
+        "La refrigeración previa es imprescindible para que la parte sólida suba.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "sin gluten",
+      "title": "Focaccia sin gluten con goma xantana",
+      "slug": "focaccia-sin-gluten-con-goma-xantana",
+      "seo_title": "Focaccia sin gluten con goma xantana | RAIAN",
+      "meta_description": "Focaccia esponjosa sin gluten con aceite de oliva y romero, posible gracias a la goma xantana. Apta para celíacos con textura auténtica.",
+      "intro": "Una focaccia sin gluten con miga aireada y superficie crujiente con aceite de oliva. La goma xantana aporta la elasticidad que permite a la masa retener el gas de la levadura y crear esa estructura alveolada característica.",
+      "servings": 6,
+      "times": {
+        "prep_min": 20,
+        "cook_min": 30,
+        "rest_min": 60,
+        "total_min": 110
+      },
+      "allergens": [
+        "huevo"
+      ],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Mezcla de harina sin gluten (arroz y tapioca)",
+          "g": 280,
+          "key": "harina-sg"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Levadura seca sin gluten",
+          "g": 7,
+          "key": "levadura"
+        },
+        {
+          "name": "Agua tibia",
+          "g": 260,
+          "key": "agua"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 40,
+          "key": "aceite"
+        },
+        {
+          "name": "Sal marina en escamas y romero fresco",
+          "g": 10,
+          "key": "sal-romero"
+        }
+      ],
+      "steps": [
+        "Mezclar las harinas, la goma xantana y la sal en seco. La xantana integrada en seco distribuye uniformemente.",
+        "Disolver la levadura en el agua tibia; esperar 5 minutos.",
+        "Incorporar el agua con levadura y 20 ml de aceite a los secos; amasar 4 minutos con batidora.",
+        "Extender en bandeja engrasada de 30x20 cm. Tapar y fermentar 60 minutos.",
+        "Hacer hoyuelos con los dedos; regar con el aceite restante y espolvorear sal y romero.",
+        "Hornear a 220 °C durante 25–30 minutos hasta dorada. Servir caliente."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 225,
+        "protein": 3.2,
+        "carbs": 38.5,
+        "sugars": 0.5,
+        "fat": 8.5,
+        "sat_fat": 1.2,
+        "fiber": 2.0,
+        "salt": 0.55
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 248,
+        "protein": 3.5,
+        "carbs": 42.3,
+        "sugars": 0.5,
+        "fat": 9.3,
+        "sat_fat": 1.3,
+        "fiber": 2.2,
+        "salt": 0.6
+      },
+      "estimated_serving_g": 91,
+      "keywords": [
+        "focaccia sin gluten",
+        "focaccia celíacos goma xantana",
+        "pan plano sin gluten",
+        "focaccia romero sin gluten"
+      ],
+      "notes": "Se usan 5 g de goma xantana para 280 g de harina (1,79 g/100 g). La goma xantana es imprescindible para que la focaccia sin gluten tenga miga aireada; sin ella la masa quedaría densa y sin estructura.",
+      "imagePath": "/images/recipes/focaccia-sin-gluten-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "casera",
+      "title": "Alioli vegano estabilizado con goma xantana",
+      "slug": "alioli-vegano-estabilizado-con-goma-xantana",
+      "seo_title": "Alioli vegano estabilizado con goma xantana | RAIAN",
+      "meta_description": "Alioli vegano sin huevo que no se separa gracias a la goma xantana. Sin gluten, cremoso y con el sabor clásico del ajo.",
+      "intro": "Un alioli completamente vegano sin huevo, con la emulsión estabilizada por goma xantana. La xantana actúa como emulsionante, permitiendo crear una emulsión aceite-agua estable sin lecitina de huevo.",
+      "servings": 8,
+      "times": {
+        "prep_min": 10,
+        "cook_min": 0,
+        "rest_min": 0,
+        "total_min": 10
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Leche de soja sin azúcar (fría)",
+          "g": 60,
+          "key": "leche-soja"
+        },
+        {
+          "name": "Aceite de girasol",
+          "g": 180,
+          "key": "aceite"
+        },
+        {
+          "name": "Ajo fresco",
+          "g": 10,
+          "key": "ajo"
+        },
+        {
+          "name": "Zumo de limón",
+          "g": 15,
+          "key": "limon"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 0.5,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Sal",
+          "g": 3,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Mezclar la goma xantana con la sal en seco.",
+        "Poner la leche de soja fría, el ajo picado, el limón y la mezcla de xantana en el vaso de la batidora.",
+        "Colocar el brazo de la batidora en el fondo sin moverlo; verter el aceite por encima.",
+        "Accionar la batidora sin mover hasta que el 80 % haya emulsionado.",
+        "Levantar lentamente hasta integrar todo el aceite.",
+        "Rectificar de sal y limón. Guardar en nevera hasta 5 días."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 198,
+        "protein": 0.5,
+        "carbs": 0.8,
+        "sugars": 0.4,
+        "fat": 22.0,
+        "sat_fat": 2.2,
+        "fiber": 0.0,
+        "salt": 0.22
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 590,
+        "protein": 1.5,
+        "carbs": 2.4,
+        "sugars": 1.2,
+        "fat": 65.7,
+        "sat_fat": 6.6,
+        "fiber": 0.0,
+        "salt": 0.66
+      },
+      "estimated_serving_g": 34,
+      "keywords": [
+        "alioli vegano sin huevo goma xantana",
+        "mayonesa vegana estabilizada",
+        "alioli sin gluten vegano"
+      ],
+      "notes": "Se usa 0,5 g de goma xantana para 255 ml de alioli (0,2 g/100 ml). La goma xantana permite crear emulsiones aceite-agua estables sin lecitina de huevo, siendo clave para las mayonesas y aliolis veganos.",
+      "imagePath": "/images/recipes/alioli-vegano-estabilizado-con-goma-xantana.webp",
+      "stepNotes": [
+        "Mezclar la xantana con la sal en seco facilita su distribución.",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "category": "saludable",
+      "title": "Sopa fría de gazpacho espesado con goma xantana",
+      "slug": "gazpacho-espesado-con-goma-xantana",
+      "seo_title": "Gazpacho espeso sin pan con goma xantana | RAIAN",
+      "meta_description": "Gazpacho andaluz espeso sin pan ni miga, usando goma xantana. Sin gluten, vegano y con la textura perfecta para mojar o beber.",
+      "intro": "Un gazpacho sin pan ni miga de pan, pero con la textura espesa y aterciopelada conseguida gracias a la goma xantana. Ideal para celíacos o quienes evitan el gluten sin renunciar a este clásico español.",
+      "servings": 4,
+      "times": {
+        "prep_min": 15,
+        "cook_min": 0,
+        "rest_min": 60,
+        "total_min": 75
+      },
+      "allergens": [],
+      "image_available": false,
+      "ingredients": [
+        {
+          "name": "Tomates maduros",
+          "g": 800,
+          "key": "tomates"
+        },
+        {
+          "name": "Pepino",
+          "g": 150,
+          "key": "pepino"
+        },
+        {
+          "name": "Pimiento verde",
+          "g": 80,
+          "key": "pimiento"
+        },
+        {
+          "name": "Ajo",
+          "g": 5,
+          "key": "ajo"
+        },
+        {
+          "name": "Aceite de oliva virgen extra",
+          "g": 50,
+          "key": "aceite"
+        },
+        {
+          "name": "Vinagre de jerez",
+          "g": 20,
+          "key": "vinagre"
+        },
+        {
+          "name": "Goma xantana RAIAN",
+          "g": 1,
+          "key": "goma-xantana"
+        },
+        {
+          "name": "Sal",
+          "g": 6,
+          "key": "sal"
+        }
+      ],
+      "steps": [
+        "Trocear todos los vegetales y triturar con la batidora hasta obtener una crema fina.",
+        "Añadir el aceite, el vinagre y la sal; triturar de nuevo 2 minutos.",
+        "Mezclar la goma xantana con 2 cucharadas del gazpacho frío hasta disolver.",
+        "Incorporar la mezcla de xantana al gazpacho y triturar 30 segundos más.",
+        "Colar si se desea una textura más fina.",
+        "Refrigerar mínimo 1 hora antes de servir muy frío."
+      ],
+      "nutrition_per_serving": {
+        "kcal": 128,
+        "protein": 2.2,
+        "carbs": 12.5,
+        "sugars": 9.8,
+        "fat": 13.5,
+        "sat_fat": 1.9,
+        "fiber": 3.2,
+        "salt": 0.48
+      },
+      "nutrition_per_100g_estimated": {
+        "kcal": 55,
+        "protein": 0.9,
+        "carbs": 5.4,
+        "sugars": 4.2,
+        "fat": 5.8,
+        "sat_fat": 0.8,
+        "fiber": 1.4,
+        "salt": 0.21
+      },
+      "estimated_serving_g": 233,
+      "keywords": [
+        "gazpacho sin pan sin gluten",
+        "gazpacho espeso goma xantana",
+        "gazpacho celíacos",
+        "sopa fría sin gluten"
+      ],
+      "notes": "Se usa 1 g de goma xantana para aproximadamente 1.100 ml de gazpacho (0,09 g/100 ml). La goma xantana sustituye al pan de miga que tradicionalmente da cuerpo al gazpacho, haciendo la receta apta para celíacos.",
+      "imagePath": "/images/recipes/gazpacho-espesado-con-goma-xantana.webp",
+      "stepNotes": [
+        null,
+        null,
+        "Disolver en frío siempre antes de añadir al conjunto.",
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
