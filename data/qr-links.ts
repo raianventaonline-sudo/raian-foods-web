@@ -100,6 +100,14 @@ export const qrLinks: Record<string, QrLink> = {
     targetPath: "/productos/xilitol"
   },
 
+  // ── Eritritol ────────────────────────────────────────────────────────────
+  "eritritol": {
+    targetPath: "/productos/eritritol"
+  },
+  "erythritol": {
+    targetPath: "/productos/eritritol"
+  },
+
   // ── Azúcar perlado ───────────────────────────────────────────────────────
   "azucar-perlado": {
     targetPath: "/productos/azucar-perlado"

@@ -2643,6 +2643,111 @@ export const products: Product[] = [
     ]
   },
   {
+    slug: "eritritol",
+    name: "Eritritol",
+    shortDescription:
+      "Edulcorante natural con índice glucémico 0 y prácticamente 0 calorías. Poder endulzante del 70 % del azúcar: usa 130 g por cada 100 g de azúcar. Ideal para repostería keto, diabéticos y dietas sin azúcar.",
+    description:
+      "El eritritol (E968) es un poliol de origen natural obtenido por fermentación de glucosa. Con un índice glucémico de 0 y prácticamente 0 calorías (0,2 kcal/g frente a las 4 kcal/g del azúcar), es el edulcorante preferido en dietas cetogénicas, bajas en carbohidratos y para personas con diabetes. A diferencia del xilitol, el eritritol es seguro para perros. No provoca efecto laxante a las dosis habituales de uso culinario y no deja sabor residual amargo. Su único punto a tener en cuenta es que cristaliza al enfriarse en preparaciones con alta concentración, aunque esto no afecta al sabor.",
+    category: "Azúcares y endulzantes",
+    tags: ["Eritritol", "Edulcorante", "Sin azúcar", "Keto", "IG 0", "0 calorías", "Repostería", "500 g"],
+    dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido", "Bajo en carbohidratos"],
+    highlights: [
+      "Índice glucémico 0 — sin picos de insulina",
+      "Prácticamente 0 calorías (0,2 kcal/g, un 96 % menos que el azúcar)",
+      "100 g azúcar = 130 g eritritol (×1,3)",
+      "No provoca efecto laxante a dosis normales",
+      "Seguro para perros (a diferencia del xilitol)"
+    ],
+    mainImage: {
+      src: "/images/products/eritritol-main.png",
+      alt: "Bolsa de eritritol RAIAN 500 g",
+      label: "Eritritol 500 g",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Eritritol"),
+    uses: [
+      "Repostería sin azúcar: bizcochos, galletas, magdalenas, tartas.",
+      "Bebidas: limonadas, chocolate caliente, batidos, horchata.",
+      "Helados, sorbetes y granitas sin azúcar.",
+      "Mermeladas y conservas sin azúcar añadido.",
+      "Dietas keto, cetogénicas y bajas en carbohidratos."
+    ],
+    howToUse: [
+      "Equivalencia con azúcar: 100 g azúcar = 130 g eritritol (multiplica por 1,3).",
+      "1 cucharada de azúcar = 1,3 cucharadas de eritritol. 1 taza de azúcar = 1,3 tazas de eritritol.",
+      "Comparativa calórica: azúcar ~387 kcal/100 g · eritritol ~20 kcal/100 g (96 % menos).",
+      "Índice glucémico: azúcar IG 65 · eritritol IG 0 (sin impacto en glucemia).",
+      "Puede cristalizar al enfriarse en preparaciones con alta concentración — es normal y no afecta al sabor. Calentar ligeramente para re-disolver.",
+      "Sin efecto laxante a dosis habituales. Cantidades muy elevadas (>50 g de golpe) pueden causar leve malestar en personas muy sensibles.",
+      "Seguro para perros (a diferencia del xilitol)."
+    ],
+    technicalSheet: technicalSheetFor("Eritritol", "Edulcorante (poliol)", "Eritritol (E968)"),
+    nutrition: [
+      { label: "Valor energético", value: "20 kcal / 84 kJ" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "100 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Polialcoholes", value: "100 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "0 g" },
+      { label: "Sal", value: "0 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Sin gluten.",
+    conservation: "Conservar en lugar fresco y seco, alejado de la humedad. Cerrar bien el envase tras cada uso.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["xilitol", "inulina-de-agave", "dextrosa"],
+    recipeSlugs: [],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary" as const
+      }
+    ],
+    seoTitle: "Eritritol 500 g | Edulcorante 0 calorías IG 0 | RAIAN Foods",
+    seoDescription:
+      "Eritritol RAIAN: índice glucémico 0, prácticamente 0 calorías. 100 g azúcar = 130 g eritritol. Ideal para repostería keto, diabéticos y dietas sin azúcar. Sin gluten. Vegano.",
+    faqs: [
+      {
+        question: "¿Qué es el eritritol?",
+        answer:
+          "El eritritol (E968) es un poliol (alcohol de azúcar) de origen natural obtenido por fermentación de glucosa. Endulza aproximadamente un 70 % de lo que endulza el azúcar, tiene un índice glucémico de 0, prácticamente 0 calorías (0,2 kcal/g) y no provoca picos de insulina. Es uno de los edulcorantes más usados en repostería keto y dietas sin azúcar."
+      },
+      {
+        question: "¿Cuánto eritritol equivale al azúcar? (Tabla de equivalencias)",
+        answer:
+          "El eritritol endulza el 70 % de lo que endulza el azúcar, por lo que necesitas un poco más. Equivalencia: 100 g azúcar = 130 g eritritol. 50 g azúcar = 65 g eritritol. 1 cucharada azúcar (12 g) = 1,3 cucharadas eritritol (16 g). 1 taza azúcar (200 g) = 1,3 tazas eritritol (260 g). Comparativa calórica: 100 g de azúcar = ~387 kcal · 100 g de eritritol = ~20 kcal (96 % menos). Índice glucémico: azúcar IG 65 · eritritol IG 0."
+      },
+      {
+        question: "¿El eritritol es apto para diabéticos?",
+        answer:
+          "El eritritol tiene un índice glucémico de 0 y no eleva la glucosa en sangre ni estimula la secreción de insulina, lo que lo convierte en uno de los edulcorantes más seguros para personas con diabetes. No obstante, siempre es recomendable consultarlo con el médico o nutricionista antes de incorporarlo de forma habitual."
+      },
+      {
+        question: "¿El eritritol tiene efecto laxante como el xilitol?",
+        answer:
+          "No a dosis normales. El eritritol se absorbe mayoritariamente en el intestino delgado y se excreta sin metabolizar por la orina, por lo que llega muy poco al colon (donde se produciría el efecto laxante). Solo cantidades muy elevadas (más de 50 g de golpe) podrían causar leve malestar digestivo en personas muy sensibles. Es el poliol mejor tolerado por el sistema digestivo."
+      },
+      {
+        question: "¿El eritritol es seguro para perros?",
+        answer:
+          "Sí. A diferencia del xilitol, el eritritol no es tóxico para perros ni mascotas. Es una diferencia importante si tienes animales en casa, ya que el xilitol sí es extremadamente peligroso para ellos incluso en pequeñas cantidades."
+      },
+      {
+        question: "¿Por qué cristaliza el eritritol al enfriarse?",
+        answer:
+          "El eritritol tiene una tendencia natural a cristalizar cuando la solución se concentra y se enfría. Es una característica química normal del producto, no un defecto. Si ocurre en tu receta (por ejemplo en una mermelada o un caramelo), puedes calentarla suavemente para que los cristales se disuelvan. Mezclar eritritol con otros edulcorantes como la inulina o la alulosa reduce esta tendencia."
+      }
+    ]
+  },
+  {
     slug: "goma-xantana",
     name: "Goma xantana",
     shortDescription:
