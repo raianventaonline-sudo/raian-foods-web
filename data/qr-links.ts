@@ -136,5 +136,30 @@ export const qrLinks: Record<string, QrLink> = {
   },
   "xantana": {
     targetPath: "/productos/goma-xantana"
+  },
+
+  // ── Creatina monohidrato ──────────────────────────────────────────────────
+  "creatina": {
+    targetPath: "/productos/creatina-monohidrato"
+  },
+  "creatina-monohidrato": {
+    targetPath: "/productos/creatina-monohidrato"
+  },
+  "creatine": {
+    targetPath: "/productos/creatina-monohidrato"
+  },
+
+  // ── Ácido ascórbico (Vitamina C) ──────────────────────────────────────────
+  "vitamina-c": {
+    targetPath: "/productos/acido-ascorbico"
+  },
+  "acido-ascorbico": {
+    targetPath: "/productos/acido-ascorbico"
+  },
+  "ascorbico": {
+    targetPath: "/productos/acido-ascorbico"
+  },
+  "vitamin-c": {
+    targetPath: "/productos/acido-ascorbico"
   }
 };

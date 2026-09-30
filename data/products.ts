@@ -2648,7 +2648,7 @@ export const products: Product[] = [
     shortDescription:
       "Edulcorante natural con índice glucémico 0 y prácticamente 0 calorías. Poder endulzante del 70 % del azúcar: usa 130 g por cada 100 g de azúcar. Ideal para repostería keto, diabéticos y dietas sin azúcar.",
     description:
-      "El eritritol (E968) es un poliol de origen natural obtenido por fermentación de glucosa. Con un índice glucémico de 0 y prácticamente 0 calorías (0,2 kcal/g frente a las 4 kcal/g del azúcar), es el edulcorante preferido en dietas cetogénicas, bajas en carbohidratos y para personas con diabetes. A diferencia del xilitol, el eritritol es seguro para perros. No provoca efecto laxante a las dosis habituales de uso culinario y no deja sabor residual amargo. Su único punto a tener en cuenta es que cristaliza al enfriarse en preparaciones con alta concentración, aunque esto no afecta al sabor.",
+      "El eritritol (E968) es un poliol de origen natural obtenido por fermentación de glucosa. Fabricado por Baolingbao Biology Co., Ltd. (BLB) con una pureza ≥ 99,5 % en base seca, cumple el Reglamento (UE) n.º 231/2012 y los estándares USP32/EP7.0/FCC. Con un índice glucémico de 0 y prácticamente 0 calorías (0,2 kcal/g frente a las 4 kcal/g del azúcar), es el edulcorante preferido en dietas cetogénicas, bajas en carbohidratos y para personas con diabetes. No transgénico (non-GMO confirmado), sin alérgenos y libre de E. coli, Salmonella y Listeria. A diferencia del xilitol, el eritritol es seguro para perros. No provoca efecto laxante a las dosis habituales de uso culinario y no deja sabor residual amargo.",
     category: "Azúcares y endulzantes",
     tags: ["Eritritol", "Edulcorante", "Sin azúcar", "Keto", "IG 0", "0 calorías", "Repostería", "500 g"],
     dietFilters: ["Sin gluten", "Vegano", "Sin azúcar añadido", "Bajo en carbohidratos"],
@@ -2696,7 +2696,7 @@ export const products: Product[] = [
       { label: "Sal", value: "0 g" }
     ],
     allergens: "Sin alérgenos de declaración obligatoria. Sin gluten.",
-    conservation: "Conservar en lugar fresco y seco, alejado de la humedad. Cerrar bien el envase tras cada uso.",
+    conservation: "Conservar por debajo de 40 °C con humedad relativa < 70 %. Mantener en lugar fresco, seco y alejado de la luz solar directa. Cerrar bien el envase tras cada uso. Vida útil: 36 meses desde la fecha de fabricación.",
     amazonUrl: null,
     amazonAsin: pending,
     relatedSlugs: ["xilitol", "inulina-de-agave", "dextrosa"],
@@ -3019,6 +3019,195 @@ export const products: Product[] = [
         question: "¿El MSM RAIAN es vegano y sin alérgenos?",
         answer:
           "Sí. El MSM RAIAN (fabricado por Hansen Chemicals, código HS60-80MESH, pureza >99,9 %) está certificado como libre de alérgenos, libre de GMO, libre de aditivos y libre de BSE/TSE. Es apto para veganos y no contiene gluten."
+      }
+    ]
+  },
+  {
+    slug: "creatina-monohidrato",
+    name: "Creatina Monohidrato",
+    shortDescription:
+      "Creatina monohidrato 200 mesh de pureza 99,5–102 % (base seca), estándar USP. Fabricada por Inner Mongolia ChengXin YongAn Chemical Co., Ltd. Sin impurezas, sin E. coli, sin Salmonella. Ideal para rendimiento deportivo y recuperación muscular.",
+    description:
+      "La creatina monohidrato es el suplemento deportivo más estudiado y eficaz para mejorar el rendimiento en ejercicios de alta intensidad. Esta creatina 200 mesh está fabricada por Inner Mongolia ChengXin YongAn Chemical Co., Ltd. con una pureza de 99,5–102 % en base seca, cumpliendo la farmacopea USP (USP<621>). Granulometría 200 mesh (≥ 70 % pasa malla 200) que garantiza una disolución rápida y completa. Libre de E. coli, Salmonella y Staphylococcus aureus. Metales pesados por debajo de los límites USP. Sin sabor, sin aroma, ideal para mezclar con agua, zumo o batido de proteína.",
+    category: "Suplementos deportivos",
+    tags: ["Creatina", "Creatina monohidrato", "Deportes", "Fuerza", "Músculo", "200 mesh", "USP", "500 g"],
+    dietFilters: ["Sin gluten", "Vegano"],
+    highlights: [
+      "Pureza 99,5–102 % (base seca) · estándar USP",
+      "Granulometría 200 mesh — disolución rápida",
+      "Libre de E. coli, Salmonella y Staphylococcus aureus",
+      "Sin sabor ni aroma — mezcla con cualquier bebida",
+      "El suplemento deportivo más respaldado por la ciencia"
+    ],
+    mainImage: {
+      src: "/images/products/creatina-monohidrato-main.png",
+      alt: "Bolsa de creatina monohidrato RAIAN 500 g",
+      label: "Creatina Monohidrato 500 g",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Creatina Monohidrato"),
+    uses: [
+      "Suplementación pre o post entreno para mejorar la fuerza y potencia.",
+      "Fase de carga y mantenimiento en rutinas de fuerza e hipertrofia.",
+      "Recuperación muscular tras ejercicio intenso.",
+      "Deportes de equipo y disciplinas explosivas (sprint, natación, ciclismo).",
+      "Mezclar con agua, zumo, batido de proteína o cualquier bebida."
+    ],
+    howToUse: [
+      "Dosis de mantenimiento (más habitual): 3–5 g/día, cualquier momento del día.",
+      "Fase de carga opcional: 20 g/día repartidos en 4 tomas de 5 g durante 5–7 días, seguidos de 3–5 g/día de mantenimiento.",
+      "Disolver 1 cucharadita (≈ 5 g) en 200–300 ml de agua, zumo o batido.",
+      "Tomarla junto con carbohidratos o proteína puede mejorar su absorción.",
+      "Mantener una buena hidratación (al menos 2 litros de agua al día) durante la suplementación.",
+      "No es necesario hacer ciclos de descanso — el uso continuado es seguro y eficaz."
+    ],
+    technicalSheet: technicalSheetFor("Creatina Monohidrato", "Suplemento deportivo", "Creatina monohidrato (C4H9N3O2·H2O)"),
+    nutrition: [
+      { label: "Valor energético", value: "0 kcal / 0 kJ" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "0 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "0 g" },
+      { label: "Creatina", value: "≈ 88 g / 100 g (base húmeda)" },
+      { label: "Sal", value: "0 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Sin gluten.",
+    conservation: "Conservar en lugar fresco y seco, alejado de la luz intensa y del calor. Mantener el envase bien cerrado. Vida útil: 2 años desde la fecha de fabricación.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["msm", "gelatina-neutra-bovina", "inulina-de-agave"],
+    recipeSlugs: [],
+    certifications: [],
+    seoTitle: "Creatina Monohidrato 200 Mesh | Pureza USP 99,5 % | RAIAN",
+    seoDescription:
+      "Creatina monohidrato 200 mesh de pureza 99,5–102 % (USP). Sin sabor, sin aroma, disolución rápida. Ideal para fuerza, potencia y recuperación muscular.",
+    faqs: [
+      {
+        question: "¿Qué es la creatina monohidrato?",
+        answer:
+          "La creatina monohidrato es un compuesto natural que el cuerpo produce en el hígado, riñones y páncreas a partir de los aminoácidos arginina, glicina y metionina. En forma de suplemento, incrementa las reservas de fosfocreatina en el músculo, lo que permite regenerar ATP (energía) más rápidamente durante esfuerzos de alta intensidad y corta duración."
+      },
+      {
+        question: "¿Para qué sirve la creatina?",
+        answer:
+          "Está respaldada por más de 500 estudios clínicos. Sus beneficios principales son: aumento de la fuerza y potencia muscular, mayor rendimiento en ejercicios explosivos (sprints, levantamiento de pesas, saltos), mejora de la recuperación entre series, y un leve incremento de la masa muscular a largo plazo. También hay investigación prometedora sobre beneficios cognitivos."
+      },
+      {
+        question: "¿Cuánta creatina hay que tomar al día?",
+        answer:
+          "La dosis de mantenimiento estándar es de 3–5 g/día. Opcionalmente se puede hacer una fase de carga de 20 g/día (4 × 5 g) durante 5–7 días para saturar más rápido el músculo, seguida de 3–5 g/día. Ambas estrategias llevan al mismo nivel de saturación; la carga solo lo acelera."
+      },
+      {
+        question: "¿Cuándo se toma — antes o después de entrenar?",
+        answer:
+          "El momento exacto importa poco. La creatina actúa por acumulación en el músculo, no de forma aguda. Tomarla justo después del entreno con proteína o carbohidratos puede mejorar levemente su absorción, pero lo más importante es tomarlo de forma consistente cada día, entrenes o no."
+      },
+      {
+        question: "¿La creatina es segura? ¿Daña los riñones?",
+        answer:
+          "Sí, es segura. Décadas de investigación en adultos sanos no han encontrado efectos adversos en el riñón a las dosis recomendadas (3–5 g/día). Las personas con enfermedad renal preexistente deben consultar con su médico antes de tomarla. El aumento de creatinina en sangre que puede aparecer es una consecuencia esperada del metabolismo de la creatina, no un signo de daño renal."
+      },
+      {
+        question: "¿Esta creatina es vegana y está libre de contaminantes?",
+        answer:
+          "Sí. La creatina monohidrato RAIAN está fabricada por síntesis química (no de origen animal), por lo que es apta para veganos. Cumple la farmacopea USP y está libre de E. coli, Salmonella, Staphylococcus aureus, y los niveles de metales pesados (plomo, arsénico, mercurio, cadmio) están muy por debajo de los límites legales."
+      }
+    ]
+  },
+  {
+    slug: "acido-ascorbico",
+    name: "Ácido Ascórbico (Vitamina C)",
+    shortDescription:
+      "Vitamina C pura en polvo cristalino, pureza 99–100,5 % (USP/EP/FCC). Fabricada por Shandong Tianli Pharmaceutical. Antioxidante, potenciador del colágeno y del sistema inmune. Vida útil 36 meses.",
+    description:
+      "El ácido ascórbico (E300) es la forma pura de la vitamina C, uno de los antioxidantes más estudiados y esenciales para el ser humano. Fabricado por Shandong Tianli Pharmaceutical Co., Ltd. (Shouguang, China) con una pureza de 99,0–100,5 %, cumpliendo las farmacopeas BP2021 / USP43 / FCC12 / EP10 y la normativa E300. En uso alimentario actúa como antioxidante natural que prolonga la vida útil de los alimentos, potenciador del sabor en bebidas ácidas y coadyuvante en la absorción del hierro no hemo. A nivel nutricional, es cofactor imprescindible para la síntesis de colágeno, refuerzo del sistema inmune y reducción del cansancio. Se disuelve fácilmente en agua y es estable al calor moderado.",
+    category: "Vitaminas y minerales",
+    tags: ["Vitamina C", "Ácido ascórbico", "Antioxidante", "Colágeno", "Inmunidad", "E300", "Polvo", "500 g"],
+    dietFilters: ["Sin gluten", "Vegano"],
+    highlights: [
+      "Pureza 99–100,5 % · estándar USP / EP / FCC",
+      "Antioxidante natural (E300) — prolonga la frescura de los alimentos",
+      "Potencia la síntesis de colágeno y el sistema inmune",
+      "Mejora la absorción del hierro no hemo",
+      "Sin alérgenos · Apto para veganos · Vida útil 36 meses"
+    ],
+    mainImage: {
+      src: "/images/products/acido-ascorbico-main.png",
+      alt: "Bolsa de ácido ascórbico (vitamina C) RAIAN 500 g",
+      label: "Ácido Ascórbico 500 g",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Ácido Ascórbico"),
+    uses: [
+      "Antioxidante en jugos, mermeladas, conservas y repostería (E300).",
+      "Suplemento de vitamina C en batidos, limonadas y bebidas.",
+      "Potenciar la absorción del hierro en comidas ricas en este mineral.",
+      "Elaboración de vitamina C efervescente casera.",
+      "Conservante natural en frutas cortadas para evitar el pardeamiento."
+    ],
+    howToUse: [
+      "Como suplemento vitamínico: 250–1000 mg/día (¼ a 1 cucharadita de café ≈ 1–4 g). La dosis diaria recomendada en adultos es 80 mg/UE; los estudios de soporte inmune usan 200–1000 mg/día.",
+      "Como antioxidante en alimentos: 0,05–0,1 % del peso total del producto (E300).",
+      "Para evitar pardeamiento de frutas: disolver 1–2 g en 1 litro de agua y sumergir la fruta pelada.",
+      "Disolver siempre en agua o zumo antes de consumir — el polvo puro es muy ácido (pH ~2,5).",
+      "Conservar en envase no metálico, protegido de la luz. Una vez abierto, usar lo antes posible."
+    ],
+    technicalSheet: technicalSheetFor("Ácido Ascórbico", "Vitamina / Antioxidante (E300)", "Ácido ascórbico (C6H8O6) · CAS 50-81-7"),
+    nutrition: [
+      { label: "Valor energético", value: "0 kcal / 0 kJ" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "0 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas", value: "0 g" },
+      { label: "Vitamina C (ácido ascórbico)", value: "≈ 99 g / 100 g" },
+      { label: "Sal", value: "0 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Sin gluten.",
+    conservation: "Conservar en envase no metálico, protegido de la luz y alejado del calor. Cerrar bien el envase tras cada uso y consumir lo antes posible una vez abierto. Vida útil: 36 meses desde la fecha de fabricación.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["msm", "creatina-monohidrato", "inulina-de-agave"],
+    recipeSlugs: [],
+    certifications: [],
+    seoTitle: "Ácido Ascórbico (Vitamina C) en Polvo | Pureza USP 99 % | RAIAN",
+    seoDescription:
+      "Vitamina C pura en polvo cristalino, pureza 99–100,5 % (USP/EP/FCC). Antioxidante E300, potencia el colágeno y la inmunidad. Sin alérgenos, apto para veganos.",
+    faqs: [
+      {
+        question: "¿Qué es el ácido ascórbico?",
+        answer:
+          "El ácido ascórbico es la forma pura y sintética de la vitamina C, con número CAS 50-81-7 y fórmula C6H8O6. Es idéntico a nivel molecular a la vitamina C natural y tiene la misma actividad biológica. Como aditivo alimentario se denomina E300 y se utiliza como antioxidante."
+      },
+      {
+        question: "¿Para qué sirve la vitamina C?",
+        answer:
+          "La vitamina C es cofactor esencial para la síntesis de colágeno (piel, cartílago, huesos), contribuye al funcionamiento normal del sistema inmune, reduce el cansancio y la fatiga, protege las células frente al estrés oxidativo y mejora la absorción del hierro no hemo de los alimentos vegetales."
+      },
+      {
+        question: "¿Cuánto ácido ascórbico se puede tomar al día?",
+        answer:
+          "La ingesta diaria recomendada (IDR) en adultos es de 80 mg/día (UE). Para soporte inmune se usan habitualmente 200–1000 mg/día. El límite de seguridad (UL) en adultos es 2000 mg/día — por encima pueden aparecer molestias digestivas (diarrea osmótica). Dividir la dosis en varias tomas mejora la absorción."
+      },
+      {
+        question: "¿Se puede usar como conservante en mermeladas y conservas?",
+        answer:
+          "Sí. Como aditivo E300 está autorizado en la UE para uso como antioxidante en una amplia variedad de alimentos. Para mermeladas y conservas caseras se usan dosis de 0,05–0,1 % del peso total. En frutas peladas se disuelven 1–2 g por litro de agua para evitar el pardeamiento enzimático."
+      },
+      {
+        question: "¿El ácido ascórbico es ácido? ¿Puede irritar el estómago?",
+        answer:
+          "Sí, el ácido ascórbico puro tiene un pH de ~2,5 en solución acuosa. Tomado con el estómago vacío puede causar molestias en personas sensibles. Se recomienda disolver siempre en agua o zumo y tomarlo con las comidas. Si hay sensibilidad gástrica, existe la opción del ascorbato de sodio (vitamina C tamponada, menos ácida)."
+      },
+      {
+        question: "¿El ácido ascórbico RAIAN es vegano y cumple estándares farmacéuticos?",
+        answer:
+          "Sí. Está fabricado por Shandong Tianli Pharmaceutical Co., Ltd. mediante síntesis química sin ingredientes de origen animal, cumpliendo las farmacopeas BP2021, USP43, FCC12 y EP10, así como la normativa de aditivos alimentarios E300. Sin alérgenos y apto para veganos."
       }
     ]
   }

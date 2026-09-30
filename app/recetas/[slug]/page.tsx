@@ -88,7 +88,7 @@ const recipeJsonLd = (recipe: Recipe) => ({
     "@type": "Organization",
     name: "RAIAN"
   },
-  recipeCategory: recipe.categoryLabel,
+  recipeCategory: recipe.categoryLabel || "Receta",
   recipeCuisine: "Española",
   recipeYield: `${recipe.servings} raciones`,
   prepTime: toIsoDuration(recipe.times.prep_min),
