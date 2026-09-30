@@ -3029,7 +3029,7 @@ export const products: Product[] = [
       "Creatina monohidrato 200 mesh de pureza 99,5–102 % (base seca), estándar USP. Fabricada por Inner Mongolia ChengXin YongAn Chemical Co., Ltd. Sin impurezas, sin E. coli, sin Salmonella. Ideal para rendimiento deportivo y recuperación muscular.",
     description:
       "La creatina monohidrato es el suplemento deportivo más estudiado y eficaz para mejorar el rendimiento en ejercicios de alta intensidad. Esta creatina 200 mesh está fabricada por Inner Mongolia ChengXin YongAn Chemical Co., Ltd. con una pureza de 99,5–102 % en base seca, cumpliendo la farmacopea USP (USP<621>). Granulometría 200 mesh (≥ 70 % pasa malla 200) que garantiza una disolución rápida y completa. Libre de E. coli, Salmonella y Staphylococcus aureus. Metales pesados por debajo de los límites USP. Sin sabor, sin aroma, ideal para mezclar con agua, zumo o batido de proteína.",
-    category: "Suplementos deportivos",
+    category: "Suplementos y complementos",
     tags: ["Creatina", "Creatina monohidrato", "Deportes", "Fuerza", "Músculo", "200 mesh", "USP", "500 g"],
     dietFilters: ["Sin gluten", "Vegano"],
     highlights: [
@@ -3124,7 +3124,7 @@ export const products: Product[] = [
       "Vitamina C pura en polvo cristalino, pureza 99–100,5 % (USP/EP/FCC). Fabricada por Shandong Tianli Pharmaceutical. Antioxidante, potenciador del colágeno y del sistema inmune. Vida útil 36 meses.",
     description:
       "El ácido ascórbico (E300) es la forma pura de la vitamina C, uno de los antioxidantes más estudiados y esenciales para el ser humano. Fabricado por Shandong Tianli Pharmaceutical Co., Ltd. (Shouguang, China) con una pureza de 99,0–100,5 %, cumpliendo las farmacopeas BP2021 / USP43 / FCC12 / EP10 y la normativa E300. En uso alimentario actúa como antioxidante natural que prolonga la vida útil de los alimentos, potenciador del sabor en bebidas ácidas y coadyuvante en la absorción del hierro no hemo. A nivel nutricional, es cofactor imprescindible para la síntesis de colágeno, refuerzo del sistema inmune y reducción del cansancio. Se disuelve fácilmente en agua y es estable al calor moderado.",
-    category: "Vitaminas y minerales",
+    category: "Suplementos y complementos",
     tags: ["Vitamina C", "Ácido ascórbico", "Antioxidante", "Colágeno", "Inmunidad", "E300", "Polvo", "500 g"],
     dietFilters: ["Sin gluten", "Vegano"],
     highlights: [
