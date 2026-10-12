@@ -3210,6 +3210,100 @@ export const products: Product[] = [
           "Sí. Está fabricado por Shandong Tianli Pharmaceutical Co., Ltd. mediante síntesis química sin ingredientes de origen animal, cumpliendo las farmacopeas BP2021, USP43, FCC12 y EP10, así como la normativa de aditivos alimentarios E300. Sin alérgenos y apto para veganos."
       }
     ]
+  },
+  {
+    slug: "glicina",
+    name: "Glicina",
+    shortDescription:
+      "Aminoácido más simple y abundante del colágeno. Pureza 98,5–101 % (EP 9.0 / E640 / USP / FCC). Fabricada por Shijiazhuang Shixing Amino Acid Co., Ltd. Kosher, Halal, sin alérgenos, sin GMO. Ideal para sueño, colágeno y recuperación.",
+    description:
+      "La glicina (E640, CAS 56-40-6) es el aminoácido no esencial más sencillo y el más abundante en el colágeno humano. Fabricada por Shijiazhuang Shixing Amino Acid Co., Ltd. (China) con una pureza de 98,5–101 % en base seca, cumpliendo las farmacopeas EP 9.0, USP, FCC y la normativa europea E640 / (UE) n.º 231/2012. Certificada Kosher y Halal, libre de alérgenos, sin GMO, sin irradiación y producida en condiciones GMP. En polvo cristalino blanco, sabor ligeramente dulce, de fácil disolución en agua. Como suplemento apoya la calidad del sueño, la síntesis de colágeno, la salud articular y la recuperación muscular. Como aditivo alimentario se usa como potenciador del sabor, estabilizante y nutriente (E640).",
+    category: "Suplementos y complementos",
+    tags: ["Glicina", "Aminoácido", "Colágeno", "Sueño", "E640", "USP", "Kosher", "Halal", "500 g"],
+    dietFilters: ["Sin gluten", "Vegano"],
+    highlights: [
+      "Pureza 98,5–101 % · EP 9.0 / E640 / USP / FCC",
+      "Apoya la síntesis de colágeno y la salud articular",
+      "Mejora la calidad del sueño a 3 g antes de acostarse",
+      "Kosher · Halal · Sin alérgenos · Sin GMO",
+      "Producida en condiciones GMP · Vida útil 2 años"
+    ],
+    mainImage: {
+      src: "/images/products/glicina-main.png",
+      alt: "Bolsa de glicina RAIAN 500 g",
+      label: "Glicina 500 g",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Glicina"),
+    uses: [
+      "Suplemento para mejorar la calidad del sueño (3 g antes de dormir).",
+      "Apoyo a la síntesis de colágeno para piel, articulaciones y huesos.",
+      "Recuperación muscular post-entreno.",
+      "Aditivo alimentario E640: potenciador del sabor en bebidas, caldos y confitería.",
+      "Mezclar con batidos de proteína o colágeno para potenciar sus efectos."
+    ],
+    howToUse: [
+      "Para el sueño: 3 g (≈ ½ cucharadita) disueltos en agua o infusión, 30–60 min antes de acostarse.",
+      "Para colágeno y articulaciones: 5–10 g/día repartidos en 1–2 tomas, junto con vitamina C.",
+      "Para recuperación deportiva: 3–5 g post-entreno mezclados en el batido de proteína.",
+      "Como aditivo E640 en alimentos: según la normativa vigente (dosis habitual 0,05–0,2 %).",
+      "Disolver siempre en agua u otra bebida. Sabor ligeramente dulce, sin amargor.",
+      "Una vez abierto el envase, usar lo antes posible y mantener bien cerrado."
+    ],
+    technicalSheet: technicalSheetFor("Glicina", "Aminoácido / Aditivo alimentario (E640)", "Glicina (C2H5NO2) · CAS 56-40-6"),
+    nutrition: [
+      { label: "Valor energético", value: "0 kcal / 0 kJ" },
+      { label: "Grasas", value: "0 g" },
+      { label: "De las cuales saturadas", value: "0 g" },
+      { label: "Hidratos de carbono", value: "0 g" },
+      { label: "De los cuales azúcares", value: "0 g" },
+      { label: "Fibra alimentaria", value: "0 g" },
+      { label: "Proteínas / Aminoácidos", value: "≈ 98,5 g / 100 g" },
+      { label: "Sal", value: "0 g" }
+    ],
+    allergens: "Sin alérgenos de declaración obligatoria. Sin gluten. Kosher y Halal certificado.",
+    conservation: "Conservar en lugar fresco y seco (por debajo de 35 °C), en envase bien cerrado. El almacenamiento prolongado puede causar apelmazamiento — es normal y no afecta a la calidad. Una vez abierto, consumir lo antes posible. Vida útil: 2 años desde la fecha de fabricación.",
+    amazonUrl: null,
+    amazonAsin: pending,
+    relatedSlugs: ["creatina-monohidrato", "msm", "gelatina-neutra-bovina"],
+    recipeSlugs: [],
+    certifications: [],
+    seoTitle: "Glicina en Polvo | Aminoácido E640 · Pureza EP 98,5 % | RAIAN",
+    seoDescription:
+      "Glicina pura en polvo, pureza 98,5–101 % (EP/USP/FCC). Apoya el sueño, el colágeno y la recuperación. Kosher, Halal, sin alérgenos. Apto para veganos.",
+    faqs: [
+      {
+        question: "¿Qué es la glicina?",
+        answer:
+          "La glicina (E640) es el aminoácido más simple que existe y el componente más abundante del colágeno (≈ 33 % del total). El cuerpo puede sintetizarla, pero en cantidades insuficientes para cubrir todas sus funciones. Se obtiene de forma industrial mediante síntesis química o hidrólisis de proteínas, y es apta para veganos."
+      },
+      {
+        question: "¿Para qué sirve la glicina?",
+        answer:
+          "Sus principales beneficios estudiados son: mejora de la calidad del sueño (reduce la temperatura corporal central facilitando el sueño profundo), soporte a la síntesis de colágeno (piel, cartílago, huesos, tendones), protección hepática, función como neurotransmisor inhibidor en el sistema nervioso central y reducción del daño muscular post-ejercicio."
+      },
+      {
+        question: "¿Cuánta glicina se toma al día?",
+        answer:
+          "Para el sueño: 3 g antes de acostarse, respaldados por varios estudios clínicos. Para colágeno y articulaciones: 5–10 g/día. Para uso general como suplemento: 3–5 g/día. Es un aminoácido con un perfil de seguridad excelente; dosis de hasta 90 g/día se han empleado en ensayos clínicos sin efectos adversos graves."
+      },
+      {
+        question: "¿La glicina mejora realmente el sueño?",
+        answer:
+          "Sí, hay evidencia clínica. Varios estudios (Bannai et al., 2012; Inagawa et al., 2006) muestran que 3 g de glicina tomados antes de dormir reducen la somnolencia diurna, mejoran la sensación de descanso al despertar y aceleran el inicio del sueño, sin causar dependencia ni efecto de resaca."
+      },
+      {
+        question: "¿Puedo mezclar la glicina con colágeno hidrolizado?",
+        answer:
+          "Sí, y es una combinación muy habitual. El colágeno hidrolizado ya contiene glicina, pero añadir glicina extra maximiza la disponibilidad de este aminoácido limitante para la síntesis de colágeno propio. Combínala también con vitamina C, que es cofactor imprescindible para la hidroxilación del colágeno."
+      },
+      {
+        question: "¿La glicina RAIAN es apta para veganos y tiene certificaciones?",
+        answer:
+          "Sí. La glicina RAIAN está fabricada por Shijiazhuang Shixing Amino Acid Co., Ltd. mediante síntesis química (sin ingredientes de origen animal). Tiene certificación Kosher y Halal, está libre de alérgenos, sin GMO, sin irradiación y libre de BSE/TSE. Cumple EP 9.0, USP, FCC y E640."
+      }
+    ]
   }
 ];
 

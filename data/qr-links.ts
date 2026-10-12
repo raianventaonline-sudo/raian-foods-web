@@ -161,5 +161,13 @@ export const qrLinks: Record<string, QrLink> = {
   },
   "vitamin-c": {
     targetPath: "/productos/acido-ascorbico"
+  },
+
+  // ── Glicina ───────────────────────────────────────────────────────────────
+  "glicina": {
+    targetPath: "/productos/glicina"
+  },
+  "glycine": {
+    targetPath: "/productos/glicina"
   }
 };
