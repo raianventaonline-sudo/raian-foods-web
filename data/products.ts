@@ -3135,10 +3135,10 @@ export const products: Product[] = [
       "Sin alérgenos · Apto para veganos · Vida útil 36 meses"
     ],
     mainImage: {
-      src: "/images/products/acido-ascorbico-main.png",
+      src: "/images/products/acido-ascorbico-main.svg",
       alt: "Bolsa de ácido ascórbico (vitamina C) RAIAN 500 g",
       label: "Ácido Ascórbico 500 g",
-      available: false,
+      available: true,
       fit: "contain"
     },
     gallery: galleryFor("Ácido Ascórbico"),
