@@ -3150,11 +3150,14 @@ export const products: Product[] = [
       "Conservante natural en frutas cortadas para evitar el pardeamiento."
     ],
     howToUse: [
-      "Como suplemento vitamínico: 250–1000 mg/día (¼ a 1 cucharadita de café ≈ 1–4 g). La dosis diaria recomendada en adultos es 80 mg/UE; los estudios de soporte inmune usan 200–1000 mg/día.",
-      "Como antioxidante en alimentos: 0,05–0,1 % del peso total del producto (E300).",
-      "Para evitar pardeamiento de frutas: disolver 1–2 g en 1 litro de agua y sumergir la fruta pelada.",
-      "Disolver siempre en agua o zumo antes de consumir — el polvo puro es muy ácido (pH ~2,5).",
-      "Conservar en envase no metálico, protegido de la luz. Una vez abierto, usar lo antes posible."
+      "Dosis diaria recomendada (UE): 80 mg/día para adultos. Los estudios de soporte inmune y antioxidante usan 200–1000 mg/día.",
+      "Referencia por peso corporal: aprox. 1–2 mg/kg/día para mantenimiento general; 5–10 mg/kg/día en situaciones de mayor demanda (estrés, ejercicio intenso, enfermedad). Ejemplo: 70 kg → 70–140 mg/día mantenimiento; hasta 500–700 mg/día en fases de mayor necesidad.",
+      "Límite superior seguro (UE/EFSA): 2000 mg/día en adultos. Por encima pueden aparecer molestias digestivas (diarrea osmótica). Dividir la dosis total en 2–3 tomas mejora la absorción, ya que el intestino satura la captación activa a partir de ~200 mg por toma.",
+      "Para el sistema inmune (temporada de frío): 500–1000 mg/día repartidos en 2 tomas (mañana y tarde).",
+      "Para síntesis de colágeno: tomar junto con gelatina o colágeno hidrolizado — la vitamina C es cofactor imprescindible. 250–500 mg en el mismo momento.",
+      "Como antioxidante en alimentos (E300): 0,05–0,1 % del peso total del producto.",
+      "Para evitar pardeamiento en frutas cortadas: disolver 1–2 g en 1 litro de agua y sumergir la fruta.",
+      "Disolver siempre en agua o zumo antes de tomar — el polvo puro es muy ácido (pH ~2,5). Tomar con las comidas si hay sensibilidad gástrica."
     ],
     technicalSheet: technicalSheetFor("Ácido Ascórbico", "Vitamina / Antioxidante (E300)", "Ácido ascórbico (C6H8O6) · CAS 50-81-7"),
     nutrition: [
@@ -3190,9 +3193,9 @@ export const products: Product[] = [
           "La vitamina C es cofactor esencial para la síntesis de colágeno (piel, cartílago, huesos), contribuye al funcionamiento normal del sistema inmune, reduce el cansancio y la fatiga, protege las células frente al estrés oxidativo y mejora la absorción del hierro no hemo de los alimentos vegetales."
       },
       {
-        question: "¿Cuánto ácido ascórbico se puede tomar al día?",
+        question: "¿Cuánto ácido ascórbico se puede tomar al día y cómo calcularlo por peso?",
         answer:
-          "La ingesta diaria recomendada (IDR) en adultos es de 80 mg/día (UE). Para soporte inmune se usan habitualmente 200–1000 mg/día. El límite de seguridad (UL) en adultos es 2000 mg/día — por encima pueden aparecer molestias digestivas (diarrea osmótica). Dividir la dosis en varias tomas mejora la absorción."
+          "La IDR de la UE es 80 mg/día. Como referencia por peso corporal: 1–2 mg/kg/día para mantenimiento general (70 kg → ~100–140 mg). En situaciones de mayor demanda (estrés, ejercicio intenso, resfriado) se emplean 5–10 mg/kg/día (70 kg → 350–700 mg). Para soporte inmune activo se usan habitualmente 500–1000 mg/día repartidos en 2 tomas. El límite superior seguro (EFSA) es 2000 mg/día en adultos — superarlo puede causar diarrea osmótica. El intestino satura su captación activa a partir de ~200 mg por toma, por lo que dividir la dosis total en 2–3 tomas a lo largo del día maximiza la absorción."
       },
       {
         question: "¿Se puede usar como conservante en mermeladas y conservas?",
