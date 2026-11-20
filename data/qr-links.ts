@@ -169,5 +169,43 @@ export const qrLinks: Record<string, QrLink> = {
   },
   "glycine": {
     targetPath: "/productos/glicina"
+  },
+
+  // ── Coberturas de chocolate Cacao Esmuca ──────────────────────────────────
+  "cobertura-blanca": {
+    targetPath: "/productos/cobertura-blanca"
+  },
+  "cobertura-blanca-30": {
+    targetPath: "/productos/cobertura-blanca"
+  },
+  "chocolate-blanco-30": {
+    targetPath: "/productos/cobertura-blanca"
+  },
+  "cobertura-negro-70": {
+    targetPath: "/productos/cobertura-negro-70"
+  },
+  "chocolate-negro-70": {
+    targetPath: "/productos/cobertura-negro-70"
+  },
+  "cobertura-negra-70": {
+    targetPath: "/productos/cobertura-negro-70"
+  },
+  "cobertura-negro-53": {
+    targetPath: "/productos/cobertura-negro-53"
+  },
+  "chocolate-negro-53": {
+    targetPath: "/productos/cobertura-negro-53"
+  },
+  "cobertura-negra-53": {
+    targetPath: "/productos/cobertura-negro-53"
+  },
+  "cobertura-con-leche-34": {
+    targetPath: "/productos/cobertura-con-leche-34"
+  },
+  "chocolate-con-leche-34": {
+    targetPath: "/productos/cobertura-con-leche-34"
+  },
+  "cobertura-leche-34": {
+    targetPath: "/productos/cobertura-con-leche-34"
   }
 };

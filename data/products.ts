@@ -1894,44 +1894,59 @@ export const products: Product[] = [
   },
   {
     slug: "cobertura-blanca",
-    name: "Cobertura blanca",
+    name: "Cobertura Chocolate Blanco 30%",
     shortDescription:
-      "Cobertura de chocolate blanco para repostería profesional y casera. Perfecta para bañar, decorar y fundir.",
+      "Cobertura de chocolate blanco con un mínimo del 30 % de cacao, en gotas de 0,24 g. Elaborada con manteca de cacao, leche entera en polvo y extracto de vainilla. Para fundir, bañar y decorar.",
     description:
-      "Cobertura blanca RAIAN, ideal para bombones, tartas, trufas y decoraciones de repostería. Funde de forma uniforme y ofrece un acabado brillante y cremoso.",
+      "Cobertura de chocolate blanco RAIAN con un contenido mínimo de cacao del 30 %, elaborada por Cacao Esmuca (RGSEAA-20-21313/MU) con azúcar, manteca de cacao, leche entera en polvo, lecitina de soja y extracto de vainilla. Se presenta en gotas de 0,24 g que facilitan la dosificación exacta y una fusión homogénea. Finura de 18–22 µm para una textura sedosa en boca. Sin organismos modificados genéticamente. Ideal para bombones, tartas, trufas, ganaches, mousses y decoraciones de repostería.",
     category: "Chocolates y coberturas",
-    tags: ["Cobertura", "Chocolate blanco", "Repostería", "Fundir", "Decoración"],
+    tags: ["Cobertura", "Chocolate blanco", "30% cacao", "Repostería", "Fundir", "Gotas", "1 kg"],
     dietFilters: ["Sin gluten"],
-    highlights: ["Fusión uniforme y acabado brillante", "Ideal para repostería profesional y casera", "Versátil: bombones, tartas y decoraciones"],
+    highlights: [
+      "Mínimo 30 % de cacao · elaborada con manteca de cacao pura",
+      "Gotas de 0,24 g — dosificación precisa y fusión homogénea",
+      "Finura 18–22 µm para textura sedosa",
+      "Sin GMO · fabricada bajo sistema APPCC",
+      "Vida útil 12 meses"
+    ],
     mainImage: {
       src: "/images/products/cobertura-blanca-main.png",
-      alt: "Cobertura blanca RAIAN para repostería",
-      label: "Cobertura blanca",
+      alt: "Cobertura de chocolate blanco RAIAN 30% cacao en gotas, 1 kg",
+      label: "Cobertura Blanco 30% · 1 kg",
       available: true,
       fit: "contain"
     },
     gallery: galleryFor("Cobertura blanca"),
     uses: [
-      "Bañar bombones y trufas.",
-      "Cobertura de tartas y pasteles.",
-      "Decoraciones de repostería.",
-      "Rellenos de pralinés.",
+      "Bañar bombones, trufas y fruta fresca.",
+      "Cobertura y decoración de tartas y pasteles.",
+      "Ganaches y mousses de chocolate blanco.",
+      "Rellenos de pralinés y bombones.",
       "Fondue de chocolate blanco."
     ],
     howToUse: [
-      "Fundir al baño maría o en microondas a intervalos de 30 segundos.",
-      "Remover hasta obtener una textura lisa y brillante.",
-      "Usar entre 40-45 °C para bañar o moldear.",
-      "Templar si se desea un acabado crujiente y brillante."
+      "Fundir a 40–45 °C mediante calor indirecto: baño maría o microondas a intervalos de 30 segundos removiendo entre cada uno.",
+      "No superar los 45 °C para evitar que la cobertura se queme o pierda brillo.",
+      "Para un acabado profesional crujiente y brillante, templar la cobertura: fundir a 45 °C, enfriar sobre mármol o removiendo hasta 26–27 °C y subir de nuevo a 28–29 °C de trabajo.",
+      "Para bañar piezas, sumergir a 28–29 °C y dejar escurrir sobre rejilla.",
+      "Conservar en lugar seco a 15–20 °C, alejado del sol y olores externos."
     ],
-    technicalSheet: technicalSheetFor("Cobertura blanca", "Cobertura de chocolate blanco", "Pasta de cacao, azúcar, manteca de cacao, leche en polvo, lecitina de soja, vainilla"),
-    nutrition: nutritionPlaceholder,
-    allergens: "Contiene leche y soja. Puede contener trazas de frutos secos.",
-    conservation: "Conservar en lugar seco, sin humedad, sin exposición directa al sol y a temperatura no superior a 20 °C. Mantener el envase cerrado.",
+    technicalSheet: technicalSheetFor("Cobertura Chocolate Blanco 30%", "Cobertura de chocolate blanco", "Azúcar, manteca de cacao, leche entera en polvo, lecitina de soja (E322), extracto de vainilla"),
+    nutrition: [
+      { label: "Valor energético", value: "2315 kJ / 558 kcal" },
+      { label: "Grasas", value: "34 g" },
+      { label: "De las cuales saturadas", value: "21,1 g" },
+      { label: "Hidratos de carbono", value: "56,3 g" },
+      { label: "De los cuales azúcares", value: "56,3 g" },
+      { label: "Proteínas", value: "6 g" },
+      { label: "Sal", value: "0,16 g" }
+    ],
+    allergens: "Contiene leche y soja. Sin gluten. Sin otros alérgenos de declaración obligatoria.",
+    conservation: "Conservar entre 15 °C y 20 °C, con humedad relativa inferior al 60 %, protegido del sol directo y olores extraños. Mantener el envase bien cerrado. Vida útil: 12 meses.",
     amazonUrl: "https://www.amazon.es/dp/B0H564Y65P",
     amazonAsin: "B0H564Y65P",
     amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0H564Y65P",
-    relatedSlugs: ["cobertura-negra", "lecitina-de-soja", "cacao-en-polvo-alcalino"],
+    relatedSlugs: ["cobertura-negra", "cobertura-negro-70", "cobertura-con-leche-34"],
     recipeSlugs: [
       "fresas-con-chocolate-blanco-y-polvo-de-frambuesa",
       "rodajas-de-platano-con-chocolate-blanco-y-cacahuete",
@@ -2085,6 +2100,360 @@ export const products: Product[] = [
         question: "¿Hay que templar la cobertura negra?",
         answer:
           "Para un acabado crujiente y brillante, sí es recomendable. Si la usas para mezclar o rellenar, no es imprescindible."
+      }
+    ]
+  },
+  {
+    slug: "cobertura-negro-70",
+    name: "Cobertura Chocolate Negro 70%",
+    shortDescription:
+      "Cobertura de chocolate negro con un 70 % de cacao, en gotas de 0,24 g. Elaborada con pasta y manteca de cacao, lecitina de soja y extracto de vainilla. Intensa y versátil para repostería profesional.",
+    description:
+      "Cobertura de chocolate negro RAIAN con un 70 % de cacao, elaborada por Cacao Esmuca (RGSEAA-20-21313/MU) con pasta de cacao, azúcar, manteca de cacao, lecitina de soja y extracto de vainilla. Se presenta en gotas de 0,24 g para una fusión homogénea y dosificación exacta. Finura de 18–22 µm para textura sedosa en boca. Con un 42 % de materia grasa y sabor cacao pronunciado. Sin organismos modificados genéticamente. Ideal para bombones, trufas, mousses, ganaches, brownies y coberturas de tartas.",
+    category: "Chocolates y coberturas",
+    tags: ["Cobertura", "Chocolate negro", "70% cacao", "Repostería", "Fundir", "Gotas", "1 kg"],
+    dietFilters: ["Sin gluten"],
+    highlights: [
+      "70 % de cacao · sabor intenso y profundo",
+      "Gotas de 0,24 g — dosificación precisa y fusión homogénea",
+      "42 % materia grasa · finura 18–22 µm",
+      "Sin GMO · fabricada bajo sistema APPCC",
+      "Vida útil 24 meses"
+    ],
+    mainImage: {
+      src: "/images/products/cobertura-negra-main.png",
+      alt: "Cobertura de chocolate negro RAIAN 70% cacao en gotas, 1 kg",
+      label: "Cobertura Negro 70% · 1 kg",
+      available: true,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cobertura negra"),
+    uses: [
+      "Bombones y trufas de chocolate negro intenso.",
+      "Cobertura y decoración de tartas y pasteles.",
+      "Ganaches, mousses y cremas de chocolate negro.",
+      "Brownies y fondants con alto porcentaje de cacao.",
+      "Fondue de chocolate negro."
+    ],
+    howToUse: [
+      "Fundir a 40–45 °C mediante calor indirecto: baño maría o microondas a intervalos de 30 segundos removiendo entre cada uno.",
+      "No superar los 50 °C para evitar que la cobertura se queme o separe.",
+      "Para un acabado profesional crujiente y brillante, templar: fundir a 50 °C, enfriar sobre mármol hasta 27–28 °C y subir a 31–32 °C de trabajo.",
+      "Para bañar piezas, sumergir a 31–32 °C y dejar escurrir sobre rejilla.",
+      "Conservar en lugar seco a 15–20 °C, alejado del sol y olores externos."
+    ],
+    technicalSheet: technicalSheetFor("Cobertura Chocolate Negro 70%", "Cobertura de chocolate negro", "Pasta de cacao, azúcar, manteca de cacao, lecitina de soja (E322), extracto de vainilla"),
+    nutrition: [
+      { label: "Valor energético", value: "2353 kJ / 564 kcal" },
+      { label: "Grasas", value: "42 g" },
+      { label: "De las cuales saturadas", value: "26 g" },
+      { label: "Hidratos de carbono", value: "34 g" },
+      { label: "De los cuales azúcares", value: "30,01 g" },
+      { label: "Proteínas", value: "7,1 g" },
+      { label: "Sal", value: "0,01 g" }
+    ],
+    allergens: "Contiene soja. Puede contener trazas de leche. Sin gluten. Sin otros alérgenos de declaración obligatoria.",
+    conservation: "Conservar entre 15 °C y 20 °C, con humedad relativa inferior al 60 %, protegido del sol directo y olores extraños. Mantener el envase bien cerrado. Vida útil: 24 meses.",
+    amazonUrl: "https://www.amazon.es/dp/B0HRWXJG67",
+    amazonAsin: "B0HRWXJG67",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0HRWXJG67",
+    relatedSlugs: ["cobertura-negro-53", "cobertura-blanca", "cobertura-con-leche-34"],
+    recipeSlugs: [
+      "fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco",
+      "platano-congelado-con-chocolate-negro",
+      "uvas-congeladas-banadas-en-chocolate-negro",
+      "mandarina-con-chocolate-negro-y-sal-en-escamas",
+      "naranja-confitada-con-chocolate-negro",
+      "mango-con-chocolate-negro-y-coco",
+      "datiles-rellenos-de-crema-de-almendra-y-chocolate-negro",
+      "higos-secos-con-chocolate-negro-y-nuez",
+      "pera-deshidratada-con-chocolate-negro",
+      "pina-congelada-con-chocolate-negro-y-chile-suave",
+      "bombones-helados-de-yogur-griego-y-chocolate-negro",
+      "mini-magnum-casero-de-vainilla-y-chocolate-negro",
+      "bocados-helados-de-cheesecake-con-chocolate-negro",
+      "sandwich-helado-de-galleta-y-chocolate-negro",
+      "helado-de-platano-fitness-con-cobertura-negra",
+      "bocaditos-helados-de-crema-de-cacahuete-y-chocolate-negro",
+      "cookies-banadas-en-chocolate-negro",
+      "cookies-de-avena-fitness-con-chocolate-negro",
+      "barritas-de-arroz-inflado-con-chocolate-negro",
+      "turron-crujiente-de-chocolate-negro",
+      "pretzels-banados-en-chocolate-negro",
+      "palomitas-gourmet-con-chocolate-negro",
+      "almendras-banadas-en-chocolate-negro-y-cacao",
+      "nueces-pecanas-con-chocolate-negro-y-sal",
+      "brownie-sin-gluten-con-cobertura-de-chocolate-negro",
+      "mini-donuts-banados-en-chocolate-negro",
+      "cake-pops-de-chocolate-negro",
+      "magdalenas-rellenas-con-cobertura-de-chocolate-negro",
+      "cupcakes-de-fresa-con-ganache-de-chocolate-negro",
+      "cheesecake-bites-con-chocolate-negro-y-frambuesa",
+      "trufas-de-chocolate-negro",
+      "bombones-de-chocolate-negro-rellenos-de-crema-de-cacahuete",
+      "alfajor-banado-en-chocolate-negro",
+      "rocas-de-chocolate-negro-con-frutos-secos",
+      "tartaletas-de-fruta-con-bano-de-chocolate-negro",
+      "bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
+    seoTitle: "Cobertura Chocolate Negro 70% | RAIAN Foods",
+    seoDescription:
+      "Cobertura de chocolate negro RAIAN con 70 % de cacao, en gotas. Sabor intenso, 42 % materia grasa, finura 18–22 µm. Para bombones, trufas, brownies y tartas.",
+    faqs: [
+      {
+        question: "¿Cómo se funde la cobertura negra 70%?",
+        answer:
+          "Al baño maría o en microondas a intervalos de 30 segundos, removiendo entre cada uno hasta obtener textura lisa. No superar los 50 °C."
+      },
+      {
+        question: "¿Qué diferencia hay entre el 70% y el 53%?",
+        answer:
+          "El 70 % tiene más pasta de cacao, sabor más intenso y amargo, y menos azúcar. El 53 % es más equilibrado, con notas dulces más presentes, ideal si buscas un chocolate negro menos intenso."
+      }
+    ]
+  },
+  {
+    slug: "cobertura-negro-53",
+    name: "Cobertura Chocolate Negro 53%",
+    shortDescription:
+      "Cobertura de chocolate negro con un 53 % de cacao, en gotas de 0,24 g. Equilibrio perfecto entre intensidad de cacao y dulzor. Elaborada con pasta de cacao, manteca de cacao, lecitina de soja y extracto de vainilla.",
+    description:
+      "Cobertura de chocolate negro RAIAN con un 53 % de cacao, elaborada por Cacao Esmuca (RGSEAA-20-21313/MU) con azúcar, pasta de cacao, manteca de cacao, lecitina de soja y extracto de vainilla. Gotas de 0,24 g para una fusión homogénea y dosificación exacta. Finura de 18–22 µm. Con un 34,5 % de materia grasa, ofrece un punto intermedio entre el chocolate de leche y el negro intenso, con notas de cacao bien presentes sin resultar excesivamente amargo. Sin organismos modificados genéticamente. Perfecta para galletas, brownies, tartas, bombones y ganaches.",
+    category: "Chocolates y coberturas",
+    tags: ["Cobertura", "Chocolate negro", "53% cacao", "Repostería", "Fundir", "Gotas", "1 kg"],
+    dietFilters: ["Sin gluten"],
+    highlights: [
+      "53 % de cacao · equilibrio entre intensidad y dulzor",
+      "Gotas de 0,24 g — dosificación precisa y fusión homogénea",
+      "34,5 % materia grasa · finura 18–22 µm",
+      "Sin GMO · fabricada bajo sistema APPCC",
+      "Vida útil 24 meses"
+    ],
+    mainImage: {
+      src: "/images/products/cobertura-negra-main.png",
+      alt: "Cobertura de chocolate negro RAIAN 53% cacao en gotas, 1 kg",
+      label: "Cobertura Negro 53% · 1 kg",
+      available: true,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cobertura negra"),
+    uses: [
+      "Galletas, cookies y brownies con chocolate negro equilibrado.",
+      "Cobertura y decoración de tartas y pasteles.",
+      "Ganaches y cremas de chocolate para rellenos.",
+      "Bombones y trufas con sabor a cacao suavizado.",
+      "Fondue de chocolate negro suave."
+    ],
+    howToUse: [
+      "Fundir a 40–45 °C mediante calor indirecto: baño maría o microondas a intervalos de 30 segundos removiendo entre cada uno.",
+      "No superar los 50 °C para evitar que la cobertura se queme o separe.",
+      "Para un acabado profesional crujiente y brillante, templar: fundir a 50 °C, enfriar sobre mármol hasta 27–28 °C y subir a 31–32 °C de trabajo.",
+      "Para bañar piezas, sumergir a 31–32 °C y dejar escurrir sobre rejilla.",
+      "Conservar en lugar seco a 15–20 °C, alejado del sol y olores externos."
+    ],
+    technicalSheet: technicalSheetFor("Cobertura Chocolate Negro 53%", "Cobertura de chocolate negro", "Azúcar, pasta de cacao, manteca de cacao, lecitina de soja (E322), extracto de vainilla"),
+    nutrition: [
+      { label: "Valor energético", value: "2261 kJ / 542 kcal" },
+      { label: "Grasas", value: "34,5 g" },
+      { label: "De las cuales saturadas", value: "21,2 g" },
+      { label: "Hidratos de carbono", value: "47,8 g" },
+      { label: "De los cuales azúcares", value: "44,9 g" },
+      { label: "Proteínas", value: "5,1 g" },
+      { label: "Sal", value: "0,01 g" }
+    ],
+    allergens: "Contiene soja. Puede contener trazas de leche. Sin gluten. Sin otros alérgenos de declaración obligatoria.",
+    conservation: "Conservar entre 15 °C y 20 °C, con humedad relativa inferior al 60 %, protegido del sol directo y olores extraños. Mantener el envase bien cerrado. Vida útil: 24 meses.",
+    amazonUrl: "https://www.amazon.es/dp/B0HRXNMN8R",
+    amazonAsin: "B0HRXNMN8R",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0HRXNMN8R",
+    relatedSlugs: ["cobertura-negro-70", "cobertura-blanca", "cobertura-con-leche-34"],
+    recipeSlugs: [
+      "fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco",
+      "platano-congelado-con-chocolate-negro",
+      "uvas-congeladas-banadas-en-chocolate-negro",
+      "mandarina-con-chocolate-negro-y-sal-en-escamas",
+      "naranja-confitada-con-chocolate-negro",
+      "mango-con-chocolate-negro-y-coco",
+      "datiles-rellenos-de-crema-de-almendra-y-chocolate-negro",
+      "higos-secos-con-chocolate-negro-y-nuez",
+      "pera-deshidratada-con-chocolate-negro",
+      "pina-congelada-con-chocolate-negro-y-chile-suave",
+      "bombones-helados-de-yogur-griego-y-chocolate-negro",
+      "mini-magnum-casero-de-vainilla-y-chocolate-negro",
+      "bocados-helados-de-cheesecake-con-chocolate-negro",
+      "sandwich-helado-de-galleta-y-chocolate-negro",
+      "helado-de-platano-fitness-con-cobertura-negra",
+      "bocaditos-helados-de-crema-de-cacahuete-y-chocolate-negro",
+      "cookies-banadas-en-chocolate-negro",
+      "cookies-de-avena-fitness-con-chocolate-negro",
+      "barritas-de-arroz-inflado-con-chocolate-negro",
+      "turron-crujiente-de-chocolate-negro",
+      "pretzels-banados-en-chocolate-negro",
+      "palomitas-gourmet-con-chocolate-negro",
+      "almendras-banadas-en-chocolate-negro-y-cacao",
+      "nueces-pecanas-con-chocolate-negro-y-sal",
+      "brownie-sin-gluten-con-cobertura-de-chocolate-negro",
+      "mini-donuts-banados-en-chocolate-negro",
+      "cake-pops-de-chocolate-negro",
+      "magdalenas-rellenas-con-cobertura-de-chocolate-negro",
+      "cupcakes-de-fresa-con-ganache-de-chocolate-negro",
+      "cheesecake-bites-con-chocolate-negro-y-frambuesa",
+      "trufas-de-chocolate-negro",
+      "bombones-de-chocolate-negro-rellenos-de-crema-de-cacahuete",
+      "alfajor-banado-en-chocolate-negro",
+      "rocas-de-chocolate-negro-con-frutos-secos",
+      "tartaletas-de-fruta-con-bano-de-chocolate-negro",
+      "bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
+    seoTitle: "Cobertura Chocolate Negro 53% | RAIAN Foods",
+    seoDescription:
+      "Cobertura de chocolate negro RAIAN con 53 % de cacao, en gotas. Equilibrio perfecto entre intensidad y dulzor. Para galletas, brownies, bombones y tartas.",
+    faqs: [
+      {
+        question: "¿En qué se diferencia el 53% del 70%?",
+        answer:
+          "El 53 % tiene más azúcar y menos pasta de cacao que el 70 %, lo que le da un sabor más equilibrado y menos amargo. Es una buena elección para recetas donde quieres presencia de chocolate negro sin que domine demasiado."
+      },
+      {
+        question: "¿Se puede usar para hacer cookies y brownies?",
+        answer:
+          "Sí, es una de sus mejores aplicaciones. Con el 53 % obtienes el sabor clásico del chocolate negro de repostería, con buen aroma y un dulzor equilibrado."
+      }
+    ]
+  },
+  {
+    slug: "cobertura-con-leche-34",
+    name: "Cobertura Chocolate con Leche 34%",
+    shortDescription:
+      "Cobertura de chocolate con leche con un 34 % de cacao, en gotas de 0,24 g. Elaborada con azúcar, manteca de cacao, leche entera en polvo, pasta de cacao, lecitina de soja y extracto de vainilla. Cremosa y suave.",
+    description:
+      "Cobertura de chocolate con leche RAIAN con un 34 % de cacao, elaborada por Cacao Esmuca (RGSEAA-20-21313/MU) con azúcar, manteca de cacao, leche entera en polvo, pasta de cacao, lecitina de soja y extracto de vainilla. Gotas de 0,24 g para una fusión homogénea y dosificación exacta. Finura de 18–22 µm. Con un 35 % de materia grasa, ofrece una textura cremosa y un sabor suave de chocolate con leche clásico. Sin organismos modificados genéticamente. Perfecta para bombones rellenos, trufas, napados, galletas y toda la repostería donde se busca el perfil de sabor del chocolate con leche.",
+    category: "Chocolates y coberturas",
+    tags: ["Cobertura", "Chocolate con leche", "34% cacao", "Repostería", "Fundir", "Gotas", "1 kg"],
+    dietFilters: ["Sin gluten"],
+    highlights: [
+      "34 % de cacao · cremoso y suave al paladar",
+      "Gotas de 0,24 g — dosificación precisa y fusión homogénea",
+      "35 % materia grasa · finura 18–22 µm",
+      "Sin GMO · fabricada bajo sistema APPCC",
+      "Vida útil 18 meses"
+    ],
+    mainImage: {
+      src: "/images/products/cobertura-con-leche-main.png",
+      alt: "Cobertura de chocolate con leche RAIAN 34% cacao en gotas, 1 kg",
+      label: "Cobertura Con Leche 34% · 1 kg",
+      available: false,
+      fit: "contain"
+    },
+    gallery: galleryFor("Cobertura con leche"),
+    uses: [
+      "Bombones rellenos de crema, caramelo o frutos secos.",
+      "Cobertura cremosa de tartas y pasteles.",
+      "Ganaches de chocolate con leche para macarons y trufas.",
+      "Napados y bañados de fruta, galletas y helados.",
+      "Fondue de chocolate con leche."
+    ],
+    howToUse: [
+      "Fundir a 40–45 °C mediante calor indirecto: baño maría o microondas a intervalos de 30 segundos removiendo entre cada uno.",
+      "No superar los 45 °C para evitar que la cobertura se queme o pierda brillo.",
+      "Para un acabado profesional crujiente y brillante, templar: fundir a 45 °C, enfriar sobre mármol hasta 26–27 °C y subir a 29–30 °C de trabajo.",
+      "Para bañar piezas, sumergir a 29–30 °C y dejar escurrir sobre rejilla.",
+      "Conservar en lugar seco a 15–20 °C, alejado del sol y olores externos."
+    ],
+    technicalSheet: technicalSheetFor("Cobertura Chocolate con Leche 34%", "Cobertura de chocolate con leche", "Azúcar, manteca de cacao, leche entera en polvo, pasta de cacao, lecitina de soja (E322), extracto de vainilla"),
+    nutrition: [
+      { label: "Valor energético", value: "2456 kJ / 589 kcal" },
+      { label: "Grasas", value: "39 g" },
+      { label: "De las cuales saturadas", value: "21,6 g" },
+      { label: "Hidratos de carbono", value: "53 g" },
+      { label: "De los cuales azúcares", value: "52,3 g" },
+      { label: "Proteínas", value: "6 g" },
+      { label: "Sal", value: "0,13 g" }
+    ],
+    allergens: "Contiene leche y soja. Sin gluten. Sin otros alérgenos de declaración obligatoria.",
+    conservation: "Conservar entre 15 °C y 20 °C, con humedad relativa inferior al 60 %, protegido del sol directo y olores extraños. Mantener el envase bien cerrado. Vida útil: 18 meses.",
+    amazonUrl: "https://www.amazon.es/dp/B0HRXCTGR2",
+    amazonAsin: "B0HRXCTGR2",
+    amazonReviewUrl: "https://www.amazon.es/review/create-review/?asin=B0HRXCTGR2",
+    relatedSlugs: ["cobertura-blanca", "cobertura-negro-53", "cobertura-negro-70"],
+    recipeSlugs: [
+      "fresas-con-chocolate-negro-y-lineas-de-chocolate-blanco",
+      "platano-congelado-con-chocolate-negro",
+      "uvas-congeladas-banadas-en-chocolate-negro",
+      "mandarina-con-chocolate-negro-y-sal-en-escamas",
+      "naranja-confitada-con-chocolate-negro",
+      "mango-con-chocolate-negro-y-coco",
+      "datiles-rellenos-de-crema-de-almendra-y-chocolate-negro",
+      "higos-secos-con-chocolate-negro-y-nuez",
+      "pera-deshidratada-con-chocolate-negro",
+      "bombones-helados-de-yogur-griego-y-chocolate-negro",
+      "mini-magnum-casero-de-vainilla-y-chocolate-negro",
+      "bocados-helados-de-cheesecake-con-chocolate-negro",
+      "sandwich-helado-de-galleta-y-chocolate-negro",
+      "helado-de-platano-fitness-con-cobertura-negra",
+      "bocaditos-helados-de-crema-de-cacahuete-y-chocolate-negro",
+      "cookies-banadas-en-chocolate-negro",
+      "cookies-de-avena-fitness-con-chocolate-negro",
+      "barritas-de-arroz-inflado-con-chocolate-blanco-y-pistacho",
+      "turron-de-chocolate-blanco-arandanos-y-pistacho",
+      "pretzels-con-chocolate-blanco-y-caramelo",
+      "palomitas-gourmet-con-chocolate-negro",
+      "almendras-banadas-en-chocolate-negro-y-cacao",
+      "brownie-sin-gluten-con-cobertura-de-chocolate-negro",
+      "mini-donuts-banados-en-chocolate-negro",
+      "cake-pops-de-chocolate-negro",
+      "magdalenas-rellenas-con-cobertura-de-chocolate-negro",
+      "cheesecake-bites-con-chocolate-blanco",
+      "trufas-de-chocolate-negro",
+      "bombones-de-chocolate-negro-rellenos-de-crema-de-cacahuete",
+      "alfajor-banado-en-chocolate-negro",
+      "rocas-de-chocolate-negro-con-frutos-secos",
+      "tartaletas-de-fruta-con-bano-de-chocolate-negro",
+      "bocaditos-tipo-trufru-caseros-de-fruta-congelada-con-doble-bano"
+    ],
+    certifications: [
+      {
+        name: "Registro Sanitario de Empresa",
+        issuer: "España · Unión Europea",
+        certNumber: "ES 40.098583/V CE",
+        description:
+          "RAIAN está registrada como empresa alimentaria ante las autoridades sanitarias españolas y europeas. Número de establecimiento autorizado: ES 40.098583/V CE.",
+        badge: "sanitary"
+      }
+    ],
+    seoTitle: "Cobertura Chocolate con Leche 34% | RAIAN Foods",
+    seoDescription:
+      "Cobertura de chocolate con leche RAIAN con 34 % de cacao, en gotas. Cremosa, suave y versátil. Para bombones, trufas, napados, galletas y toda la repostería.",
+    faqs: [
+      {
+        question: "¿Se puede usar para bañar frutas y helados?",
+        answer:
+          "Sí. El chocolate con leche es muy versátil para napados: funde con facilidad y solidifica dejando una capa cremosa y brillante sobre frutas congeladas, helados y galletas."
+      },
+      {
+        question: "¿Cuál es la temperatura de trabajo recomendada?",
+        answer:
+          "Para bañar y moldear, trabaja a 29–30 °C si has templado la cobertura. Si no la templas, usa entre 40–45 °C para aplicarla y deja enfriar a temperatura ambiente."
       }
     ]
   },
